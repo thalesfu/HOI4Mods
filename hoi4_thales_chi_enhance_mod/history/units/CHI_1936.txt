@@ -42,25 +42,37 @@ units = {
 	##### Beiping-Tianjin Area (CO: ) #####
 	### 29 Juntuan (highly-reinforced corps) ###
 	division = {
-		name = "37 Bubing Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 9843
 		division_template = "乙种防御步兵师"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "38 Bubing Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
 		location = 10068
 		division_template = "乙种防御步兵师"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "132 Bubing Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
 		location = 11761
 		division_template = "乙种防御步兵师"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "143 Bubing Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
 		location = 4140
 		division_template = "乙种防御步兵师"
 		start_experience_factor = 0.2
@@ -70,7 +82,7 @@ units = {
 	division = { # "4 Qibing Jun"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 124
+			name_order = 5
 		}
 		location = 4925
 		division_template = "丙种骑兵师"
@@ -82,7 +94,7 @@ units = {
 	division = { # "3 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 123
+			name_order = 6
 		}
 		location = 12408
 		division_template = "丙种防御步兵师"
@@ -93,7 +105,7 @@ units = {
 	division = { # "2 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 402
+			name_order = 7
 		}
 		location = 7256
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -104,7 +116,7 @@ units = {
 	division = { # "25 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 425
+			name_order = 8
 		}
 		location = 7256
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -116,7 +128,7 @@ units = {
 	division = { # "27 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 427
+			name_order = 9
 		}
 		location = 2091
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -125,7 +137,10 @@ units = {
 
 	}
 	division = {
-		name = "1 Lujun Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
 		location = 8072
 		division_template = "丙种防御步兵师"
 		start_equipment_factor = 0.7
@@ -133,7 +148,10 @@ units = {
 	}
 	## 14th Army ##
 	division = {
-		name = "14 Lujun Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
 		location = 10144
 		division_template = "乙种防御步兵师"
 		start_equipment_factor = 0.7
@@ -144,7 +162,7 @@ units = {
 	division = { # "9 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 9
+			name_order = 12
 		}
 		location = 1069
 		division_template = "乙种防御步兵师"
@@ -154,7 +172,7 @@ units = {
 	division = { # "1 Qibing Jun"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 121
+			name_order = 13
 		}
 		location = 1069
 		division_template = "丙种骑兵师"
@@ -164,7 +182,7 @@ units = {
 	division = { # "2 Qibing Jun"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 122
+			name_order = 14
 		}
 		location = 1069
 		division_template = "丙种骑兵师"
@@ -176,7 +194,7 @@ units = {
 	division = { # "4 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 404
+			name_order = 15
 		}
 		location = 9958
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -187,7 +205,7 @@ units = {
 	division = { # "89 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 489
+			name_order = 16
 		}
 		location = 9958
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -209,7 +227,7 @@ units = {
 	division = { # "6 Qibing Jun"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 126
+			name_order = 18
 		}
 		location = 4114
 		division_template = "丙种骑兵师"
@@ -221,7 +239,7 @@ units = {
 	division = { # "10 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 410
+			name_order = 19
 		}
 		location = 10043
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -232,7 +250,7 @@ units = {
 	division = { # "83 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 483
+			name_order = 20
 		}
 		location = 10043
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -245,7 +263,7 @@ units = {
 	division = { # "1 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 21
 		}
 		location = 7027
 		division_template = "乙种防御步兵师"
@@ -254,21 +272,30 @@ units = {
 
 	}
 	division = {
-		name = "1 Fujian Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
 		location = 9974
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.9
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "2 Fujian Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
 		location = 4169
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.9
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "3 Fujian Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
 		location = 4196
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.8
@@ -276,14 +303,20 @@ units = {
 	}
 	## Shanghai Defense Force ##
 	division = {
-		name = "Shanghai Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
 		location = 7014
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.9
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "Lu zhan Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
 		location = 7014
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.8
@@ -293,7 +326,7 @@ units = {
 	division = { # "3 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 403
+			name_order = 27
 		}
 		location = 10076
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -304,7 +337,7 @@ units = {
 	division = { # "Shui Jing Tuan"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 499
+			name_order = 28
 		}
 		location = 10076
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -313,7 +346,10 @@ units = {
 
 	}
 	division = {
-		name = "8 Lujun Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
 		location = 4925
 		division_template = "丙种防御步兵师"
 		start_equipment_factor = 0.8
@@ -323,7 +359,7 @@ units = {
 	division = { # "36 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 436
+			name_order = 30
 		}
 		location = 7191
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -334,7 +370,7 @@ units = {
 	division = { # "87 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 487
+			name_order = 31
 		}
 		location = 7191
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -345,7 +381,7 @@ units = {
 	division = { # "88 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 488
+			name_order = 32
 		}
 		location = 7191
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -355,7 +391,10 @@ units = {
 	}
 	## 10th Army (CO: Liu Jiangxu) ##
 	division = {
-		name = "10 Lujun Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
 		location = 10076
 		division_template = "丙种防御步兵师"
 		start_equipment_factor = 0.7
@@ -365,7 +404,7 @@ units = {
 	division = { # "11 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 411
+			name_order = 34
 		}
 		location = 12076
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -376,7 +415,7 @@ units = {
 	division = { # "14 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 414
+			name_order = 35
 		}
 		location = 12076
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -387,7 +426,7 @@ units = {
 	division = { # "4 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 4
+			name_order = 36
 		}
 		location = 12076
 		division_template = "丙种防御步兵师"
@@ -398,7 +437,7 @@ units = {
 	division = { # "18 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 18
+			name_order = 37
 		}
 		location = 12076
 		division_template = "丙种防御步兵师"
@@ -409,7 +448,7 @@ units = {
 	division = { # "39 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 39
+			name_order = 38
 		}
 		location = 4042
 		division_template = "丙种防御步兵师"
@@ -420,7 +459,7 @@ units = {
 	division = { # "54 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 54
+			name_order = 39
 		}
 		location = 4042
 		division_template = "丙种防御步兵师"
@@ -431,7 +470,7 @@ units = {
 	division = { # "74 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 74
+			name_order = 40
 		}
 		location = 4042
 		division_template = "丙种防御步兵师"
@@ -443,7 +482,7 @@ units = {
 	division = { # "6 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 406
+			name_order = 41
 		}
 		location = 7058
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -454,7 +493,7 @@ units = {
 	division = { # "9 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 409
+			name_order = 42
 		}
 		location = 7058
 		division_template = "乙种防御步兵师"		# German-trained division (frontline infantry, better equipment and experience)
@@ -465,7 +504,7 @@ units = {
 	division = { # "25 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 25
+			name_order = 43
 		}
 		location = 1096
 		division_template = "丙种防御步兵师"
@@ -476,7 +515,10 @@ units = {
 
 	##### Yangtze War Area (CO: ) #####
 	division = {
-		name = "Wuhan Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
 		location = 4619
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.8
@@ -484,14 +526,20 @@ units = {
 	}
 	### River Defense Force (CO: ) ###
 	division = {
-		name = "11 Lujun Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
 		location = 1036
 		division_template = "丙种防御步兵师"
 		start_equipment_factor = 0.8
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "12 Lujun Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
 		location = 7637
 		division_template = "丙种防御步兵师"
 		start_equipment_factor = 0.7
@@ -500,7 +548,7 @@ units = {
 	division = { # "43 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 43
+			name_order = 47
 		}
 		location = 9959
 		division_template = "丙种防御步兵师"
@@ -510,7 +558,10 @@ units = {
 	}
 	### Capital Garrison Force (CO: ) ###
 	division = {
-		name = "2 Lujun Shi"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
 		location = 11913
 		division_template = "丙种防御步兵师"
 		start_equipment_factor = 0.8
@@ -519,7 +570,7 @@ units = {
 	division = { # "Peixun Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 498
+			name_order = 48
 		}
 		location = 11913
 		division_template = "乙种防御步兵师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
@@ -528,28 +579,40 @@ units = {
 
 	}
 	division = {
-		name = "1 Nanking Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
 		location = 11913
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.7
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "2 Nanking Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 50
+		}
 		location = 11913
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.7
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "3 Nanking Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
 		location = 11913
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.7
 		start_experience_factor = 0.1
 	}
 	division = {
-		name = "4 Nanking Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
 		location = 11913
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.7
@@ -560,7 +623,7 @@ units = {
 	division = { # "3 Qibing Jun"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 123
+			name_order = 53
 		}
 		location = 10000
 		division_template = "丙种骑兵师"
@@ -569,7 +632,10 @@ units = {
 
 	}
 	division = {
-		name = "Qingdao Jingbei"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
 		location = 10000
 		division_template = "丙种防御步兵师"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.9
@@ -579,7 +645,7 @@ units = {
 	division = { # "12 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 12
+			name_order = 55
 		}
 		location = 4205
 		division_template = "丙种防御步兵师"
@@ -590,7 +656,7 @@ units = {
 	division = { # "40 Juntuán"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 40
+			name_order = 56
 		}
 		location = 4205
 		division_template = "丙种防御步兵师"
