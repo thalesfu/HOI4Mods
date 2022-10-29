@@ -1,6 +1,6 @@
 state={
 	id=617
-	name="STATE_617" #新疆
+	name="STATE_617" #乌鲁木齐
 
 	history={
 		owner = SIK
