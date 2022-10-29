@@ -20,6 +20,8 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = FER
+		add_core_of = CHI
+		add_core_of = PRC
 	}
 
 	provinces = {
