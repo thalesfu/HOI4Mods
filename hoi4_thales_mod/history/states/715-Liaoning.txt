@@ -1,6 +1,6 @@
 state={
 	id=715
-	name="STATE_715"
+	name="STATE_715" #辽宁
 	manpower = 3643373
 	
 	state_category = town

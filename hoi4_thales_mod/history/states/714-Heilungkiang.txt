@@ -1,6 +1,6 @@
 state={
 	id=714
-	name="STATE_714"
+	name="STATE_714" #黑龙江
 
 	history={
 		owner = MAN

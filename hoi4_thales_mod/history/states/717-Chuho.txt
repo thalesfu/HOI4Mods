@@ -1,6 +1,6 @@
 state={
 	id=717
-	name="STATE_717"
+	name="STATE_717" #松江
 	
 	state_category = pastoral
 
