@@ -2,6 +2,11 @@ state=
 {
 	id=615
 	name="STATE_615" #山西
+	
+	resources={
+		steel=30.000 #山西增加了30的钢铁资源
+	}
+	
 	manpower = 11601000
 	
 	state_category = town

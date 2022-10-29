@@ -1,7 +1,7 @@
 
 state={
 	id=613
-	name="STATE_613" # 上海
+	name="STATE_613" #上海
 	manpower = 17305100
 	
 	state_category = large_city
@@ -12,7 +12,7 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			industrial_complex = 6 #上海民用工厂从1到5
 			air_base = 6
 			dockyard = 1
 			7014 = {

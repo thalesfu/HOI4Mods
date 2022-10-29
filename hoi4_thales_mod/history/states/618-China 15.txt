@@ -1,7 +1,10 @@
 
 state={
 	id=618
-	name="STATE_618" # 准格尔
+	name="STATE_618" #准格尔
+	resources={
+		oil=30.000 #准格尔增加了30的原油
+	}
 	manpower = 670800
 
 	state_category = pastoral

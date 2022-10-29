@@ -2,7 +2,7 @@ state={
 	id=606
 	name="STATE_606" #安徽
 	resources={
-		steel=11.000
+		steel=22.000 #钢从11改为22
 	}
 
 	history={

@@ -1,6 +1,10 @@
 state={
 	id=287
 	name="STATE_287" #塔克拉玛干
+	
+	resources={
+		oil=40.000 #塔克拉玛干增加了40的原油
+	}
 
 	history={
 		owner = SIK
