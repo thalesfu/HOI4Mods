@@ -2,7 +2,7 @@ state={
 	id=602
 	name="STATE_602" #湖南
 	resources={
-		tungsten=12.000 #湖南的钨从6改为了12
+		tungsten=6.000
 	}
 
 	history={

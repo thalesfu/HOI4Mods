@@ -2,8 +2,7 @@ state={
 	id=325
 	name="STATE_325" #云南
 	resources={
-		tungsten=4.000  #云南的钨从2改成4
-		rubber=16.000   #云南增加了16的橡胶资源
+		tungsten=2.000
 	}
 
 	history={

@@ -2,7 +2,7 @@ state={
 	id=605
 	name="STATE_605" #四川
 	resources={
-		steel=28.000 #钢从11改为30
+		steel=14.000
 	}
 
 	history={

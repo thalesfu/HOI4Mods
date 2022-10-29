@@ -2,8 +2,7 @@ state={
 	id=606
 	name="STATE_606" #安徽
 	resources={
-		steel=22.000 #钢从11改为22
-		aluminium=5.000 #增加了5点的铝
+		steel=11.000
 	}
 
 	history={
