@@ -1,6 +1,9 @@
 state={
 	id=620
 	name="STATE_620" #湖北
+	resources={
+		steel=10.000 #湖北增加10点铁矿
+	}
 
 	history={
 		owner = CHI
@@ -9,7 +12,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 2
+			industrial_complex = 5 #湖北的民用工厂从2改成5
 
 		}
 		victory_points = {

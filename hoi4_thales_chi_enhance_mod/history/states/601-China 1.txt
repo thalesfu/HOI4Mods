@@ -3,6 +3,8 @@ state={
 	name="STATE_601" #西康
 	resources={
 		oil=2.000
+		tungsten=7.000 #西康增加7点钨矿
+		steel=12.000 #西康增加8点铁矿
 	}
 
 	history={

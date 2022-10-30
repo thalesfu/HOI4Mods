@@ -1,6 +1,10 @@
 state={
 	id=600
 	name="STATE_600" #江西
+	resources={
+		tungsten=10.000 #江西增加10点钨矿
+		steel=8.000 #江西增加8点铁矿
+	}
 
 	history={
 		owner = CHI
