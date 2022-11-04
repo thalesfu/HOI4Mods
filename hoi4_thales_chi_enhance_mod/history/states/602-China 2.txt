@@ -11,9 +11,9 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
-			arms_factory = 2
+			infrastructure = 5 #基建从3改为5
+			industrial_complex = 15 #民用工厂从2改为15
+			arms_factory = 10 #军工厂从2改为10
 		}
 		1939.1.1 = {
 			buildings = {

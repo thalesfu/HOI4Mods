@@ -10,9 +10,9 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 5 #湖北的民用工厂从2改成5
+			infrastructure = 5 #基建从3改成5
+			arms_factory = 15 #兵工厂从3改为15
+			industrial_complex = 10 #湖北的民用工厂从2改成10
 
 		}
 		victory_points = {
@@ -21,7 +21,7 @@ state={
 		1938.10.25 = {
 			buildings = {
 				industrial_complex = 3
-				infrastructure = 3 #was: 6
+				infrastructure = 5 #基建从3改为5
 				air_base = 2
 				arms_factory = 2
 
