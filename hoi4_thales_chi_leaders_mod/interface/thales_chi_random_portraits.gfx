@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CHI_Chen_Cheng"
+		texturefile = "gfx/thales/CHI/chi_chen_cheng.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_Chen_Cheng_small"
+		texturefile = "gfx/thales/CHI/chi_chen_cheng_small.dds"
+	}
+}

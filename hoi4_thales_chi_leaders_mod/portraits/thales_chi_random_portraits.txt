@@ -1,0 +1,7 @@
+CHI = {
+	army = {
+		male = {
+			"GFX_CHI_Chen_Cheng"
+		}
+	}
+}
