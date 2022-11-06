@@ -57,21 +57,96 @@ characters={
 		}
 	}
 	
-	CHI_tu_yuming={
-		name=CHI_tu_yuming
+	CHI_zhang_xueliang={
+		name=CHI_zhang_xueliang
 		portraits={
 			army={
-				large="GFX_portrait_chi_du_yuming"
-				small="GFX_idea_CHI_du_yuming"
+				large="GFX_portrait_chi_zhang_xueliang"
+				small="GFX_idea_CHI_zhang_xueliang"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero trait_reckless aggressive_assaulter offensive_doctrine inspirational_leader}
+			skill=5
+			attack_skill=6
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	
+	CHI_feng_yuxiang={
+		name=CHI_feng_yuxiang
+		portraits={
+			army={
+				large="GFX_CHI_FENGYUXIANG"
+				small="GFX_CHI_FENGYUXIANG_small"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero trait_reckless trickster expert_improviser guerilla_fighter }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	
+	CHI_tang_shengzhi={
+		name=CHI_tang_shengzhi
+		portraits={
+			army={
+				large="GFX_CHI_TANGSHENGZHI"
+				small="GFX_CHI_TANGSHENGZHI_small"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero old_guard infantry_leader infantry_expert }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	
+	CHI_cheng_qian={
+		name=CHI_cheng_qian
+		portraits={
+			army={
+				large="GFX_CHI_CHENGQIAN"
+				small="GFX_CHI_CHENGQIAN_small"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero trait_cautious skilled_staffer partisans_organizer thorough_planner }
+			skill=5
+			attack_skill=2
+			defense_skill=2
+			planning_skill=6
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	
+	CHI_liu_zhi={
+		name=CHI_liu_zhi
+		portraits={
+			army={
+				large="GFX_CHI_LIUZHI"
+				small="GFX_CHI_LIUZHI_small"
 			}
 		}
 		corps_commander={
-			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
-			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -84,88 +159,12 @@ characters={
 				small="GFX_idea_CHI_xue_yue"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ brilliant_strategist trait_reckless war_hero offensive_doctrine }
 			skill=4
 			attack_skill=3
 			defense_skill=3
 			planning_skill=1
-			logistics_skill=3
-			legacy_id=-1
-		}
-	}
-	
-	CHI_tai_anlan={
-		name=CHI_tai_anlan
-		portraits={
-			army={
-				large="GFX_portrait_chi_tai_an_lan"
-				small="GFX_idea_CHI_tai_an_lan"
-			}
-		}
-		corps_commander={
-			traits={ career_officer trait_reckless offensive_doctrine }
-			skill=2
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	
-	CHI_wang_yaowu={
-		name=CHI_wang_yaowu
-		portraits={
-			army={
-				large="GFX_portrait_chi_wang_yaowu"
-				small="GFX_idea_CHI_wang_yaowu"
-			}
-		}
-		corps_commander={
-			traits={ trait_cautious infantry_officer defensive_doctrine }
-			skill=3
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-	
-	CHI_sun_li_jen={
-		name=CHI_sun_li_jen
-		portraits={
-			army={
-				large="GFX_portrait_chi_sun_li_jen"
-				small="GFX_idea_CHI_sun_li_jen"
-			}
-		}
-		corps_commander={
-			traits={ brilliant_strategist }
-			skill=3
-			attack_skill=5
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-	
-	CHI_hu_zongnan={
-		name=CHI_hu_zongnan
-		portraits={
-			army={
-				large="GFX_portrait_chi_hu_zongnan"
-				small="GFX_idea_CHI_hu_zongnan"
-			}
-		}
-		corps_commander={
-			traits={ politically_connected }
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
 			logistics_skill=3
 			legacy_id=-1
 		}
@@ -218,6 +217,24 @@ characters={
 			}
 		}
 		corps_commander={
+			skill=4
+			attack_skill=4
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_han_fuqu={
+		name=CHI_han_fuqu
+		portraits={
+			army={
+				large="GFX_FENGYUXIANG_HANFUQU"
+				small="GFX_FENGYUXIANG_HANFUQU_small"
+			}
+		}
+		corps_commander={
 			skill=3
 			attack_skill=3
 			defense_skill=3
@@ -227,16 +244,34 @@ characters={
 		}
 	}
 	
-	CHI_zhang_xueliang={
-		name=CHI_zhang_xueliang
+	CHI_he_jian={
+		name=CHI_he_jian
 		portraits={
 			army={
-				large="GFX_portrait_chi_zhang_xueliang"
-				small="GFX_idea_CHI_zhang_xueliang"
+				large="GFX_CHI_TANGSHENGZHI_HEJIAN"
+				small="GFX_CHI_TANGSHENGZHI_HEJIAN_small"
 			}
 		}
-		field_marshal={
-			skill=4
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_zhu_shaoliang={
+		name=CHI_zhu_shaoliang
+		portraits={
+			army={
+				large="GFX_CHI_ZHUSHAOLIANG"
+				small="GFX_CHI_ZHUSHAOLIANG_small"
+			}
+		}
+		corps_commander={
+			skill=3
 			attack_skill=3
 			defense_skill=3
 			planning_skill=2
@@ -394,8 +429,18 @@ characters={
 		name=CHI_he_yingqin
 		portraits={
 			army={
-				small="GFX_idea_CHI_he_yingqin"
+				large="GFX_CHI_HEYINGQING"
+				small="GFX_CHI_HEYINGQING_small"
 			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero trait_cautious organizer logistics_wizard organisational_leader}
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=6
+			legacy_id=-1
 		}
 		advisor={	
 			slot = army_chief

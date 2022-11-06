@@ -1,0 +1,17 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CHI = {
+				recruit_character = CHI_cheng_qian
+				recruit_character = CHI_he_yingqin
+				recruit_character = CHI_feng_yuxiang
+				recruit_character = CHI_tang_shengzhi
+				recruit_character = CHI_liu_zhi
+				recruit_character = CHI_han_fuqu
+				recruit_character = CHI_he_jian
+				recruit_character = CHI_zhu_shaoliang
+			}
+		}
+	}
+	
+}
