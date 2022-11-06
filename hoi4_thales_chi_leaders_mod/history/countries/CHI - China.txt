@@ -60,6 +60,9 @@ recruit_character = CHI_liu_zhi
 recruit_character = CHI_han_fuqu
 recruit_character = CHI_he_jian
 recruit_character = CHI_zhu_shaoliang
+recruit_character = CHI_liu_xiang
+recruit_character = CHI_lu_diping
+recruit_character = CHI_shi_yousan
 
 set_stability = 0.2
 set_war_support = 0.5

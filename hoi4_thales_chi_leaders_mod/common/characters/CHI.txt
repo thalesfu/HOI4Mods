@@ -142,11 +142,11 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -230,8 +230,8 @@ characters={
 		name=CHI_han_fuqu
 		portraits={
 			army={
-				large="GFX_FENGYUXIANG_HANFUQU"
-				small="GFX_FENGYUXIANG_HANFUQU_small"
+				large="GFX_CHI_FENGYUXIANG_HANFUQU"
+				small="GFX_CHI_FENGYUXIANG_HANFUQU_small"
 			}
 		}
 		corps_commander={
@@ -268,6 +268,60 @@ characters={
 			army={
 				large="GFX_CHI_ZHUSHAOLIANG"
 				small="GFX_CHI_ZHUSHAOLIANG_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_liu_xiang={
+		name=CHI_liu_xiang
+		portraits={
+			army={
+				large="GFX_CHI_LIUXIANG"
+				small="GFX_CHI_LIUXIANG_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_lu_diping={
+		name=CHI_lu_diping
+		portraits={
+			army={
+				large="GFX_CHI_TANYANKAI_LUDIPING"
+				small="GFX_CHI_TANYANKAI_LUDIPING_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_shi_yousan={
+		name=CHI_shi_yousan
+		portraits={
+			army={
+				large="GFX_CHI_FENGYUXIANG_SHIYOUSAN"
+				small="GFX_CHI_FENGYUXIANG_SHIYOUSAN_small"
 			}
 		}
 		corps_commander={
