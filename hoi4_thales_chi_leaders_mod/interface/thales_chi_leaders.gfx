@@ -28,12 +28,12 @@ spriteTypes = {
 	}
 	#冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG.dds"
+		name = "GFX_西北_冯玉祥"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_small.dds"
+		name = "GFX_西北_冯玉祥_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_small.dds"
 	}
 	#唐生智
 	spriteType = {
@@ -55,12 +55,12 @@ spriteTypes = {
 	}
 	#韩复渠
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_HANFUQU"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_HANFUQU.dds"
+		name = "GFX_西北_冯玉祥_韩复渠"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_韩复渠.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_HANFUQU_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_HANFUQU_small.dds"
+		name = "GFX_西北_冯玉祥_韩复渠_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_韩复渠_small.dds"
 	}
 	#何键
 	spriteType = {
@@ -271,21 +271,21 @@ spriteTypes = {
 	}
 	#石友三@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SHIYOUSAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SHIYOUSAN.dds"
+		name = "GFX_西北_冯玉祥_石友三"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_石友三.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SHIYOUSAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SHIYOUSAN_small.dds"
+		name = "GFX_西北_冯玉祥_石友三_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_石友三_small.dds"
 	}
 	#程希贤@石友三@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SHIYOUSAN_CHENGXIXIAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SHIYOUSAN_CHENGXIXIAN.dds"
+		name = "GFX_西北_冯玉祥_石友三_程希贤"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_石友三_程希贤.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SHIYOUSAN_CHENGXIXIAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SHIYOUSAN_CHENGXIXIAN_small.dds"
+		name = "GFX_西北_冯玉祥_石友三_程希贤_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_石友三_程希贤_small.dds"
 	}
 	#邓锡侯
 	spriteType = {
@@ -298,30 +298,30 @@ spriteTypes = {
 	}
 	#徐源泉
 	spriteType = {
-		name = "GFX_CHI_XUYUANQUAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN.dds"
+		name = "GFX_直鲁_徐源泉"
+		texturefile = "gfx/thales/直鲁/GFX_直鲁_徐源泉.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_XUYUANQUAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_small.dds"
+		name = "GFX_直鲁_徐源泉_small"
+		texturefile = "gfx/thales/直鲁/GFX_直鲁_徐源泉_small.dds"
 	}
 	#张振汉@徐源泉
 	spriteType = {
-		name = "GFX_CHI_XUYUANQUAN_ZHANGZHENHAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_ZHANGZHENHAN.dds"
+		name = "GFX_直鲁_徐源泉_张振汉"
+		texturefile = "gfx/thales/直鲁/GFX_直鲁_徐源泉_张振汉.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_XUYUANQUAN_ZHANGZHENHAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_ZHANGZHENHAN_small.dds"
+		name = "GFX_直鲁_徐源泉_张振汉_small"
+		texturefile = "gfx/thales/直鲁/GFX_直鲁_徐源泉_张振汉_small.dds"
 	}
 	#萧之楚@徐源泉
 	spriteType = {
-		name = "GFX_CHI_XUYUANQUAN_XIAOZHICHU"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_XIAOZHICHU.dds"
+		name = "GFX_直鲁_徐源泉_萧之楚"
+		texturefile = "gfx/thales/直鲁/GFX_直鲁_徐源泉_萧之楚.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_XUYUANQUAN_XIAOZHICHU_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_XIAOZHICHU_small.dds"
+		name = "GFX_直鲁_徐源泉_萧之楚_small"
+		texturefile = "gfx/thales/直鲁/GFX_直鲁_徐源泉_萧之楚_small.dds"
 	}
 	#杨虎城
 	spriteType = {
@@ -361,39 +361,39 @@ spriteTypes = {
 	}
 	#王家烈
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE.dds"
+		name = "GFX_贵州_王家烈"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_small.dds"
+		name = "GFX_贵州_王家烈_small"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈_small.dds"
 	}
 	#毛光翔@王家烈
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE_MAOGUANGXIANG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_MAOGUANGXIANG.dds"
+		name = "GFX_贵州_王家烈_毛光翔"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈_毛光翔.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE_MAOGUANGXIANG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_MAOGUANGXIANG_small.dds"
+		name = "GFX_贵州_王家烈_毛光翔_small"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈_毛光翔_small.dds"
 	}
 	#何知重@王家烈
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE_HEZHIZHONG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_HEZHIZHONG.dds"
+		name = "GFX_贵州_王家烈_何知重"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈_何知重.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE_HEZHIZHONG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_HEZHIZHONG_small.dds"
+		name = "GFX_贵州_王家烈_何知重_small"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈_何知重_small.dds"
 	}
 	#犹国才@王家烈
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE_YOUGUOCAI"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_YOUGUOCAI.dds"
+		name = "GFX_贵州_王家烈_犹国才"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈_犹国才.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_WANGJIALIE_YOUGUOCAI_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_YOUGUOCAI_small.dds"
+		name = "GFX_贵州_王家烈_犹国才_small"
+		texturefile = "gfx/thales/贵州/GFX_贵州_王家烈_犹国才_small.dds"
 	}
 	#张钫
 	spriteType = {
@@ -415,146 +415,155 @@ spriteTypes = {
 	}
 	#夏斗寅
 	spriteType = {
-		name = "GFX_CHI_XIADOUYIN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN.dds"
+		name = "GFX_湖北_夏斗寅"
+		texturefile = "gfx/thales/湖北/GFX_湖北_夏斗寅.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_XIADOUYIN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN_small.dds"
+		name = "GFX_湖北_夏斗寅_small"
+		texturefile = "gfx/thales/湖北/GFX_湖北_夏斗寅_small.dds"
 	}
 	#万耀煌@夏斗寅
 	spriteType = {
-		name = "GFX_CHI_XIADOUYIN_WANYAOHUANG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN_WANYAOHUANG.dds"
+		name = "GFX_湖北_夏斗寅_万耀煌"
+		texturefile = "gfx/thales/湖北/GFX_湖北_夏斗寅_万耀煌.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_XIADOUYIN_WANYAOHUANG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN_WANYAOHUANG_small.dds"
+		name = "GFX_湖北_夏斗寅_万耀煌_small"
+		texturefile = "gfx/thales/湖北/GFX_湖北_夏斗寅_万耀煌_small.dds"
 	}
 	#吉鸿昌@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG.dds"
+		name = "GFX_西北_冯玉祥_吉鸿昌"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_吉鸿昌.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_small.dds"
+		name = "GFX_西北_冯玉祥_吉鸿昌_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_吉鸿昌_small.dds"
 	}
 	#彭振山@吉鸿昌@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN.dds"
+		name = "GFX_西北_冯玉祥_吉鸿昌_彭振山"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_吉鸿昌_彭振山.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN_small.dds"
+		name = "GFX_西北_冯玉祥_吉鸿昌_彭振山_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_吉鸿昌_彭振山_small.dds"
 	}
 	#彭国祯@吉鸿昌@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN.dds"
+		name = "GFX_西北_冯玉祥_吉鸿昌_彭国祯"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_吉鸿昌_彭国祯.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN_small.dds"
+		name = "GFX_西北_冯玉祥_吉鸿昌_彭国祯_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_吉鸿昌_彭国祯_small.dds"
 	}
 	#梁冠英@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING.dds"
+		name = "GFX_西北_冯玉祥_梁冠英"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_梁冠英.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING_small.dds"
+		name = "GFX_西北_冯玉祥_梁冠英_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_梁冠英_small.dds"
 	}
 	#郑廷珍@梁冠英@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN.dds"
+		name = "GFX_西北_冯玉祥_梁冠英_郑廷珍"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_梁冠英_郑廷珍.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN_small.dds"
+		name = "GFX_西北_冯玉祥_梁冠英_郑廷珍_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_梁冠英_郑廷珍_small.dds"
 	}
 	#孙连仲@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG.dds"
+		name = "GFX_西北_冯玉祥_孙连仲"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_small.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_small.dds"
 	}
 	#董振堂@孙连仲@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_董振堂"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_董振堂.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG_small.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_董振堂_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_董振堂_small.dds"
 	}
 	#季振同@孙连仲@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_季振同"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_季振同.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG_small.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_季振同_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_季振同_small.dds"
 	}
 	#高树勋@孙连仲@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_高树勋"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_高树勋.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN_small.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_高树勋_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_高树勋_small.dds"
 	}
 	#池峰城@孙连仲@冯玉祥
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_池峰城"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_池峰城.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG_small.dds"
+		name = "GFX_西北_冯玉祥_孙连仲_池峰城_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_池峰城_small.dds"
+	}
+	#池峰城@孙连仲@冯玉祥
+	spriteType = {
+		name = "GFX_西北_冯玉祥_孙连仲_张华棠"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_张华棠.dds"
+	}
+	spriteType = {
+		name = "GFX_西北_冯玉祥_孙连仲_张华棠_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_孙连仲_张华棠_small.dds"
 	}
 	#陈继承
 	spriteType = {
 		name = "GFX_中央_陈继承"
-		texturefile = "gfx/thales/CHI/GFX_中央_陈继承.dds"
+		texturefile = "gfx/thales/中央/GFX_中央_陈继承.dds"
 	}
 	spriteType = {
 		name = "GFX_中央_陈继承_small"
-		texturefile = "gfx/thales/CHI/GFX_中央_陈继承_small.dds"
+		texturefile = "gfx/thales/中央/GFX_中央_陈继承_small.dds"
 	}
 	#蒋鼎文
 	spriteType = {
 		name = "GFX_中央_蒋鼎文"
-		texturefile = "gfx/thales/CHI/GFX_中央_蒋鼎文.dds"
+		texturefile = "gfx/thales/中央/GFX_中央_蒋鼎文.dds"
 	}
 	spriteType = {
 		name = "GFX_中央_蒋鼎文_small"
-		texturefile = "gfx/thales/CHI/GFX_中央_蒋鼎文_small.dds"
+		texturefile = "gfx/thales/中央/GFX_中央_蒋鼎文_small.dds"
 	}
 	#张发奎
 	spriteType = {
 		name = "GFX_广东_张发奎"
-		texturefile = "gfx/thales/CHI/GFX_广东_张发奎.dds"
+		texturefile = "gfx/thales/广东/GFX_广东_张发奎.dds"
 	}
 	spriteType = {
 		name = "GFX_广东_张发奎_small"
-		texturefile = "gfx/thales/CHI/GFX_广东_张发奎_small.dds"
+		texturefile = "gfx/thales/广东/GFX_广东_张发奎_small.dds"
 	}
 	#吴奇伟@张发奎
 	spriteType = {
 		name = "GFX_广东_张发奎_吴奇伟"
-		texturefile = "gfx/thales/CHI/GFX_广东_张发奎_吴奇伟.dds"
+		texturefile = "gfx/thales/广东/GFX_广东_张发奎_吴奇伟.dds"
 	}
 	spriteType = {
 		name = "GFX_广东_张发奎_吴奇伟_small"
-		texturefile = "gfx/thales/CHI/GFX_广东_张发奎_吴奇伟_small.dds"
+		texturefile = "gfx/thales/广东/GFX_广东_张发奎_吴奇伟_small.dds"
 	}
 }
