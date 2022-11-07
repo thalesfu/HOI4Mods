@@ -333,6 +333,96 @@ characters={
 			legacy_id=-1
 		}
 	}
+	
+	CHI_yang_hucheng={
+		name=CHI_yang_hucheng
+		portraits={
+			army={
+				large="GFX_CHI_YANGHUCHENG"
+				small="GFX_CHI_YANGHUCHENG_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_wang_jialie={
+		name=CHI_wang_jialie
+		portraits={
+			army={
+				large="GFX_CHI_WANGJIALIE"
+				small="GFX_CHI_WANGJIALIE_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_ji_chongchang={
+		name=CHI_ji_chongchang
+		portraits={
+			army={
+				large="GFX_CHI_FENGYUXIANG_JIHONGCHANG"
+				small="GFX_CHI_FENGYUXIANG_JIHONGCHANG_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_liang_guanying={
+		name=CHI_liang_guanying
+		portraits={
+			army={
+				large="GFX_CHI_FENGYUXIANG_LIANGGUANYING"
+				small="GFX_CHI_FENGYUXIANG_LIANGGUANYING_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_sun_lianzhong={
+		name=CHI_sun_lianzhong
+		portraits={
+			army={
+				large="GFX_CHI_FENGYUXIANG_SUNLIANZHONG"
+				small="GFX_CHI_FENGYUXIANG_SUNLIANZHONG_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 
 	### THEORISTS ###
 

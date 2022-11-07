@@ -305,4 +305,229 @@ spriteTypes = {
 		name = "GFX_CHI_XUYUANQUAN_small"
 		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_small.dds"
 	}
+	#张振汉@徐源泉
+	spriteType = {
+		name = "GFX_CHI_XUYUANQUAN_ZHANGZHENHAN"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_ZHANGZHENHAN.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_XUYUANQUAN_ZHANGZHENHAN_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_ZHANGZHENHAN_small.dds"
+	}
+	#萧之楚@徐源泉
+	spriteType = {
+		name = "GFX_CHI_XUYUANQUAN_XIAOZHICHU"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_XIAOZHICHU.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_XUYUANQUAN_XIAOZHICHU_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XUYUANQUAN_XIAOZHICHU_small.dds"
+	}
+	#杨虎城
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG_small.dds"
+	}
+	#孙蔚如@杨虎城
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG_SUNWEIRU"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG_SUNWEIRU.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG_SUNWEIRU_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG_SUNWEIRU_small.dds"
+	}
+	#冯钦哉@杨虎城
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG_FENGQINZAI"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG_FENGQINZAI.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG_FENGQINZAI_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG_FENGQINZAI_small.dds"
+	}
+	#马青苑@杨虎城
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG_MAQINGYUAN"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG_MAQINGYUAN.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_YANGHUCHENG_MAQINGYUAN_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_YANGHUCHENG_MAQINGYUAN_small.dds"
+	}
+	#王家烈
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_small.dds"
+	}
+	#毛光翔@王家烈
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE_MAOGUANGXIANG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_MAOGUANGXIANG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE_MAOGUANGXIANG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_MAOGUANGXIANG_small.dds"
+	}
+	#何知重@王家烈
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE_HEZHIZHONG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_HEZHIZHONG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE_HEZHIZHONG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_HEZHIZHONG_small.dds"
+	}
+	#犹国才@王家烈
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE_YOUGUOCAI"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_YOUGUOCAI.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_WANGJIALIE_YOUGUOCAI_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_WANGJIALIE_YOUGUOCAI_small.dds"
+	}
+	#张钫
+	spriteType = {
+		name = "GFX_CHI_ZHANGFANG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_ZHANGFANG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_ZHANGFANG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_ZHANGFANG_small.dds"
+	}
+	#宋天才@张钫
+	spriteType = {
+		name = "GFX_CHI_ZHANGFANG_SONGTIANCAI"
+		texturefile = "gfx/thales/CHI/GFX_CHI_ZHANGFANG_SONGTIANCAI.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_ZHANGFANG_SONGTIANCAI_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_ZHANGFANG_SONGTIANCAI_small.dds"
+	}
+	#夏斗寅
+	spriteType = {
+		name = "GFX_CHI_XIADOUYIN"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_XIADOUYIN_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN_small.dds"
+	}
+	#万耀煌@夏斗寅
+	spriteType = {
+		name = "GFX_CHI_XIADOUYIN_WANYAOHUANG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN_WANYAOHUANG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_XIADOUYIN_WANYAOHUANG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_XIADOUYIN_WANYAOHUANG_small.dds"
+	}
+	#吉鸿昌@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_small.dds"
+	}
+	#彭振山@吉鸿昌@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGZHENSHAN_small.dds"
+	}
+	#彭国祯@吉鸿昌@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_JIHONGCHANG_PENGGUOZHEN_small.dds"
+	}
+	#梁冠英@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING_small.dds"
+	}
+	#郑廷珍@梁冠英@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_LIANGGUANYING_ZHENGTINGZHEN_small.dds"
+	}
+	#孙连仲@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_small.dds"
+	}
+	#董振堂@孙连仲@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_DONGZHENTANG_small.dds"
+	}
+	#季振同@孙连仲@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_JIZHENTONG_small.dds"
+	}
+	#高树勋@孙连仲@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_GAOSHUXUN_small.dds"
+	}
+	#池峰城@孙连仲@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_CHIFENGCHENG_small.dds"
+	}
+	#张华棠@孙连仲@冯玉祥
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_ZHANGHUATANG"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_ZHANGHUATANG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_FENGYUXIANG_SUNLIANZHONG_ZHANGHUATANG_small"
+		texturefile = "gfx/thales/CHI/GFX_CHI_FENGYUXIANG_SUNLIANZHONG_ZHANGHUATANG_small.dds"
+	}
 }
