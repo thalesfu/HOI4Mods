@@ -53,7 +53,6 @@ recruit_character = CHI_soong_mei_ling
 recruit_character = CHI_random_prince_of_terror
 recruit_character = CHI_lin_sen
 recruit_character = CHI_cheng_qian
-recruit_character = CHI_he_yingqin
 recruit_character = CHI_feng_yuxiang
 recruit_character = CHI_tang_shengzhi
 recruit_character = CHI_liu_zhi
@@ -68,6 +67,9 @@ recruit_character = CHI_wang_jialie
 recruit_character = CHI_ji_chongchang
 recruit_character = CHI_liang_guanying
 recruit_character = CHI_sun_lianzhong
+recruit_character = CHI_中央_陈继承
+recruit_character = CHI_中央_蒋鼎文
+recruit_character = CHI_广东_张发奎
 
 set_stability = 0.2
 set_war_support = 0.5

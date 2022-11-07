@@ -423,6 +423,60 @@ characters={
 			legacy_id=-1
 		}
 	}
+	
+	CHI_中央_陈继承={
+		name=CHI_ZHONGYANG_CHENJICHENG_NAME
+		portraits={
+			army={
+				large="GFX_中央_陈继承"
+				small="GFX_中央_陈继承_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_中央_蒋鼎文={
+		name=CHI_ZHONGYANG_JIANGDINGWEN_NAME
+		portraits={
+			army={
+				large="GFX_中央_蒋鼎文"
+				small="GFX_中央_蒋鼎文_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_广东_张发奎={
+		name=CHI_GUANGDONG_ZHANGFAKUI_NAME
+		portraits={
+			army={
+				large="GFX_广东_张发奎"
+				small="GFX_广东_张发奎_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 
 	### THEORISTS ###
 
@@ -779,7 +833,8 @@ characters={
 		name=CHI_chen_cheng
 		portraits={
 			army={
-				small="GFX_idea_CHI_chen_cheng"
+				large="GFX_CHI_CHENCHENG"
+				small="GFX_CHI_CHENCHENG_small"
 			}
 		}
 		advisor={
@@ -796,6 +851,14 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 	
