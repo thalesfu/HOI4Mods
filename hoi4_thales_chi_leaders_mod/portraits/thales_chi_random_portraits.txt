@@ -1,12 +1,12 @@
 CHI = {
 	army = {
 		male = {
-			"GFX_CHI_DUYUMING"
-			"GFX_CHI_WANGYAOWU"
-			"GFX_CHI_DUYUMING_DAIANLAN"
-			"GFX_CHI_DUYUMING_SUNLIREN"
-			"GFX_CHI_HUZONGNAN"
-			"GFX_CHI_CHENMINGREN"
+			"GFX_中央_杜聿明"
+			"GFX_中央_王耀武"
+			"GFX_中央_杜聿明_戴安澜"
+			"GFX_中央_杜聿明_孙立人"
+			"GFX_中央_胡宗南"
+			"GFX_中央_陈明仁"
 			"GFX_湖南_唐生智_何键_李觉"
 			"GFX_湖南_唐生智_何键_陈光中"
 			"GFX_五省_上官云相"

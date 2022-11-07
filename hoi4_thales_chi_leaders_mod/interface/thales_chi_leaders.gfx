@@ -1,30 +1,30 @@
 spriteTypes = {
 	#陈诚
 	spriteType = {
-		name = "GFX_CHI_CHENCHENG"
-		texturefile = "gfx/thales/CHI/GFX_CHI_CHENCHENG.dds"
+		name = "GFX_中央_陈诚"
+		texturefile = "gfx/thales/中央/GFX_中央_陈诚.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_CHENCHENG_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_CHENCHENG_small.dds"
+		name = "GFX_中央_陈诚_small"
+		texturefile = "gfx/thales/中央/GFX_中央_陈诚_small.dds"
 	}
 	#程潜
 	spriteType = {
-		name = "GFX_CHI_CHENGQIAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_CHENGQIAN.dds"
+		name = "GFX_湖南_程潜"
+		texturefile = "gfx/thales/湖南/GFX_湖南_程潜.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_CHENGQIAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_CHENGQIAN_small.dds"
+		name = "GFX_湖南_程潜_small"
+		texturefile = "gfx/thales/湖南/GFX_湖南_程潜_small.dds"
 	}
 	#何应钦
 	spriteType = {
-		name = "GFX_CHI_HEYINGQING"
-		texturefile = "gfx/thales/CHI/GFX_CHI_HEYINGQING.dds"
+		name = "GFX_中央_何应钦"
+		texturefile = "gfx/thales/中央/GFX_中央_何应钦.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_HEYINGQING_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_HEYINGQING_small.dds"
+		name = "GFX_中央_何应钦_small"
+		texturefile = "gfx/thales/中央/GFX_中央_何应钦_small.dds"
 	}
 	#冯玉祥
 	spriteType = {
@@ -46,12 +46,12 @@ spriteTypes = {
 	}
 	#刘峙
 	spriteType = {
-		name = "GFX_CHI_LIUZHI"
-		texturefile = "gfx/thales/CHI/GFX_CHI_LIUZHI.dds"
+		name = "GFX_中央_刘峙"
+		texturefile = "gfx/thales/中央/GFX_中央_刘峙.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_LIUZHI_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_LIUZHI_small.dds"
+		name = "GFX_中央_刘峙_small"
+		texturefile = "gfx/thales/中央/GFX_中央_刘峙_small.dds"
 	}
 	#韩复渠
 	spriteType = {
@@ -73,57 +73,57 @@ spriteTypes = {
 	}
 	#杜聿明
 	spriteType = {
-		name = "GFX_CHI_DUYUMING"
-		texturefile = "gfx/thales/CHI/GFX_CHI_DUYUMING.dds"
+		name = "GFX_中央_杜聿明"
+		texturefile = "gfx/thales/中央/GFX_中央_杜聿明.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_DUYUMING_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_DUYUMING_small.dds"
+		name = "GFX_中央_杜聿明_small"
+		texturefile = "gfx/thales/中央/GFX_中央_杜聿明_small.dds"
 	}
 	#王耀武
 	spriteType = {
-		name = "GFX_CHI_WANGYAOWU"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGYAOWU.dds"
+		name = "GFX_中央_王耀武"
+		texturefile = "gfx/thales/中央/GFX_中央_王耀武.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_WANGYAOWU_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_WANGYAOWU_small.dds"
+		name = "GFX_中央_王耀武_small"
+		texturefile = "gfx/thales/中央/GFX_中央_王耀武_small.dds"
 	}
 	#戴安澜
 	spriteType = {
-		name = "GFX_CHI_DUYUMING_DAIANLAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_DUYUMING_DAIANLAN.dds"
+		name = "GFX_中央_杜聿明_戴安澜"
+		texturefile = "gfx/thales/中央/GFX_中央_杜聿明_戴安澜.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_DUYUMING_DAIANLAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_DUYUMING_DAIANLAN_small.dds"
+		name = "GFX_中央_杜聿明_戴安澜_small"
+		texturefile = "gfx/thales/中央/GFX_中央_杜聿明_戴安澜_small.dds"
 	}
 	#孙立人
 	spriteType = {
-		name = "GFX_CHI_DUYUMING_SUNLIREN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_DUYUMING_SUNLIREN.dds"
+		name = "GFX_中央_杜聿明_孙立人"
+		texturefile = "gfx/thales/中央/GFX_中央_杜聿明_孙立人.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_DUYUMING_SUNLIREN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_DUYUMING_SUNLIREN_small.dds"
+		name = "GFX_中央_杜聿明_孙立人_small"
+		texturefile = "gfx/thales/中央/GFX_中央_杜聿明_孙立人_small.dds"
 	}
 	#胡宗南
 	spriteType = {
-		name = "GFX_CHI_HUZONGNAN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_HUZONGNAN.dds"
+		name = "GFX_中央_胡宗南"
+		texturefile = "gfx/thales/中央/GFX_中央_胡宗南.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_HUZONGNAN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_HUZONGNAN_small.dds"
+		name = "GFX_中央_胡宗南_small"
+		texturefile = "gfx/thales/中央/GFX_中央_胡宗南_small.dds"
 	}
 	#陈明仁
 	spriteType = {
-		name = "GFX_CHI_CHENMINGREN"
-		texturefile = "gfx/thales/CHI/GFX_CHI_CHENMINGREN.dds"
+		name = "GFX_中央_陈明仁"
+		texturefile = "gfx/thales/中央/GFX_中央_陈明仁.dds"
 	}
 	spriteType = {
-		name = "GFX_CHI_CHENMINGREN_small"
-		texturefile = "gfx/thales/CHI/GFX_CHI_CHENMINGREN_small.dds"
+		name = "GFX_中央_陈明仁_small"
+		texturefile = "gfx/thales/中央/GFX_中央_陈明仁_small.dds"
 	}
 	#李觉@何键@唐生智
 	spriteType = {
