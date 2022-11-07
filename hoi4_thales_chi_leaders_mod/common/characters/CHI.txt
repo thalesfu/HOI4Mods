@@ -334,12 +334,12 @@ characters={
 		}
 	}
 	
-	CHI_yang_hucheng={
-		name=CHI_yang_hucheng
+	CHI_陕西_杨虎城={
+		name=CHI_SHANXI_YANGHUCHENG_NAME
 		portraits={
 			army={
-				large="GFX_CHI_YANGHUCHENG"
-				small="GFX_CHI_YANGHUCHENG_small"
+				large="GFX_陕西_杨虎城"
+				small="GFX_陕西_杨虎城_small"
 			}
 		}
 		corps_commander={
