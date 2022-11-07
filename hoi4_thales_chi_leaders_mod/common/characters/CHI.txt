@@ -95,12 +95,12 @@ characters={
 		}
 	}
 	
-	CHI_tang_shengzhi={
-		name=CHI_tang_shengzhi
+	CHI_湖南_唐生智={
+		name=CHI_HUNAN_TANGSHENGZHI_NAME
 		portraits={
 			army={
-				large="GFX_CHI_TANGSHENGZHI"
-				small="GFX_CHI_TANGSHENGZHI_small"
+				large="GFX_湖南_唐生智"
+				small="GFX_湖南_唐生智_small"
 			}
 		}
 		field_marshal={
@@ -244,12 +244,12 @@ characters={
 		}
 	}
 	
-	CHI_he_jian={
-		name=CHI_he_jian
+	CHI_湖南_唐生智_何键={
+		name=CHI_HUNAN_TANGSHENGZHI_HEJIAN_NAME
 		portraits={
 			army={
-				large="GFX_CHI_TANGSHENGZHI_HEJIAN"
-				small="GFX_CHI_TANGSHENGZHI_HEJIAN_small"
+				large="GFX_湖南_唐生智_何键"
+				small="GFX_湖南_唐生智_何键_small"
 			}
 		}
 		corps_commander={
@@ -262,12 +262,12 @@ characters={
 		}
 	}
 	
-	CHI_zhu_shaoliang={
-		name=CHI_zhu_shaoliang
+	CHI_云南_朱绍良={
+		name=CHI_YUNNAN_ZHUSHAOLIANG_NAME
 		portraits={
 			army={
-				large="GFX_CHI_ZHUSHAOLIANG"
-				small="GFX_CHI_ZHUSHAOLIANG_small"
+				large="GFX_云南_朱绍良"
+				small="GFX_云南_朱绍良_small"
 			}
 		}
 		corps_commander={
@@ -280,12 +280,12 @@ characters={
 		}
 	}
 	
-	CHI_liu_xiang={
-		name=CHI_liu_xiang
+	CHI_四川_刘湘={
+		name=CHI_SICHUAN_LIUXIANG_NAME
 		portraits={
 			army={
-				large="GFX_CHI_LIUXIANG"
-				small="GFX_CHI_LIUXIANG_small"
+				large="GFX_四川_刘湘"
+				small="GFX_四川_刘湘_small"
 			}
 		}
 		corps_commander={
@@ -298,12 +298,12 @@ characters={
 		}
 	}
 	
-	CHI_lu_diping={
-		name=CHI_lu_diping
+	CHI_湖南_鲁涤平={
+		name=CHI_HUNAN_LUDIPING_NAME
 		portraits={
 			army={
-				large="GFX_CHI_TANYANKAI_LUDIPING"
-				small="GFX_CHI_TANYANKAI_LUDIPING_small"
+				large="GFX_湖南_鲁涤平"
+				small="GFX_湖南_鲁涤平_small"
 			}
 		}
 		corps_commander={
