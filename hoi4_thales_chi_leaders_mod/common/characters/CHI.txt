@@ -256,6 +256,24 @@ characters={
 		}
 	}
 	
+	CHI_中央_朱绍良={
+		name=CHI_ZHONGYANG_ZHUSHAOLIANG_NAME
+		portraits={
+			army={
+				large="GFX_中央_朱绍良"
+				small="GFX_中央_朱绍良_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
 	CHI_中央_徐庭瑶={
 		name=CHI_ZHONGYANG_XUTINGYAO_NAME
 		portraits={
@@ -545,9 +563,27 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
-			attack_skill=4
-			defense_skill=5
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_山西_阎锡山_徐永昌={
+		name=CHI_SHANXI_YANXISHAN_XUYONGCHANG_NAME
+		portraits={
+			army={
+				large="GFX_山西_阎锡山_徐永昌"
+				small="GFX_山西_阎锡山_徐永昌_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=4
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
@@ -574,23 +610,6 @@ characters={
 	}
 	
 	#云南
-	CHI_云南_朱绍良={
-		name=CHI_YUNNAN_ZHUSHAOLIANG_NAME
-		portraits={
-			army={
-				large="GFX_云南_朱绍良"
-				small="GFX_云南_朱绍良_small"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
 	
 	#陕西
 	CHI_陕西_杨虎城={

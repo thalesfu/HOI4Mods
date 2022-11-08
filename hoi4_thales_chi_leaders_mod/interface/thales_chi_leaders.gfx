@@ -80,6 +80,15 @@ spriteTypes = {
 		name = "GFX_中央_陈继承_small"
 		texturefile = "gfx/thales/中央/GFX_中央_陈继承_small.dds"
 	}
+	#朱绍良
+	spriteType = {
+		name = "GFX_中央_朱绍良"
+		texturefile = "gfx/thales/中央/GFX_中央_朱绍良.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_朱绍良_small"
+		texturefile = "gfx/thales/中央/GFX_中央_朱绍良_small.dds"
+	}
 	#徐庭瑶
 	spriteType = {
 		name = "GFX_中央_徐庭瑶"
@@ -88,6 +97,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_中央_徐庭瑶_small"
 		texturefile = "gfx/thales/中央/GFX_中央_徐庭瑶_small.dds"
+	}
+	#邢震南
+	spriteType = {
+		name = "GFX_中央_张治中_邢震南"
+		texturefile = "gfx/thales/中央/GFX_中央_张治中_邢震南.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_张治中_邢震南_small"
+		texturefile = "gfx/thales/中央/GFX_中央_张治中_邢震南_small.dds"
 	}
 	#胡宗南
 	spriteType = {
@@ -143,6 +161,24 @@ spriteTypes = {
 		name = "GFX_中央_杜聿明_孙立人_small"
 		texturefile = "gfx/thales/中央/GFX_中央_杜聿明_孙立人_small.dds"
 	}
+	#黄杰
+	spriteType = {
+		name = "GFX_中央_黄杰"
+		texturefile = "gfx/thales/中央/GFX_中央_黄杰.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_黄杰_small"
+		texturefile = "gfx/thales/中央/GFX_中央_黄杰_small.dds"
+	}
+	#李玉堂
+	spriteType = {
+		name = "GFX_中央_李玉堂"
+		texturefile = "gfx/thales/中央/GFX_中央_李玉堂.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_李玉堂_small"
+		texturefile = "gfx/thales/中央/GFX_中央_李玉堂_small.dds"
+	}
 	
 	#广东
 	#张发奎
@@ -171,6 +207,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_广东_张发奎_薛岳_small"
 		texturefile = "gfx/thales/广东/GFX_广东_张发奎_薛岳_small.dds"
+	}
+	#蒋光鼐
+	spriteType = {
+		name = "GFX_广东_蒋光鼐"
+		texturefile = "gfx/thales/广东/GFX_广东_蒋光鼐.dds"
+	}
+	spriteType = {
+		name = "GFX_广东_蒋光鼐_small"
+		texturefile = "gfx/thales/广东/GFX_广东_蒋光鼐_small.dds"
 	}
 	#蔡廷锴
 	spriteType = {
@@ -356,6 +401,15 @@ spriteTypes = {
 		name = "GFX_西北_冯玉祥_郝梦龄_small"
 		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_郝梦龄_small.dds"
 	}
+	#庞炳勋
+	spriteType = {
+		name = "GFX_西北_冯玉祥_庞炳勋"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_庞炳勋.dds"
+	}
+	spriteType = {
+		name = "GFX_西北_冯玉祥_庞炳勋_small"
+		texturefile = "gfx/thales/西北/GFX_西北_冯玉祥_庞炳勋_small.dds"
+	}
 	
 	#山西
 	#商震@阎锡山
@@ -366,6 +420,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_山西_阎锡山_商震_small"
 		texturefile = "gfx/thales/山西/GFX_山西_阎锡山_商震_small.dds"
+	}
+	#徐永昌@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_徐永昌"
+		texturefile = "gfx/thales/山西/GFX_山西_阎锡山_徐永昌.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_徐永昌_small"
+		texturefile = "gfx/thales/山西/GFX_山西_阎锡山_徐永昌_small.dds"
 	}
 	#傅作义@阎锡山
 	spriteType = {
@@ -544,16 +607,45 @@ spriteTypes = {
 		name = "GFX_五省_赵观涛_small"
 		texturefile = "gfx/thales/五省/GFX_五省_赵观涛_small.dds"
 	}
-	
-	#云南
-	#朱绍良
+	#周凤岐
 	spriteType = {
-		name = "GFX_云南_朱绍良"
-		texturefile = "gfx/thales/云南/GFX_云南_朱绍良.dds"
+		name = "GFX_五省_周凤岐"
+		texturefile = "gfx/thales/五省/GFX_五省_周凤岐.dds"
 	}
 	spriteType = {
-		name = "GFX_云南_朱绍良_small"
-		texturefile = "gfx/thales/云南/GFX_云南_朱绍良_small.dds"
+		name = "GFX_五省_周凤岐_small"
+		texturefile = "gfx/thales/五省/GFX_五省_周凤岐_small.dds"
+	}
+	#周碞@周凤岐
+	spriteType = {
+		name = "GFX_五省_周凤岐_周碞"
+		texturefile = "gfx/thales/五省/GFX_五省_周凤岐_周碞.dds"
+	}
+	spriteType = {
+		name = "GFX_五省_周凤岐_周碞_small"
+		texturefile = "gfx/thales/五省/GFX_五省_周凤岐_周碞_small.dds"
+	}
+	
+	#云南
+	#曾万钟@朱德培
+	spriteType = {
+		name = "GFX_云南_朱德培_曾万钟"
+		texturefile = "gfx/thales/云南/GFX_云南_朱德培_曾万钟.dds"
+	}
+	spriteType = {
+		name = "GFX_云南_朱德培_曾万钟_small"
+		texturefile = "gfx/thales/云南/GFX_云南_朱德培_曾万钟_small.dds"
+	}
+	
+	#江西
+	#周浑元@赖世璜@李烈钧
+	spriteType = {
+		name = "GFX_江西_李烈钧_赖世璜_周浑元"
+		texturefile = "gfx/thales/江西/GFX_江西_李烈钧_赖世璜_周浑元.dds"
+	}
+	spriteType = {
+		name = "GFX_江西_李烈钧_赖世璜_周浑元_small"
+		texturefile = "gfx/thales/江西/GFX_江西_李烈钧_赖世璜_周浑元_small.dds"
 	}
 	
 	#四川
@@ -744,5 +836,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_河南_刘镇华_刘茂恩_small"
 		texturefile = "gfx/thales/河南/GFX_河南_刘镇华_刘茂恩_small.dds"
+	}
+	#孙殿英
+	spriteType = {
+		name = "GFX_河南_孙殿英"
+		texturefile = "gfx/thales/河南/GFX_河南_孙殿英.dds"
+	}
+	spriteType = {
+		name = "GFX_河南_孙殿英_small"
+		texturefile = "gfx/thales/河南/GFX_河南_孙殿英_small.dds"
 	}
 }
