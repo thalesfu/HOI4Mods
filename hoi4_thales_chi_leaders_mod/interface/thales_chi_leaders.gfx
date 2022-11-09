@@ -233,15 +233,6 @@ spriteTypes = {
 		name = "GFX_中央_胡宗南_small"
 		texturefile = "gfx/thales/中央/GFX_中央_胡宗南_small.dds"
 	}
-	#王耀武
-	spriteType = {
-		name = "GFX_中央_王耀武"
-		texturefile = "gfx/thales/中央/GFX_中央_王耀武.dds"
-	}
-	spriteType = {
-		name = "GFX_中央_王耀武_small"
-		texturefile = "gfx/thales/中央/GFX_中央_王耀武_small.dds"
-	}
 	#徐庭瑶@第五军
 	spriteType = {
 		name = "GFX_中央_第五军_徐庭瑶"
@@ -377,14 +368,77 @@ spriteTypes = {
 		name = "GFX_中央_七一军_熊新民_small"
 		texturefile = "gfx/thales/中央/GFX_中央_七一军_熊新民_small.dds"
 	}
+	#郑洞国@新一军
+	spriteType = {
+		name = "GFX_中央_新一军_郑洞国"
+		texturefile = "gfx/thales/中央/GFX_中央_新一军_郑洞国.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_新一军_郑洞国_small"
+		texturefile = "gfx/thales/中央/GFX_中央_新一军_郑洞国_small.dds"
+	}
 	#孙立人@新一军
 	spriteType = {
 		name = "GFX_中央_新一军_孙立人"
-		texturefile = "gfx/thales/中央/GFX_中央_杜聿明_孙立人GFX_中央_新一军_孙立人.dds"
+		texturefile = "gfx/thales/中央/GFX_中央_新一军_孙立人.dds"
 	}
 	spriteType = {
 		name = "GFX_中央_新一军_孙立人_small"
 		texturefile = "gfx/thales/中央/GFX_中央_新一军_孙立人_small.dds"
+	}
+	#唐守治@新一军
+	spriteType = {
+		name = "GFX_中央_新一军_唐守治"
+		texturefile = "gfx/thales/中央/GFX_中央_新一军_唐守治.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_新一军_唐守治_small"
+		texturefile = "gfx/thales/中央/GFX_中央_新一军_唐守治_small.dds"
+	}
+	#李鸿@新一军
+	spriteType = {
+		name = "GFX_中央_新一军_李鸿"
+		texturefile = "gfx/thales/中央/GFX_中央_新一军_李鸿.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_新一军_李鸿_small"
+		texturefile = "gfx/thales/中央/GFX_中央_新一军_李鸿_small.dds"
+	}
+	#廖耀湘@新六军
+	spriteType = {
+		name = "GFX_中央_新六军_廖耀湘"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_廖耀湘.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_新六军_廖耀湘_small"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_廖耀湘_small.dds"
+	}
+	#刘建章@新六军
+	spriteType = {
+		name = "GFX_中央_新六军_刘建章"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_刘建章.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_新六军_刘建章_small"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_刘建章_small.dds"
+	}
+	#李涛@新六军
+	spriteType = {
+		name = "GFX_中央_新六军_李涛"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_李涛.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_新六军_李涛_small"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_李涛_small.dds"
+	}
+	#龙天武@新六军
+	spriteType = {
+		name = "GFX_中央_新六军_龙天武"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_龙天武.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_新六军_龙天武_small"
+		texturefile = "gfx/thales/中央/GFX_中央_新六军_龙天武_small.dds"
 	}
 	#黄杰
 	spriteType = {
@@ -431,14 +485,23 @@ spriteTypes = {
 		name = "GFX_中央_刘戡_small"
 		texturefile = "gfx/thales/中央/GFX_中央_刘戡_small.dds"
 	}
-	#俞济时
+	#俞济时@七四军
 	spriteType = {
-		name = "GFX_中央_俞济时"
-		texturefile = "gfx/thales/中央/GFX_中央_俞济时.dds"
+		name = "GFX_中央_七四军_俞济时"
+		texturefile = "gfx/thales/中央/GFX_中央_七四军_俞济时.dds"
 	}
 	spriteType = {
-		name = "GFX_中央_俞济时_small"
-		texturefile = "gfx/thales/中央/GFX_中央_俞济时_small.dds"
+		name = "GFX_中央_七四军_俞济时_small"
+		texturefile = "gfx/thales/中央/GFX_中央_七四军_俞济时_small.dds"
+	}
+	#王耀武@七四军
+	spriteType = {
+		name = "GFX_中央_七四军_王耀武"
+		texturefile = "gfx/thales/中央/GFX_中央_七四军_王耀武.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_七四军_王耀武_small"
+		texturefile = "gfx/thales/中央/GFX_中央_七四军_王耀武_small.dds"
 	}
 	#汤恩伯
 	spriteType = {
