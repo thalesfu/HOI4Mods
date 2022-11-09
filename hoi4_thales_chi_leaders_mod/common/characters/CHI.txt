@@ -350,6 +350,25 @@ characters={
 		}
 	}
 	
+	CHI_东北_张学良_于学忠={
+		name=CHI_DONGBEI_YUXUEZHONG_NAME
+		portraits={
+			army={
+				large="GFX_东北_张学良_于学忠"
+				small="GFX_东北_张学良_于学忠_small"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero trait_reckless aggressive_assaulter offensive_doctrine inspirational_leader}
+			skill=5
+			attack_skill=6
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	
 	#湖南
 	CHI_湖南_程潜={
 		name=CHI_HUNAN_CHENGQIAN_NAME

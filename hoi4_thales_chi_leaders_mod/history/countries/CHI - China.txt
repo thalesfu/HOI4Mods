@@ -59,6 +59,7 @@ recruit_character = CHI_中央_徐庭瑶
 recruit_character = CHI_广东_张发奎
 recruit_character = CHI_hsueh_yueh
 recruit_character = CHI_zhang_xueliang
+recruit_character = CHI_东北_张学良_于学忠
 recruit_character = CHI_西北_冯玉祥
 recruit_character = CHI_西北_冯玉祥_孙连仲
 recruit_character = CHI_西北_冯玉祥_韩复渠
