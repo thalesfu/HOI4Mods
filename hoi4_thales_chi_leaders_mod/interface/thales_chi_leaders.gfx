@@ -1025,6 +1025,15 @@ spriteTypes = {
 		name = "GFX_中央_刘戡_small"
 		texturefile = "gfx/thales/中央/GFX_中央_刘戡_small.dds"
 	}
+	#孙元良
+	spriteType = {
+		name = "GFX_中央_孙元良"
+		texturefile = "gfx/thales/中央/GFX_中央_孙元良.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_孙元良_small"
+		texturefile = "gfx/thales/中央/GFX_中央_孙元良_small.dds"
+	}
 	
 	#广东
 	#张发奎
