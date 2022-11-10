@@ -274,24 +274,6 @@ characters={
 		}
 	}
 	
-	CHI_中央_徐庭瑶={
-		name=CHI_ZHONGYANG_XUTINGYAO_NAME
-		portraits={
-			army={
-				large="GFX_中央_徐庭瑶"
-				small="GFX_中央_徐庭瑶_small"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-	
 	#广东
 	CHI_广东_张发奎={
 		name=CHI_GUANGDONG_ZHANGFAKUI_NAME

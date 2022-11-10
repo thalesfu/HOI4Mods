@@ -55,7 +55,6 @@ recruit_character = CHI_中央_张治中
 recruit_character = CHI_中央_钱大钧
 recruit_character = CHI_中央_陈继承
 recruit_character = CHI_中央_朱绍良
-recruit_character = CHI_中央_徐庭瑶
 recruit_character = CHI_广东_张发奎
 recruit_character = CHI_hsueh_yueh
 recruit_character = CHI_zhang_xueliang
