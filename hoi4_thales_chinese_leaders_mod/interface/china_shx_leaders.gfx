@@ -1,0 +1,111 @@
+spriteTypes = {
+	#山西
+	#商震@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_商震"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_商震.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_商震_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_商震_small.dds"
+	}
+	#徐永昌@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_徐永昌"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_徐永昌.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_徐永昌_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_徐永昌_small.dds"
+	}
+	#傅作义@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_傅作义"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_傅作义.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_傅作义_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_傅作义_small.dds"
+	}
+	#杨爱源@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_杨爱源"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_杨爱源.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_杨爱源_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_杨爱源_small.dds"
+	}
+	#孙楚@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_孙楚"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_孙楚.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_孙楚_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_孙楚_small.dds"
+	}
+	#刘奉滨@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_刘奉滨"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_刘奉滨.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_刘奉滨_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_刘奉滨_small.dds"
+	}
+	#孟宪吉@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_孟宪吉"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_孟宪吉.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_孟宪吉_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_孟宪吉_small.dds"
+	}
+	#郭宗汾@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_郭宗汾"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_郭宗汾.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_郭宗汾_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_郭宗汾_small.dds"
+	}
+	#姜玉贞@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_姜玉贞"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_姜玉贞.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_姜玉贞_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_姜玉贞_small.dds"
+	}
+	#梁鉴堂@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_梁鉴堂"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_梁鉴堂.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_梁鉴堂_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_梁鉴堂_small.dds"
+	}
+	#董其武@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_董其武"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_董其武.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_董其武_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_董其武_small.dds"
+	}
+	#孙兰峰@阎锡山
+	spriteType = {
+		name = "GFX_山西_阎锡山_孙兰峰"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_孙兰峰.dds"
+	}
+	spriteType = {
+		name = "GFX_山西_阎锡山_孙兰峰_small"
+		texturefile = "gfx/china/山西/GFX_山西_阎锡山_孙兰峰_small.dds"
+	}
+}

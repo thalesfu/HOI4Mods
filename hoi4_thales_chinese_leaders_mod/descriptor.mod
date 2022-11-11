@@ -1,4 +1,4 @@
-name="Thales HOI4 Mod CHI Units"
+name="Thales HOI4 Mod Chinese Leaders"
 picture="thumbnail.png"
 tags={
 	"Utilities"
@@ -6,6 +6,5 @@ tags={
 dependencies={
 	"52 Chinese Localisation"
 	"Thales HOI4 Mod"
-	"Thales HOI4 Mod Chinese Leaders"
 }
 supported_version="1.12.*"
