@@ -1,0 +1,91 @@
+characters={
+
+	### 盛世才 ###
+	XY_SIK_sheng_shicai={
+		name="盛世才"
+		portraits={
+			army={
+				large="gfx/leaders/SIK/portrait_sik_Sheng_Shicai.dds"
+				small=GFX_portrait_SIK_sheng_shicai_small
+
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 马仲英 ###
+	XY_SIK_Ma_Zhongying={
+		name="马仲英"
+		portraits={
+			army={
+				large="gfx/leaders/SIK/portrait_sik_Ma_Zhongying.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 和加尼牙孜·阿吉 ###
+	XY_SIK_hejianiyazi={
+		name="和加尼牙孜·阿吉"
+		portraits={
+			army={
+				large="gfx/leaders/SIK/portrait_sik_hejianiyazi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	### 尧乐博斯 ###
+	XY_SIK_yaolebosi={
+		name="尧乐博斯"
+		portraits={
+			army={
+				large="gfx/leaders/SIK/portrait_sik_Yaolebosi.dds"
+				small="gfx/interface/ideas/yaolebosi.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = SIK_yol_bars
+			allowed = {
+				original_tag = SIK
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

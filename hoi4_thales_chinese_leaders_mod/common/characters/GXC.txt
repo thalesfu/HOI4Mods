@@ -50,13 +50,13 @@ characters={
 				factor = 1.000
 			}
 		}
-		
-		corps_commander={
-			skill=3
-			attack_skill=2
+		field_marshal={
+			traits={ politically_connected war_hero trait_cautious organizer logistics_wizard organisational_leader}
+			skill=4
+			attack_skill=3
 			defense_skill=3
 			planning_skill=3
-			logistics_skill=2
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}

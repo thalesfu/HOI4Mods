@@ -1,0 +1,339 @@
+on_actions = {
+	on_startup = {
+		effect = {
+############################
+			PRC = {
+#### 删去人物
+retire_character = PRC_zhu_de
+retire_character = PRC_zhou_enlai
+retire_character = PRC_lin_biao
+retire_character = PRC_chen_yi
+retire_character = PRC_peng_dehuai
+retire_character = PRC_liu_bocheng
+retire_character = PRC_xu_xiangqian
+retire_character = PRC_nie_rongzhen
+retire_character = PRC_ye_jianying
+retire_character = PRC_su_yu
+retire_character = PRC_chen_geng
+retire_character = PRC_ziao_jingguang
+retire_character = PRC_lin_bojiu
+retire_character = PRC_he_yuandang #吴运铎
+retire_character = PRC_gao_qiu #换为张爱萍
+retire_character = PRC_hsia_tian #换为刘亚楼
+retire_character = PRC_zhang_wei #换为刘道生
+retire_character = PRC_fang_zeyi #换为萧华
+retire_character = PRC_gao_gang
+retire_character = PRC_liang_shen #换为方子翼
+retire_character = PRC_deng_ye_peng #换为邓业鹏
+retire_character = PRC_ma_jin #换为彭德怀
+#### 新增人物
+# 将领
+recruit_character = XY_PRC_mao_zedong
+recruit_character = XY_PRC_zhu_de
+recruit_character = XY_PRC_zhou_enlai
+recruit_character = XY_PRC_lin_biao
+recruit_character = XY_PRC_chen_yi
+recruit_character = XY_PRC_peng_dehuai
+recruit_character = XY_PRC_ziao_jingguang
+recruit_character = XY_PRC_nie_rongzhen
+recruit_character = XY_PRC_su_yu
+recruit_character = XY_PRC_liu_bocheng
+recruit_character = XY_PRC_chen_geng
+recruit_character = XY_PRC_xu_xiangqian
+recruit_character = XY_PRC_ye_jianying
+recruit_character = XY_PRC_he_long
+recruit_character = XY_PRC_ye_ting
+recruit_character = XY_PRC_luo_ronghuan
+recruit_character = XY_PRC_chen_guang
+recruit_character = XY_PRC_xu_guangda
+recruit_character = XY_PRC_peng_xuefeng
+recruit_character = XY_PRC_zhu_rui
+recruit_character = XY_PRC_zhang_aiping
+recruit_character = XY_PRC_zuo_quan
+recruit_character = XY_PRC_deng_xiaoping
+recruit_character = XY_PRC_xu_haidong
+recruit_character = XY_PRC_huang_kecheng
+recruit_character = XY_PRC_Tan_Zheng
+recruit_character = XY_PRC_Luo_Ruiqing
+recruit_character = XY_PRC_Zhang_Yunyi
+recruit_character = XY_PRC_Wang_Shusheng
+recruit_character = XY_PRC_yang_jingyu
+recruit_character = XY_PRC_zhao_shangzhi
+# 内阁
+recruit_character = XY_PRC_lin_boqu
+recruit_character = XY_PRC_wu_yunduo
+recruit_character = XY_PRC_liu_yalou
+recruit_character = XY_PRC_liu_daosheng
+recruit_character = XY_PRC_xiao_hua
+recruit_character = XY_PRC_gao_gang
+recruit_character = XY_PRC_fang_ziyi
+recruit_character = XY_PRC_han_xianchu
+# 科学家
+recruit_character = XY_PRC_deng_jiaxian
+recruit_character = XY_PRC_qian_sanqiang
+recruit_character = XY_PRC_wang_ganchang
+recruit_character = XY_PRC_qian_xuesen
+recruit_character = XY_PRC_gu_songfen
+recruit_character = XY_PRC_luo_peilin
+recruit_character = XY_PRC_huang_xuhua
+recruit_character = XY_PRC_gu_maoxiang
+recruit_character = XY_PRC_wang_zherong
+recruit_character = XY_PRC_liu_xianzhi
+# 特工
+	create_operative_leader = {
+		name = "李克农"
+		GFX = "gfx/leaders/spies/PRC_li_kenong.dds"
+		traits = { operative_infiltrator operative_commando operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PRC CHI }
+	}
+	create_operative_leader = {
+		name = "潘汉年"
+		GFX = "gfx/leaders/spies/PRC_pan_hannian.dds"
+		traits = { operative_infiltrator operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PRC CHI JAP }
+	}
+	create_operative_leader = {
+		name = "郭汝瑰"
+		GFX = "gfx/leaders/spies/PRC_guo_rugui.dds"
+		traits = { operative_infiltrator operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PRC CHI }
+	}
+	create_operative_leader = {
+		name = "熊向晖"
+		GFX = "gfx/leaders/spies/PRC_xiong_xianghui.dds"
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PRC CHI }
+	}
+}
+############################
+			CHI = {
+#### 删去人物
+retire_character = CHI_tu_yuming
+retire_character = CHI_zhu_de #换为杜聿明
+retire_character = CHI_hsueh_yueh
+retire_character = CHI_li_zongren #换为薛岳
+retire_character = CHI_gu_zhutong
+retire_character = CHI_chen_jitang #换为顾祝同
+retire_character = CHI_wei_lihuang
+retire_character = CHI_xiao_yisu #换为卫立煌
+retire_character = CHI_sun_li_jen
+retire_character = CHI_he_yingqin #换为孙立人
+retire_character = CHI_huang_shen #换为萨镇冰
+retire_character = CHI_fu_zuoyi #移至晋系
+retire_character = CHI_chen_shaokuan
+retire_character = CHI_bai_chongxi
+retire_character = CHI_he_yingqin
+retire_character = CHI_chen_cheng #换为何应钦
+retire_character = CHI_yu_hanmou #换为陈诚
+retire_character = CHI_bo_yibo #换为蒋百里
+retire_character = CHI_fang_zeyi #换为裘伟德
+retire_character = CHI_xiao_jinguang #换为陈策
+retire_character = CHI_random_prince_of_terror #换为毛人凤
+retire_character = CHI_zhou_zhirou
+retire_character = CHI_wang_ganchang
+#### 新增人物
+# 将领
+recruit_character = XY_CHI_chiang_kaishek
+recruit_character = XY_CHI_du_yuming
+recruit_character = XY_CHI_xue_yue
+recruit_character = XY_CHI_gu_zhutong
+recruit_character = XY_CHI_wei_lihuang
+recruit_character = XY_CHI_sun_li_ren
+recruit_character = XY_CHI_feng_yuxiang
+recruit_character = XY_CHI_cheng_qian
+recruit_character = XY_CHI_chen_shaokuan
+recruit_character = XY_CHI_he_yingqin
+recruit_character = XY_CHI_tang_enbo
+recruit_character = XY_CHI_guan_linzheng
+recruit_character = XY_CHI_sa_zhenbing
+recruit_character = XY_CHI_gui_yongqing
+recruit_character = XY_CHI_zhang_zizhong
+recruit_character = XY_CHI_Chen_Cheng
+recruit_character = XY_CHI_chen_mingren
+recruit_character = XY_CHI_jiang_dingwen
+recruit_character = XY_CHI_liu_zhi
+recruit_character = XY_CHI_song_xilian
+recruit_character = XY_CHI_song_zheyuan
+recruit_character = XY_CHI_sun_lianzhong
+recruit_character = XY_CHI_zhu_shaoliang
+recruit_character = XY_CHI_jiang_weiguo
+# 内阁
+recruit_character = XY_CHI_jiang_baili
+recruit_character = XY_CHI_qiu_weide
+recruit_character = XY_CHI_chen_ce
+recruit_character = XY_CHI_mao_renfeng
+recruit_character = XY_CHI_zhou_zhirou
+# 科学家
+recruit_character = XY_CHI_wu_dayou
+recruit_character = XY_CHI_wu_jianxiong
+recruit_character = XY_CHI_dai_yungui
+recruit_character = XY_CHI_zhu_lancheng
+recruit_character = XY_CHI_wang_weinong
+# 特工
+	create_operative_leader = {
+		name = "戴笠"
+		GFX = "gfx/leaders/spies/CHI_dai_li.dds"
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CHI }
+	}
+	create_operative_leader = {
+		name = "徐恩曾"
+		GFX = "gfx/leaders/spies/CHI_xu_enzeng.dds"
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CHI }
+	}
+	create_operative_leader = {
+		name = "毛人凤"
+		GFX = "gfx/leaders/spies/CHI_mao_renfeng.dds"
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CHI }
+	}
+}
+############################
+			GXC = {
+#### 删去人物
+retire_character = GXC_bai_chongxi
+retire_character = GXC_chen_jitang
+retire_character = GXC_yu_hanmou
+retire_character = GXC_huang_shaohong
+#### 新增人物
+# 将领
+recruit_character = XY_GXC_li_zongren
+recruit_character = XY_GXC_bai_chongxi
+recruit_character = XY_GXC_chen_jitang
+recruit_character = XY_GXC_yu_hanmou
+recruit_character = XY_GXC_zhang_fakui
+recruit_character = XY_GXC_huang_shaohong
+recruit_character = XY_GXC_huang_qixiang
+recruit_character = XY_GXC_cai_tingkai
+recruit_character = XY_GXC_jiang_guangnai
+recruit_character = XY_GXC_li_pinxian
+recruit_character = XY_GXC_liao_lei
+recruit_character = XY_GXC_xia_wei
+recruit_character = XY_GXC_ye_zhao
+# 科学家
+recruit_character = XY_GXC_ling_hongxun
+# 特工
+	create_operative_leader = {
+		name = "王公度"
+		GFX = "gfx/leaders/spies/GXC_wang_gongdu.dds"
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GXC CHI }
+	}
+}
+############################
+			YUN = {
+#### 删去人物
+retire_character = YUN_lu_han
+retire_character = YUN_liu_wenhui
+#### 新增人物
+# 将领
+recruit_character = XY_YUN_long_yun
+recruit_character = XY_YUN_lu_han
+recruit_character = XY_YUN_liu_xiang
+recruit_character = XY_YUN_liu_wenhui
+recruit_character = XY_YUN_deng_xihou
+recruit_character = XY_YUN_sun_du
+recruit_character = XY_YUN_li_jiayu
+recruit_character = XY_YUN_yang_sen
+recruit_character = XY_YUN_wang_jiaben
+recruit_character = XY_YUN_wang_zuanxu
+recruit_character = XY_YUN_zhang_chong
+}
+############################
+			SHX = {
+#### 删去人物
+retire_character = SHX_wang_jingguo
+retire_character = SHX_fu_zuoyi
+#### 新增人物
+# 将领
+recruit_character = XY_SHX_yan_xishan
+recruit_character = XY_SHX_wang_jingguo
+recruit_character = XY_SHX_fu_zuoyi
+recruit_character = XY_SHX_shang_zhen
+recruit_character = XY_SHX_sun_chu
+recruit_character = XY_SHX_xu_yongchang
+recruit_character = XY_SHX_yang_aiyuan
+recruit_character = XY_SHX_zhao_chengshou
+# 科学家
+recruit_character = XY_SHX_li_shuhua
+}
+############################
+			XSM = {
+#### 删去人物
+retire_character = XSM_ma_buqing
+retire_character = XSM_ma_hongbin
+retire_character = XSM_ma_hongkui
+#### 新增人物
+# 将领
+recruit_character = XY_XSM_ma_bufang
+recruit_character = XY_XSM_ma_hongbin
+recruit_character = XY_XSM_ma_buqing
+recruit_character = XY_XSM_ma_hongkui
+recruit_character = XY_XSM_ma_jiyuan
+recruit_character = XY_XSM_ma_dunjing
+}
+############################
+			SIK= {
+#### 删去人物
+retire_character = SIK_chiang_yufen
+retire_character = SIK_yol_bars
+#### 新增人物
+# 将领
+recruit_character = XY_SIK_sheng_shicai
+recruit_character = XY_SIK_Ma_Zhongying
+recruit_character = XY_SIK_yaolebosi
+recruit_character = XY_SIK_hejianiyazi
+}
+############################
+			TIB = {
+#### 新增人物
+# 将领
+recruit_character = XY_TIB_jamphel_yeshe_gyaltsen
+recruit_character = XY_TIB_apeiawangjinmei
+recruit_character = XY_TIB_Pengcuoraojie
+}
+############################
+			MAN = {
+#### 新增人物
+# 将领
+recruit_character = XY_MAN_aisin_gioro_puyi
+recruit_character = XY_MAN_yu_zhishan
+recruit_character = XY_MAN_aixinjueluo_jixing
+}
+############################
+			MEN = {
+#### 新增人物
+# 将领
+recruit_character = XY_MEN_prince_demchugdongrub
+recruit_character = XY_MEN_li_shouxin
+recruit_character = XY_MEN_wu_guting
+}
+############################
+		}
+	}
+}

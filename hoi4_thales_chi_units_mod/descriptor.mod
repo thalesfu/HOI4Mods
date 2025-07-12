@@ -3,9 +3,4 @@ picture="thumbnail.png"
 tags={
 	"Utilities"
 }
-dependencies={
-	"52 Chinese Localisation"
-	"Thales HOI4 Mod"
-	"Thales HOI4 Mod Chinese Leaders"
-}
-supported_version="1.12.*"
+supported_version="1.1*.*"

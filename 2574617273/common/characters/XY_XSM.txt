@@ -1,0 +1,161 @@
+characters={
+
+	### 马步芳 ###
+	XY_XSM_ma_bufang={
+		name="马步芳"
+		portraits={
+			army={
+				large="GFX_portrait_xsm_ma_bufang"
+				small="GFX_idea_generic_army_asia_3"
+			}
+		}
+		corps_commander={
+		    traits = { cavalry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	
+	### 马步青 ###
+	XY_XSM_ma_buqing={
+		name="马步青"
+		portraits={
+			army={
+				large="gfx/leaders/XSM/portrait_xsm_Ma_Buqing.dds"
+                                small="gfx/interface/ideas/ma_buqing.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = XSM_ma_buqing
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	
+	### 马鸿宾 ###
+	XY_XSM_ma_hongbin={
+		name="马鸿宾"
+		portraits={
+			army={
+				large="gfx/leaders/XSM/portrait_xsm_ma_hongbin.dds"
+				small="gfx/interface/ideas/ma_hongbin.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = XSM_ma_hongbin
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+		        traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 马鸿逵 ###
+	XY_XSM_ma_hongkui={
+		name="马鸿逵"
+		portraits={
+			army={
+				large="gfx/leaders/XSM/portrait_xsm_ma_hongkui.dds"
+				small="gfx/interface/ideas/ma_hongkui.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = XSM_ma_hongkui
+			ledger = air
+			allowed = {
+				original_tag = XSM
+			}
+			
+			traits = {
+				air_warfare_theorist
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	
+	### 马继援 ###
+	XY_XSM_ma_jiyuan={
+		name="马继援"
+		portraits={
+			army={
+				large="gfx/leaders/XSM/portrait_xsm_ma_jiyuan.dds"
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 马惇靖 ###
+	XY_XSM_ma_dunjing={
+		name="马惇靖"
+		portraits={
+			army={
+				large="gfx/leaders/XSM/portrait_xsm_ma_dunjing.dds"
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

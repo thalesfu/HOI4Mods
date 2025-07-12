@@ -1,0 +1,59 @@
+characters={
+
+	### 爱新觉罗·溥仪 ###
+	XY_MAN_aisin_gioro_puyi={
+		name="爱新觉罗·溥仪"
+		portraits={
+			army={
+				large=GFX_portrait_MAN_aisin_gioro_puyi
+			}
+		}
+		field_marshal={
+                        traits={ old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 于芷山 ###
+	XY_MAN_yu_zhishan={
+		name="于芷山"
+		portraits={
+			army={
+				large="gfx/leaders/MAN/portrait_man_Yu_Zhishan.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 爱新觉罗·吉兴 ###
+	XY_MAN_aixinjueluo_jixing={
+		name="爱新觉罗·吉兴"
+		portraits={
+			army={
+				large="gfx/leaders/MAN/portrait_man_aixinjueluo_jixing.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

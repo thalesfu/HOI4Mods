@@ -6,4 +6,4 @@ tags={
 dependencies= {
 	"52 Chinese Localisation"
 }
-supported_version="1.12.*"
+supported_version="1.1*.*"

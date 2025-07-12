@@ -1,0 +1,199 @@
+characters={
+
+	### 阎锡山 ###
+	XY_SHX_yan_xishan={
+		name="阎锡山"
+		portraits={
+			army={
+				small=GFX_portrait_SHX_yan_xishan_small
+				large="gfx/leaders/SHX/portrait_shx_yan_xishan2.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = SHX_yan_xishan
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits = { old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 傅作义 ###
+	XY_SHX_fu_zuoyi={
+		name="傅作义"
+		portraits={
+			army={
+				large="GFX_portrait_chi_fu_zuoyi"
+				small="gfx/interface/ideas/fu_zuoyi.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SHX_fu_zuoyi
+			allowed  = {
+				original_tag  = SHX
+			}
+			traits  = {
+				silent_workhorse 
+			}
+		}
+		corps_commander={
+                        traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 王靖国 ###
+	XY_SHX_wang_jingguo={
+		name="王靖国"
+		portraits={
+			army={ #These two portraits match
+				large="gfx/leaders/SHX/portrait_shx_wang_jingguo.dds"
+				small="GFX_idea_generic_army_asia_1"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 徐永昌 ###
+	XY_SHX_xu_yongchang={
+		name="徐永昌"
+		portraits={
+			army={
+				large="gfx/leaders/SHX/portrait_shx_xu_yongchang.dds"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 商震 ###
+	XY_SHX_shang_zhen={
+		name="商震"
+		portraits={
+			army={
+				large="gfx/leaders/SHX/portrait_shx_Shang_Zhen.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 孙楚 ###
+	XY_SHX_sun_chu={
+		name="孙楚"
+		portraits={
+			army={
+				large="gfx/leaders/SHX/portrait_shx_sun_chu.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 杨爱源 ###
+	XY_SHX_yang_aiyuan={
+		name="杨爱源"
+		portraits={
+			army={
+				large="gfx/leaders/SHX/portrait_shx_Yang_Aiyuan.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 赵承绶 ###
+	XY_SHX_zhao_chengshou={
+		name="赵承绶"
+		portraits={
+			army={
+				large="gfx/leaders/SHX/portrait_shx_zhao_chengshou.dds"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	###### 科学家 ######
+
+	### 李书华 ###
+	XY_SHX_li_shuhua = {
+		name ="李书华"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_SHX_li_shuhua.dds"
+			}
+		}
+		scientist = {
+			traits = {  }
+			skills = {
+				specialization_nuclear = 1
+			}
+		}
+	}
+}

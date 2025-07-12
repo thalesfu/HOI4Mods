@@ -12,12 +12,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ trait_cautious politically_connected defensive_doctrine }
+			traits={ politically_connected war_hero trait_cautious organizer logistics_wizard organisational_leader}
 			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=4
+			attack_skill=6
+			defense_skill=6
+			planning_skill=6
+			logistics_skill=6
 			legacy_id=-1
 		}
 		country_leader={
@@ -51,13 +51,13 @@ characters={
 			}
 		}
 		
-		corps_commander={
-			traits={ infantry_officer organizer }
+		field_marshal={
+			traits={ politically_connected war_hero trait_cautious organizer logistics_wizard organisational_leader}
 			skill=4
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=4
+			attack_skill=5
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -88,9 +88,9 @@ characters={
 
 		corps_commander={
 			traits={ infantry_officer }
-			skill=3
-			attack_skill=4
-			defense_skill=3
+			skill=0
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
@@ -106,12 +106,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer trait_mountaineer }
-			skill=4
-			attack_skill=3
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=2
+			traits={ infantry_officer }
+			skill=0
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}
@@ -125,11 +125,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer trait_mountaineer }
-			skill=5
+			traits={ infantry_officer }
+			skill=0
 			attack_skill=4
-			defense_skill=5
-			planning_skill=3
+			defense_skill=4
+			planning_skill=4
 			logistics_skill=4
 			legacy_id=-1
 		}

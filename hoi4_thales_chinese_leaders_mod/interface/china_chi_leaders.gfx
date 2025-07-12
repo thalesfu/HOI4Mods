@@ -25,6 +25,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_中央_顾祝同_small"
 		texturefile = "gfx/china/中央/GFX_中央_顾祝同_small.dds"
+	}	
+	#汤恩伯
+	spriteType = {
+		name = "GFX_中央_汤恩伯"
+		texturefile = "gfx/china/中央/汤恩伯.dds"
 	}
 	#刘峙
 	spriteType = {
@@ -2177,5 +2182,94 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_河南_樊钟秀_郜子举_small"
 		texturefile = "gfx/china/河南/GFX_河南_樊钟秀_郜子举_small.dds"
+	}
+	#萨镇冰
+	spriteType = {
+		name = "GFX_中央_萨镇冰"
+		texturefile = "gfx/china/中央/GFX_中央_萨镇冰.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_萨镇冰_small"
+		texturefile = "gfx/china/中央/GFX_中央_萨镇冰_small.dds"
+	}
+	#陈绍宽
+	spriteType = {
+		name = "GFX_中央_陈绍宽"
+		texturefile = "gfx/china/中央/GFX_中央_陈绍宽.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_陈绍宽_small"
+		texturefile = "gfx/china/中央/GFX_中央_陈绍宽_small.dds"
+	}
+	#桂永清
+	spriteType = {
+		name = "GFX_中央_桂永清"
+		texturefile = "gfx/china/中央/GFX_中央_桂永清.dds"
+	}
+	spriteType = {
+		name = "GFX_中央_桂永清_small"
+		texturefile = "gfx/china/中央/GFX_中央_桂永清_small.dds"
+	}
+	#蒋纬国
+	spriteType = {
+		name = "GFX_中央_蒋纬国"
+		texturefile = "gfx/china/中央/GFX_中央_蒋纬国.dds"
+	}
+	#蒋百里
+	spriteType = {
+		name = "GFX_中央_蒋百里_small"
+		texturefile = "gfx/china/中央/GFX_中央_蒋百里_small.dds"
+	}
+	#裘伟德
+	spriteType = {
+		name = "GFX_中央_裘伟德_small"
+		texturefile = "gfx/china/中央/GFX_中央_裘伟德_small.dds"
+	}
+	#陈策
+	spriteType = {
+		name = "GFX_中央_陈策_small"
+		texturefile = "gfx/china/中央/GFX_中央_陈策_small.dds"
+	}
+
+	#毛人凤
+	spriteType = {
+		name = "GFX_中央_毛人凤_small"
+		texturefile = "gfx/china/中央/GFX_中央_毛人凤_small.dds"
+	}
+
+	#周至柔
+	spriteType = {
+		name = "GFX_中央_周至柔_small"
+		texturefile = "gfx/china/中央/GFX_中央_周至柔_small.dds"
+	}
+
+	#吴大猷
+	spriteType = {
+		name = "GFX_中央_吴大猷"
+		texturefile = "gfx/china/科学家/GFX_中央_吴大猷.dds"
+	}
+
+	#吴健雄
+	spriteType = {
+		name = "GFX_中央_吴健雄"
+		texturefile = "gfx/china/科学家/GFX_中央_吴健雄.dds"
+	}
+
+	#戴运轨
+	spriteType = {
+		name = "GFX_中央_戴运轨"
+		texturefile = "gfx/china/科学家/GFX_中央_戴运轨.dds"
+	}
+
+	#朱兰成
+	spriteType = {
+		name = "GFX_中央_朱兰成"
+		texturefile = "gfx/china/科学家/GFX_中央_朱兰成.dds"
+	}
+
+	#王唯农
+	spriteType = {
+		name = "GFX_中央_王唯农"
+		texturefile = "gfx/china/科学家/GFX_中央_王唯农.dds"
 	}
 }

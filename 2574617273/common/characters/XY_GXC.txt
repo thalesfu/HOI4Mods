@@ -1,0 +1,337 @@
+characters={
+
+	### 李宗仁 ###
+	XY_GXC_li_zongren={
+		name="李宗仁"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren2.dds"
+				small=GFX_portrait_GXC_li_zongren_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GXC_li_zongren
+			allowed  = {
+				original_tag  = GXC
+			}
+			traits  = {
+				prince_of_terror 
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine unyielding_defender }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 白崇禧 ###
+	XY_GXC_bai_chongxi={
+		name="白崇禧"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_bai_chongxi.dds"
+				small="gfx/interface/ideas/bai_chongxi.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = GXC_bai_chongxi
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				navy_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits = { infantry_officer brilliant_strategist }
+                  	skill = 4
+	                attack_skill = 4
+        	        defense_skill = 4
+            	        planning_skill = 3
+         	        logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+
+	### 陈济棠 ###
+	XY_GXC_chen_jitang={
+		name="陈济棠"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_chen_jitang.dds"
+				small="gfx/interface/ideas/chen_jitang.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = GXC_chen_jitang
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits = { politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 余汉谋 ###
+	XY_GXC_yu_hanmou={
+		name="余汉谋"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_Yu_Hanmou.dds"
+				small="gfx/interface/ideas/yu_hanmou.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = GXC_yu_hanmou
+			ledger = army
+			allowed = {
+				original_tag = GXC
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+		field_marshal={
+			traits = { politically_connected }
+                	skill = 2
+        	        attack_skill = 1
+         	        defense_skill = 2
+         	        planning_skill = 1
+        	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 黄绍竑 ###
+	XY_GXC_huang_shaohong={
+		name="黄绍竑"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_Huang_Shaohong.dds"
+				small="gfx/interface/ideas/huang_shaohong.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = GXC_huang_shaohong
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits = { infantry_officer }
+                  	skill = 3
+        	        attack_skill = 2
+          	        defense_skill = 3
+         	        planning_skill = 3
+          	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 张发奎 ###
+	XY_GXC_zhang_fakui={
+		name="张发奎"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_zhang_fakui.dds"
+			}
+		}
+		corps_commander={
+			traits = { infantry_officer }
+                	skill = 3
+         	        attack_skill = 4
+         	        defense_skill = 3
+         	        planning_skill = 2
+         	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 蔡廷锴 ###
+	XY_GXC_cai_tingkai={
+		name="蔡廷锴"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_cai_tingkai.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+                 	skill = 2
+        	        attack_skill = 2
+         	        defense_skill = 3
+          	        planning_skill = 1
+         	        logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 黄琪翔 ###
+	XY_GXC_huang_qixiang={
+		name="黄琪翔"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_huang_qixiang.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+                 	skill = 2
+        	        attack_skill = 2
+         	        defense_skill = 2
+          	        planning_skill = 1
+         	        logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 蒋光鼐 ###
+	XY_GXC_jiang_guangnai={
+		name="蒋光鼐"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_jiang_guangnai.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+                 	skill = 2
+        	        attack_skill = 1
+         	        defense_skill = 2
+          	        planning_skill = 1
+         	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 李品仙 ###
+	XY_GXC_li_pinxian={
+		name="李品仙"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_li_pinxian.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+                 	skill = 2
+        	        attack_skill = 1
+         	        defense_skill = 1
+          	        planning_skill = 2
+         	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 廖磊 ###
+	XY_GXC_liao_lei={
+		name="廖磊"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_liao_lei.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+                 	skill = 2
+        	        attack_skill = 2
+         	        defense_skill = 1
+          	        planning_skill = 1
+         	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 夏威 ###
+	XY_GXC_xia_wei={
+		name="夏威"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_xia_wei.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+                 	skill = 2
+        	        attack_skill = 2
+         	        defense_skill = 1
+          	        planning_skill = 1
+         	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 叶肇 ###
+	XY_GXC_ye_zhao={
+		name="叶肇"
+		portraits={
+			army={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_ye_zhao.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+                 	skill = 2
+        	        attack_skill = 2
+         	        defense_skill = 1
+          	        planning_skill = 1
+         	        logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	###### 科学家 ######
+
+	### 凌鸿勋 ###
+	XY_GXC_ling_hongxun = {
+		name ="凌鸿勋"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_GXC_ling_hongxun.dds"
+			}
+		}
+		scientist = {
+			traits = {  }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+}

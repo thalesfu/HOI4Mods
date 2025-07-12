@@ -1,0 +1,59 @@
+characters={
+
+	### 徳穆楚克栋鲁普亲王 ###
+	XY_MEN_prince_demchugdongrub={
+		name="徳穆楚克栋鲁普亲王"
+		portraits={
+			army={
+				large="GFX_portrait_men_demchugdongrub"
+			}
+		}
+		corps_commander={
+                        traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 李守信 ###
+	XY_MEN_li_shouxin={
+		name="李守信"
+		portraits={
+			army={
+				large="gfx/leaders/MEN/Portrait_ Mengkukuo_Clique_li_shouxin.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 乌古廷 ###
+	XY_MEN_wu_guting={
+		name="乌古廷"
+		portraits={
+			army={
+				large="gfx/leaders/MEN/Portrait_ Mengkukuo_Clique_wu_guting.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

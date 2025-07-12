@@ -1,0 +1,59 @@
+characters={
+
+	### 热振仁波切 ###
+	XY_TIB_jamphel_yeshe_gyaltsen={
+		name="热振仁波切"
+		portraits={
+			army={
+				large="gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 阿沛·阿旺晋美 ###
+	XY_TIB_apeiawangjinmei={
+		name="阿沛·阿旺晋美"
+		portraits={
+			army={
+				large="gfx/leaders/TIB/Portrait_Tibet_Apei_Awangjinmei.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 朵噶·彭措饶杰 ###
+	XY_TIB_Pengcuoraojie={
+		name="朵噶·彭措饶杰"
+		portraits={
+			army={
+				large="gfx/leaders/TIB/Portrait_Tibet_Pengcuoraojie.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

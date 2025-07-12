@@ -41,10 +41,10 @@ characters={
 		}
 		corps_commander={
 			traits={ politically_connected }
-			skill=3
+			skill=0
 			attack_skill=2
-			defense_skill=3
-			planning_skill=3
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
 		}
@@ -439,9 +439,9 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
-			attack_skill=4
-			defense_skill=5
+			skill=0
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
@@ -476,9 +476,9 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=4
+			skill=0
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
@@ -494,9 +494,9 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=4
+			skill=0
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
@@ -512,9 +512,9 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=4
+			skill=0
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1

@@ -1,0 +1,817 @@
+characters={
+
+	### 蒋介石 ###	
+	XY_CHI_chiang_kaishek={
+		name="蒋介石"
+		portraits={
+			army={
+				large=GFX_portrait_CHI_chiang_kaishek
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 杜聿明（内阁替换朱德） ###
+	XY_CHI_du_yuming={
+		name="杜聿明"
+		portraits={
+			army={
+				large="GFX_portrait_chi_du_yuming"
+				small="GFX_idea_CHI_du_yuming"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = CHI_zhu_de
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 薛岳（内阁替换李宗仁） ###
+	XY_CHI_xue_yue={
+		name="薛岳"
+		portraits={
+			army={
+				large="GFX_portrait_chi_xue_yue"
+				small="GFX_idea_CHI_xue_yue"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			idea_token = CHI_li_zongren
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist trait_reckless war_hero offensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 顾祝同（内阁替换陈济棠） ###
+	XY_CHI_gu_zhutong={
+		name="顾祝同"
+		portraits={
+			army={
+				large="GFX_portrait_chi_gu_zhutong"
+				small="GFX_idea_CHI_gu_zhutong"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = CHI_chen_jitang
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 卫立煌（内阁替换萧毅肃） ###
+	XY_CHI_wei_lihuang={
+		name="卫立煌"
+                portraits={
+			army={
+				large="GFX_portrait_chi_wei_lihuang"
+				small="GFX_idea_CHI_wei_lihuang"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = CHI_xiao_yisu
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 孙立人（内阁替换何应钦） ###
+	XY_CHI_sun_li_ren={
+		name="孙立人"
+		portraits={
+			army={
+				large="GFX_portrait_chi_sun_li_jen"
+				small="GFX_idea_CHI_sun_li_jen"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			idea_token = CHI_he_yingqin
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist }
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 冯玉祥 ###
+	XY_CHI_feng_yuxiang={
+		name="冯玉祥"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_feng_yuxiang.dds"
+			}
+		}
+		corps_commander={
+			traits = { career_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 汤恩伯 ###
+	XY_CHI_tang_enbo={
+		name="汤恩伯"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_tang_enbo.dds"
+			}
+		}
+		corps_commander={
+			traits = { harsh_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+
+	### 张自忠 ###
+	XY_CHI_zhang_zizhong={
+		name="张自忠"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_Zhang_Zizhong.dds"
+			}
+		}
+		corps_commander={
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 萨镇冰（内阁替换黄兴） ###
+	XY_CHI_sa_zhenbing={
+		name="萨镇冰"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_Sa_Zhenbing.dds"
+				small="gfx/interface/ideas/sa_zhenbing.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = CHI_huang_shen
+			ledger = navy
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = {
+				naval_theorist
+			}
+		}
+		navy_leader={
+			traits = {  }
+			skill = 2
+   		        attack_skill = 2
+    		        defense_skill = 2
+    	            	maneuvering_skill = 1
+    		        coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 陈绍宽 ###
+	XY_CHI_chen_shaokuan={
+		name="陈绍宽"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_chen_shaokuan.dds"
+				small="gfx/interface/ideas/chen_shaokuan.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = CHI_chen_shaokuan
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+		navy_leader={
+			traits = { }
+			skill = 2
+   		        attack_skill = 1
+   		        defense_skill = 2
+   		        maneuvering_skill = 2
+    		        coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 桂永清（内阁替换白崇禧） ###
+	XY_CHI_gui_yongqing={
+		name="桂永清"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_gui_yongqing.dds"
+				small="gfx/interface/ideas/gui_yongqing.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = CHI_bai_chongxi
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+		navy_leader={
+			traits = { }
+			skill = 1
+    	          	attack_skill = 1
+         		defense_skill = 1
+         		maneuvering_skill = 1
+          		coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 陈诚（内阁替换余汉谋） ###	
+	XY_CHI_Chen_Cheng={
+		name="陈诚"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_Chen_Cheng.dds"
+				small="gfx/interface/ideas/chen_cheng.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = CHI_yu_hanmou
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 陈明仁 ###	
+	XY_CHI_chen_mingren={
+		name="陈明仁"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_chen_mingren.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 程潜 ###	
+	XY_CHI_cheng_qian={
+		name="程潜"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_cheng_qian.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 关麟征 ###
+	XY_CHI_guan_linzheng={
+		name="关麟征"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_guan_linzheng.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 何应钦（内阁替换陈诚） ###
+	XY_CHI_he_yingqin={
+		name="何应钦"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_he_yingqin.dds"
+                                small="GFX_idea_CHI_he_yingqin"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = CHI_chen_cheng
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 蒋鼎文 ###	
+	XY_CHI_jiang_dingwen={
+		name="蒋鼎文"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_jiang_dingwen.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 刘峙 ###	
+	XY_CHI_liu_zhi={
+		name="刘峙"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_liu_zhi.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 宋希濂 ###
+	XY_CHI_song_xilian={
+		name="宋希濂"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_song_xilian.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 宋哲元 ###
+	XY_CHI_song_zheyuan={
+		name="宋哲元"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_song_zheyuan.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 孙连仲 ###
+	XY_CHI_sun_lianzhong={
+		name="孙连仲"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_sun_lianzhong.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	### 朱绍良 ###
+	XY_CHI_zhu_shaoliang={
+		name="朱绍良"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_zhu_shaoliang.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 蒋纬国 ###
+	XY_CHI_jiang_weiguo={
+		name="蒋纬国"
+		portraits={
+			army={
+				large="gfx/leaders/CHI/portrait_chi_jiang_weiguo.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	###### 内阁区 ######
+
+	### 蒋百里替换薄一波 ###
+	XY_CHI_jiang_baili={
+		name="蒋百里"
+		portraits={
+			army={
+				small="gfx/interface/ideas/jiang_baili.dds"
+			}
+		}
+		advisor={
+			cost = 100			
+			slot = theorist
+			idea_token = CHI_bo_yibo
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+	}
+
+	### 裘伟德替换方子翼 ###
+	XY_CHI_qiu_weide={
+		name="裘伟德"
+		portraits={
+			army={
+				small="gfx/interface/ideas/qiu_weide.dds"
+			}
+		}
+		advisor={
+			cost = 100		
+			slot = theorist
+			idea_token = CHI_fang_zeyi
+			ledger = air
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+
+	### 陈策替换萧劲光 ###
+	XY_CHI_chen_ce={
+		name="陈策"
+		portraits={
+			army={
+				small="gfx/interface/ideas/chen_ce.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = CHI_xiao_jinguang
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_chief_commerce_raiding_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	### 毛人凤替换Kwong Zhao ###
+	XY_CHI_mao_renfeng={
+		name="毛人凤"
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/mao_renfeng.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_random_prince_of_terror
+			available  = {
+				has_completed_focus  = CHI_bureau_of_investigation_and_statistics 
+			}
+			visible  = {
+				has_focus_tree  = china_nationalist_focus
+			}
+			allowed  = {
+				or  = {
+					original_tag  = CHI
+					is_chinese_warlord = yes 
+				}
+				has_dlc = "La Resistance"
+				has_dlc = "Waking the Tiger"
+			}
+			traits  = {
+				prince_of_terror 
+			}
+		}
+	}
+
+	### 周至柔 ###
+	XY_CHI_zhou_zhirou={
+		name="周至柔"
+		portraits={
+			army={
+				small="gfx/interface/ideas/zhou_zhirou.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = CHI_zhou_zhirou
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				air_chief_old_guard
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	###### 科学家 ######
+
+	### 吴大猷 ###
+	XY_CHI_wu_dayou = {
+		name ="吴大猷"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_CHI_wu_dayou.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	### 吴健雄 ###
+	XY_CHI_wu_jianxiong = {
+		name ="吴健雄"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_CHI_wu_jianxiong.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist }
+			skills = {
+				specialization_nuclear = 1
+			}
+		}
+	}
+
+	### 戴运轨 ###
+	XY_CHI_dai_yungui = {
+		name ="戴运轨"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_CHI_dai_yungui.dds"
+			}
+		}
+		scientist = {
+			traits = {  }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+	### 朱兰成 ###
+	XY_CHI_zhu_lancheng = {
+		name ="朱兰成"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_CHI_zhu_lancheng.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_electronics_specialist }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+	### 王唯农 ###
+	XY_CHI_wang_weinong = {
+		name ="王唯农"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_CHI_wang_weinong.dds"
+			}
+		}
+		scientist = {
+			traits = {  }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+}

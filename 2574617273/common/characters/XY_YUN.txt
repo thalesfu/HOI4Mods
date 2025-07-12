@@ -1,0 +1,257 @@
+characters={
+
+	### 龙云 ###
+	XY_YUN_long_yun={
+		name="龙云"
+		portraits={
+			army = {
+				small=GFX_portrait_YUN_long_yun_small
+				large="gfx/leaders/YUN/portrait_yun_long_yun.dds"
+			}
+		}
+		field_marshal={
+                        traits = { politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 卢汉 ###
+		XY_YUN_lu_han={
+		name="卢汉"
+		portraits={
+			army={
+				small="gfx/interface/ideas/lu_han.dds"
+				large="gfx/leaders/YUN/portrait_yun_lu_han.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = YUN_lu_han
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		corps_commander={
+                        traits = { politically_connected }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 刘湘 ###
+	XY_YUN_liu_xiang={
+		name="刘湘"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_liu_xiang.dds"
+			}
+		}
+		corps_commander={
+		    traits = { politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 刘文辉 ###
+	XY_YUN_liu_wenhui={
+		name="刘文辉"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_liu_wenhui.dds"
+                                small="gfx/interface/ideas/liu_wenhui.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = YUN_liu_wenhui
+			allowed  = {
+				original_tag  = YUN
+			}
+			traits  = {
+				armaments_organizer 
+			}
+		}
+		corps_commander={
+		    traits = { politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 李家钰 ###
+	XY_YUN_li_jiayu={
+		name="李家钰"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_li_jiayu.dds"
+			}
+		}
+		corps_commander={
+		    traits = { infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 杨森 ###
+	XY_YUN_yang_sen={
+		name="杨森"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_yang_sen.dds"
+			}
+		}
+		corps_commander={
+		    traits = { infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 邓锡侯 ###
+	XY_YUN_deng_xihou={
+		name="邓锡侯"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_Deng_Xihou.dds"
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 孙渡 ###
+	XY_YUN_sun_du={
+		name="孙渡"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_Sun_Du.dds"
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=2
+			attack_skill1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 王甲本 ###
+	XY_YUN_wang_jiaben={
+		name="王甲本"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_wang_jiaben.dds"
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 王缵绪 ###
+	XY_YUN_wang_zuanxu={
+		name="王缵绪"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_wang_zuanxu.dds"
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 张冲 ###
+	XY_YUN_zhang_chong={
+		name="张冲"
+		portraits={
+			army={
+				large="gfx/leaders/YUN/portrait_yun_zhang_chong.dds"
+			}
+		}
+		corps_commander={
+		    traits = {  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	###### 科学家 ######
+
+	### 李先闻 ###
+	XY_YUN_li_xianwen = {
+		name ="李先闻"
+		portraits = {
+			army = {
+				large ="gfx/leaders/scientists/portrait_YUN_li_xianwen.dds"
+			}
+		}
+		scientist = {
+			traits = {  }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+}
