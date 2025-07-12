@@ -81,6 +81,20 @@ characters={
 				small="GFX_中央_何应钦_small"
 			}
 		}
+		advisor={
+			slot = army_chief
+			idea_token = CHI_zhu_de
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		field_marshal={
 			traits={ old_guard organizer skilled_staffer  inflexible_strategist career_officer trait_cautious harsh_leader infantry_leader }
 			skill=3
@@ -89,35 +103,6 @@ characters={
 			planning_skill=3
 			logistics_skill=3
 			legacy_id=-1
-		}
-		advisor={
-			slot = army_chief
-			idea_token = CHI_he_yingqin
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				army_chief_maneuver_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = CHI_he_yingqin
-			ledger = army
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				army_logistics_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.500
-			}
 		}
 	}
 	
@@ -365,20 +350,6 @@ characters={
 			army={
 				large="GFX_portrait_chi_du_yuming"
 				small="GFX_idea_CHI_du_yuming"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = CHI_zhu_de
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				army_chief_offensive_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 		corps_commander={
@@ -1036,20 +1007,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_2"
-			}
-		}
-		advisor={
-			slot = navy_chief
-			idea_token = CHI_bai_chongxi
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				navy_chief_reform_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 0.200
 			}
 		}
 	}
