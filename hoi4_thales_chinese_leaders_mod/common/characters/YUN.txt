@@ -16,13 +16,13 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
-		field_marshal={
+		corps_commander={
 			traits={ politically_connected infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
-			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -70,13 +70,13 @@ characters={
 				large="GFX_四川_刘湘"
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits = { politically_connected brave infantry_officer}
-			skill=3
-			attack_skill=4
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}

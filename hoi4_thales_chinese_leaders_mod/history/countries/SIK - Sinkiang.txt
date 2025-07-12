@@ -28,6 +28,9 @@ recruit_character = SIK_tan_ma
 recruit_character = SIK_zhang_xiliang
 recruit_character = SIK_habibullah_huseinov
 recruit_character = SIK_isa_yusuf_alptekin
+recruit_character = CHINA_新疆_马仲英
+recruit_character = CHINA_新疆_和加尼牙孜
+recruit_character = CHINA_新疆_尧乐博斯
 
 if = {
 	limit = {

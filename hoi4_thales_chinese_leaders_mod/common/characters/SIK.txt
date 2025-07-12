@@ -16,6 +16,15 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		corps_commander={
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
 	}
 
 	SIK_chiang_yufen={
@@ -27,8 +36,47 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=4
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 马仲英 ###
+	CHINA_新疆_马仲英={
+		name=CHINA_XINJIANG_MAZHONGYING_NAME
+		portraits={
+			army={
+				large="GFX_新疆_马仲英"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 和加尼牙孜·阿吉 ###
+	CHINA_新疆_和加尼牙孜={
+		name=CHINA_XINJIANG_HEJIANIYAZI_NAME
+		portraits={
+			army={
+				large="GFX_新疆_和加尼牙孜"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
@@ -161,7 +209,8 @@ characters={
 		name=SIK_yol_bars
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_2"
+				large="GFX_新疆_尧乐博斯"
+				small="GFX_新疆_尧乐博斯_small"
 			}
 		}
 		advisor={
@@ -177,6 +226,16 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+
+		corps_commander={
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 
