@@ -1,6 +1,6 @@
 characters={
 	TIB_jamphel_yeshe_gyaltsen={
-		name="Jamphel Yeshe Gyaltsen"
+		name=CHINA_XIZANG_JAMPHEL_YESHE_GYALTSEN_NAME
 		portraits={
 			civilian={
 				large=GFX_portrait_Jamphel_Yeshe_Gyaltsen
@@ -10,6 +10,15 @@ characters={
 			ideology=despotism
 			expire="1965.1.1.1"
 			id=-1
+		}
+		corps_commander={
+			traits = { trait_mountaineer }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 	TIB_namgang_rinpoche={
@@ -434,6 +443,44 @@ characters={
 			army={
 				small="GFX_idea_generic_political_advisor_asia_3"
 			}
+		}
+	}
+
+	### 阿沛·阿旺晋美 ###
+	CHINA_西藏_阿佩阿旺敬美={
+		name=CHINA_XIZANG_APEI_AWANGJINMEI_NAME
+		portraits={
+			army={
+				large="GFX_西藏_阿沛阿旺晋美"
+			}
+		}
+		corps_commander={
+			traits = { trait_mountaineer }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 朵噶·彭措饶杰 ###
+	CHINA_西藏_朵噶彭措饶杰={
+		name=CHINA_XIZANG_PENGCUORAOJIE_NAME
+		portraits={
+			army={
+				large="GFX_西藏_朵噶彭措饶杰"
+			}
+		}
+		corps_commander={
+			traits = { trait_mountaineer }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 }

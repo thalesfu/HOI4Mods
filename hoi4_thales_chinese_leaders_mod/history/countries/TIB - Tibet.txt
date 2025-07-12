@@ -27,6 +27,8 @@ recruit_character = TIB_khemey_sonam_wangdi
 recruit_character = TIB_jigme_taring
 recruit_character = TIB_reting_rimpoche
 recruit_character = TIB_taktra_rinpoche
+recruit_character = CHINA_西藏_阿佩阿旺敬美
+recruit_character = CHINA_西藏_朵噶彭措饶杰
 
 1939.1.1 = {
 

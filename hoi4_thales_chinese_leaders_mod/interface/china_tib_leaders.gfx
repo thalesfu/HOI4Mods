@@ -1,0 +1,12 @@
+spriteTypes = {
+	#阿沛·阿旺晋美
+	spriteType = {
+		name = "GFX_西藏_阿沛阿旺晋美"
+		texturefile = "gfx/china/西藏/GFX_西藏_阿沛阿旺晋美.dds"
+	}
+	#朵噶·彭措饶杰
+	spriteType = {
+		name = "GFX_西藏_朵噶彭措饶杰"
+		texturefile = "gfx/china/西藏/GFX_西藏_朵噶彭措饶杰.dds"
+	}
+}
