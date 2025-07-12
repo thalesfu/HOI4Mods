@@ -29,6 +29,15 @@ recruit_character = GXC_yang_hulin
 recruit_character = GXC_wang_shuming
 recruit_character = GXC_li_jishen
 recruit_character = GXC_lei_zhong
+recruit_character = CHINA_广东_张发奎
+recruit_character = CHINA_广东_蔡廷锴
+recruit_character = CHINA_广东_黄琪翔
+recruit_character = CHINA_广东_蒋光鼐
+recruit_character = CHINA_广西_李品仙
+recruit_character = CHINA_广西_廖磊
+recruit_character = CHINA_广西_夏威
+recruit_character = CHINA_广西_叶肇
+recruit_character = CHINA_科学家_广西_凌鸿勋
 
 
 if = {

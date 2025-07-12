@@ -65,7 +65,6 @@ recruit_character = CHINA_中央_毛人凤
 recruit_character = CHINA_中央_周至柔
 recruit_character = CHI_tu_yuming
 recruit_character = CHI_sun_li_jen
-recruit_character = CHINA_广东_张发奎
 recruit_character = CHI_hsueh_yueh
 recruit_character = CHI_zhang_xueliang
 recruit_character = CHINA_东北_张学良_于学忠

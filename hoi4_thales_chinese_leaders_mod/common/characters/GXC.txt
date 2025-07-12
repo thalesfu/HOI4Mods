@@ -20,7 +20,15 @@ characters={
 				prince_of_terror 
 			}
 		}
-
+		field_marshal={
+			traits={ brilliant_strategist politically_connected brave war_hero career_officer trait_reckless media_personality harsh_leader infantry_officer aggressive_assaulter offensive_doctrine inspirational_leader jungle_rat ranger trait_mountaineer hill_fighter}
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
 		country_leader={
 			ideology=despotism
 			expire="1965.1.1.1"
@@ -32,8 +40,8 @@ characters={
 		name=GXC_chen_jitang
 		portraits={
 			army={
-				large=GFX_portrait_GXC_chen_jitang
-				small=GFX_portrait_GXC_chen_jitang_small
+				large="GFX_广东_陈济棠"
+				small="GFX_广东_陈济棠_small"
 			}
 		}
 		advisor={
@@ -50,13 +58,167 @@ characters={
 				factor = 1.000
 			}
 		}
-		field_marshal={
-			traits={ politically_connected war_hero trait_cautious organizer logistics_wizard organisational_leader}
-			skill=4
+		corps_commander={
+			traits = { old_guard politically_connected infantry_officer naval_invader swamp_fox jungle_rat}
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	#广东
+	CHINA_广东_张发奎={
+		name=CHINA_GUANGDONG_ZHANGFAKUI_NAME
+		portraits={
+			army={
+				large="GFX_广东_张发奎"
+				small="GFX_广东_张发奎_small"
+			}
+		}
+		corps_commander={
+			traits = { engineer_officer infantry_officer naval_invader swamp_fox jungle_rat}
+			skill=1
 			attack_skill=3
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 蔡廷锴 ###
+	CHINA_广东_蔡廷锴={
+		name=CHINA_GUANGDONG_CAITINGKAI_NAME
+		portraits={
+			army={
+				large="GFX_广东_蔡廷锴"
+				small="GFX_广东_蔡廷锴_small"
+			}
+		}
+		corps_commander={
+			traits = { engineer_officer infantry_officer naval_invader swamp_fox jungle_rat}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 黄琪翔 ###
+	CHINA_广东_黄琪翔={
+		name=CHINA_GUANGDONG_HUANGQIXIANG_NAME
+		portraits={
+			army={
+				large="GFX_广东_黄琪翔"
+			}
+		}
+		corps_commander={
+			traits = { skilled_staffer engineer_officer infantry_officer naval_invader swamp_fox jungle_rat}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 蒋光鼐 ###
+	CHINA_广东_蒋光鼐={
+		name=CHINA_GUANGDONG_JIANGGUANGNAI_NAME
+		portraits={
+			army={
+				large="GFX_广东_蒋光鼐"
+			}
+		}
+		corps_commander={
+			traits = { skilled_staffer engineer_officer infantry_officer naval_invader swamp_fox jungle_rat}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 李品仙 ###
+	CHINA_广西_李品仙={
+		name=CHINA_GUANGDONG_LIPINXIAN_NAME
+		portraits={
+			army={
+				large="GFX_广西_李品仙"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+            skill = 0
+	        attack_skill = 2
+        	defense_skill = 2
+            planning_skill = 2
+         	logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 廖磊 ###
+	CHINA_广西_廖磊={
+		name=CHINA_GUANGXI_LIAOLEI_NAME
+		portraits={
+			army={
+				large="GFX_广西_廖磊"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+            skill = 0
+	        attack_skill = 2
+        	defense_skill = 2
+            planning_skill = 2
+         	logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 夏威 ###
+	CHINA_广西_夏威={
+		name=CHINA_GUANGXI_XIAWEI_NAME
+		portraits={
+			army={
+				large="GFX_广西_夏威"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+            skill = 0
+	        attack_skill = 2
+        	defense_skill = 2
+            planning_skill = 2
+         	logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 叶肇 ###
+	CHINA_广西_叶肇={
+		name=CHINA_GUANGXI_YEZHAO_NAME
+		portraits={
+			army={
+				large="GFX_广西_叶肇"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+            skill = 0
+	        attack_skill = 2
+        	defense_skill = 2
+            planning_skill = 2
+         	logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -115,7 +277,8 @@ characters={
 		name=GXC_yu_hanmou
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_4"
+				large="GFX_广东_余汉谋"
+				small="GFX_广东_余汉谋_small"
 			}
 		}
 		advisor={
@@ -130,6 +293,15 @@ characters={
 			traits = {
 				military_theorist
 			}
+		}
+		corps_commander={
+			traits = { career_officer infantry_officer naval_invader swamp_fox jungle_rat}
+			skill=0
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
 
@@ -188,7 +360,8 @@ characters={
 		name=GXC_huang_shaohong
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_1"
+				large="GFX_广西_黄绍竑"
+				small="GFX_广西_黄绍竑_small"
 			}
 		}
 		advisor={
@@ -204,6 +377,15 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+		corps_commander={
+			traits={ politically_connected brave career_officer trait_reckless infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+            skill = 0
+	        attack_skill = 2
+        	defense_skill = 2
+            planning_skill = 2
+         	logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 
@@ -237,7 +419,8 @@ characters={
 		name=GXC_bai_chongxi
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_asia_3"
+				large="GFX_广西_白崇禧"
+				small="GFX_广西_白崇禧_small"
 			}
 		}
 		advisor={
@@ -253,6 +436,15 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+		corps_commander={
+			traits={skilled_staffer brilliant_strategist politically_connected brave career_officer trait_cautious media_personality harsh_leader infantry_officer aggressive_assaulter offensive_doctrine inspirational_leader jungle_rat ranger trait_mountaineer hill_fighter}
+            skill = 0
+	        attack_skill = 3
+        	defense_skill = 3
+            planning_skill = 3
+         	logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 
@@ -451,6 +643,24 @@ characters={
 			}
 			traits  = {
 				popular_figurehead 
+			}
+		}
+	}
+
+	###### 科学家 ######
+
+	### 凌鸿勋 ###
+	CHINA_科学家_广西_凌鸿勋 = {
+		name =CHINA_GUANGXI_LINGHONGXUN_NAME
+		portraits = {
+			army = {
+				large ="GFX_广西_凌鸿勋"
+			}
+		}
+		scientist = {
+			traits = {  }
+			skills = {
+				specialization_land = 1
 			}
 		}
 	}

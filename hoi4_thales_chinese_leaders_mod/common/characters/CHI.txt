@@ -82,6 +82,21 @@ characters={
 			}
 		}
 		advisor={
+			slot = high_command
+			idea_token = CHI_zhu_de
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		advisor={
 			slot = army_chief
 			idea_token = CHI_zhu_de
 			allowed = {
@@ -478,24 +493,6 @@ characters={
 	}
 	
 	#广东
-	CHINA_广东_张发奎={
-		name=CHINA_GUANGDONG_ZHANGFAKUI_NAME
-		portraits={
-			army={
-				large="GFX_广东_张发奎"
-				small="GFX_广东_张发奎_small"
-			}
-		}
-		corps_commander={
-			traits = { engineer_officer hill_fighter jungle_rat naval_invader}
-			skill=1
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=-1
-		}
-	}
 	
 	#薛岳
 	CHI_hsueh_yueh={
@@ -521,7 +518,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist trait_reckless war_hero offensive_doctrine engineer_officer hill_fighter jungle_rat naval_invader}
+			traits={ brilliant_strategist trait_reckless war_hero offensive_doctrine engineer_officer infantry_officer naval_invader swamp_fox jungle_rat}
 			skill=0
 			attack_skill=2
 			defense_skill=2
