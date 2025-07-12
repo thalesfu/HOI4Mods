@@ -840,29 +840,6 @@ characters={
 		}
 	}
 	
-	#山西
-	#傅作义
-	CHI_fu_zuoyi={
-		name=CHI_SHANXI_YANXISHAN_FUZUOYI_NAME
-		portraits={
-			army={
-				large="GFX_山西_阎锡山_傅作义"
-				small="GFX_山西_阎锡山_傅作义_small"
-			}
-		}
-		corps_commander={
-			traits = { brilliant_strategist brave war_hero trait_mountaineer hill_fighter engineer_officer infantry_officer cavalry_officer expert_improviser guerilla_fighter }
-			skill = 0
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id=-1
-		}
-	}
-	
-	#云南
-	
 	#陕西
 	CHINA_陕西_杨虎城={
 		name=CHINA_SHANXI_YANGHUCHENG_NAME

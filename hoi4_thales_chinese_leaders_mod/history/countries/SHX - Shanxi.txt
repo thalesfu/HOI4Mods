@@ -31,8 +31,10 @@ recruit_character = SHX_qu_yangke
 recruit_character = CHINA_山西_阎锡山_商震
 recruit_character = CHINA_山西_阎锡山_徐永昌
 recruit_character = CHINA_山西_阎锡山_杨爱源
-recruit_character = CHINA_山西_阎锡山_商震
-recruit_character = CHINA_山西_阎锡山_徐永昌
+recruit_character = CHINA_山西_孙楚
+recruit_character = CHINA_山西_赵承绶
+recruit_character = CHINA_科学家_山西_李书华
+
 
 
 if = {

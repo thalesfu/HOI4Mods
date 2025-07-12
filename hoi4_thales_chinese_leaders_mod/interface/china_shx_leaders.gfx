@@ -108,4 +108,19 @@ spriteTypes = {
 		name = "GFX_山西_阎锡山_孙兰峰_small"
 		texturefile = "gfx/china/山西/GFX_山西_阎锡山_孙兰峰_small.dds"
 	}
+	#王敬国
+	spriteType = {
+		name = "GFX_山西_王敬国"
+		texturefile = "gfx/china/山西/GFX_山西_王敬国.dds"
+	}
+	#赵承绶
+	spriteType = {
+		name = "GFX_山西_赵承绶"
+		texturefile = "gfx/china/山西/GFX_山西_赵承绶.dds"
+	}
+	#李书华
+	spriteType = {
+		name = "GFX_山西_李书华"
+		texturefile = "gfx/china/科学家/GFX_山西_李书华.dds"
+	}
 }

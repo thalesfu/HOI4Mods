@@ -29,18 +29,26 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		field_marshal={
+			traits = { old_guard }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
 	}
 
 	SHX_wang_jingguo={
 		name=SHX_wang_jingguo
 		portraits={
 			army={ #These two portraits match
-				large=GFX_portrait_SHX_wang_jingguo
-				small="GFX_idea_generic_army_asia_1"
+				large="GFX_山西_王敬国"
 			}
 		}
 		corps_commander={
-			traits={ politically_connected }
+			traits={ politically_connected engineer_officer }
 			skill=0
 			attack_skill=2
 			defense_skill=2
@@ -439,11 +447,12 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			traits = { brilliant_strategist brave war_hero trait_mountaineer hill_fighter engineer_officer infantry_officer cavalry_officer expert_improviser guerilla_fighter }
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -476,6 +485,7 @@ characters={
 			}
 		}
 		corps_commander={
+			traits={ engineer_officer }
 			skill=0
 			attack_skill=2
 			defense_skill=2
@@ -494,6 +504,26 @@ characters={
 			}
 		}
 		corps_commander={
+			traits={ politically_connected engineer_officer }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 孙楚 ###
+	CHINA_山西_孙楚={
+		name=CHINA_SHANXI_SUNCHU_NAME
+		portraits={
+			army={
+				large="GFX_山西_阎锡山_孙楚"
+			}
+		}
+		corps_commander={
+			traits={ engineer_officer }
 			skill=0
 			attack_skill=2
 			defense_skill=2
@@ -512,12 +542,50 @@ characters={
 			}
 		}
 		corps_commander={
+			traits={ engineer_officer }
 			skill=0
 			attack_skill=2
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
+		}
+	}
+
+	### 赵承绶 ###
+	CHINA_山西_赵承绶={
+		name=CHINA_SHANXI_ZHAOCHEngSHOU_NAME
+		portraits={
+			army={
+				large="GFX_山西_赵承绶"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	###### 科学家 ######
+
+	### 李书华 ###
+	CHINA_科学家_山西_李书华 = {
+		name =CHINA_SHANXI_LISHUHUA_NAME
+		portraits = {
+			army = {
+				large ="GFX_山西_李书华"
+			}
+		}
+		scientist = {
+			traits = {  }
+			skills = {
+				specialization_nuclear = 1
+			}
 		}
 	}
 }

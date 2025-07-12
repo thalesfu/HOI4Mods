@@ -76,7 +76,6 @@ recruit_character = CHINA_西北_冯玉祥_宋哲元
 recruit_character = CHINA_西北_冯玉祥_吉鸿昌
 recruit_character = CHINA_西北_冯玉祥_梁冠英
 recruit_character = CHINA_西北_冯玉祥_宋哲元_张自忠
-recruit_character = CHI_fu_zuoyi
 recruit_character = CHINA_湖南_程潜
 recruit_character = CHINA_湖南_唐生智
 recruit_character = CHINA_湖南_唐生智_何键
