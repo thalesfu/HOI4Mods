@@ -7,7 +7,6 @@ characters={
 			}
 			army={
 				large="GFX_portrait_xsm_ma_bufang"
-				small="GFX_idea_generic_army_asia_3"
 			}
 		}
 		country_leader={
@@ -15,14 +14,24 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+
+		corps_commander={
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
 	}
 
 	XSM_ma_hongbin={
 		name=XSM_ma_hongbin
 		portraits={
 			army={ #Trust me these portraits match together
-				large=GFX_portrait_XSM_ma_hongbin
-				small="GFX_idea_generic_army_asia_1"
+				large="GFX_宁夏_马鸿宾"
+				small="GFX_宁夏_马鸿宾_small"
 			}
 		}
 		advisor={
@@ -41,10 +50,11 @@ characters={
 		}
 
 		corps_commander={
-			skill=3
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
 			attack_skill=2
-			defense_skill=3
-			planning_skill=3
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
 		}
@@ -124,7 +134,8 @@ characters={
 		name=XSM_ma_hongkui
 		portraits={
 			army={
-				small="GFX_idea_generic_air_asia_2"
+				large="GFX_宁夏_马鸿逵"
+				small="GFX_宁夏_马鸿逵_small"
 			}
 		}
 		advisor={
@@ -140,6 +151,16 @@ characters={
 				air_warfare_theorist
 			}
 		}
+
+		corps_commander={
+			traits = { politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
 	}
 
 	
@@ -153,7 +174,8 @@ characters={
 		name=XSM_ma_buqing
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_3" #Changed in NSB so that the other Army Chief can an advisor portrait matching his general portrait
+				large="GFX_青海_马步青"
+				small="GFX_青海_马步青_small" #Changed in NSB so that the other Army Chief can an advisor portrait matching his general portrait
 			}
 		}
 		advisor={
@@ -169,6 +191,54 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+
+		corps_commander={
+			traits = { cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	### 马继援 ###
+	CHINA_宁夏_马继援={
+		name=CHINA_NINGXIA_MAJIYUAN_NAME
+		portraits={
+			army={
+				large="GFX_宁夏_马继援"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 马惇靖 ###
+	CHINA_青海_马惇靖={
+		name=CHINA_QINGHAI_MADUNJING_NAME
+		portraits={
+			army={
+				large="gGFX_青海_马惇靖"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer cavalry_leader cavalry_expert desert_fox }
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 

@@ -27,6 +27,8 @@ recruit_character = XSM_ma_buqing
 recruit_character = XSM_li_shiqun
 recruit_character = XSM_fang_jing
 recruit_character = XSM_zi_shen
+recruit_character = CHINA_宁夏_马继援
+recruit_character = CHINA_青海_马惇靖
 
 
 if = {

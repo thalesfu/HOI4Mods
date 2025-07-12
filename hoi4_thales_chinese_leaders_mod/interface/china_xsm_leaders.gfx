@@ -1,0 +1,39 @@
+spriteTypes = {
+	#马步青
+	spriteType = {
+		name = "GFX_青海_马步青"
+		texturefile = "gfx/china/青海/GFX_青海_马步青.dds"
+	}
+	spriteType = {
+		name = "GFX_青海_马步青_small"
+		texturefile = "gfx/china/青海/GFX_青海_马步青_small.dds"
+	}
+	#马鸿宾
+	spriteType = {
+		name = "GFX_宁夏_马鸿宾"
+		texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿宾.dds"
+	}
+	spriteType = {
+		name = "GFX_宁夏_马鸿宾_small"
+		texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿宾_small.dds"
+	}
+	#马鸿逵
+	spriteType = {
+		name = "GFX_宁夏_马鸿逵"
+		texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿逵.dds"
+	}
+	spriteType = {
+		name = "GFX_宁夏_马鸿逵_small"
+		texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿逵_small.dds"
+	}
+	#马继援
+	spriteType = {
+		name = "GFX_宁夏_马继援"
+		texturefile = "gfx/china/宁夏/GFX_宁夏_马继援.dds"
+	}
+	#马惇靖
+	spriteType = {
+		name = "GFX_青海_马惇靖"
+		texturefile = "gfx/china/青海/GFX_青海_马惇靖.dds"
+	}
+}
