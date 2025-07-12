@@ -882,46 +882,6 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
-	#四川
-	CHINA_四川_刘湘={
-		name=CHINA_SICHUAN_LIUXIANG_NAME
-		portraits={
-			army={
-				large="GFX_四川_刘湘"
-				small="GFX_四川_刘湘_small"
-			}
-		}
-		corps_commander={
-			traits = { old_guard}
-			skill=0
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	
-	#贵州
-	CHINA_贵州_王家烈={
-		name=CHINA_GUIZHOU_WANGJIALIE_NAME
-		portraits={
-			army={
-				large="GFX_贵州_王家烈"
-				small="GFX_贵州_王家烈_small"
-			}
-		}
-		corps_commander={
-			traits = { old_guard}
-			skill=0
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 
 	### THEORISTS ###
 

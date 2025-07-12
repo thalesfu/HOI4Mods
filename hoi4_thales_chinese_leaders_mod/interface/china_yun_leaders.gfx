@@ -1,0 +1,36 @@
+spriteTypes = {
+	#龙云
+	spriteType = {
+		name = "GFX_云南_龙云"
+		texturefile = "gfx/china/云南/GFX_云南_龙云.dds"
+	}
+	#卢汉
+	spriteType = {
+		name = "GFX_云南_卢汉"
+		texturefile = "gfx/china/云南/GFX_云南_卢汉.dds"
+	}
+	spriteType = {
+		name = "GFX_云南_卢汉_small"
+		texturefile = "gfx/china/云南/GFX_云南_卢汉_small.dds"
+	}
+	#孙渡
+	spriteType = {
+		name = "GFX_云南_孙渡"
+		texturefile = "gfx/china/云南/GFX_云南_孙渡.dds"
+	}
+	#王甲本
+	spriteType = {
+		name = "GFX_云南_王甲本"
+		texturefile = "gfx/china/云南/GFX_云南_王甲本.dds"
+	}
+	#王缵绪
+	spriteType = {
+		name = "GFX_四川_王缵绪"
+		texturefile = "gfx/china/四川/GFX_四川_王缵绪.dds"
+	}
+	#张冲
+	spriteType = {
+		name = "GFX_云南_张冲"
+		texturefile = "gfx/china/云南/GFX_云南_张冲.dds"
+	}
+}

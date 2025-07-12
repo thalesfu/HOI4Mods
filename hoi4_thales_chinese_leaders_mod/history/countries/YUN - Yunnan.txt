@@ -35,6 +35,15 @@ recruit_character = YUN_wang_jiang
 recruit_character = YUN_zhou_zhirou
 recruit_character = YUN_liu_wenhui
 recruit_character = YUN_ding_zhipan
+recruit_character = CHINA_四川_刘湘
+recruit_character = CHINA_贵州_王家烈
+recruit_character = CHINA_四川_李家钰
+recruit_character = CHINA_四川_杨森
+recruit_character = CHINA_四川_邓锡侯
+recruit_character = CHINA_云南_孙渡
+recruit_character = CHINA_云南_王甲本
+recruit_character = CHINA_四川_王缵绪
+recruit_character = CHINA_云南_张冲
 
 1939.1.1 = {
 

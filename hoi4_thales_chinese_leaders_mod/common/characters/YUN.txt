@@ -1,4 +1,5 @@
 characters={
+	#龙云
 	YUN_long_yun={
 		name=YUN_long_yun
 		portraits={
@@ -15,14 +16,24 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		field_marshal={
+			traits={ politically_connected infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
 	}
 
+	#卢汉
 	YUN_lu_han={
 		name=YUN_lu_han
 		portraits={
 			army={
-				small=GFX_portrait_YUN_lu_han_small
-				large=GFX_portrait_YUN_lu_han
+				small="GFX_云南_卢汉_small"
+				large="GFX_云南_卢汉"
 			}
 		}
 		advisor={
@@ -41,11 +52,185 @@ characters={
 		}
 
 		corps_commander={
+			traits={ politically_connected infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	#四川
+	CHINA_四川_刘湘={
+		name=CHINA_SICHUAN_LIUXIANG_NAME
+		portraits={
+			army={
+				large="GFX_四川_刘湘"
+			}
+		}
+		field_marshal={
+			traits = { politically_connected brave infantry_officer}
 			skill=3
 			attack_skill=4
-			defense_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	
+	#贵州
+	CHINA_贵州_王家烈={
+		name=CHINA_GUIZHOU_WANGJIALIE_NAME
+		portraits={
+			army={
+				large="GFX_贵州_王家烈"
+				small="GFX_贵州_王家烈_small"
+			}
+		}
+		corps_commander={
+			traits = { old_guard politically_connected}
+			skill=0
+			attack_skill=1
+			defense_skill=1
 			planning_skill=1
-			logistics_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	### 李家钰 ###
+	CHINA_四川_李家钰={
+		name=CHINA_SICHUAN_LIJIAYU_NAME
+		portraits={
+			army={
+				large="GFX_四川_李家钰"
+			}
+		}
+		corps_commander={
+			traits = { brave infantry_officer}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 杨森 ###
+	CHINA_四川_杨森={
+		name=CHINA_SICHUAN_YANGSEN_NAME
+		portraits={
+			army={
+				large="GFX_四川_杨森"
+			}
+		}
+		corps_commander={
+			traits = { brave infantry_officer}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 邓锡侯 ###
+	CHINA_四川_邓锡侯={
+		name=CHINA_SICHUAN_DENGXISHOU_NAME
+		portraits={
+			army={
+				large="GFX_四川_邓锡侯"
+			}
+		}
+		corps_commander={
+			traits = { brave infantry_officer}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 孙渡 ###
+	CHINA_云南_孙渡={
+		name=CHINA_YUNNAN_SUNTU_NAME
+		portraits={
+			army={
+				large="GFX_云南_孙渡"
+			}
+		}
+
+		corps_commander={
+			traits={ infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 王甲本 ###
+	CHINA_云南_王甲本={
+		name=CHINA_YUNNAN_WANGJIABEN_NAME
+		portraits={
+			army={
+				large="GFX_云南_王甲本"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 王缵绪 ###
+	CHINA_四川_王缵绪={
+		name=CHINA_SICHUAN_WANGZHUANXU_NAME
+		portraits={
+			army={
+				large="GFX_四川_王缵绪"
+			}
+		}
+		corps_commander={
+			traits = { old_guard infantry_officer}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### 张冲 ###
+	CHINA_云南_张冲={
+		name=CHINA_YUNNAN_ZHANGCONG_NAME
+		portraits={
+			army={
+				large="GFX_云南_张冲"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -425,7 +610,8 @@ characters={
 		name=YUN_liu_wenhui
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_asia_3"
+				large="GFX_四川_刘文辉"
+				small="GFX_四川_刘文辉_small"
 			}
 		}
 		advisor={
@@ -437,6 +623,15 @@ characters={
 			traits  = {
 				armaments_organizer 
 			}
+		}
+		corps_commander={
+			traits = { politically_connected brave infantry_officer}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 
