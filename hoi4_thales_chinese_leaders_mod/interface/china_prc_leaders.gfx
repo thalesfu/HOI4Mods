@@ -1,0 +1,244 @@
+spriteTypes = {
+	#贺龙
+	spriteType = {
+		name = "GFX_中共_贺龙"
+		texturefile = "gfx/china/中共/GFX_中共_贺龙.dds"
+	}
+	#刘伯承
+	spriteType = {
+		name = "GFX_中共_刘伯承"
+		texturefile = "gfx/china/中共/GFX_中共_刘伯承.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_刘伯承_small"
+		texturefile = "gfx/china/中共/GFX_中共_刘伯承_small.dds"
+	}
+	#徐向前
+	spriteType = {
+		name = "GFX_中共_徐向前"
+		texturefile = "gfx/china/中共/GFX_中共_徐向前.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_徐向前_small"
+		texturefile = "gfx/china/中共/GFX_中共_徐向前_small.dds"
+	}
+	#聂荣臻
+	spriteType = {
+		name = "GFX_中共_聂荣臻"
+		texturefile = "gfx/china/中共/GFX_中共_聂荣臻.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_聂荣臻_small"
+		texturefile = "gfx/china/中共/GFX_中共_聂荣臻_small.dds"
+	}
+	#叶剑英
+	spriteType = {
+		name = "GFX_中共_叶剑英"
+		texturefile = "gfx/china/中共/GFX_中共_叶剑英.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_叶剑英_small"
+		texturefile = "gfx/china/中共/GFX_中共_叶剑英_small.dds"
+	}
+	#邓小平
+	spriteType = {
+		name = "GFX_中共_邓小平"
+		texturefile = "gfx/china/中共/GFX_中共_邓小平.dds"
+	}
+	#叶挺
+	spriteType = {
+		name = "GFX_中共_叶挺"
+		texturefile = "gfx/china/中共/GFX_中共_叶挺.dds"
+	}
+	#粟裕
+	spriteType = {
+		name = "GFX_中共_粟裕"
+		texturefile = "gfx/china/中共/GFX_中共_粟裕.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_粟裕_small"
+		texturefile = "gfx/china/中共/GFX_中共_粟裕_small.dds"
+	}
+	#徐海东
+	spriteType = {
+		name = "GFX_中共_徐海东"
+		texturefile = "gfx/china/中共/GFX_中共_徐海东.dds"
+	}
+	#黄克诚
+	spriteType = {
+		name = "GFX_中共_黄克诚"
+		texturefile = "gfx/china/中共/GFX_中共_黄克诚.dds"
+	}
+	#陈赓
+	spriteType = {
+		name = "GFX_中共_陈赓"
+		texturefile = "gfx/china/中共/GFX_中共_陈赓.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陈赓_small"
+		texturefile = "gfx/china/中共/GFX_中共_陈赓_small.dds"
+	}
+	#谭政
+	spriteType = {
+		name = "GFX_中共_谭政"
+		texturefile = "gfx/china/中共/GFX_中共_谭政.dds"
+	}
+	#肖劲光
+	spriteType = {
+		name = "GFX_中共_肖劲光"
+		texturefile = "gfx/china/中共/GFX_中共_肖劲光.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_肖劲光_small"
+		texturefile = "gfx/china/中共/GFX_中共_肖劲光_small.dds"
+	}
+	#张云逸
+	spriteType = {
+		name = "GFX_中共_张云逸"
+		texturefile = "gfx/china/中共/GFX_中共_张云逸.dds"
+	}
+	#罗瑞卿
+	spriteType = {
+		name = "GFX_中共_罗瑞卿"
+		texturefile = "gfx/china/中共/GFX_中共_罗瑞卿.dds"
+	}
+	#王树声
+	spriteType = {
+		name = "GFX_中共_王树声"
+		texturefile = "gfx/china/中共/GFX_中共_王树声.dds"
+	}
+	#许光达
+	spriteType = {
+		name = "GFX_中共_许光达"
+		texturefile = "gfx/china/中共/GFX_中共_许光达.dds"
+	}
+	#陈光
+	spriteType = {
+		name = "GFX_中共_陈光"
+		texturefile = "gfx/china/中共/GFX_中共_陈光.dds"
+	}
+	#左权
+	spriteType = {
+		name = "GFX_中共_左权"
+		texturefile = "gfx/china/中共/GFX_中共_左权.dds"
+	}
+	#杨靖宇
+	spriteType = {
+		name = "GFX_中共_杨靖宇"
+		texturefile = "gfx/china/中共/GFX_中共_杨靖宇.dds"
+	}
+	#赵尚志
+	spriteType = {
+		name = "GFX_中共_赵尚志"
+		texturefile = "gfx/china/中共/GFX_中共_赵尚志.dds"
+	}
+	#彭雪枫
+	spriteType = {
+		name = "GFX_中共_彭雪枫"
+		texturefile = "gfx/china/中共/GFX_中共_彭雪枫.dds"
+	}
+	#朱瑞
+	spriteType = {
+		name = "GFX_中共_朱瑞"
+		texturefile = "gfx/china/中共/GFX_中共_朱瑞.dds"
+	}
+	#张爱萍
+	spriteType = {
+		name = "GFX_中共_张爱萍"
+		texturefile = "gfx/china/中共/GFX_中共_张爱萍.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_张爱萍_small"
+		texturefile = "gfx/china/中共/GFX_中共_张爱萍_small.dds"
+	}
+	#林伯渠
+	spriteType = {
+		name = "GFX_中共_林伯渠_small"
+		texturefile = "gfx/china/中共/GFX_中共_林伯渠_small.dds"
+	}
+	#吴运铎
+	spriteType = {
+		name = "GFX_中共_吴运铎_small"
+		texturefile = "gfx/china/中共/GFX_中共_吴运铎_small.dds"
+	}
+	#刘亚楼
+	spriteType = {
+		name = "GFX_中共_刘亚楼_small"
+		texturefile = "gfx/china/中共/GFX_中共_刘亚楼_small.dds"
+	}
+	#刘道生
+	spriteType = {
+		name = "GFX_中共_刘道生_small"
+		texturefile = "gfx/china/中共/GFX_中共_刘道生_small.dds"
+	}
+	#萧华
+	spriteType = {
+		name = "GFX_中共_萧华_small"
+		texturefile = "gfx/china/中共/GFX_中共_萧华_small.dds"
+	}
+	#高岗
+	spriteType = {
+		name = "GFX_中共_高岗_small"
+		texturefile = "gfx/china/中共/GFX_中共_高岗_small.dds"
+	}
+	#方子翼
+	spriteType = {
+		name = "GFX_中共_方子翼_small"
+		texturefile = "gfx/china/中共/GFX_中共_方子翼_small.dds"
+	}
+	#韩先楚
+	spriteType = {
+		name = "GFX_中共_韩先楚_small"
+		texturefile = "gfx/china/中共/GFX_中共_韩先楚_small.dds"
+	}
+	#邓稼先
+	spriteType = {
+		name = "GFX_中共_邓稼先"
+		texturefile = "gfx/china/科学家/GFX_中共_邓稼先.dds"
+	}
+	#钱三强
+	spriteType = {
+		name = "GFX_中共_钱三强"
+		texturefile = "gfx/china/科学家/GFX_中共_钱三强.dds"
+	}
+	#王淦昌
+	spriteType = {
+		name = "GFX_中共_王淦昌"
+		texturefile = "gfx/china/科学家/GFX_中共_王淦昌.dds"
+	}
+	#钱学森
+	spriteType = {
+		name = "GFX_中共_钱学森"
+		texturefile = "gfx/china/科学家/GFX_中共_钱学森.dds"
+	}
+	#顾诵芬
+	spriteType = {
+		name = "GFX_中共_顾诵芬"
+		texturefile = "gfx/china/科学家/GFX_中共_顾诵芬.dds"
+	}
+	#罗沛霖
+	spriteType = {
+		name = "GFX_中共_罗沛霖"
+		texturefile = "gfx/china/科学家/GFX_中共_罗沛霖.dds"
+	}
+	#黄旭华
+	spriteType = {
+		name = "GFX_中共_黄旭华"
+		texturefile = "gfx/china/科学家/GFX_中共_黄旭华.dds"
+	}
+	#顾懋祥
+	spriteType = {
+		name = "GFX_中共_顾懋祥"
+		texturefile = "gfx/china/科学家/GFX_中共_顾懋祥.dds"
+	}
+	#刘先志
+	spriteType = {
+		name = "GFX_中共_刘先志"
+		texturefile = "gfx/china/科学家/GFX_中共_刘先志.dds"
+	}
+	#王哲荣
+	spriteType = {
+		name = "GFX_中共_王哲荣"
+		texturefile = "gfx/china/科学家/GFX_中共_王哲荣.dds"
+	}
+}

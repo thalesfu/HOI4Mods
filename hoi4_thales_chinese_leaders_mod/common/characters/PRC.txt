@@ -11,8 +11,23 @@ characters={
 				small=GFX_portrait_PRC_mao_zedong_small
 			}
 		}
+		advisor={
+			slot = high_command
+			idea_token = PRC_mao_zedong
+			ledger = army
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_concealment_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		field_marshal={
-			traits={ politically_connected war_hero trait_cautious organizer logistics_wizard organisational_leader}
+			traits={ media_personality trickster expert_improviser guerilla_fighter politically_connected war_hero brave brilliant_strategist trait_cautious organizer fast_planner aggressive_assaulter logistics_wizard organisational_leader inspirational_leader hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer expert_delegator}
 			skill=4
 			attack_skill=6
 			defense_skill=6
@@ -23,7 +38,7 @@ characters={
 		country_leader={
 			ideology=marxism
 			traits={ cornered_fox }
-			expire="1965.1.1.1"
+			expire="1976.1.1.1"
 			id=-1
 		}
 	}
@@ -36,7 +51,7 @@ characters={
 				small="GFX_idea_PRC_zhu_de"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = army_chief
 			idea_token = PRC_zhu_de
 			allowed = {
@@ -47,12 +62,12 @@ characters={
 			}
 			cost = 100
 			ai_will_do = {
-				factor = 1.000
+				factor = 1
 			}
 		}
 		
 		field_marshal={
-			traits={ politically_connected war_hero trait_cautious organizer logistics_wizard organisational_leader}
+			traits={  trickster expert_improviser guerilla_fighter war_hero brave inflexible_strategist trait_cautious organizer thorough_planner unyielding_defender logistics_wizard organisational_leader inspirational_leader hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer expert_delegator}
 			skill=4
 			attack_skill=5
 			defense_skill=5
@@ -85,18 +100,9 @@ characters={
 				factor = 1.000
 			}
 		}
-
-		corps_commander={
-			traits={ infantry_officer }
-			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
 	}
 
+    #彭德怀
 	PRC_peng_dehuai={
 		name=PRC_peng_dehuai
 		portraits={
@@ -105,17 +111,32 @@ characters={
 				small=GFX_portrait_PRC_peng_dehuai_small
 			}
 		}
+		advisor={	
+			slot = army_chief
+			idea_token = PRC_ma_jin
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 		corps_commander={
-			traits={ infantry_officer }
+			traits={ engineer_officer trait_engineer scavenger trickster expert_improviser guerilla_fighter brave brilliant_strategist trait_cautious organizer aggressive_assaulter logistics_wizard fast_planner organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill=0
-			attack_skill=4
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}
 
+    # 林彪
 	PRC_lin_biao={
 		name=PRC_lin_biao
 		portraits={
@@ -125,12 +146,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer }
+			traits={ engineer_officer trait_engineer scavenger trickster expert_improviser guerilla_fighter brave inflexible_strategist trait_cautious organizer thorough_planner unyielding_defender logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger winter_specialist}
 			skill=0
-			attack_skill=4
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}
@@ -184,11 +205,13 @@ characters={
 
 	#Claire Lee Chennault in shared file
 
+    #刘伯承
 	PRC_liu_bocheng={
 		name=PRC_liu_bocheng
 		portraits={
 			army={
-				small="GFX_idea_PRC_liu_bocheng"
+				large="GFX_中共_刘伯承"
+				small="GFX_中共_刘伯承_small"
 			}
 		}
 		advisor={
@@ -205,6 +228,35 @@ characters={
 				military_theorist
 			}
 		}
+		
+		corps_commander={
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
+	        skill = 0
+	        attack_skill = 3
+	        defense_skill = 3
+		    planning_skill = 3
+		    logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+
+	### 贺龙 ###
+	CHINA_中共_贺龙={
+		name=CHINA_ZHNGGONG_HELONG_NAME
+		portraits={
+			army={
+				large="GFX_中共_贺龙"
+			}
+		}
+		corps_commander={
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger career_officer}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
 	}
 
 	PRC_hsia_tian={
@@ -214,20 +266,6 @@ characters={
 				small="GFX_idea_generic_air_asia_2"
 			}
 		}
-		advisor={
-			cost = 100
-
-			slot = theorist
-			idea_token = PRC_hsia_tian
-			ledger = air
-			allowed = {
-				original_tag = PRC
-			}
-
-			traits = {
-				air_warfare_theorist
-			}
-		}
 	}
 
 	PRC_zhang_wei={
@@ -235,20 +273,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_2"
-			}
-		}
-		advisor={
-			cost = 100
-
-			slot = theorist
-			idea_token = PRC_zhang_wei
-			ledger = navy
-			allowed = {
-				original_tag = PRC
-			}
-			
-			traits = {
-				naval_theorist
 			}
 		}
 	}
@@ -263,7 +287,8 @@ characters={
 		name=PRC_su_yu
 		portraits={
 			army={
-				small="GFX_idea_PRC_su_yu"
+				large="GFX_中共_粟裕"
+				small="GFX_中共_粟裕_small"
 			}
 		}
 		advisor={
@@ -279,6 +304,276 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}corps_commander={
+			traits={ trickster expert_improviser guerilla_fighter war_hero brave brilliant_strategist trait_cautious organizer fast_planner aggressive_assaulter logistics_wizard organisational_leader hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer expert_delegator}
+			skill = 0
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+
+	### 徐海东 ###
+	CHINA_中共_徐海东 = {
+		name =CHINA_ZHNGGONG_XUHAIDONG_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_徐海东"
+			}
+		}
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 黄克诚 ###
+	CHINA_中共_黄克诚 = {
+		name =CHINA_ZHNGGONG_HUANGKECHENG_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_黄克诚"
+			}
+		}
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger winter_specialist}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 罗瑞卿 ###
+	CHINA_中共_罗瑞卿 = {
+		name =CHINA_ZHNGGONG_LUORUIQING_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_罗瑞卿"
+			}
+		}
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 王树声 ###
+	CHINA_中共_王树声 = {
+		name =CHINA_ZHNGGONG_WANGSHUSHENG_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_王树声"
+			}
+		}
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 许光达 ###
+	CHINA_中共_许光达={
+		name=CHINA_ZHNGGONG_XUGUANGDA_NAME
+		portraits={
+			army={
+				large="GFX_中共_许光达"
+			}
+		}
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 陈光 ###
+	CHINA_中共_陈光={
+		name=CHINA_ZHNGGONG_CHENGUANG_NAME
+		portraits={
+			army={
+				large="GFX_中共_陈光"
+			}
+		}
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 左权 ###
+	CHINA_中共_左权={
+		name=CHINA_ZHNGGONG_ZUOQUAN_NAME
+		portraits={
+			army={
+				large="GFX_中共_左权"
+			}
+		}
+		corps_commander={
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 杨靖宇 ###
+	CHINA_中共_杨靖宇 ={
+		name=CHINA_ZHNGGONG_YANGJINGYU_NAME
+		portraits={
+			army={
+				large="GFX_中共_杨靖宇"
+			}
+		}
+		corps_commander = {
+			traits={ winter_specialist engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 赵尚志 ###
+	CHINA_中共_赵尚志 ={
+		name=CHINA_ZHNGGONG_ZHAOSHANGZHI_NAME
+		portraits={
+			army={
+				large="gfx/leaders/PRC/Portrait_PRC_zhao_shangzhi.dds"
+			}
+		}
+		corps_commander = {
+			traits={ winter_specialist engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 彭雪枫 ###
+	CHINA_中共_彭雪枫={
+		name=CHINA_ZHNGGONG_PENGXUEFENG_NAME
+		portraits={
+			army={
+				large="GFX_中共_彭雪枫"
+			}
+		}
+		corps_commander = {
+			traits={ cavalry_officer cavalry_leader cavalry_expert trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 朱瑞 ###
+	CHINA_中共_朱瑞={
+		name=CHINA_ZHNGGONG_ZHURUI_NAME
+		portraits={
+			army={
+				large="GFX_中共_朱瑞"
+			}
+		}
+		corps_commander = {
+			traits={ winter_specialist bearer_of_artillery engineer_officer fortress_buster trait_engineer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	### 朱瑞 ###
+	XY_PRC_zhu_rui={
+		name="朱瑞"
+		portraits={
+			army={
+				large="gfx/leaders/PRC/portrait_prc_Zhu_Rui.dds"
+			}
+		}
+		corps_commander={
+			traits = { bearer_of_artillery }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 张爱萍（内阁替换高秋） ###
+	CHINA_中共_张爱萍={
+		name=CHINA_ZHNGGONG_ZHANGAIPING_NAME
+		portraits={
+			army={
+				large="GFX_中共_张爱萍"
+				small="GFX_中共_张爱萍_small"
+			}
+		}
+		advisor={	
+			slot = navy_chief
+			idea_token = PRC_gao_qiu
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits = { spotter }
+			skill = 2
+    		attack_skill = 3
+    		defense_skill = 3
+    		maneuvering_skill = 3
+    		coordination_skill = 3
+			legacy_id=-1
 		}
 	}
 
@@ -311,20 +606,6 @@ characters={
 				small="GFX_idea_generic_army_asia_5"
 			}
 		}
-		advisor={	
-			slot = army_chief
-			idea_token = PRC_ma_jin
-			allowed = {
-				original_tag = PRC
-			}
-			traits = {
-				army_chief_defensive_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 	}
 
 
@@ -337,20 +618,6 @@ characters={
 				small="GFX_idea_generic_navy_asia_1"
 			}
 		}
-		advisor={
-			slot = navy_chief
-			idea_token = PRC_ziao_jingguang
-			allowed = {
-				original_tag = PRC
-			}
-			traits = {
-				navy_chief_maneuver_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 	}
 
 	PRC_gao_qiu={
@@ -358,20 +625,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_2"
-			}
-		}
-		advisor={	
-			slot = navy_chief
-			idea_token = PRC_gao_qiu
-			allowed = {
-				original_tag = PRC
-			}
-			traits = {
-				navy_chief_decisive_battle_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 	}
@@ -385,17 +638,18 @@ characters={
 		name=PRC_fang_zeyi
 		portraits={
 			army={
-				small="GFX_idea_generic_air_asia_3"
+				small="GFX_中共_方子翼_small"
 			}
 		}
-		advisor={
-			slot = air_chief
-			idea_token = PRC_fang_zeyi
+		advisor={	
+			slot = high_command
+			idea_token = PRC_liang_shen
+			ledger = air
 			allowed = {
 				original_tag = PRC
 			}
 			traits = {
-				air_chief_ground_support_2
+				air_air_combat_training_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -408,7 +662,7 @@ characters={
 		name=PRC_gao_gang
 		portraits={
 			army={
-				small="GFX_idea_generic_air_asia_2"
+				small="GFX_中共_高岗_small"
 			}
 		}
 		advisor={
@@ -436,7 +690,8 @@ characters={
 		name=PRC_xu_xiangqian
 		portraits={
 			army={
-				small="GFX_idea_PRC_xu_xiangqian"
+				large="GFX_中共_徐向前"
+				small="GFX_中共_徐向前_small"
 			}
 		}
 		advisor={	
@@ -454,13 +709,24 @@ characters={
 				factor = 1.000
 			}
 		}
+		corps_commander={
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger career_officer}
+	        skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
 	}
 
+	#聂荣臻
 	PRC_nie_rongzhen={
 		name=PRC_nie_rongzhen
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_1"
+				large="GFX_中共_聂荣臻"
+				small="GFX_中共_聂荣臻_small"
 			}
 		}
 		advisor={
@@ -484,7 +750,8 @@ characters={
 		name=PRC_chen_geng
 		portraits={
 			army={
-				small="GFX_idea_PRC_chen_geng"
+				large="GFX_中共_陈赓"
+				small="GFX_中共_陈赓_small"
 			}
 		}
 		advisor={	
@@ -502,13 +769,24 @@ characters={
 				factor = 1.000
 			}
 		}
+		corps_commander={
+			traits={ engineer_officer trait_engineer scavenger trickster expert_improviser guerilla_fighter brave brilliant_strategist trait_cautious organizer aggressive_assaulter logistics_wizard fast_planner organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill=0
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
 	}
 	
+	#叶剑英
 	PRC_ye_jianying={
 		name=PRC_ye_jianying
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_2"
+				large="GFX_中共_叶剑英"
+				small="GFX_中共_叶剑英_small"
 			}
 		}
 		advisor={
@@ -523,6 +801,117 @@ characters={
 			}
 			cost = 100
 		}
+		
+		corps_commander={
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
+	        skill = 0
+	        attack_skill = 2
+	        defense_skill = 2
+		    planning_skill = 2
+		    logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 邓小平 ###
+	CHINA_中共_邓小平 = {
+		name =CHINA_ZHNGGONG_DENGXIAOPING_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_邓小平"
+			}
+		}
+		corps_commander={
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
+	        skill = 0
+	        attack_skill = 2
+	        defense_skill = 2
+		    planning_skill = 2
+		    logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 叶挺 ###
+	CHINA_中共_叶挺={
+		name=CHINA_ZHNGGONG_YETING_NAME
+		portraits={
+			army={
+				large="GFX_中共_叶挺"
+			}
+		}
+		corps_commander={
+			traits={ brave harsh_leader infantry_officer skilled_staffer war_hero media_personality inspirational_leader}
+	        skill = 0
+	        attack_skill = 2
+	        defense_skill = 2
+		    planning_skill = 2
+		    logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	### 谭政 ###
+	CHINA_中共_谭政 = {
+		name =CHINA_ZHNGGONG_TANZHENG_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_谭政"
+			}
+		}
+	}
+
+	### 萧劲光 ###
+	CHINA_中共_肖劲光={
+		name=CHINA_ZHNGGONG_XIAOJINGGUANG_NAME
+		portraits={
+			army={
+				large="GFX_中共_肖劲光"
+                small="GFX_中共_肖劲光_small"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = PRC_ziao_jingguang
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		navy_leader={
+			traits = { seawolf }
+			skill = 3
+   		    attack_skill = 4
+   		    defense_skill = 4
+    		maneuvering_skill = 4
+   		    coordination_skill = 4
+			legacy_id=-1
+		}
+	}
+
+	### 张云逸 ###
+	CHINA_中共_张云逸 = {
+		name =CHINA_ZHNGGONG_ZHANGYUNYI_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_张云逸"
+			}
+		}
+		corps_commander={
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger career_officer}
+	        skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
 	}
 
 	PRC_liang_shen={
@@ -532,21 +921,6 @@ characters={
 				small="GFX_idea_generic_air_asia_3"
 			}
 		}
-		advisor={	
-			slot = high_command
-			idea_token = PRC_liang_shen
-			ledger = air
-			allowed = {
-				original_tag = PRC
-			}
-			traits = {
-				air_air_combat_training_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 	}
 
 	PRC_deng_ye_peng={
@@ -554,21 +928,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
-			}
-		}
-		advisor={	
-			slot = high_command
-			idea_token = PRC_deng_ye_peng
-			ledger = army
-			allowed = {
-				original_tag = PRC
-			}
-			traits = {
-				navy_amphibious_assault_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 	}
@@ -588,7 +947,7 @@ characters={
 		name=PRC_lin_bojiu
 		portraits={
 			civilian={
-				small="GFX_idea_generic_political_advisor_asia_1"
+				small="GFX_中共_林伯渠_small"
 			}
 		}
 		advisor={
@@ -645,7 +1004,7 @@ characters={
 		name=PRC_he_yuandang
 		portraits={
 			civilian={
-				small="GFX_idea_generic_political_advisor_asia_2"
+				small="GFX_中共_吴运铎_small"
 			}
 		}
 		advisor={
@@ -656,6 +1015,103 @@ characters={
 			}
 			traits  = {
 				war_industrialist 
+			}
+		}
+	}
+
+	### 刘亚楼替换夏天 ###
+	CHINA_中共_刘亚楼={
+		name=CHINA_ZHNGGONG_LIUYALOU_NAME
+		portraits={
+			army={
+				small="GFX_中共_刘亚楼_small"
+			}
+		}
+		advisor={
+			cost = 100
+
+			slot = theorist
+			idea_token = PRC_hsia_tian
+			ledger = air
+			allowed = {
+				original_tag = PRC
+			}
+
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+
+	### 刘道生替换张伟 ###
+	CHINA_中共_刘道生={
+		name=CHINA_ZHNGGONG_LIUDAOSHENG_NAME
+		portraits={
+			army={
+				small="GFX_中共_刘道生_small"
+			}
+		}
+		advisor={
+			cost = 100
+
+			slot = theorist
+			idea_token = PRC_zhang_wei
+			ledger = navy
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+
+	### 萧华替换方子翼 ###
+	CHINA_中共_肖华={
+		name=CHINA_ZHNGGONG_XIAOHUA_NAME
+		portraits={
+			army={
+				small="GFX_中共_萧华_small"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = PRC_fang_zeyi
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+    ### 韩先楚替换邓业鹏 ###
+	CHINA_中共_韩先楚={
+		name=CHINA_ZHNGGONG_HANXIANCHU_NAME
+		portraits={
+			army={
+				small="GFX_中共_韩先楚_small"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = PRC_deng_ye_peng
+			ledger = army
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				navy_amphibious_assault_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 	}
@@ -679,6 +1135,172 @@ characters={
 			}
 			ai_will_do  = {
 				factor  = 1.000
+			}
+		}
+	}
+
+	
+
+
+	###### 科学家 ######
+
+	### 邓稼先 ###
+	CHINA_科学家_中共_邓稼先 = {
+		name =CHINA_ZHNGGONG_DENGJIANXIAN_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_邓稼先"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_genius scientist_trait_nuclear_specialist }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	### 钱三强 ###
+	CHINA_科学家_中共_钱三强 = {
+		name =CHINA_ZHNGGONG_QIANSANQIANG_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_钱三强"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_bright scientist_trait_nuclear_warfare_expert }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	### 王淦昌 ###
+	CHINA_科学家_中共_王淦昌 = {
+		name =CHINA_ZHNGGONG_WANGGANCHANG_NAME
+		portraits = {
+			army = {
+				large = "GFX_中共_王淦昌"
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	### 钱学森 ###
+	CHINA_科学家_中共_钱学森 = {
+		name =CHINA_ZHNGGONG_QIANXUESEN_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_钱学森"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_genius scientist_trait_rocketry_specialist }
+			skills = {
+				specialization_air = 2
+			}
+		}
+	}
+
+	### 顾诵芬 ###
+	CHINA_科学家_中共_顾诵芬 = {
+		name =CHINA_ZHNGGONG_GUSONGFEN_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_顾诵芬"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+	### 罗沛霖 ###
+	CHINA_科学家_中共_罗沛霖 = {
+		name =CHINA_ZHNGGONG_LUOPELIN_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_罗沛霖"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_electronics_specialist }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+	### 黄旭华 ###
+	CHINA_科学家_中共_黄旭华 = {
+		name =CHINA_ZHNGGONG_HUANGXUHUA_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_黄旭华"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_submarine_specialist }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+
+	### 顾懋祥 ###
+	CHINA_科学家_中共_顾懋祥 = {
+		name =CHINA_ZHNGGONG_GUYANGXIANG_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_顾懋祥"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+
+	### 刘先志 ###
+	CHINA_科学家_中共_刘先志 = {
+		name =CHINA_ZHNGGONG_LIUXIANZHI_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_刘先志"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_brilliant_theorist scientist_trait_artillery_specialist }
+			skills = {
+				specialization_land = 2
+			}
+		}
+	}
+
+	### 王哲荣 ###
+	CHINA_科学家_中共_王哲荣 = {
+		name =CHINA_ZHNGGONG_WANGZHERONG_NAME
+		portraits = {
+			army = {
+				large ="GFX_中共_王哲荣"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_armored_specialist }
+			skills = {
+				specialization_land = 1
 			}
 		}
 	}
