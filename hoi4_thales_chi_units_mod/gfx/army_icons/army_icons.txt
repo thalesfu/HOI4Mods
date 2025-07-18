@@ -1,0 +1,3743 @@
+﻿army = {
+	gfx = GFX_theatre_army_shield
+	
+	icon = {
+		#Example of icon script, corresponding to the frame index in the .dds files
+		#color_override = no
+		#name = "EQUAL_ICON"
+		#available = 
+		#{
+		#	tag = CHI
+		#}
+	}
+	icon = {
+	}
+	icon = {
+		color_override = no
+		name = "Monarchy"
+	}
+	icon = {
+		color_override = no
+		name = "Democracy"
+	}
+	icon = {
+		color_override = no
+		name = "Fascism"
+	}	
+	icon = {
+		color_override = no
+		name = "Communism"
+	}
+	icon = {
+		color_override = no
+		name = "Socialism"
+	}
+	icon = {
+		color_override = no
+		name = "Anarchism"
+	}
+	icon = {
+		color_override = no
+		name = "Anarcho-Capitalism"
+	}
+	icon = {
+		color_override = no
+		name = "Authoritarianism"
+	}
+	icon = {
+		color_override = no
+		name = "Social Democracy"
+	}
+	icon = {
+		color_override = no
+		name = "Social Conservatism"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Italy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Italy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Social Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Commune Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Roman Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Xª Flottiglia MAS Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Brigate Nere Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "MVSN Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "GNR Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Folgore Paratroopers Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Republic Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Colonial Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Cavalry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Alpini Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Marines Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Carabinieri Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Ariete Armored Division"
+	}
+	icon = {
+		color_override = no
+		name = "Italian East Africa Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Italian Libya Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Albania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Albanian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German Reich Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German High Command Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Heer Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kriegsmarine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Luftwaffe Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Hitlerjugend Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Reichskolonialbund Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Gebirgsjäger Edelweiss"
+	}
+	icon = {
+		color_override = no
+		name = "Afrika Korps Palm"
+	}
+	icon = {
+		color_override = no
+		name = "Luftwaffe Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Fallschirmjägers Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Waffen-SS Fallschirmjäger Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Wehrmacht Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Kriegsmarine Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Luftschutz Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Polizei Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Waffen SS"
+	}
+	icon = {
+		color_override = no
+		name = "Totenkopf"
+	}
+	icon = {
+		color_override = no
+		name = "Sturmabteilung Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Volkssturm Armband"
+	}
+	icon = {
+		color_override = no
+		name = "German Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German Imperial Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Standards of the Emperor"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Reichskriegsflagge"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Colonial Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Germany Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationale Volksarmee Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Volksmarine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Luftstreitkräfte der Nationalen Volksarmee Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Stasi Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bundeswehr Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Deutsche Marine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Modern Luftwaffe Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Panzer Balkenkreuz"
+	}
+	icon = {
+		color_override = no
+		name = "Holy Roman Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Japan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Seal of Japan"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Japanese Army Star"
+	}
+	icon = {
+		color_override = no
+		name = "IJA Paratroopers Ensign"
+	}
+	icon = {
+		color_override = no
+		name = "IJN Paratroopers Ensign"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Marines Ensign"
+	}
+	icon = {
+		color_override = no
+		name = "Kempeitai Armband"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Manchukuo Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fengtian Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Manchu Imperial Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Manchu Air Force Roundel"
+	}
+	icon = {
+		color_override = no
+		name = "Manchukuo Imperial Army Star"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Seal of Manchukuo"
+	}
+	icon = {
+		color_override = no
+		name = "Mengkukuo Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mengjiang National Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Kampuchea Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Empire of Vietnam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Luang Prabang Flag"
+	}
+	icon = {
+		color_override = no
+		name = "State of Burma Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Siam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Thai Flag"
+	}
+	icon = {
+		color_override = no
+		name = "United States of America Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist States of America Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist America Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Confederate States Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Confederate Military Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Silver Legion Banner"
+	}
+	icon = {
+		color_override = no
+		name = "US Army Star"
+	}
+	icon = {
+		color_override = no
+		name = "US Marines Flag"
+	}
+	icon = {
+		color_override = no
+		name = "US Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "US Rangers Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "US Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "US Armed Forces Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Union Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Armed Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Red Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Paratroopers Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Guards Badge"
+	}
+	icon = {
+		color_override = no
+		name = "NKVD Flag"
+	}
+	icon = {
+		color_override = no
+		name = "KGB Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian SFSR Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Trotskyist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Victory Banner"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Russia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Tsarist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Liberation Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Armed Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Early Soviet Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Late Soviet Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "French Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "French Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Vichy France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bourbon France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Valois France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "French Commune Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Milice Française Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Napoleonic Imperial Guard Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "French Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "French Indochina Flag"
+	}
+	icon = {
+		color_override = no
+		name = "French Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Colonial Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Foreign Legion Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Chasseurs Alpins Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Troupes de Marine Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "British Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascit Britain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Union of Fascists Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Thirteen Colonies Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Royal Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Royal Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Army Banner"
+	}
+	icon = {
+		color_override = no
+		name = "Royal Marines Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Parachute Division Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Desert Rats Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "British Tank Crusader Stripes Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Commonwealth Flag"
+	}
+	icon = {
+		color_override = no
+		name = "England Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Scotland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Wales Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Northern Ireland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Saint Patrick's Cross"
+	}
+	icon = {
+		color_override = no
+		name = "Ireland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "South Africa Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free South Africa Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Canada Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free Canada Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Raj Flag"
+	}
+	icon = {
+		color_override = no
+		name = "India Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free India Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Pakistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bangladesh Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Punjabi Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nepal Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bhutan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Australian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "New Zealand Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Malaya Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Malaysia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Neutral Malaysia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Malaysia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mandate of Palestine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Jerusalem Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Israel Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Palestine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Dominion of Egypt Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free Egypt Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Carlist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationalist Spain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Spain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Falangist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Army of Africa Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Anarchist Spain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Guardia Civil Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Mountain Forces Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Infantería de Marina Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Poland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Rule of Sanitation Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Poland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Resistance Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Poland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Commonwealth Flag"
+	}
+	icon = {
+		color_override = no
+		name = "National Radicalist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Armed Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Special Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Podhale Rifles Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Winged Hussars Banner"
+	}
+	icon = {
+		color_override = no
+		name = "Czech Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Protectorate of Bohemia and Moravia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Slovakia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationalist China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kuomintang Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of China Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationalist Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of China Marine Corps Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of China Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Wang Jingwei Regime Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Qing Dynasty Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Reformed Government of China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Provisional Government of China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sinkiang Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Xibei San Ma Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Shanxi Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guangxi Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Yunnan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guizhou Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sichuan Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guominjun Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tibet Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Republic of China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Kyrgyzstan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Uzbekistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tajikistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mongolian People's Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mongolia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tannu Tuva Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Austrian Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Austrian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Austria-Hungary Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Hungary Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Hungarian Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Hungary Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Legionary Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Romanian Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Romanian Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Union of Bulgarian National Legions Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bulgarian Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Greece Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Kingdom of Greece Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Hellenic State Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Greece Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Byzantine Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Turkey Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Croatia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Independent State of Croatia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Croatia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Montenegro Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Governorate of Montenegro Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Slovenian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Serbian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Government of National Salvation Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Yugoslavia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Yugoslavia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Bosnian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Macedonian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Finland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Democratic Finland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Navy Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Air Force Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Sweden Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Denmark Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Norway Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Quisling Regime Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iceland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Scandinavia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Estonia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Estonia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Latvia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Latvia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lithuania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Lithuania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Ostland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Belarus Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Belarus Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Alternative Belarus Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Ukraine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Ukraine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Azov Battalion Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Wagner Group Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Novorossiya Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Donetsk Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lugansk Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Z Symbol"
+	}
+	icon = {
+		color_override = no
+		name = "Swiss Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Netherlands Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Netherlands Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Belgian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Luxembourg Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Benelux Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Portugal Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Portugal Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Portuguese Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Portugal Brazil Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Brazil Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Integralist Brazil Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Brazilian Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Brazil Flag"
+	}
+	icon = {
+		color_override = no
+		name = "South American Socialist Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Argentina Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Argentina Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Chile Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Uruguay Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Peru Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bolivia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Paraguay Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Venezuela Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Colombia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Ecuador Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mexico Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Mexico Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guatemala Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "El Salvador Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Honduras Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nicaragua Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Costa Rica Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Panama Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Cuba Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Haiti Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Dominican Republic Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Georgia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Armenia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Azerbaijan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kurdish Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kazakhstan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Kazakhstan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "European Union Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Persian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iran Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Afghanistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Islamic Emirate of Afghanistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Saudi Arabia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Oman Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Yemen Flag"
+	}
+	icon = {
+		color_override = no
+		name = "United Arab Emirates Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iraq Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Saddam Hussein Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iraqi Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Syria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Syrian Republic Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Kingdom of Jordan Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Myanmar Flag"
+	}		
+	icon = {
+		color_override = no
+		name = "Kingdom of Cambodia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Khmer Rouge Flag"
+	}
+	icon = {
+		color_override = no
+		name = "North Vietnam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "South Vietnam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Laos Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Philippines Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Dutch East Indies Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Indonesia Flag"
+	}		
+	icon = {
+		color_override = no
+		name = "South Korea Flag"
+	}
+	icon = {
+		color_override = no
+		name = "North Korea Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Ethiopia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Eritrea Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Somalia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Libya Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Kenya Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Algeria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Morocco Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nigeria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tunisia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Niger Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Cote D'Ivoire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mali Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Belgian Congo Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Congo Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Rhodesia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Zimbabwe Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Prussia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Bavaria Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Saxony Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Württemberg Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Mecklenburg Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Westphalia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Schleswig-Holstein Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Silesia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Free City of Danzig Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Hannover Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Pomerania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Rhineland Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Napoleonic Kingdom of Italy Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Savoy Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Sardinia-Piedmont Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Papal States Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Milan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lombardy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lombardy–Venetia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Venice Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Florence Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Two Sicilies Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sicily Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sardinia Flag"
+	}
+}
+
+army_group = {
+	gfx = GFX_theatre_army_group_shield
+
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+		color_override = no
+		name = "Monarchy"
+	}
+	icon = {
+		color_override = no
+		name = "Democracy"
+	}
+	icon = {
+		color_override = no
+		name = "Fascism"
+	}	
+	icon = {
+		color_override = no
+		name = "Communism"
+	}
+	icon = {
+		color_override = no
+		name = "Socialism"
+	}
+	icon = {
+		color_override = no
+		name = "Anarchism"
+	}
+	icon = {
+		color_override = no
+		name = "Anarcho-Capitalism"
+	}
+	icon = {
+		color_override = no
+		name = "Authoritarianism"
+	}
+	icon = {
+		color_override = no
+		name = "Social Democracy"
+	}
+	icon = {
+		color_override = no
+		name = "Social Conservatism"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Italy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Italy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Social Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Commune Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Roman Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Xª Flottiglia MAS Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Brigate Nere Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "MVSN Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "GNR Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Folgore Paratroopers Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Republic Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Colonial Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Cavalry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Alpini Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Marines Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Italian Carabinieri Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Ariete Armored Division"
+	}
+	icon = {
+		color_override = no
+		name = "Italian East Africa Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Italian Libya Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Albania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Albanian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German Reich Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German High Command Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Heer Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kriegsmarine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Luftwaffe Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Hitlerjugend Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Reichskolonialbund Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Gebirgsjäger Edelweiss"
+	}
+	icon = {
+		color_override = no
+		name = "Afrika Korps Palm"
+	}
+	icon = {
+		color_override = no
+		name = "Luftwaffe Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Fallschirmjägers Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Waffen-SS Fallschirmjäger Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Wehrmacht Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Kriegsmarine Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Luftschutz Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Polizei Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "Waffen SS"
+	}
+	icon = {
+		color_override = no
+		name = "Totenkopf"
+	}
+	icon = {
+		color_override = no
+		name = "Sturmabteilung Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Volkssturm Armband"
+	}
+	icon = {
+		color_override = no
+		name = "German Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German Imperial Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Standards of the Emperor"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Reichskriegsflagge"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Colonial Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Germany Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationale Volksarmee Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Volksmarine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Luftstreitkräfte der Nationalen Volksarmee Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Stasi Flag"
+	}
+	icon = {
+		color_override = no
+		name = "German Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bundeswehr Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Deutsche Marine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Modern Luftwaffe Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Panzer Balkenkreuz"
+	}
+	icon = {
+		color_override = no
+		name = "Holy Roman Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Japan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Seal of Japan"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Japanese Army Star"
+	}
+	icon = {
+		color_override = no
+		name = "IJA Paratroopers Ensign"
+	}
+	icon = {
+		color_override = no
+		name = "IJN Paratroopers Ensign"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Marines Ensign"
+	}
+	icon = {
+		color_override = no
+		name = "Kempeitai Armband"
+	}
+	icon = {
+		color_override = no
+		name = "Japanese Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Manchukuo Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fengtian Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Manchu Imperial Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Manchu Air Force Roundel"
+	}
+	icon = {
+		color_override = no
+		name = "Manchukuo Imperial Army Star"
+	}
+	icon = {
+		color_override = no
+		name = "Imperial Seal of Manchukuo"
+	}
+	icon = {
+		color_override = no
+		name = "Mengkukuo Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mengjiang National Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Kampuchea Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Empire of Vietnam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Luang Prabang Flag"
+	}
+	icon = {
+		color_override = no
+		name = "State of Burma Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Siam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Thai Flag"
+	}
+	icon = {
+		color_override = no
+		name = "United States of America Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist States of America Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist America Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Confederate States Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Confederate Military Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Silver Legion Banner"
+	}
+	icon = {
+		color_override = no
+		name = "US Army Star"
+	}
+	icon = {
+		color_override = no
+		name = "US Marines Flag"
+	}
+	icon = {
+		color_override = no
+		name = "US Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "US Rangers Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "US Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "US Armed Forces Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Union Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Armed Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Red Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Paratroopers Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet Guards Badge"
+	}
+	icon = {
+		color_override = no
+		name = "NKVD Flag"
+	}
+	icon = {
+		color_override = no
+		name = "KGB Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian SFSR Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Trotskyist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Victory Banner"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Russia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Tsarist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Liberation Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Armed Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Early Soviet Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Late Soviet Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "French Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "French Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Vichy France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bourbon France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Valois France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist France Flag"
+	}
+	icon = {
+		color_override = no
+		name = "French Commune Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Milice Française Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Napoleonic Imperial Guard Eagle"
+	}
+	icon = {
+		color_override = no
+		name = "French Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "French Indochina Flag"
+	}
+	icon = {
+		color_override = no
+		name = "French Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Colonial Infantry Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Foreign Legion Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Chasseurs Alpins Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Troupes de Marine Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "French Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "British Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascit Britain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Union of Fascists Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Thirteen Colonies Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Royal Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Royal Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Army Banner"
+	}
+	icon = {
+		color_override = no
+		name = "Royal Marines Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Parachute Division Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Desert Rats Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "British Tank Crusader Stripes Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Commonwealth Flag"
+	}
+	icon = {
+		color_override = no
+		name = "England Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Scotland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Wales Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Northern Ireland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Saint Patrick's Cross"
+	}
+	icon = {
+		color_override = no
+		name = "Ireland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "South Africa Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free South Africa Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Canada Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free Canada Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Raj Flag"
+	}
+	icon = {
+		color_override = no
+		name = "India Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free India Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Pakistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bangladesh Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Punjabi Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nepal Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bhutan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Australian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "New Zealand Flag"
+	}
+	icon = {
+		color_override = no
+		name = "British Malaya Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Malaysia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Neutral Malaysia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Malaysia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mandate of Palestine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Jerusalem Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Israel Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Palestine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Dominion of Egypt Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Free Egypt Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Carlist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationalist Spain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Spain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Falangist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Army of Africa Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Anarchist Spain Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Guardia Civil Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Mountain Forces Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Infantería de Marina Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Spanish Paratroopers Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Poland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Rule of Sanitation Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Poland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Resistance Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Poland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Commonwealth Flag"
+	}
+	icon = {
+		color_override = no
+		name = "National Radicalist Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Armed Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Special Forces Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Polish Podhale Rifles Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Winged Hussars Banner"
+	}
+	icon = {
+		color_override = no
+		name = "Czech Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Protectorate of Bohemia and Moravia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Slovakia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationalist China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kuomintang Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of China Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nationalist Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of China Marine Corps Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of China Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Wang Jingwei Regime Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Chinese Collaborationist Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Qing Dynasty Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Reformed Government of China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Provisional Government of China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sinkiang Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Xibei San Ma Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Shanxi Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guangxi Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Yunnan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guizhou Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sichuan Clique Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guominjun Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tibet Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Republic of China Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Navy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Air Force Flag"
+	}
+	icon = {
+		color_override = no
+		name = "People's Liberation Army Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Kyrgyzstan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Uzbekistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tajikistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mongolian People's Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mongolia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tannu Tuva Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Austrian Empire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Austrian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Austria-Hungary Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Hungary Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Hungarian Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Hungary Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Legionary Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Romania Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Romanian Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Romanian Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Republic of Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Union of Bulgarian National Legions Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Bulgaria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bulgarian Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Greece Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Kingdom of Greece Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Hellenic State Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Greece Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Byzantine Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Turkey Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Croatia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Independent State of Croatia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Croatia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Montenegro Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Governorate of Montenegro Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Slovenian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Serbian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Government of National Salvation Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Yugoslavia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Yugoslavia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Bosnian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Macedonian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Finland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Democratic Finland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Army Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Navy Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Air Force Emblem"
+	}
+	icon = {
+		color_override = no
+		name = "Finnish Tank Insignia"
+	}
+	icon = {
+		color_override = no
+		name = "Sweden Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Denmark Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Norway Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Quisling Regime Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iceland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Scandinavia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Estonia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Estonia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Latvia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Latvia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lithuania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Lithuania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Ostland Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Belarus Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Belarus Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Alternative Belarus Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Ukraine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Ukraine Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Azov Battalion Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Wagner Group Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Novorossiya Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Donetsk Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lugansk Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Russian Z Symbol"
+	}
+	icon = {
+		color_override = no
+		name = "Swiss Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Netherlands Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Fascist Netherlands Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Belgian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Luxembourg Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Benelux Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Portugal Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kingdom of Portugal Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Portuguese Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Portugal Brazil Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Brazil Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Integralist Brazil Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Brazilian Empire Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Brazil Flag"
+	}
+	icon = {
+		color_override = no
+		name = "South American Socialist Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Argentina Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Argentina Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Chile Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Uruguay Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Peru Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Bolivia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Paraguay Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Venezuela Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Colombia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Ecuador Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mexico Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Communist Mexico Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Guatemala Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "El Salvador Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Honduras Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nicaragua Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Costa Rica Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Panama Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Cuba Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Haiti Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Dominican Republic Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Georgia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Armenia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Azerbaijan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kurdish Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Kazakhstan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Communist Kazakhstan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "European Union Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Persian Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iran Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Afghanistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Islamic Emirate of Afghanistan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Saudi Arabia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Oman Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Yemen Flag"
+	}
+	icon = {
+		color_override = no
+		name = "United Arab Emirates Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iraq Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Saddam Hussein Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Iraqi Republic Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Syria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Syrian Republic Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Kingdom of Jordan Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Myanmar Flag"
+	}		
+	icon = {
+		color_override = no
+		name = "Kingdom of Cambodia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Khmer Rouge Flag"
+	}
+	icon = {
+		color_override = no
+		name = "North Vietnam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "South Vietnam Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Laos Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Philippines Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Dutch East Indies Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Indonesia Flag"
+	}		
+	icon = {
+		color_override = no
+		name = "South Korea Flag"
+	}
+	icon = {
+		color_override = no
+		name = "North Korea Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Ethiopia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Eritrea Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Somalia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Libya Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Kenya Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Algeria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Morocco Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Nigeria Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Tunisia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Niger Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Cote D'Ivoire Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Mali Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Belgian Congo Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Congo Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Rhodesia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Zimbabwe Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Prussia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Bavaria Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Saxony Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Württemberg Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Mecklenburg Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Westphalia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Schleswig-Holstein Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Silesia Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Free City of Danzig Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Hannover Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Pomerania Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Rhineland Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Napoleonic Kingdom of Italy Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Savoy Flag"
+	}	
+	icon = {
+		color_override = no
+		name = "Sardinia-Piedmont Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Papal States Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Milan Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lombardy Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Lombardy–Venetia Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Venice Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Florence Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Two Sicilies Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sicily Flag"
+	}
+	icon = {
+		color_override = no
+		name = "Sardinia Flag"
+	}
+}
+
+fleet = {
+	gfx = GFX_theatre_task_force_shield
+	
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+}
+
+task_force = {
+	gfx = GFX_theatre_task_force_shield
+	
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+}
+
+naval_equipment_role = {
+	gfx = GFX_naval_equipment_role_icons
+	
+	icon = {
+		color_override = no
+		name = "Battery"
+	}
+	icon = {
+		color_override = no
+		name = "Shield"
+	}
+	icon = {
+		color_override = no
+		name = "Spotter"
+	}
+	icon = {
+		color_override = no
+		name = "Minelayer"
+	}
+	icon = {
+		color_override = no
+		name = "Minesweeper"
+	}
+	icon = {
+		color_override = no
+		name = "Skull"
+	}
+	icon = {
+		color_override = no
+		name = "Airplane"
+	}
+	icon = {
+		color_override = no
+		name = "Crab"
+	}
+}
+equipment_niche_insignias = {
+gfx = GFX_niche_icon_strip
+
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+}
+
+air_group = {
+gfx = GFX_theatre_air_force_shield
+
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+}
+
+air_niche = {
+gfx = GFX_plane_niche_icon_strip
+
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+icon = {
+}
+}

@@ -1,6 +1,6 @@
 ﻿division_template = {
-	name = "军团"					# Represents local militia groups (generally poorly-equipped)
-	division_names_group = YUN_INF_01
+	name = "云南警备团"					# Represents local militia groups (generally poorly-equipped)
+	division_names_group = YUN_GAR_01
 									
 	regiments = {
 		infantry = { x = 0 y = 0 }		# Note: Chinese divisions were brigade-sized compared other nations' armies
@@ -13,23 +13,23 @@
 
 units = {
 	division = {
-		name = "昆明警备"
+		name = "昆明警备团"
 		location = 12789
-		division_template = "军团"			# Provincial militia unit (poor equipment and training)
+		division_template = "云南警备团"			# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.5
 
 	}
 	division = {
-		name = "云南警备"
+		name = "云南警备团"
 		location = 10346
-		division_template = "军团"			# Provincial militia unit (poor equipment and training)
+		division_template = "云南警备团"			# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.5
 
 	}
 	division = {
-		name = "大理警备"
+		name = "大理警备团"
 		location = 10346
-		division_template = "军团"			# Provincial militia unit (poor equipment and training)
+		division_template = "云南警备团"			# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.5
 
 	}

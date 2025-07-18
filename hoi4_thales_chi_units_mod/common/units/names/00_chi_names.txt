@@ -55,7 +55,7 @@ CHI = {
 	#Air wings can only be named through archetype
 	small_plane_airframe = {
 		prefix = ""
-		generic = { "战斗机大队" "歼击机大队" }
+		generic = { "战斗机大队" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	
@@ -63,7 +63,7 @@ CHI = {
 
 	jet_fighter_equipment = {
 		prefix = ""
-		generic = { "战斗机大队" "歼击机大队" }
+		generic = { "喷气式战斗机大队" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	
@@ -87,7 +87,7 @@ CHI = {
 
 	cv_small_plane_airframe = {
 		prefix = ""
-		generic = { "战斗机大队" "歼击机大队" }
+		generic = { "舰载战斗机大队" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	
@@ -95,14 +95,14 @@ CHI = {
 
 	cv_small_plane_cas_airframe = {
 		prefix = ""
-		generic = { "攻击机大队" }
+		generic = { "舰载攻击机大队" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	
 	}
 	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
-		generic = { "海轰大队" }
+		generic = { "舰载海轰大队" }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	
@@ -142,7 +142,7 @@ CHI = {
 
 	jet_strat_bomber_equipment = {
 		prefix = ""
-		generic = { "战略轰炸机大队"  }
+		generic = { "喷气式战略轰炸机大队"  }
 		generic_pattern = AIR_WING_NAME_CHI_GENERIC
 		unique = {
 		}	

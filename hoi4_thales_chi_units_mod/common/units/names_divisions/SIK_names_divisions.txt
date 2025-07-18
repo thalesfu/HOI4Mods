@@ -32,7 +32,7 @@
 #                                      the current game version.
 SIK_INF_01 = 
 {
-	name = "Infantry Unit"
+	name = "新疆步兵师"
 
 	for_countries = { SIK }
 
@@ -41,40 +41,28 @@ SIK_INF_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SIK_INF_01 }
+	link_numbering_with = { 
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	}
 
-	fallback_name = "%d Xin'jiang Juntuán"
+	fallback_name = "国民革命军第%d师-新疆军团"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Xin'jiang Juntuán" }		# fictional warlord corps
-		2 = { "%d Xin'jiang Juntuán" }
-		3 = { "%d Xin'jiang Juntuán" }
-		4 = { "%d Xin'jiang Juntuán" }
-		5 = { "%d Xin'jiang Juntuán" }
-		6 = { "%d Xin'jiang Juntuán" }
-		7 = { "%d Xin'jiang Juntuán" }
-		8 = { "%d Xin'jiang Juntuán" }
-		9 = { "%d Xin'jiang Juntuán" }
-		10 = { "%d Xin'jiang Juntuán" }
-		11 = { "%d Xin'jiang Juntuán" }
-		12 = { "%d Xin'jiang Juntuán" }
-		13 = { "%d Xin'jiang Juntuán" }
-		14 = { "%d Xin'jiang Juntuán" }
-		15 = { "%d Xin'jiang Juntuán" }
-		16 = { "%d Xin'jiang Juntuán" }
-		17 = { "%d Xin'jiang Juntuán" }
-		18 = { "%d Xin'jiang Juntuán" }
-		19 = { "%d Xin'jiang Juntuán" }
-		20 = { "%d Xin'jiang Juntuán" }
+		
 	}
 }
 
 SIK_CAV_01 = 
 {
-	name = "Cavalry Unit"
+	name = "新疆骑兵师"
 
 	for_countries = { SIK }
 
@@ -83,35 +71,28 @@ SIK_CAV_01 =
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { CHI_INF_01 }
+	link_numbering_with = { 
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	}
 
-	fallback_name = "%d Xin'jiang Qibing Jun"
+	fallback_name = "国民革命军第%d骑兵师-新疆军团"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Xin'jiang Qibing Jun" }			# All fictional warlord cavalry corps
-		2 = { "%d Xin'jiang Qibing Jun" }
-		3 = { "%d Xin'jiang Qibing Jun" }
-		4 = { "%d Xin'jiang Qibing Jun" }
-		6 = { "%d Xin'jiang Qibing Jun" }
-		5 = { "%d Xin'jiang Qibing Jun" }
-		7 = { "%d Xin'jiang Qibing Jun" }
-		8 = { "%d Xin'jiang Qibing Jun" }
-		9 = { "%d Xin'jiang Qibing Jun" }
-		10 = { "%d Xin'jiang Qibing Jun" }
-		11 = { "%d Xin'jiang Qibing Jun" }
-		12 = { "%d Xin'jiang Qibing Jun" }
-		13 = { "%d Xin'jiang Qibing Jun" }
-		14 = { "%d Xin'jiang Qibing Jun" }
-		15 = { "%d Xin'jiang Qibing Jun" }
+	
 	}
 }
 
 SIK_MOT_01 = 
 {
-	name = "Motorized Unit"
+	name = "新疆摩托化步兵师"
 
 	for_countries = { SIK }
 
@@ -120,40 +101,28 @@ SIK_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SIK_INF_01 }
+	link_numbering_with = { 
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	}
 
-	fallback_name = "%d Xin'jiang Juntuán"
+	fallback_name = "国民革命军第%d摩托化步兵师-新疆军团"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Xin'jiang Juntuán" }		# fictional warlord corps
-		2 = { "%d Xin'jiang Juntuán" }
-		3 = { "%d Xin'jiang Juntuán" }
-		4 = { "%d Xin'jiang Juntuán" }
-		5 = { "%d Xin'jiang Juntuán" }
-		6 = { "%d Xin'jiang Juntuán" }
-		7 = { "%d Xin'jiang Juntuán" }
-		8 = { "%d Xin'jiang Juntuán" }
-		9 = { "%d Xin'jiang Juntuán" }
-		10 = { "%d Xin'jiang Juntuán" }
-		11 = { "%d Xin'jiang Juntuán" }
-		12 = { "%d Xin'jiang Juntuán" }
-		13 = { "%d Xin'jiang Juntuán" }
-		14 = { "%d Xin'jiang Juntuán" }
-		15 = { "%d Xin'jiang Juntuán" }
-		16 = { "%d Xin'jiang Juntuán" }
-		17 = { "%d Xin'jiang Juntuán" }
-		18 = { "%d Xin'jiang Juntuán" }
-		19 = { "%d Xin'jiang Juntuán" }
-		20 = { "%d Xin'jiang Juntuán" }
+	
 	}
 }
 
 SIK_MEC_01 = 
 {
-	name = "Mechanized Unit"
+	name = "新疆机械化步兵师"
 
 	for_countries = { SIK }
 
@@ -162,34 +131,22 @@ SIK_MEC_01 =
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SIK_INF_01 }
+	link_numbering_with = { 
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	}
 
-	fallback_name = "%d Xin'jiang Juntuán"
+	fallback_name = "国民革命军第%d机械化步兵师-新疆军团"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Xin'jiang Juntuán" }		# fictional warlord corps
-		2 = { "%d Xin'jiang Juntuán" }
-		3 = { "%d Xin'jiang Juntuán" }
-		4 = { "%d Xin'jiang Juntuán" }
-		5 = { "%d Xin'jiang Juntuán" }
-		6 = { "%d Xin'jiang Juntuán" }
-		7 = { "%d Xin'jiang Juntuán" }
-		8 = { "%d Xin'jiang Juntuán" }
-		9 = { "%d Xin'jiang Juntuán" }
-		10 = { "%d Xin'jiang Juntuán" }
-		11 = { "%d Xin'jiang Juntuán" }
-		12 = { "%d Xin'jiang Juntuán" }
-		13 = { "%d Xin'jiang Juntuán" }
-		14 = { "%d Xin'jiang Juntuán" }
-		15 = { "%d Xin'jiang Juntuán" }
-		16 = { "%d Xin'jiang Juntuán" }
-		17 = { "%d Xin'jiang Juntuán" }
-		18 = { "%d Xin'jiang Juntuán" }
-		19 = { "%d Xin'jiang Juntuán" }
-		20 = { "%d Xin'jiang Juntuán" }
+		
 	}
 }
 
@@ -199,7 +156,7 @@ SIK_MEC_01 =
 
 SIK_MNT_01 = 
 {
-	name = "Mountain Unit"
+	name = "新疆山地师"
 
 	for_countries = { SIK }
 
@@ -208,40 +165,28 @@ SIK_MNT_01 =
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SIK_INF_01 }
+	link_numbering_with = { 
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	}
 
-	fallback_name = "%d Xin'jiang Juntuán"
+	fallback_name = "国民革命军第%d山地师-新疆军团"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Xin'jiang Juntuán" }		# fictional warlord corps
-		2 = { "%d Xin'jiang Juntuán" }
-		3 = { "%d Xin'jiang Juntuán" }
-		4 = { "%d Xin'jiang Juntuán" }
-		5 = { "%d Xin'jiang Juntuán" }
-		6 = { "%d Xin'jiang Juntuán" }
-		7 = { "%d Xin'jiang Juntuán" }
-		8 = { "%d Xin'jiang Juntuán" }
-		9 = { "%d Xin'jiang Juntuán" }
-		10 = { "%d Xin'jiang Juntuán" }
-		11 = { "%d Xin'jiang Juntuán" }
-		12 = { "%d Xin'jiang Juntuán" }
-		13 = { "%d Xin'jiang Juntuán" }
-		14 = { "%d Xin'jiang Juntuán" }
-		15 = { "%d Xin'jiang Juntuán" }
-		16 = { "%d Xin'jiang Juntuán" }
-		17 = { "%d Xin'jiang Juntuán" }
-		18 = { "%d Xin'jiang Juntuán" }
-		19 = { "%d Xin'jiang Juntuán" }
-		20 = { "%d Xin'jiang Juntuán" }
+		
 	}
 }
 
 SIK_GAR_01 = 
 {
-	name = "Garrison Unit"
+	name = "新疆警备团"
 
 	for_countries = { SIK }
 
@@ -250,42 +195,15 @@ SIK_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { CHI_INF_01 }
+	link_numbering_with = { CHI_GAR_01 GXC_GAR_01 SHX_GAR_01 YUN_GAR_01 XSM_GAR_01 SIK_GAR_01}
 
-	fallback_name = "%d Xin'jiang Jingbei"
+	fallback_name = "第%d新疆警备团"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		101 = { "1 Urumqi Jingbei" }			# All fictional names for local militias
-		111 = { "1 Talamakan Jingbei" }		
-		121 = { "1 Yarkand Jingbei" }
-		102 = { "2 Urumqi Jingbei" }
-		103 = { "3 Urumqi Jingbei" }
-		112 = { "2 Talamakan Jingbei" }
-		113 = { "3 Talamakan Jingbei" }
-		122 = { "2 Yarkand Jingbei" }
-		104 = { "4 Urumqi Jingbei" }
-		105 = { "5 Urumqi Jingbei" }
-		123 = { "3 Yarkand Jingbei" }
-		124 = { "4 Yarkand Jingbei" }
-		114 = { "4 Talamakan Jingbei" }
-		115 = { "5 Talamakan Jingbei" }
-		125 = { "5 Yarkand Jingbei" }
-		131 = { "1 Urumqi Baoan Ke" }		
-		132 = { "2 Urumqi Baoan Ke" }		
-		133 = { "3 Urumqi Baoan Ke" }		
-		1 = { "%d Xin'jiang Jingbei" }		
-		2 = { "%d Xin'jiang Jingbei" }		
-		3 = { "%d Xin'jiang Jingbei" }		
-		4 = { "%d Xin'jiang Jingbei" }		
-		5 = { "%d Xin'jiang Jingbei" }		
-		6 = { "%d Xin'jiang Jingbei" }		
-		7 = { "%d Xin'jiang Jingbei" }		
-		8 = { "%d Xin'jiang Jingbei" }		
-		9 = { "%d Xin'jiang Jingbei" }		
-		10 = { "%d Xin'jiang Jingbei" }		
+			
 	}
 }
 

@@ -1,5 +1,5 @@
 ﻿division_template = {
-  name = "军团"  # Juntuán
+  name = "马家军步兵师"  # Juntuán
   division_names_group = XSM_INF_01
   regiments = {
     infantry = {
@@ -21,7 +21,29 @@
   }
 }
 division_template = {
-  name = "骑兵师"  # Qibing Jun
+  name = "马家军守备部队"  # Juntuán
+  division_names_group = XSM_GAR_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "马家军骑兵师"  # Qibing Jun
   division_names_group = XSM_CAV_01
   regiments = {
     cavalry = {
@@ -57,7 +79,7 @@ units = {
       name_order = 80
     }
     location = 12846
-    division_template = "军团"  # Juntuán
+    division_template = "马家军步兵师"  # Juntuán
     start_experience_factor = 0.1
     start_equipment_factor = 0.6
   }
@@ -67,7 +89,7 @@ units = {
       name_order = 81
     }
     location = 1647
-    division_template = "军团"  # Juntuán
+    division_template = "马家军步兵师"  # Juntuán
     start_experience_factor = 0.1
     start_equipment_factor = 0.6
   }
@@ -77,7 +99,7 @@ units = {
       name_order = 82
     }
     location = 1933
-    division_template = "军团"  # Juntuán
+    division_template = "马家军步兵师"  # Juntuán
     start_experience_factor = 0.1
     start_equipment_factor = 0.6
   }
@@ -87,7 +109,7 @@ units = {
       name_order = 1
     }
     location = 7911
-    division_template = "骑兵师"  # Qibing Jun
+    division_template = "马家军骑兵师"  # Qibing Jun
     start_experience_factor = 0.1
     start_equipment_factor = 0.6
   }
@@ -97,7 +119,7 @@ units = {
       name_order = 2
     }
     location = 531
-    division_template = "骑兵师"  # Qibing Jun
+    division_template = "马家军骑兵师"  # Qibing Jun
     start_experience_factor = 0.1
     start_equipment_factor = 0.6
   }
@@ -107,14 +129,14 @@ units = {
       name_order = 3
     }
     location = 12846
-    division_template = "骑兵师"  # Qibing Jun
+    division_template = "马家军骑兵师"  # Qibing Jun
     start_experience_factor = 0.1
     start_equipment_factor = 0.6
   }
   division = {
     name = "格尔木守备师"  # Golmud Jingbei
     location = 12846
-    division_template = "军团"  # Juntuán
+    division_template = "马家军守备部队"  # Juntuán
     start_equipment_factor = 0.3
   }
 }
