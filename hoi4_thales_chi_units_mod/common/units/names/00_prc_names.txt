@@ -52,104 +52,104 @@ PRC = {submarine = {
 
 	#Air wings can only be named through archetype
 	small_plane_airframe = {
-		prefix = ""
-		generic = { "战斗机大队" "歼击机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "空"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	jet_fighter_equipment = {
-		prefix = ""
-		generic = { "战斗机大队" "歼击机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "空"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	medium_plane_fighter_airframe = {
-		prefix = ""
-		generic = { "战斗机大队" "歼击机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "空"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	small_plane_cas_airframe = {
-		prefix = ""
-		generic = { "攻击机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "空"
+		generic = { "旅"}
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	cv_small_plane_airframe = {
-		prefix = ""
-		generic = { "战斗机大队" "歼击机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "舰载"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	cv_small_plane_cas_airframe = {
-		prefix = ""
-		generic = { "攻击机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "舰载"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 	cv_small_plane_naval_bomber_airframe = {
-		prefix = ""
-		generic = { "海轰大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "舰载"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	medium_plane_airframe = {
-		prefix = ""
-		generic = { "轰炸机大队" "护卫机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "空"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	jet_tac_bomber_equipment = {
-		prefix = ""
-		generic = { "轰炸机大队" "护卫机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "轰"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	small_plane_naval_bomber_airframe = {
-		prefix = ""
-		generic = { "海轰大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "海轰"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	large_plane_airframe = {
-		prefix = ""
-		generic = { "战略轰炸机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "空"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	jet_strat_bomber_equipment = {
-		prefix = ""
-		generic = { "战略轰炸机大队"  }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "轰"
+		generic = { "旅"  }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	transport_plane_equipment = {
-		prefix = ""
-		generic = { "运输机大队" }
-		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		prefix = "运"
+		generic = { "旅" }
+		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
