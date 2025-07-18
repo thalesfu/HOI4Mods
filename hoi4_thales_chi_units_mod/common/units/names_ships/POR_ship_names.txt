@@ -1,0 +1,116 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+POR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "第%d驱逐舰"					
+
+	unique = {											
+		"瓜地亚纳河" "杜罗河" "塔梅加" "沃加" "利马" "杜奥" "特茹河" "莉斯" "努诺·特里斯唐" "迪奥戈·戈梅斯" "迪奥戈·康" "柯第里尔" "佩罗·埃斯科巴"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+POR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "第%d轻巡洋舰"
+
+	unique = {
+		"马托西纽什" "加亚新城" "米拉" "菲盖拉-达福什" "大马里尼亚" "纳扎雷" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+POR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+
+	fallback_name = "第%d重巡洋舰"
+
+	unique = {
+		"马托西纽什" "加亚新城" "米拉" "菲盖拉-达福什" "大马里尼亚" "纳扎雷" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+POR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "第%d战列舰"		
+
+	unique = {
+		"米纳斯吉拉斯" "圣保罗" "圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "南里奥格兰德" "帕拉" "阿拉戈斯" "伯南布哥" 
+		"罗赖马" "托坎廷斯江" "圣卡塔琳娜" "北里约格朗德" "巴拉那" "阿克里" "马托格罗索" "亚马逊" "朗多尼亚" "阿马帕" "皮奥伊" 
+		"塞阿拉" "塞尔希培" "帕拉伊巴" "南马托格罗索" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+POR_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "第%d战列巡洋舰"		
+
+	unique = {
+		"里斯本" "波尔图" "新状态" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+POR_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "第%d航空母舰"	
+
+	unique = {
+		"阿马多拉" "埃斯托利尔" "普林西比·雷亚尔" "葡萄牙女王" "阿方索·德·阿尔布克尔克" "王子德拉佩罗" "美杜莎" "玛丽女王" "圣塞巴斯蒂昂" 
+	}
+}
+
+### SUBMARINES ###
+POR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "第%d潜艇"
+	
+	unique = {
+		"德尔芬" "旗鱼" "海豚" "纳尔瓦尔" "鹦鹉螺" "海王星" "白鲸" "梭鱼" "抹香鲸" "海豹" "九头蛇"
+	}
+}

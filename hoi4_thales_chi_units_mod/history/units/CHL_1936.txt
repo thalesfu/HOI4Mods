@@ -1,0 +1,135 @@
+﻿division_template = {
+  name = "步兵师"  # División de Infanteria
+  division_names_group = SPAN_INF_02
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "骑兵师"  # División de Caballería
+  division_names_group = SPAN_CAV_01
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 0
+      y = 2
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 2
+    }
+    cavalry = {
+      x = 2
+      y = 0
+    }
+    cavalry = {
+      x = 2
+      y = 1
+    }
+    cavalry = {
+      x = 2
+      y = 2
+    }
+  }
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 8222
+    division_template = "步兵师"  # División de Infanteria
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 12994
+    division_template = "步兵师"  # División de Infanteria
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 5121
+    division_template = "步兵师"  # División de Infanteria
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "骑兵师"  # División de Caballería
+    location = 8194
+    division_template = "骑兵师"  # División de Caballería
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_0
+      creator = CHL
+    }
+    requested_factories = 1
+    progress = 0.18
+    efficiency = 100
+    industrial_manufacturer = mio:CHL_famae_organization
+  }
+}

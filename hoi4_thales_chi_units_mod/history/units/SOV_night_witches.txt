@@ -1,0 +1,17 @@
+﻿air_wings = {
+  219 = {
+    tac_bomber_equipment_0 = {
+      owner = "SOV"
+      amount = 40
+    }
+    name = "第588夜间轰炸机团"
+    ace = {
+      modifier = "support_unique"
+      name = "叶芙多吉娅"  # Yevdokia
+      surname = "贝肖斯卡亚"  # Bershanskaya
+      callsign = "夜空女巫"  # Witch
+      is_female = yes
+      portrait = 1
+    }
+  }
+}

@@ -1,0 +1,199 @@
+﻿units = {
+  fleet = {
+    name = "瓦西里科海军"  # Vasilikó Polemikó Naftikó
+    naval_base = 4109
+    task_force = {
+      name = "瓦西里科舰队"  # Vasilikós Stólos
+      location = 4109
+      ship = {
+        name = "乔治·阿韦罗夫"  # RHS Georgios Averof
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "埃利"  # RHS Elli
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "乔治一世国王"  # RHS Vasilefs Georgios I
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "奥尔加皇后"  # RHS Vasilissa Olga
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "鹫"  # RHS Aetos
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "鹰"  # RHS Ierax
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "狮"  # RHS Leon
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "黑豹"  # RHS Panthir
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "康托里奥蒂斯"  # RHS Kountouriotis
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "海德拉级"  # Hydra Class
+          }
+        }
+      }
+      ship = {
+        name = "海德拉"  # RHS Hydra
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "海德拉级"  # Hydra Class
+          }
+        }
+      }
+      ship = {
+        name = "普萨拉"  # RHS Psara
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "海德拉级"  # Hydra Class
+          }
+        }
+      }
+      ship = {
+        name = "斯佩查"  # RHS Spetsai
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "海德拉级"  # Hydra Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Stolískou Ypovrychíon
+      location = 4109
+      ship = {
+        name = "卡特索尼斯"  # RHS Katsonis
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "帕帕尼可利斯"  # RHS Papanikolis
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "普罗透斯"  # RHS Protefs
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "天真"  # RHS Nirefs
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "特里同"  # RHS Triton
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+      ship = {
+        name = "格拉夫科斯"  # RHS Glafkos
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = GRE
+          }
+        }
+      }
+    }
+  }
+}

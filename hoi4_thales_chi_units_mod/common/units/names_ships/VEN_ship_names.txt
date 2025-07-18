@@ -1,0 +1,120 @@
+﻿##### VENEZUELA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+VEN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"新埃斯帕塔" "苏利亚" "阿拉瓜" "克莱门特海军上将" "弗洛雷斯将军" "莫兰将军" "布里昂海军上将" "奥斯特拉将军" "加西亚海军上将"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+VEN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"马拉凯" "巴基西梅托" "巴伦西亚" "佩塔雷·特克斯" "波多拉克鲁兹" "库马纳" "马图林" "索塔文托" "龟岛" "佩德雷加尔" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+VEN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"马拉凯" "巴基西梅托" "巴伦西亚" "佩塔雷·特克斯" "波多拉克鲁兹" "库马纳" "马图林" "索塔文托" "龟岛" "佩德雷加尔" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+VEN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"科罗内尔" "圣保罗海军上将" "加拉加斯"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+VEN_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"科罗内尔" "圣保罗海军上将" "加拉加斯"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+VEN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"委内瑞拉共和国" "西蒙·玻利瓦尔" "乌尔达内塔将军" "布里昂海军上将" "苏布莱特将军" "萨洛姆将军"
+	}
+}
+
+### SUBMARINES ###
+VEN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"萨瓦洛" "加勒比" "克莱门特海军上将" "弗洛雷斯将军" "莫兰将军" "布里昂海军上将" "奥斯特拉将军" "加西亚海军上将"
+	}
+}

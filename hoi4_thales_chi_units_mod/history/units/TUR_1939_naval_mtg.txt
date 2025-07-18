@@ -1,0 +1,180 @@
+﻿units = {
+  fleet = {
+    name = "土耳其海军"  # Türk Donanmasi
+    naval_base = 4112
+    task_force = {
+      name = "土耳其海军"  # Türk Donanmasi
+      location = 4112
+      ship = {
+        name = "亚维兹"  # TCG Yavuz
+        pride_of_the_fleet = yes
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "亚武兹级"  # Yavuz Class
+          }
+        }
+      }
+      ship = {
+        name = "迈吉迪耶"  # TCG Mecidiye
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = TUR
+            version_name = "梅吉迪耶级"  # Mecidiye Class
+          }
+        }
+      }
+      ship = {
+        name = "哈米迪耶"  # TCG Hamidiye
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = TUR
+            version_name = "梅吉迪耶级"  # Mecidiye Class
+          }
+        }
+      }
+      ship = {
+        name = "贝伊克"  # TCG Peyk
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "贝伊克级"  # Peyk Class
+          }
+        }
+      }
+      ship = {
+        name = "伯克"  # TCG Berk
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "贝伊克级"  # Peyk Class
+          }
+        }
+      }
+      ship = {
+        name = "科扎德佩"  # TCG Kocatepe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "科贾泰佩级"  # Kocatepe Class
+          }
+        }
+      }
+      ship = {
+        name = "阿达特佩"  # TCG Adatepe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "科贾泰佩级"  # Kocatepe Class
+          }
+        }
+      }
+      ship = {
+        name = "扎法尔"  # TCG Zafer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "科贾泰佩级"  # Kocatepe Class
+          }
+        }
+      }
+      ship = {
+        name = "蒂娜泽佩"  # TCG Tinaztepe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "科贾泰佩级"  # Kocatepe Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Filotilla Denizalti Kücük
+      location = 11881
+      ship = {
+        name = "第1次伊诺努之战"  # TCG Birinci Inönü
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "伊诺努之战级"  # Birinci Inönü Class
+          }
+        }
+      }
+      ship = {
+        name = "第2次伊诺努之战"  # TCG Ikinci Inönü
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "伊诺努之战级"  # Birinci Inönü Class
+          }
+        }
+      }
+      ship = {
+        name = "杜姆卢珀纳尔"  # TCG Dumlupinar
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "杜姆卢皮纳尔级"  # Dumlupinar Class
+          }
+        }
+      }
+      ship = {
+        name = "萨卡里亚"  # TCG Sakarya
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "萨卡里亚级"  # Sakarya Class
+          }
+        }
+      }
+      ship = {
+        name = "居尔"  # TCG Gür
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "萨卡里亚级"  # Sakarya Class
+          }
+        }
+      }
+      ship = {
+        name = "萨尔迪雷"  # TCG Saldiray
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "萨尔迪雷级"  # Saldiray Class
+          }
+        }
+      }
+    }
+  }
+}

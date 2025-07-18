@@ -1,0 +1,771 @@
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+# Legacy List 
+ETH_INF_01 = {
+	name = "步兵师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆步兵师" }
+		3 = { "第2 戈贾姆步兵师" }
+		4 = { "沃尔凯特-塞米恩步兵师" }
+		5 = { "瓦莱加-阿尔乔步兵师" }
+		6 = { "第1 提格雷步兵师" }
+		7 = { "第2 提格雷步兵师" }
+		8 = { "第1 贝根德尔步兵师" }
+		9 = { "第2 贝根德尔步兵师" }
+		10 = { "瓦格 步兵师" }
+		11 = { "欧加登 步兵师" }
+		12 = { "阿鲁西 步兵师" }
+		13 = { "伊路巴博 步兵师" }
+		14 = { "第1 西达摩 步兵师" }
+		15 = { "第2 西达摩 步兵师" }
+		16 = { "氨基 步兵师" }
+		17 = { "古巴 步兵师" }
+		18 = { "季马 步兵师" }
+		19 = { "梅 步兵师" }
+		20 = { "奥姆哈耶 步兵师" }
+		21 = { "西拉 步兵师" }
+		22 = { "索多 步兵师" }
+		23 = { "沃莱加 步兵师" }
+		24 = { "叶茹 步兵师" }
+		25 = { "达纳基尔 步兵师" }
+		26 = { "伊夫拉塔 步兵师" }
+		27 = { "卡法 步兵师" }
+		28 = { "沃罗 步兵师" }
+		29 = { "哈勒尔盖 步兵师" }
+		30 = { "格穆戈法 步兵师" }
+		31 = { "谷拉 步兵师" }
+		32 = { "贝尔 步兵师" }
+		33 = { "马赫尔 步兵师" }
+	}
+}
+
+ETH_INF_IG = {
+	name = "荣誉卫队"
+	for_countries = { ETH }
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 荣誉卫队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "荣誉卫队" } 
+	}
+}
+
+# Use for Mehal Sefari units
+ETH_INF_02 = {
+	name = "皇家卫队"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 皇家卫队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "第1 戈贾姆 皇家卫队 " }
+		2 = { "第2 戈贾姆 皇家卫队 " }
+		3 = { "第1 沃尔凯特 皇家卫队 " }
+		4 = { "第1 塞米恩 皇家卫队 " }
+		5 = { "第1 氨基 皇家卫队 " }
+		6 = { "第1 古巴 皇家卫队 " }
+		7 = { "第1 古拉盖 皇家卫队 " }
+		8 = { "第1 季马 皇家卫队 " }
+		9 = { "第1 梅 皇家卫队 " }
+		10 = { "第1 奥姆哈耶 皇家卫队 " }
+		11 = { "第1 西拉 皇家卫队 " }
+		12 = { "第1 索多 皇家卫队 " }
+		13 = { "第1 沃莱加 皇家卫队 " }
+		14 = { "第2 沃尔凯特 皇家卫队 " }
+		15 = { "第2 塞米恩 皇家卫队 " }
+		16 = { "第2 氨基 皇家卫队 " }
+		17 = { "第2 古巴 皇家卫队 " }
+		18 = { "第2 古拉盖 皇家卫队 " }
+		19 = { "第2 季马 皇家卫队 " }
+		20 = { "第2 梅 皇家卫队 " }
+		21 = { "第2 奥姆哈耶 皇家卫队 " }
+		22 = { "第2 西拉 皇家卫队 " }
+		23 = { "第2 索多 皇家卫队 " }
+		24 = { "第2 沃莱加 皇家卫队 " }
+		25 = { "第1 贝根德尔 皇家卫队 " }
+		26 = { "第2 贝根德尔 皇家卫队 " }
+		27 = { "第3 贝根德尔 皇家卫队 " }
+		28 = { "第4 贝根德尔 皇家卫队 " }
+		29 = { "第5 贝根德尔 皇家卫队 " }
+		30 = { "第6 贝根德尔 皇家卫队 " }
+		31 = { "第7 贝根德尔 皇家卫队 " }
+		32 = { "第8 贝根德尔 皇家卫队 " }
+		33 = { "第9 贝根德尔 皇家卫队 " }
+		34 = { "第1 提格雷 皇家卫队 " }
+		35 = { "第2 提格雷 皇家卫队 " }
+		36 = { "第3 提格雷 皇家卫队 " }
+		37 = { "第1 瓦格 皇家卫队 " }
+		38 = { "第1 拉斯塔 皇家卫队 " }
+		39 = { "第1 叶茹 皇家卫队 " }
+		40 = { "第1 伊夫拉塔 皇家卫队 " }
+		41 = { "第1 瓦莱加-阿尔乔 皇家卫队 " }
+		42 = { "第2 沃尔凯特-塞米恩 皇家卫队 " }
+		43 = { "第1 卡法 皇家卫队 " }
+		44 = { "第1 欧加登 皇家卫队 " }
+		45 = { "第1 哈勒尔盖 皇家卫队 " }
+		46 = { "第1 伊路巴博 皇家卫队 " }
+		47 = { "第2 伊路巴博 皇家卫队 " }
+		48 = { "第1 伽姆戈法 皇家卫队 " }
+		49 = { "第1 阿鲁西 皇家卫队 " }
+		50 = { "第1 贝尔 皇家卫队 " }
+		51 = { "第1 西达摩 皇家卫队 " }
+		52 = { "第2 西达摩 皇家卫队 " }
+		53 = { "第3 西达摩 皇家卫队 " }
+		54 = { "第4 西达摩 皇家卫队 " }
+	}
+}
+
+# Use for Chitet regional forces
+ETH_INF_03 = {
+	name = "切特师"
+
+	for_countries = { ETH }
+
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 切特步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "第1 戈贾姆 切特步兵师 " }
+		2 = { "第2 戈贾姆 切特步兵师 " }
+		3 = { "第1 贝根德尔师 " }
+		4 = { "第2 贝根德尔师 " }
+		5 = { "第3 贝根德尔师 " }
+		6 = { "第4 贝根德尔师 " }
+		7 = { "第5 贝根德尔师 " }
+		8 = { "第6 贝根德尔师 " }
+		9 = { "第7 贝根德尔师 " }
+		10 = { "第8 贝根德尔师 " }
+		11 = { "第9 贝根德尔师 " }
+		12 = { "第1 提格雷师 " }
+		13 = { "第2 提格雷师 " }
+		14 = { "第3 提格雷师 " }
+		15 = { "第1 瓦格师 " }
+		16 = { "第1 拉斯塔师 " }
+		17 = { "第1 叶茹师 " }
+		18 = { "第1 伊夫拉塔师 " }
+		19 = { "第1 休恩 切特步兵师 " }
+		20 = { "第1 瓦莱加-阿尔乔师 " }
+		21 = { "第2 沃尔凯特-塞米恩师 " }
+		22 = { "第1 卡法师 " }
+		23 = { "第1 欧加登师 " }
+		24 = { "第1 瓦尔瓦尔 切特步兵师 " }
+		25 = { "第1 哈勒尔盖师 " }
+		26 = { "第1 伊路巴博师 " }
+		27 = { "第2 伊路巴博师 " }
+		28 = { "第1 阿鲁西师 " }
+		29 = { "第1 阿鲁西师 " }
+		30 = { "第1 贝尔师 " }
+		31 = { "第1 西达摩师 " }
+		32 = { "第2 西达摩师 " }
+		33 = { "第3 西达摩师 " }
+		34 = { "第4 西达摩师 " }
+	}
+}
+ETH_ARB = {
+	name = "爱国者联盟师"
+
+	for_countries = { ETH }
+
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 爱国者联盟师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+	
+}
+
+ETH_CAV_01 = {
+	name = "骑兵师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 骑兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆骑兵师" }
+		3 = { "第2 戈贾姆骑兵师" }
+		4 = { "沃尔凯特-塞米恩骑兵师" }
+		5 = { "瓦莱加-阿尔乔骑兵师" }
+		6 = { "第1 提格雷骑兵师" }
+		7 = { "第2 提格雷骑兵师" }
+		8 = { "第1 贝根德尔骑兵师" }
+		9 = { "第2 贝根德尔骑兵师" }
+		10 = { "瓦格 骑兵师" }
+		11 = { "欧加登 骑兵师" }
+		12 = { "阿鲁西 骑兵师" }
+		13 = { "伊路巴博 骑兵师" }
+		14 = { "第1 西达摩 骑兵师" }
+		15 = { "第2 西达摩 骑兵师" }
+		16 = { "氨基 骑兵师" }
+		17 = { "古巴 骑兵师" }
+		18 = { "季马 骑兵师" }
+		19 = { "梅 骑兵师" }
+		20 = { "奥姆哈耶 骑兵师" }
+		21 = { "西拉 骑兵师" }
+		22 = { "索多 骑兵师" }
+		23 = { "沃莱加 骑兵师" }
+		24 = { "叶茹 骑兵师" }
+		25 = { "达纳基尔 骑兵师" }
+		26 = { "伊夫拉塔 骑兵师" }
+		27 = { "卡法 骑兵师" }
+		28 = { "沃罗 骑兵师" }
+		29 = { "哈勒尔盖 骑兵师" }
+		30 = { "格穆戈法 骑兵师" }
+		31 = { "谷拉 骑兵师" }
+		32 = { "贝尔 骑兵师" }
+		33 = { "马赫尔 骑兵师" }
+	}
+}
+
+ETH_MOT_01 = 
+{
+	name = "摩托化步兵师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 摩托化步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆摩托化步兵师" }
+		3 = { "第2 戈贾姆摩托化步兵师" }
+		4 = { "沃尔凯特-塞米恩摩托化步兵师" }
+		5 = { "瓦莱加-阿尔乔摩托化步兵师" }
+		6 = { "第1 提格雷摩托化步兵师" }
+		7 = { "第2 提格雷摩托化步兵师" }
+		8 = { "第1 贝根德尔摩托化步兵师" }
+		9 = { "第2 贝根德尔摩托化步兵师" }
+		10 = { "瓦格 摩托化步兵师" }
+		11 = { "欧加登 摩托化步兵师" }
+		12 = { "阿鲁西 摩托化步兵师" }
+		13 = { "伊路巴博 摩托化步兵师" }
+		14 = { "第1 西达摩 摩托化步兵师" }
+		15 = { "第2 西达摩 摩托化步兵师" }
+		16 = { "氨基 摩托化步兵师" }
+		17 = { "古巴 摩托化步兵师" }
+		18 = { "季马 摩托化步兵师" }
+		19 = { "梅 摩托化步兵师" }
+		20 = { "奥姆哈耶 摩托化步兵师" }
+		21 = { "西拉 摩托化步兵师" }
+		22 = { "索多 摩托化步兵师" }
+		23 = { "沃莱加 摩托化步兵师" }
+		24 = { "叶茹 摩托化步兵师" }
+		25 = { "达纳基尔 摩托化步兵师" }
+		26 = { "伊夫拉塔 摩托化步兵师" }
+		27 = { "卡法 摩托化步兵师" }
+		28 = { "沃罗 摩托化步兵师" }
+		29 = { "哈勒尔盖 摩托化步兵师" }
+		30 = { "格穆戈法 摩托化步兵师" }
+		31 = { "谷拉 摩托化步兵师" }
+		32 = { "贝尔 摩托化步兵师" }
+		33 = { "马赫尔 摩托化步兵师" }
+	}
+}
+
+ETH_MEC_01 = 
+{
+	name = "机械化步兵师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 机械化步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆机械化步兵师" }
+		3 = { "第2 戈贾姆机械化步兵师" }
+		4 = { "沃尔凯特-塞米恩机械化步兵师" }
+		5 = { "瓦莱加-阿尔乔机械化步兵师" }
+		6 = { "第1 提格雷机械化步兵师" }
+		7 = { "第2 提格雷机械化步兵师" }
+		8 = { "第1 贝根德尔机械化步兵师" }
+		9 = { "第2 贝根德尔机械化步兵师" }
+		10 = { "瓦格 机械化步兵师" }
+		11 = { "欧加登 机械化步兵师" }
+		12 = { "阿鲁西 机械化步兵师" }
+		13 = { "伊路巴博 机械化步兵师" }
+		14 = { "第1 西达摩 机械化步兵师" }
+		15 = { "第2 西达摩 机械化步兵师" }
+		16 = { "氨基 机械化步兵师" }
+		17 = { "古巴 机械化步兵师" }
+		18 = { "季马 机械化步兵师" }
+		19 = { "梅 机械化步兵师" }
+		20 = { "奥姆哈耶 机械化步兵师" }
+		21 = { "西拉 机械化步兵师" }
+		22 = { "索多 机械化步兵师" }
+		23 = { "沃莱加 机械化步兵师" }
+		24 = { "叶茹 机械化步兵师" }
+		25 = { "达纳基尔 机械化步兵师" }
+		26 = { "伊夫拉塔 机械化步兵师" }
+		27 = { "卡法 机械化步兵师" }
+		28 = { "沃罗 机械化步兵师" }
+		29 = { "哈勒尔盖 机械化步兵师" }
+		30 = { "格穆戈法 机械化步兵师" }
+		31 = { "谷拉 机械化步兵师" }
+		32 = { "贝尔 机械化步兵师" }
+		33 = { "马赫尔 机械化步兵师" }
+	}
+}
+
+ETH_ARM_01 = 
+{
+	name = "装甲师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 装甲师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆装甲师" }
+		3 = { "第2 戈贾姆装甲师" }
+		4 = { "沃尔凯特-塞米恩装甲师" }
+		5 = { "瓦莱加-阿尔乔装甲师" }
+		6 = { "第1 提格雷装甲师" }
+		7 = { "第2 提格雷装甲师" }
+		8 = { "第1 贝根德尔装甲师" }
+		9 = { "第2 贝根德尔装甲师" }
+		10 = { "瓦格 装甲师" }
+		11 = { "欧加登 装甲师" }
+		12 = { "阿鲁西 装甲师" }
+		13 = { "伊路巴博 装甲师" }
+		14 = { "第1 西达摩 装甲师" }
+		15 = { "第2 西达摩 装甲师" }
+		16 = { "氨基 装甲师" }
+		17 = { "古巴 装甲师" }
+		18 = { "季马 装甲师" }
+		19 = { "梅 装甲师" }
+		20 = { "奥姆哈耶 装甲师" }
+		21 = { "西拉 装甲师" }
+		22 = { "索多 装甲师" }
+		23 = { "沃莱加 装甲师" }
+		24 = { "叶茹 装甲师" }
+		25 = { "达纳基尔 装甲师" }
+		26 = { "伊夫拉塔 装甲师" }
+		27 = { "卡法 装甲师" }
+		28 = { "沃罗 装甲师" }
+		29 = { "哈勒尔盖 装甲师" }
+		30 = { "格穆戈法 装甲师" }
+		31 = { "谷拉 装甲师" }
+		32 = { "贝尔 装甲师" }
+		33 = { "马赫尔 装甲师" }
+	}
+}
+
+ETH_PAR_01 = 
+{
+	name = "伞兵师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 伞兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆伞兵师" }
+		3 = { "第2 戈贾姆伞兵师" }
+		4 = { "沃尔凯特-塞米恩伞兵师" }
+		5 = { "瓦莱加-阿尔乔伞兵师" }
+		6 = { "第1 提格雷伞兵师" }
+		7 = { "第2 提格雷伞兵师" }
+		8 = { "第1 贝根德尔伞兵师" }
+		9 = { "第2 贝根德尔伞兵师" }
+		10 = { "瓦格 伞兵师" }
+		11 = { "欧加登 伞兵师" }
+		12 = { "阿鲁西 伞兵师" }
+		13 = { "伊路巴博 伞兵师" }
+		14 = { "第1 西达摩 伞兵师" }
+		15 = { "第2 西达摩 伞兵师" }
+		16 = { "氨基 伞兵师" }
+		17 = { "古巴 伞兵师" }
+		18 = { "季马 伞兵师" }
+		19 = { "梅 伞兵师" }
+		20 = { "奥姆哈耶 伞兵师" }
+		21 = { "西拉 伞兵师" }
+		22 = { "索多 伞兵师" }
+		23 = { "沃莱加 伞兵师" }
+		24 = { "叶茹 伞兵师" }
+		25 = { "达纳基尔 伞兵师" }
+		26 = { "伊夫拉塔 伞兵师" }
+		27 = { "卡法 伞兵师" }
+		28 = { "沃罗 伞兵师" }
+		29 = { "哈勒尔盖 伞兵师" }
+		30 = { "格穆戈法 伞兵师" }
+		31 = { "谷拉 伞兵师" }
+		32 = { "贝尔 伞兵师" }
+		33 = { "马赫尔 伞兵师" }
+	}
+}
+
+ETH_MAR_01 = 
+{
+	name = "海军陆战师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 海军陆战师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆海军陆战师" }
+		3 = { "第2 戈贾姆海军陆战师" }
+		4 = { "沃尔凯特-塞米恩海军陆战师" }
+		5 = { "瓦莱加-阿尔乔海军陆战师" }
+		6 = { "第1 提格雷海军陆战师" }
+		7 = { "第2 提格雷海军陆战师" }
+		8 = { "第1 贝根德尔海军陆战师" }
+		9 = { "第2 贝根德尔海军陆战师" }
+		10 = { "瓦格 海军陆战师" }
+		11 = { "欧加登 海军陆战师" }
+		12 = { "阿鲁西 海军陆战师" }
+		13 = { "伊路巴博 海军陆战师" }
+		14 = { "第1 西达摩 海军陆战师" }
+		15 = { "第2 西达摩 海军陆战师" }
+		16 = { "氨基 海军陆战师" }
+		17 = { "古巴 海军陆战师" }
+		18 = { "季马 海军陆战师" }
+		19 = { "梅 海军陆战师" }
+		20 = { "奥姆哈耶 海军陆战师" }
+		21 = { "西拉 海军陆战师" }
+		22 = { "索多 海军陆战师" }
+		23 = { "沃莱加 海军陆战师" }
+		24 = { "叶茹 海军陆战师" }
+		25 = { "达纳基尔 海军陆战师" }
+		26 = { "伊夫拉塔 海军陆战师" }
+		27 = { "卡法 海军陆战师" }
+		28 = { "沃罗 海军陆战师" }
+		29 = { "哈勒尔盖 海军陆战师" }
+		30 = { "格穆戈法 海军陆战师" }
+		31 = { "谷拉 海军陆战师" }
+		32 = { "贝尔 海军陆战师" }
+		33 = { "马赫尔 海军陆战师" }
+	}
+}
+
+ETH_MNT_01 = 
+{
+	name = "山地师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 山地师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		4 = { "沃尔凯特山地师" }
+		5 = { "塞米恩山地师" }
+		
+	}
+}
+
+ETH_GAR_01 = 
+{
+	name = "驻军师"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ETH_INF_01 }
+
+	fallback_name = "第%d 驻军师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "荣誉卫队" }
+		2 = { "第1 戈贾姆驻军师" }
+		3 = { "第2 戈贾姆驻军师" }
+		4 = { "沃尔凯特-塞米恩驻军师" }
+		5 = { "瓦莱加-阿尔乔驻军师" }
+		6 = { "第1 提格雷驻军师" }
+		7 = { "第2 提格雷驻军师" }
+		8 = { "第1 贝根德尔驻军师" }
+		9 = { "第2 贝根德尔驻军师" }
+		10 = { "瓦格 驻军师" }
+		11 = { "欧加登 驻军师" }
+		12 = { "阿鲁西 驻军师" }
+		13 = { "伊路巴博 驻军师" }
+		14 = { "第1 西达摩 驻军师" }
+		15 = { "第2 西达摩 驻军师" }
+		16 = { "氨基 驻军师" }
+		17 = { "古巴 驻军师" }
+		18 = { "季马 驻军师" }
+		19 = { "梅 驻军师" }
+		20 = { "奥姆哈耶 驻军师" }
+		21 = { "西拉 驻军师" }
+		22 = { "索多 驻军师" }
+		23 = { "沃莱加 驻军师" }
+		24 = { "叶茹 驻军师" }
+		25 = { "达纳基尔 驻军师" }
+		26 = { "伊夫拉塔 驻军师" }
+		27 = { "卡法 驻军师" }
+		28 = { "沃罗 驻军师" }
+		29 = { "哈勒尔盖 驻军师" }
+		30 = { "格穆戈法 驻军师" }
+		31 = { "谷拉 驻军师" }
+		32 = { "贝尔 驻军师" }
+		33 = { "马赫尔 驻军师" }
+	}
+}
+
+ETH_CONGO_MERCS  = {
+	name = "刚果雇佣兵旅"
+
+	for_countries = { ETH }
+
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = {  }
+
+	fallback_name = "第%d 刚果雇佣兵旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		
+	}
+}
+
+ETH_SUDAN_MERCS  = {
+	name = "苏丹雇佣兵旅"
+
+	for_countries = { ETH }
+
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = {  }
+
+	fallback_name = "第%d 苏丹雇佣兵旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		
+	}
+}
+
+ETH_Askari  = {
+	name = "厄立特里亚阿斯卡里旅"
+
+	for_countries = { ETH }
+
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = {  }
+
+	fallback_name = "第%d 厄立特里亚阿斯卡里旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		
+	}
+}
+
+
+ETH_ARAB_MERCS  = {
+	name = "阿拉伯雇佣骑兵旅"
+
+	for_countries = { ETH }
+
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = {  }
+
+	fallback_name = "第%d 阿拉伯雇佣骑兵旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		
+	}
+}
+
+ETH_INT_BRIG = {
+	name = "国际旅"
+
+	for_countries = { ETH }
+
+	can_use = { always = no }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = {  }
+
+	fallback_name = "第%d 国际旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		
+	}
+}
+

@@ -1,0 +1,249 @@
+﻿##### EGYPT NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+EGY_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = {
+		EGY
+	}
+	type = ship
+	ship_types = {
+		ship_hull_light
+		destroyer
+	}
+	prefix = "ERN "
+	fallback_name = "%d号驱逐舰"
+	unique = {
+		"杜米亚特"
+		"易卜拉欣·艾尔·阿瓦尔"
+		"卡赫尔"
+		"法塔赫"
+		"沙姆"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+EGY_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = {
+		EGY
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		light_cruiser
+	}
+	prefix = "ARS "
+	fallback_name = "%d号轻型巡洋舰"
+	unique = {
+		"杜米亚特"
+		"易卜拉欣·艾尔·阿瓦尔"
+		"卡赫尔"
+		"法塔赫"
+		"沙姆"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+EGY_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = {
+		EGY
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		heavy_cruiser
+	}
+	prefix = "ERN "
+	fallback_name = "%d号 重型巡洋舰"
+	unique = {
+		"杜米亚特"
+		"易卜拉欣·艾尔·阿瓦尔"
+		"卡赫尔"
+		"法塔赫"
+		"沙姆"
+	}
+}
+
+### BATTLESHIP NAMES ###
+EGY_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = {
+		EGY
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battleship
+	}
+	prefix = "ERN "
+	fallback_name = "%d号 战列舰"
+	unique = {
+	}
+}
+
+### BATTLECRUISER NAMES ###
+EGY_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = {
+		EGY
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battle_cruiser
+	}
+	prefix = "ERN "
+	fallback_name = "%d号 战列巡洋舰"
+	unique = {
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+EGY_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = {
+		EGY
+	}
+	type = ship
+	ship_types = {
+		ship_hull_carrier
+		carrier
+	}
+	prefix = "ARS "
+	fallback_name = "%d号 航空母舰"
+	unique = {
+	}
+}
+
+### SUBMARINES ###
+EGY_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = {
+		EGY
+	}
+	type = ship
+	ship_types = {
+		ship_hull_submarine
+		submarine
+	}
+	prefix = "ARS "
+	fallback_name = "%d号 潜艇"
+	unique = {
+		"杜米亚特"
+		"易卜拉欣·艾尔·阿瓦尔"
+		"卡赫尔"
+		"法塔赫"
+		"沙姆"
+	}
+}
+
+## THEME: EGYPTIAN CITIES ###
+EGY_CITIES = {
+	name = NAME_THEME_CITIES
+	for_countries = {
+		EGY
+	}
+	type = ship
+	prefix = "ERN "
+	unique = {
+		"阿什蒙"
+		"阿赫敏"
+		"阿布·胡姆斯"
+		"巴德尔"
+		"巴尔蒂姆"
+		"开罗"
+		"亚历山大"
+		"比尔卡斯"
+		"阿拉曼"
+		"哈穆尔"
+		"吉尔加"
+		"吉萨"
+		"哈加"
+		"塞得港"
+		"卡哈"
+		"圣凯瑟琳"
+		"库纳"
+		"拉法"
+		"扎加齐格"
+		"宰夫塔"
+		"萨达特"
+		"萨法加"
+		"索德法"
+		"苏伊士"
+		"萨库塔"
+		"什宾埃尔科姆"
+		"索哈格"
+		"新开罗"
+		"马泰"
+		"麦托布斯"
+		"米特·加马尔"
+		"马拉维"
+		"明亚"
+		"米特·阿德兰"
+		"米特·贝拉"
+		"米特·拉希纳"
+	}
+}
+
+### THEME: EGYPTIAN REGIONS ###
+EGY_REGIONS = {
+	name = NAME_THEME_REGIONS
+	for_countries = {
+		EGY
+	}
+	type = ship
+	prefix = "ERN "
+	unique = {
+		"努比亚"
+		"赛义德"
+		"开罗"
+		"三角洲"
+		"苏伊士"
+		"西瓦"
+		"西奈"
+		"卢克索"
+	}
+}
+
+## THEME: EGYPTIAN MYTHOLOGICAL FIGURES ###
+EGY_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+	for_countries = {
+		EGY
+	}
+	type = ship
+	prefix = "ERN "
+	unique = {
+		"拉"
+		"盖布"
+		"努特"
+		"舒"
+		"奥西里斯"
+		"伊西斯"
+		"赛特"
+		"奈芙蒂斯"
+		"荷鲁斯"
+		"巴斯特"
+		"索贝克"
+		"塞尔凯特"
+		"阿努比斯"
+		"贝斯"
+		"孔苏"
+		"奈赫贝特"
+		"巴比"
+		"陶瓦特"
+		"普塔"
+		"哈托尔"
+		"托特"
+		"荷鲁斯-拉"
+		"斯芬克斯"
+		"瓦吉特"
+		"阿努比蒂"
+		"圣甲虫"
+		"洛克"
+		"佩特苏科斯"
+		"海蛇"
+		"凤凰"
+	}
+}

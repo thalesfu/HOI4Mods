@@ -1,0 +1,5 @@
+﻿RG_COMMON = {
+	type = railway_gun
+	
+	fallback_name = "第%d铁路炮兵大队"
+}

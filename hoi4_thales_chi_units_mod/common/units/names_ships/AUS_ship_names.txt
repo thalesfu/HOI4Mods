@@ -1,0 +1,412 @@
+﻿AUS_BC_HISTORICAL = {
+  name = NAME_THEME_HABSBURG_MONARCHS
+  for_countries = {
+    AUS
+  }
+  can_use = {
+    always = yes
+  }
+  prefix = "SMS "
+  type = ship
+  ship_types = {
+    battleship
+    battle_cruiser
+  }
+  fallback_name = "%d号战列巡洋舰"  # Schlachtkreuzer %d
+  link_numbering_with = {
+    AUS_PZ_HISTORICAL
+  }
+  ordered = {
+    1 = {
+      "弗里德里希五世"  # Herzog Friedrich V
+    }
+    2 = {
+      "马克西米利安一世"  # Erzherzog Maximilian I
+    }
+    3 = {
+      "卡尔五世"  # Kaiser Karl V
+    }
+    4 = {
+      "费迪南德一世"  # Kaiser Ferdinand I
+    }
+    5 = {
+      "马克西米利安二世"  # Kaiser Maximilian II
+    }
+    6 = {
+      "鲁道夫 II"  # Kaiser Rudolf II
+    }
+    7 = {
+      "马提亚斯皇帝"  # Kaiser Matthias
+    }
+    8 = {
+      "费迪南德二世"  # Kaiser Ferdinand II
+    }
+    9 = {
+      "费迪南德三世"  # Kaiser Ferdinand III
+    }
+    10 = {
+      "利奥波德一世"  # Kaiser Leopold I
+    }
+    11 = {
+      "费迪南德一世"  # Kaiser Joseph I
+    }
+    12 = {
+      "卡尔六世"  # Kaiser Karl VI
+    }
+    13 = {
+      "弗朗茨一世"  # Kaiser Franz I Stephan
+    }
+    14 = {
+      "弗朗茨·约瑟夫二世"  # Kaiser Joseph II
+    }
+    15 = {
+      "利奥波德二世"  # Kaiser Leopold II
+    }
+    16 = {
+      "阿尔布雷希特一世"  # Herzog Albrecht I
+    }
+    17 = {
+      "鲁道夫一世"  # Herzog Rudolf I
+    }
+    18 = {
+      "美男子弗里德里希"  # Herzog Friedrich der Schöne
+    }
+    19 = {
+      "阿尔布雷希特二世"  # Herzog Albrecht II
+    }
+    20 = {
+      "奥托四世"  # Herzog Otto IV
+    }
+    21 = {
+      "斐迪南四世"  # Erzherzog Ferdinand IV
+    }
+    22 = {
+      "鲁道夫四世"  # Erzherzog Rudolf IV
+    }
+    23 = {
+      "玛丽亚·特蕾莎"  # Kaiserin Maria Theresa
+    }
+    24 = {
+      "费迪南德一世"  # Kaiser Ferdinand I
+    }
+    25 = {
+      "弗朗茨·约瑟夫一世"  # Kaiser Franz Joseph I
+    }
+    26 = {
+      "卡尔一世"  # Kaiser Karl I
+    }
+    27 = {
+      "弗朗茨五世"  # Erzherzog Franz V
+    }
+    28 = {
+      "弗朗茨·斐迪南"  # Erzherzog Franz Ferdinand
+    }
+    29 = {
+      "奥托"  # Kaiser Otto
+    }
+  }
+}
+AUS_PZ_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_PZ
+  for_countries = {
+    AUS
+  }
+  type = ship
+  ship_types = {
+    heavy_cruiser
+    light_cruiser
+  }
+  fallback_name = "%d号装甲舰"  # Panzerschiff %d
+  link_numbering_with = {
+    AUS_BC_HISTORICAL
+  }
+  ordered = {
+    1 = {
+      "维也纳"  # Wien
+    }
+    2 = {
+      "萨尔茨堡"  # Salzburg
+    }
+    3 = {
+      "因斯布鲁克"  # Innsbruck
+    }
+    4 = {
+      "林茨"  # Linz
+    }
+    5 = {
+      "格拉茨"  # Graz
+    }
+    6 = {
+      "克拉根福"  # Klagenfurt
+    }
+    7 = {
+      "韦尔斯"  # Wels
+    }
+    8 = {
+      "菲拉赫"  # Villach
+    }
+    9 = {
+      "圣珀尔滕"  # St. Pölten
+    }
+    10 = {
+      "斯太尔"  # Steyr
+    }
+    11 = {
+      "卑尔根"  # Bergenz
+    }
+    12 = {
+      "特劳恩"  # Traun
+    }
+    13 = {
+      "艾森斯塔特"  # Eisenstadt
+    }
+    14 = {
+      "诺瓦拉"  # Novara
+    }
+    15 = {
+      "塞伊达"  # Saida
+    }
+    16 = {
+      "森塔"  # Zenta
+    }
+    17 = {
+      "阿斯佩恩"  # Aspern
+    }
+    18 = {
+      "黑尔戈兰"  # Helgoland
+    }
+    19 = {
+      "黑豹"  # Panther
+    }
+    20 = {
+      "虎"  # Tiger
+    }
+    21 = {
+      "猎豹"  # Leopard
+    }
+    22 = {
+      "雄狮"  # Löwe
+    }
+    23 = {
+      "鼬鼠"  # Gepard
+    }
+    24 = {
+      "美洲豹"  # Jaguar
+    }
+    25 = {
+      "多瑙"  # Donau
+    }
+  }
+}
+AUS_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYERS
+  for_countries = {
+    AUS
+  }
+  type = ship
+  ship_types = {
+    destroyer
+  }
+  fallback_name = "%d号驱逐舰"  # %d Zerstörer
+  ordered = {
+    1 = {
+      "鹫鹰"  # Adler
+    }
+    2 = {
+      "法尔克"  # Falk
+    }
+    3 = {
+      "神鹰"  # Condor
+    }
+    4 = {
+      "秃鹫"  # Geier
+    }
+    5 = {
+      "猫头鹰"  # Eule
+    }
+    6 = {
+      "眼镜蛇"  # Kobra
+    }
+    7 = {
+      "蝰蛇"  # Viper
+    }
+    8 = {
+      "渡鸦"  # Rabe
+    }
+    9 = {
+      "鹫钢"  # Krähe
+    }
+    10 = {
+      "响尾蛇"  # Klapperschlange
+    }
+    11 = {
+      "鱼鹰"  # Fischadler
+    }
+    12 = {
+      "海鹰"  # Seeadler
+    }
+    13 = {
+      "雕鸮"  # Uhu
+    }
+    14 = {
+      "红隼"  # Turmfalke
+    }
+    15 = {
+      "雀鹰"  # Sperber
+    }
+    16 = {
+      "海鸥"  # Möwe
+    }
+  }
+}
+AUS_HRE_EMPERORS = {
+  name = NAME_THEME_HRE_EMPERORS
+  for_countries = {
+    AUS
+    GER
+  }
+  can_use = {
+    has_cosmetic_tag = HRE_UNIFIED
+  }
+  prefix = "SMS "
+  type = ship
+  ship_types = {
+    battleship
+    battle_cruiser
+  }
+  fallback_name = "%d号舰"  # Schiff %d
+  ordered = {
+    1 = {
+      "查理曼大帝"  # Kaiser Charlemagne
+    }
+    2 = {
+      "路易一世"  # Kaiser Louis I
+    }
+    3 = {
+      "洛泰尔一世"  # Kaiser Lothair I
+    }
+    4 = {
+      "路易二世"  # Kaiser Louis II
+    }
+    5 = {
+      "卡尔二世"  # Kaiser Karl II
+    }
+    6 = {
+      "卡尔三世"  # Kaiser Karl III
+    }
+    7 = {
+      "盖伊三世"  # Kaiser Guy III
+    }
+    8 = {
+      "朗贝尔"  # Kaiser Lambert
+    }
+    9 = {
+      "阿努尔夫"  # Kaiser Arnulf
+    }
+    10 = {
+      "路易三世"  # Kaiser Louis III
+    }
+    11 = {
+      "贝伦加尔"  # Kaiser Berengar
+    }
+    12 = {
+      "奥托一世"  # Kaiser Otto I
+    }
+    13 = {
+      "奥托二世"  # Kaiser Otto II
+    }
+    14 = {
+      "奥托三世"  # Kaiser Otto III
+    }
+    15 = {
+      "亨利二世"  # Kaiser Henry II
+    }
+    16 = {
+      "康拉德二世"  # Kaiser Conrad II
+    }
+    17 = {
+      "亨利三世"  # Kaiser Henry III
+    }
+    18 = {
+      "亨利四世"  # Kaiser Henry IV
+    }
+    19 = {
+      "亨利五世"  # Kaiser Henry V
+    }
+    20 = {
+      "洛泰尔二世"  # Kaiser Lothair II
+    }
+    21 = {
+      "弗雷德里克一世"  # Kaiser Frederick I
+    }
+    22 = {
+      "亨利六世"  # Kaiser Henry VI
+    }
+    23 = {
+      "奥托四世"  # Kaiser Otto IV
+    }
+    24 = {
+      "弗雷德里克二世"  # Kaiser Frederick II
+    }
+    25 = {
+      "亨利七世"  # Kaiser Henry VII
+    }
+    26 = {
+      "路易四世"  # Kaiser Louis IV
+    }
+    27 = {
+      "卡尔四世"  # Kaiser Karl IV
+    }
+    28 = {
+      "西吉斯蒙德"  # Kaiser Sigismund
+    }
+    29 = {
+      "马克西米利安一世"  # Kaiser Maximilian I
+    }
+    30 = {
+      "卡尔五世"  # Kaiser Karl V
+    }
+    31 = {
+      "费迪南德一世"  # Kaiser Ferdinand I
+    }
+    32 = {
+      "马克西米利安二世"  # Kaiser Maximilian II
+    }
+    33 = {
+      "鲁道夫 II"  # Kaiser Rudolf II
+    }
+    34 = {
+      "马提亚斯皇帝"  # Kaiser Matthias
+    }
+    35 = {
+      "费迪南德二世"  # Kaiser Ferdinand II
+    }
+    36 = {
+      "费迪南德三世"  # Kaiser Ferdinand III
+    }
+    37 = {
+      "利奥波德一世"  # Kaiser Leopold I
+    }
+    38 = {
+      "费迪南德一世"  # Kaiser Joseph I
+    }
+    39 = {
+      "卡尔六世"  # Kaiser Karl VI
+    }
+    40 = {
+      "弗朗茨一世"  # Kaiser Franz I Stephan
+    }
+    41 = {
+      "玛丽亚·特蕾莎"  # Kaiserin Maria Theresa
+    }
+    42 = {
+      "弗朗茨·约瑟夫二世"  # Kaiser Joseph II
+    }
+    43 = {
+      "利奥波德二世"  # Kaiser Leopold II
+    }
+    44 = {
+      "维多利亚三世"  # Kaiserin Victoria III
+    }
+  }
+}

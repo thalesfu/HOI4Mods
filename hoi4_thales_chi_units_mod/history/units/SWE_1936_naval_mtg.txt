@@ -1,0 +1,381 @@
+﻿units = {
+  fleet = {
+    name = "瑞典皇家海军"  # Kungliga Svenska Marinen
+    naval_base = 6050
+    task_force = {
+      name = "岸防舰队"  # Kustflottan
+      location = 6050
+      ship = {
+        name = "真理"  # HMS Dristigheten
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "光荣级"  # Äran Class
+          }
+        }
+      }
+      ship = {
+        name = "鹰"  # HMS Örnen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "鹰级"  # Örnen Class
+          }
+        }
+      }
+      ship = {
+        name = "雅各布·巴格"  # HMS Jacob Bagge
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "鹰级"  # Örnen Class
+          }
+        }
+      }
+      ship = {
+        name = "克拉斯·弗莱明"  # HMS Clas Fleming
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "克拉斯·弗莱明级"  # Clas Fleming Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第1中队"  # 1a Eskadern
+      location = 11215
+      ship = {
+        name = "古斯塔夫五世"  # HMS Gustaf V
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "瑞典级"  # Sverige Class
+          }
+        }
+      }
+      ship = {
+        name = "瑞典"  # HMS Sverige
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "瑞典级"  # Sverige Class
+          }
+        }
+      }
+      ship = {
+        name = "维多利亚女王"  # HMS Drottning Victoria
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "瑞典级"  # Sverige Class
+          }
+        }
+      }
+      ship = {
+        name = "哥特兰"  # HMS Gotland
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "哥特兰级"  # Gotland Class
+          }
+        }
+      }
+      ship = {
+        name = "克拉斯·霍恩"  # HMS Klas Horn
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "厄伦斯格尔德级"  # Ehrensköld Class
+          }
+        }
+      }
+      ship = {
+        name = "克拉斯·乌格拉"  # HMS Klas Uggla
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "厄伦斯格尔德级"  # Ehrensköld Class
+          }
+        }
+      }
+      ship = {
+        name = "厄伦斯格尔德"  # HMS Ehrensköld
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "厄伦斯格尔德级"  # Ehrensköld Class
+          }
+        }
+      }
+      ship = {
+        name = "诺登斯基尔德"  # HMS Nordenskjöld
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "厄伦斯格尔德级"  # Ehrensköld Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "奥兰海中队"  # Ålandshavseskader
+      location = 408
+      ship = {
+        name = "光荣"  # HMS Äran
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "光荣级"  # Äran Class
+          }
+        }
+      }
+      ship = {
+        name = "胆量"  # HMS Tapperheten
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "光荣级"  # Äran Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "卡尔斯克鲁纳中队"  # Karlskrona Avdelningen
+      location = 11215
+      ship = {
+        name = "瓦萨"  # HMS Wasa
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "光荣级"  # Äran Class
+          }
+        }
+      }
+      ship = {
+        name = "勇敢"  # HMS Manligheten
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "光荣级"  # Äran Class
+          }
+        }
+      }
+      ship = {
+        name = "龙"  # HMS Draken
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SWE
+            version_name = "海狮级"  # Draken Class
+          }
+        }
+      }
+      ship = {
+        name = "鹰狮"  # HMS Gripen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SWE
+            version_name = "海狮级"  # Draken Class
+          }
+        }
+      }
+      ship = {
+        name = "狼"  # HMS Ulven
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SWE
+            version_name = "海狮级"  # Draken Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "哥德堡中队"  # Göteborgs Eskadern
+      location = 383
+      ship = {
+        name = "奥斯卡二世"  # HMS Oscar II
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "奥斯卡二世级"  # Oscar II Class
+          }
+        }
+      }
+      ship = {
+        name = "菲利吉亚"  # HMS Fylgia
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SWE
+            version_name = "菲利吉亚级"  # Fylgia Class
+          }
+        }
+      }
+      ship = {
+        name = "大白鲨"  # HMS Hajen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "大白鲨级"  # Hajen Class
+          }
+        }
+      }
+      ship = {
+        name = "萨伦"  # HMS Sälen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "大白鲨级"  # Hajen Class
+          }
+        }
+      }
+      ship = {
+        name = "海象"  # HMS Valrossen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "大白鲨级"  # Hajen Class
+          }
+        }
+      }
+      ship = {
+        name = "海狸"  # HMS Bävern
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "大白鲨级"  # Hajen Class
+          }
+        }
+      }
+      ship = {
+        name = "雪貂"  # HMS Illern
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "大白鲨级"  # Hajen Class
+          }
+        }
+      }
+      ship = {
+        name = "奥特内"  # HMS Uttern
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "大白鲨级"  # Hajen Class
+          }
+        }
+      }
+      ship = {
+        name = "鲸"  # HMS Valen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SWE
+            version_name = "瓦伦级"  # Valen Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SWE"
+      version_name = "哥德堡级"  # Göteborg Class
+    }
+    name = "哥德堡"  # HMS Göteborg
+    requested_factories = 1
+    progress = 0.50
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SWE"
+      version_name = "海狮级"  # Draken Class
+    }
+    name = "海豚"  # HMS Delfinen
+    requested_factories = 1
+    progress = 0.80
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SWE"
+      version_name = "海狮级"  # Draken Class
+    }
+    name = "诺德卡帕伦"  # HMS Nordkaparen
+    requested_factories = 1
+    progress = 0.60
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SWE"
+      version_name = "海狮级"  # Draken Class
+    }
+    name = "骑士"  # HMS Springaren
+    requested_factories = 1
+    progress = 0.40
+    amount = 1
+  }
+}

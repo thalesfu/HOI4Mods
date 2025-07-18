@@ -1,0 +1,567 @@
+﻿DDR_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第% 步兵师"
+  ordered = {
+    1 = {
+      "第% 步兵师"
+    }
+    4 = {
+      "第% 步兵师"
+    }
+    7 = {
+      "第% 步兵师"
+    }
+    8 = {
+      "第% 步兵师"
+    }
+    9 = {
+      "第% 步兵师"
+    }
+    11 = {
+      "第% 步兵师"
+    }
+    6 = {
+      "第% 步兵师"
+    }
+    10 = {
+      "第% 步兵师"
+    }
+    17 = {
+      "第% 步兵师"
+    }
+    19 = {
+      "第% 步兵师"
+    }
+    20 = {
+      "第% 步兵师"
+    }
+    21 = {
+      "第% 步兵师"
+    }
+    22 = {
+      "第% 步兵师"
+    }
+    23 = {
+      "第% 步兵师"
+    }
+    24 = {
+      "第% 步兵师"
+    }
+    25 = {
+      "第% 步兵师"
+    }
+    26 = {
+      "第% 步兵师"
+    }
+    27 = {
+      "第% 步兵师"
+    }
+    28 = {
+      "第% 步兵师"
+    }
+    29 = {
+      "第% 步兵师"
+    }
+    30 = {
+      "第% 步兵师"
+    }
+    100 = {
+      "'菲利克斯·捷尔任斯基'警卫团"  # Wach-Division Feliks Dzierzynski
+    }
+    101 = {
+      "'弗里德里希·恩格斯'警卫团"  # Wach-Division Friedrich Engels
+    }
+    102 = {
+      "'雨果·埃伯莱因'警卫团"  # Wach-Division Hugo Eberlein
+    }
+  }
+}
+DDR_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第% 骑兵师"
+  ordered = {
+    1 = {
+      "第% 骑兵师"
+    }
+    2 = {
+      "第% 骑兵师"
+    }
+    3 = {
+      "第% 骑兵师"
+    }
+    4 = {
+      "第% 骑兵师"
+    }
+    5 = {
+      "第% 骑兵师"
+    }
+    6 = {
+      "第% 骑兵师"
+    }
+    7 = {
+      "第% 骑兵师"
+    }
+    9 = {
+      "第% 骑兵师"
+    }
+    8 = {
+      "第% 骑兵师"
+    }
+    10 = {
+      "第% 骑兵师"
+    }
+  }
+}
+DDR_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    DDR_INF_01
+  }
+  fallback_name = "第%d 摩托化步兵师"
+  ordered = {
+    1 = {
+      "第%d 摩托化步兵师"
+    }
+    4 = {
+      "第%d 摩托化步兵师"
+    }
+    7 = {
+      "第%d 摩托化步兵师"
+    }
+    8 = {
+      "第%d 摩托化步兵师"
+    }
+    9 = {
+      "第%d 摩托化步兵师"
+    }
+    11 = {
+      "第%d 摩托化步兵师"
+    }
+    6 = {
+      "第%d 摩托化步兵师"
+    }
+    10 = {
+      "第%d 摩托化步兵师"
+    }
+    17 = {
+      "第%d 摩托化步兵师"
+    }
+    19 = {
+      "第%d 摩托化步兵师"
+    }
+    20 = {
+      "第%d 摩托化步兵师"
+    }
+    21 = {
+      "第%d 摩托化步兵师"
+    }
+    22 = {
+      "第%d 摩托化步兵师"
+    }
+    23 = {
+      "第%d 摩托化步兵师"
+    }
+    24 = {
+      "第%d 摩托化步兵师"
+    }
+    25 = {
+      "第%d 摩托化步兵师"
+    }
+    26 = {
+      "第%d 摩托化步兵师"
+    }
+    27 = {
+      "第%d 摩托化步兵师"
+    }
+    28 = {
+      "第%d 摩托化步兵师"
+    }
+    29 = {
+      "第%d 摩托化步兵师"
+    }
+    30 = {
+      "第%d 摩托化步兵师"
+    }
+    100 = {
+      "'菲利克斯·捷尔任斯基'警卫团"  # Wach-Division Feliks Dzierzynski
+    }
+  }
+}
+DDR_ARM_01 = {
+  name = "装甲师"  # Panzer Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  link_numbering_with = {
+    DDR_INF_01
+  }
+  fallback_name = "第%d 装甲师"
+  ordered = {
+    1 = {
+      "第%d 装甲师"
+    }
+    4 = {
+      "第%d 装甲师"
+    }
+    7 = {
+      "第%d 装甲师"
+    }
+    8 = {
+      "第%d 装甲师"
+    }
+    9 = {
+      "第%d 装甲师"
+    }
+    11 = {
+      "第%d 装甲师"
+    }
+    6 = {
+      "第%d 装甲师"
+    }
+    10 = {
+      "第%d 装甲师"
+    }
+    17 = {
+      "第%d 装甲师"
+    }
+    19 = {
+      "第%d 装甲师"
+    }
+    20 = {
+      "第%d 装甲师"
+    }
+    21 = {
+      "第%d 装甲师"
+    }
+    22 = {
+      "第%d 装甲师"
+    }
+    23 = {
+      "第%d 装甲师"
+    }
+    24 = {
+      "第%d 装甲师"
+    }
+    25 = {
+      "第%d 装甲师"
+    }
+    26 = {
+      "第%d 装甲师"
+    }
+    27 = {
+      "第%d 装甲师"
+    }
+    28 = {
+      "第%d 装甲师"
+    }
+    29 = {
+      "第%d 装甲师"
+    }
+    30 = {
+      "第%d 装甲师"
+    }
+  }
+}
+DDR_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    DDR_INF_01
+  }
+  fallback_name = "第%d 机械化步兵师"
+  ordered = {
+    1 = {
+      "第%d 机械化步兵师"
+    }
+    4 = {
+      "第%d 机械化步兵师"
+    }
+    7 = {
+      "第%d 机械化步兵师"
+    }
+    8 = {
+      "第%d 机械化步兵师"
+    }
+    9 = {
+      "第%d 机械化步兵师"
+    }
+    11 = {
+      "第%d 机械化步兵师"
+    }
+    6 = {
+      "第%d 机械化步兵师"
+    }
+    10 = {
+      "第%d 机械化步兵师"
+    }
+    17 = {
+      "第%d 机械化步兵师"
+    }
+    19 = {
+      "第%d 机械化步兵师"
+    }
+    20 = {
+      "第%d 机械化步兵师"
+    }
+    21 = {
+      "第%d 机械化步兵师"
+    }
+    22 = {
+      "第%d 机械化步兵师"
+    }
+    23 = {
+      "第%d 机械化步兵师"
+    }
+    24 = {
+      "第%d 机械化步兵师"
+    }
+    25 = {
+      "第%d 机械化步兵师"
+    }
+    26 = {
+      "第%d 机械化步兵师"
+    }
+    27 = {
+      "第%d 机械化步兵师"
+    }
+    28 = {
+      "第%d 机械化步兵师"
+    }
+    29 = {
+      "第%d 机械化步兵师"
+    }
+    30 = {
+      "第%d 机械化步兵师"
+    }
+    100 = {
+      "'菲利克斯·捷尔任斯基'警卫团"  # Wach-Division Feliks Dzierzynski
+    }
+  }
+}
+DDR_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d 守备师"
+  ordered = {
+    1 = {
+      "第%d 守备师"
+    }
+    2 = {
+      "第%d 守备师"
+    }
+    3 = {
+      "第%d 守备师"
+    }
+    4 = {
+      "第%d 守备师"
+    }
+    5 = {
+      "第%d 守备师"
+    }
+    6 = {
+      "第%d 守备师"
+    }
+    7 = {
+      "第%d 守备师"
+    }
+    9 = {
+      "第%d 守备师"
+    }
+    8 = {
+      "第%d 守备师"
+    }
+    10 = {
+      "第%d 守备师"
+    }
+  }
+}
+DDR_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%海军陆战师"
+  ordered = {
+    1 = {
+      "第%海军陆战师"
+    }
+    2 = {
+      "第%海军陆战师"
+    }
+    3 = {
+      "第%海军陆战师"
+    }
+    4 = {
+      "第%海军陆战师"
+    }
+    5 = {
+      "第%海军陆战师"
+    }
+    6 = {
+      "第%海军陆战师"
+    }
+    7 = {
+      "第%海军陆战师"
+    }
+    9 = {
+      "第%海军陆战师"
+    }
+    8 = {
+      "第%海军陆战师"
+    }
+    10 = {
+      "第%海军陆战师"
+    }
+  }
+}
+DDR_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%d山地师"
+  ordered = {
+    1 = {
+      "第%d山地师"
+    }
+    2 = {
+      "第%d山地师"
+    }
+    3 = {
+      "第%d山地师"
+    }
+    4 = {
+      "第%d山地师"
+    }
+    5 = {
+      "第%d山地师"
+    }
+    6 = {
+      "第%d山地师"
+    }
+    7 = {
+      "第%d山地师"
+    }
+    9 = {
+      "第%d山地师"
+    }
+    8 = {
+      "第%d山地师"
+    }
+    10 = {
+      "第%d山地师"
+    }
+  }
+}
+DDR_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    DDR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d 伞兵师"
+  ordered = {
+    1 = {
+      "第%d 伞兵师"
+    }
+    2 = {
+      "第%d 伞兵师"
+    }
+    3 = {
+      "第%d 伞兵师"
+    }
+    4 = {
+      "第%d 伞兵师"
+    }
+    5 = {
+      "第%d 伞兵师"
+    }
+    6 = {
+      "第%d 伞兵师"
+    }
+    7 = {
+      "第%d 伞兵师"
+    }
+    9 = {
+      "第%d 伞兵师"
+    }
+    8 = {
+      "第%d 伞兵师"
+    }
+    10 = {
+      "第%d 伞兵师"
+    }
+    40 = {
+      "'威利·桑格'空中突击团"  # Luftsturm-Division 'Willi Sänger'
+    }
+  }
+}

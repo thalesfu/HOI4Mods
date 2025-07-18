@@ -1,0 +1,113 @@
+﻿##### LATVIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+LAT_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"采西斯" "利耶帕亚" "库莱" "陶格夫匹尔斯" "阿格洛纳" "奥采"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+LAT_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"采西斯" "利耶帕亚" "库莱" "陶格夫匹尔斯" "阿格洛纳" "奥采"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+LAT_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"里加" "马兹萨拉察" "敦达加" "包斯卡" "尤尔马拉" "库尔迪加" "马多纳" "雷泽克内" "瓦尔米耶拉"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+LAT_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"里加" "马兹萨拉察" "敦达加" "包斯卡" "尤尔马拉" "库尔迪加" "马多纳" "雷泽克内"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+LAT_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"瓦尔米耶拉" "采西斯" "利耶帕亚" "库莱" "陶格夫匹尔斯" "阿格洛纳" "奥采"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+LAT_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"里加" "马兹萨拉察" "敦达加" "包斯卡" "尤尔马拉" "库尔迪加" "马多纳" "雷泽克内" "瓦尔米耶拉" "采西斯" "利耶帕亚" "库莱" "陶格夫匹尔斯" "阿格洛纳" "奥采" "韦尔塞提斯" "纳梅斯"
+	}
+}
+
+### SUBMARINES ###
+LAT_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"海豹" "斯皮多拉"
+	}
+}

@@ -1,0 +1,819 @@
+﻿division_template = {
+  name = "步兵师团"  # Hohei Shidan
+  division_names_group = JAP_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+    infantry = {
+      x = 3
+      y = 0
+    }
+    infantry = {
+      x = 3
+      y = 1
+    }
+    infantry = {
+      x = 3
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+    recon = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "独立混成旅团"  # Dokuritsu Konsei Ryodan
+  division_names_group = JAP_IMB_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    light_armor = {
+      x = 2
+      y = 0
+    }
+    light_armor = {
+      x = 2
+      y = 1
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "骑兵师团"  # Kihei Shidan
+  division_names_group = JAP_CAV_01
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 0
+      y = 2
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "汽车师团"  # Jidousha Shidan
+  division_names_group = JAP_MOT_01
+  regiments = {
+    motorized = {
+      x = 0
+      y = 0
+    }
+    motorized = {
+      x = 0
+      y = 1
+    }
+    motorized = {
+      x = 0
+      y = 2
+    }
+    motorized = {
+      x = 1
+      y = 0
+    }
+    motorized = {
+      x = 1
+      y = 1
+    }
+    motorized = {
+      x = 1
+      y = 2
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+    motorized = {
+      x = 2
+      y = 2
+    }
+    motorized = {
+      x = 3
+      y = 0
+    }
+    motorized = {
+      x = 3
+      y = 1
+    }
+    motorized = {
+      x = 3
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+    engineer = {
+      x = 0
+      y = 1
+    }
+    mot_recon = {
+      x = 0
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "陆战队"  # Rikusentai
+  division_names_group = JAP_MAR_01
+  regiments = {
+    marine = {
+      x = 0
+      y = 0
+    }
+    marine = {
+      x = 0
+      y = 1
+    }
+    marine = {
+      x = 0
+      y = 2
+    }
+    marine = {
+      x = 1
+      y = 0
+    }
+    marine = {
+      x = 1
+      y = 1
+    }
+    marine = {
+      x = 1
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+  priority = 2
+}
+division_template = {
+  name = "守备师团"  # Chuton-chi Shidan
+  division_names_group = JAP_GAR_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+  }
+  priority = 0
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 12421
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "大凑港基地海兵团"  # Ominato Kichi Kaiheidan
+    location = 9859
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "千岛基地守备队"  # Chishima Kichi Shubitai
+    location = 1399
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 201
+    }
+    location = 12446
+    division_template = "独立混成旅团"  # Dokuritsu Konsei Ryodan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 7087
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 168
+    }
+    location = 1182
+    division_template = "汽车师团"  # Jidousha Shidan
+    start_experience_factor = 0.4
+  }
+  division = {
+    name = "大坂基地海兵团"  # Osaka Kichi Kaiheidan
+    location = 7072
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "横须贺特别陆战队"  # Yokusaka Tokubetsu Rikusentai
+    location = 9998
+    division_template = "陆战队"  # Rikusentai
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 9950
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "吴港基地海兵团"  # Kure Kichi Kaiheidan
+    location = 1092
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "佐世保基地海兵团"  # Sasebo Kichi Kaiheidan
+    location = 9950
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "台湾基地守备队"  # Taiwan Kichi Shubitai
+    location = 7186
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 7186
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 7186
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 7186
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 19
+    }
+    location = 4052
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 20
+    }
+    location = 7125
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "镇海基地海兵团"  # Chinkai Kichi Kaiheidan
+    location = 4056
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "冲绳基地守备队"  # Okinawa Kichi Shubitai
+    location = 11932
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "塞班岛基地守备队"  # Saipan Kichi Shubitai
+    location = 3995
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "硫磺岛基地守备队"  # Iwoto Kichi Shubitai
+    location = 13025
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "南鸟岛基地守备队"  # Minamitorishima Kichi Shubitai
+    location = 13026
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "亚普基地守备队"  # Yappu Kichi Shubitai
+    location = 13028
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "帕劳基地守备队"  # Palau Kichi Shubitai
+    location = 4357
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "特鲁克基地守备队"  # Truk Kichi Shubitai
+    location = 2489
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "萨塔万基地守备队"  # Satawan Kichi Shubitai
+    location = 13035
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "乌利西环礁基地守备队"  # Ulithi Kichi Shubitai
+    location = 13029
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "夸贾林环礁基地守备队"  # Kwajalein Kichi Shubitai
+    location = 13041
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "埃内韦塔克环礁基地守备队"  # Eniwetok Kichi Shubitai
+    location = 13046
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "澎贝岛基地守备队"  # Ponape Kichi Shubitai
+    location = 13036
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "迈利环礁基地守备队"  # Mili Kichi Shubitai
+    location = 13040
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "马洛埃拉普环礁基地守备队"  # Maleolap Kichi Shubitai
+    location = 13043
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "满洲铁路守备队"  # Manshu Tetsudo Shubitai
+    location = 11771
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "关东军常备师团"  # Kantogun Shureibu Keibitai
+    location = 4572
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "旅顺基地守备队"  # Ryojun Kichi Shubitai
+    location = 1150
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 9
+    }
+    location = 3944
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 14
+    }
+    location = 3843
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "第1独立守备师团"  # 1 Dokuritsu Shubirentai
+    location = 7743
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第2独立守备师团"  # 2 Dokuritsu Shubirentai
+    location = 10541
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 10612
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 7697
+    division_template = "骑兵师团"  # Kihei Shidan
+    start_experience_factor = 0.2
+  }
+  division = {
+    name = "第3独立守备师团"  # 3 Dokuritsu Shubirentai
+    location = 10521
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第4独立守备师团"  # 4 Dokuritsu Shubirentai
+    location = 10368
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第5独立守备师团"  # 5 Dokuritsu Shubirentai
+    location = 10698
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第6独立守备师团"  # 6 Dokuritsu Shubirentai
+    location = 12500
+    division_template = "守备师团"  # Chuton-chi Shidan
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 8
+    }
+    location = 1693
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 7569
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 101
+    }
+    location = 12469
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 102
+    }
+    location = 12469
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 103
+    }
+    location = 7812
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 104
+    }
+    location = 7812
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 105
+    }
+    location = 10429
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 106
+    }
+    location = 10429
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 107
+    }
+    location = 3978
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 108
+    }
+    location = 3978
+    division_template = "骑兵师团"  # Kihei Shidan
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "JAP"
+      }
+    }
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 3955
+    division_template = "汽车师团"  # Jidousha Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 3900
+    division_template = "独立混成旅团"  # Dokuritsu Konsei Ryodan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 11822
+    division_template = "独立混成旅团"  # Dokuritsu Konsei Ryodan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 10
+    }
+    location = 881
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 16
+    }
+    location = 9768
+    division_template = "步兵师团"  # Hohei Shidan
+    start_experience_factor = 0.3
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "JAP"
+    }
+    requested_factories = 3
+    progress = 0.1
+    efficiency = 50
+    industrial_manufacturer = mio:JAP_tokyo_arsenal_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = support_equipment_1
+      creator = "JAP"
+    }
+    requested_factories = 1
+    progress = 0.3
+    efficiency = 50
+  }
+  add_equipment_production = {
+    equipment = {
+      type = artillery_equipment_1
+      creator = "JAP"
+    }
+    requested_factories = 1
+    progress = 0.4
+    efficiency = 50
+    industrial_manufacturer = mio:JAP_osaka_army_arsenal_artillery_organization
+  }
+}

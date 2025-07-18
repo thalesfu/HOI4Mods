@@ -1,0 +1,212 @@
+﻿units = {
+  fleet = {
+    name = "阿根廷海军"  # Armada Argentina
+    naval_base = 12364
+    task_force = {
+      name = "阿根廷海军"  # Armada Argentina
+      location = 12364
+      ship = {
+        name = "里瓦达维亚"  # ARA Rivadavia
+        pride_of_the_fleet = yes
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "莫雷诺"  # ARA Moreno
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "5月25日"  # ARA Veinticinco de Mayo
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "五月二十五日级"  # Veinticinco de Mayo Class
+          }
+        }
+      }
+      ship = {
+        name = "海军上将布朗"  # ARA Almirante Brown
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "五月二十五日级"  # Veinticinco de Mayo Class
+          }
+        }
+      }
+      ship = {
+        name = "普埃雷东"  # ARA Pueyrredon
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "自由"  # ARA Libertad
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "独立"  # ARA Independencia
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "卡塔马卡"  # ARA Catamarca
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "胡胡伊"  # ARA Jujuy
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "科尔多瓦"  # ARA Córdoba
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "拉普拉塔"  # ARA La Plata
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "塞万提斯"  # ARA Cervantes
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞万提斯级"  # Cervantes Class
+          }
+        }
+      }
+      ship = {
+        name = "胡安·德·加雷"  # ARA Juan de Garay
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞万提斯级"  # Cervantes Class
+          }
+        }
+      }
+      ship = {
+        name = "门多萨"  # ARA Mendoza
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞万提斯级"  # Cervantes Class
+          }
+        }
+      }
+      ship = {
+        name = "拉里奥哈"  # ARA La Rioja
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞万提斯级"  # Cervantes Class
+          }
+        }
+      }
+      ship = {
+        name = "图库曼"  # ARA Tucumán
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞万提斯级"  # Cervantes Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Flotilla de Submarinos
+      location = 12364
+      ship = {
+        name = "圣达菲"  # ARA Santa Fe
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "圣地亚哥-德尔埃斯特罗"  # ARA Santiago del Estero
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+      ship = {
+        name = "萨尔塔"  # ARA Salta
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ARG
+          }
+        }
+      }
+    }
+  }
+}

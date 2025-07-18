@@ -1,0 +1,81 @@
+﻿units = {
+  fleet = {
+    name = "芬兰海军"  # Suomen Merivoimat
+    naval_base = 11105
+    task_force = {
+      name = "岸防舰队"  # Rannikkolaivue
+      location = 11105
+      ship = {
+        name = "伊尔马林嫩"  # Ilmarinen
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FIN
+            version_name = "维纳莫宁级"  # Väinämöinen Class
+          }
+        }
+      }
+      ship = {
+        name = "维纳莫宁级"  # Väinämöinen
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FIN
+            version_name = "维纳莫宁级"  # Väinämöinen Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Sukellusvenelaivue
+      location = 11105
+      ship = {
+        name = "维特希伦"  # Vetehinen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "维特希伦级"  # Vetehinen Class
+          }
+        }
+      }
+      ship = {
+        name = "维西希斯"  # Vesihiisi
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "维特希伦级"  # Vetehinen Class
+          }
+        }
+      }
+      ship = {
+        name = "伊库·图尔索"  # Iku-Turso
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "维特希伦级"  # Vetehinen Class
+          }
+        }
+      }
+      ship = {
+        name = "维西克"  # Vesikko
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "维西克级"  # Vesikko Class
+          }
+        }
+      }
+    }
+  }
+}

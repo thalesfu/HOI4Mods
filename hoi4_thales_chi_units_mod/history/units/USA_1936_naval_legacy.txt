@@ -1,0 +1,2602 @@
+﻿units = {
+  fleet = {
+    name = "战斗部队"  # Battle Force
+    naval_base = 1562
+    task_force = {
+      name = "战列舰战斗部队"  # Battleships, Battle Force
+      location = 1562
+      ship = {
+        name = "USS 内华达"  # USS Nevada
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 亚利桑那"  # USS Arizona
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 宾夕法尼亚"  # USS Pennsylvania
+        pride_of_the_fleet = yes
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 俄克拉荷马"  # USS Oklahoma
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 田纳西"  # USS Tennessee
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "新墨西哥级"  # New Mexico Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 加利福尼亚"  # USS California
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "新墨西哥级"  # New Mexico Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 新墨西哥"  # USS New Mexico
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "新墨西哥级"  # New Mexico Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 密西西比"  # USS Mississippi
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "新墨西哥级"  # New Mexico Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 爱达荷"  # USS Idaho
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "新墨西哥级"  # New Mexico Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 科罗拉多"  # USS Colorado
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "科罗拉多级"  # Colorado Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 西弗吉尼亚"  # USS West Virginia
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "科罗拉多级"  # Colorado Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 马里兰"  # USS Maryland
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+            version_name = "科罗拉多级"  # Colorado Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "航母战斗部队"  # Carrier Division, Battle Force
+      location = 1562
+      ship = {
+        name = "USS 游骑兵"  # USS Ranger
+        definition = carrier
+        equipment = {
+          carrier_2 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 列克星敦"  # USS Lexington
+        definition = carrier
+        equipment = {
+          carrier_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 萨拉托加"  # USS Saratoga
+        definition = carrier
+        equipment = {
+          carrier_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "巡洋舰战斗部队"  # Cruisers, Battle Force
+      location = 9814
+      ship = {
+        name = "USS 奥马哈"  # USS Omaha
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 密尔沃基"  # USS Milwaukee
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 辛辛那提"  # USS Cincinnati
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 新奥尔良"  # USS New Orleans
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 阿斯托利亚"  # USS Astoria
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 明尼阿波利斯"  # USS Minneapolis
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 印第安纳波利斯"  # USS Indianapolis
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3巡洋舰编队"  # Cruiser Division 3
+      base = 1562
+      location = 1562
+      ship = {
+        name = "USS 特伦顿"  # USS Trenton
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 康科德"  # USS Concord
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第1驱逐舰舰队"  # Destroyer Flotilla 1
+      location = 1562
+      ship = {
+        name = "USS 罗利"  # USS Raleigh
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 杜威"  # USS Dewey
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 赫尔"  # USS Hull
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦克多诺"  # USS MacDonough
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 沃登"  # USS Worden
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 法拉格特"  # USS Farragut
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 戴尔"  # USS Dale
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 蒙纳干"  # USS Monaghan
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾尔文"  # USS Aylwin
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 哈特菲尔德"  # USS Hatfield
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 布鲁克斯"  # USS Brooks
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 福克斯"  # USS Fox
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 凯恩"  # USS Kane
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 拉斯伯恩"  # USS Rathburne
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 塔尔博特"  # USS Talbot
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 华特斯"  # USS Waters
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 登特"  # USS Dent
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦克利什"  # USS MacLeish
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦科米克"  # USS McCormick
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 斯图尔特文"  # USS Sturtevant
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 奥文顿"  # USS Overton
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 班布里奇"  # USS Bainbridge
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 金恩"  # USS King
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 森斯"  # USS Sands
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 劳伦斯"  # USS Lawrence
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 汉弗莱斯"  # USS Humphreys
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2驱逐舰舰队"  # Destroyer Flotilla 2
+      location = 9814
+      ship = {
+        name = "USS 底特律"  # USS Detroit
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 赞恩"  # USS Zane
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 瓦斯穆特"  # USS Wasmuth
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 崔佛"  # USS Trever
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 派里"  # USS Perry
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 钱德勒"  # USS Chandler
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 苏哈德"  # USS Southard
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 哈维"  # USS Hovey
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 朗"  # USS Long
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 达拉斯"  # USS Dallas
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲁本·詹姆斯"  # USS Reuben James
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 戈夫"  # USS Goff
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴里"  # USS Barry
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 霍普金斯"  # USS Hopkins
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 布鲁姆"  # USS Broome
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 波利"  # USS Borie
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 辛普森"  # USS Simpson
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 特鲁斯顿"  # USS Truxtun
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第20驱逐舰师"  # Destroyer Division 20
+      location = 9671
+      ship = {
+        name = "USS 布雷肯里奇"  # USS Breckinridge
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴尼"  # USS Barney
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 布莱克利"  # USS Blakeley
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 比德尔"  # USS Biddle
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "侦察部队"  # Scouting Force
+    naval_base = 9814
+    task_force = {
+      name = "侦察部队"  # Scouting Force
+      location = 9814
+      ship = {
+        name = "USS 阿肯色"  # USS Arkansas
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 纽约"  # USS New York
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 德克萨斯"  # USS Texas
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 孟菲斯"  # USS Memphis
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 北安普顿"  # USS Northampton
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 休斯敦"  # USS Houston
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 彭萨科拉"  # USS Pensacola
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 盐湖城"  # USS Salt Lake City
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 芝加哥"  # USS Chicago
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 切斯特"  # USS Chester
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 路易斯维尔"  # USS Louisville
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 塔斯卡卢萨"  # USS Tuscaloosa
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 圣弗朗西斯科"  # USS San Francisco
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 波特兰"  # USS Portland
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 迪凯特"  # USS Decatur
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 白吉尔"  # USS Badger
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 雅各·琼斯"  # USS Jacob Jones
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 利里"  # USS Leary
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 申克"  # USS Schenck
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴比特"  # USS Babbitt
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 汉密尔顿"  # USS Hamilton
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 罗柏"  # USS Roper
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "潜艇基地部队"  # Submarine Base Force
+    naval_base = 1562
+    task_force = {
+      name = "潜艇基地部队"  # Submarine Base Force
+      location = 1562
+      ship = {
+        name = "USS 里士满"  # USS Richmond
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 利齐菲"  # USS Litchfield
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第4潜艇中队"  # 4th Submarine Squadron
+      location = 4180
+      ship = {
+        name = "USS 阿尔戈英雄"  # USS Argonaut
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-1"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-18"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-23"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-27"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-28"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-34"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-35"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-31"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-32"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-33"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第6潜艇中队"  # 6th Submarine Squadron
+      location = 1562
+      ship = {
+        name = "USS 梭鱼"  # USS Barracuda
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴斯"  # USS Bass
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 博尼塔"  # USS Bonita
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 独角鲸"  # USS Narwhal
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 海豚"  # USS Dolphin
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鹦鹉螺"  # USS Nautilus
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 抹香鲸"  # USS Cachalot
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 乌贼"  # USS Cuttlefish
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鼠海豚"  # USS Porpoise
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 梭子鱼"  # USS Pike
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲨鱼"  # USS Shark
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "太平洋预备舰队"  # Pacific Reserve Fleet
+    naval_base = 1562
+    task_force = {
+      name = "太平洋预备驱逐舰舰队"  # Pacific Reserve Destroyers
+      location = 1562
+      ship = {
+        name = "USS 巴拉德"  # USS Ballard
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 赵"  # USS Chew
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 克兰"  # USS Crane
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 克罗斯比"  # USS Crosby
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 格林"  # USS Greene
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 霍根"  # USS Hogan
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 霍华德"  # USS Howard
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 肯尼逊"  # USS Kennison
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 凯提"  # USS Kilty
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 帕尔默"  # USS Palmer
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 雪利"  # USS Schley
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 史坦贝利"  # USS Stansbury
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 桑顿"  # USS Thornton
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 沃德"  # USS Ward
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 多西"  # USS Dorsey
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾略特"  # USS Elliot
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 博斯"  # USS Boggs
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "大西洋舰队"  # Atlantic Fleet
+    naval_base = 788
+    task_force = {
+      name = "第12驱逐舰中队"  # Destroyer Squadron 12
+      location = 3878
+      ship = {
+        name = "USS 吉尔默"  # USS Gilmer
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 杜邦"  # USS Du Pont
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 伯纳度"  # USS Bernadou
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾利斯"  # USS Ellis
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 高尔"  # USS Cole
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 塔贝尔"  # USS Tarbell
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 厄普舍"  # USS Upshur
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 基尔"  # USS Greer
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2潜艇中队"  # 2nd Submarine Squadron
+      location = 9832
+      ship = {
+        name = "USS S-20"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-22"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-2"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-4"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-10"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-11"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-13"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-14"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-21"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-24"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-25"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-26"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-29"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-30"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "大西洋预备驱逐舰舰队"  # Atlantic Reserve Destroyers
+      location = 6845
+      ship = {
+        name = "USS 艾伦"  # USS Allen
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 古翰"  # USS Colhoun
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 格列高利"  # USS Gregory
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 利德"  # USS Little
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦基恩"  # USS McKean
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 史钦汉"  # USS Stringham
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 克莱蒙森"  # USS Clemson
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 高斯伯"  # USS Goldsborough
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦花伦"  # USS McFarland
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 奥斯蒙·英格拉姆"  # USS Osmond Ingram
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 贝尔纳普"  # USS Belknap
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 吉利斯"  # USS Gillis
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 赫尔伯特"  # USS Hulbert
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 诺亚"  # USS Noa
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 威廉·B·普雷斯顿"  # USS William B Preston
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "大西洋预备潜艇舰队"  # Atlantic Reserve Submarines
+      location = 6845
+      ship = {
+        name = "USS O-2"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS O-3"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS O-4"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS O-6"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS O-7"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS O-8"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS O-9"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS O-10"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-1"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-3"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-5"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-6"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-7"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-9"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-11"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-12"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-13"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-14"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-15"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-16"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-17"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-48"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS R-20"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-11"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-12"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-13"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-14"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-15"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-16"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-17"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-48"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "特种任务舰队"  # Special Assignment Forces
+    naval_base = 7617
+    task_force = {
+      name = "大西洋海军支队"  # Naval Detachment Atlantic
+      location = 6732
+      ship = {
+        name = "USS 迪克森"  # USS Dickerson
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 赫伯特"  # USS Herbert
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 戴尔根"  # USS Dahlgren
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "特勤中队"  # Special Service Squadron
+      location = 7617
+      ship = {
+        name = "USS 塔特纳尔"  # USS Tattnall
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS J·弗雷德·塔尔博特"  # USS J Fred Talbott
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3潜艇中队"  # 3rd Submarine Squadron
+      location = 7617
+      ship = {
+        name = "USS S-42"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-43"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-44"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-45"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-46"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-47"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "亚太舰队"  # Asiatic Fleet
+    naval_base = 10265
+    task_force = {
+      name = "亚太舰队"  # Asiatic Fleet
+      location = 10265
+      ship = {
+        name = "USS 奥古斯塔"  # USS Augusta
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 马布尔"  # USS Marblehead
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 保罗·琼斯"  # USS Paul Jones
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 奥尔登"  # USS Alden
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 百克"  # USS Barker
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 约翰·D·爱德华"  # USS John D Edwards
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 惠普尔"  # USS Whipple
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾德索"  # USS Edsall
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 帕罗特"  # USS Parrott
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲍尔默"  # USS Bulmer
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 斯图尔特"  # USS Stewart
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 波普"  # USS Pope
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 皮里"  # USS Peary
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 皮斯伯里"  # USS Pillsbury
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS 约翰·D·福特"  # USS John D Ford
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第5潜艇中队"  # 5th Submarine Squadron
+      location = 10265
+      ship = {
+        name = "USS S-36"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-37"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-38"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-39"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-40"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+      ship = {
+        name = "USS S-41"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = USA
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_1
+      creator = "USA"
+      version_name = "法拉格特级"  # Farragut Class
+    }
+    requested_factories = 2
+    progress = 0.80
+    amount = 2
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_1
+      creator = "USA"
+      version_name = "法拉格特级"  # Farragut Class
+    }
+    requested_factories = 2
+    progress = 0.70
+    amount = 2
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_1
+      creator = "USA"
+      version_name = "法拉格特级"  # Farragut Class
+    }
+    requested_factories = 2
+    progress = 0.60
+    amount = 2
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_1
+      creator = "USA"
+      version_name = "法拉格特级"  # Farragut Class
+    }
+    requested_factories = 2
+    progress = 0.50
+    amount = 2
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_1
+      creator = "USA"
+      version_name = "法拉格特级"  # Farragut Class
+    }
+    requested_factories = 2
+    progress = 0.40
+    amount = 2
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_1
+      creator = "USA"
+      version_name = "法拉格特级"  # Farragut Class
+    }
+    requested_factories = 2
+    progress = 0.30
+    amount = 2
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_1
+      creator = "USA"
+      version_name = "法拉格特级"  # Farragut Class
+    }
+    requested_factories = 1
+    progress = 0.20
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = submarine_2
+      creator = "USA"
+    }
+    requested_factories = 1
+    progress = 0.50
+    amount = 1
+    industrial_manufacturer = mio:USA_electric_boat_company_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = heavy_cruiser_1
+      creator = "USA"
+      version_name = "波特兰级"  # Portland Class
+    }
+    requested_factories = 2
+    progress = 0.85
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+}

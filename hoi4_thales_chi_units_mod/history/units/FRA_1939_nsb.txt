@@ -1,0 +1,1648 @@
+﻿division_template = {
+  name = "步兵师"  # Division d'Infanterie
+  division_names_group = FRA_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "驻军师"  # Division Coloniale
+  division_names_group = FRA_COL_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "要塞师"  # Division Forteresse
+  division_names_group = FRA_GAR_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+  }
+  priority = 0
+}
+division_template = {
+  name = "山地步兵师"  # Division d'Infanterie Alpine
+  division_names_group = FRA_MNT_01
+  regiments = {
+    mountaineers = {
+      x = 0
+      y = 0
+    }
+    mountaineers = {
+      x = 0
+      y = 1
+    }
+    mountaineers = {
+      x = 0
+      y = 2
+    }
+    mountaineers = {
+      x = 1
+      y = 0
+    }
+    mountaineers = {
+      x = 1
+      y = 1
+    }
+    mountaineers = {
+      x = 1
+      y = 2
+    }
+    mountaineers = {
+      x = 2
+      y = 0
+    }
+    mountaineers = {
+      x = 2
+      y = 1
+    }
+    mountaineers = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "摩托化步兵师"  # Division d'Infanterie Motorisée
+  division_names_group = FRA_MOT_01
+  regiments = {
+    motorized = {
+      x = 0
+      y = 0
+    }
+    motorized = {
+      x = 0
+      y = 1
+    }
+    motorized = {
+      x = 0
+      y = 2
+    }
+    motorized = {
+      x = 1
+      y = 0
+    }
+    motorized = {
+      x = 1
+      y = 1
+    }
+    motorized = {
+      x = 1
+      y = 2
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+    motorized = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    mot_recon = {
+      x = 0
+      y = 0
+    }
+    artillery = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "骑兵师"  # Division de Cavalerie
+  division_names_group = FRA_CAV_01
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+  }
+  support = {
+    recon = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "轻型机械化师"  # Division Légère Mécanique
+  division_names_group = FRA_MEC_01
+  regiments = {
+    medium_armor = {
+      x = 0
+      y = 0
+    }
+    light_armor = {
+      x = 0
+      y = 1
+    }
+    medium_armor = {
+      x = 1
+      y = 0
+    }
+    light_armor = {
+      x = 1
+      y = 1
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+    motorized = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    mot_recon = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "装甲旅"  # Brigade de Chars de Combat
+  division_names_group = FRA_ARM_02
+  regiments = {
+    light_armor = {
+      x = 0
+      y = 0
+    }
+    light_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 1
+      y = 0
+    }
+    light_armor = {
+      x = 1
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "重装甲旅"  # Brigade Cuirassée
+  division_names_group = FRA_ARM_02
+  regiments = {
+    heavy_armor = {
+      x = 0
+      y = 0
+    }
+    heavy_armor = {
+      x = 0
+      y = 1
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "驻军旅"  # Brigade Coloniale
+  division_names_group = FRA_COL_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+  }
+  priority = 0
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 10
+    }
+    location = 3646
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 13
+    }
+    location = 3666
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 14
+    }
+    location = 3666
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 57
+    }
+    location = 9503
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 104
+    }
+    location = 9503
+    division_template = "要塞师"  # Division Forteresse
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 67
+    }
+    location = 678
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 105
+    }
+    location = 678
+    division_template = "要塞师"  # Division Forteresse
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "第506装甲旅"  # 506e Rgt. de Chars de Combat
+    location = 698
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_0 = {
+        owner = "FRA"
+        version_name = "FT mod. 31"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 19
+    }
+    location = 698
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 54
+    }
+    location = 698
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 61
+    }
+    location = 11502
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 102
+    }
+    location = 11502
+    division_template = "要塞师"  # Division Forteresse
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 101
+    }
+    location = 5291
+    division_template = "要塞师"  # Division Forteresse
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 3447
+    division_template = "轻型机械化师"  # Division Légère Mécanique
+    start_experience_factor = 0.3
+    force_equipment_variants = {
+      medium_tank_chassis_0 = {
+        owner = "FRA"
+        version_name = "SOUMUA S35"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 11483
+    division_template = "摩托化步兵师"  # Division d'Infanterie Motorisée
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 42
+    }
+    location = 575
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 32
+    }
+    location = 11606
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 45
+    }
+    location = 3447
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第505装甲旅"  # 505e Rgt. de Chars de Combat
+    location = 11606
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 71
+    }
+    location = 6545
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 6545
+    division_template = "骑兵师"  # Division de Cavalerie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.75
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 6545
+    division_template = "轻型机械化师"  # Division Légère Mécanique
+    start_experience_factor = 0.3
+    force_equipment_variants = {
+      medium_tank_chassis_0 = {
+        owner = "FRA"
+        version_name = "SOUMUA S35"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 55
+    }
+    location = 3560
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第511装甲旅"  # 511e Rgt. de Chars de Combat
+    location = 3560
+    division_template = "重装甲旅"  # Brigade Cuirassée
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 41
+    }
+    location = 3560
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 3560
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 53
+    }
+    location = 5291
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "502装甲旅"  # 502e Rgt. de Chars de Combat
+    location = 5291
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    name = "509装甲旅"  # 509e Rgt. de Chars de Combat
+    location = 9559
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 9559
+    division_template = "摩托化步兵师"  # Division d'Infanterie Motorisée
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 9559
+    division_template = "骑兵师"  # Division de Cavalerie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.75
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 18
+    }
+    location = 5291
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 22
+    }
+    location = 5291
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 20
+    }
+    location = 549
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 51
+    }
+    location = 549
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 58
+    }
+    location = 3629
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 103
+    }
+    location = 3629
+    division_template = "要塞师"  # Division Forteresse
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 3629
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 11516
+    division_template = "骑兵师"  # Division de Cavalerie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.75
+  }
+  division = {
+    name = "512装甲旅"  # 512e Rgt. de Chars de Combat
+    location = 11516
+    division_template = "重装甲旅"  # Brigade Cuirassée
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 11502
+    division_template = "摩托化步兵师"  # Division d'Infanterie Motorisée
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 43
+    }
+    location = 11502
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 11502
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 42
+    }
+    location = 11502
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 26
+    }
+    location = 3629
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 56
+    }
+    location = 3629
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "507装甲旅"  # 507e Rgt. de Chars de Combat
+    location = 3629
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 45
+    }
+    location = 698
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 9
+    }
+    location = 698
+    division_template = "摩托化步兵师"  # Division d'Infanterie Motorisée
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "510装甲旅"  # 510e Rgt. de Chars de Combat
+    location = 698
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 3629
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 15
+    }
+    location = 3629
+    division_template = "摩托化步兵师"  # Division d'Infanterie Motorisée
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 3629
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 9503
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 47
+    }
+    location = 9503
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 9503
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 44
+    }
+    location = 9503
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 21
+    }
+    location = 549
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 23
+    }
+    location = 549
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 52
+    }
+    location = 549
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 82
+    }
+    location = 549
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 6529
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 87
+    }
+    location = 678
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "501装甲旅"  # 501e Rgt. de Chars de Combat
+    location = 6529
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "FRA"
+        version_name = "H-35"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 24
+    }
+    location = 6529
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 16
+    }
+    location = 678
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 35
+    }
+    location = 678
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 70
+    }
+    location = 678
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 62
+    }
+    location = 6529
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 9523
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.35
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 9523
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.35
+  }
+  division = {
+    name = "第1重装甲旅"  # 1ère Brigade Cuirassée
+    location = 9523
+    division_template = "重装甲旅"  # Brigade Cuirassée
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第2重装甲旅"  # 2ème Brigade Cuirassée
+    location = 9523
+    division_template = "重装甲旅"  # Brigade Cuirassée
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 641
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 36
+    }
+    location = 641
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 43
+    }
+    location = 641
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 60
+    }
+    location = 9434
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.21
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 454
+    division_template = "摩托化步兵师"  # Division d'Infanterie Motorisée
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 25
+    }
+    location = 454
+    division_template = "摩托化步兵师"  # Division d'Infanterie Motorisée
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "第503装甲旅"  # 503e Rgt. de Chars de Combat
+    location = 454
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_0 = {
+        owner = "FRA"
+        version_name = "FT mod. 31"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 63
+    }
+    location = 11834
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 65
+    }
+    location = 911
+    division_template = "山地步兵师"  # Division d'Infanterie Alpine
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 3764
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第504装甲旅"  # 504e Rgt. de Chars de Combat
+    location = 6975
+    division_template = "装甲旅"  # Brigade de Chars de Combat
+    start_experience_factor = 0.2
+    force_equipment_variants = {
+      light_tank_chassis_0 = {
+        owner = "FRA"
+        version_name = "FT mod. 31"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 27
+    }
+    location = 778
+    division_template = "山地步兵师"  # Division d'Infanterie Alpine
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 31
+    }
+    location = 778
+    division_template = "山地步兵师"  # Division d'Infanterie Alpine
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 29
+    }
+    location = 9909
+    division_template = "山地步兵师"  # Division d'Infanterie Alpine
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 30
+    }
+    location = 3959
+    division_template = "山地步兵师"  # Division d'Infanterie Alpine
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 66
+    }
+    location = 9909
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 28
+    }
+    location = 9745
+    division_template = "山地步兵师"  # Division d'Infanterie Alpine
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 64
+    }
+    location = 764
+    division_template = "山地步兵师"  # Division d'Infanterie Alpine
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 41
+    }
+    location = 3764
+    division_template = "驻军师"  # Division Coloniale
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "东撒哈拉阵线"  # Front Est Saharien
+    location = 7132
+    division_template = "驻军旅"  # Brigade Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "东南撒哈拉阵线"  # Front Sud-Est Saharien
+    location = 1145
+    division_template = "驻军旅"  # Brigade Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 85
+    }
+    location = 7132
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 182
+    }
+    location = 1145
+    division_template = "步兵师"  # Division d'Infanterie
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 183
+    }
+    location = 1145
+    division_template = "步兵师"  # Division d'Infanterie
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "第1非洲骑兵师"  # 1e Grpmt. de Cavalerie d'Afrique
+    location = 1145
+    division_template = "骑兵师"  # Division de Cavalerie
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 83
+    }
+    location = 11969
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 84
+    }
+    location = 11969
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 88
+    }
+    location = 9994
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第2非洲骑兵师"  # 2e Grmpt. de Cavalerie d'Afrique
+    location = 11969
+    division_template = "骑兵师"  # Division de Cavalerie
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 81
+    }
+    location = 11957
+    division_template = "步兵师"  # Division d'Infanterie
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 180
+    }
+    location = 1105
+    division_template = "步兵师"  # Division d'Infanterie
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "突尼斯南部阵线"  # Front Sud-Tunisien
+    location = 11957
+    division_template = "驻军旅"  # Brigade Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 62
+    }
+    location = 7069
+    division_template = "驻军师"  # Division Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 63
+    }
+    location = 7069
+    division_template = "驻军师"  # Division Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 86
+    }
+    location = 792
+    division_template = "步兵师"  # Division d'Infanterie
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 191
+    }
+    location = 792
+    division_template = "步兵师"  # Division d'Infanterie
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "马达加斯加驻军"  # Troupes de Madagascar
+    location = 5222
+    division_template = "驻军旅"  # Brigade Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "塞内加尔驻军"  # Troupes de Sénégalais
+    location = 4948
+    division_template = "驻军旅"  # Brigade Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "法属赤道非洲驻军"  # Troupes de Afrique Equatoriale Française
+    location = 5139
+    division_template = "驻军旅"  # Brigade Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_equipment_factor = 0.15
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 91
+    }
+    location = 4075
+    division_template = "驻军师"  # Division Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 92
+    }
+    location = 4401
+    division_template = "驻军师"  # Division Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "老挝驻军"  # Brigade d'Annam-Laos
+    location = 7376
+    division_template = "驻军旅"  # Brigade Coloniale
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "FRA"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "FRA"
+    }
+    requested_factories = 2
+    progress = 0.1
+    efficiency = 100
+    industrial_manufacturer = mio:FRA_mas_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = support_equipment_1
+      creator = "FRA"
+    }
+    requested_factories = 1
+    progress = 0.3
+    efficiency = 100
+  }
+  add_equipment_production = {
+    equipment = {
+      type = artillery_equipment_1
+      creator = "FRA"
+    }
+    requested_factories = 1
+    progress = 0.3
+    efficiency = 100
+    industrial_manufacturer = mio:FRA_schneider_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = light_tank_chassis_2
+      creator = "FRA"
+      version_name = "FCM 36"
+    }
+    requested_factories = 1
+    progress = 0.4
+    efficiency = 100
+    industrial_manufacturer = mio:FRA_renault_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = motorized_equipment_1
+      creator = "FRA"
+    }
+    requested_factories = 1
+    progress = 0.4
+    efficiency = 100
+    industrial_manufacturer = mio:FRA_somua_organization
+  }
+}

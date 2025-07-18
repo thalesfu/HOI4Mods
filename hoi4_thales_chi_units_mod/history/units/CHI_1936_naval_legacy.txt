@@ -1,0 +1,91 @@
+﻿units = {
+  fleet = {
+    name = "第1舰队"  # Di 1 Jiandui
+    naval_base = 7014
+    task_force = {
+      name = "第1舰队"  # Di 1 Jiandui
+      location = 7014
+      ship = {
+        name = "应瑞"  # Yingrui
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CHI
+          }
+        }
+      }
+      ship = {
+        name = "宁海"  # Ninghai
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CHI
+          }
+        }
+      }
+      ship = {
+        name = "海容"  # Hairong
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CHI
+          }
+        }
+      }
+      ship = {
+        name = "肇和"  # Zhaohe
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CHI
+          }
+        }
+      }
+      ship = {
+        name = "海圻"  # Haiqi
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CHI
+          }
+        }
+      }
+      ship = {
+        name = "大同"  # Dadong
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHI
+          }
+        }
+      }
+      ship = {
+        name = "自强"  # Zejiang
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHI
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = light_cruiser_1
+      creator = "CHI"
+    }
+    requested_factories = 1
+    progress = 0.33
+    amount = 1
+  }
+}

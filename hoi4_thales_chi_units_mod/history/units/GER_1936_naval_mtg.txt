@@ -1,0 +1,604 @@
+﻿units = {
+  fleet = {
+    name = "战争海军"  # Kriegsmarine
+    naval_base = 241
+    task_force = {
+      name = "公海舰队"  # Hochseeflotte
+      location = 241
+      ship = {
+        name = "德意志"  # Deutschland
+        definition = heavy_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = GER
+            version_name = "德意志级"  # Deutschland
+          }
+        }
+      }
+      ship = {
+        name = "舍尔海军上将"  # Admiral Scheer
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = GER
+            version_name = "德意志级"  # Deutschland
+          }
+        }
+      }
+      ship = {
+        name = "纽伦堡"  # Nürnberg
+        definition = light_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = GER
+            version_name = "莱比锡级"  # Leipzig
+          }
+        }
+      }
+      ship = {
+        name = "莱比锡"  # Leipzig
+        definition = light_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = GER
+            version_name = "莱比锡级"  # Leipzig
+          }
+        }
+      }
+      ship = {
+        name = "柯尼斯堡"  # Königsberg
+        definition = light_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = GER
+            version_name = "柯尼斯堡级"  # Königsberg
+          }
+        }
+      }
+      ship = {
+        name = "卡尔斯鲁厄"  # Karlsruhe
+        definition = light_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = GER
+            version_name = "柯尼斯堡级"  # Königsberg
+          }
+        }
+      }
+      ship = {
+        name = "科隆"  # Köln
+        definition = light_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = GER
+            version_name = "柯尼斯堡级"  # Königsberg
+          }
+        }
+      }
+      ship = {
+        name = "埃姆登"  # Emden
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = GER
+            version_name = "埃姆登级"  # Emden
+          }
+        }
+      }
+      ship = {
+        name = "美洲虎"  # Jaguar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "美洲豹"  # Leopard
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "猞猁"  # Luchs
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "虎"  # Tiger
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "波罗的海舰队"  # Ostseeflotte
+      location = 6332
+      ship = {
+        name = "石勒苏益格-荷尔斯泰因"  # Schleswig-Holstein
+        definition = battleship
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = GER
+            version_name = "德意志级"  # Deutschland
+          }
+        }
+      }
+      ship = {
+        name = "西里西亚"  # Schlesien
+        definition = battleship
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = GER
+            version_name = "德意志级"  # Deutschland
+          }
+        }
+      }
+      ship = {
+        name = "海鸥"  # Möwe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "信天翁"  # Albatros
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "海鹰"  # Seeadler
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "神鹰"  # Greif
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "猎鹰"  # Falke
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "秃鹰"  # Kondor
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "狼"  # Wolf
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+      ship = {
+        name = "臭鼬"  # Iltis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GER
+            version_name = "24型"  # Type 24
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "基尔海军学院"  # Marineschule Kiel
+      location = 6389
+      ship = {
+        name = "布鲁默"  # Brummer
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = GER
+            version_name = "虻级"  # Bremse
+          }
+        }
+      }
+      ship = {
+        name = "虻"  # Bremse
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = GER
+            version_name = "虻级"  # Bremse
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "潜艇舰队"  # Unterseeboots-Flotte 
+    naval_base = 6389
+    task_force = {
+      name = "I.魏迪根潜艇分队"  # I. U-Boots Flottille Weddigen
+      location = 6389
+      ship = {
+        name = "U-7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-9"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-10"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-12"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-13"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-17"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "II.潜艇训练分队"  # II. U-Boots-Ausbildungs-Gruppe
+      location = 241
+      ship = {
+        name = "U-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+      ship = {
+        name = "U-6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GER
+            version_name = "II 型"  # Type II
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_1
+      creator = "GER"
+      version_name = "II 型"  # Type II
+    }
+    requested_factories = 1
+    progress = 0.75
+    amount = 2
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_1
+      creator = "GER"
+      version_name = "II 型"  # Type II
+    }
+    requested_factories = 1
+    progress = 0.65
+    amount = 2
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_1
+      creator = "GER"
+      version_name = "II 型"  # Type II
+    }
+    requested_factories = 1
+    progress = 0.55
+    amount = 2
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_1
+      creator = "GER"
+      version_name = "II 型"  # Type II
+    }
+    requested_factories = 1
+    progress = 0.45
+    amount = 2
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "GER"
+      version_name = "1934级驱逐舰"  # Zerstörer 1934
+    }
+    requested_factories = 1
+    progress = 0.75
+    amount = 2
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "GER"
+      version_name = "1934级驱逐舰"  # Zerstörer 1934
+    }
+    requested_factories = 1
+    progress = 0.65
+    amount = 2
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_panzerschiff
+      creator = "GER"
+      version_name = "德意志级"  # Deutschland
+    }
+    requested_factories = 1
+    progress = 0.95
+    amount = 1
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_2
+      creator = "GER"
+      version_name = "希佩尔海军上将级"  # Admiral Hipper
+    }
+    requested_factories = 1
+    progress = 0.25
+    amount = 1
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_heavy_2
+      creator = "GER"
+      version_name = "沙恩霍斯特级"  # Scharnhorst
+    }
+    requested_factories = 1
+    progress = 0.35
+    amount = 1
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_heavy_2
+      creator = "GER"
+      version_name = "沙恩霍斯特级"  # Scharnhorst
+    }
+    requested_factories = 1
+    progress = 0.25
+    amount = 1
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "GER"
+      version_name = "1934A级驱逐舰"  # Zerstörer 1934A
+    }
+    requested_factories = 1
+    progress = 0.25
+    amount = 4
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "GER"
+      version_name = "1934A级驱逐舰"  # Zerstörer 1934A
+    }
+    requested_factories = 1
+    progress = 0.25
+    amount = 4
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "GER"
+      version_name = "1934A级驱逐舰"  # Zerstörer 1934A
+    }
+    requested_factories = 1
+    progress = 0.25
+    amount = 4
+    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+  }
+}

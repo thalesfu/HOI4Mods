@@ -1,0 +1,4855 @@
+﻿GER_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = {
+		GER
+	}
+	type = ship
+	ship_types = {
+		battleship
+		battle_cruiser
+	}
+	fallback_name = "%d号战列舰"	# Schlachtschiff %d
+	ordered = {
+		1 = {
+			"沙恩霍斯特"			# Scharnhorst
+		}
+		2 = {
+			"格奈森瑙"			# Gneisenau
+		}
+		3 = {
+			"俾斯麦"			# Bismarck
+		}
+		4 = {
+			"提尔皮茨"			# Tirpitz
+		}
+		5 = {
+			"胡滕"			# Hutten
+		}
+		6 = {
+			"贝利辛根"			# Berlichingen
+		}
+		7 = {
+			"罗森贝格"			# Rosenberg
+		}
+		8 = {
+			"西金根"			# Sickingen
+		}
+		9 = {
+			"盖尔"			# Geyer
+		}
+		10 = {
+			"施泰因男爵"			# Reichsfreiherr Stein
+		}
+		11 = {
+			"绍姆贝格"			# Schaumberg
+		}
+		12 = {
+			"格明根"			# Gemmingen
+		}
+		13 = {
+			"卡尔滕塔尔"			# Kaltental
+		}
+		14 = {
+			"埃尔辛格"			# Alxinger
+		}
+		15 = {
+			"埃欣根"			# Ehingen
+		}
+		16 = {
+			"费宁根"			# Venningen
+		}
+		17 = {
+			"施默林"			# Schmerling
+		}
+		18 = {
+			"盖斯"			# Geyso
+		}
+		19 = {
+			"法赫嫩伯格"			# Fahnenberg
+		}
+		20 = {
+			"诺瑟夫·冯·霍恩伯格"			# Nothaft von Hohenberg
+		}
+		21 = {
+			"贝格"			# Berger
+		}
+		22 = {
+			"盖兹科夫勒"			# Geizkofler
+		}
+		23 = {
+			"迈恩德斯"			# Meinders
+		}
+		24 = {
+			"克伦堡"			# Cronberg
+		}
+		25 = {
+			"杰明根·古滕贝格"			# Gemmingen-Guttenberg
+		}
+		26 = {
+			"瓦尔德施特滕"			# Waldstätten
+		}
+		27 = {
+			"赫尔姆施塔特"			# Helmstatt
+		}
+		28 = {
+			"穆塞宁"			# Mussinan
+		}
+		29 = {
+			"吕尔"			# Rühle
+		}
+		30 = {
+			"弗赖赫尔·格明根·霍恩伯格"			# Freiherr Gemmingen-Hornberg
+		}
+	}
+}
+
+GER_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = {
+		GER
+	}
+	type = ship
+	ship_types = {
+		battleship
+		battle_cruiser
+	}
+	fallback_name = "%d号战列巡洋舰"	# Schlachtkreuzer %d
+	link_numbering_with = {
+		GER_PZ_HISTORICAL
+	}
+	ordered = {
+		3 = {
+			"符滕堡"			# Württemberg
+		}
+		4 = {
+			"萨克森"			# Sachsen
+		}
+		5 = {
+			"巴登"			# Baden
+		}
+		6 = {
+			"拜仁"			# Bayern
+		}
+		7 = {
+			"图林根"			# Thüringen
+		}
+		8 = {
+			"库尔黑森"			# Kurhessen
+		}
+		9 = {
+			"汉诺威"			# Hannover
+		}
+		10 = {
+			"勃兰登堡"			# Brandenburg
+		}
+		11 = {
+			"普鲁士"			# Preussen
+		}
+		12 = {
+			"弗兰肯"			# Franken
+		}
+		13 = {
+			"波美拉尼亚"			# Pommern
+		}
+		14 = {
+			"萨克森"			# Sachsen
+		}
+		15 = {
+			"威斯特法伦"			# Westfalen
+		}
+		16 = {
+			"摩泽兰"			# Moselland
+		}
+		17 = {
+			"梅克伦堡"			# Mecklenburg
+		}
+		18 = {
+			"安哈尔特"			# Anhalt
+		}
+		19 = {
+			"奥斯特马克"			# Ostmark
+		}
+		20 = {
+			"威悉-埃姆斯"			# Weser-Ems
+		}
+		21 = {
+			"施瓦本"			# Schwaben
+		}
+		22 = {
+			"黑森-拿骚"			# Hessen-Nassau
+		}
+		23 = {
+			"上多瑙"			# Oberdonau
+		}
+		24 = {
+			"下多瑙"			# Niederdonau
+		}
+		25 = {
+			"施泰尔马克"			# Steiermark
+		}
+		26 = {
+			"克恩滕"			# Kärnten
+		}
+		27 = {
+			"蒂罗尔-福拉尔贝格"			# Tirol-Vorarlberg
+		}
+		28 = {
+			"苏台德"			# Sudetenland
+		}
+		29 = {
+			"瓦尔塔兰"			# Wartheland
+		}
+		30 = {
+			"威斯特马克"			# Westmark
+		}
+		31 = {
+			"上莱茵"			# Oberrhein
+		}
+		32 = {
+			"洛林根"			# Lothringen
+		}
+		33 = {
+			"西里西亚"			# Schlesien
+		}
+		34 = {
+			"石勒苏益格-荷尔斯泰因"			# Schleswig-Holstein
+		}
+	}
+}
+
+GER_PZ_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_PZ
+	for_countries = {
+		GER
+	}
+	type = ship
+	ship_types = {
+		heavy_cruiser
+		light_cruiser
+	}
+	fallback_name = "%d号装甲舰"	# Panzerschiff %d
+	link_numbering_with = {
+		GER_BC_HISTORICAL
+	}
+	ordered = {
+		1 = {
+			"舍尔海军上将"			# Admiral Scheer
+		}
+		2 = {
+			"斯佩伯爵海军上将"			# Admiral Graf Spee
+		}
+		3 = {
+			"符滕堡"			# Württemberg
+		}
+		4 = {
+			"萨克森"			# Sachsen
+		}
+		5 = {
+			"巴登"			# Baden
+		}
+		6 = {
+			"拜仁"			# Bayern
+		}
+		7 = {
+			"图林根"			# Thüringen
+		}
+		8 = {
+			"库尔黑森"			# Kurhessen
+		}
+		9 = {
+			"汉诺威"			# Hannover
+		}
+		10 = {
+			"勃兰登堡"			# Brandenburg
+		}
+		11 = {
+			"普鲁士"			# Preussen
+		}
+		12 = {
+			"弗兰肯"			# Franken
+		}
+		13 = {
+			"波美拉尼亚"			# Pommern
+		}
+		14 = {
+			"萨克森"			# Sachsen
+		}
+		15 = {
+			"威斯特法伦"			# Westfalen
+		}
+		16 = {
+			"摩泽兰"			# Moselland
+		}
+		17 = {
+			"梅克伦堡"			# Mecklenburg
+		}
+		18 = {
+			"安哈尔特"			# Anhalt
+		}
+		19 = {
+			"奥斯特马克"			# Ostmark
+		}
+		20 = {
+			"威悉-埃姆斯"			# Weser-Ems
+		}
+		21 = {
+			"施瓦本"			# Schwaben
+		}
+		22 = {
+			"黑森-拿骚"			# Hessen-Nassau
+		}
+		23 = {
+			"上多瑙"			# Oberdonau
+		}
+		24 = {
+			"下多瑙"			# Niederdonau
+		}
+		25 = {
+			"施泰尔马克"			# Steiermark
+		}
+		26 = {
+			"克恩滕"			# Kärnten
+		}
+		27 = {
+			"蒂罗尔-福拉尔贝格"			# Tirol-Vorarlberg
+		}
+		28 = {
+			"苏台德"			# Sudetenland
+		}
+		29 = {
+			"瓦尔塔兰"			# Wartheland
+		}
+		30 = {
+			"威斯特马克"			# Westmark
+		}
+		31 = {
+			"上莱茵"			# Oberrhein
+		}
+		32 = {
+			"洛林根"			# Lothringen
+		}
+		33 = {
+			"西里西亚"			# Schlesien
+		}
+		34 = {
+			"石勒苏益格-荷尔斯泰因"			# Schleswig-Holstein
+		}
+		35 = {
+			"德意志"			# Deutschland
+		}
+		36 = {
+			"吕佐"			# Lützow
+		}
+	}
+}
+
+GER_TB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_TB
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	link_numbering_with = {
+		GER_THEME_ANIMALS
+	}
+	type = ship
+	ship_types = {
+		destroyer
+	}
+	fallback_name = "T%d"
+	ordered = {
+		201 = {
+			"海鸥"			# Möwe
+		}
+		202 = {
+			"信天翁"			# Albatros
+		}
+		203 = {
+			"海鹰"			# Seeadler
+		}
+		204 = {
+			"鹰狮"			# Greif
+		}
+		205 = {
+			"猎鹰"			# Falke
+		}
+		206 = {
+			"秃鹰"			# Kondor
+		}
+		207 = {
+			"苍狼"			# Wolf
+		}
+		208 = {
+			"臭鼬"			# Iltis
+		}
+		209 = {
+			"猞猁"			# Luchs
+		}
+		210 = {
+			"美洲豹"			# Jaguar
+		}
+		211 = {
+			"虎"			# Tiger
+		}
+		212 = {
+			"猎豹"			# Leopard
+		}
+		1 = {
+			"T1"
+		}
+		2 = {
+			"T2"
+		}
+		3 = {
+			"T3"
+		}
+		4 = {
+			"T4"
+		}
+		5 = {
+			"T5"
+		}
+		6 = {
+			"T6"
+		}
+		7 = {
+			"T7"
+		}
+		8 = {
+			"T8"
+		}
+		9 = {
+			"T9"
+		}
+		10 = {
+			"T10"
+		}
+		11 = {
+			"T11"
+		}
+		12 = {
+			"T12"
+		}
+		13 = {
+			"T13"
+		}
+		14 = {
+			"T14"
+		}
+		15 = {
+			"T15"
+		}
+		16 = {
+			"T16"
+		}
+		17 = {
+			"T17"
+		}
+		18 = {
+			"T18"
+		}
+		19 = {
+			"T19"
+		}
+		20 = {
+			"T20"
+		}
+		21 = {
+			"T21"
+		}
+		22 = {
+			"T22"
+		}
+		23 = {
+			"T23"
+		}
+		24 = {
+			"T24"
+		}
+		25 = {
+			"T25"
+		}
+		26 = {
+			"T26"
+		}
+		27 = {
+			"T27"
+		}
+		28 = {
+			"T28"
+		}
+		29 = {
+			"T29"
+		}
+		30 = {
+			"T30"
+		}
+		31 = {
+			"T31"
+		}
+		32 = {
+			"T32"
+		}
+		33 = {
+			"T33"
+		}
+		34 = {
+			"T34"
+		}
+		35 = {
+			"T35"
+		}
+		36 = {
+			"T36"
+		}
+		37 = {
+			"T37"
+		}
+		38 = {
+			"T38"
+		}
+		39 = {
+			"T39"
+		}
+		40 = {
+			"T40"
+		}
+		41 = {
+			"T41"
+		}
+		42 = {
+			"T42"
+		}
+		43 = {
+			"T43"
+		}
+		44 = {
+			"T44"
+		}
+		45 = {
+			"T45"
+		}
+		46 = {
+			"T46"
+		}
+		47 = {
+			"T47"
+		}
+		48 = {
+			"T48"
+		}
+		49 = {
+			"T49"
+		}
+		50 = {
+			"T50"
+		}
+		51 = {
+			"T51"
+		}
+		52 = {
+			"T52"
+		}
+		53 = {
+			"T53"
+		}
+		54 = {
+			"T54"
+		}
+		55 = {
+			"T55"
+		}
+		56 = {
+			"T56"
+		}
+		57 = {
+			"T57"
+		}
+		58 = {
+			"T58"
+		}
+		59 = {
+			"T59"
+		}
+		60 = {
+			"T60"
+		}
+		61 = {
+			"T61"
+		}
+		62 = {
+			"T62"
+		}
+		63 = {
+			"T63"
+		}
+		64 = {
+			"T64"
+		}
+		65 = {
+			"T65"
+		}
+		66 = {
+			"T66"
+		}
+		67 = {
+			"T67"
+		}
+		68 = {
+			"T68"
+		}
+		69 = {
+			"T69"
+		}
+		70 = {
+			"T70"
+		}
+		71 = {
+			"T71"
+		}
+		72 = {
+			"T72"
+		}
+		73 = {
+			"T73"
+		}
+		74 = {
+			"T74"
+		}
+		75 = {
+			"T75"
+		}
+		76 = {
+			"T76"
+		}
+		77 = {
+			"T77"
+		}
+		78 = {
+			"T78"
+		}
+		79 = {
+			"T79"
+		}
+		80 = {
+			"T80"
+		}
+		81 = {
+			"T81"
+		}
+		82 = {
+			"T82"
+		}
+		83 = {
+			"T83"
+		}
+		84 = {
+			"T84"
+		}
+	}
+}
+
+GER_MS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		destroyer
+		light_cruiser
+	}
+	fallback_name = "M%d"
+	ordered = {
+		1 = {
+			"M1"
+		}
+		2 = {
+			"M2"
+		}
+		3 = {
+			"M3"
+		}
+	}
+}
+
+GER_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		submarine
+	}
+	fallback_name = "U-%d"
+	ordered = {
+		27 = {
+			"U-27"
+		}
+	}
+}
+
+GER_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		heavy_cruiser
+		light_cruiser
+	}
+	fallback_name = "%d号重巡洋舰"	# Schwerer Kreuzer %d
+	ordered = {
+		1 = {
+			"希佩尔海军上将"			# Admiral Hipper
+		}
+		2 = {
+			"布吕歇尔"			# Blücher
+		}
+		3 = {
+			"欧根亲王"			# Prinz Eugen
+		}
+		4 = {
+			"塞德利茨"			# Seydlitz
+		}
+		5 = {
+			"吕佐"			# Lützow
+		}
+		6 = {
+			"克诺尔海军上将"			# Admiral Knorr
+		}
+		7 = {
+			"罗恩"			# Roon
+		}
+		8 = {
+			"约克"			# York
+		}
+		9 = {
+			"波尔海军上将"			# Admiral Pohl
+		}
+		10 = {
+			"斯图斯切海军上将"			# Admiral Stosch
+		}
+		11 = {
+			"霍尔岑多夫"			# Holtzendorff
+		}
+		12 = {
+			"毛奇"			# Moltke
+		}
+		13 = {
+			"戈本"			# Goeben
+		}
+		14 = {
+			"马肯森"			# Mackensen
+		}
+		15 = {
+			"卡佩尔海军上将"			# Admiral Capelle
+		}
+		16 = {
+			"施密特海军上将"			# Admiral Schmidt
+		}
+		17 = {
+			"苏雄海军上将"			# Admiral Souchon
+		}
+		18 = {
+			"泰格托夫"			# Tegetthoff
+		}
+		19 = {
+			"德夫林格"			# Derfflinger
+		}
+		20 = {
+			"莱托-福尔贝克"			# Lettow-Vorbeck
+		}
+		21 = {
+			"冯 德 坦恩"			# Von der Tann
+		}
+		22 = {
+			"克斯特"			# Koester
+		}
+		23 = {
+			"豪斯"			# Haus
+		}
+		24 = {
+			"贝恩克海军上将"			# Admiral Behncke
+		}
+		25 = {
+			"斯特内克海军上将"			# Admiral Sterneck
+		}
+		26 = {
+			"鲍迪辛海军上将"			# Admiral Baudissin
+		}
+		27 = {
+			"兴登堡"			# Hindenburg
+		}
+		28 = {
+			"齐滕"			# Zieten
+		}
+		29 = {
+			"博延"			# Boyen
+		}
+		30 = {
+			"施里芬"			# Schlieffen
+		}
+		31 = {
+			"穆勒海军上将"			# Admiral Müller
+		}
+		32 = {
+			"克莱斯特"			# Kleist
+		}
+		33 = {
+			"曼陀菲尔"			# Manteuffel
+		}
+		34 = {
+			"乌瑟多姆海军上将"			# Admiral Usedom
+		}
+		35 = {
+			"艾科恩"			# Eichhorn
+		}
+		36 = {
+			"黑瑟勒"			# Haeseler
+		}
+		37 = {
+			"蒙泰库科利海军上将"			# Admiral Montecuccoli
+		}
+		38 = {
+			"弗雷德"			# Wrede
+		}
+		39 = {
+			"克劳塞维茨"			# Clausewitz
+		}
+		40 = {
+			"劳奇"			# Rauch
+		}
+		41 = {
+			"霍尔曼海军上将"			# Admiral Hollmann
+		}
+		42 = {
+			"施罗德海军上将"			# Admiral Schröder
+		}
+		43 = {
+			"布登布罗克"			# Buddenbrock
+		}
+		44 = {
+			"施瓦岑贝格"			# Schwarzenberg
+		}
+		45 = {
+			"弗莱明"			# Flemming
+		}
+		46 = {
+			"比藤费尔德"			# Bittenfeld
+		}
+		47 = {
+			"沃尔施"			# Woyrsch
+		}
+		48 = {
+			"曼斯费尔德"			# Mansfeld
+		}
+		49 = {
+			"卡尔克罗伊特"			# Kalckreuth
+		}
+		50 = {
+			"弗兰格尔"			# Wrangel
+		}
+		51 = {
+			"多因"			# Daun
+		}
+		52 = {
+			"黑德"			# Heyde
+		}
+		53 = {
+			"克罗寇"			# Krockow
+		}
+	}
+}
+
+GER_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		light_cruiser
+	}
+	fallback_name = "%d号轻型巡洋舰"	# Leichter Kreuzer %d
+	ordered = {
+		7 = {
+			"慕尼黑"			# München
+		}
+		8 = {
+			"柏林"			# Berlin
+		}
+		9 = {
+			"汉堡"			# Hamburg
+		}
+		10 = {
+			"斯图加特"			# Stuttgart
+		}
+		11 = {
+			"不莱梅"			# Bremen
+		}
+		12 = {
+			"吕贝克"			# Lübeck
+		}
+		13 = {
+			"但泽"			# Danzig
+		}
+		14 = {
+			"斯德丁"			# Stettin
+		}
+		15 = {
+			"德累斯顿"			# Dresden
+		}
+		16 = {
+			"美因茨"			# Mainz
+		}
+		17 = {
+			"奥格斯堡"			# Augsburg
+		}
+		18 = {
+			"马格德堡"			# Magdeburg
+		}
+		19 = {
+			"布雷斯劳"			# Breslau
+		}
+		20 = {
+			"汉诺威"			# Hannover
+		}
+		21 = {
+			"施特拉尔松德"			# Stralsund
+		}
+		22 = {
+			"法兰克福"			# Frankfurt
+		}
+		23 = {
+			"罗斯托克"			# Rostock
+		}
+		24 = {
+			"埃尔宾"			# Elbing
+		}
+		25 = {
+			"斯特拉斯堡"			# Straßburg
+		}
+		26 = {
+			"雷根斯堡"			# Regensburg
+		}
+		27 = {
+			"威斯巴登"			# Wiesbaden
+		}
+		28 = {
+			"亚琛"			# Aachen
+		}
+		29 = {
+			"波茨坦"			# Potsdam
+		}
+		30 = {
+			"海德堡"			# Heidelberg
+		}
+		31 = {
+			"基尔"			# Kiel
+		}
+		32 = {
+			"维尔茨堡"			# Würzburg
+		}
+		33 = {
+			"明斯特"			# Münster
+		}
+		34 = {
+			"达姆施塔特"			# Darmstadt
+		}
+		35 = {
+			"开姆尼茨"			# Chemnitz
+		}
+		36 = {
+			"布伦瑞克"			# Braunschweig
+		}
+		37 = {
+			"卡塞尔"			# Kassel
+		}
+		38 = {
+			"奥尔登堡"			# Oldenburg
+		}
+		39 = {
+			"杜塞尔多夫"			# Düsseldorf
+		}
+		40 = {
+			"哈雷"			# Halle
+		}
+		41 = {
+			"维也纳"			# Wien
+		}
+		42 = {
+			"多特蒙德"			# Dortmund
+		}
+		43 = {
+			"弗莱堡"			# Freiburg
+		}
+		44 = {
+			"杜伊斯堡"			# Duisburg
+		}
+		45 = {
+			"曼海姆"			# Mannheim
+		}
+		46 = {
+			"埃尔福特"			# Erfurt
+		}
+		47 = {
+			"奥斯纳布吕克"			# Osnabrück
+		}
+		48 = {
+			"埃森"			# Essen
+		}
+		49 = {
+			"沃尔夫斯堡"			# Wolfsburg
+		}
+		50 = {
+			"伍珀塔尔"			# Wuppertal
+		}
+		51 = {
+			"布拉格"			# Prag
+		}
+		52 = {
+			"因斯布鲁克"			# Innsbruck
+		}
+		53 = {
+			"萨尔布吕肯"			# Saarbrücken
+		}
+		54 = {
+			"波森"			# Posen
+		}
+		55 = {
+			"穆尔豪森"			# Mülhausen
+		}
+		56 = {
+			"帕德博恩"			# Paderborn
+		}
+		57 = {
+			"布吕恩"			# Brünn
+		}
+		58 = {
+			"英戈尔施塔特"			# Ingolstadt
+		}
+		59 = {
+			"比勒费尔德"			# Bielefeld
+		}
+		60 = {
+			"萨尔茨堡"			# Salzburg
+		}
+		61 = {
+			"比尔森"			# Pilsen
+		}
+		62 = {
+			"米尔海姆"			# Mülheim
+		}
+		63 = {
+			"海尔布隆"			# Heilbronn
+		}
+		64 = {
+			"波恩"			# Bonn
+		}
+		65 = {
+			"格拉茨"			# Graz
+		}
+		100 = {
+			"弗伦斯堡"			# Flensburg
+		}
+		66 = {
+			"奥伯豪森"			# Oberhausen
+		}
+		67 = {
+			"路德维希港"			# Ludwigshafen
+		}
+		68 = {
+			"波鸿"			# Bochum
+		}
+		69 = {
+			"索林根"			# Solingen
+		}
+		70 = {
+			"林茨"			# Linz
+		}
+		71 = {
+			"门兴格拉德巴赫"			# Mönchengladbach
+		}
+		72 = {
+			"菲尔特"			# Fürth
+		}
+		73 = {
+			"特里尔"			# Trier
+		}
+		74 = {
+			"哈根"			# Hagen
+		}
+		75 = {
+			"克雷费尔德"			# Krefeld
+		}
+		76 = {
+			"乌尔姆"			# Ulm
+		}
+		77 = {
+			"哥廷根"			# Göttingen
+		}
+		78 = {
+			"盖尔森基兴"			# Gelsenkirchen
+		}
+		79 = {
+			"雷克林豪森"			# Recklinghausen
+		}
+		80 = {
+			"普福尔茨海姆"			# Pforzheim
+		}
+		81 = {
+			"哈姆"			# Hamm
+		}
+		82 = {
+			"博特罗普"			# Bottrop
+		}
+		83 = {
+			"不来梅"			# Bremerhaven
+		}
+		84 = {
+			"罗伊特林根"			# Reutlingen
+		}
+		85 = {
+			"耶拿"			# Jena
+		}
+		86 = {
+			"科布伦茨"			# Koblenz
+		}
+		87 = {
+			"勒沃库森"			# Leverkusen
+		}
+		88 = {
+			"诺伊斯"			# Neuss
+		}
+		89 = {
+			"奥芬巴赫"			# Offenbach
+		}
+		90 = {
+			"黑尔讷"			# Herne
+		}
+		91 = {
+			"雷姆沙伊德"			# Remscheid
+		}
+		92 = {
+			"凯撒斯劳滕"			# Kaiserslautern
+		}
+		93 = {
+			"扎尔茨吉特"			# Salzgitter
+		}
+		94 = {
+			"什未林"			# Schwerin
+		}
+		95 = {
+			"科特布斯"			# Cottbus
+		}
+		96 = {
+			"威廉港"			# Wilhelmshaven
+		}
+		97 = {
+			"埃朗根"			# Erlangen
+		}
+		98 = {
+			"席根"			# Siegen
+		}
+		99 = {
+			"希尔德斯海姆"			# Hildesheim
+		}
+		101 = {
+			"茨维考"			# Zwickau
+		}
+		1 = {
+			"埃姆登"			# Emden
+		}
+		2 = {
+			"柯尼斯堡"			# Königsberg
+		}
+		3 = {
+			"卡尔斯鲁厄"			# Karlsruhe
+		}
+		4 = {
+			"科隆"			# Köln
+		}
+		5 = {
+			"莱比锡"			# Leipzig
+		}
+		6 = {
+			"纽伦堡"			# Nürnberg
+		}
+	}
+}
+
+GER_CS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		light_cruiser
+		destroyer
+	}
+	fallback_name = "SP %d"
+	ordered = {
+		1 = {
+			"德绍"			# Dessau
+		}
+		2 = {
+			"维滕"			# Witten
+		}
+		3 = {
+			"格尔利茨"			# Görlitz
+		}
+		4 = {
+			"埃斯林根"			# Esslingen
+		}
+		5 = {
+			"新明斯特"			# Neumünster
+		}
+		6 = {
+			"卡斯特罗普-劳塞尔"			# Castrop-Rauxel
+		}
+		7 = {
+			"格拉德贝克"			# Gladbeck
+		}
+		8 = {
+			"普劳恩"			# Plauen
+		}
+		9 = {
+			"吕登沙伊德"			# Lüdenscheid
+		}
+		10 = {
+			"路德维希堡"			# Ludwigsburg
+		}
+		11 = {
+			"沃尔姆斯"			# Worms
+		}
+		12 = {
+			"玛尔"			# Marl
+		}
+		13 = {
+			"居特斯洛"			# Gütersloh
+		}
+		14 = {
+			"吉森"			# Gießen
+		}
+		15 = {
+			"吕嫩"			# Lünen
+		}
+		16 = {
+			"班贝格"			# Bamberg
+		}
+		17 = {
+			"帕德博恩"			# Paderborn
+		}
+		18 = {
+			"黑尔福德"			# Herford
+		}
+		19 = {
+			"拜罗伊特"			# Bayreuth
+		}
+		20 = {
+			"代尔门霍斯特"			# Delmenhorst
+		}
+		21 = {
+			"德特莫尔德"			# Detmold
+		}
+		22 = {
+			"魏玛"			# Weimar
+		}
+		23 = {
+			"新维德"			# Neuwied
+		}
+		24 = {
+			"康斯坦茨"			# Konstanz
+		}
+		25 = {
+			"吕塞尔斯海姆"			# Rüsselsheim
+		}
+		26 = {
+			"吕讷堡"			# Lüneburg
+		}
+		27 = {
+			"哈廷根"			# Hattingen
+		}
+		28 = {
+			"霍耶斯韦达"			# Hoyerswerda
+		}
+		29 = {
+			"施韦因富特"			# Schweinfurt
+		}
+		30 = {
+			"席根"			# Siegen
+		}
+		31 = {
+			"伊瑟隆"			# Iserlohn
+		}
+		32 = {
+			"策勒"			# Celle
+		}
+		33 = {
+			"哥达"			# Gotha
+		}
+		34 = {
+			"维斯马"			# Wismar
+		}
+		35 = {
+			"梅泽堡"			# Merseburg
+		}
+		36 = {
+			"诺德施泰特"			# Norderstedt
+		}
+		37 = {
+			"费尔贝特"			# Velbert
+		}
+		38 = {
+			"哈瑙"			# Hanau
+		}
+		39 = {
+			"丁斯拉肯"			# Dinslaken
+		}
+		40 = {
+			"皮尔马森斯"			# Pirmasens
+		}
+		41 = {
+			"蒂宾根"			# Tübingen
+		}
+		42 = {
+			"阿沙芬堡"			# Aschaffenburg
+		}
+		43 = {
+			"霍夫"			# Hof
+		}
+		44 = {
+			"迪伦"			# Düren
+		}
+		45 = {
+			"默尔斯"			# Moers
+		}
+		46 = {
+			"黑尔滕"			# Herten
+		}
+		47 = {
+			"兰茨胡特"			# Landshut
+		}
+		48 = {
+			"许尔特"			# Hürth
+		}
+		49 = {
+			"特罗斯多夫"			# Troisdorf
+		}
+		50 = {
+			"艾森纳赫"			# Eisenach
+		}
+		51 = {
+			"弗赖贝格"			# Freiberg
+		}
+		52 = {
+			"翁纳"			# Unna
+		}
+		53 = {
+			"贝尔吉施·格拉德巴赫"			# Bergisch Gladbach
+		}
+		54 = {
+			"希尔登"			# Hilden
+		}
+		55 = {
+			"莱茵"			# Rheine
+		}
+		56 = {
+			"阿伦"			# Ahlen
+		}
+		57 = {
+			"里萨"			# Riesa
+		}
+		58 = {
+			"海登海姆"			# Heidenheim
+		}
+		59 = {
+			"巴德-萨尔楚夫伦"			# Bad Salzuflen
+		}
+		60 = {
+			"博霍尔特"			# Bocholt
+		}
+		61 = {
+			"明登"			# Minden
+		}
+		62 = {
+			"哥平根"			# Göppingen
+		}
+		63 = {
+			"皮尔纳"			# Pirna
+		}
+		64 = {
+			"马尔堡"			# Marburg
+		}
+		65 = {
+			"哈默尔恩"			# Hameln
+		}
+		66 = {
+			"库克斯港"			# Cuxhaven
+		}
+		67 = {
+			"格赖夫斯瓦尔德"			# Greifswald
+		}
+		68 = {
+			"梅尔布施"			# Meerbusch
+		}
+		69 = {
+			"蔡茨"			# Zeitz
+		}
+		70 = {
+			"阿尔滕堡"			# Altenburg
+		}
+		71 = {
+			"哈尔伯施塔特"			# Halberstadt
+		}
+		72 = {
+			"舍内贝克"			# Schönebeck
+		}
+		73 = {
+			"魏森费尔斯"			# Weißenfels
+		}
+		74 = {
+			"新勃兰登堡"			# Neubrandenburg
+		}
+		75 = {
+			"迈森"			# Meißen
+		}
+		76 = {
+			"艾森许滕斯塔特"			# Eisenhüttenstadt
+		}
+		77 = {
+			"贝恩堡"			# Bernburg
+		}
+		78 = {
+			"韦瑟尔"			# Wesel
+		}
+		79 = {
+			"米尔豪森"			# Mühlhausen
+		}
+		80 = {
+			"肯普滕"			# Kempten
+		}
+		81 = {
+			"古梅尔斯巴赫"			# Gummersbach
+		}
+		82 = {
+			"诺德豪森"			# Nordhausen
+		}
+		83 = {
+			"拉廷根"			# Ratingen
+		}
+		84 = {
+			"诺德霍恩"			# Nordhorn
+		}
+		85 = {
+			"施瓦本-格蒙德"			# Schwäbisch Gmünd
+		}
+		86 = {
+			"贝格卡门"			# Bergkamen
+		}
+		87 = {
+			"朗根费尔德"			# Langenfeld
+		}
+		88 = {
+			"包岑"			# Bautzen
+		}
+		89 = {
+			"腓特烈港"			# Friedrichshafen
+		}
+		90 = {
+			"克莱夫"			# Kleve
+		}
+		91 = {
+			"诺因基兴"			# Neunkirchen
+		}
+		92 = {
+			"齐陶"			# Zittau
+		}
+		93 = {
+			"科堡"			# Coburg
+		}
+		94 = {
+			"奥伊斯基兴"			# Euskirchen
+		}
+		95 = {
+			"巴德-克罗兹纳哈"			# Bad Kreuznach
+		}
+		96 = {
+			"斯派尔"			# Speyer
+		}
+		97 = {
+			"弗赖塔尔"			# Freital
+		}
+		98 = {
+			"巴特洪堡"			# Bad Homburg
+		}
+		99 = {
+			"鄂毕河"			# Kamen
+		}
+		100 = {
+			"辛德芬根"			# Sindelfingen
+		}
+		101 = {
+			"利普施塔特"			# Lippstadt
+		}
+		102 = {
+			"弗兰肯塔尔"			# Frankenthal
+		}
+		103 = {
+			"辛根"			# Singen
+		}
+		104 = {
+			"安伯格"			# Amberg
+		}
+		105 = {
+			"埃尔姆斯-霍尔恩"			# Elmshorn
+		}
+		106 = {
+			"布吕尔"			# Brühl
+		}
+		107 = {
+			"拉德博伊尔"			# Radebeul
+		}
+		108 = {
+			"沃尔芬比特尔"			# Wolfenbüttel
+		}
+		109 = {
+			"宾德"			# Bünde
+		}
+		110 = {
+			"戈斯拉尔"			# Goslar
+		}
+		111 = {
+			"肯培"			# Kempen
+		}
+		112 = {
+			"施托尔贝格"			# Stolberg
+		}
+		113 = {
+			"多斯滕"			# Dorsten
+		}
+		114 = {
+			"维尔克林根"			# Völklingen
+		}
+		115 = {
+			"格赖茨"			# Greiz
+		}
+		116 = {
+			"萨尔路易斯"			# Saarlouis
+		}
+		117 = {
+			"莱姆戈"			# Lemgo
+		}
+		118 = {
+			"考夫博伊伦"			# Kaufbeuren
+		}
+		119 = {
+			"伊达尔-奥伯施泰因"			# Idar-Oberstein
+		}
+		120 = {
+			"埃施韦勒"			# Eschweiler
+		}
+		121 = {
+			"坎普-林特福尔特"			# Kamp-Lintfort
+		}
+		122 = {
+			"莱茵河-林茨蒙海姆"			# Monheim am Rhein
+		}
+		123 = {
+			"菲林根-施文宁根"			# Villingen-Schwenningen
+		}
+		124 = {
+			"瑙姆堡"			# Naumburg
+		}
+		125 = {
+			"施特劳宾"			# Straubing
+		}
+		126 = {
+			"维利希"			# Willich
+		}
+		127 = {
+			"苏斯特"			# Soest
+		}
+		128 = {
+			"居斯特罗"			# Güstrow
+		}
+		129 = {
+			"巴登-巴登"			# Baden-Baden
+		}
+		130 = {
+			"阿舍斯累本"			# Aschersleben
+		}
+		131 = {
+			"埃内佩塔尔"			# Ennepetal
+		}
+		132 = {
+			"罗森海姆"			# Rosenheim
+		}
+		133 = {
+			"阿伦"			# Aalen
+		}
+		134 = {
+			"雷达-维登布吕克"			# Rheda-Wiedenbrück
+		}
+		135 = {
+			"韦茨拉尔"			# Wetzlar
+		}
+		136 = {
+			"兰河"			# Löhne
+		}
+		137 = {
+			"内特塔尔"			# Nettetal
+		}
+		138 = {
+			"施滕达尔"			# Stendal
+		}
+		139 = {
+			"克滕"			# Köthen
+		}
+		140 = {
+			"埃尔夫茨塔特"			# Erftstadt
+		}
+		141 = {
+			"伊策霍"			# Itzehoe
+		}
+		142 = {
+			"伯布林根"			# Böblingen
+		}
+		143 = {
+			"朗根哈根"			# Langenhagen
+		}
+		144 = {
+			"达特尔恩"			# Datteln
+		}
+		145 = {
+			"平讷贝格"			# Pinneberg
+		}
+		146 = {
+			"伊森堡"			# Neu-Isenburg
+		}
+		147 = {
+			"伦茨堡"			# Rendsburg
+		}
+		148 = {
+			"施韦特"			# Schwedt
+		}
+		149 = {
+			"施韦尔姆"			# Schwelm
+		}
+		150 = {
+			"勒拉赫"			# Lörrach
+		}
+		151 = {
+			"西格堡"			# Siegburg
+		}
+		152 = {
+			"格费尔斯贝尔格"			# Gevelsberg
+		}
+		153 = {
+			"萨尔费尔德"			# Saalfeld
+		}
+		154 = {
+			"安斯巴赫"			# Ansbach
+		}
+		155 = {
+			"奥芬堡"			# Offenburg
+		}
+		156 = {
+			"梅明根"			# Memmingen
+		}
+		157 = {
+			"达豪"			# Dachau
+		}
+		158 = {
+			"赫克斯特"			# Höxter
+		}
+		159 = {
+			"茨韦布吕肯"			# Zweibrücken
+		}
+		160 = {
+			"施塔德"			# Stade
+		}
+		161 = {
+			"韦尼格罗德"			# Wernigerode
+		}
+		162 = {
+			"洪堡"			# Homburg
+		}
+		163 = {
+			"桑格豪森"			# Sangerhausen
+		}
+		164 = {
+			"石勒苏益格"			# Schleswig
+		}
+		165 = {
+			"格劳豪"			# Glauchau
+		}
+		166 = {
+			"拉芬斯堡"			# Ravensburg
+		}
+		167 = {
+			"圣奥古斯丁"			# Sankt Augustin
+		}
+		168 = {
+			"鲁多尔施塔特"			# Rudolstadt
+		}
+		169 = {
+			"苏尔"			# Suhl
+		}
+		170 = {
+			"林根"			# Lingen
+		}
+		171 = {
+			"兰道"			# Landau
+		}
+		172 = {
+			"博恩海姆"			# Bornheim
+		}
+		173 = {
+			"波恩"			# Königswinter
+		}
+		174 = {
+			"弗雷兴"			# Frechen
+		}
+		175 = {
+			"派内"			# Peine
+		}
+		176 = {
+			"拉赫"			# Lage
+		}
+		177 = {
+			"多尔马根"			# Dormagen
+		}
+		178 = {
+			"富尔森瓦德"			# Fürstenwalde
+		}
+		179 = {
+			"阿尔斯多夫"			# Alsdorf
+		}
+		180 = {
+			"帕绍"			# Passau
+		}
+		181 = {
+			"奎德林堡"			# Quedlinburg
+		}
+		182 = {
+			"韦特尔"			# Wetter
+		}
+		183 = {
+			"梅特曼"			# Mettmann
+		}
+		184 = {
+			"艾斯莱本"			# Eisleben
+		}
+		185 = {
+			"莱尔"			# Leer
+		}
+		186 = {
+			"普莱滕贝格"			# Plettenberg
+		}
+		187 = {
+			"门登"			# Menden
+		}
+		188 = {
+			"特里"			# Burg
+		}
+		189 = {
+			"拉施塔特"			# Rastatt
+		}
+		190 = {
+			"兰根"			# Langen
+		}
+		191 = {
+			"拉特诺"			# Rathenow
+		}
+		192 = {
+			"松讷贝格"			# Sonneberg
+		}
+		193 = {
+			"韦因海姆"			# Weinheim
+		}
+		194 = {
+			"魏德尔"			# Wedel
+		}
+		195 = {
+			"弗赖辛"			# Freising
+		}
+		196 = {
+			"博尔肯"			# Borken
+		}
+		197 = {
+			"埃姆斯代滕"			# Emsdetten
+		}
+		198 = {
+			"阿波尔达"			# Apolda
+		}
+		199 = {
+			"费尔巴赫"			# Fellbach
+		}
+		200 = {
+			"卢肯瓦尔德"			# Luckenwalde
+		}
+		201 = {
+			"阿恩施塔特"			# Arnstadt
+		}
+		202 = {
+			"克罗伊茨塔尔"			# Kreuztal
+		}
+		203 = {
+			"科恩维斯海姆"			# Kornwestheim
+		}
+		204 = {
+			"乔治马林徐特"			# Georgsmarienhütte
+		}
+		205 = {
+			"海利根豪斯"			# Heiligenhaus
+		}
+		206 = {
+			"福埃尔德"			# Voerde
+		}
+		207 = {
+			"诺登哈姆"			# Nordenham
+		}
+		208 = {
+			"新乌尔姆"			# Neu-Ulm
+		}
+		209 = {
+			"德伯恩"			# Döbeln
+		}
+		210 = {
+			"新施特雷利茨"			# Neustrelitz
+		}
+		211 = {
+			"菲尔恩海姆"			# Viernheim
+		}
+		212 = {
+			"巴克南"			# Backnang
+		}
+		213 = {
+			"格雷文布罗伊希"			# Grevenbroich
+		}
+		214 = {
+			"本斯海姆"			# Bensheim
+		}
+		215 = {
+			"高驰"			# Goch
+		}
+		216 = {
+			"贝库姆"			# Beckum
+		}
+		217 = {
+			"黑尔姆施泰特"			# Helmstedt
+		}
+		218 = {
+			"盖斯林根"			# Geislingen
+		}
+		219 = {
+			"布鲁赫萨尔"			# Bruchsal
+		}
+		220 = {
+			"安德纳赫"			# Andernach
+		}
+		221 = {
+			"加米施-帕滕基兴"			# Garmisch-Patenkirchen
+		}
+		222 = {
+			"韦尔梅尔斯基尔兴"			# Wermelskirchen
+		}
+		223 = {
+			"格雷文"			# Greven
+		}
+		224 = {
+			"图特林根"			# Tuttlingen
+		}
+		225 = {
+			"施瓦巴赫"			# Schwabach
+		}
+		226 = {
+			"格罗瑙"			# Gronau
+		}
+		227 = {
+			"加布森"			# Garbsen
+		}
+		228 = {
+			"科埃斯费尔德"			# Coesfeld
+		}
+		229 = {
+			"斯塔斯堡"			# Staßfurt
+		}
+		230 = {
+			"亨内夫"			# Hennef
+		}
+		231 = {
+			"法尔肯塞"			# Falkensee
+		}
+		232 = {
+			"韦瑟灵"			# Wesseling
+		}
+		233 = {
+			"瓦尔特罗普"			# Waltrop
+		}
+		234 = {
+			"林巴-奥贝尔夫罗纳"			# Limbach-Oberfrohna
+		}
+		235 = {
+			"迈宁根"			# Meiningen
+		}
+		236 = {
+			"比伯拉赫"			# Biberach
+		}
+		237 = {
+			"阿伦斯堡"			# Ahrensburg
+		}
+		238 = {
+			"莱内斯塔特"			# Lennestadt
+		}
+		239 = {
+			"奥伯乌尔泽尔"			# Oberursel
+		}
+		240 = {
+			"林道"			# Lindau
+		}
+		241 = {
+			"胡苏姆"			# Husum
+		}
+		242 = {
+			"莱昂贝格"			# Leonberg
+		}
+		243 = {
+			"拉尔"			# Lahr
+		}
+		244 = {
+			"韦尔"			# Werl
+		}
+		245 = {
+			"于尔岑"			# Uelzen
+		}
+	}
+}
+
+GER_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		destroyer
+	}
+	fallback_name = "Z %d"
+	ordered = {
+		1 = {
+			"Z1 莱贝雷希特·马斯"			# Z1 Leberecht Maass
+		}
+		2 = {
+			"Z2 格奥尔格·蒂勒"			# Z2 Georg Thiele
+		}
+		3 = {
+			"Z3 马克斯·舒尔茨"			# Z3 Max Schultz
+		}
+		4 = {
+			"Z4 理查德·拜岑"			# Z4 Richard Beitzen
+		}
+		5 = {
+			"Z5 保罗·雅可比"			# Z5 Paul Jacobi
+		}
+		6 = {
+			"Z6 特奥多尔·里德尔"			# Z6 Theodor Riedel
+		}
+		7 = {
+			"Z7 赫尔曼·舍曼"			# Z7 Hermann Schoemann
+		}
+		8 = {
+			"Z8 布鲁诺·海涅曼"			# Z8 Bruno Heinemann
+		}
+		9 = {
+			"Z9 沃尔夫冈·岑克尔"			# Z9 Wolfgang Zenker
+		}
+		10 = {
+			"Z10 汉斯·洛迪"			# Z10 Hans Lody
+		}
+		11 = {
+			"Z11 贝恩德·冯·阿尼姆"			# Z11 Bernd von Arnim
+		}
+		12 = {
+			"Z12 埃里希·吉泽"			# Z12 Erich Giese
+		}
+		13 = {
+			"Z13 埃里希·克尔纳"			# Z13 Erich Koellner
+		}
+		14 = {
+			"Z14 弗里德里希·伊恩"			# Z14 Friedrich Ihn
+		}
+		15 = {
+			"Z15 埃里希·施泰因布林克"			# Z15 Erich Steinbrinck
+		}
+		16 = {
+			"Z16 弗里德里希·埃科尔特"			# Z16 Friedrich Eckholdt
+		}
+		17 = {
+			"Z17 迪特尔·冯·勒德尔"			# Z17 Diether von Roeder
+		}
+		18 = {
+			"Z18 汉斯·吕德曼"			# Z18 Hans Lüdemann
+		}
+		19 = {
+			"Z19 赫尔曼·库纳"			# Z19 Hermann Kühne
+		}
+		20 = {
+			"Z20 卡尔·加尔斯特"			# Z20 Karl Galster
+		}
+		21 = {
+			"Z21 威廉·海德坎姆"			# Z21 Wilhelm Heidkamp
+		}
+		22 = {
+			"Z22 安东·施密特"			# Z22 Anton Schmidt
+		}
+	}
+}
+
+GER_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		carrier
+	}
+	fallback_name = "%d号航空母舰"	# Träger %d
+	ordered = {
+		1 = {
+			"齐柏林伯爵"			# Graf Zeppelin
+		}
+		2 = {
+			"格雷戈尔·施特拉塞"			# Strasser
+		}
+		3 = {
+			"帕塞瓦尔"			# Parseval
+		}
+		4 = {
+			"莱曼"			# Lehmann
+		}
+		5 = {
+			"弗里切"			# Fritzsche
+		}
+		6 = {
+			"迪特里希"			# Dietrich
+		}
+		7 = {
+			"克劳夏"			# Kraushaar
+		}
+		8 = {
+			"马蒂"
+		}
+		9 = {
+			"弗莱明"			# Flemming
+		}
+		10 = {
+			"博克霍尔特"			# Bockholt
+		}
+		11 = {
+			"特罗伊施"			# Treusch
+		}
+		12 = {
+			"希利茨"			# Schirlitz
+		}
+		13 = {
+			"席勒"			# Schiller
+		}
+		14 = {
+			"维尔默伦"			# Vermehren
+		}
+		15 = {
+			"施丘特"			# Schütte
+		}
+		16 = {
+			"巴特奇"			# Bartsch
+		}
+		17 = {
+			"大格罗斯"			# General Groß
+		}
+		18 = {
+			"沃尔弗特"			# Wölfert
+		}
+		19 = {
+			"埃尔布斯洛"			# Erbslöh
+		}
+		20 = {
+			"海恩林"			# Haenlein
+		}
+		21 = {
+			"鲍姆加登"			# Baumgarten
+		}
+		22 = {
+			"埃克纳"			# Eckener
+		}
+	}
+}
+
+GER_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	ship_types = {
+		carrier
+	}
+	fallback_name = "%d号护航航母"	# Hilfsträger %d
+	link_numbering_with = {
+		GER_THEME_RIVERS
+	}
+	ordered = {
+		1 = {
+			"威悉河"			# Weser
+		}
+		2 = {
+			"翡翠"			# Jade
+		}
+		3 = {
+			"易北河"			# Elbe
+		}
+		4 = {
+			"莱茵河"			# Rhein
+		}
+		5 = {
+			"雷克尼茨河"			# Recknitz
+		}
+		6 = {
+			"尼斯河"			# Neiße
+		}
+		7 = {
+			"美因河"			# Main
+		}
+		8 = {
+			"特拉维河"			# Trave
+		}
+		9 = {
+			"于克河"			# Uecker
+		}
+		28 = {
+			"多瑙河"			# Donau
+		}
+		29 = {
+			"奥得河"			# Oder
+		}
+		10 = {
+			"因河"			# Inn
+		}
+		11 = {
+			"伊萨尔河"			# Isar
+		}
+		12 = {
+			"马斯河"			# Maas
+		}
+		24 = {
+			"鲁尔河"			# Ruhr
+		}
+		25 = {
+			"施普雷河"			# Spree
+		}
+		13 = {
+			"摩泽尔河"			# Mosel
+		}
+		14 = {
+			"乌帕河"			# Wupper
+		}
+		15 = {
+			"萨尔河"			# Saar
+		}
+		16 = {
+			"阿尔夫河"			# Alf
+		}
+		17 = {
+			"内卡河"			# Neckar
+		}
+		18 = {
+			"绍尔河"			# Sauer
+		}
+		19 = {
+			"瓦尔诺河"			# Warnow
+		}
+		20 = {
+			"阿勒尔河"			# Aller
+		}
+		21 = {
+			"富尔达河"			# Fulda
+		}
+		22 = {
+			"威拉河"			# Werra
+		}
+		23 = {
+			"阿尔斯特河"			# Alster
+		}
+		26 = {
+			"哈维尔河"			# Havel
+		}
+	}
+}
+
+GER_THEME_FISH = {
+	name = NAME_THEME_FISH
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+			}
+		}
+	}
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"白梭吻鲈"			# Zander
+		}
+		2 = {
+			"六须鲇"			# Wels
+		}
+		3 = {
+			"鲱鱼"			# Hering
+		}
+		4 = {
+			"鳗鱼"			# Aal
+		}
+		5 = {
+			"狗鱼"			# Hecht
+		}
+		6 = {
+			"比目鱼"			# Flunder
+		}
+		7 = {
+			"鳕鱼"			# Dorsch
+		}
+		8 = {
+			"鲨鱼"			# Hai
+		}
+		9 = {
+			"刺魟"			# Stachelrochen
+		}
+		10 = {
+			"七鳃鳗"			# Neunauge
+		}
+		11 = {
+			"鳑鲏"			# Bitterling
+		}
+		12 = {
+			"鲑鱼"			# Lachs
+		}
+		24 = {
+			"鲈鱼"			# Barsch
+		}
+		13 = {
+			"鳕鱼"			# Kabeljau
+		}
+		14 = {
+			"鳟鱼"			# Forelle
+		}
+		15 = {
+			"鲟鱼"			# Stör
+		}
+		16 = {
+			"魮鱼"			# Barbe
+		}
+		17 = {
+			"丁鲷"			# Schleie
+		}
+		18 = {
+			"沙丁鱼"			# Sardine
+		}
+		19 = {
+			"虾虎鱼"			# Grundel
+		}
+		20 = {
+			"鲭鱼"			# Makrele
+		}
+		21 = {
+			"马舌鲽"			# Heilbutt
+		}
+		22 = {
+			"鳎鱼"			# Seezunge
+		}
+		23 = {
+			"鲂鱼"			# Knurrhahn
+		}
+	}
+}
+
+GER_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+			}
+		}
+	}
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	link_numbering_with = {
+		GER_TB_HISTORICAL
+	}
+	ordered = {
+		201 = {
+			"海鸥"			# Möwe
+		}
+		202 = {
+			"信天翁"			# Albatros
+		}
+		203 = {
+			"海鹰"			# Seeadler
+		}
+		204 = {
+			"鹰狮"			# Greif
+		}
+		205 = {
+			"猎鹰"			# Falke
+		}
+		206 = {
+			"秃鹰"			# Kondor
+		}
+		207 = {
+			"苍狼"			# Wolf
+		}
+		208 = {
+			"臭鼬"			# Iltis
+		}
+		209 = {
+			"猞猁"			# Luchs
+		}
+		210 = {
+			"美洲豹"			# Jaguar
+		}
+		211 = {
+			"虎"			# Tiger
+		}
+		212 = {
+			"猎豹"			# Leopard
+		}
+		13 = {
+			"鼬鼠"			# Gepard
+		}
+		14 = {
+			"熊"			# Bär
+		}
+		15 = {
+			"黑豹"			# Panther
+		}
+		16 = {
+			"雄狮"			# Löwe
+		}
+		17 = {
+			"眼镜蛇"			# Kobra
+		}
+		18 = {
+			"蝰蛇"			# Viper
+		}
+		19 = {
+			"巨龙"			# Drache
+		}
+		20 = {
+			"黄鼠狼"			# Wiesel
+		}
+		21 = {
+			"海豚"			# Delphin
+		}
+		22 = {
+			"海象"			# Wal
+		}
+		23 = {
+			"乌鸦"			# Rabe
+		}
+		24 = {
+			"苍鹰"			# Habicht
+		}
+		25 = {
+			"野牛"			# Wisent
+		}
+		26 = {
+			"美洲狮"			# Puma
+		}
+		27 = {
+			"毒蛇"			# Natter
+		}
+		28 = {
+			"水獭"			# Otter
+		}
+		29 = {
+			"海狸"			# Biber
+		}
+		30 = {
+			"野牛"			# Bison
+		}
+		31 = {
+			"驼鹿"			# Elch
+		}
+		32 = {
+			"獾"			# Dachs
+		}
+		33 = {
+			"雄鹿"			# Hirsch
+		}
+		34 = {
+			"羱羊"			# Steinbock
+		}
+		35 = {
+			"斑马"			# Zebra
+		}
+		36 = {
+			"白貂"			# Hermelin
+		}
+		37 = {
+			"水貂"			# Nerz
+		}
+		38 = {
+			"黑貂"			# Zobel
+		}
+		39 = {
+			"豹猫"			# Ozelot
+		}
+		40 = {
+			"鬣狗"			# Hyäne
+		}
+		41 = {
+			"貂"			# Marder
+		}
+		42 = {
+			"苍鹭"			# Reiher
+		}
+		43 = {
+			"狐狸"			# Fuchs
+		}
+		44 = {
+			"鹳"			# Storch
+		}
+		45 = {
+			"灰鹤"			# Kranich
+		}
+		46 = {
+			"鸬鹚"			# Kormoran
+		}
+		47 = {
+			"雀鹰"			# Sperber
+		}
+		48 = {
+			"秃鹰"			# Bussard
+		}
+		49 = {
+			"秃鹰"			# Geier
+		}
+	}
+}
+
+GER_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+			}
+		}
+	}
+	type = ship
+	link_numbering_with = {
+		GER_CVL_HISTORICAL
+	}
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"莱茵河"
+		}
+		2 = {
+			"多瑙河"
+		}
+		3 = {
+			"奥德河"
+		}
+		4 = {
+			"安珀河"
+		}
+		5 = {
+			"布里斯河"
+		}
+		6 = {
+			"埃姆河"
+		}
+		7 = {
+			"摩泽尔河"
+		}
+		8 = {
+			"因河"
+		}
+		9 = {
+			"伊萨尔河"
+		}
+		28 = {
+			"伊勒河"
+		}
+		29 = {
+			"里珀河"
+		}
+		10 = {
+			"兰河"
+		}
+		11 = {
+			"美因河"
+		}
+		12 = {
+			"穆尔德河"
+		}
+		24 = {
+			"内卡河"
+		}
+		25 = {
+			"尼斯河"
+		}
+		13 = {
+			"乌沃河"
+		}
+		14 = {
+			"奥合热河"
+		}
+		15 = {
+			"佩克尼茨河"
+		}
+		16 = {
+			"鲁尔河"
+		}
+		17 = {
+			"富达河"
+		}
+		18 = {
+			"雷根河"
+		}
+		19 = {
+			"雷德尼茨河"
+		}
+		20 = {
+			"萨勒河"
+		}
+		21 = {
+			"绍尔河"
+		}
+		22 = {
+			"莱纳河"
+		}
+		23 = {
+			"威悉河"
+		}
+		26 = {
+			"温斯特鲁特河"
+		}
+	}
+}
+
+GER_THEME_GERMANIC = {
+	name = NAME_THEME_GERMANIC_MYTHOLOGY
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"奥丁"
+		}
+		2 = {
+			"弗丽嘉"
+		}
+		3 = {
+			"索尔"
+		}
+		4 = {
+			"西芙"
+		}
+		5 = {
+			"弗雷"
+		}
+		6 = {
+			"洛基"
+		}
+		7 = {
+			"提尔"
+		}
+		8 = {
+			"弗蕾亚"
+		}
+		9 = {
+			"海姆达尔"
+		}
+		28 = {
+			"巴尔德尔"
+		}
+		29 = {
+			"霍尔德尔"
+		}
+		10 = {
+			"布吉拉"
+		}
+		11 = {
+			"格欧费茵"
+		}
+		12 = {
+			"瓦利"
+		}
+		24 = {
+			"伊米尔"
+		}
+		25 = {
+			"蒂阿兹"
+		}
+		13 = {
+			"斯卡娣"
+		}
+		14 = {
+			"奥尔布达"
+		}
+		15 = {
+			"贡露"
+		}
+		16 = {
+			"芬里尔"
+		}
+		17 = {
+			"海拉"
+		}
+		18 = {
+			"莱普尼斯"
+		}
+		19 = {
+			"库力奇"
+		}
+		20 = {
+			"基利"
+		}
+		21 = {
+			"雾尼"
+		}
+		22 = {
+			"福金"
+		}
+		23 = {
+			"尼德霍格"
+		}
+		26 = {
+			"耶梦加得"
+		}
+	}
+}
+
+GER_THEME_BATTLE = {
+	name = NAME_THEME_BATTLES
+	for_countries = {
+		GER
+	}
+	can_use = {
+		NOT = {
+			OR = {
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"斯卡格拉克海峡"
+		}
+		2 = {
+			"条顿堡瓦尔德"
+		}
+		3 = {
+			"弗兰兑伦"
+		}
+		4 = {
+			"凡尔登"
+		}
+		5 = {
+			"克尼格洛茨"
+		}
+		6 = {
+			"勒当"
+		}
+		7 = {
+			"伊普尔"
+		}
+		8 = {
+			"索尔"
+		}
+		17 = {
+			"坦南伯格"
+		}
+		9 = {
+			"凯撒斯多夫"
+		}
+		28 = {
+			"皮尔马森斯"
+		}
+		29 = {
+			"格罗比伦"
+		}
+		10 = {
+			"拉罗蒂埃"
+		}
+		11 = {
+			"库尔姆"
+		}
+		12 = {
+			"罗兹"
+		}
+		24 = {
+			"那慕尔"
+		}
+		25 = {
+			"特劳滕诺"
+		}
+		13 = {
+			"赫尔戈兰"
+		}
+		14 = {
+			"阿登"
+		}
+		15 = {
+			"马恩河"
+		}
+		16 = {
+			"坦能堡"
+		}
+	}
+}
+
+GER_BB_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BB
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = {
+		battleship
+		battle_cruiser
+	}
+	fallback_name = "%d号战列舰"	# Schlachtschiff %d
+	ordered = {
+		1 = {
+			"沙恩霍斯特"
+		}
+		2 = {
+			"格奈泽瑙"
+		}
+		3 = {
+			"俾斯麦"
+		}
+		4 = {
+			"提尔皮茨"
+		}
+		5 = {
+			"兴登堡"
+		}
+		6 = {
+			"鲁登道夫"
+		}
+		7 = {
+			"腓特烈大帝"
+		}
+		8 = {
+			"大选帝侯"
+		}
+		9 = {
+			"拿骚"
+		}
+		10 = {
+			"凯撒"
+		}
+		11 = {
+			"国王"
+		}
+		12 = {
+			"巴伐利亚"
+		}
+		13 = {
+			"阿尔伯特国王"
+		}
+		14 = {
+			"埃特尔·弗雷德里希王子"
+		}
+		15 = {
+			"奥丁"
+		}
+		16 = {
+			"洛林"
+		}
+		17 = {
+			"汉诺威"
+		}
+		18 = {
+			"波美拉尼亚"
+		}
+		19 = {
+			"勃兰登堡"
+		}
+		20 = {
+			"威斯特法伦"
+		}
+		21 = {
+			"莱茵河"
+		}
+		22 = {
+			"威森堡"
+		}
+		23 = {
+			"沃尔滕贝格"
+		}
+		24 = {
+			"不伦瑞克"
+		}
+		25 = {
+			"拜恩"
+		}
+		26 = {
+			"萨克森"
+		}
+		27 = {
+			"巴登"
+		}
+		28 = {
+			"伍尔斯"
+		}
+		29 = {
+			"奥斯特弗里斯兰"
+		}
+		30 = {
+			"奥尔登堡"
+		}
+		31 = {
+			"波森"
+		}
+		32 = {
+			"普罗伊森"
+		}
+		33 = {
+			"赫尔戈兰"
+		}
+		34 = {
+			"皮拉乌"
+		}
+		35 = {
+			"士瓦本"
+		}
+		36 = {
+			"维特尔斯巴赫"
+		}
+		37 = {
+			"奥斯特马克"
+		}
+		38 = {
+			"石勒苏益格"
+		}
+		39 = {
+			"荷尔斯泰因"
+		}
+		40 = {
+			"斯特雷利茨"
+		}
+		41 = {
+			"沃特兰特"
+		}
+		42 = {
+			"荷尔斯泰因"
+		}
+		43 = {
+			"弗兰肯"
+		}
+		44 = {
+			"施特雷利茨"
+		}
+		45 = {
+			"沃特兰特"
+		}
+		49 = {
+			"路易特波德摄政王"
+		}
+	}
+}
+
+GER_BC_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BC
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = {
+		battleship
+		battle_cruiser
+	}
+	fallback_name = "%d号战列巡洋舰"	# Schlachtkreuzer %d
+	ordered = {
+		1 = {
+			"冯·德·坦恩"
+		}
+		2 = {
+			"莫尔特克"
+		}
+		3 = {
+			"戈本"
+		}
+		4 = {
+			"德弗林格尔"
+		}
+		5 = {
+			"霍尔森多夫"
+		}
+		6 = {
+			"约克"
+		}
+		7 = {
+			"冯·麦肯森"
+		}
+		8 = {
+			"托维尔贝克"
+		}
+		9 = {
+			"腓特烈一世"
+		}
+		10 = {
+			"查尔斯大帝"
+		}
+		11 = {
+			"弗里德里希王子"
+		}
+		12 = {
+			"维多利亚·路易丝"
+		}
+		13 = {
+			"亨利王子"
+		}
+	}
+}
+
+GER_CA_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CA
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = {
+		heavy_cruiser
+		light_cruiser
+	}
+	fallback_name = "%d号重巡洋舰"	# Schwerer Kreuzer %d
+	ordered = {
+		1 = {
+			"斯佩伯爵海军上将号"
+		}
+		2 = {
+			"希佩尔海军上将"
+		}
+		3 = {
+			"布吕彻"
+		}
+		4 = {
+			"欧根亲王"
+		}
+		5 = {
+			"赛德利茨"
+		}
+		6 = {
+			"吕佐"
+		}
+		7 = {
+			"鲁恩"
+		}
+		8 = {
+			"德意志"
+		}
+		9 = {
+			"赫尔塔"
+		}
+		10 = {
+			"弗雷亚"
+		}
+		11 = {
+			"维奈塔"
+		}
+		12 = {
+			"西格弗里德"
+		}
+		13 = {
+			"汉莎"
+		}
+		14 = {
+			"弗里德里希·卡尔"
+		}
+		15 = {
+			"布登布罗克"
+		}
+		16 = {
+			"比滕费尔德"
+		}
+		17 = {
+			"施瓦岑贝格"
+		}
+		18 = {
+			"艾希霍恩"
+		}
+		19 = {
+			"弗莱明"
+		}
+		20 = {
+			"兴登堡"
+		}
+		21 = {
+			"沃伊尔施"
+		}
+		22 = {
+			"曼斯菲尔德"
+		}
+		23 = {
+			"美因茨"
+		}
+		24 = {
+			"卡尔克鲁斯"
+		}
+		25 = {
+			"克莱斯特"
+		}
+		26 = {
+			"弗兰格尔"
+		}
+		27 = {
+			"多恩"
+		}
+		28 = {
+			"海德"
+		}
+		29 = {
+			"波美拉尼亚"
+		}
+	}
+}
+
+GER_THEME_ANIMALS_IMPERIAL = {
+	name = NAME_THEME_ANIMALS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"貉"
+		}
+		2 = {
+			"信天翁"
+		}
+		3 = {
+			"旱獭"
+		}
+		4 = {
+			"赤狐"
+		}
+		5 = {
+			"隼"
+		}
+		6 = {
+			"秃鹰"
+		}
+		7 = {
+			"狼"
+		}
+		8 = {
+			"赤鸢"
+		}
+		9 = {
+			"猎豹"
+		}
+		10 = {
+			"黑豹"
+		}
+		11 = {
+			"老虎"
+		}
+		12 = {
+			"狮子"
+		}
+		13 = {
+			"猞猁"
+		}
+		14 = {
+			"熊"
+		}
+		15 = {
+			"美洲豹"
+		}
+		16 = {
+			"豹"
+		}
+		17 = {
+			"眼镜蛇"
+		}
+		18 = {
+			"蝰蛇"
+		}
+		19 = {
+			"龙"
+		}
+		20 = {
+			"松貂"
+		}
+		21 = {
+			"鸡鼬"
+		}
+		22 = {
+			"鲸"
+		}
+		23 = {
+			"羱羊"
+		}
+		24 = {
+			"马鹿"
+		}
+		25 = {
+			"领航鲸"
+		}
+		26 = {
+			"美洲虎"
+		}
+		27 = {
+			"水獺"
+		}
+		28 = {
+			"壁蜥"
+		}
+		29 = {
+			"野牛"
+		}
+		30 = {
+			"麋鹿"
+		}
+		31 = {
+			"斑猫"
+		}
+		32 = {
+			"白鼬"
+		}
+		33 = {
+			"鹿"
+		}
+		34 = {
+			"北山羊"
+		}
+		35 = {
+			"斑马"
+		}
+		36 = {
+			"白貂"
+		}
+		37 = {
+			"水貂"
+		}
+		38 = {
+			"黑貂"
+		}
+		39 = {
+			"狸猫"
+		}
+		40 = {
+			"鬣狗"
+		}
+		41 = {
+			"黄鼠狼"
+		}
+		42 = {
+			"白鹭"
+		}
+		43 = {
+			"狐狸"
+		}
+		44 = {
+			"鹳"
+		}
+		45 = {
+			"灰鹤"
+		}
+		46 = {
+			"鸬鹚"
+		}
+		47 = {
+			"雀鹰"
+		}
+		48 = {
+			"秃鹰"
+		}
+		49 = {
+			"秃鹫"
+		}
+	}
+}
+
+GER_DD_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_DD
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = {
+		destroyer
+	}
+	fallback_name = "T %d"
+	unique = {
+		"G 200"
+		"G 201"
+		"G 202"
+		"G 203"
+		"G 204"
+		"G 205"
+		"G 206"
+		"S 207"
+		"G 208"
+		"V 209"
+		"S 210"
+		"G 211"
+		"G 212"
+		"G 213"
+		"V 214"
+		"V 215"
+		"V 216"
+		"V 217"
+		"V 218"
+		"V 219"
+		"G 220"
+		"S 221"
+		"S 222"
+		"S 223"
+		"S 224"
+		"T 225"
+		"T 226"
+		"T 227"
+		"T 228"
+		"T 229"
+		"B 230"
+		"S 231"
+		"S 232"
+		"S 233"
+		"S 234"
+		"S 235"
+		"S 236"
+		"V 237"
+		"V 238"
+		"V 239"
+		"T 240"
+		"S 241"
+		"S 242"
+		"B 243"
+		"B 244"
+		"B 245"
+		"S 246"
+		"V 247"
+		"V 248"
+		"V 249"
+		"G 250"
+		"G 251"
+		"G 252"
+		"G 253"
+		"G 254"
+		"B 255"
+		"S 256"
+		"B 257"
+		"B 258"
+		"B 259"
+		"T 260"
+		"S 261"
+		"S 262"
+		"B 263"
+		"B 264"
+		"B 265"
+		"S 266"
+		"G 267"
+		"G 268"
+		"G 269"
+		"T 270"
+		"S 271"
+		"V 272"
+		"V 273"
+		"V 274"
+		"B 275"
+		"S 276"
+		"S 277"
+		"S 278"
+		"S 279"
+		"V 280"
+		"V 281"
+		"V 282"
+		"V 283"
+		"V 284"
+		"V 285"
+		"B 286"
+		"B 287"
+		"B 288"
+		"B 289"
+		"G 290"
+		"G 291"
+		"G 292"
+		"G 293"
+		"G 294"
+		"T 295"
+		"T 296"
+		"T 297"
+		"T 298"
+		"T 299"
+	}
+}
+
+GER_CV_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CARRIERS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	type = ship
+	ship_types = {
+		carrier
+	}
+	prefix = "SMS "
+	fallback_name = "%d号航空母舰"	# Träger %d
+	ordered = {
+		1 = {
+			"齐柏林伯爵"
+		}
+		2 = {
+			"彼得斯特拉瑟"
+		}
+		3 = {
+			"塞德利茨"
+		}
+		4 = {
+			"欧罗巴"
+		}
+		5 = {
+			"波茨坦"
+		}
+		6 = {
+			"奥托·李林塔尔"
+		}
+		7 = {
+			"曙神星"
+		}
+		10 = {
+			"冯·里希特霍芬"
+		}
+		11 = {
+			"奥古斯特·帕塞瓦尔"
+		}
+	}
+}
+
+GER_THEME_GERMANIC_IMPERIAL = {
+	name = NAME_THEME_GERMANIC_MYTHOLOGY
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	type = ship
+	prefix = "SMS "
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"奥丁"
+		}
+		2 = {
+			"弗丽嘉"
+		}
+		3 = {
+			"索尔"
+		}
+		4 = {
+			"西芙"
+		}
+		5 = {
+			"弗雷"
+		}
+		6 = {
+			"洛基"
+		}
+		7 = {
+			"提尔"
+		}
+		8 = {
+			"弗蕾亚"
+		}
+		9 = {
+			"海姆达尔"
+		}
+		28 = {
+			"巴尔德尔"
+		}
+		29 = {
+			"霍尔德尔"
+		}
+		10 = {
+			"布吉拉"
+		}
+		11 = {
+			"格欧费茵"
+		}
+		12 = {
+			"瓦利"
+		}
+		24 = {
+			"伊米尔"
+		}
+		25 = {
+			"蒂阿兹"
+		}
+		13 = {
+			"斯卡娣"
+		}
+		14 = {
+			"奥尔布达"
+		}
+		15 = {
+			"贡露"
+		}
+		16 = {
+			"芬里尔"
+		}
+		17 = {
+			"海拉"
+		}
+		18 = {
+			"莱普尼斯"
+		}
+		19 = {
+			"库力奇"
+		}
+		20 = {
+			"基利"
+		}
+		21 = {
+			"雾尼"
+		}
+		22 = {
+			"福金"
+		}
+		23 = {
+			"尼德霍格"
+		}
+		26 = {
+			"耶梦加得"
+		}
+	}
+}
+
+GER_THEME_BATTLE_IMPERIAL = {
+	name = NAME_THEME_BATTLES
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	type = ship
+	prefix = "SMS "
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"斯卡格拉克海峡"
+		}
+		2 = {
+			"条顿堡瓦尔德"
+		}
+		3 = {
+			"弗兰兑伦"
+		}
+		4 = {
+			"凡尔登"
+		}
+		5 = {
+			"克尼格洛茨"
+		}
+		6 = {
+			"勒当"
+		}
+		7 = {
+			"伊普尔"
+		}
+		8 = {
+			"索尔"
+		}
+		17 = {
+			"坦南伯格"
+		}
+		9 = {
+			"凯撒斯多夫"
+		}
+		28 = {
+			"皮尔马森斯"
+		}
+		29 = {
+			"格罗比伦"
+		}
+		10 = {
+			"拉罗蒂埃"
+		}
+		11 = {
+			"库尔姆"
+		}
+		12 = {
+			"罗兹"
+		}
+		24 = {
+			"那慕尔"
+		}
+		25 = {
+			"特劳滕诺"
+		}
+		13 = {
+			"赫尔戈兰"
+		}
+		14 = {
+			"阿登"
+		}
+		15 = {
+			"马恩河"
+		}
+		16 = {
+			"坦能堡"
+		}
+	}
+}
+
+GER_THEME_FISH_IMPERIAL = {
+	name = NAME_THEME_FISH
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	type = ship
+	prefix = "SMS "
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"金头鲷"
+		}
+		2 = {
+			"鲱鱼"
+		}
+		3 = {
+			"大西洋鳕"
+		}
+		4 = {
+			"虹鳟鱼"
+		}
+		5 = {
+			"岩鱼"
+		}
+		6 = {
+			"平鱼"
+		}
+		7 = {
+			"鳕鱼"
+		}
+		8 = {
+			"鲽鱼"
+		}
+		9 = {
+			"石首鱼"
+		}
+		10 = {
+			"绿青鳕"
+		}
+		11 = {
+			"安康鱼"
+		}
+		12 = {
+			"鳎鱼"
+		}
+		24 = {
+			"狼鱼"
+		}
+		13 = {
+			"鳟鱼"
+		}
+		14 = {
+			"狼鲈"
+		}
+		15 = {
+			"沙丁鱼"
+		}
+		16 = {
+			"鲭鱼"
+		}
+		17 = {
+			"梭鲈"
+		}
+		18 = {
+			"沙丁鱼"
+		}
+		19 = {
+			"虾虎鱼"
+		}
+		20 = {
+			"鲭鱼"
+		}
+		21 = {
+			"马舌鲽"
+		}
+		22 = {
+			"鳎鱼"
+		}
+		23 = {
+			"鲂鱼"
+		}
+	}
+}
+
+GER_SS_IMPERIAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	type = ship
+	ship_types = {
+		submarine
+	}
+	prefix = "SM "
+	fallback_name = "U-%d"
+	ordered = {
+		1 = {
+			"U-%d"
+		}
+		2 = {
+			"U-%d"
+		}
+		3 = {
+			"U-%d"
+		}
+		4 = {
+			"U-%d"
+		}
+		5 = {
+			"U-%d"
+		}
+		6 = {
+			"U-%d"
+		}
+		7 = {
+			"U-%d"
+		}
+		8 = {
+			"U-%d"
+		}
+		9 = {
+			"U-%d"
+		}
+		10 = {
+			"U-%d"
+		}
+		11 = {
+			"U-%d"
+		}
+		12 = {
+			"U-%d"
+		}
+		13 = {
+			"U-%d"
+		}
+		14 = {
+			"U-%d"
+		}
+		15 = {
+			"U-%d"
+		}
+		16 = {
+			"U-%d"
+		}
+		17 = {
+			"U-%d"
+		}
+		18 = {
+			"U-%d"
+		}
+		19 = {
+			"U-%d"
+		}
+		20 = {
+			"U-%d"
+		}
+		21 = {
+			"U-%d"
+		}
+		22 = {
+			"U-%d"
+		}
+		23 = {
+			"U-%d"
+		}
+		24 = {
+			"U-%d"
+		}
+		25 = {
+			"U-%d"
+		}
+		26 = {
+			"U-%d"
+		}
+	}
+}
+
+GER_THEME_RIVERS_IMPERIAL = {
+	name = NAME_THEME_RIVERS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	type = ship
+	prefix = "SMS "
+	ordered = {
+		1 = {
+			"莱茵河"
+		}
+		2 = {
+			"多瑙河"
+		}
+		3 = {
+			"奥德河"
+		}
+		4 = {
+			"安珀河"
+		}
+		5 = {
+			"布里斯河"
+		}
+		6 = {
+			"埃姆河"
+		}
+		7 = {
+			"摩泽尔河"
+		}
+		8 = {
+			"因河"
+		}
+		9 = {
+			"伊萨尔河"
+		}
+		28 = {
+			"伊勒河"
+		}
+		29 = {
+			"里珀河"
+		}
+		10 = {
+			"兰河"
+		}
+		11 = {
+			"美因河"
+		}
+		12 = {
+			"穆尔德河"
+		}
+		24 = {
+			"内卡河"
+		}
+		25 = {
+			"尼斯河"
+		}
+		13 = {
+			"乌沃河"
+		}
+		14 = {
+			"奥合热河"
+		}
+		15 = {
+			"佩克尼茨河"
+		}
+		16 = {
+			"鲁尔河"
+		}
+		17 = {
+			"富达河"
+		}
+		18 = {
+			"雷根河"
+		}
+		19 = {
+			"雷德尼茨河"
+		}
+		20 = {
+			"萨勒河"
+		}
+		21 = {
+			"绍尔河"
+		}
+		22 = {
+			"莱纳河"
+		}
+		23 = {
+			"威悉河"
+		}
+		26 = {
+			"温斯特鲁特河"
+		}
+	}
+}
+
+GER_CL_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CL
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = {
+		light_cruiser
+	}
+	fallback_name = "%d号轻型巡洋舰"	# Leichter Kreuzer %d
+	ordered = {
+		7 = {
+			"慕尼黑"			# München
+		}
+		8 = {
+			"柏林"			# Berlin
+		}
+		9 = {
+			"汉堡"			# Hamburg
+		}
+		10 = {
+			"斯图加特"			# Stuttgart
+		}
+		11 = {
+			"不莱梅"			# Bremen
+		}
+		12 = {
+			"吕贝克"			# Lübeck
+		}
+		13 = {
+			"但泽"			# Danzig
+		}
+		14 = {
+			"斯德丁"			# Stettin
+		}
+		15 = {
+			"德累斯顿"			# Dresden
+		}
+		16 = {
+			"美因茨"			# Mainz
+		}
+		17 = {
+			"奥格斯堡"			# Augsburg
+		}
+		18 = {
+			"马格德堡"			# Magdeburg
+		}
+		19 = {
+			"布雷斯劳"			# Breslau
+		}
+		20 = {
+			"汉诺威"			# Hannover
+		}
+		21 = {
+			"施特拉尔松德"			# Stralsund
+		}
+		22 = {
+			"法兰克福"			# Frankfurt
+		}
+		23 = {
+			"罗斯托克"			# Rostock
+		}
+		102 = {
+			"美杜莎"			# Medusa
+		}
+		103 = {
+			"尼俄伯"			# Niobe
+		}
+		104 = {
+			"宁芙"			# Nymphe
+		}
+		105 = {
+			"布鲁默"			# Brummer
+		}
+		106 = {
+			"牛虻"			# Bremse
+		}
+		107 = {
+			"羚羊"			# Gazelle
+		}
+		108 = {
+			"忒提斯"			# Thetis
+		}
+		109 = {
+			"阿里亚德涅"			# Ariadne
+		}
+		110 = {
+			"亚马逊"			# Amazone
+		}
+		111 = {
+			"弗劳恩洛布"			# Frauenlob
+		}
+		112 = {
+			"阿尔科纳"			# Arcona
+		}
+		113 = {
+			"温蒂妮"			# Undine
+		}
+		114 = {
+			"赫拉"			# Hela
+		}
+		115 = {
+			"吉菲昂"			# Gefion
+		}
+		24 = {
+			"埃尔宾"			# Elbing
+		}
+		25 = {
+			"斯特拉斯堡"			# Straßburg
+		}
+		26 = {
+			"雷根斯堡"			# Regensburg
+		}
+		27 = {
+			"威斯巴登"			# Wiesbaden
+		}
+		28 = {
+			"亚琛"			# Aachen
+		}
+		29 = {
+			"波茨坦"			# Potsdam
+		}
+		30 = {
+			"海德堡"			# Heidelberg
+		}
+		31 = {
+			"基尔"			# Kiel
+		}
+		32 = {
+			"维尔茨堡"			# Würzburg
+		}
+		33 = {
+			"明斯特"			# Münster
+		}
+		34 = {
+			"达姆施塔特"			# Darmstadt
+		}
+		35 = {
+			"开姆尼茨"			# Chemnitz
+		}
+		36 = {
+			"布伦瑞克"			# Braunschweig
+		}
+		37 = {
+			"卡塞尔"			# Kassel
+		}
+		38 = {
+			"奥尔登堡"			# Oldenburg
+		}
+		39 = {
+			"杜塞尔多夫"			# Düsseldorf
+		}
+		40 = {
+			"哈雷"			# Halle
+		}
+		41 = {
+			"维也纳"			# Wien
+		}
+		42 = {
+			"多特蒙德"			# Dortmund
+		}
+		43 = {
+			"弗莱堡"			# Freiburg
+		}
+		44 = {
+			"杜伊斯堡"			# Duisburg
+		}
+		45 = {
+			"曼海姆"			# Mannheim
+		}
+		46 = {
+			"埃尔福特"			# Erfurt
+		}
+		47 = {
+			"奥斯纳布吕克"			# Osnabrück
+		}
+		48 = {
+			"埃森"			# Essen
+		}
+		49 = {
+			"沃尔夫斯堡"			# Wolfsburg
+		}
+		50 = {
+			"伍珀塔尔"			# Wuppertal
+		}
+		51 = {
+			"布拉格"			# Prag
+		}
+		52 = {
+			"因斯布鲁克"			# Innsbruck
+		}
+		53 = {
+			"萨尔布吕肯"			# Saarbrücken
+		}
+		54 = {
+			"波森"			# Posen
+		}
+		55 = {
+			"米尔豪森"			# Mülhausen
+		}
+		56 = {
+			"帕德博恩"			# Paderborn
+		}
+		57 = {
+			"布吕恩"			# Brünn
+		}
+		58 = {
+			"英戈尔施塔特"			# Ingolstadt
+		}
+		59 = {
+			"比勒费尔德"			# Bielefeld
+		}
+		60 = {
+			"萨尔茨堡"			# Salzburg
+		}
+		61 = {
+			"比尔森"			# Pilsen
+		}
+		62 = {
+			"米尔海姆"			# Mülheim
+		}
+		63 = {
+			"海尔布隆"			# Heilbronn
+		}
+		64 = {
+			"波恩"			# Bonn
+		}
+		65 = {
+			"格拉茨"			# Graz
+		}
+		116 = {
+			"弗伦斯堡"			# Flensburg
+		}
+		66 = {
+			"奥伯豪森"			# Oberhausen
+		}
+		67 = {
+			"路德维希港"			# Ludwigshafen
+		}
+		68 = {
+			"波鸿"			# Bochum
+		}
+		69 = {
+			"索林根"			# Solingen
+		}
+		70 = {
+			"林茨"			# Linz
+		}
+		71 = {
+			"门兴格拉德巴赫"			# Mönchengladbach
+		}
+		72 = {
+			"菲尔特"			# Fürth
+		}
+		73 = {
+			"特里尔"			# Trier
+		}
+		74 = {
+			"哈根"			# Hagen
+		}
+		75 = {
+			"克雷菲尔德"			# Krefeld
+		}
+		76 = {
+			"乌尔姆"			# Ulm
+		}
+		77 = {
+			"哥廷根"			# Göttingen
+		}
+		78 = {
+			"盖尔森基兴"			# Gelsenkirchen
+		}
+		79 = {
+			"雷克林豪森"			# Recklinghausen
+		}
+		80 = {
+			"普福尔茨海姆"			# Pforzheim
+		}
+		81 = {
+			"哈姆"			# Hamm
+		}
+		82 = {
+			"博特罗普"			# Bottrop
+		}
+		83 = {
+			"不来梅哈芬"			# Bremerhaven
+		}
+		84 = {
+			"罗伊特林根"			# Reutlingen
+		}
+		85 = {
+			"耶拿"			# Jena
+		}
+		86 = {
+			"科布伦茨"			# Koblenz
+		}
+		87 = {
+			"莱沃库森"			# Leverkusen
+		}
+		88 = {
+			"诺伊斯"			# Neuss
+		}
+		89 = {
+			"奥芬巴赫"			# Offenbach
+		}
+		90 = {
+			"黑尔讷"			# Herne
+		}
+		91 = {
+			"雷姆沙伊德"			# Remscheid
+		}
+		92 = {
+			"凯撒斯劳滕"			# Kaiserslautern
+		}
+		93 = {
+			"萨尔茨吉特"			# Salzgitter
+		}
+		94 = {
+			"什未林"			# Schwerin
+		}
+		95 = {
+			"科特布斯"			# Cottbus
+		}
+		96 = {
+			"威廉港"			# Wilhelmshaven
+		}
+		97 = {
+			"埃朗根"			# Erlangen
+		}
+		98 = {
+			"席根"			# Siegen
+		}
+		99 = {
+			"希尔德斯海姆"			# Hildesheim
+		}
+		101 = {
+			"茨维考"			# Zwickau
+		}
+		1 = {
+			"埃姆登"			# Emden
+		}
+		2 = {
+			"柯尼斯堡"			# Königsberg
+		}
+		3 = {
+			"卡尔斯鲁厄"			# Karlsruhe
+		}
+		4 = {
+			"科隆"			# Köln
+		}
+		5 = {
+			"莱比锡"			# Leipzig
+		}
+		6 = {
+			"纽伦堡"			# Nürnberg
+		}
+	}
+}
+
+GER_MR_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MR
+	for_countries = {
+		GER
+	}
+	can_use = {
+		has_completed_focus = GER_cruiser_warfare
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		light_cruiser
+	}
+	unique = {
+		"俄里翁"		# Orion
+		"亚特兰蒂斯"		# Atlantis
+		"白羊座"		# Widder
+		"托尔"		# Thor
+		"企鹅"		# Pinguin
+		"金牛座"		# Stier
+		"彗星"		# Komet
+		"鸬鹚"		# Kormoran
+		"米歇尔"		# Michel
+		"利罗内尔"		# Coronel
+		"汉萨"		# Hansa
+	}
+	fallback_name = "%d号辅助巡洋舰"	# Hilfskreuzer %d
+}
+
+GER_PEOPLE_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_PEOPLE
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_government = communism
+			has_completed_focus = GER_start_the_proletarian_revolution
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"阿特尔特"			# Artelt
+		}
+		2 = {
+			"波普"			# Popp
+		}
+		3 = {
+			"水兵"			# Matrosen
+		}
+		4 = {
+			"豪斯曼"			# Haußmann
+		}
+		5 = {
+			"诺斯克"			# Noske
+		}
+		6 = {
+			"巴斯"			# Barth
+		}
+		7 = {
+			"埃伯特"			# Ebert
+		}
+		8 = {
+			"李卜克内西"			# Liebknecht
+		}
+		9 = {
+			"谢德曼"			# Scheidemann
+		}
+		46 = {
+			"莱德布尔"			# Ledebour
+		}
+		10 = {
+			"劳芬贝格"			# Laufenberg
+		}
+		47 = {
+			"阿德隆"			# Adelung
+		}
+		11 = {
+			"蔡特金"			# Zetkin
+		}
+		48 = {
+			"罗莎·卢森堡"			# Rosa Luxemburg
+		}
+		12 = {
+			"列维"			# Levi
+		}
+		13 = {
+			"约吉谢斯"			# Jogiches
+		}
+		14 = {
+			"邓克尔"			# Duncker
+		}
+		15 = {
+			"埃伯莱因"			# Eberlein
+		}
+		16 = {
+			"拉狄克"			# Radek
+		}
+		17 = {
+			"奥斯兰德"			# Ausländer
+		}
+		18 = {
+			"霍林勒"			# Hoernle
+		}
+		19 = {
+			"瓦尔歇"			# Walcher
+		}
+		20 = {
+			"韦斯特迈耶"			# Westmeyer
+		}
+		21 = {
+			"吕尔"			# Rühle
+		}
+		22 = {
+			"梅林"			# Mehring
+		}
+		23 = {
+			"迈耶"			# Meyer
+		}
+		24 = {
+			"皮克"			# Pieck
+		}
+		25 = {
+			"阿伦策"			# Arendsee
+		}
+		26 = {
+			"塔尔海默"			# Thalheimer
+		}
+		27 = {
+			"布兰德勒"			# Brandler
+		}
+		28 = {
+			"马尔赫莱夫斯基"			# Marchlewski
+		}
+		29 = {
+			"哈瑟"			# Haase
+		}
+		30 = {
+			"考茨基"			# Kautsky
+		}
+		31 = {
+			"伯恩斯坦"			# Bernstein
+		}
+		32 = {
+			"海科特"			# Heckert
+		}
+		33 = {
+			"格罗兹"			# Grosz
+		}
+		34 = {
+			"弗洛利希"			# Frölich
+		}
+		35 = {
+			"乌布利希"			# Ulbricht
+		}
+		36 = {
+			"台尔曼"			# Thälmann
+		}
+		37 = {
+			"格罗提渥"			# Grotewohl
+		}
+		38 = {
+			"蔡塞尔"			# Zaisser
+		}
+		39 = {
+			"巴斯特林"			# Bästlein
+		}
+		40 = {
+			"菲舍尔"			# Fischer
+		}
+		41 = {
+			"沙赫里瓦尔"			# Schehr
+		}
+		42 = {
+			"魏納特"			# Weinert
+		}
+		43 = {
+			"马克思"			# Marx
+		}
+		44 = {
+			"恩格斯"			# Engels
+		}
+		45 = {
+			"泽韦林"			# Severing
+		}
+		49 = {
+			"哈塞尔曼"			# Hasselmann
+		}
+		50 = {
+			"马尔希维查"			# Marchwitza
+		}
+		51 = {
+			"齐茨"			# Zietz
+		}
+		52 = {
+			"迪特曼"			# Dittmann
+		}
+		53 = {
+			"雷梅勒"			# Remmele
+		}
+		54 = {
+			"舒伯特"			# Schubert
+		}
+		55 = {
+			"诺伊曼"			# Buber-Neumann
+		}
+		56 = {
+			"柯尔施"			# Korsch
+		}
+		57 = {
+			"施瓦茨"			# Schwarz
+		}
+		58 = {
+			"索博特卡"			# Sobottka
+		}
+	}
+}
+
+GER_THEME_COMMUNIST_SLOGANS = {
+	name = NAME_THEME_COMMUNIST_SLOGANS
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_government = communism
+			has_completed_focus = GER_start_the_proletarian_revolution
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"红旗"			# Die Rote Fahne
+		}
+		2 = {
+			"国际歌"			# Die Internationale
+		}
+		3 = {
+			"无产阶级"			# Proletarier aller Länder
+		}
+		4 = {
+			"自由报"			# Die Freiheit
+		}
+		5 = {
+			"我们的时代"			# Unsere Zeit
+		}
+		6 = {
+			"前进"			# Vorwärts
+		}
+		7 = {
+			"和平社会主义"			# Frieden und Sozialismus
+		}
+		8 = {
+			"和平团结"			# Frieden und Einheit
+		}
+		9 = {
+			"光明未来"			# Die Strahlende Zukunft der Menschheit
+		}
+		10 = {
+			"红十月"			# Roter Oktober
+		}
+		11 = {
+			"新德意志"			# Neues Deutschland
+		}
+		12 = {
+			"反法西斯主义"			# Gegen den Faschismus
+		}
+		13 = {
+			"反资产阶级"			# Gegen die Bourgeoisie
+		}
+		14 = {
+			"斯巴达克斯万岁"			# Lang Lebe Spartakus
+		}
+		15 = {
+			"正义人民"			# Das Volk Hat Immer Recht
+		}
+		16 = {
+			"反帝国主义"			# Gegen den Imperialismus
+		}
+		17 = {
+			"永久革命"			# Die Permanente Revolution
+		}
+		18 = {
+			"反法西斯运动"			# Antifaschistische Aktion
+		}
+		19 = {
+			"自由人民"			# Freies Volk
+		}
+		20 = {
+			"逆流而上"			# Gegen den Strom
+		}
+		21 = {
+			"苏维埃共和国"			# Die Räterepublik
+		}
+		22 = {
+			"公民民权"			# Das Volksrecht
+		}
+		23 = {
+			"工人集会"			# Arbeitertribüne
+		}
+		24 = {
+			"阶级斗争"			# Der Klassenkampf
+		}
+		25 = {
+			"左翼"			# Die Linke
+		}
+		26 = {
+			"基尔水手起义"			# Die Kieler Matrosenaufstand
+		}
+		27 = {
+			"社会主义共和国"			# Es Lebe die Sozialistische Republik
+		}
+		28 = {
+			"统一战线"			# Vereinigte Front
+		}
+		29 = {
+			"克隆施塔特"			# Kronstadt
+		}
+		30 = {
+			"和平与工团主义"			# Frieden und Syndikalismus
+		}
+		31 = {
+			"和平与无政府主义"			# Frieden und Anarchismus
+		}
+		32 = {
+			"反俄国布尔什维克主义"			# Gegen den Russischen Bolschewismus
+		}
+	}
+}
+
+GER_THEME_COMMUNIST_DDR = {
+	name = NAME_THEME_COMMUNIST_VOLKSMARINE
+	for_countries = {
+		GER
+	}
+	can_use = {
+		OR = {
+			has_government = communism
+			has_completed_focus = GER_start_the_proletarian_revolution
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	fallback_name = "%d号潜艇"	# Schiff %d
+	ordered = {
+		1 = {
+			"安格尔明德"			# Angermünde
+		}
+		2 = {
+			"巴德多贝兰"			# Bad Doberan
+		}
+		3 = {
+			"卑尔根"			# Bergen
+		}
+		4 = {
+			"比措"			# Bützow
+		}
+		5 = {
+			"加德布施"			# Gadebusch
+		}
+		6 = {
+			"格芮维斯米勒恩"			# Grevesmühlen
+		}
+		7 = {
+			"居斯特罗"			# Güstrow
+		}
+		8 = {
+			"吕布茨"			# Lübz
+		}
+		9 = {
+			"卢德维格斯卢斯特"			# Ludwigslust
+		}
+		10 = {
+			"帕希姆"			# Parchim
+		}
+		11 = {
+			"佩尔莱贝格"			# Perleberg
+		}
+		12 = {
+			"普伦茨劳"			# Prenzlau
+		}
+		13 = {
+			"里布尼茨-达姆加滕"			# Ribnitz-Damgarten
+		}
+		14 = {
+			"特特罗"			# Teterow
+		}
+		15 = {
+			"瓦伦"			# Waren
+		}
+		16 = {
+			"维斯马"			# Wismar
+		}
+		17 = {
+			"亚斯蒙得半"			# Jasmund
+		}
+		18 = {
+			"诺德珀德"			# Nordperd
+		}
+		19 = {
+			"乌埃克尔明德"			# Ueckermuende
+		}
+		20 = {
+			"罗斯托克"			# Rostock
+		}
+		21 = {
+			"柏林"			# Berlin-Haupstadt der DDR
+		}
+		22 = {
+			"佩内明德"			# Peenemünde
+		}
+		23 = {
+			"瓦尔纳明德"			# Warnemünde
+		}
+		24 = {
+			"萨斯尼茨"			# Sassnitz
+		}
+		25 = {
+			"莫斯克特"			# Moskit
+		}
+		26 = {
+			"汉斯·拜姆勒"			# Hans Beimler
+		}
+		27 = {
+			"卢姆"			# Lumme
+		}
+		28 = {
+			"威利·班西"			# Willi Bänsch
+		}
+		29 = {
+			"德兰斯克"			# Dranske
+		}
+		30 = {
+			"乌斯特罗"			# Wustrow
+		}
+		31 = {
+			"吕根"			# Rügen
+		}
+		32 = {
+			"因塞尔希登塞"			# Hiddensee
+		}
+		33 = {
+			"阿尔特马克"			# Altmark
+		}
+		34 = {
+			"德累斯顿"			# Dresden
+		}
+		35 = {
+			"利勃力"			# Libelle
+		}
+		36 = {
+			"特里同"			# Triton
+		}
+		37 = {
+			"海妖"			# Krake
+		}
+		38 = {
+			"彗星"			# Komet
+		}
+		39 = {
+			"施特拉尔松德"			# Stralsund
+		}
+		40 = {
+			"飓风"			# Orkan
+		}
+		41 = {
+			"哈雷"			# Halle
+		}
+	}
+}

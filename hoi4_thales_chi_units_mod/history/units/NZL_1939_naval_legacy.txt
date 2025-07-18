@@ -1,0 +1,32 @@
+﻿units = {
+  fleet = {
+    name = "新西兰皇家海军"  # Royal New Zealand Navy
+    naval_base = 4543
+    task_force = {
+      name = "新西兰中队"  # New Zealand Division
+      location = 4543
+      ship = {
+        name = "阿喀琉斯"  # HMNZS Achilles
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = NZL
+            version_name = "殖民地级"  # Leander Class
+          }
+        }
+      }
+      ship = {
+        name = "利安德"  # HMNZS Leander
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = NZL
+            version_name = "殖民地级"  # Leander Class
+          }
+        }
+      }
+    }
+  }
+}

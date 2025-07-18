@@ -1,0 +1,16 @@
+﻿air_wings = {
+  2 = {
+    large_plane_airframe_3 = {
+      amount = 20
+      owner = "ITA"
+      version_name = "阿奎拉·麦格纳"
+    }
+    name = "阿奎拉·麦格纳"  # Angeli Mortis
+    ace = {
+      modifier = "bomber_unique"
+      name = "卡洛"  # Carlo
+      surname = "布斯卡利亚"  # Buscaglia
+      callsign = "安塞雷姆 莫蒂斯"
+    }
+  }
+}

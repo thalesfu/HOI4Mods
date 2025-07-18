@@ -1,0 +1,121 @@
+﻿##### MALAYA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+MAL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { MAL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "KD "							
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"卡斯图里" "力桥" "汉那丁海军司令" "敦·阿卜杜勒海军司令" "吉打" "彭亨" "霹雳" "登嘉楼" "吉兰丹" "雪兰莪" "将相" "西冷" "象神" "甘阳" "超级" "勇敢" "剑客" "口哨" "鲨" "剑鱼" "鲸" "鱼" "鲶" "牧师" "斯里佩利斯" "柔佛"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+MAL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { MAL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "KD "							
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"惹拔" "莱基乌" "吉隆坡" "关丹" "丰盛港" "古来" "士古来" "居銮" "光束" "朱盖" "瓜拉龙运" "乔治城" "巴特沃思" "日落洞" "大山脚" "古晋" "诗巫" "民都鲁" "美里" "斗湖" "山打根" "拉哈·达图" "古达" "怡保" "哥打巴鲁"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+MAL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { MAL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "KD "							
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+	"惹拔" "莱基乌" "吉隆坡" "关丹" "丰盛港" "古来" "士古来" "居銮" "光束" "朱盖" "瓜拉龙运" "乔治城" "巴特沃思" "日落洞" "大山脚" "古晋" "诗巫" "民都鲁" "美里" "斗湖" "山打根" "拉哈·达图" "古达" "怡保" "哥打巴鲁"
+	}
+}
+
+### BATTLESHIP NAMES ###
+MAL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { MAL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "KD "							
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"马来亚" "新加坡" "马六甲" "婆罗洲" "文莱" "昔加末" "槟城" "沙巴" "沙捞越"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+MAL_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { MAL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "KD "							
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+ 		"马来亚" "新加坡" "马六甲" "婆罗洲" "文莱" "昔加末" "槟城" "沙巴" "沙捞越"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+MAL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { MAL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "KD "							
+	fallback_name = "%d 号航空母舰"		
+
+	unique = {
+		"马来亚" "新加坡" "马六甲" "婆罗洲" "文莱" "昔加末" "槟城" "沙巴" "沙捞越"
+	}
+}
+
+
+### SUBMARINES ###
+MAL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { MAL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "KD "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"东姑·阿都·拉曼" "敦拉萨"
+	}
+}

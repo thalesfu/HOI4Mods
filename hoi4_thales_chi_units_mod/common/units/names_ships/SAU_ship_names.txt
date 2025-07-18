@@ -1,0 +1,121 @@
+﻿##### SAUDI ARABIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SAU_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SAU }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMS "							
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"利雅得" "麦加" "达曼" "麦地那" "霍福夫" "阿布哈" "塔伊夫"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+SAU_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SAU }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMS "							
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"吉达" "达曼" "胡富夫" "塔伊夫" "纳季兰"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SAU_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SAU }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMS "							
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"吉达" "达曼" "胡富夫" "塔伊夫" "纳季兰"
+	}
+}
+
+### BATTLESHIP NAMES ###
+SAU_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SAU }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMS "							
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+			"麦加" "麦地那"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+SAU_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SAU }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMS "							
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"麦加" "麦地那"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SAU_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SAU }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMS "							
+	fallback_name = "%d 号航母"		
+
+	unique = {
+		"阿拉伯苏伊迪耶" "阿齐兹·伊本·沙特" 
+	}
+}
+
+
+### SUBMARINES ###
+SAU_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SAU }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMS "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"利雅得" "麦加" "达曼" "麦地那" "霍福夫" "阿布哈" "塔伊夫"
+	}
+}

@@ -1,0 +1,486 @@
+﻿IRE_INF_01 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d爱尔兰步兵师"  # %d Irish Infantry Division
+  ordered = {
+    1 = {
+      "第%d'雷电'师"  # %dst 'Thunderbolt' Division
+    }
+    2 = {
+      "第%d'先锋'师"  # %dnd 'Spearhead' Division
+    }
+    3 = {
+      "第%d爱尔兰步兵师"  # %drd Irish Infantry Division
+    }
+    4 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    5 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    6 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    7 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    8 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    9 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    10 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    11 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    12 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    13 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    14 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    15 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    16 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    17 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    18 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    19 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    20 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    21 = {
+      "第%d爱尔兰步兵师"  # %dst Irish Infantry Division
+    }
+    22 = {
+      "第%d爱尔兰步兵师"  # %dnd Irish Infantry Division
+    }
+  }
+}
+IRE_CAV_01 = {
+  name = "骑兵师"  # Cavalry Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d爱尔兰骑兵师"  # %d Irish Cavalry Division
+  ordered = {
+    1 = {
+      "第%d'帕内尔'骑兵师"  # %dst 'Parnell' Cavalry Division
+    }
+    2 = {
+      "第%d爱尔兰骑兵师"  # %dnd Irish Cavalry Division
+    }
+    3 = {
+      "第%d爱尔兰骑兵师"  # %drd Irish Cavalry Division
+    }
+    4 = {
+      "第%d爱尔兰骑兵师"  # %dth Irish Cavalry Division
+    }
+    5 = {
+      "第%d爱尔兰骑兵师"  # %dth Irish Cavalry Division
+    }
+    6 = {
+      "第%d爱尔兰骑兵师"  # %dth Irish Cavalry Division
+    }
+    7 = {
+      "第%d爱尔兰骑兵师"  # %dth Irish Cavalry Division
+    }
+    8 = {
+      "第%d爱尔兰骑兵师"  # %dth Irish Cavalry Division
+    }
+    9 = {
+      "第%d爱尔兰骑兵师"  # %dth Irish Cavalry Division
+    }
+    10 = {
+      "第%d爱尔兰骑兵师"  # %dth Irish Cavalry Division
+    }
+  }
+}
+IRE_MOT_01 = {
+  name = "摩托化步兵师"  # Motor Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    IRE_INF_01
+  }
+  fallback_name = "第%d爱尔兰摩托化步兵师"  # %d Irish Motor Division
+  ordered = {
+    1 = {
+      "第%d摩托化步兵师'雷电'"  # %dst 'Thunderbolt' Motor Division
+    }
+    2 = {
+      "第%d摩托化步兵师'先锋'"  # %dnd 'Spearhead' Motor Division
+    }
+    3 = {
+      "第%d爱尔兰摩托化步兵师"  # %drd Irish Motor Division
+    }
+    4 = {
+      "第%d爱尔兰摩托化步兵师"  # %dth Irish Motor Division
+    }
+    5 = {
+      "第%d爱尔兰摩托化步兵师"  # %dth Irish Motor Division
+    }
+    6 = {
+      "第%d爱尔兰摩托化步兵师"  # %dth Irish Motor Division
+    }
+    7 = {
+      "第%d爱尔兰摩托化步兵师"  # %dth Irish Motor Division
+    }
+    8 = {
+      "第%d爱尔兰摩托化步兵师"  # %dth Irish Motor Division
+    }
+    9 = {
+      "第%d爱尔兰摩托化步兵师"  # %dth Irish Motor Division
+    }
+    10 = {
+      "第%d爱尔兰摩托化步兵师"  # %dth Irish Motor Division
+    }
+  }
+}
+IRE_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    IRE_INF_01
+  }
+  fallback_name = "第%d爱尔兰机械化步兵师"  # %d Irish Mechanized Division
+  ordered = {
+    1 = {
+      "第%d机械化步兵师'雷电'"  # %dst 'Thunderbolt' Mechanized Division
+    }
+    2 = {
+      "第%d机械化步兵师'先锋'"  # %dnd 'Spearhead' Mechanized Division
+    }
+    3 = {
+      "第%d爱尔兰机械化步兵师"  # %drd Irish Mechanized Division
+    }
+    4 = {
+      "第%d爱尔兰机械化步兵师"  # %dth Irish Mechanized Division
+    }
+    5 = {
+      "第%d爱尔兰机械化步兵师"  # %dth Irish Mechanized Division
+    }
+    6 = {
+      "第%d爱尔兰机械化步兵师"  # %dth Irish Mechanized Division
+    }
+    7 = {
+      "第%d爱尔兰机械化步兵师"  # %dth Irish Mechanized Division
+    }
+    8 = {
+      "第%d爱尔兰机械化步兵师"  # %dth Irish Mechanized Division
+    }
+    9 = {
+      "第%d爱尔兰机械化步兵师"  # %dth Irish Mechanized Division
+    }
+    10 = {
+      "第%d爱尔兰机械化步兵师"  # %dth Irish Mechanized Division
+    }
+  }
+}
+IRE_ARM_01 = {
+  name = "装甲师"  # Armoured Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d爱尔兰装甲师"  # %d Irish Armoured Division
+  ordered = {
+    1 = {
+      "第%d爱尔兰装甲师"  # %dst Irish Armoured Division
+    }
+    2 = {
+      "第%d爱尔兰装甲师"  # %dnd Irish Armoured Division
+    }
+    3 = {
+      "第%d爱尔兰装甲师"  # %drd Irish Armoured Division
+    }
+    4 = {
+      "第%d爱尔兰装甲师"  # %dth Irish Armoured Division
+    }
+    5 = {
+      "第%d爱尔兰装甲师"  # %dth Irish Armoured Division
+    }
+    6 = {
+      "第%d爱尔兰装甲师"  # %dth Irish Armoured Division
+    }
+    7 = {
+      "第%d爱尔兰装甲师"  # %dth Irish Armoured Division
+    }
+    8 = {
+      "第%d爱尔兰装甲师"  # %dth Irish Armoured Division
+    }
+    9 = {
+      "第%d爱尔兰装甲师"  # %dth Irish Armoured Division
+    }
+    10 = {
+      "第%d爱尔兰装甲师"  # %dth Irish Armoured Division
+    }
+  }
+}
+IRE_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+  ordered = {
+    1 = {
+      "第%d爱尔兰空降师"  # %dst Irish Airborne Division
+    }
+    2 = {
+      "第%d爱尔兰空降师"  # %dnd Irish Airborne Division
+    }
+    3 = {
+      "第%d爱尔兰空降师"  # %drd Irish Airborne Division
+    }
+    4 = {
+      "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+    }
+    5 = {
+      "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+    }
+    6 = {
+      "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+    }
+    7 = {
+      "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+    }
+    8 = {
+      "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+    }
+    9 = {
+      "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+    }
+    10 = {
+      "第%d爱尔兰空降师"  # %dth Irish Airborne Division
+    }
+  }
+}
+IRE_MAR_01 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d爱尔兰陆战师"  # %dth Irish Marines Division
+  ordered = {
+    1 = {
+      "第%d爱尔兰海军陆战师"  # %dst Irish Marines Division
+    }
+    2 = {
+      "第%d爱尔兰海军陆战师"  # %dnd Irish Marines Division
+    }
+    3 = {
+      "第%d爱尔兰海军陆战师"  # %drd Irish Marines Division
+    }
+    4 = {
+      "第%d爱尔兰海军陆战师"  # %dth Irish Marines Division
+    }
+    5 = {
+      "第%d爱尔兰海军陆战师"  # %dth Irish Marines Division
+    }
+    6 = {
+      "第%d爱尔兰海军陆战师"  # %dth Irish Marines Division
+    }
+    7 = {
+      "第%d爱尔兰海军陆战师"  # %dth Irish Marines Division
+    }
+    8 = {
+      "第%d爱尔兰海军陆战师"  # %dth Irish Marines Division
+    }
+    9 = {
+      "第%d爱尔兰海军陆战师"  # %dth Irish Marines Division
+    }
+    10 = {
+      "第%d爱尔兰海军陆战师"  # %dth Irish Marines Division
+    }
+  }
+}
+IRE_MNT_01 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    IRE_INF_01
+  }
+  fallback_name = "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+  ordered = {
+    1 = {
+      "第%d'雷电'山地师"  # %dst 'Thunderbolt' Mountain Division
+    }
+    2 = {
+      "第%d'先锋'山地师"  # %dnd 'Spearhead' Mountain Division
+    }
+    3 = {
+      "第%d爱尔兰山地师"  # %drd Irish Mountain Division
+    }
+    4 = {
+      "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+    }
+    5 = {
+      "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+    }
+    6 = {
+      "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+    }
+    7 = {
+      "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+    }
+    8 = {
+      "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+    }
+    9 = {
+      "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+    }
+    10 = {
+      "第%d爱尔兰山地师"  # %dth Irish Mountain Division
+    }
+  }
+}
+IRE_GAR_01 = {
+  name = "守备师"  # Garrison Division
+  for_countries = {
+    IRE
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    IRE_INF_01
+  }
+  fallback_name = "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+  ordered = {
+    3 = {
+      "第%d爱尔兰步兵师"  # %drd Irish Infantry Division
+    }
+    4 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    5 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    6 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    7 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    8 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    9 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    10 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    11 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    12 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    13 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    14 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    15 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    16 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    17 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    18 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    19 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    20 = {
+      "第%d爱尔兰步兵师"  # %dth Irish Infantry Division
+    }
+    21 = {
+      "第%d爱尔兰步兵师"  # %dst Irish Infantry Division
+    }
+    22 = {
+      "第%d爱尔兰步兵师"  # %dnd Irish Infantry Division
+    }
+  }
+}

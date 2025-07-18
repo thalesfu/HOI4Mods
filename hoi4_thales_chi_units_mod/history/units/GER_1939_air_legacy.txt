@@ -1,0 +1,250 @@
+﻿air_wings = {
+  64 = {
+    transport_plane_equipment_1 = {
+      owner = "GER"
+      amount = 66
+    }
+    transport_plane_equipment_1 = {
+      owner = "GER"
+      amount = 66
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 60
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 60
+    }
+    heavy_fighter_equipment_1 = {
+      owner = "GER"
+      amount = 30
+    }
+  }
+  62 = {
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 77
+    }
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 77
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 54
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 54
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 72
+    }
+    heavy_fighter_equipment_1 = {
+      owner = "GER"
+      amount = 30
+    }
+  }
+  763 = {
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 77
+    }
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 77
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 36
+    }
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    heavy_fighter_equipment_1 = {
+      owner = "GER"
+      amount = 30
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 72
+    }
+  }
+  66 = {
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 96
+    }
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 84
+    }
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 76
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    heavy_fighter_equipment_1 = {
+      owner = "GER"
+      amount = 30
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 66
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 66
+    }
+  }
+  51 = {
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 84
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 76
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 76
+    }
+  }
+  59 = {
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 96
+    }
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 96
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 77
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 77
+    }
+  }
+  52 = {
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+  }
+  55 = {
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 30
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+  }
+  54 = {
+    fighter_equipment_1 = {
+      owner = "GER"
+      amount = 24
+    }
+  }
+  56 = {
+    nav_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 54
+    }
+    nav_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 54
+    }
+  }
+  62 = {
+    nav_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 54
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = fighter_equipment_1
+      creator = "GER"
+    }
+    requested_factories = 4
+    progress = 0.15
+    efficiency = 100
+    industrial_manufacturer = mio:GER_messerschmitt_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = CAS_equipment_2
+      creator = "GER"
+    }
+    requested_factories = 4
+    progress = 0.2
+    efficiency = 100
+    industrial_manufacturer = mio:GER_junkers_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = tac_bomber_equipment_1
+      creator = "GER"
+    }
+    requested_factories = 2
+    progress = 0.1
+    efficiency = 100
+  }
+}

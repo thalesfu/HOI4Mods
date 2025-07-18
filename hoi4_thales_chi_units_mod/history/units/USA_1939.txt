@@ -1,0 +1,628 @@
+﻿start_equipment_factor = 0.1
+division_template = {
+  name = "步兵师"  # Infantry Division
+  division_names_group = USA_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+    engineer = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "国民警卫师"  # National Guard Division
+  division_names_group = USA_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+    infantry = {
+      x = 3
+      y = 0
+    }
+    infantry = {
+      x = 3
+      y = 1
+    }
+    infantry = {
+      x = 3
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+    engineer = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "骑兵师"  # Cavalry Division
+  division_names_group = USA_CAV_01
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 0
+      y = 2
+    }
+    cavalry = {
+      x = 0
+      y = 3
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 2
+    }
+    cavalry = {
+      x = 1
+      y = 3
+    }
+  }
+  support = {
+    recon = {
+      x = 0
+      y = 0
+    }
+    engineer = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "机械化骑兵"  # Mechanized Cavalry
+  division_names_group = USA_CAV_01
+  regiments = {
+    light_armor = {
+      x = 0
+      y = 0
+    }
+    light_armor = {
+      x = 0
+      y = 1
+    }
+  }
+  support = {
+    mot_recon = {
+      x = 0
+      y = 0
+    }
+    engineer = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "海军陆战旅"  # Marine Brigade
+  division_names_group = USA_MAR_01
+  regiments = {
+    marine = {
+      x = 0
+      y = 0
+    }
+    marine = {
+      x = 0
+      y = 1
+    }
+    marine = {
+      x = 1
+      y = 0
+    }
+    marine = {
+      x = 1
+      y = 1
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+  priority = 2
+}
+division_template = {
+  name = "守备旅"  # Garrison Brigade
+  division_names_group = USA_GAR_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+  priority = 0
+}
+units = {
+  division = {
+    name = "波多黎各师"  # Puerto Rico Department
+    location = 1440
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "巴拿马运河武装师"  # Panama Canal Force
+    location = 7617
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "第7机械化骑兵旅"  # 7th Cavalry (Mech.) Brigade
+    location = 6696
+    division_template = "机械化骑兵"  # Mechanized Cavalry
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 26
+    }
+    location = 6732
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 43
+    }
+    location = 6732
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 3878
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 27
+    }
+    location = 3878
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 44
+    }
+    location = 3878
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 28
+    }
+    location = 6984
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 29
+    }
+    location = 6984
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 6855
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 37
+    }
+    location = 6855
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 38
+    }
+    location = 6855
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 9450
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 32
+    }
+    location = 9450
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 33
+    }
+    location = 9450
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 30
+    }
+    location = 12384
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 31
+    }
+    location = 12384
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 12782
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 36
+    }
+    location = 12782
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 45
+    }
+    location = 12782
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 12782
+    division_template = "骑兵师"  # Cavalry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 34
+    }
+    location = 12586
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 35
+    }
+    location = 12586
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 9671
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 40
+    }
+    location = 9671
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 41
+    }
+    location = 9671
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "第1海军陆战旅"  # 1st Marine Brigade
+    location = 6846
+    division_template = "海军陆战旅"  # Marine Brigade
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "第2海军陆战旅"  # 2nd Marine Brigade
+    location = 1562
+    division_template = "海军陆战旅"  # Marine Brigade
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "阿拉斯加守备师"  # Alaska Defense Command
+    location = 13091
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "阿图岛守备旅"  # Attu Island Garrison
+    location = 13067
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "夏威夷师"  # Hawaiian Division
+    location = 4180
+    division_template = "国民警卫师"  # National Guard Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "中途岛守备旅"  # Midway Island Garrison
+    location = 13052
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "威克岛守备旅"  # Wake Island Garrison
+    location = 13047
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "关岛守备旅"  # Guam Garrison
+    location = 12140
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "圣诞岛守备旅"  # Christmas Island Garrison
+    location = 13048
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "贾维斯岛守备旅"  # Jarvis Island Garrison
+    location = 13049
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "巴尔米拉守备旅"  # Palmyra Garrison
+    location = 13050
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "凤凰岛守备旅"  # Phoenix Island Garrison
+    location = 13053
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "约翰逊岛守备旅"  # Johnston Island Garrison
+    location = 13051
+    division_template = "守备旅"  # Garrison Brigade
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "菲律宾师"  # Philippine Division
+    location = 10265
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "USA"
+    }
+    requested_factories = 6
+    progress = 0.1
+    efficiency = 100
+    industrial_manufacturer = mio:USA_springfield_armory_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = support_equipment_1
+      creator = "USA"
+    }
+    requested_factories = 2
+    progress = 0.3
+    efficiency = 100
+  }
+  add_equipment_production = {
+    equipment = {
+      type = artillery_equipment_1
+      creator = "USA"
+    }
+    requested_factories = 1
+    progress = 0.3
+    efficiency = 100
+    industrial_manufacturer = mio:USA_rock_island_arsenal_organization
+  }
+}

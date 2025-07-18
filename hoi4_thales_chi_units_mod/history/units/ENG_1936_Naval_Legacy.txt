@@ -1,0 +1,2658 @@
+﻿units = {
+  fleet = {
+    name = "本土司令部"  # Home Command
+    naval_base = 11064
+    task_force = {
+      name = "本土舰队"  # Home Fleet
+      location = 11064
+      ship = {
+        name = "HMS 暴怒"  # HMS Furious
+        definition = carrier
+        equipment = {
+          carrier_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 纳尔逊"  # HMS Nelson
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "纳尔逊级"  # Nelson Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 罗德尼"  # HMS Rodney
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "纳尔逊级"  # Nelson Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 皇家橡树"  # HMS Royal Oak
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 君权"  # HMS Royal Sovereign
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 拉米利斯"  # HMS Ramillies
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 胡德"  # HMS Hood
+        pride_of_the_fleet = yes
+        definition = battle_cruiser
+        equipment = {
+          battle_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "海军上将级"  # Admiral Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 反击"  # HMS Repulse
+        definition = battle_cruiser
+        equipment = {
+          battle_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 声望"  # HMS Renown
+        definition = battle_cruiser
+        equipment = {
+          battle_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 诺福克"  # HMS Norfolk
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 加尔各答"  # HMS Calcutta
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 翡翠"  # HMS Emerald
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 进取"  # HMS Enterprise
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 军刀"  # HMS Sabre
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 希卡里"  # HMS Shikari
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 基思"  # HMS Keith
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 弗尼夏"  # HMS Venetia
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 范内萨"  # HMS Vanessa
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 子爵"  # HMS Viscount
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威塞克斯"  # HMS Wessex
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维斯珀"  # HMS Vesper
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 活泼"  # HMS Vivacious
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 戒备"  # HMS Wakeful
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 温莎"  # HMS Windsor
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 富尔克努"  # HMS Faulknor
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 狐提"  # HMS Foxhound
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 愤怒"  # HMS Fury
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 无惧"  # HMS Fearless
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 福雷斯特"  # HMS Forester
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 费姆"  # HMS Fame
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 火龙"  # HMS Firedrake
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 展望"  # HMS Foresight
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 命运女神"  # HMS Fortune
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "预备舰队"  # Reserve Fleet
+      location = 9458
+      ship = {
+        name = "HMS 伊丽莎白女王"  # HMS Queen Elizabeth
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 英勇"  # HMS Valiant
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 弗罗比舍"  # HMS Frobisher
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 霍金斯"  # HMS Hawkins
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡莱尔"  # HMS Carlisle
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 杓鹬"  # HMS Curlew
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维楚德"  # HMS Whitshed
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 野天鹅"  # HMS Wild Swan
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 总督"  # HMS Viceroy
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 凡尔登"  # HMS Verdun
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 虚荣"  # HMS Vanity
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "海峡舰队"  # Channel Force
+      location = 9458
+      ship = {
+        name = "HMS 勇敢"  # HMS Courageous
+        definition = carrier
+        equipment = {
+          carrier_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 决心"  # HMS Resolution
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 复仇"  # HMS Revenge
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 谷物女神"  # HMS Ceres
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡拉道克"  # HMS Caradoc
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 开罗"  # HMS Cairo
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS ]凯彭菲尔"  # HMS Kempenfelt
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 阿卡斯塔"  # HMS Acasta
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 羚羊"  # HMS Antelope
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 热心"  # HMS Ardent
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 冥河"  # HMS Acheron
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 阿凯提斯"  # HMS Achates
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 安东尼"  # HMS Anthony
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 箭矢"  # HMS Arrow
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 亚马逊"  # HMS Amazon
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "亨伯舰队"  # Humber Force
+      location = 11297
+      ship = {
+        name = "HMS 爆发"  # HMS Broke
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 流浪者"  # HMS Wanderer
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 怀特霍尔"  # HMS Whitehall
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 女巫"  # HMS Witch
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 真实"  # HMS Verity
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 志愿者"  # HMS Volunteer
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威瑟"  # HMS Witherington
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 狼獾"  # HMS Wolverine
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "北方巡航船队"  # Northern Patrol
+      location = 11064
+      ship = {
+        name = "HMS 迪奥米德"  # HMS Diomede
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 龙"  # HMS Dragon
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 埃芬厄姆"  # HMS Effingham
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 加的夫"  # HMS Cardiff
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 德里"  # HMS Delhi
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 达尼丁"  # HMS Dunedin
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "罗赛斯护航舰队"  # Rosyth Escort Force
+      location = 6300
+      ship = {
+        name = "HMS 华莱士"  # HMS Wallace
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 勇武"  # HMS Valorous
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 惠特利"  # HMS Whitley
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "挪威舰队"  # Nore Fleet
+      location = 3501
+      ship = {
+        name = "HMS 伦敦"  # HMS London
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 柑香酒"  # HMS Curacoa
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 坎贝尔"  # HMS Campbell
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 费雯"  # HMS Vivien
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 伍斯特"  # HMS Worcester
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 伍斯顿"  # HMS Woolston
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 猎狼犬"  # HMS Wolfhound
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 科德林顿"  # HMS Codrington
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 蛇怪"  # HMS Basilisk
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 小猎犬"  # HMS Beagle
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 北风神"  # HMS Boreas
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 斗牛犬"  # HMS Bulldog
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 布兰奇"  # HMS Blanche
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 博阿迪西亚"  # HMS Boadicea
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 无耻"  # HMS Brazen
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 明智"  # HMS Brilliant
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "朴次茅斯舰队"  # Portsmouth Fleet
+      location = 9458
+      ship = {
+        name = "HMS 萨福克"  # HMS Suffolk
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鳐鱼"  # HMS Skate
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 萨拉丁"  # HMS Saladin
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 弯刀"  # HMS Scimitar
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 红缟玛瑙"  # HMS Sardonyx
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 伏击"  # HMS Ambuscade
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 温彻斯特"  # HMS Winchester
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "西进舰队"  # Western Approaches Fleet
+      location = 540
+      ship = {
+        name = "HMS 蒙特罗斯"  # HMS Montrose
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 壮健"  # HMS Sturdy
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 瓦伦丁"  # HMS Valentine
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维加"  # HMS Vega
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威斯敏斯特"  # HMS Westminster
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 麦凯"  # HMS Mackay
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 征服者"  # HMS Vanquisher
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 范诺克"  # HMS Vanoc
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃波尔"  # HMS Walpole
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 温切尔西"  # HMS Winchelsea
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 万能"  # HMS Versatile
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维米拉"  # HMS Vimiera
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 大旋风"  # HMS Whirlwind
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃里克"  # HMS Warwick
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "北大西洋舰队"  # North Atlantic Fleet
+      location = 4135
+      ship = {
+        name = "HMS 科伦坡"  # HMS Colombo
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 开普敦"  # HMS Capetown
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 地啄木"  # HMS Wryneck
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 凯普尔"  # HMS Keppel
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维德特"  # HMS Vidette
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃提根"  # HMS Vortigern
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维洛克斯"  # HMS Velox
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 更夫"  # HMS Watchman
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 道格拉斯"  # HMS Douglas
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 积极"  # HMS Active
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威斯哈特"  # HMS Wishart
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 搏斗者"  # HMS Wrestler
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2潜艇舰队"  # 2nd Submarine Flotilla
+      location = 11064
+      ship = {
+        name = "HMS 奥克斯利"  # HMS Oxley
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 剑鱼"  # HMS Swordfish
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲟鱼"  # HMS Sturgeon
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 海马"  # HMS Seahorse
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 海星"  # HMS Starfish
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS H32"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS L26"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS L27"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第5潜艇舰队"  # 5th Submarine Flotilla
+      location = 9458
+      ship = {
+        name = "HMS 奥伯龙"  # HMS Oberon
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 泰晤士"  # HMS Thames
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS L23"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H28"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H31"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H33"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H34"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H43"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H44"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H49"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS H50"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "地中海司令部"  # Mediterranean Command
+    naval_base = 4076
+    task_force = {
+      name = "地中海舰队"  # Mediterranean Fleet
+      location = 4076
+      ship = {
+        name = "HMS 光荣"  # HMS Glorious
+        definition = carrier
+        equipment = {
+          carrier_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 厌战"  # HMS Warspite
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 巴勒姆"  # HMS Barham
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 马来亚"  # HMS Malaya
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 德文郡"  # HMS Devonshire
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 什罗普郡"  # HMS Shropshire
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 苏塞克斯"  # HMS Sussex
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 水神"  # HMS Arethusa
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "安菲西恩级"  # Amphion Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 加拉蒂"  # HMS Galatea
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "安菲西恩级"  # Amphion Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 考文垂"  # HMS Coventry
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 沃尔西"  # HMS Wolsey
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 要塞"  # HMS Stronghold
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 斯图亚特"  # HMS Stuart
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 彗星"  # HMS Comet
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 十字军"  # HMS Crusader
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 小天鹅"  # HMS Cygnet
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 新月"  # HMS Crescent
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 步行者"  # HMS Walker
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 维米"  # HMS Vimy
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 布鲁斯"  # HMS Bruce
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 麦尔科姆"  # HMS Malcolm
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 老兵"  # HMS Veteran
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 威斯特科特"  # HMS Westcott
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鹪鹩"  # HMS Wren
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 埃克斯默思"  # HMS Exmouth
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 伊莱克特拉"  # HMS Electra
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 日蚀"  # HMS Eclipse
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 埃斯克"  # HMS Esk
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 特快"  # HMS Express
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 遭遇"  # HMS Encounter
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 埃斯卡佩德"  # HMS Escapade
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 护航"  # HMS Escort
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 回声"  # HMS Echo
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 邓肯"  # HMS Duncan
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 引诱"  # HMS Decoy
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 防御者"  # HMS Defender
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 公爵夫人"  # HMS Duchess
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 愉快"  # HMS Delight
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 优雅"  # HMS Dainty
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 果敢"  # HMS Daring
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 金刚石"  # HMS Diamond
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 罗马月神"  # HMS Diana
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第1潜艇舰队"  # 1st Submarine Flotilla
+      location = 4076
+      ship = {
+        name = "HMS 海狮"  # HMS Sealion
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲨鱼"  # HMS Shark
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲷鱼"  # HMS Snapper
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鲑鱼"  # HMS Salmon
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 鼠海豚"  # HMS Porpoise
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥特韦"  # HMS Otway
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥西里斯"  # HMS Osiris
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥斯瓦尔德"  # HMS Oswald
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "南北美洲司令部"  # North and South Americas Command
+    naval_base = 2038
+    task_force = {
+      name = "美国和西印度群岛舰队"  # America and West Indies Fleet
+      location = 13010
+      ship = {
+        name = "HMS 贝里克"  # HMS Berwick
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 约克"  # HMS York
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 猎户座"  # HMS Orion
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "南大西洋舰队"  # South Atlantic Fleet
+      location = 2038
+      ship = {
+        name = "HMS 海王星"  # HMS Neptune
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 大胆"  # HMS Dauntless
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 范西塔特"  # HMS Vansittart
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 恶毒"  # HMS Venomous
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 双足飞龙"  # HMS Wivern
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "南美洲中队"  # South America Squadron
+      location = 12960
+      ship = {
+        name = "HMS 埃克塞特"  # HMS Exeter
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 坎伯兰"  # HMS Cumberland
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 阿贾克斯"  # HMS Ajax
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3潜艇舰队"  # 3rd Submarine Flotilla
+      location = 2038
+      ship = {
+        name = "HMS 塞文"  # HMS Severn
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 克莱德"  # HMS Clyde
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "远东司令部"  # Far East Command
+    naval_base = 12299
+    task_force = {
+      name = "东印度群岛舰队"  # East Indies Fleet
+      location = 10201
+      ship = {
+        name = "HMS 达娜厄"  # HMS Danae
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 德班"  # HMS Durban
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 黛丝帕茨"  # HMS Despatch
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "中国舰队"  # China Fleet
+      location = 10062
+      ship = {
+        name = "HMS 鹰"  # HMS Eagle
+        definition = carrier
+        equipment = {
+          carrier_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 肯特"  # HMS Kent
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 康沃尔"  # HMS Cornwall
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 多塞特郡"  # HMS Dorsetshire
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "郡级"  # County Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡里登"  # HMS Caledon
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 卡里普索"  # HMS Calypso
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 哨兵"  # HMS Scout
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 忒涅多斯"  # HMS Tenedos
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 珊奈特"  # HMS Thanet
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+      ship = {
+        name = "HMS 色雷斯人"  # HMS Thracian
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ENG
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "新西兰舰队"  # New Zealand Division
+      location = 13056
+      ship = {
+        name = "HMS 阿喀琉斯"  # HMS Achilles
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 利安德"  # HMS Leander
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第4潜艇舰队"  # 4th Submarine Flotilla
+      location = 12299
+      ship = {
+        name = "HMS 奥林匹斯"  # HMS Olympus
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 帕提亚人"  # HMS Parthian
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 普罗透斯"  # HMS Proteus
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 摄政王"  # HMS Regent
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 漂泊者"  # HMS Rover
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥丁"  # HMS Odin
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 俄耳甫斯"  # HMS Orpheus
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 奥托斯"  # HMS Otus
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 潘多拉"  # HMS Pandora
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 珀耳修斯"  # HMS Perseus
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 菲尼克斯"  # HMS Phoenix
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 彩虹"  # HMS Rainbow
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+      ship = {
+        name = "HMS 雷古拉斯"  # HMS Regulus
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "O/P/R级"  # O/P/R Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_2
+      creator = "ENG"
+    }
+    requested_factories = 1
+    progress = 0.33
+    amount = 2
+    industrial_manufacturer = mio:ENG_yarrow_shipbuilders_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_2
+      creator = "ENG"
+    }
+    requested_factories = 1
+    progress = 0.33
+    amount = 2
+    industrial_manufacturer = mio:ENG_yarrow_shipbuilders_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_2
+      creator = "ENG"
+    }
+    requested_factories = 1
+    progress = 0.33
+    amount = 2
+    industrial_manufacturer = mio:ENG_yarrow_shipbuilders_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_2
+      creator = "ENG"
+    }
+    requested_factories = 1
+    progress = 0.33
+    amount = 2
+    industrial_manufacturer = mio:ENG_yarrow_shipbuilders_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_2
+      creator = "ENG"
+    }
+    requested_factories = 1
+    progress = 0.33
+    amount = 1
+    industrial_manufacturer = mio:ENG_yarrow_shipbuilders_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = submarine_1
+      creator = "ENG"
+      version_name = "S级"  # S Class
+      industrial_manufacturer = mio:ENG_john_brown_organization
+    }
+    requested_factories = 1
+    progress = 0.50
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = submarine_1
+      creator = "ENG"
+      version_name = "S级"  # S Class
+    }
+    requested_factories = 1
+    progress = 0.40
+    amount = 1
+    industrial_manufacturer = mio:ENG_john_brown_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = light_cruiser_1
+      creator = "ENG"
+      version_name = "安菲西恩级"  # Amphion Class
+    }
+    requested_factories = 1
+    progress = 0.95
+    amount = 1
+    industrial_manufacturer = mio:ENG_cammell_laird_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = light_cruiser_1
+      creator = "ENG"
+      version_name = "安菲西恩级"  # Amphion Class
+    }
+    requested_factories = 1
+    progress = 0.50
+    amount = 1
+    industrial_manufacturer = mio:ENG_cammell_laird_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = light_cruiser_1
+      creator = "ENG"
+      version_name = "安菲西恩级"  # Amphion Class
+    }
+    requested_factories = 1
+    progress = 0.15
+    amount = 1
+    industrial_manufacturer = mio:ENG_cammell_laird_organization
+  }
+}

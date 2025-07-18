@@ -1,0 +1,350 @@
+﻿units = {
+  fleet = {
+    name = "早期混合舰队"  # Mixed Fleet Early
+    naval_base = 1550
+    task_force = {
+      name = "蓝军舰队"  # Blue Fleet
+      location = 1550
+      ship = {
+        name = "蓝军 战列舰1"  # Blue BB1
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 战列舰2"  # Blue BB2
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰1"  # Blue CA1
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰2"  # Blue CA2
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰3"  # Blue CA3
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰4"  # Blue CA4
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰5"  # Blue CA5
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 轻巡洋舰2"  # Blue CL2
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 轻巡洋舰3"  # Blue CL3
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 轻巡洋舰4"  # Blue CL4
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 轻巡洋舰5"  # Blue CL5
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 轻巡洋舰6"  # Blue CL6
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 轻巡洋舰7"  # Blue CL7
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 轻巡洋舰8"  # Blue CL8
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰1"  # Blue DD1
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰2"  # Blue DD2
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰3"  # Blue DD3
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰4"  # Blue DD4
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰5"  # Blue DD5
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰6"  # Blue DD6
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰7"  # Blue DD7
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰8"  # Blue DD8
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰9"  # Blue DD9
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰10"  # Blue DD10
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰11"  # Blue DD11
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰12"  # Blue DD12
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰13"  # Blue DD13
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰14"  # Blue DD14
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰15"  # Blue DD15
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰16"  # Blue DD16
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰17"  # Blue DD17
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰18"  # Blue DD18
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰19"  # Blue DD19
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 驱逐舰20"  # Blue DD20
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,495 @@
+﻿units = {
+  fleet = {
+    name = "美国驱逐舰中队"  # American Destroyer Squadron
+    naval_base = 3501
+    task_force = {
+      name = "美国1驱逐舰部队"  # American Destroyer Flotilla 1
+      location = 3501
+      ship = {
+        name = "利明顿"  # HMS Leamington
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "坎贝尔城"  # HMS Campbeltown
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "卡斯尔顿"  # HMS Castleton
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "考德威尔"  # HMS Caldwell
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "切尔西"  # HMS Chelsea
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "布莱顿"  # HMS Brighton
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "林肯"  # HMS Lincoln
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "韦尔斯"  # HMS Wells
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "索尔兹伯里"  # HMS Salisbury
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "乔治敦"  # HMS Georgetown
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "罗克斯堡"  # HMS Roxburgh
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "巴斯"  # HMS Bath
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "圣奥尔本斯"  # HMS St. Albans
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "贝尔蒙特"  # HMS Belmont
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "布罗德沃特"  # HMS Broadwater
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "克莱尔"  # HMS Clare
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "百老汇"  # HMS Broadway
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "切斯特菲尔德"  # HMS Chesterfield
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "美国2驱逐舰部队"  # American Destroyer Flotilla 2
+      location = 3501
+      ship = {
+        name = "雷普利"  # HMS Ripley
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "雷丁"  # HMS Reading
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "罗金厄姆"  # HMS Rockingham
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "拉姆西"  # HMS Ramsey
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "斯坦利"  # HMS Stanley
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "舍伍德"  # HMS Sherwood
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "卡梅伦"  # HMS Cameron
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "伯纳姆"  # HMS Burnham
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "美国3驱逐舰部队"  # American Destroyer Flotilla 3
+      location = 3501
+      ship = {
+        name = "查尔斯敦"  # HMS Charlestown
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "圣玛丽"  # HMS St. Marys
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "贝弗利"  # HMS Beverley
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "丘吉尔"  # HMS Churchill
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "伯威尔"  # HMS Burwell
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "布拉德福德"  # HMS Bradford
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "巴克斯顿"  # HMS Buxton
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "美国4驱逐舰部队"  # American Destroyer Flotilla 4
+      location = 3501
+      ship = {
+        name = "刘易斯"  # HMS Lewes
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "利兹"  # HMS Leeds
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "勒德罗"  # HMS Ludlow
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "蒙哥马利"  # HMS Montgomery
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "兰开斯特"  # HMS Lancaster
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "曼斯菲尔德"  # HMS Mansfield
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "纽波特"  # HMS Newport
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "纽马克特"  # HMS Newmarket
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "纽瓦克"  # HMS Newark
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "里士满"  # HMS Richmond
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+    }
+  }
+}

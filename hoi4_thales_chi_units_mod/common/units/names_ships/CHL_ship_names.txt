@@ -1,0 +1,275 @@
+﻿CHL_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYERS
+  for_countries = {
+    CHL
+  }
+  type = ship
+  ship_types = {
+    ship_hull_light
+    destroyer
+  }
+  prefix = "BACH "
+  fallback_name = "%d号驱逐舰"  # Destructor %d
+  unique = {
+    "林奇海军上将"  # Almirante Lynch
+    "孔德尔海军上将"  # Almirante Condell
+    "阿尔代亚"  # Aldea
+    "亚特"  # Hyatt
+    "奥雷利亚海军上校"  # Orella
+    "里克尔梅海军准尉"  # Requelme
+    "维德拉海军军医"  # Videla
+    "里韦罗斯海军上将"  # Almirante Riveros
+    "威廉姆斯海军上将"  # Almirante Williams
+    "布兰科·恩卡拉达"  # Blanco Encalada
+    "科克伦"  # Cochrane
+    "森特诺部长"  # Ministro Zenteno
+    "波塔莱斯部长"  # Ministro Portales
+    "骏马"  # Potrillo
+    "珍珠"  # Perla
+    "普埃雷东"  # Pueyrredón
+    "鹰"  # Águila
+    "阿拉乌咖诺"  # Araucano
+    "福尔图娜塔"  # Fortunata
+    "玛丽亚"  # María
+    "漫步者"  # Rambler
+    "玛格达莱娜"  # Magdalena
+    "查卡布科"  # Chacabuco
+    "多洛蕾丝"  # Dolores
+    "贝戈尼亚"  # Begoña
+    "无畏"  # Intrépido
+    "赫雷扎纳"  # Jerezana
+    "独立"  # Independencia
+    "埃斯梅拉尔达"  # Esmeralda
+    "大力神"  # Hércules
+    "玛丽亚"  # Ave María
+    "伏尔泰"  # Voltaire
+    "成员"  # Constituyente
+    "乔文·丹尼尔"  # Joven Daniel
+    "索卡巴亚"  # Socabaya
+    "吉普赛"  # Gipsy
+    "猎户座"  # Orión
+    "塞诺伦斯"  # Señorense
+    "阿夫塔奥"  # Abtao
+    "塔拉巴"  # Thalaba
+    "伊塔"  # Itata
+    "亚马逊"  # Amazonas
+    "鲁库米利亚"  # Rucumilla
+    "多明戈·圣玛丽亚"  # Domingo Santa María
+    "马波丘"  # Mapocho
+    "比奥比奥"  # Bío Bío
+    "亚涅斯"  # Yañez
+    "塞拉诺"  # Serrano
+    "奥雷利亚海军上校"  # Orella
+    "穆尼奥斯·加梅罗"  # Muñoz Gamero
+    "叶尔乔"  # Yelcho
+    "伊基克"  # Iquique
+    "伊拉鲁伊斯"  # Errázuriz
+    "考波利坎"  # Caupolicán
+    "乌里韦"  # Uribe
+    "普拉特上尉"  # Capitán Prat
+  }
+}
+CHL_CL_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CL
+  for_countries = {
+    CHL
+  }
+  type = ship
+  ship_types = {
+    ship_hull_cruiser
+    light_cruiser
+  }
+  prefix = "BACH "
+  fallback_name = "%d号轻型巡洋舰"  # Crucero Ligero %d
+  unique = {
+    "查卡布科"  # Chacabuco
+    "阿拉乌咖诺"  # Araucano
+    "智利圣地亚哥"  # Santiago de Chile
+    "瓦尔帕莱索"  # Valparaiso
+    "巴尔迪维亚"  # Valdivia
+    "奥索尔诺"  # Osorno
+    "蓬塔阿雷纳斯"  # Punta Arenas
+    "奇兰"  # Chillán
+    "塔尔卡瓦诺"  # Talcahuano
+    "兰卡瓜"  # Rancagua
+    "科金博"  # Coquimbo
+    "埃莱娜"  # Elena
+    "加尔瓦里诺"  # Galvarino
+    "芭芭拉"  # Bárbara
+    "蒙特祖玛"  # Moctezuma
+    "特雷莎娜"  # Teresana
+    "英文"  # Inglés
+    "朋友之友"  # Dos Amigos
+    "瓦尔帕莱索"  # Valparaíso
+    "联盟"  # Confederación
+    "瓦纳"  # Huanay
+    "杰奎奥"  # Janequeo
+    "圣卢西亚"  # Santa Lucía
+    "科洛科洛"  # Colo Colo
+    "弗雷西亚"  # Fresia
+    "康特雷拉斯"  # Contreras
+    "维德拉海军军医"  # Videla
+    "莱科顿"  # Leucotón
+  }
+}
+CHL_CA_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CA
+  for_countries = {
+    CHL
+  }
+  type = ship
+  ship_types = {
+    ship_hull_cruiser
+    heavy_cruiser
+  }
+  prefix = "BACH "
+  fallback_name = "%d号重巡洋舰"  # Crucero Pesado %d
+  unique = {
+    "奥伊金斯"  # O'Higgins
+    "阿拉乌咖诺"  # Araucano
+    "智利圣地亚哥"  # Santiago de Chile
+    "瓦尔帕莱索"  # Valparaiso
+    "巴尔迪维亚"  # Valdivia
+    "奥索尔诺"  # Osorno
+    "蓬塔阿雷纳斯"  # Punta Arenas
+    "奇兰"  # Chillán
+    "塔尔卡瓦诺"  # Talcahuano
+    "兰卡瓜"  # Rancagua
+    "科金博"  # Coquimbo
+    "劳塔罗"  # Lautaro
+    "阿拉乌咖诺"  # Araucano
+    "圣马丁将军"  # San Martín
+    "维多利亚"  # Victoria
+    "玛丽亚·伊莎贝尔"  # María Isabel
+    "秃鹰"  # Cóndor
+    "扎尔迪瓦尔"  # Zaldívar
+    "拿破仑"  # Napoleón
+    "科克伦"  # Cochrane
+    "里马克"  # Rímac
+    "皮布尔斯伯国"  # County of Peebles
+  }
+}
+CHL_BB_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_BB
+  for_countries = {
+    CHL
+  }
+  type = ship
+  ship_types = {
+    ship_hull_heavy
+    battleship
+  }
+  prefix = "BACH "
+  fallback_name = "%d号战列舰"  # Acorazado %d
+  unique = {
+    "拉托雷海军上将"  # Almirante Latorre
+    "智利共和国"  # República de Chile
+    "利马"  # Lima
+    "秘鲁"  # Peruana
+    "自由"  # Libertad
+    "特鲁希拉纳"  # Trujillana
+    "阿根廷"  # Argentina
+    "太平洋"  # Pacífico
+    "涅普顿"  # Neptuno
+    "猎人"  # Cazador
+    "科克伦"  # Cochrane
+    "里马克"  # Rímac
+    "皮布尔斯伯国"  # County of Peebles
+    "威严"  # Majestic
+    "参宿四"  # Betelgeuse
+  }
+}
+CHL_BC_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_BC
+  for_countries = {
+    CHL
+  }
+  type = ship
+  ship_types = {
+    ship_hull_heavy
+    battle_cruiser
+  }
+  prefix = "BACH "
+  fallback_name = "%d号战列巡洋舰"  # Crucero de Batalla %d
+  unique = {
+    "智利共和国"  # República de Chile
+    "利马"  # Lima
+    "秘鲁"  # Peruana
+    "自由"  # Libertad
+    "特鲁希拉纳"  # Trujillana
+    "阿根廷"  # Argentina
+    "太平洋"  # Pacífico
+    "涅普顿"  # Neptuno
+    "猎人"  # Cazador
+    "科克伦"  # Cochrane
+    "里马克"  # Rímac
+    "皮布尔斯伯国"  # County of Peebles
+    "安达卢西亚"  # Andalucía
+    "瓜亚坎"  # Guayacán
+  }
+}
+CHL_CV_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CARRIERS
+  for_countries = {
+    CHL
+  }
+  type = ship
+  ship_types = {
+    ship_hull_carrier
+    carrier
+  }
+  prefix = "BACH "
+  fallback_name = "%d号航空母舰"  # Portaaviones %d
+  unique = {
+    "智利安第斯山脉"  # Los Andes de Chile
+    "精进"  # Excelsior
+    "太平洋"  # Pacífico
+    "流星"  # Meteoro
+    "辛普森"  # Simpson
+    "拉夫提那"  # La Fortuna
+  }
+}
+CHL_SS_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_SUBMARINES
+  for_countries = {
+    CHL
+  }
+  type = ship
+  ship_types = {
+    ship_hull_submarine
+    submarine
+  }
+  prefix = "BACH "
+  fallback_name = "%d号潜艇"  # Submarino %d
+  unique = {
+    "瓜科尔达"  # Gualcolda
+    "特瓜尔达"  # Tegualda
+    "鲁库米利亚"  # Rucumilla
+    "基多拉"  # Quidora
+    "弗雷西亚"  # Fresia
+    "兀鹫"  # Guale
+    "奥布赖恩上尉"  # Capitán O`Brien
+    "辛普森海军上将"  # Almirante Simpson
+    "汤姆森海军上校"  # Capitán Thomson
+    "希金斯"  # O`Higgins
+    "卡雷拉"  # Carrera
+    "皮萨罗"  # Pizarro
+    "努布雷"  # Ñuble
+    "阿图罗"  # Arturo
+    "磷"  # Fósforo
+    "卡洛斯"  # Carlos
+    "托尔滕"  # Toltén
+    "马波丘"  # Mapocho
+    "比奥比奥"  # Bío Bío
+    "亚涅斯"  # Yañez
+    "塞拉诺"  # Serrano
+    "奥雷利亚海军上校"  # Orella
+    "穆尼奥斯"  # Muñoz Gamero
+    "叶尔乔"  # Yelcho
+    "伊基克"  # Iquique
+    "伊拉鲁伊斯"  # Errázuriz
+    "考波利坎"  # Caupolicán
+    "乌里韦"  # Uribe
+    "普拉特上尉"  # Capitán Prat
+  }
+}

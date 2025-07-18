@@ -1,0 +1,123 @@
+﻿division_template = {
+  name = "第二支援军"  # Erjinzhi Juntuán
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+  }
+}
+units = {
+  division = {
+    name = "第1人民军队"  # 1 Renmin Jundui
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第2人民军队"  # 2 Renmin Jundui
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第3人民军队"  # 3 Renmin Jundui
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第4人民军队"  # 4 Renmin Jundui
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第5人民军队"  # 5 Renmin Jundui
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第6人民军队"  # 6 Renmin Jundui
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第7人民军队"  # 7 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第8人民军队"  # 8 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第9人民军队"  # 9 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第10人民军队"  # 10 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第11人民军队"  # 11 Renmin Jundui
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第12人民军队"  # 12 Renmin Jundui
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第13人民军队"  # 13 Renmin Jundui
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第14人民军队"  # 14 Renmin Jundui
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第15人民军队"  # 15 Renmin Jundui
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第16人民军队"  # 16 Renmin Jundui
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第17人民军队"  # 17 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第18人民军队"  # 18 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第19人民军队"  # 19 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第20人民军队"  # 20 Renmin Jundui
+    location = 12331
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+}

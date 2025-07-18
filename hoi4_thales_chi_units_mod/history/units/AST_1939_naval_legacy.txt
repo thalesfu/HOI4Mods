@@ -1,0 +1,126 @@
+﻿units = {
+  fleet = {
+    name = "澳大利亚皇家海军"  # Royal Australian Navy
+    naval_base = 12406
+    task_force = {
+      name = "澳大利亚中队"  # Australian Squadron
+      base = 12406
+      location = 12406
+      ship = {
+        name = "堪培拉"  # HMAS Canberra
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = AST
+            version_name = "堪培拉级"  # Canberra Class
+          }
+        }
+      }
+      ship = {
+        name = "澳大利亚"  # HMAS Australia
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = AST
+            version_name = "堪培拉级"  # Canberra Class
+          }
+        }
+      }
+      ship = {
+        name = "悉尼"  # HMAS Sydney
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = AST
+            version_name = "悉尼级"  # Sydney Class
+          }
+        }
+      }
+      ship = {
+        name = "霍巴特"  # HMAS Hobart
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = AST
+            version_name = "悉尼级"  # Sydney Class
+          }
+        }
+      }
+      ship = {
+        name = "珀斯"  # HMAS Perth
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = AST
+            version_name = "悉尼级"  # Sydney Class
+          }
+        }
+      }
+      ship = {
+        name = "阿德莱德"  # HMAS Adelaide
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = AST
+          }
+        }
+      }
+      ship = {
+        name = "斯图尔特"  # HMAS Stuart
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = AST
+          }
+        }
+      }
+      ship = {
+        name = "吸血鬼"  # HMAS Vampire
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = AST
+          }
+        }
+      }
+      ship = {
+        name = "复仇"  # HMAS Vendetta
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = AST
+          }
+        }
+      }
+      ship = {
+        name = "旅行者"  # HMAS Voyager
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = AST
+          }
+        }
+      }
+      ship = {
+        name = "水母"  # HMAS Waterhen
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = AST
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+﻿units = {
+  fleet = {
+    name = "墨西哥海军"  # Armada de México
+    naval_base = 12810
+    task_force = {
+      name = "墨西哥海军"  # Armada de México
+      location = 12810
+      ship = {
+        name = "尼古拉斯·布拉沃"  # ARM Nicolás Bravo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "尼科劳斯·布拉沃级"  # Nicolás Bravo Class
+          }
+        }
+      }
+      ship = {
+        name = "杜兰戈"  # ARM Durango
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "杜兰戈级"  # Durango Class
+          }
+        }
+      }
+      ship = {
+        name = "瓜纳华托"  # ARM Guanajuato
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "杜兰戈级"  # Durango Class
+          }
+        }
+      }
+      ship = {
+        name = "格雷塔罗"  # ARM Querétaro
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "杜兰戈级"  # Durango Class
+          }
+        }
+      }
+      ship = {
+        name = "波托西"  # ARM Potosí
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "杜兰戈级"  # Durango Class
+          }
+        }
+      }
+    }
+  }
+}

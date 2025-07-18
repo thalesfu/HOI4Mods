@@ -1,0 +1,182 @@
+﻿ITA = { 
+	submarine = { 
+		prefix = "RSmg" # Regio Sommergibile
+		generic = { "潜艇" } 
+		unique = { 
+			# Current models (2 Glauco class, 3 Pietro Calvi class, 2 Argo class, 10 Serie 600 - Perla class, 17 Serie 600 - Adua class, 11 Marcello class, 5 Benedetto Brin class, 4 Console Generale Liuzzi class, 
+			# 6 Marconi class, 4 Ammiragli class, 13 Serie 600 - Platino class, 6 Tritone Prima Serie class, 8 Tritone Seconda Serie class) 
+			"青" "海狮" "彼得罗·卡尔维" "朱塞佩·芬齐" "恩里科·塔佐利" "百眼巨人" "帆水母" "琥珀" "绿玉" "珊瑚" "碧玉" "宝石" "彩虹石" "孔雀石" "缟玛瑙" "珍珠" "绿松石" "阿杜瓦" "阿拉吉" 
+			"阿拉达姆" "阿萨安奇" "阿克苏姆" "贝鲁尔" "达格布尔" "德塞" "多尔博" "贡德尔" "拉夫勒" "马卡莱" "讷格莱" "斯西勒" "特姆比安" "瓦谢克" "上比希贝利" "马塞罗" "丹多洛" "维尼埃罗" "博罗瓦纳" 
+			"莫塞尼戈" "纳尼" "巴巴里戈" "埃莫" "莫罗西尼" "卡佩里尼指挥官" "费亚‧迪‧布鲁诺指挥官" "布林" "伽尔伐尼" "古列尔莫蒂" "阿基米德" "托里切利" "里尤兹总领事" "巴尼奥里尼山地兵" 
+			"雷吉纳尔多·朱利安尼" "塔兰蒂尼校官" "古列尔莫·马可尼" "莱昂纳多·达芬奇" "米歇尔·比安奇" "路易吉·托雷利" "亚历山德罗·马拉皮纳" "巴拉卡少校" "圣邦海军上将" "卡尼海军上将" 
+			"米洛海军上将" "卡拉乔洛海军上将" "钢" "雪花石" "银" "星彩宝石" "象牙" "青铜" "钴" "玉" "花岗石" "镍" "铂金" "斑岩" "钨" "人鱼海神" "旋涡" "波浪" 
+			"潮汐" "旋风" "鹦鹉螺" "钡" "锂" "钠" "钾" "铜" "铁" "锌" "铅" 
+			# Canceled/Not completed/Reconstructed (6 Tritone Prima Serie class, 16 Tritone Seconda Serie class, 2 Bragadin class, 1 Pietro Micca class, 3 Foca class, YUG Smeli, YUG Osvetnik) 
+			"海鳝" "康吉鳗" "鲷鱼" "狼鲈" "石斑鱼" "牙雕" "铬" "黄铜" "镉" "钒" "铱" "钌" "金" "铝" "锑" "磷" "锰" "硫" "硅" "镁" 
+			"汞" "石棉" "马尔坎通尼奥·布拉加丁" "菲利波·科里多尼" "彼得罗·米卡" "海豹" "阿特洛波" "海蚤" "安东尼奥·巴哈蒙蒂" "弗朗切斯科·里斯曼多" 
+			# Older models (5 WWI H class, 4 Balilla class, 4 Mameli class, 4 Vettor Pisani class, 1 Ettore Fieramosca class, 4 Fratelli Bandiera class, 4 Squalo class, 7 Serie 600 - Argonauta class, 
+			# 2 Settembrini class, 3 Archimede class, 12 Serie 600 - Sirena class) 
+			"H1", "H2", "H4", "H6", "H8", "法西斯先锋队员" "多梅尼科·米利里尔" "恩里科·托蒂" "安东尼奥·西耶萨" "戈弗雷多·马梅利" "皮耶尔·卡波尼" "乔凡尼·达·普罗奇达" "铁托·斯佩里" "维托·比萨尼" "马坎通尼奥·科隆纳" 
+			"乔凡尼·鲍桑" "德·斯杰尼" "埃托尔·费拉莫斯卡" "旗帜兄弟" "卢西亚诺·马纳拉" "圣托尔·圣罗莎" "西罗·梅诺蒂" "鲨鱼" "独角鲸" "海豚" "海象" "阿尔戈英雄" "菲萨莉亚" "耶利亚" "耶蒂娜" 
+			"美杜莎" "纽鳃樽" "蛇" "路易吉·塞特姆布里尼" "鲁杰罗·塞蒂莫" "伽利略· 伽利莱" "托里切利传教士" "伽利略·法拉利" "紫水晶" "安菲特里特" "钻石" "嘉拉蒂娅" "水神" "海中仙女" "水神" 
+			"红宝石" "美人鱼" "绿宝石" "黄玉" "蓝宝石" 
+			# Fictional names start here (10 fictional, 3 WWI H class) 
+			"锕" "氮" "溴" "碳" "氦" "钼" "锇" "氧" "硒" "钨", "H3", "H5", "H7" 
+		} 
+	} 
+	destroyer = { 
+		prefix = "RN" # Regio 驱逐舰 (this group includes also torpedo boats classified as RT - Regio Torpediniere)
+		generic = { "驱逐舰" } 
+		unique = { 
+			# Current models (12 Soldati Prima Serie class, 5 Soldati Seconda Serie class, 32 Spica class, 13 Ariete class, 4 Orsa class, 16 Ciclone class) 
+			"黑衫军" "山地兵" "炮兵" "警卫兵" "航空兵" "狙击兵" "宪兵" "骑兵" "步兵" "工兵" "掷弹兵" "矛骑兵" "轰炸兵" "海盗" "军团" "机枪手" 
+			"轻步兵" "角宿一" "苍鹰" "克里梅内" "半人马" "卡斯托雷" "天鹅座" "老人星" "仙后座" "英仙座" "斯瑞欧" "射手座" "织女星" "毕宿五" "仙女座" "河鼓二" "心宿二" "白鹭" "翠鸟" 
+			"阿蕾图莎" "天卫一" "昂宿座" "北河三" "巴拉代" "帕尔特诺贝" "天琴座" "天秤座" "狼" "猞猁" "克利欧" "巫神星" "卡拉培" "卡吕普索" "白羊座" "阿图罗" "御夫座" "参宿七" "波江座" "天龙座" "短剑" 
+			"剑" "匕首" "短刃" "长矛" "戟" "北极星" "大熊座" "飞马座" "猎户座" "浣熊" "信风" "勇敢" "炽热" "大胆" "强悍" "龙卷风" "幸运" "热南风" "狂风" 
+			"无畏" "猛烈" "不屈" "勇猛" "季风" "台风" "飓风" 
+			# Canceled/Not completed/Reconstructed (1 Leone class, 2 Soldati Seconda Serie class, Dubrovnik, 2 Sebenico class, 20 Comandanti Medaglia d'Oro class, 2 Ariete class) 
+			"豹" "坦克兵" "法西斯行动队队员" "普雷穆达" "希贝尼克" "卢布尔雅那" "玛格蒂尼指挥官" "巴罗尼指挥官" "博尔西尼指挥官" "博蒂指挥官" "卡萨纳指挥官" "科尔西指挥官" 
+			"德克里斯托法罗指挥官" "代尔安诺指挥官" "埃斯波西托指挥官" "菲奥勒利指挥官" "丰塔纳指挥官" "吉安娜塔西奥指挥官" "杰奥贝指挥官" "乔治斯指挥官" 
+			"米兰诺指挥官" "莫卡加塔指挥官" "诺瓦罗指挥官" "罗多卡纳奇指挥官" "鲁塔指挥官" "托斯卡纳指挥官" "投掷器" "弩" 
+			# Older models (2 Mirabello class, 3 Leone class, 8 Rosolino Pilo class, Audace, 4 Giuseppe Sirtori class, 7 Giuseppe La Masa class, 4 Palestro class, 6 Generale Antonio Cantore class, 4 Curtatone class, 
+			# 4 Quintino Sella class, 4 Nazario Sauro class, 12 Navigatori class, 8 Turbine class, 4 Dardo Prima Serie class, 4 Dardo Seconda Serie class, 4 Maestrale class, 4 Oriani class) 
+			"卡罗·米拉贝罗" "奥古斯托·里伯蒂" "狮" "豹" "虎" "罗索里诺·皮洛" "朱塞佩·切萨雷·阿巴" "朱塞佩·德扎" "朱塞佩·米索里" "安东尼奥·莫斯托" "伊波利托·涅沃" "凯罗利兄弟" 
+			"西蒙妮·希亚菲诺" "冒险" "朱塞佩·西尔托里" "乔凡尼·阿塞比" "文森佐·佐丹奴·奥尔西尼" "弗朗西斯科·斯托科" "朱塞佩·拉·马萨" "安吉洛·巴西尼" "恩里科·科森兹" "贾辛托·卡里尼" "尼古拉·法布里齐" 
+			"朱塞佩·拉·法里纳" "贾科莫·梅迪奇" "帕雷斯托" "孔菲耶恩扎" "圣马蒂诺" "索尔费里诺" "安东尼奥·坎托雷将军" "安东尼奥·卡西诺将军" "安东尼奥·奇诺托将军" "卡罗·蒙塔纳里将军" 
+			"阿基里·帕帕将军" "马切洛·普雷斯蒂纳里将军" "库尔塔托" "卡拉塔菲米" "卡斯特费达尔多" "蒙赞巴诺" "昆蒂诺·塞拉" "弗朗切斯科·克里斯皮" "乔凡尼·尼科特拉" "贝蒂诺·里卡索利" "纳萨里奥·萨乌罗" 
+			"切萨雷·巴蒂斯蒂" "丹妮尔·曼宁" "弗朗切斯科·努洛" "阿尔维斯·达·莫斯托" "安东尼奥·达·诺利" "尼科洛索·达·雷科" "乔瓦尼·达·韦拉扎诺" "朗泽罗托.马罗切洛" "利昂·潘卡尔多" "伊曼纽尔·佩萨尼奥" 
+			"安东尼奥·皮塔菲塔" "卢卡·塔里戈" "安东尼奥·乌索迪马雷" "乌戈利诺·维瓦尔第" "尼科洛·芝诺" "旋风" "北风" "博里" "埃斯佩罗" "欧洲" "雨云" "南风" "西风" "标枪" "箭头" "闪电" "箭矢" 
+			"霹雳" "雷电" "闪雷" "电光" "西北风" "东北风" "西南风" "希罗科风" "阿尔弗雷多·奥里亚尼" "维托里奥·阿尔菲里" "乔苏·卡杜奇" "温琴佐·乔贝蒂" 
+			# Fictional names start here (1 Mirabello class, 2 Indomito class, 1 Rosolino Pilo class, 2 Giuseppe La Masa class) 
+			"卡洛·阿尔贝托·拉基亚" "阴险" "吵闹" "皮拉德·布朗泽蒂" "阿戈斯蒂诺·贝塔尼" "贝内代托·开罗利" 
+		} 
+	} 
+	light_cruiser = { 
+		prefix = "RN" # Regio Incrociatore
+		generic = { "轻巡洋舰" } 
+		unique = { 
+			# Current models (2 Duca d'Aosta class, 2 Duca degli Abruzzi class, 4 Capitani Romani class) 
+			"伊曼纽尔" "萨沃亚 尤金尼奥" "阿布鲁奇公爵" "朱塞佩·加里波第" "阿蒂利奥国王" "利希皮奥内" "朱利奥·日耳曼尼科" "朱利奥·蓬佩奥" 
+			# Canceled/Not completed/Reconstructed (8 Capitani Romani class, 2 San Giorgio class, 2 Etna class, 2 Costanzo Ciano class) 
+			"卢西奥·科尼利奥·西拉" "凯奥·马里奥" "屋大维" "乌尔皮奥·特拉亚诺" "克劳迪奥·德鲁索" "克劳迪奥·提比里奥" "维普萨尼奥·阿格里帕" "保罗·埃米利奥" "圣乔治" "圣马可" "埃特纳" "维苏威" 
+			"科斯坦佐·齐亚诺" "威尼斯" 
+			# Older models (SMS Pillau, SMS Strassburg, 4 Giussano class, 2 Cadorna class, 2 Montecuccoli class) 
+			"巴里" "塔兰托" "阿尔贝托·达·朱萨诺" "阿尔布里科·达·巴比亚诺" "巴托洛梅奥·科莱奥尼" "乔瓦尼·达勒·班德·内尔" "路易吉·卡多纳" "阿尔曼杜·迪亚斯" "雷蒙多·蒙特库科利" "马齐奥·阿坦多洛" 
+			# Fictional names start here (2 WWI Basilicata class, 7 pre-WWI Regioni class, 6 WWI Esploratori class) 
+			"巴西利卡塔" "坎帕尼亚" "伦巴第" "卡拉布里亚" "厄尔巴" "伊特鲁里亚" "利古里亚" "普利亚" "翁布里亚" "夸尔托" "尼诺·比雄" "马沙拉" "利比亚" "安科纳" "布林迪西" 
+		} 
+	} 
+	heavy_cruiser = { 
+		prefix = "RN" # Regio Incrociatore
+		generic = { "重型巡洋舰" } 
+		unique = { 
+			# Current models (2 Trento class, 4 Zara class, 1 Bolzano class) 
+			"特伦托" "的里雅斯特" "扎拉" "阜姆" "戈里齐亚" "普拉" "博尔扎诺" 
+			# Older models (1 WWI San Giorgio class) 
+			"圣乔治" 
+		   # Fictional names start here (3 WWI Vettor Pisani class, 3 WWI Giuseppe Garibaldi class, 2 WWI Pisa class, 1 WWI San Giorgio class) 
+			"维托·比萨尼" "卡洛·阿尔贝托" "马可波罗" "朱塞佩·加里波第" "瓦雷泽" "弗朗切斯科·费鲁乔" "比萨" "阿马尔费" "圣马可" 
+		} 
+	} 
+	battle_cruiser = { 
+		prefix = "RN" # Regia Nave
+		generic = { "战列巡洋舰" } 
+		unique = { 
+			# Canceled/Not completed (4 Francesco Caracciolo class) 
+			"弗朗切斯科·卡拉乔洛" "克里斯托弗·哥伦布" "马坎通尼奥·科隆纳" "弗朗切斯科·莫罗西尼" 
+			# Fictional names start here (2 pre-WWI Principe Amedeo class) 
+			"阿米德奥亲王" "角斗场" 
+		} 
+	} 
+	battleship = { 
+		prefix = "RN" # Regia Nave
+		generic = { "战列舰" } 
+		unique = { 
+			# Current models (2 Conte Di Cavour class, 2 Caio Duilio class, 3 Littorio class) 
+			"加富尔伯爵" "朱利奥·凯撒" "卡约·杜伊利奥" "安德烈亚·多利亚" "法西斯标志" "维托里奥·威尼托" "罗马" 
+			# Canceled/Not completed/Reconstructed (1 Littorio class, 1 Italia class) 
+			"帝国" "意大利" 
+			# Fictional names start here (1 WWI Conte Di Cavour class, 1 WWI Dante Alighieri class) 
+			"莱昂纳多·达芬奇" "阿利盖利·但丁" 
+		} 
+	} 
+	carrier = { 
+		prefix = "RN" # Regia Nave
+		generic = { "航空母舰" } 
+		unique = { 
+			# Canceled/Not completed/Reconstructed (1 Aquila class, 1 Sparviero class) 
+			"鹰" "鹞鹰" 
+			# Fictional names start here (1 fictional, 1 pre-WWI Europa class, 1 WWI Giuseppe Miraglia class) 
+			"隼" "欧罗巴" "朱塞佩·米拉格利亚" 
+		} 
+	} 
+
+	air_wing_names_template = AIR_WING_NAME_ITA_FALLBACK 
+
+	infantry = { 
+		prefix = "" 
+		generic = { "步兵师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	marine = { 
+		prefix = "" 
+		generic = { "海军陆战队" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	mountaineers = { 
+		prefix = "" 
+		generic = { "山地师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	paratrooper = { 
+		prefix = "" 
+		generic = { "伞兵师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	cavalry = { 
+		prefix = "" 
+		generic = { "骑兵团" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	motorized = { 
+		prefix = "" 
+		generic = { "摩托化师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	mechanized = { 
+		prefix = "" 
+		generic = { "机械化师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	light_armor = { 
+		prefix = "" 
+		generic = { "装甲师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	medium_armor = { 
+		prefix = "" 
+		generic = { "装甲师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	heavy_armor = { 
+		prefix = "" 
+		generic = { "装甲师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+	modern_armor = { 
+		prefix = "" 
+		generic = { "装甲师" } 
+		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
+		unique = {} 
+	} 
+} 

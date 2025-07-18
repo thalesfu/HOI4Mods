@@ -1,0 +1,814 @@
+﻿division_template = {
+  name = "步兵师"  # Infantry Division
+  division_names_group = ENG_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+    recon = {
+      x = 0
+      y = 1
+    }
+    artillery = {
+      x = 0
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "步兵师 (ME)"  # Infantry Division (ME)
+  division_names_group = ENG_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+  }
+  support = {
+    recon = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "摩托化步兵师"  # Motorised Division
+  division_names_group = ENG_MOT_01
+  regiments = {
+    motorized = {
+      x = 0
+      y = 0
+    }
+    motorized = {
+      x = 0
+      y = 1
+    }
+    motorized = {
+      x = 0
+      y = 2
+    }
+    motorized = {
+      x = 1
+      y = 0
+    }
+    motorized = {
+      x = 1
+      y = 1
+    }
+    motorized = {
+      x = 1
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+    mot_recon = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "装甲师"  # Armour Division
+  division_names_group = ENG_ARM_01
+  regiments = {
+    medium_armor = {
+      x = 0
+      y = 0
+    }
+    medium_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 0
+      y = 2
+    }
+    light_armor = {
+      x = 1
+      y = 0
+    }
+    light_armor = {
+      x = 1
+      y = 1
+    }
+    light_armor = {
+      x = 1
+      y = 2
+    }
+    light_armor = {
+      x = 2
+      y = 0
+    }
+    light_armor = {
+      x = 2
+      y = 1
+    }
+    light_armor = {
+      x = 2
+      y = 2
+    }
+    motorized = {
+      x = 3
+      y = 0
+    }
+    motorized = {
+      x = 3
+      y = 1
+    }
+  }
+  support = {
+    mot_recon = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "坦克旅"  # Tank Brigade
+  division_names_group = ENG_ARM_02
+  regiments = {
+    light_armor = {
+      x = 0
+      y = 0
+    }
+    light_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 0
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "骑兵旅"  # Cavalry Brigade
+  division_names_group = ENG_CAV_02
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 0
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "殖民地驻军"  # Colonial Garrison
+  division_names_group = ENG_COL_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+  }
+  priority = 0
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 351
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 23
+    }
+    location = 9397
+    division_template = "摩托化步兵师"  # Motorised Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 50
+    }
+    location = 9397
+    division_template = "摩托化步兵师"  # Motorised Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第25坦克旅"  # 25th Army Tank Brigade
+    location = 9397
+    division_template = "坦克旅"  # Tank Brigade
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 46
+    }
+    location = 11218
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 49
+    }
+    location = 11218
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第5骑兵旅"  # 5th Cavalry Brigade
+    location = 11297
+    division_template = "骑兵旅"  # Cavalry Brigade
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 271
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 11374
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 44
+    }
+    location = 11374
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第21坦克旅"  # 21st Army Tank Brigade
+    location = 11374
+    division_template = "坦克旅"  # Tank Brigade
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 18
+    }
+    location = 3287
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 54
+    }
+    location = 3287
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 38
+    }
+    location = 311
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 53
+    }
+    location = 311
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 55
+    }
+    location = 6384
+    division_template = "摩托化步兵师"  # Motorised Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 59
+    }
+    location = 6384
+    division_template = "摩托化步兵师"  # Motorised Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "第23坦克旅"  # 23rd Army Tank Brigade
+    location = 6384
+    division_template = "坦克旅"  # Tank Brigade
+    start_experience_factor = 0.2
+  }
+  division = {
+    name = "第6骑兵旅"  # 6th Cavalry Brigade
+    location = 407
+    division_template = "骑兵旅"  # Cavalry Brigade
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 42
+    }
+    location = 6318
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 66
+    }
+    location = 6318
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "第24坦克旅"  # 24th Army Tank Brigade
+    location = 6318
+    division_template = "坦克旅"  # Tank Brigade
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 13070
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 13070
+    division_template = "装甲师"  # Armour Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 43
+    }
+    location = 3369
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 45
+    }
+    location = 3369
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 48
+    }
+    location = 6351
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 61
+    }
+    location = 6351
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "20轻装坦克旅"  # 20th Light Army Tank Brigade
+    location = 9239
+    division_template = "坦克旅"  # Tank Brigade
+    start_experience_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 9458
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 9458
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.3
+  }
+  division = {
+    name = "第1坦克旅"  # 1st Army Tank Brigade
+    location = 9458
+    division_template = "坦克旅"  # Tank Brigade
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 9
+    }
+    location = 3273
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 51
+    }
+    location = 3273
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 15
+    }
+    location = 9392
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 52
+    }
+    location = 9392
+    division_template = "步兵师"  # Infantry Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第1伦敦摩托化步兵师"  # 1st London Motorised Division
+    location = 6103
+    division_template = "摩托化步兵师"  # Motorised Division
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "第2伦敦摩托化步兵师"  # 2nd London Motorised Division
+    location = 6103
+    division_template = "摩托化步兵师"  # Motorised Division
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "北爱尔兰警备队"  # Northern Ireland Command
+    location = 3379
+    division_template = "殖民地驻军"  # Colonial Garrison
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "直布罗陀警备队"  # Gibraltar Command
+    location = 4135
+    division_template = "殖民地驻军"  # Colonial Garrison
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "马耳他警备队"  # Malta Command
+    location = 12003
+    division_template = "殖民地驻军"  # Colonial Garrison
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 7011
+    division_template = "步兵师 (ME)"  # Infantry Division (ME)
+    start_experience_factor = 0.3
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 7011
+    division_template = "装甲师"  # Armour Division
+    start_experience_factor = 0.3
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "开罗区警备队"  # Cairo Area
+    location = 7011
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "苏伊士运河区警备队"  # Canal Area
+    location = 1155
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 8
+    }
+    location = 4206
+    division_template = "机械化步兵师"  # Infantry Division (ME)
+    start_experience_factor = 0.3
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "耶路撒冷与利达区警备队"  # Jerusalem & Lydda Area
+    location = 4206
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "亚丁武装守备队"  # Aden Defense Force
+    location = 12821
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "苏丹警备队"  # British Troops in Sudan
+    location = 12806
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "东非武装警备队"  # East Africa Force
+    location = 1939
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "北罗得西亚警备队"  # Northern Rhodesia Force
+    location = 10929
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_equipment_factor = 0.3
+  }
+  division = {
+    name = "第1西非武装警备队"  # 1 West African Force
+    location = 2050
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "第2西非武装警备队"  # 2 West African Force
+    location = 10862
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "锡兰警备队"  # Ceylon Command
+    location = 7260
+    division_template = "殖民地驻军"  # Colonial Garrison
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "ENG"
+      }
+    }
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "新加坡要塞守备队"  # Singapore Fortress
+    location = 12299
+    division_template = "殖民地驻军"  # Colonial Garrison
+    start_experience_factor = 0.2
+  }
+  division = {
+    name = "槟城要塞守备队"  # Penang Fortress
+    location = 12215
+    division_template = "殖民地驻军"  # Colonial Garrison
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.15
+  }
+  division = {
+    name = "香港武装守备队"  # Hong Kong VDF
+    location = 10062
+    division_template = "殖民地驻军"  # Colonial Garrison
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.3
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "ENG"
+    }
+    requested_factories = 7
+    progress = 0.1
+    efficiency = 100
+    industrial_manufacturer = mio:ENG_rsaf_enfield_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = support_equipment_1
+      creator = "ENG"
+    }
+    requested_factories = 2
+    progress = 0.3
+    efficiency = 100
+  }
+  add_equipment_production = {
+    equipment = {
+      type = light_tank_equipment_2
+      creator = "ENG"
+    }
+    requested_factories = 2
+    progress = 0.4
+    efficiency = 100
+    industrial_manufacturer = mio:ENG_vauxhall_organization
+  }
+}

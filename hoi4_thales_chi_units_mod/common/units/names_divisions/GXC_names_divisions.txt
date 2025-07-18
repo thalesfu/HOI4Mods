@@ -1,0 +1,335 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+GXC_INF_01 = 
+{
+	name = "广西步兵师"
+
+	for_countries = { GXC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01}
+
+	fallback_name = "广西第%d师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		62 = { "广西第%d师" }				# Historical NRA Corps names for Guanxi divisions
+		63 = { "广西第%d师" }				
+		64 = { "广西第%d师" }				
+		65 = { "广西第%d师" }				
+		66 = { "广西第%d师" }				
+		67 = { "广西第%d师" }				
+		68 = { "广西第%d师" }				
+		69 = { "广西第%d师" }				
+		60 = { "广西第%d师" }				
+		61 = { "广西第%d师" }				
+		1 = { "广西第%d师" }		# fictional warlord corps
+		2 = { "广西第%d师" }
+		3 = { "广西第%d师" }
+		4 = { "广西第%d师" }
+		5 = { "广西第%d师" }
+		6 = { "广西第%d师" }
+		7 = { "广西第%d师" }
+		8 = { "广西第%d师" }
+		9 = { "广西第%d师" }
+		10 = { "广西第%d师" }
+		11 = { "广西第%d师" }
+		12 = { "广西第%d师" }
+		13 = { "广西第%d师" }
+		14 = { "广西第%d师" }
+		15 = { "广西第%d师" }
+		16 = { "广西第%d师" }
+		17 = { "广西第%d师" }
+		18 = { "广西第%d师" }
+		19 = { "广西第%d师" }
+		20 = { "广西第%d师" }
+	}
+}
+
+GXC_CAV_01 = 
+{
+	name = "Cavalry Unit"
+
+	for_countries = { GXC }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01}
+
+	fallback_name = "广西第%d骑兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "广西第%d骑兵师" }			# All fictional warlord cavalry corps
+		2 = { "广西第%d骑兵师" }
+		3 = { "广西第%d骑兵师" }
+		4 = { "广西第%d骑兵师" }
+		6 = { "广西第%d骑兵师" }
+		5 = { "广西第%d骑兵师" }
+		7 = { "广西第%d骑兵师" }
+		8 = { "广西第%d骑兵师" }
+		9 = { "广西第%d骑兵师" }
+		10 = { "广西第%d骑兵师" }
+		11 = { "广西第%d骑兵师" }
+		12 = { "广西第%d骑兵师" }
+		13 = { "广西第%d骑兵师" }
+		14 = { "广西第%d骑兵师" }
+		15 = { "广西第%d骑兵师" }
+	}
+}
+
+GXC_MOT_01 = 
+{
+	name = "广西摩托化步兵师"
+
+	for_countries = { GXC }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01}
+
+	fallback_name = "广西第%d摩托化步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		62 = { "广西第%d摩托化步兵师" }				# Historical NRA Corps names for Guanxi divisions
+		63 = { "广西第%d摩托化步兵师" }				
+		64 = { "广西第%d摩托化步兵师" }				
+		65 = { "广西第%d摩托化步兵师" }				
+		66 = { "广西第%d摩托化步兵师" }				
+		67 = { "广西第%d摩托化步兵师" }				
+		68 = { "广西第%d摩托化步兵师" }				
+		69 = { "广西第%d摩托化步兵师" }				
+		60 = { "广西第%d摩托化步兵师" }				
+		61 = { "广西第%d摩托化步兵师" }				
+		1 = { "广西第%d摩托化步兵师" }		# fictional warlord corps
+		2 = { "广西第%d摩托化步兵师" }
+		3 = { "广西第%d摩托化步兵师" }
+		4 = { "广西第%d摩托化步兵师" }
+		5 = { "广西第%d摩托化步兵师" }
+		6 = { "广西第%d摩托化步兵师" }
+		7 = { "广西第%d摩托化步兵师" }
+		8 = { "广西第%d摩托化步兵师" }
+		9 = { "广西第%d摩托化步兵师" }
+		10 = { "广西第%d摩托化步兵师" }
+		11 = { "广西第%d摩托化步兵师" }
+		12 = { "广西第%d摩托化步兵师" }
+		13 = { "广西第%d摩托化步兵师" }
+		14 = { "广西第%d摩托化步兵师" }
+		15 = { "广西第%d摩托化步兵师" }
+		16 = { "广西第%d摩托化步兵师" }
+		17 = { "广西第%d摩托化步兵师" }
+		18 = { "广西第%d摩托化步兵师" }
+		19 = { "广西第%d摩托化步兵师" }
+		20 = { "广西第%d摩托化步兵师" }
+	}
+}
+
+GXC_MEC_01 = 
+{
+	name = "广西机械化步兵师"
+
+	for_countries = { GXC }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01}
+
+	fallback_name = "广西第%d机械化步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		62 = { "广西第%d机械化步兵师" }				# Historical NRA Corps names for Guanxi divisions
+		63 = { "广西第%d机械化步兵师" }				
+		64 = { "广西第%d机械化步兵师" }				
+		65 = { "广西第%d机械化步兵师" }				
+		66 = { "广西第%d机械化步兵师" }				
+		67 = { "广西第%d机械化步兵师" }				
+		68 = { "广西第%d机械化步兵师" }				
+		69 = { "广西第%d机械化步兵师" }				
+		60 = { "广西第%d机械化步兵师" }				
+		61 = { "广西第%d机械化步兵师" }				
+		1 = { "广西第%d机械化步兵师" }		# fictional warlord corps
+		2 = { "广西第%d机械化步兵师" }
+		3 = { "广西第%d机械化步兵师" }
+		4 = { "广西第%d机械化步兵师" }
+		5 = { "广西第%d机械化步兵师" }
+		6 = { "广西第%d机械化步兵师" }
+		7 = { "广西第%d机械化步兵师" }
+		8 = { "广西第%d机械化步兵师" }
+		9 = { "广西第%d机械化步兵师" }
+		10 = { "广西第%d机械化步兵师" }
+		11 = { "广西第%d机械化步兵师" }
+		12 = { "广西第%d机械化步兵师" }
+		13 = { "广西第%d机械化步兵师" }
+		14 = { "广西第%d机械化步兵师" }
+		15 = { "广西第%d机械化步兵师" }
+		16 = { "广西第%d机械化步兵师" }
+		17 = { "广西第%d机械化步兵师" }
+		18 = { "广西第%d机械化步兵师" }
+		19 = { "广西第%d机械化步兵师" }
+		20 = { "广西第%d机械化步兵师" }
+	}
+}
+
+#CHI_ARM_01 -- armor linked to CHI naming group
+#CHI_PAR_01 -- airborne linked to CHI naming group 
+#CHI_MAR_01 -- marines linked to CHI naming group 
+
+GXC_MNT_01 = 
+{
+	name = "Mountain Unit"
+
+	for_countries = { GXC }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01}
+
+	fallback_name = "广西第%d山地师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		62 = { "广西第%d山地师" }				# Historical NRA Corps names for Guanxi divisions
+		63 = { "广西第%d山地师" }				
+		64 = { "广西第%d山地师" }				
+		65 = { "广西第%d山地师" }				
+		66 = { "广西第%d山地师" }				
+		67 = { "广西第%d山地师" }				
+		68 = { "广西第%d山地师" }				
+		69 = { "广西第%d山地师" }				
+		60 = { "广西第%d山地师" }				
+		61 = { "广西第%d山地师" }				
+		1 = { "广西第%d山地师" }		# fictional warlord corps
+		2 = { "广西第%d山地师" }
+		3 = { "广西第%d山地师" }
+		4 = { "广西第%d山地师" }
+		5 = { "广西第%d山地师" }
+		6 = { "广西第%d山地师" }
+		7 = { "广西第%d山地师" }
+		8 = { "广西第%d山地师" }
+		9 = { "广西第%d山地师" }
+		10 = { "广西第%d山地师" }
+		11 = { "广西第%d山地师" }
+		12 = { "广西第%d山地师" }
+		13 = { "广西第%d山地师" }
+		14 = { "广西第%d山地师" }
+		15 = { "广西第%d山地师" }
+		16 = { "广西第%d山地师" }
+		17 = { "广西第%d山地师" }
+		18 = { "广西第%d山地师" }
+		19 = { "广西第%d山地师" }
+		20 = { "广西第%d山地师" }
+	}
+}
+
+GXC_GAR_01 = 
+{
+	name = "广西警备团"
+
+	for_countries = { GXC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "广西第%d警备团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		101 = { "广州第1警备团" }		# All fictional names for local militias
+		111 = { "海南第1警备团" }		
+		121 = { "桂林第1警备团" }
+		102 = { "广州第2警备团" }
+		103 = { "广州第3警备团" }
+		112 = { "海南第2警备团" }
+		113 = { "海南第3警备团" }
+		122 = { "桂林第2警备团" }
+		104 = { "广州第4警备团" }
+		105 = { "广州第5警备团" }
+		123 = { "桂林第3警备团" }
+		124 = { "桂林第4警备团" }
+		114 = { "海南第4警备团" }
+		115 = { "海南第5警备团" }
+		125 = { "桂林第5警备团" }
+		131 = { "广州保安科" }		
+		132 = { "南宁保安1科" }		
+		133 = { "广东保安1科" }		
+		134 = { "广东保安2科" }		
+		135 = { "广东保安3科" }		
+		136 = { "南宁保安2科" }		
+		137 = { "南宁保安3科" }		
+		1 = { "广西第%d警备团" }		
+		2 = { "广西第%d警备团" }		
+		3 = { "广西第%d警备团" }		
+		4 = { "广西第%d警备团" }		
+		5 = { "广西第%d警备团" }		
+		6 = { "广西第%d警备团" }		
+		7 = { "广西第%d警备团" }		
+		8 = { "广西第%d警备团" }		
+		9 = { "广西第%d警备团" }		
+		10 = { "广西第%d警备团" }		
+	}
+}
+

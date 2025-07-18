@@ -1,0 +1,466 @@
+﻿units = {
+  fleet = {
+    name = "费罗尔海军基地"  # Base Naval El Ferrol
+    naval_base = 758
+    task_force = {
+      name = "费罗尔中队"  # Escuadrón de El Ferrol
+      location = 758
+      ship = {
+        name = "加纳里亚斯"  # ARE Canarias
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "加纳里亚斯级"  # Canarias Class
+          }
+        }
+      }
+      ship = {
+        name = "加里西亚"  # ARE Galicia
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿方索亲王级"  # Príncipe Alfonso Class
+          }
+        }
+      }
+      ship = {
+        name = "塞韦拉海军上将"  # ARE Almirante Cervera
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿方索亲王级"  # Príncipe Alfonso Class
+          }
+        }
+      }
+      ship = {
+        name = "米格尔·德·塞万提斯"  # ARE Miguel de Cervantes
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿方索亲王级"  # Príncipe Alfonso Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔塞多"  # ARE Alsedo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿尔塞多级"  # Alsedo Class
+          }
+        }
+      }
+      ship = {
+        name = "贝拉斯科"  # ARE Velasco
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿尔塞多级"  # Alsedo Class
+          }
+        }
+      }
+      ship = {
+        name = "拉萨加"  # ARE Lazaga
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿尔塞多级"  # Alsedo Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "加的斯海军基地"  # Base Naval Cádiz
+    naval_base = 1048
+    task_force = {
+      name = "加的斯中队"  # Escuadrón de Cádiz
+      location = 1048
+      ship = {
+        name = "纳瓦拉"  # ARE Navarra
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "共和级"  # República Class
+          }
+        }
+      }
+      ship = {
+        name = "门德斯·努涅斯"  # ARE Méndez Núñez
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "门德斯·努涅斯级"  # Méndez Núñes Class
+          }
+        }
+      }
+      ship = {
+        name = "梅利利亚"  # ARE Melilla
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "梅利利亚级"  # Melilla Class
+          }
+        }
+      }
+      ship = {
+        name = "休达"  # ARE Ceuta
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "梅利利亚级"  # Melilla Class
+          }
+        }
+      }
+      ship = {
+        name = "韦斯卡"  # ARE Huesca
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "梅利利亚级"  # Melilla Class
+          }
+        }
+      }
+      ship = {
+        name = "特鲁埃尔"  # ARE Teruel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "梅利利亚级"  # Melilla Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "加的斯战斗群"  # Grupo de Cádiz
+      location = 1048
+      ship = {
+        name = "B1"  # ARE B1
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B2"  # ARE B2
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B3"  # ARE B3
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B4"  # ARE B4
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "卡塔赫纳海军基地"  # Base Naval Cartagena
+    naval_base = 10024
+    task_force = {
+      name = "卡塔赫纳中队"  # Escuadrón de Cartagena
+      location = 10024
+      ship = {
+        name = "桑切斯·巴尔凯斯特吉"  # ARE Sánchez Barcáiztegui
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔卡拉·加利亚诺"  # ARE Alcalá Galiano
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "瓦尔迪斯海军上将"  # ARE Almirante Valdés
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "米兰达海军上将"  # ARE Almirante Miranda
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "格拉维纳"  # ARE Gravina
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "丘鲁卡"  # ARE Churucca
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "何塞·路易斯·迪耶斯"  # ARE José Luis Díez
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "勒班陀"  # ARE Lepanto
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "安特克拉海军上将"  # ARE Almirante Antequera
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "埃斯卡诺"  # ARE Escaño
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "西斯卡"  # ARE Císcar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "豪尔赫·胡安"  # ARE Jorge Juan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "乌略亚"  # ARE Ulloa
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "丘鲁卡级"  # Churucca Class
+          }
+        }
+      }
+      ship = {
+        name = "木星"  # ARE Júpiter
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "朱庇特级"  # Júpiter Class
+          }
+        }
+      }
+      ship = {
+        name = "火山"  # ARE Vulcano
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "朱庇特级"  # Júpiter Class
+          }
+        }
+      }
+      ship = {
+        name = "火星"  # ARE Marte
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "朱庇特级"  # Júpiter Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "卡塔赫纳战斗群"  # Grupo de Cartagena
+      location = 10024
+      ship = {
+        name = "C1"  # ARE C1
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C2"  # ARE C2
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C4"  # ARE C4
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "莫拉海军上将"  # ARE General Mola
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "莫拉海军上将级"  # General Mola Class
+          }
+        }
+      }
+      ship = {
+        name = "桑胡霍海军上将"  # ARE General Sanjurjo
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPR
+            version_name = "莫拉海军上将级"  # General Mola Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SPR"
+      version_name = "朱庇特级"  # Júpiter Class
+    }
+    name = "海王星"  # ARE Neptuno
+    requested_factories = 1
+    progress = 0.85
+    amount = 1
+  }
+}

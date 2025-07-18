@@ -1,0 +1,228 @@
+﻿units = {
+  fleet = {
+    name = "智利海军"  # Armada de Chile
+    naval_base = 8222
+    task_force = {
+      name = "智利海军"  # Armada de Chile
+      location = 8222
+      ship = {
+        name = "拉托雷海军上将"  # BACH Almirante Latorre
+        pride_of_the_fleet = yes
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "欧希金斯"  # BACH O'Higgins
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "查卡布科"  # BACH Chacabuco
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "林奇海军上将"  # BACH Almirante Lynch
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "康德尔海军上将"  # BACH Almirante Condell
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "阿尔德亚"  # BACH Aldea
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "凯悦"  # BACH Hyatt
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "奥雷利亚"  # BACH Orella
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "里克尔梅"  # BACH Requelme
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "塞拉诺"  # BACH Serrano
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "魏地拉"  # BACH Videla
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第1潜艇舰队"  # Flotilla de Submarinos nro. 1
+      location = 8222
+      ship = {
+        name = "瓜科尔达"  # BACH Gualcolda
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "特瓜尔达"  # BACH Tegualda
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "鲁库米利亚"  # BACH Rucumilla
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "基多拉"  # BACH Quidora
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "弗雷西亚"  # BACH Fresia
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+      ship = {
+        name = "瓜尔"  # BACH Guale
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2潜艇舰队"  # Flotilla de Submarinos nro. 2
+      location = 5228
+      ship = {
+        name = "奥布莱恩海军上尉"  # BACH Capitán O'Brien
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "奥布莱恩海军上尉级"  # Capitán O'Brien Class
+          }
+        }
+      }
+      ship = {
+        name = "辛普森海军上将"  # BACH Almirante Simpson
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "奥布莱恩海军上尉级"  # Capitán O'Brien Class
+          }
+        }
+      }
+      ship = {
+        name = "汤姆森海军上尉"  # BACH Capitán Thomson
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "奥布莱恩海军上尉级"  # Capitán O'Brien Class
+          }
+        }
+      }
+    }
+  }
+}

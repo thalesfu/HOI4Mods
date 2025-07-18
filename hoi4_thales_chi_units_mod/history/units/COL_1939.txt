@@ -1,0 +1,80 @@
+﻿start_equipment_factor = 0.25
+division_template = {
+	name = "陆军旅"			# Represents regional reserve mixed brigades
+	division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+
+
+units = {
+	##### Ejército Nacional de Colombia #####
+	division= {	
+		name = "第1陆军旅"
+		location = 12790 # Cartegena
+		division_template = "陆军旅"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第2陆军旅"
+		location = 8056
+		division_template = "陆军旅"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第3陆军旅"
+		location = 2007
+		division_template = "陆军旅"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第4陆军旅"
+		location = 1887
+		division_template = "陆军旅"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第5陆军旅"
+		location = 10747 # Bogota
+		division_template = "陆军旅"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第6陆军旅"
+		location = 2023 # Medellin
+		division_template = "陆军旅"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "COL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}

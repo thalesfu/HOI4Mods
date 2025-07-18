@@ -1,0 +1,1929 @@
+﻿RAJ_INF_01 = {
+	name = "步兵师"	# Infantry Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "第%d印度师"	# %d Indian Division
+	ordered = {
+		4 = {
+			"第%d印度'红鹰'师"			# %dth Indian 'Red Eagle' Division
+		}
+		5 = {
+			"第%d印度师"
+		}
+		9 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		11 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		7 = {
+			"第%d印度师"
+		}
+		8 = {
+			"第%d印度'三叶草'师"			# %dth Indian 'Clover' Division
+		}
+		10 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		14 = {
+			"第%d印度'奎达'师"			# %dth Indian 'Quetta' Division
+		}
+		6 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		17 = {
+			"第%d印度'黑猫'师"			# %dth Indian 'Black Cat' Division
+		}
+		19 = {
+			"第%d印度'匕首'师"			# %dth Indian 'Dagger' Division
+		}
+		23 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		34 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		20 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		26 = {
+			"第%d印度'虎头'师"			# %dth Indian 'Tiger Head' Division
+		}
+		25 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		2 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		36 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		12 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		39 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		3 = {
+			"第%d印度'钦迪特'师"			# %drd Indian 'Chindits' Division
+		}
+		21 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		1 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		13 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		15 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		16 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		18 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		22 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		24 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		27 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		28 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		29 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		30 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		33 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		35 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		37 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		38 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		40 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		41 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		42 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		45 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		46 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		47 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		48 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		49 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		50 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		51 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		52 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		53 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		54 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		55 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		56 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		57 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		58 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		59 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		60 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		31 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		32 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		43 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		44 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		61 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		62 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		63 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		64 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		65 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		66 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		67 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		68 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		69 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		70 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		71 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		72 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		73 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		74 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		75 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		76 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		77 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		78 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		79 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		80 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		81 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		82 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		83 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		84 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		85 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		86 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		87 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		88 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		89 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		90 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		91 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		92 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		93 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		94 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		95 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		96 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		97 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		98 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		99 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		100 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+	}
+}
+
+RAJ_CAV_01 = {
+	name = "骑兵师"	# Cavalry Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"cavalry"
+	}
+	fallback_name = "第%d印度骑兵师"	# %d Indian Cavalry Division
+	ordered = {
+		1 = {
+			"第%d印度骑兵师"			# %dst Indian Cavalry Division
+		}
+		2 = {
+			"第%d印度骑兵师"			# %dnd Indian Cavalry Division
+		}
+		3 = {
+			"第%d印度骑兵师"			# %drd Indian Cavalry Division
+		}
+		4 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		5 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		6 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		7 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		8 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		9 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		10 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		11 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		12 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		13 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		14 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		15 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		16 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		17 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		18 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		19 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		20 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		21 = {
+			"第%d印度骑兵师"			# %dst Indian Cavalry Division
+		}
+		22 = {
+			"第%d印度骑兵师"			# %dnd Indian Cavalry Division
+		}
+		23 = {
+			"第%d印度骑兵师"			# %drd Indian Cavalry Division
+		}
+		24 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+		25 = {
+			"第%d印度骑兵师"			# %dth Indian Cavalry Division
+		}
+	}
+}
+
+RAJ_MOT_01 = {
+	name = "摩托化步兵师"	# Motor Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"motorized"
+	}
+	link_numbering_with = {
+		RAJ_INF_01
+	}
+	fallback_name = "第%d印度摩托化步兵师"	# %d Indian Motor Division
+	ordered = {
+		10 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		6 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		4 = {
+			"第%d印度'红鹰'师"			# %dth Indian 'Red Eagle' Division
+		}
+		5 = {
+			"%dth Indian 'Ball of Fire' Div."
+		}
+		8 = {
+			"第%d印度'三叶草'师"			# %dth Indian 'Clover' Division
+		}
+		14 = {
+			"第%d印度'奎达'师"			# %dth Indian 'Quetta' Division
+		}
+		23 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		25 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		9 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		11 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		7 = {
+			"%dth Indian 'Golden Arrow' Div."
+		}
+		17 = {
+			"第%d印度'黑猫'师"			# %dth Indian 'Black Cat' Division
+		}
+		19 = {
+			"第%d印度'匕首'师"			# %dth Indian 'Dagger' Division
+		}
+		34 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		20 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		26 = {
+			"第%d印度'虎头'师"			# %dth Indian 'Tiger Head' Division
+		}
+		2 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		36 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		12 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		39 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		3 = {
+			"第%d印度'钦迪特'师"			# %drd Indian 'Chindits' Division
+		}
+		21 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		1 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		13 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		15 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		16 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		18 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		22 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		24 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		27 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		28 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		29 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		30 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		33 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		35 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		37 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		38 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		40 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		41 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		42 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		45 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		46 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		47 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		48 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		49 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		50 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		51 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		52 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		53 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		54 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		55 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		56 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		57 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		58 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		59 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		60 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		31 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		32 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		43 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		44 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		61 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		62 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		63 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		64 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		65 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		66 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		67 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		68 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		69 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		70 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		71 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		72 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		73 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		74 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		75 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		76 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		77 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		78 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		79 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		80 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		81 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		82 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		83 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		84 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		85 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		86 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		87 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		88 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		89 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		90 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		91 = {
+			"第%d印度摩托化步兵师"			# %dst Indian Motor Division
+		}
+		92 = {
+			"第%d印度摩托化步兵师"			# %dnd Indian Motor Division
+		}
+		93 = {
+			"第%d印度摩托化步兵师"			# %drd Indian Motor Division
+		}
+		94 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		95 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		96 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		97 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		98 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		99 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+		100 = {
+			"第%d印度摩托化步兵师"			# %dth Indian Motor Division
+		}
+	}
+}
+
+RAJ_MEC_01 = {
+	name = "机械化步兵师"	# Mechanized Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"mechanized"
+	}
+	link_numbering_with = {
+		RAJ_INF_01
+	}
+	fallback_name = "第%d印度机械化步兵师"
+	ordered = {
+		10 = {
+			"第%d印度机械化步兵师"
+		}
+		6 = {
+			"第%d印度机械化步兵师"
+		}
+		4 = {
+			"第%d印度'红鹰'师"			# %dth Indian 'Red Eagle' Division
+		}
+		5 = {
+			"机械化步兵师"
+		}
+		8 = {
+			"第%d印度'三叶草'师"			# %dth Indian 'Clover' Division
+		}
+		14 = {
+			"第%d印度'奎达'师"			# %dth Indian 'Quetta' Division
+		}
+		23 = {
+			"机械化步兵师"
+		}
+		25 = {
+			"第%d印度机械化步兵师"
+		}
+		9 = {
+			"第%d印度机械化步兵师"
+		}
+		11 = {
+			"第%d印度机械化步兵师"
+		}
+		7 = {
+			"机械化步兵师"
+		}
+		17 = {
+			"第%d印度'黑猫'师"			# %dth Indian 'Black Cat' Division
+		}
+		19 = {
+			"第%d印度'匕首'师"			# %dth Indian 'Dagger' Division
+		}
+		34 = {
+			"第%d印度机械化步兵师"
+		}
+		20 = {
+			"第%d印度机械化步兵师"
+		}
+		26 = {
+			"第%d印度'虎头'师"			# %dth Indian 'Tiger Head' Division
+		}
+		2 = {
+			"第%d印度机械化步兵师"
+		}
+		36 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		12 = {
+			"第%d印度机械化步兵师"
+		}
+		39 = {
+			"第%d印度机械化步兵师"
+		}
+		3 = {
+			"第%d印度'钦迪特'师"			# %drd Indian 'Chindits' Division
+		}
+		21 = {
+			"第%d印度机械化步兵师"
+		}
+		1 = {
+			"第%d印度机械化步兵师"
+		}
+		13 = {
+			"第%d印度机械化步兵师"
+		}
+		15 = {
+			"第%d印度机械化步兵师"
+		}
+		16 = {
+			"第%d印度机械化步兵师"
+		}
+		18 = {
+			"第%d印度机械化步兵师"
+		}
+		22 = {
+			"第%d印度机械化步兵师"
+		}
+		24 = {
+			"第%d印度机械化步兵师"
+		}
+		27 = {
+			"第%d印度机械化步兵师"
+		}
+		28 = {
+			"第%d印度机械化步兵师"
+		}
+		29 = {
+			"第%d印度机械化步兵师"
+		}
+		30 = {
+			"第%d印度机械化步兵师"
+		}
+		33 = {
+			"第%d印度机械化步兵师"
+		}
+		35 = {
+			"第%d印度机械化步兵师"
+		}
+		37 = {
+			"第%d印度机械化步兵师"
+		}
+		38 = {
+			"第%d印度机械化步兵师"
+		}
+		40 = {
+			"第%d印度机械化步兵师"
+		}
+		41 = {
+			"第%d印度机械化步兵师"
+		}
+		42 = {
+			"第%d印度机械化步兵师"
+		}
+		45 = {
+			"第%d印度机械化步兵师"
+		}
+		46 = {
+			"第%d印度机械化步兵师"
+		}
+		47 = {
+			"第%d印度机械化步兵师"
+		}
+		48 = {
+			"第%d印度机械化步兵师"
+		}
+		49 = {
+			"第%d印度机械化步兵师"
+		}
+		50 = {
+			"第%d印度机械化步兵师"
+		}
+		51 = {
+			"第%d印度机械化步兵师"
+		}
+		52 = {
+			"第%d印度机械化步兵师"
+		}
+		53 = {
+			"第%d印度机械化步兵师"
+		}
+		54 = {
+			"第%d印度机械化步兵师"
+		}
+		55 = {
+			"第%d印度机械化步兵师"
+		}
+		56 = {
+			"第%d印度机械化步兵师"
+		}
+		57 = {
+			"第%d印度机械化步兵师"
+		}
+		58 = {
+			"第%d印度机械化步兵师"
+		}
+		59 = {
+			"第%d印度机械化步兵师"
+		}
+		60 = {
+			"第%d印度机械化步兵师"
+		}
+		31 = {
+			"第%d印度机械化步兵师"
+		}
+		32 = {
+			"第%d印度机械化步兵师"
+		}
+		43 = {
+			"第%d印度机械化步兵师"
+		}
+		44 = {
+			"第%d印度机械化步兵师"
+		}
+		61 = {
+			"第%d印度机械化步兵师"
+		}
+		62 = {
+			"第%d印度机械化步兵师"
+		}
+		63 = {
+			"第%d印度机械化步兵师"
+		}
+		64 = {
+			"第%d印度机械化步兵师"
+		}
+		65 = {
+			"第%d印度机械化步兵师"
+		}
+		66 = {
+			"第%d印度机械化步兵师"
+		}
+		67 = {
+			"第%d印度机械化步兵师"
+		}
+		68 = {
+			"第%d印度机械化步兵师"
+		}
+		69 = {
+			"第%d印度机械化步兵师"
+		}
+		70 = {
+			"第%d印度机械化步兵师"
+		}
+		71 = {
+			"第%d印度机械化步兵师"
+		}
+		72 = {
+			"第%d印度机械化步兵师"
+		}
+		73 = {
+			"第%d印度机械化步兵师"
+		}
+		74 = {
+			"第%d印度机械化步兵师"
+		}
+		75 = {
+			"第%d印度机械化步兵师"
+		}
+		76 = {
+			"第%d印度机械化步兵师"
+		}
+		77 = {
+			"第%d印度机械化步兵师"
+		}
+		78 = {
+			"第%d印度机械化步兵师"
+		}
+		79 = {
+			"第%d印度机械化步兵师"
+		}
+		80 = {
+			"第%d印度机械化步兵师"
+		}
+		81 = {
+			"第%d印度机械化步兵师"
+		}
+		82 = {
+			"第%d印度机械化步兵师"
+		}
+		83 = {
+			"第%d印度机械化步兵师"
+		}
+		84 = {
+			"第%d印度机械化步兵师"
+		}
+		85 = {
+			"第%d印度机械化步兵师"
+		}
+		86 = {
+			"第%d印度机械化步兵师"
+		}
+		87 = {
+			"第%d印度机械化步兵师"
+		}
+		88 = {
+			"第%d印度机械化步兵师"
+		}
+		89 = {
+			"第%d印度机械化步兵师"
+		}
+		90 = {
+			"第%d印度机械化步兵师"
+		}
+		91 = {
+			"第%d印度机械化步兵师"
+		}
+		92 = {
+			"第%d印度机械化步兵师"
+		}
+		93 = {
+			"第%d印度机械化步兵师"
+		}
+		94 = {
+			"第%d印度机械化步兵师"
+		}
+		95 = {
+			"第%d印度机械化步兵师"
+		}
+		96 = {
+			"第%d印度机械化步兵师"
+		}
+		97 = {
+			"第%d印度机械化步兵师"
+		}
+		98 = {
+			"第%d印度机械化步兵师"
+		}
+		99 = {
+			"第%d印度机械化步兵师"
+		}
+		100 = {
+			"第%d印度机械化步兵师"
+		}
+	}
+}
+
+RAJ_ARM_01 = {
+	name = "装甲师"	# Armoured Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"light_armor"
+		"medium_armor"
+		"heavy_armor"
+		"modern_armor"
+	}
+	link_numbering_with = {
+		RAJ_INF_01
+	}
+	fallback_name = "第%d印度装甲师"	# %d Indian Armoured Division
+	ordered = {
+		31 = {
+			"第%d印度装甲师"			# %dst Indian Armoured Division
+		}
+		32 = {
+			"第%d印度装甲师"			# %dnd Indian Armoured Division
+		}
+		43 = {
+			"第%d印度装甲师"			# %drd Indian Armoured Division
+		}
+		44 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		1 = {
+			"第%d印度装甲师"			# %dst Indian Armoured Division
+		}
+		2 = {
+			"第%d印度装甲师"			# %dnd Indian Armoured Division
+		}
+		33 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		35 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		37 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		38 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		40 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		41 = {
+			"第%d印度装甲师"			# %dst Indian Armoured Division
+		}
+		42 = {
+			"第%d印度装甲师"			# %dnd Indian Armoured Division
+		}
+		13 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		15 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		16 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		18 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		22 = {
+			"第%d印度装甲师"			# %dnd Indian Armoured Division
+		}
+		24 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		27 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		28 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		29 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		30 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		4 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		5 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		9 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		11 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		6 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		7 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		8 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		12 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		14 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		17 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		19 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		20 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		21 = {
+			"第%d印度装甲师"			# %dst Indian Armoured Division
+		}
+		23 = {
+			"第%d印度装甲师"			# %drd Indian Armoured Division
+		}
+		25 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		26 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		34 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		36 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		39 = {
+			"第%d印度装甲师"			# %dth Indian Armoured Division
+		}
+		3 = {
+			"第%d印度装甲师"			# %drd Indian Armoured Division
+		}
+	}
+}
+
+RAJ_PAR_01 = {
+	name = "空降师"	# Airborne Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"paratrooper"
+	}
+	link_numbering_with = {
+		RAJ_INF_01
+	}
+	fallback_name = "第%d印度空降师"	# %d Indian Airborne Division
+	ordered = {
+		44 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		9 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		33 = {
+			"第%d印度空降师"			# %drd Indian Airborne Division
+		}
+		35 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		37 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		38 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		40 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		41 = {
+			"第%d印度空降师"			# %dst Indian Airborne Division
+		}
+		42 = {
+			"第%d印度空降师"			# %dnd Indian Airborne Division
+		}
+		13 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		15 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		18 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		22 = {
+			"第%d印度空降师"			# %dnd Indian Airborne Division
+		}
+		24 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		27 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		28 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		29 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		30 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		2 = {
+			"第%d印度空降师"			# %dnd Indian Airborne Division
+		}
+		4 = {
+			"第%d印度'红鹰'师"			# %dth Indian 'Red Eagle' Division
+		}
+		5 = {
+			"%dth Indian 'Ball of Fire' Div."
+		}
+		6 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		7 = {
+			"%dth Indian 'Golden Arrow' Div."
+		}
+		8 = {
+			"第%d印度'三叶草'师"			# %dth Indian 'Clover' Division
+		}
+		10 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+		11 = {
+			"第%d印度空降师"			# %dth Indian Airborne Division
+		}
+	}
+}
+
+RAJ_MAR_01 = {
+	name = "海军陆战师"	# Marine Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"marine"
+	}
+	fallback_name = "第%d印度陆战师"	# %d Indian Marines Division
+	ordered = {
+		1 = {
+			"第%d印度海军陆战师"			# %dst Indian Marines Division
+		}
+		2 = {
+			"第%d印度海军陆战师"			# %dnd Indian Marines Division
+		}
+		3 = {
+			"第%d印度海军陆战师"			# %drd Indian Marines Division
+		}
+		4 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		5 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		6 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		7 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		8 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		9 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		10 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		11 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		12 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		13 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		14 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		15 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		16 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		17 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		18 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		19 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+		20 = {
+			"第%d印度海军陆战师"			# %dth Indian Marines Division
+		}
+	}
+}
+
+RAJ_MNT_01 = {
+	name = "山地师"	# Mountain Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"mountaineers"
+	}
+	link_numbering_with = {
+		RAJ_INF_01
+	}
+	fallback_name = "第%d印度师"	# %d Indian Division
+	ordered = {
+		8 = {
+			"第%d印度'三叶草'师"			# %dth Indian 'Clover' Division
+		}
+		14 = {
+			"第%d印度'奎达'师"			# %dth Indian 'Quetta' Division
+		}
+		6 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		3 = {
+			"第%d印度'钦迪特'师"			# %drd Indian 'Chindits' Division
+		}
+		23 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		25 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		7 = {
+			"第%d '黄金之箭'师"
+		}
+		10 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		4 = {
+			"第%d印度'红鹰'师"			# %dth Indian 'Red Eagle' Division
+		}
+		5 = {
+			"第%d印度'火球'师"
+		}
+		17 = {
+			"第%d印度'黑猫'师"			# %dth Indian 'Black Cat' Division
+		}
+		9 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		11 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		19 = {
+			"第%d印度'匕首'师"			# %dth Indian 'Dagger' Division
+		}
+		34 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		20 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		26 = {
+			"第%d印度'虎头'师"			# %dth Indian 'Tiger Head' Division
+		}
+		2 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		36 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		12 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		39 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		21 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		1 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		13 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		15 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		16 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		18 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		22 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		24 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		27 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		28 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		29 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		30 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		33 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		35 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		37 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		38 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		40 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		41 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		42 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		45 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		46 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		47 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		48 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		49 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		50 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		51 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		52 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		53 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		54 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		55 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		56 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		57 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		58 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		59 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		60 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		31 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		32 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		43 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		44 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		61 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		62 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		63 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		64 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		65 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		66 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		67 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		68 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		69 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		70 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		71 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		72 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		73 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		74 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		75 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		76 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		77 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		78 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		79 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		80 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		81 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		82 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		83 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		84 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		85 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		86 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		87 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		88 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		89 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		90 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		91 = {
+			"第%d印度师"			# %dst Indian Division
+		}
+		92 = {
+			"第%d印度师"			# %dnd Indian Division
+		}
+		93 = {
+			"第%d印度师"			# %drd Indian Division
+		}
+		94 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		95 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		96 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		97 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		98 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		99 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+		100 = {
+			"第%d印度师"			# %dth Indian Division
+		}
+	}
+}
+
+RAJ_GAR_01 = {
+	name = "守备师"	# Garrison Division
+	for_countries = {
+		RAJ
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "第%d守备师"	# %d Military District
+	ordered = {
+		101 = {
+			"白沙瓦守备师"			# Pashawar District
+		}
+		102 = {
+			"克哈特守备师"			# Kohat District
+		}
+		103 = {
+			"拉瓦尔品第守备师"			# Rawalpindi District
+		}
+		104 = {
+			"拉合尔守备师"			# Lahore District
+		}
+		105 = {
+			"瓦济里斯坦守备师"			# Waziristan District
+		}
+		106 = {
+			"密拉特守备师"			# Meerut District
+		}
+		107 = {
+			"勒克瑙守备师"			# Lucknow District
+		}
+		108 = {
+			"阿萨姆守备师"			# Assam District
+		}
+		109 = {
+			"德干守备师"			# Deccan District
+		}
+		110 = {
+			"孟买守备师"			# Bombay District
+		}
+		111 = {
+			"马德拉斯守备师"			# Madras District
+		}
+		112 = {
+			"西部守备师"			# Western District
+		}
+		113 = {
+			"仰光守备师"			# Rangoon District
+		}
+		114 = {
+			"曼德勒守备师"			# Mandalay District
+		}
+		115 = {
+			"加尔各答守备师"			# Calcutta District
+		}
+		116 = {
+			"德里守备师"			# Dehli District
+		}
+		117 = {
+			"班加罗尔守备师"			# Bangalore District
+		}
+		118 = {
+			"塔尔守备师"			# Thal District
+		}
+		119 = {
+			"奎达守备师"			# Quetta District
+		}
+		120 = {
+			"佐布守备师"			# Zhob District
+		}
+		121 = {
+			"信德守备师"			# Sind District
+		}
+		122 = {
+			"诺施拉守备师"			# Nowshera District
+		}
+		123 = {
+			"兰迪科塔尔守备师"			# Landikotal District
+		}
+		124 = {
+			"阿伯塔巴德守备师"			# Abbottabad District
+		}
+		125 = {
+			"杰赫勒姆守备师"			# Jhelum District
+		}
+		126 = {
+			"查谟守备师"			# Jammu District
+		}
+		127 = {
+			"克什米尔守备师"			# Kashmir District
+		}
+		128 = {
+			"希尔科特守备师"			# Sealkot District
+		}
+		129 = {
+			"费罗兹普尔守备师"			# Ferozepore District
+		}
+		130 = {
+			"贾朗达尔守备师"			# Jullundur District
+		}
+		131 = {
+			"安帕拉守备师"			# Ampala District
+		}
+		132 = {
+			"拉姆扎克守备师"			# Ramzak District
+		}
+		133 = {
+			"班奴守备师"			# Bannu District
+		}
+		134 = {
+			"瓦纳守备师"			# Wana District
+		}
+		135 = {
+			"德拉守备师"			# Dehra District
+		}
+		136 = {
+			"巴雷利守备师"			# Bareilly District
+		}
+		137 = {
+			"占西守备师"			# Jhansi District
+		}
+		138 = {
+			"瓜廖尔守备师"			# Gwalior District
+		}
+		139 = {
+			"阿拉哈巴德守备师"			# Allahabad District
+		}
+		140 = {
+			"孟加拉东部守备师"			# Eastern Bengal District
+		}
+		141 = {
+			"贾巴尔普尔守备师"			# Jubbulpore District
+		}
+		142 = {
+			"普纳守备师"			# Poona District
+		}
+		143 = {
+			"明毫守备师"			# Mhow District
+		}
+		144 = {
+			"海德拉巴守备师"			# Hyderabad District
+		}
+		1 = {
+			"第%d守备师"			# %dst Military District
+		}
+		2 = {
+			"第%d守备师"			# %dnd Military District
+		}
+		3 = {
+			"第%d守备师"			# %drd Military District
+		}
+		4 = {
+			"第%d守备师"			# %dth Military District
+		}
+		5 = {
+			"第%d守备师"			# %dth Military District
+		}
+		6 = {
+			"第%d守备师"			# %dth Military District
+		}
+		7 = {
+			"第%d守备师"			# %dth Military District
+		}
+		8 = {
+			"第%d守备师"			# %dth Military District
+		}
+		9 = {
+			"第%d守备师"			# %dth Military District
+		}
+		10 = {
+			"第%d守备师"			# %dth Military District
+		}
+		11 = {
+			"第%d守备师"			# %dth Military District
+		}
+		12 = {
+			"第%d守备师"			# %dth Military District
+		}
+		13 = {
+			"第%d守备师"			# %dth Military District
+		}
+		14 = {
+			"第%d守备师"			# %dth Military District
+		}
+		15 = {
+			"第%d守备师"			# %dth Military District
+		}
+		16 = {
+			"第%d守备师"			# %dth Military District
+		}
+		17 = {
+			"第%d守备师"			# %dth Military District
+		}
+		18 = {
+			"第%d守备师"			# %dth Military District
+		}
+		19 = {
+			"第%d守备师"			# %dth Military District
+		}
+		20 = {
+			"第%d守备师"			# %dth Military District
+		}
+		21 = {
+			"第%d守备师"			# %dst Military District
+		}
+		22 = {
+			"第%d守备师"			# %dnd Military District
+		}
+		23 = {
+			"第%d守备师"			# %drd Military District
+		}
+		24 = {
+			"第%d守备师"			# %dth Military District
+		}
+		25 = {
+			"第%d守备师"			# %dth Military District
+		}
+	}
+}
+
+RAJ_SIKH_01 = {
+	name = "锡克师"
+	for_countries = {
+		RAJ
+		PAK
+		BAN
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+		"mountaineers"
+	}
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RAJ_INF_01 }
+	fallback_name = "第%d锡克师"
+}

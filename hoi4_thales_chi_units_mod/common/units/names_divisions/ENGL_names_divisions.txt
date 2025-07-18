@@ -1,0 +1,1151 @@
+﻿BRENGL_INF_01 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # %dth Infantry Division
+  ordered = {
+    1 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    2 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    3 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+    4 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    5 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    6 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    7 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    8 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    9 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    10 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    11 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    12 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    13 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    14 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    15 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    16 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    17 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    18 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    19 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+    20 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    21 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    22 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    23 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+  }
+}
+BRENGL_INFB_01 = {
+  name = "步兵旅"  # Infantry Brigade
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵旅"  # %dth Infantry Brigade
+  ordered = {
+    1 = {
+      "第%d步兵旅"  # %dst Infantry Brigade
+    }
+    2 = {
+      "第%d步兵旅"  # %dnd Infantry Brigade
+    }
+    3 = {
+      "第%d步兵旅"  # %drd Infantry Brigade
+    }
+    4 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    5 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    6 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    7 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    8 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    9 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    10 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    11 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    12 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    13 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    14 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    15 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    16 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    17 = {
+      "第%d步兵旅"  # %dst Infantry Brigade
+    }
+    18 = {
+      "第%d步兵旅"  # %dnd Infantry Brigade
+    }
+    19 = {
+      "第%d步兵旅"  # %drd Infantry Brigade
+    }
+    20 = {
+      "第%d步兵旅"  # %dth Infantry Brigade
+    }
+    21 = {
+      "第%d步兵旅"  # %dst Infantry Brigade
+    }
+    22 = {
+      "第%d步兵旅"  # %dnd Infantry Brigade
+    }
+    23 = {
+      "第%d步兵旅"  # %drd Infantry Brigade
+    }
+  }
+}
+BRENGL_CAV_01 = {
+  name = "骑兵师"  # Cavalry Division
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # %dth Cavalry Division
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # %dst Cavalry Division
+    }
+    2 = {
+      "第%d骑兵师"  # %dnd Cavalry Division
+    }
+    3 = {
+      "第%d骑兵师"  # %drd Cavalry Division
+    }
+    4 = {
+      "第%d骑兵师"  # %dth Cavalry Division
+    }
+    5 = {
+      "第%d骑兵师"  # %dth Cavalry Division
+    }
+    6 = {
+      "第%d骑兵师"  # %dth Cavalry Division
+    }
+    7 = {
+      "第%d骑兵师"  # %dth Cavalry Division
+    }
+    8 = {
+      "第%d骑兵师"  # %dth Cavalry Division
+    }
+    9 = {
+      "第%d骑兵师"  # %dth Cavalry Division
+    }
+    10 = {
+      "第%d骑兵师"  # %dth Cavalry Division
+    }
+  }
+}
+BRENGL_CAV_02 = {
+  name = "骑兵旅"  # Cavalry Brigade
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵旅"  # %dth Cavalry Brigade
+  ordered = {
+    1 = {
+      "第%d骑兵旅"  # %dst Cavalry Brigade
+    }
+    2 = {
+      "第%d骑兵旅"  # %dnd Cavalry Brigade
+    }
+    3 = {
+      "第%d骑兵旅"  # %drd Cavalry Brigade
+    }
+    4 = {
+      "第%d骑兵旅"  # %dth Cavalry Brigade
+    }
+    5 = {
+      "第%d骑兵旅"  # %dth Cavalry Brigade
+    }
+    6 = {
+      "第%d骑兵旅"  # %dth Cavalry Brigade
+    }
+    7 = {
+      "第%d骑兵旅"  # %dth Cavalry Brigade
+    }
+    8 = {
+      "第%d骑兵旅"  # %dth Cavalry Brigade
+    }
+    9 = {
+      "第%d骑兵旅"  # %dth Cavalry Brigade
+    }
+    10 = {
+      "第%d骑兵旅"  # %dth Cavalry Brigade
+    }
+  }
+}
+BRENGL_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Division
+  for_countries = {
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    BRENGL_INF_01
+  }
+  fallback_name = "第%d摩托化步兵师"  # %dth Motorised Division
+  ordered = {
+    1 = {
+      "第%d摩托化步兵师"  # %dst Motorised Division
+    }
+    2 = {
+      "第%d摩托化步兵师"  # %dnd Motorised Division
+    }
+    3 = {
+      "第%d摩托化步兵师"  # %drd Motorised Division
+    }
+    4 = {
+      "第%d摩托化步兵师"  # %dth Motorised Division
+    }
+    5 = {
+      "第%d摩托化步兵师"  # %dth Motorised Division
+    }
+    6 = {
+      "第%d摩托化步兵师"  # %dth Motorised Division
+    }
+    7 = {
+      "第%d摩托化步兵师"  # %dth Motorised Division
+    }
+    8 = {
+      "第%d摩托化步兵师"  # %dth Motorised Division
+    }
+    9 = {
+      "第%d摩托化步兵师"  # %dth Motorised Division
+    }
+    10 = {
+      "第%d摩托化步兵师"  # %dth Motorised Division
+    }
+  }
+}
+AMENGL_MOT_01 = {
+  name = "摩托化步兵师"  # Motorized Division
+  for_countries = {
+    LIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    BRENGL_INF_01
+  }
+  fallback_name = "第%d摩托化步兵师"  # %dth Motorized Division
+  ordered = {
+    1 = {
+      "第%d摩托化步兵师"  # %dst Motorized Division
+    }
+    2 = {
+      "第%d摩托化步兵师"  # %dnd Motorized Division
+    }
+    3 = {
+      "第%d摩托化步兵师"  # %drd Motorized Division
+    }
+    4 = {
+      "第%d摩托化步兵师"  # %dth Motorized Division
+    }
+    5 = {
+      "第%d摩托化步兵师"  # %dth Motorized Division
+    }
+    6 = {
+      "第%d摩托化步兵师"  # %dth Motorized Division
+    }
+    7 = {
+      "第%d摩托化步兵师"  # %dth Motorized Division
+    }
+    8 = {
+      "第%d摩托化步兵师"  # %dth Motorized Division
+    }
+    9 = {
+      "第%d摩托化步兵师"  # %dth Motorized Division
+    }
+    10 = {
+      "第%d摩托化步兵师"  # %dth Motorized Division
+    }
+  }
+}
+BRENGL_MEC_01 = {
+  name = "机械化步兵师"  # Mechanised Division
+  for_countries = {
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    BRENGL_INF_01
+  }
+  fallback_name = "第%d机械化步兵师"  # %dth Mechanised Division
+  ordered = {
+    1 = {
+      "第%d机械化步兵师"  # %dst Mechanised Division
+    }
+    2 = {
+      "第%d机械化步兵师"  # %dnd Mechanised Division
+    }
+    3 = {
+      "第%d机械化步兵师"  # %drd Mechanised Division
+    }
+    4 = {
+      "第%d机械化步兵师"  # %dth Mechanised Division
+    }
+    5 = {
+      "第%d机械化步兵师"  # %dth Mechanised Division
+    }
+    6 = {
+      "第%d机械化步兵师"  # %dth Mechanised Division
+    }
+    7 = {
+      "第%d机械化步兵师"  # %dth Mechanised Division
+    }
+    8 = {
+      "第%d机械化步兵师"  # %dth Mechanised Division
+    }
+    9 = {
+      "第%d机械化步兵师"  # %dth Mechanised Division
+    }
+    10 = {
+      "第%d机械化步兵师"  # %dth Mechanised Division
+    }
+  }
+}
+AMENGL_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    LIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    BRENGL_INF_01
+  }
+  fallback_name = "第%d机械化步兵师"  # %dth Mechanized Division
+  ordered = {
+    1 = {
+      "第%d机械化步兵师"  # %dst Mechanized Division
+    }
+    2 = {
+      "第%d机械化步兵师"  # %dnd Mechanized Division
+    }
+    3 = {
+      "第%d机械化步兵师"  # %drd Mechanized Division
+    }
+    4 = {
+      "第%d机械化步兵师"  # %dth Mechanized Division
+    }
+    5 = {
+      "第%d机械化步兵师"  # %dth Mechanized Division
+    }
+    6 = {
+      "第%d机械化步兵师"  # %dth Mechanized Division
+    }
+    7 = {
+      "第%d机械化步兵师"  # %dth Mechanized Division
+    }
+    8 = {
+      "第%d机械化步兵师"  # %dth Mechanized Division
+    }
+    9 = {
+      "第%d机械化步兵师"  # %dth Mechanized Division
+    }
+    10 = {
+      "第%d机械化步兵师"  # %dth Mechanized Division
+    }
+  }
+}
+BRENGL_ARM_01 = {
+  name = "装甲师"  # Armoured Division
+  for_countries = {
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # %dth Armoured Division
+  ordered = {
+    1 = {
+      "第%d装甲师"  # %dst Armoured Division
+    }
+    2 = {
+      "第%d装甲师"  # %dnd Armoured Division
+    }
+    3 = {
+      "第%d装甲师"  # %drd Armoured Division
+    }
+    4 = {
+      "第%d装甲师"  # %dth Armoured Division
+    }
+    5 = {
+      "第%d装甲师"  # %dth Armoured Division
+    }
+    6 = {
+      "第%d装甲师"  # %dth Armoured Division
+    }
+    7 = {
+      "第%d装甲师"  # %dth Armoured Division
+    }
+    8 = {
+      "第%d装甲师"  # %dth Armoured Division
+    }
+    9 = {
+      "第%d装甲师"  # %dth Armoured Division
+    }
+    10 = {
+      "第%d装甲师"  # %dth Armoured Division
+    }
+  }
+}
+BRENGL_ARM_02 = {
+  name = "坦克旅"  # Tank Brigade
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+    AST
+    CAN
+    NZL
+    SAF
+    RAJ
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "坦克第%d旅"  # %dth Tank Brigade
+  ordered = {
+    1 = {
+      "坦克第%d旅"  # %dst Tank Brigade
+    }
+    2 = {
+      "坦克第%d旅"  # %dnd Tank Brigade
+    }
+    3 = {
+      "坦克第%d旅"  # %drd Tank Brigade
+    }
+    4 = {
+      "坦克第%d旅"  # %dth Tank Brigade
+    }
+    5 = {
+      "坦克第%d旅"  # %dth Tank Brigade
+    }
+    6 = {
+      "坦克第%d旅"  # %dth Tank Brigade
+    }
+    7 = {
+      "坦克第%d旅"  # %dth Tank Brigade
+    }
+    8 = {
+      "坦克第%d旅"  # %dth Tank Brigade
+    }
+    9 = {
+      "坦克第%d旅"  # %dth Tank Brigade
+    }
+    10 = {
+      "坦克第%d旅"  # %dth Tank Brigade
+    }
+  }
+}
+AMENGL_ARM_01 = {
+  name = "装甲师"  # Armored Division
+  for_countries = {
+    LIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # %dth Armored Division
+  ordered = {
+    1 = {
+      "第%d装甲师"  # %dst Armored Division
+    }
+    2 = {
+      "第%d装甲师"  # %dnd Armored Division
+    }
+    3 = {
+      "第%d装甲师"  # %drd Armored Division
+    }
+    4 = {
+      "第%d装甲师"  # %dth Armored Division
+    }
+    5 = {
+      "第%d装甲师"  # %dth Armored Division
+    }
+    6 = {
+      "第%d装甲师"  # %dth Armored Division
+    }
+    7 = {
+      "第%d装甲师"  # %dth Armored Division
+    }
+    8 = {
+      "第%d装甲师"  # %dth Armored Division
+    }
+    9 = {
+      "第%d装甲师"  # %dth Armored Division
+    }
+    10 = {
+      "第%d装甲师"  # %dth Armored Division
+    }
+  }
+}
+BRENGL_PAR_01 = {
+  name = "空降师"  # Airborne Division
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d空降师"  # %dth Airborne Division
+  ordered = {
+    1 = {
+      "第%d空降师"  # %dst Airborne Division
+    }
+    2 = {
+      "第%d空降师"  # %dnd Airborne Division
+    }
+    3 = {
+      "第%d空降师"  # %drd Airborne Division
+    }
+    4 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    5 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    6 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    7 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    8 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    9 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    10 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+  }
+}
+BRENGL_MAR_01 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d海军陆战师"  # %dth Marine Division
+  ordered = {
+    1 = {
+      "第%d海军陆战师"  # %dst Marine Division
+    }
+    2 = {
+      "第%d海军陆战师"  # %dnd Marine Division
+    }
+    3 = {
+      "第%d海军陆战师"  # %drd Marine Division
+    }
+    4 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    5 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    6 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    7 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    8 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    9 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    10 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+  }
+}
+BRENGL_MNT_01 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    BRENGL_INF_01
+  }
+  fallback_name = "第%d山地师"  # %dth Mountain Division
+  ordered = {
+    1 = {
+      "第%d山地师"  # %dst Mountain Division
+    }
+    2 = {
+      "第%d山地师"  # %dnd Mountain Division
+    }
+    3 = {
+      "第%d山地师"  # %drd Mountain Division
+    }
+    4 = {
+      "第%d山地师"  # %dth Mountain Division
+    }
+    5 = {
+      "第%d山地师"  # %dth Mountain Division
+    }
+    6 = {
+      "第%d山地师"  # %dth Mountain Division
+    }
+    7 = {
+      "第%d山地师"  # %dth Mountain Division
+    }
+    8 = {
+      "第%d山地师"  # %dth Mountain Division
+    }
+    9 = {
+      "第%d山地师"  # %dth Mountain Division
+    }
+    10 = {
+      "第%d山地师"  # %dth Mountain Division
+    }
+  }
+}
+BRENGL_GAR_01 = {
+  name = "守备师"  # Garrison Division
+  for_countries = {
+    LIB
+    BAH
+    BAN
+    BAS
+    BLZ
+    BOT
+    BRM
+    CYP
+    FIJ
+    GAM
+    GHA
+    GYA
+    JAM
+    KEN
+    MAL
+    MLD
+    MLT
+    MLW
+    NGA
+    NIR
+    NMB
+    PAK
+    PNG
+    SCO
+    SIE
+    SRL
+    TRI
+    TZN
+    UGA
+    WLS
+    ZAM
+    ZIM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d守备师"  # %dth Garrison Division
+  ordered = {
+    1 = {
+      "第%d守备师"  # %dst Garrison Division
+    }
+    2 = {
+      "第%d守备师"  # %dnd Garrison Division
+    }
+    3 = {
+      "第%d守备师"  # %drd Garrison Division
+    }
+    4 = {
+      "第%d守备师"  # %dth Garrison Division
+    }
+    5 = {
+      "第%d守备师"  # %dth Garrison Division
+    }
+    6 = {
+      "第%d守备师"  # %dth Garrison Division
+    }
+    7 = {
+      "第%d守备师"  # %dth Garrison Division
+    }
+    8 = {
+      "第%d守备师"  # %dth Garrison Division
+    }
+    9 = {
+      "第%d守备师"  # %dth Garrison Division
+    }
+    10 = {
+      "第%d守备师"  # %dth Garrison Division
+    }
+  }
+}

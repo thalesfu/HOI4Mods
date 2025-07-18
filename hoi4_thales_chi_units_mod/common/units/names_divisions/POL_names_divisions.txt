@@ -1,0 +1,508 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+POL_INF_01 = 
+{
+	name = "步兵师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d军团步兵师" }
+		2 = { "第%d军团步兵师" }
+		3 = { "第%d军团步兵师" }
+		4 = { "第%d步兵师" }
+		5 = { "第%d步兵师" }
+		6 = { "第%d步兵师" }
+		7 = { "第%d步兵师" }
+		8 = { "第%d步兵师" }
+		9 = { "第%d步兵师" }
+		10 = { "第%d步兵师" }
+		11 = { "第%d喀尔巴阡步兵师" }
+		12 = { "第%d步兵师" }
+		13 = { "第%d边境步兵师" }
+		14 = { "第%d大波兰步兵师" }
+		15 = { "第%d大波兰步兵师" }
+		16 = { "第%d波美拉尼亚步兵师" }
+		17 = { "第%d大波兰步兵师" }
+		18 = { "第%d步兵师" }
+		19 = { "第%d步兵师" }
+		20 = { "第%d步兵师" }		
+		23 = { "第%d上西里西亚步兵师" }		
+		24 = { "第%d步兵师" }		
+		25 = { "第%d步兵师" }		
+		26 = { "第%d步兵师" }		
+		27 = { "第%d步兵师" }		
+		28 = { "第%d步兵师" }		
+		29 = { "第%d步兵师" }		
+		30 = { "第%d波兰步兵师" }		
+		21 = { "第%d步兵师" }		
+		22 = { "第%d步兵师" }		
+		31 = { "第%d步兵师" }		
+		32 = { "第%d步兵师" }		
+		34 = { "第%d步兵师" }		
+		40 = { "第%d步兵师" }		
+		42 = { "第%d步兵师" }		
+		43 = { "第%d步兵师" }		
+		46 = { "第%d步兵师" }		
+		47 = { "第%d步兵师" }		
+		48 = { "第%d步兵师" }		
+		49 = { "第%d步兵师" }		
+		51 = { "第%d步兵师" }		
+		52 = { "第%d步兵师" }		
+		53 = { "第%d步兵师" }		
+		54 = { "第%d步兵师" }		
+		76 = { "第%d步兵师" }		
+		77 = { "第%d步兵师" }		
+		78 = { "第%d步兵师" }		
+		79 = { "第%d步兵师" }		
+		80 = { "第%d步兵师" }		
+		81 = { "第%d步兵师" }		
+		85 = { "第%d步兵师" }		
+		88 = { "第%d步兵师" }		
+		89 = { "第%d步兵师" }		
+		90 = { "第%d步兵师" }
+	}
+}
+POL_INF_RESERVE_01 = 
+{
+	name = "后备步兵师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d后备步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{	
+		33 = { "第%d后备步兵师" }		
+		35 = { "第%d后备步兵师" }		
+		36 = { "第%d后备步兵师" }		
+		38 = { "第%d后备步兵师" }		
+		39 = { "第%d后备步兵师" }		
+		41 = { "第%d后备步兵师" }		
+		44 = { "第%d后备步兵师" }		
+		45 = { "第%d后备步兵师" }		
+		50 = { "第%d后备步兵师" }		
+		55 = { "第%d后备步兵师" }		
+		60 = { "第%d后备步兵师" }		
+	}
+}
+
+POL_CAV_01 = 
+{
+	name = "骑兵旅"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d骑兵旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		101 = { "克拉科夫骑兵旅" }		# use historical named brigades for initial names then default numbered divisions for ahistorical names
+		102 = { "边防骑兵旅" }		
+		103 = { "马佐维卡骑兵旅" }		
+		104 = { "诺沃格罗兹卡骑兵旅" }		
+		105 = { "波德拉谢骑兵旅" }		
+		106 = { "波多尔斯卡骑兵旅" }		
+		107 = { "波美拉尼亚骑兵旅" }		
+		108 = { "苏瓦斯卡骑兵旅" }		
+		109 = { "大波兰骑兵旅" }		
+		110 = { "维伦斯卡骑兵旅" }		
+		111 = { "沃林斯卡骑兵旅" }		
+		#fictional names fitting the theme
+		112 = { "利沃夫斯卡骑兵旅" }		
+		113 = { "波兰骑兵旅" }		
+		114 = { "罗兹骑兵旅" }		
+		115 = { "卢贝斯卡骑兵旅" }		
+		116 = { "凯尔采骑兵旅" }		
+		117 = { "上西里西亚骑兵旅" }		
+		118 = { "塔尔诺波尔骑兵旅" }		
+		119 = { "斯坦尼斯瓦夫骑兵旅" }		
+	}
+}
+
+POL_CAV_DIVISION_01 = 
+{
+	name = "骑兵师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POL_CAV_01 }
+
+	fallback_name = "第%d骑兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{	
+		101 = { "Krakowska Dywizja Kawalerii" }		# use historical named brigades for initial names then default numbered divisions for ahistorical names
+		102 = { "克拉科夫骑兵师" }		
+		103 = { "边防骑兵师" }		
+		104 = { "马佐维卡骑兵师" }		
+		105 = { "诺沃格罗兹卡骑兵师" }		
+		106 = { "波德拉谢骑兵师" }		
+		107 = { "波多尔斯卡骑兵师" }		
+		108 = { "苏瓦斯卡骑兵师" }		
+		109 = { "大波兰骑兵师" }		
+		110 = { "维伦斯卡骑兵师" }		
+		111 = { "沃林斯卡骑兵师" }		
+		#fictional names fitting the theme
+		112 = { "利沃夫斯卡骑兵师" }		
+		113 = { "波兰骑兵师" }		
+		114 = { "罗兹骑兵师" }		
+		115 = { "卢贝斯卡骑兵师" }		
+		116 = { "凯尔采骑兵师" }		
+		117 = { "上西里西亚骑兵师" }		
+		118 = { "塔尔诺波尔骑兵师" }		
+		119 = { "斯坦尼斯瓦夫骑兵师" }	
+	}
+}
+
+
+POL_MOT_01 = 
+{
+	name = "摩托化步兵师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d摩托化步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		101 = { " 华沙摩托化步兵师" }
+		10 = { "第%d摩托化步兵师" }
+		1 = { "第%d摩托化步兵军团" }
+		2 = { "第%d摩托化步兵军团" }
+		3 = { "第%d摩托化步兵军团" }
+		4 = { "第%d摩托化步兵师" }
+		5 = { "第%d摩托化步兵师" }
+		6 = { "第%d摩托化步兵师" }
+		7 = { "第%d摩托化步兵师" }
+		8 = { "第%d摩托化步兵师" }
+		9 = { "第%d摩托化步兵师" }
+		11 = { "第%d喀尔巴阡摩托化步兵师" }
+		12 = { "第%d摩托化步兵师" }
+		13 = { "第%d边境摩托化步兵师" }
+		14 = { "第%d大波兰摩托化步兵师" }
+		15 = { "第%d大波兰摩托化步兵师" }
+		16 = { "第%d波美拉尼亚摩托化步兵师" }
+		17 = { "第%d大波兰摩托化步兵师" }
+		18 = { "第%d摩托化步兵师" }
+		19 = { "第%d摩托化步兵师" }
+		20 = { "第%d摩托化步兵师" }		
+		23 = { "第%d上西里西亚摩托化步兵师" }		
+		24 = { "第%d摩托化步兵师" }		
+		25 = { "第%d摩托化步兵师" }		
+		26 = { "第%d摩托化步兵师" }		
+		27 = { "第%d摩托化步兵师" }		
+		28 = { "第%d摩托化步兵师" }		
+		29 = { "第%d摩托化步兵师" }		
+		30 = { "第%d波兰摩托化步兵师" }		
+	}
+}
+
+POL_MEC_01 = 
+{
+	name = "机械化步兵师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d机械化步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		101 = { " 华沙机械化步兵师" }
+		10 = { "第%d机械化步兵师" }
+		1 = { "第%d机械化步兵军团" }
+		2 = { "第%d机械化步兵军团" }
+		3 = { "第%d机械化步兵军团" }
+		4 = { "第%d机械化步兵师" }
+		5 = { "第%d机械化步兵师" }
+		6 = { "第%d机械化步兵师" }
+		7 = { "第%d机械化步兵师" }
+		8 = { "第%d机械化步兵师" }
+		9 = { "第%d机械化步兵师" }
+		11 = { "第%d喀尔巴阡机械化步兵师" }
+		12 = { "第%d机械化步兵师" }
+		13 = { "第%d边境机械化步兵师" }
+		14 = { "第%d大波兰机械化步兵师" }
+		15 = { "第%d大波兰机械化步兵师" }
+		16 = { "第%d波美拉尼亚机械化步兵师" }
+		17 = { "第%d大波兰机械化步兵师" }
+		18 = { "第%d机械化步兵师" }
+		19 = { "第%d机械化步兵师" }
+		20 = { "第%d机械化步兵师" }		
+		23 = { "第%d上西里西亚机械化步兵师" }		
+		24 = { "第%d机械化步兵师" }		
+		25 = { "第%d机械化步兵师" }		
+		26 = { "第%d机械化步兵师" }		
+		27 = { "第%d机械化步兵师" }		
+		28 = { "第%d机械化步兵师" }		
+		29 = { "第%d机械化步兵师" }		
+		30 = { "第%d波兰机械化步兵师" }		
+	}
+}
+
+POL_ARM_01 = 
+{
+	name = "装甲师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d装甲师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d装甲师" }
+	}
+}
+
+POL_ARM_BRIGADE_01 = 
+{
+	name = "装甲旅"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "第%d装甲旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d装甲旅" }
+	}
+}
+
+POL_PAR_01 = 
+{
+	name = "伞兵师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d伞兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d伞兵师" }
+
+	}
+}
+
+POL_MAR_01 = 
+{
+	name = "陆战师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d陆战师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d陆战师" }
+	}
+}
+
+POL_MNT_01 = 
+{
+	name = "山地步兵师"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d山地步兵师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		21 = { "第%d山地步兵师" }		
+		22 = { "第%d山地步兵师" }		
+		1 = { "第%d军团山地步兵师" }
+		2 = { "第%d军团山地步兵师" }
+		3 = { "第%d军团山地步兵师" }
+		4 = { "第%d山地步兵师" }
+		5 = { "第%d山地步兵师" }
+		6 = { "第%d山地步兵师" }
+		7 = { "第%d山地步兵师" }
+		8 = { "第%d山地步兵师" }
+		9 = { "第%d山地步兵师" }
+		11 = { "第%d喀尔巴阡山地步兵师" }
+		12 = { "第%d山地步兵师" }
+		13 = { "第%d边境山地步兵师" }
+		14 = { "第%d大波兰山地步兵师" }
+		15 = { "第%d大波兰山地步兵师" }
+		16 = { "第%d波美拉尼亚山地步兵师" }
+		17 = { "第%d大波兰山地步兵师" }
+		18 = { "第%d山地步兵师" }
+		19 = { "第%d山地步兵师" }
+		20 = { "第%d山地步兵师" }		
+		23 = { "第%d上西里西亚山地步兵师" }		
+		24 = { "第%d山地步兵师" }		
+		25 = { "第%d山地步兵师" }		
+		26 = { "第%d山地步兵师" }		
+		27 = { "第%d山地步兵师" }		
+		28 = { "第%d山地步兵师" }		
+		29 = { "第%d山地步兵师" }		
+		30 = { "第%d波兰山地步兵师" }		
+	}
+}
+
+POL_GAR_01 = 
+{
+	name = "边防卫队"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	# link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "第%d边防旅"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+	
+		1 = { "第%d边防旅" }
+		2 = { "第%d边防旅" }
+		3 = { "第%d边防旅" }
+		4 = { "第%d边防旅" }
+		5 = { "第%d边防旅" }
+		6 = { "第%d边防旅" }
+		7 = { "莫德林边防旅" }
+		8 = { "比得哥什边防旅" }
+		9 = { "波兹南边防旅" }
+		10 = { "卡托维兹边防旅" }
+		11 = { "萨诺克边防旅" }
+		12 = { "格罗德诺边防旅" }	
+		13 = { "维尔诺边防旅" }	
+		14 = { "新格鲁多克边防旅" }
+		15 = { "波莱谢边防旅" }
+		16 = { "沃伦边防旅" }
+		17 = { "波多利亚边防旅" }		
+	}
+}

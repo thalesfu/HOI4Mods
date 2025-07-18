@@ -1,0 +1,2755 @@
+﻿units = {
+  fleet = {
+    name = "第1海军舰队"  # I Flotta Navale
+    naval_base = 11837
+    task_force = {
+      name = "第1海军中队"  # I Squadra Navale
+      location = 11837
+      ship = {
+        name = "扎拉"  # RI Zara
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "扎拉级"  # Zara Class
+          }
+        }
+      }
+      ship = {
+        name = "戈里齐亚"  # RI Gorizia
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "扎拉级"  # Zara Class
+          }
+        }
+      }
+      ship = {
+        name = "阜姆"  # RI Fiume
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "扎拉级"  # Zara Class
+          }
+        }
+      }
+      ship = {
+        name = "维托里奥·阿尔菲耶里"  # RCT Vittorio Alfieri
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "焦苏埃·卡尔杜齐"  # RCT Giosuè Carducci
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "文森佐·乔贝蒂"  # RCT Vincenzo Gioberti
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔弗雷多·奥里亚尼"  # RCT Alfredo Oriani
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第4海军中队"  # IV Squadra Navale
+      location = 11837
+      ship = {
+        name = "路易吉·卡多尔纳"  # RI Luigi Cadorna
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "朱萨诺级"  # Giussano Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔曼杜·迪亚斯"  # RI Armando Diaz
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "朱萨诺级"  # Giussano Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔贝里科·达·巴比亚诺"  # RI Alberico da Barbiano
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "朱萨诺级"  # Giussano Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔贝托·达·朱萨诺"  # RI Alberto da Giussano
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "朱萨诺级"  # Giussano Class
+          }
+        }
+      }
+      ship = {
+        name = "安东尼奥·达诺利"  # RCT Antonio da Noli
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "乌戈里尼·维瓦尔迪"  # RCT Ugolino Vivaldi
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "朗泽罗托·马罗切洛"  # RCT Lanzerotto Malocello
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "莱奥内·潘卡多"  # RCT Leone Pancaldo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "安东尼奥·皮加菲塔"  # RCT Antonio Pigafetta
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔维塞·达·莫斯托"  # RCT Alvise da Mosto
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "吉奥瓦尼·达·韦拉查诺"  # RCT Giovanni da Verrazzano
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "尼科洛·芝诺"  # RCT Nicolò Zeno
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第5海军中队"  # V Squadra Navale
+      location = 11837
+      ship = {
+        name = "加富尔伯爵"  # RN Conte di Cavour
+        pride_of_the_fleet = yes
+        definition = battleship
+        equipment = {
+          battleship_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱利奥·凯撒"  # RN Giulio Cesare
+        definition = battleship
+        equipment = {
+          battleship_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "达多"  # RCT Dardo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "箭头"  # RCT Freccia
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "飞矢"  # RCT Saetta
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "箭"  # RCT Strale
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "巴兰诺"  # RCT Baleno
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "闪电"  # RCT Folgore
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "雷鸣"  # RCT Fulmine
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "电光"  # RCT Lampo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第8海军中队"  # VIII Squadra Navale
+      location = 11837
+      ship = {
+        name = "阿布鲁齐公爵"  # RI Duca degli Abruzzi
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·加里波第"  # RI Giuseppe Garibaldi
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "尼科洛索·达·雷科"  # RCT Nicoloso da Recco
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "艾曼纽尔·佩萨格诺"  # RCT Emanuele Pessagno
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "卢卡·塔里戈"  # RCT Luca Tarigo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "安东尼奥托·乌索迪马雷"  # RCT Antoniotto Usodimare
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "第2海军舰队"  # II Flotta Navale
+    naval_base = 6973
+    task_force = {
+      name = "第2海军中队"  # II Squadra Navale
+      location = 6973
+      ship = {
+        name = "黑条乔瓦尼"  # RI Giovanni dalle Bande Nere
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "朱萨诺级"  # Giussano Class
+          }
+        }
+      }
+      ship = {
+        name = "巴托洛梅奥·科莱奥尼"  # RI Bartolomeo Colleoni
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "朱萨诺级"  # Giussano Class
+          }
+        }
+      }
+      ship = {
+        name = "西北风"  # RCT Maestrale
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "东北风"  # RCT Grecale
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "西南风"  # RCT Libeccio
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "非洲热风"  # RCT Scirocco
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3海军中队"  # III Squadra Navale
+      location = 6973
+      ship = {
+        name = "博尔扎诺"  # RI Bolzano
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "扎拉级"  # Zara Class
+          }
+        }
+      }
+      ship = {
+        name = "特伦托"  # RI Trento
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "的里雅斯特"  # RI Trieste
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "炮兵"  # RCT Artigliere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "黑衫军"  # RCT Camicia Nera
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "维埃尔"  # RCT Aviere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "工兵"  # RCT Geniere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第6海军中队"  # VI Squadra Navale
+      location = 6973
+      ship = {
+        name = "波拉"  # RI Pola
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "扎拉级"  # Zara Class
+          }
+        }
+      }
+      ship = {
+        name = "龙骑兵"  # RCT Carabiniere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "殖民地卫兵"  # RCT Ascari
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "胸甲骑兵"  # RCT Corazziere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "枪骑兵"  # RCT Lanciere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第7海军中队"  # VII Squadra Navale
+      location = 6973
+      ship = {
+        name = "埃乌詹尼·迪·萨沃阿"  # RI Eugenio di Savoia
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "蒙特库科利级"  # Montecuccoli Class
+          }
+        }
+      }
+      ship = {
+        name = "埃曼努莱·菲利贝尔特·杜卡·达奥斯塔"  # RI Emanuele Filiberto Duca d'Aosta
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "蒙特库科利级"  # Montecuccoli Class
+          }
+        }
+      }
+      ship = {
+        name = "穆齐奥·阿滕多洛"  # RI Muzio Attendolo
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "蒙特库科利级"  # Montecuccoli Class
+          }
+        }
+      }
+      ship = {
+        name = "雷蒙多·蒙泰库科利"  # RI Raimondo Montecuccoli
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "蒙特库科利级"  # Montecuccoli Class
+          }
+        }
+      }
+      ship = {
+        name = "掷弹兵"  # RCT Granatiere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "火枪兵"  # RCT Fuciliere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "轻步兵"  # RCT Bersagliere
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "山地步兵"  # RCT Alpino
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "大都会海军司令部"  # Comando Navale Metropolitana
+    naval_base = 11837
+    task_force = {
+      name = "上第勒尼安海中队"  # Squadra di Alto Tirreno
+      location = 6973
+      ship = {
+        name = "织女星"  # RCT Vega
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "射手座"  # RCT Sagittario
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "英仙座"  # RCT Perseo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "天狼星"  # RCT Sirio
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "西北风级"  # Maestrale Class
+          }
+        }
+      }
+      ship = {
+        name = "卡拉塔菲米"  # RCT Calatafimi
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "卡斯特尔菲达尔多"  # RCT Castelfidardo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "库尔塔托内"  # RCT Curtatone
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "蒙赞班诺"  # RCT Monzambano
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "下第勒尼安海中队"  # Squadra di Basso Tirreno
+      location = 819
+      ship = {
+        name = "马切洛·佩列斯汀纳里将军"  # RCT Generale Marcello Prestinari
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "安东尼奥·坎托雷将军"  # RCT Generale Antonio Cantore
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·拉·马萨"  # RCT Giuseppe La Masa
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "吉阿琴托·卡利尼"  # RCT Giacinto Carini
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "南河三"  # RCT Procione
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "猎户座"  # RCT Orione
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "大熊座"  # RCT Orsa
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "飞马座"  # RCT Pegaso
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "撒丁岛海事司令部"  # Comando Marittimo Sardegna
+      location = 6891
+      ship = {
+        name = "阿齐勒·帕帕将军"  # RCT Generale Achille Papa
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "卡洛·蒙坦纳里将军"  # RCT Generale Carlo Montanari
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "安东尼诺·卡西诺将军"  # RCT Generale Antonino Cascino
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "安东尼奥·齐诺托将军"  # RCT Generale Antonio Chinotto
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "安东尼奥·莫斯托"  # RCT Antonio Mosto
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "弗拉特利·凯罗利"  # RCT Fratelli Cairoli
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "老人星"  # RCT Canopo
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "仙后座"  # RCT Cassiopea
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "西西里海事司令部"  # Comando Marittimo Sicilia
+      location = 4159
+      ship = {
+        name = "土卫十四"  # RCT Calipso
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "司赋星"  # RCT Calliope
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "巫神星"  # RCT Circe
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "史神星"  # RCT Clio
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "智神星"  # RCT Pallade
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "海妖星"  # RCT Partenope
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "昂宿星团"  # RCT Pleiadi
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "北河三"  # RCT Polluce
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "鹤一"  # RCT Airone
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "天卫一"  # RCT Ariel
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "源神星"  # RCT Aretusa
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "昂宿六"  # RCT Alcione
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "毕宿五"  # RCT Aldebaran
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "河鼓二"  # RCT Altair
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "仙女座"  # RCT Andromeda
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "心宿二"  # RCT Antares
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·拉·法里纳"  # RCT Giuseppe La Farina
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "西莫涅·思琪拉菲诺"  # RCT Simone Schiaffino
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·德扎"  # RCT Giuseppe Dezza
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·切萨尔·阿巴"  # RCT Giuseppe Cesare Abba
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "上亚得里亚海中队"  # Squadra di Alto Adriatico
+      location = 11584
+      ship = {
+        name = "帕雷斯托"  # RCT Palestro
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "康菲恩扎"  # RCT Confienza
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "圣·马丁诺"  # RCT San Martino
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "索尔费里诺"  # RCT Solferino
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "下亚得里亚海中队"  # Squadra di Basso Adriatico
+      location = 11837
+      ship = {
+        name = "圣乔治"  # RI San Giorgio
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "塔兰托"  # RI Taranto
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "巴里"  # RI Bari
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "西风"  # RCT Espero
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "朔风"  # RCT Borea
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "和风"  # RCT Zeffiro
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "南风"  # RCT Ostro
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "罗索力诺·皮洛"  # RCT Rosolino Pilo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·密苏里"  # RCT Giuseppe Missori
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "弗朗切斯科·斯托尔科"  # RCT Francesco Stocco
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·西尔托里"  # RCT Giuseppe Sirtori
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "安吉诺·巴西尼"  # RCT Angelo Bassini
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "恩里科·科散兹"  # RCT Enrico Cosenz
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "吉阿科莫·美第齐"  # RCT Giacomo Medici
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "尼可拉·法比利基"  # RCT Nicola Fabrizi
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "卡洛·米拉贝罗"  # RCT Carlo Mirabello
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "奥古斯托·里博迪"  # RCT Augusto Riboty
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "爱琴海海军司令部"  # Comando Navale Egeo
+      location = 10007
+      ship = {
+        name = "弗朗切斯科·克里斯皮"  # RCT Francesco Crispi
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "昆蒂诺·瑟拉"  # RCT Quintino Sella
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "天枰座"  # RCT Libra
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "天猫座"  # RCT Lince
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "天琴座"  # RCT Lira
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "豺狼座"  # RCT Lupo
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "潜艇舰队"  # Flotta Sommergibili
+    naval_base = 6973
+    task_force = {
+      name = "第1潜艇集群"  # I Gruppo Sommergibili
+      location = 6973
+      ship = {
+        name = "彼埃特罗·卡尔维"  # RSmg Pietro Calvi
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "朱塞佩·芬济"  # RSmg Giuseppe Finzi
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "恩里科·塔佐利"  # RSmg Enrico Tazzoli
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "埃托雷·菲耶那莫斯卡"  # RSmg Ettore Fieramosca
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "文内罗"  # RSmg Veniero
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "蒙切里吉奥"  # RSmg Mocenigo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "格劳科斯"  # RSmg Glauco
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "海狮"  # RSmg Otaria
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "绿柱石"  # RSmg Berillo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "缟玛瑙"  # RSmg Onice
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "宝石"  # RSmg Gemma
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "伊里斯"  # RSmg Iride
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "阿耳戈"  # RSmg Argo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "维雷拉"  # RSmg Velella
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "贡德尔"  # RSmg Gondar
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "纳格莱"  # RSmg Neghelli
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "阿奇安吉湖"  # RSmg Ascianghi
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "希雷"  # RSmg Scirè
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "RSmg H1"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "RSmg H2"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "RSmg H4"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "RSmg H6"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "RSmg H8"
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2潜艇集群"  # II Gruppo Sommergibili
+      location = 819
+      ship = {
+        name = "丹多洛"  # RSmg Dandolo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "马切罗"  # RSmg Marcello
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "波万拿"  # RSmg Provana
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "巴巴里吉奥"  # RSmg Barbarigo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "艾莫"  # RSmg Emo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "莫罗西尼"  # RSmg Morosini
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "兰尼"  # RSmg Nani
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3潜艇集群"  # III Gruppo Sommergibili
+      location = 4159
+      ship = {
+        name = "维托·皮萨尼"  # RSmg Vettor Pisani
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "乔万尼·巴鲁萨安"  # RSmg Giovanni Bausan
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "马坎通里奥·科罗纳"  # RSmg Marcantonio Colonna
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "德·甘尼斯"  # RSmg Des Geneys
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "弗拉特里尼·班迪埃拉"  # RSmg Fratelli Bandiera
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "卢奇亚诺·马拉纳"  # RSmg Luciano Manara
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "切罗·梅洛蒂"  # RSmg Ciro Menotti
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "圣托雷·圣塔罗萨"  # RSmg Santorre Santarosa
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "戈弗雷多·马梅里"  # RSmg Goffredo Mameli
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "皮埃尔·坎皮奥尼"  # RSmg Pier Capponi
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "提托·斯佩里"  # RSmg Tito Speri
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "乔万尼·迪·帕罗切达"  # RSmg Giovanni da Procida
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "德巴尔克"  # RSmg Durbo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "汀比安"  # RSmg Tembien
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "贝卢尔"  # RSmg Beilul
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第4潜艇集群"  # IV Gruppo Sommergibili
+      location = 11837
+      ship = {
+        name = "巴利拉"  # RSmg Balilla
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "安东尼奥·斯切萨"  # RSmg Antonio Sciesa
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "恩里科·托提"  # RSmg Enrico Toti
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "多梅尼科·米勒利尔"  # RSmg Domenico Millelire
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "布林"  # RSmg Brin
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "路易吉·圣塔姆布里尼"  # RSmg Luigi Settembrini
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "鲁杰诺·圣提莫"  # RSmg Ruggiero Settimo
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "安菲特里忒"  # RSmg Anfitrite
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "萨尔帕"  # RSmg Salpa
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "撒尔佩特"  # RSmg Serpente 
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "德盖哈布尔"  # RSmg Dagabur
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "德西"  # RSmg Dessiè
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "乌尔斯里克"  # RSmg Uarsciek
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "谢贝利河"  # RSmg Uebi Scebeli
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "孔雀石"  # RSmg Malacite
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "琥珀"  # RSmg Ambra
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "红宝石"  # RSmg Rubino
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "温蒂妮"  # RSmg Ondina
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第5潜艇集群"  # V Gruppo Sommergibili
+      location = 10007
+      ship = {
+        name = "海豚"  # RSmg Delfino
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "独角鲸"  # RSmg Narvalo
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "鲨鱼"  # RSmg Squalo
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "海象"  # RSmg Tricheco
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "旗帜级"  # Bandiera Class
+          }
+        }
+      }
+      ship = {
+        name = "加雷亚"  # RSmg Jalea
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "加提那"  # RSmg Jantina
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "紫水晶"  # RSmg Ametista
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "蓝宝石"  # RSmg Zaffiro
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第7潜艇集群"  # VII Gruppo Sommergibili
+      location = 6891
+      ship = {
+        name = "阿杜瓦"  # RSmg Adua
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "阿拉吉山"  # RSmg Alagi
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "阿拉达姆山"  # RSmg Aradam
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "阿克苏姆"  # RSmg Axum
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "碧玉"  # RSmg Diaspro
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "珊瑚"  # RSmg Corallo
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "绿松石"  # RSmg Turchese
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "美杜莎"  # RSmg Medusa
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "利比亚海军司令部"  # Comando Navale Libia
+    naval_base = 1130
+    task_force = {
+      name = "利比亚中队"  # Squadra di Libia
+      location = 1130
+      ship = {
+        name = "北风"  # RCT Aquilone
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "欧洲风"  # RCT Euro
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "雨云"  # RCT Nembo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "旋风"  # RCT Turbine
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "航海家级"  # Navigatori Class
+          }
+        }
+      }
+      ship = {
+        name = "北河二"  # RCT Castore
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "RCT 人马座"  # RCT Centauro
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "天鹅座"  # RCT Cigno
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "伴女星"  # RCT Climene
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第6潜艇集群"  # VI Gruppo Sommergibili
+      location = 1130
+      ship = {
+        name = "美人鱼"  # RSmg Sirena
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "阿耳戈船英雄"  # RSmg Argonauta
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "菲萨尼亚"  # RSmg Fisalia
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "祖母绿"  # RSmg Smeraldo
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "仙女"  # RSmg Naiade
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "拉弗雷"  # RSmg Lafolè
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "金刚石"  # RSmg Diamante
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "黄玉"  # RSmg Topazio
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "伽拉忒亚"  # RSmg Galatea
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "海神"  # RSmg Nereide
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "红海海军司令部"  # Comando Navale Mar Rosso
+    naval_base = 12766
+    task_force = {
+      name = "红海中队"  # Squadra di Mar Rosso
+      location = 12766
+      ship = {
+        name = "弗朗切斯科·努洛"  # RCT Francesco Nullo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "纳扎里奥·萨乌罗"  # RCT Nazario Sauro
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "切萨尔·巴提斯蒂"  # RCT Cesare Battisti
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "丹尼埃莱·马林"  # RCT Daniele Manin
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "狮"  # RCT Leone
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "豹"  # RCT Pantera
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "虎"  # RCT Tigre
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "乔万尼·阿切尔比"  # RCT Giovanni Acerbi
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "文森佐·吉奥达诺"  # RCT Vincenzo Giordano Orsini
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第8潜艇集群"  # VIII Gruppo Sommergibili
+      location = 12766
+      ship = {
+        name = "朱里艾莫蒂"  # RSmg Guglielmotti
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "乔万尼"  # RSmg Galvani
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "伽利略·伽利莱"  # RSmg Galileo Galilei
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "伽利略·费拉利斯"  # RSmg Galileo Ferraris
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "塞壬级"  # Sirena Class
+          }
+        }
+      }
+      ship = {
+        name = "珍珠"  # RSmg Perla
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "默克莱"  # RSmg Macallè
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+          }
+        }
+      }
+      ship = {
+        name = "阿基米德"  # RSmg Archimede
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+      ship = {
+        name = "托里切利"  # RSmg Torricelli
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "马塞罗级"  # Marcello Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = battleship_2
+      creator = "ITA"
+    }
+    requested_factories = 2
+    progress = 0.80
+    amount = 1
+    industrial_manufacturer = mio:ITA_crda_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = battleship_2
+      creator = "ITA"
+    }
+    requested_factories = 2
+    progress = 0.80
+    amount = 1
+    industrial_manufacturer = mio:ITA_crda_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = battleship_3
+      creator = "ITA"
+    }
+    requested_factories = 2
+    progress = 0.60
+    amount = 1
+    industrial_manufacturer = mio:ITA_crda_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = battleship_3
+      creator = "ITA"
+    }
+    requested_factories = 2
+    progress = 0.60
+    amount = 1
+    industrial_manufacturer = mio:ITA_crda_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = submarine_2
+      creator = "ITA"
+      version_name = "马塞罗级"  # Marcello Class
+    }
+    requested_factories = 1
+    progress = 0.75
+    amount = 1
+    industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = submarine_2
+      creator = "ITA"
+      version_name = "马塞罗级"  # Marcello Class
+    }
+    requested_factories = 1
+    progress = 0.65
+    amount = 1
+    industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
+  }
+}

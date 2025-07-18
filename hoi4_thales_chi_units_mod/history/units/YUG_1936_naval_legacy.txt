@@ -1,0 +1,70 @@
+﻿units = {
+  fleet = {
+    name = "皇家海军"  # Kraljevska Mornarica
+    naval_base = 3924
+    task_force = {
+      name = "皇家海军"  # Kraljevska Mornarica
+      location = 3924
+      ship = {
+        name = "达尔马提亚"  # KB Dalmacija
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = YUG
+          }
+        }
+      }
+      ship = {
+        name = "杜布罗夫尼克"  # KB Dubrovnik
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = YUG
+          }
+        }
+      }
+      ship = {
+        name = "勇敢"  # KB Hrabri
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = YUG
+          }
+        }
+      }
+      ship = {
+        name = "内博伊沙"  # KB Nebojsa
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = YUG
+          }
+        }
+      }
+      ship = {
+        name = "胆量"  # KB Smeli
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = YUG
+          }
+        }
+      }
+      ship = {
+        name = "复仇者"  # KB Osvetnik
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = YUG
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+﻿units = {
+  fleet = {
+    name = "罗马尼亚海上舰队"  # Flota Romania de Mare
+    naval_base = 657
+    task_force = {
+      name = "罗马尼亚海上舰队"  # Flota Romania de Mare
+      location = 657
+      ship = {
+        name = "默勒什蒂"  # NMS Marasti
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ROM
+          }
+        }
+      }
+      ship = {
+        name = "默勒谢什蒂"  # NMS Marasesti
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ROM
+          }
+        }
+      }
+      ship = {
+        name = "费迪南国王"  # NMS Regele Ferdinand
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ROM
+            version_name = "斐迪南国王级"  # Regele Ferdinand Class
+          }
+        }
+      }
+      ship = {
+        name = "玛丽皇后"  # NMS Regina Maria
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = ROM
+            version_name = "斐迪南国王级"  # Regele Ferdinand Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = submarine_1
+      creator = "ROM"
+    }
+    requested_factories = 1
+    progress = 0.50
+    amount = 1
+  }
+}

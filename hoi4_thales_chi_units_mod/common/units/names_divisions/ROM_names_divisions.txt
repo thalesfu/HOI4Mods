@@ -1,0 +1,1230 @@
+﻿ROM_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # Divizie %d Infanterie
+  ordered = {
+    52 = {
+      "第1卫队步兵师"  # Divizia 1 Infanterie de Garda
+    }
+    1 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    2 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    3 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    4 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    5 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    6 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    7 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    8 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    9 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    10 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    11 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    12 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    13 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    14 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    15 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    16 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    17 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    18 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    19 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    20 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    21 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    53 = {
+      "第2卫队步兵师"  # Divizia 2 Infanterie de Garda
+    }
+    22 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    23 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    24 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    25 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    26 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    27 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    28 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    29 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    30 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    31 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    32 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    54 = {
+      "第1要塞师"  # Divizie 1 Fortificatii
+    }
+    55 = {
+      "第1边防师"  # Divizie 1 Graniceri
+    }
+    36 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    37 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    38 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    39 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    40 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    41 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    42 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    43 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    44 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    45 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    46 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    47 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    48 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    49 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    50 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+    51 = {
+      "第%d步兵师"  # Divizie %d Infanterie
+    }
+  }
+}
+ROM_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # Brigada %d Cavalerie
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    5 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    6 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    7 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    8 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    9 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    10 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    11 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    12 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    13 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    14 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    15 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    16 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    17 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    18 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    19 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    20 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    21 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    22 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    23 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    24 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    25 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    26 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    27 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    28 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    29 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    30 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    31 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    32 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    33 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    34 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    35 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    36 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    37 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    38 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    39 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    40 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    41 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    42 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    43 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    44 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    45 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    46 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    47 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    48 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    49 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    50 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    51 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    52 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+    53 = {
+      "第%d骑兵师"  # Brigada %d Cavalerie
+    }
+  }
+}
+ROM_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    ROM_INF_01
+  }
+  fallback_name = "第%d摩托化师"  # Divizie %d Motomecanizat
+  ordered = {
+    1 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    2 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    3 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    4 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    5 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    6 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    7 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    8 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    9 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    10 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    11 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    12 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    13 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    14 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    15 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    16 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    17 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    18 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    19 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    20 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    21 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    22 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    23 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    24 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    25 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    26 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    27 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    28 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    29 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    30 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    31 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    32 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    33 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+  }
+}
+ROM_ARM_01 = {
+  name = "装甲师"  # Armoured Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # Divizie %d Armura
+  ordered = {
+    1 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    2 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    3 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    4 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    5 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    6 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    7 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    8 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    9 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    10 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    11 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    12 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    13 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    14 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    15 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    16 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    17 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    18 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    19 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    20 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    21 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    22 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    23 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    24 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    25 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    26 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    27 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    28 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    29 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    30 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    31 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    32 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+    33 = {
+      "第%d装甲师"  # Divizie %d Armura
+    }
+  }
+}
+ROM_MEC_01 = {
+  name = "机械化步兵师"  # Mechanised Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    ROM_INF_01
+  }
+  fallback_name = "第%d摩托化师"  # Divizie %d Motomecanizat
+  ordered = {
+    1 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    2 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    3 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    4 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    5 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    6 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    7 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    8 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    9 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    10 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    11 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    12 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    13 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    14 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    15 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    16 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    17 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    18 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    19 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    20 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    21 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    22 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    23 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    24 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    25 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    26 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    27 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    28 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    29 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    30 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    31 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    32 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+    33 = {
+      "第%d摩托化师"  # Divizie %d Motomecanizat
+    }
+  }
+}
+ROM_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d守备师"  # Divizia %d Paza
+  ordered = {
+    1 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    2 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    3 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    4 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    5 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    6 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    7 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    8 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    9 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    10 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    11 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    12 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    13 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    14 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    15 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    16 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    17 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    18 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    19 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    20 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    21 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    22 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    23 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    24 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    25 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    26 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    27 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    28 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    29 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    30 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    31 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    32 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    36 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    37 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    38 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    39 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    40 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    41 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    42 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    43 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    44 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    45 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    46 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    47 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    48 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    49 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    50 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+    51 = {
+      "第%d守备师"  # Divizia %d Paza
+    }
+  }
+}
+ROM_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+  ordered = {
+    1 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    2 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    3 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    4 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    5 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    6 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    7 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    8 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    9 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    10 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    11 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    12 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    13 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    14 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    15 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    16 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    17 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    18 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    19 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    20 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    21 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    22 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    23 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    24 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    25 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    26 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    27 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    28 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    29 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+    30 = {
+      "第%d海军步兵师"  # Divizie %d Infanterie Marinar
+    }
+  }
+}
+ROM_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+  ordered = {
+    1 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    2 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    3 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    4 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    5 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    6 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    7 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    8 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    9 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    10 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    11 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    12 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    13 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    14 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    15 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    16 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    17 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    18 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    19 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    20 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    21 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    22 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    23 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    24 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    25 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    26 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    27 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    28 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    29 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    30 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    31 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    32 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    33 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    34 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    35 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    36 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    37 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    38 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    39 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    40 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    41 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    42 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    43 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    44 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    45 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    46 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    47 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    48 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    49 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    50 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    51 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    52 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+    53 = {
+      "第%d混编山地旅"  # Brigada %d de Munte Mixtă
+    }
+  }
+}
+ROM_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    ROM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d伞兵师"  # Divizie %d Parasutisti
+  ordered = {
+    1 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    2 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    3 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    4 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    5 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    6 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    7 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    8 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    9 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    10 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    11 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    12 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    13 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    14 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    15 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    16 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    17 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    18 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    19 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    20 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    21 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    22 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    23 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    24 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    25 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    26 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    27 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    28 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    29 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+    30 = {
+      "第%d伞兵师"  # Divizie %d Parasutisti
+    }
+  }
+}

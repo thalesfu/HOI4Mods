@@ -1,0 +1,20 @@
+﻿BEL_RG_HISTORICAL = {
+	for_countries = { BEL }
+
+	type = railway_gun
+	
+	fallback_name = "第%d铁路炮兵团"
+
+	ordered = {
+		
+		4 = {"第%d铁路炮兵团"}
+		5 = {"第%d铁路炮兵团"}
+		6 = {"第%d铁路炮兵团"}
+		7 = {"第%d铁路炮兵团"}
+		8 = {"第%d铁路炮兵团"}
+		9 = {"第%d铁路炮兵团"}
+		10 = {"第%d铁路炮兵团"}
+		
+		
+	}
+}

@@ -1,0 +1,120 @@
+﻿##### ESTONIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+EST_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "EML "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+	"沃博拉" "勒努克" "苏勒维" "比克" "勒比特" "兰恩"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+EST_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "EML "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"穆虎" "希乌马岛" "萨列马" "阿布鲁卡" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+EST_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "EML "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"塔林" "瓦尔加" "塔尔图" "穆斯特韦埃" "哈普赛" "拉普拉" "帕尔迪斯基" "基赫努" "沃尔姆西"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+EST_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "EML "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"塔林" "瓦尔加" "塔尔图" "穆斯特韦埃" "哈普赛" "拉普拉"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+EST_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "EML "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+			"帕尔迪斯基" "穆虎" "希乌马岛" "萨列马" "阿布鲁卡" "基赫努" "沃尔姆西"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+EST_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "EML "
+	fallback_name = "%d 号航母"	
+
+	unique = {
+			"塔林" "瓦尔加" "塔尔图" "穆虎" "希乌马岛" "萨列马" "阿布鲁卡" "基赫努" "沃尔姆西" "苏勒维" "沃博拉" "范德罗" "欧莱芙" 
+	}
+}
+
+### SUBMARINES ###
+EST_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "EML "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+	"卡勒维" "勒比特" "沃博拉" "勒努克" "苏勒维" "比克" "勒比特" "兰恩"
+	}
+}

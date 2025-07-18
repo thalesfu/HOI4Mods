@@ -1,0 +1,92 @@
+﻿units = {
+  fleet = {
+    name = "暹罗皇家海军"  # Royal Siamese Navy
+    naval_base = 7408
+    task_force = {
+      name = "皇家舰队"  # Royal Fleet
+      location = 7408
+      ship = {
+        name = "阿瑜陀耶"  # HTMS Sri Ayuthia
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SIA
+            version_name = "阿瑜陀耶级"  # Sri Ayuthia Class
+          }
+        }
+      }
+      ship = {
+        name = "吞武里"  # HTMS Dhonburi
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SIA
+            version_name = "阿瑜陀耶级"  # Sri Ayuthia Class
+          }
+        }
+      }
+      ship = {
+        name = "帕峦"  # HTMS Phra Ruang
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "帕峦级"  # Phra Ruang Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第1潜艇舰队"  # 1st Submarine Division
+      location = 7408
+      ship = {
+        name = "韦仑"  # HTMS Vilun
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "韦仑级"  # Vilun Class
+          }
+        }
+      }
+      ship = {
+        name = "玛查鲁"  # HTMS Machanu
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "韦仑级"  # Vilun Class
+          }
+        }
+      }
+      ship = {
+        name = "欣沙姆"  # HTMS Sinsamudar
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "韦仑级"  # Vilun Class
+          }
+        }
+      }
+      ship = {
+        name = "帕莱春蓬"  # HTMS Blajunbol
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "韦仑级"  # Vilun Class
+          }
+        }
+      }
+    }
+  }
+}

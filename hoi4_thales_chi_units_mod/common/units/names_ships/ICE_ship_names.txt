@@ -1,0 +1,92 @@
+ICE_CG_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_COAST_GUARD
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser ship_hull_heavy battleship }
+	prefix = "ICGV "
+	fallback_name = "ICGV %d号岸防舰"
+	unique = {
+		"托尔" "奥丁" "埃吉尔" "高图尔" "巴尔德" "尼约德" "智慧之神布拉基" "赛比约格" "玛丽亚·朱莉娅" "阿尔伯特" "阿尔瓦克" "战神提尔" "维尔" "弗雷亚"
+	}
+}
+ICE_CG_NORSE = {
+	name = NAME_THEME_NORSE_MYTHOLOGY
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser ship_hull_heavy battleship }
+	prefix = "ICGV "
+	fallback_name = "ICGV %d号"
+	unique = {
+		"埃吉尔" "巴尔德" "奥丁之父包尔" "智慧之神布拉基" "布利" "白日" "闪耀" "伊尔" "奥斯塔拉" "埃莉" "凡赛堤" "弗雷亚" "弗雷" "弗丽嘉" "弗拉" "葛冯" "赫尔" "海姆达尔" "赫尔莫德" "赫琳" "霍德尔" "海尼尔" "伊敦" "乔德" "克瓦希尔" "洛芬" "洛基" "曼尼" "明月" "密米尔" "南娜" "涅夫斯" "尼约德" "诺特" "奥丁" "萨加" "海洋女神兰" "希芙" "西格恩" "舍芬" "斯卡蒂" "斯诺特拉" "索尔" "索尔" "斯露德" "战神提尔" "乌勒尔" "瓦利" "沃尔" "维" "维达" "瓦尔" "生命之树" "安德里姆尼尔"
+	}
+}
+ICE_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	prefix = "ICGV "
+	fallback_name = "%d号驱逐舰"
+	unique = {
+	}
+}
+ICE_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	prefix = "ICGV "
+	fallback_name = "%d号轻巡洋舰"
+	unique = {
+	}
+}
+ICE_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	prefix = "ICGV "
+	fallback_name = "%d号重巡洋舰"
+	unique = {
+	}
+}
+ICE_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	prefix = "ICGV "
+	fallback_name = "%d号战列舰"
+	unique = {
+	}
+}
+ICE_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	prefix = "ICGV "
+	fallback_name = "%d号战列巡洋舰"
+	unique = {
+	}
+}
+ICE_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	prefix = "ICGV "
+	fallback_name = "%d号航空母舰"
+	unique = {
+	}
+}
+ICE_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = { ICE }
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	prefix = "ICGV "
+	fallback_name = "%d号潜艇"
+	unique = {
+	}
+}

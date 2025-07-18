@@ -1,0 +1,28 @@
+﻿units = {
+
+	######## NAVAL OOB ########
+	fleet = {
+		name = "波兰海军舰队"			
+		naval_base = 362 # Danzig
+		task_force = {
+			name = "波兰驱逐舰舰队"		# CO: Unrug
+			location = 362 # Danzig
+			ship = { name = "ORP 图表" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POL version_name = "格里芬级" } } }	
+			ship = { name = "ORP 格罗姆" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POL version_name = "雷鸣级" } } }	
+			ship = { name = "ORP 闪电" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POL version_name = "雷鸣级" } } }	
+			ship = { name = "ORP 布尔扎" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "狂风级" } } }	
+			ship = { name = "ORP 维歇尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "狂风级" } } }		
+		}	
+		task_force = {
+			name = "潜艇中队"	# CO: Mohuczy
+			location = 362 # Danzig
+			ship = { name = "ORP 奥泽尔" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "鹰级" } } }					
+			ship = { name = "ORP Sep" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "鹰级" } } }					
+			ship = { name = "ORP 猞猁" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "狼级" } } }					
+			ship = { name = "ORP 狼" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "狼级" } } }					
+			ship = { name = "ORP 兹比克" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = POL version_name = "狼级" } } }			
+		}
+	}
+}
+
+

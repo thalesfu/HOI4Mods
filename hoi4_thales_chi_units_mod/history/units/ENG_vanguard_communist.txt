@@ -1,0 +1,21 @@
+﻿units = {
+  fleet = {
+    name = "前卫"  # HMS Vanguard
+    naval_base = 6395
+    task_force = {
+      name = "前卫"  # HMS Vanguard
+      location = 6395
+      ship = {
+        name = "前卫"  # WLNS Vanguard
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_4 = {
+            amount = 1
+            owner = ENG
+            version_name = "前卫"  # Vanguard
+          }
+        }
+      }
+    }
+  }
+}

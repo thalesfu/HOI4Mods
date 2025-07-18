@@ -1,0 +1,81 @@
+﻿units = {
+  fleet = {
+    name = "丹麦海军"  # Den Danske Flåde
+    naval_base = 6287
+    task_force = {
+      name = "丹麦海军"  # Den Danske Flåde
+      location = 6287
+      ship = {
+        name = "尼尔斯·约尔"  # HDMS Niels Iuel
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = DEN
+          }
+        }
+      }
+      ship = {
+        name = "佩德·斯凯勒姆"  # HDMS Peder Skram
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = DEN
+          }
+        }
+      }
+      ship = {
+        name = "罗塔"  # HDMS Rota
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = DEN
+          }
+        }
+      }
+      ship = {
+        name = "战争女神"  # HDMS Bellona
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = DEN
+          }
+        }
+      }
+      ship = {
+        name = "花神"  # HDMS Flora
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = DEN
+          }
+        }
+      }
+      ship = {
+        name = "桂树神"  # HDMS Daphne
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = DEN
+          }
+        }
+      }
+      ship = {
+        name = "树妖"  # HDMS Dryaden
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = DEN
+          }
+        }
+      }
+    }
+  }
+}

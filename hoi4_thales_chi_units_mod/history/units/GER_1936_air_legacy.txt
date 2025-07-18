@@ -1,0 +1,117 @@
+﻿air_wings = {
+  763 = {
+    fighter_equipment_0 = {
+      owner = "GER"
+      amount = 40
+    }
+    name = "第232战斗机中队"  # Jagdgeschwader 232
+  }
+  64 = {
+    fighter_equipment_0 = {
+      owner = "GER"
+      amount = 80
+    }
+    name = "第132战斗机中队"  # Jagdgeschwader 132
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      amount = 80
+    }
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      amount = 40
+      version_name = "Ju 86"
+    }
+    name = "第153战斗中队"  # Kampfgeschwader 153
+    transport_plane_equipment_1 = {
+      owner = "GER"
+      amount = 80
+    }
+  }
+  66 = {
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      amount = 60
+    }
+    name = "第253战斗中队"  # Kampfgeschwader 253
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      amount = 60
+    }
+    CAS_equipment_1 = {
+      owner = "GER"
+      amount = 80
+    }
+    name = "第162黑桃A联队"  # Sturzkampfgeschwader 162
+  }
+  57 = {
+    fighter_equipment_0 = {
+      owner = "GER"
+      amount = 60
+    }
+    name = "第134战斗机中队"  # Jagdgeschwader 134
+    fighter_equipment_0 = {
+      owner = "GER"
+      amount = 60
+    }
+    tac_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 80
+    }
+    name = "第152战斗中队"  # Kampfgeschwader 152
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      amount = 80
+    }
+    name = "第155战斗中队"  # Kampfgeschwader 155
+  }
+  52 = {
+    fighter_equipment_0 = {
+      owner = "GER"
+      amount = 40
+    }
+    name = "第136战斗机中队"  # Jagdgeschwader 136
+    tac_bomber_equipment_0 = {
+      owner = "GER"
+      amount = 80
+    }
+    name = "第54战斗中队"  # Kampfgeschwader 154
+  }
+  58 = {
+    nav_bomber_equipment_1 = {
+      owner = "GER"
+      amount = 72
+    }
+    name = "第106海岸飞行大队"  # Küstenfliegergruppe 106
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = fighter_equipment_1
+      creator = "GER"
+    }
+    requested_factories = 1
+    progress = 0.15
+    efficiency = 50
+    industrial_manufacturer = mio:GER_messerschmitt_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = CAS_equipment_1
+      creator = "GER"
+    }
+    requested_factories = 1
+    progress = 0.2
+    efficiency = 50
+    industrial_manufacturer = mio:GER_junkers_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = tac_bomber_equipment_1
+      creator = "GER"
+    }
+    requested_factories = 1
+    progress = 0.1
+    efficiency = 50
+  }
+}

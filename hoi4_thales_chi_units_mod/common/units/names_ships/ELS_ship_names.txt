@@ -1,0 +1,120 @@
+﻿##### EL SALVADOR NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ELS_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ELS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "ARS "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+			"查拉特南戈" "科胡特佩克" "拉帕尔马" "贾祖巴尔" "松索纳特" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ELS_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ELS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "ARS "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+			"查拉特南戈" "科胡特佩克" "拉帕尔马" "贾祖巴尔" "松索纳特" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ELS_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ELS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "ARS "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+			"查拉特南戈" "科胡特佩克" "拉帕尔马" "贾祖巴尔" "松索纳特" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+ELS_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ELS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "ARS "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"拉利伯塔德" "圣安娜"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+ELS_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ELS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "ARS "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"拉利伯塔德" "圣安娜"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+ELS_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ELS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "ARS "
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"萨尔瓦多共和国" "圣萨尔瓦多" 
+	}
+}
+
+### SUBMARINES ###
+ELS_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ELS }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "ARS "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+			"查拉特南戈" "科胡特佩克" "拉帕尔马" "贾祖巴尔" "松索纳特" 
+	}
+}

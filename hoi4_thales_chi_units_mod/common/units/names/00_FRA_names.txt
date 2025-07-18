@@ -1,0 +1,243 @@
+﻿FRA = {
+	submarine = {
+		prefix = ""
+		generic = { "Sous-Marin" }
+		unique = {
+			# Starting with L'Espoire class        
+			"希望" "光荣" "半人马" "英雄" "征服者" "雷鸣" "奥古斯塔" "斯法克斯" "卡萨比安卡" "贝维济耶" "乌埃尚" "西迪·费鲁奇" 
+			"密涅瓦" "朱诺" "维纳斯" "伊利斯" "帕拉斯" "克瑞斯" "曙光" "克里奥尔" "宠妃" "寺院舞女" "非洲" "阿斯特里" "安德洛墨达" "阿德米士" 
+			"昂朵马格" "安提戈涅" "阿尔米德" "赫耳弥俄涅" "戈尔戈内" "克洛林德" "罗兰·莫里洛" "海傍" "马提尼克" "瓜德罗普" "留尼汪" 
+			"布莱松" "洛比" "布昂" "电鳗" "瑞香"
+			# Older and other models
+			"美人鱼" "娜雅" "该拉忒亚" "阿丽亚娜" "翁蒂娜" "欧律狄刻" "达娜厄" "喀耳刻" "卡吕普索" "忒提斯" "海牛" "鲨鱼" "大鼻海豚" "鼠海豚" "海豚" "独角鲸" "海象" "海豹" 
+			"箭鱼" "凯门鳄" "可畏" "复仇者" "阿基米德" "菲涅耳" "亨利·庞加莱" "蒙日" "帕斯卡" "牧师" "蓬瑟莱特" "阿基里斯" "阿雅克斯" "阿克特翁" "阿刻戎" "阿尔戈" 
+			"普洛透斯" "天马" "珀耳修斯" "不死鸟" "俄里翁" "翁蒂娜" "狄安娜" "水母" "安提俄珀" "安菲特律特" "亚马孙" "俄耳甫斯" "奥德雷" "西比尔" "拉普赛克" "阿耳戈" "阿瑞塞莎" 
+			"亚特兰大" "神处女" "苏丹后妃" "舒尔库夫" "普罗米修斯" "宁芙" "蓝宝石" " 绿松石" "钻石" "鹦鹉螺" "珍珠" " 红宝石" 
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Contre-Torpilleur" }
+		unique = {
+			# Starting with Le Fantasque class			
+			"空想" "可畏" "不屈" "大胆" "恶毒" "凯旋" "莫加多尔" "沃尔特" "勇敢者" "花剑" "锐剑" "头盔" "德国步兵" "奴隶骑兵" 
+			"海盗" "掠夺兵" "无畏" "鲁莽" "冒险" "顽强" "闪电" "灵巧" "热风" "野牛"
+			# Older and other models
+			"虎" "豺" "美洲豹" "豹" "非洲豹" "猞猁" "西北风" "飓风" "西蒙风" "暴风雨" "龙卷风" "龙卷风" "台风" "狂风" "旋风" "暴风" "热风" "西北风" 
+			"灵巧" "巴斯克" "波尔多" "布洛涅" "布雷斯特" "福尔班" "嘲讽" "翠鸟" "拉帕尔姆" "嘲笑者" "命运" "勒马斯" "闪电" "热情" 
+			"猎豹" "野牛" "瓦尔米" "凡尔登" "狮子" "沃邦" "鹰" "矛隼" "信天翁" "秃鹫" "雀鹰" "鸢" "沃克兰" "卡萨尔" "梅尔·布雷泽" "凯尔桑" "塔尔图" 
+			"骑士保罗" "墨尔波墨涅" "波莫娜" "植物志" "伊菲革涅亚" "巴约奈斯" "射石炮" "屈才" "追逐" "科尔得利俱乐部" "骚动" "弩炮" "盾牌" 
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Croiseur Léger" }
+		unique = {
+			"拉加利索尼埃" "让·德·维埃纳" "马赛人" "光荣" "蒙特卡姆" "乔治·莱格" "格拉斯" "雷诺堡" "吉尚" "柯尔培尔" 
+			# Older and other models
+			"迪盖·特鲁安" "拉莫特·皮克特" "普里茅盖特" "普路托" "圣女贞德" "埃米尔·贝尔坦" 
+			# Fictional names start here			
+			"科尔马" "牟罗兹" "斯特拉斯堡" "梅斯" "蒂永维尔" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Croiseur Lourd" }
+		unique = {
+			"迪凯纳" "图尔维尔" "叙弗伦" "柯尔培尔" "福煦" "迪普莱克斯" "阿尔及利亚"  		
+			# Fictional (WWI) names start here
+			"圣路易斯" "杜佩·德·洛姆" "海军上将夏纳" "布吕克斯" "尚齐" "拉图什特雷维尔" "波蒂奥" "杜彼特-图阿" "圭敦" 
+			"光荣" "蒙特卡姆" "德赛" "迪普莱克斯" "克莱伯" "海军上将奥比" "孔代" "马赛人" "莱昂·甘贝塔" 
+			"朱尔斯·费里" "维克多·雨果" "朱尔斯·米歇尔" "欧内斯特·雷南" "埃德加·奎奈" "瓦尔德克·卢梭" 
+		}
+	}
+	battle_cruiser = {
+        prefix = ""
+        generic = { "Croiseur Cuirassé" }
+        unique = {
+           "敦刻尔克" "斯特拉斯堡" "阿拉斯" "布尔日" "梅斯" "里尔" "南特" "土伦" "鲁昂" "蒙彼利埃"
+            "拉海尔" "让·比罗" "贝特朗·杜·盖克兰" "皮埃尔·德·布雷泽" "让·德·格鲁奇" "让·勒·迈因格里"
+ 			# Fictional names start here
+			"诺曼底" "法兰德斯" "加斯科涅" "贝阿恩" "吉勒" "杜兰·维尔" 
+       }
+    }
+    battleship = {
+        prefix = ""
+        generic = { "Navire de Ligne" }
+        unique = {
+            "黎塞留" "让·巴尔" "克莱蒙梭" "加斯科涅" "阿尔萨斯" "诺曼底" "法兰德斯" "勃艮第" "朗格多克" 
+			"香槟" "普瓦图" "阿图瓦" "富瓦" "皮卡第" "自由" "公正" "真理" "民主" "共和国" "祖国"
+            "巴黎" "奥尔良" "马赛" "里昂" "图卢兹" "尼斯" "库尔贝" "法兰西" "海洋" "布列塔尼" "洛林" "普罗旺斯"
+ 			# Fictional names start here
+			"迪凯纳" "里尔" "图尔维尔"
+       }
+    }
+	carrier = {
+		prefix = ""
+		generic = { "Porte-Avions" }
+		unique = {
+			"霞飞" "潘勒韦" "克莱蒙梭" "贝阿恩" 
+			# Fictional names start here
+			"迪克斯梅德" "阿罗芒什" "拉斐特" "贝劳森林" "福煦" "圣女贞德" "凡尔登" "闪电" "司令官坦特"
+		}
+	}
+
+	air_wing_names_template = AIR_WING_NAME_GER_FALLBACK
+
+	#Air wings can only be named through archetype
+	small_plane_airframe = {
+		prefix = ""
+		generic = { "空战狩猎中队" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	medium_plane_scout_plane_airframe = {
+		prefix = ""
+		generic = { "侦察中队" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	#jet_fighter_equipment = {
+	#	prefix = ""
+	#	generic = { "狩猎中队" }
+	#	generic_pattern = AIR_WING_NAME_FRA_GENERIC
+	#	unique = {
+	#	}	
+	#}
+
+	medium_plane_fighter_airframe = {
+		prefix = ""
+		generic = { "狩猎中队" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "攻击中队" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_small_plane_airframe = {
+		prefix = ""
+		generic = { "中队" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+
+	cv_small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "中队" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+	cv_small_plane_naval_bomber_airframe = {
+		prefix = ""
+		generic = { "中队" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+
+	medium_plane_airframe = {
+		prefix = ""
+		generic = { "空中轰炸集群" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	#jet_tac_bomber_equipment = {
+	#	prefix = ""
+	#	generic = { "空中轰炸集群" }
+	#	generic_pattern = AIR_WING_NAME_FRA_GENERIC
+	#	unique = {
+	#	}	
+	#}
+
+	small_plane_naval_bomber_airframe = {
+		prefix = ""
+		generic = { "中队" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+
+	large_plane_airframe = {
+		prefix = ""
+		generic = { "空中轰炸集群" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	large_plane_maritime_patrol_plane_airframe = {
+		prefix = ""
+		generic = { "中队" }
+		generic_pattern = AIR_WING_NAME_FRA_CARRIER
+		unique = {
+		}	
+	}
+
+	#jet_strat_bomber_equipment = {
+	#	prefix = ""
+	#	generic = { "空中轰炸集群" }
+	#	generic_pattern = AIR_WING_NAME_FRA_GENERIC
+	#	unique = {
+	#	}	
+	#}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "运输中队" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+
+	infantry = {
+		prefix = ""
+		generic = { "Division d'Infanterie" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Div. d'Infanterie Motorisée" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Division d'Infanterie Alpine" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Division de Cavalerie" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	light_armor = {
+		prefix = ""
+		generic = { "Brigade de Chars de Combat" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+	medium_armor = {
+		prefix = ""
+		generic = { "Brigade de Chars de Combat" }
+		generic_pattern = "UNIT_GENERIC_NAME_FRA"
+		unique = {}
+	}
+}

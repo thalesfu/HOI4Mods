@@ -1,0 +1,146 @@
+﻿division_template = {
+  name = "党卫军突击旅"  # SS-Sturmbrigade
+  is_locked = yes
+  division_names_group = GER_Inf_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+  }
+}
+units = {
+  division = {
+    name = "第1党卫旅"  # 1. SS-Sturmbrigade
+    location = 11638
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第2党卫旅"  # 2. SS-Sturmbrigade
+    location = 9666
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第3党卫旅"  # 3. SS-Sturmbrigade
+    location = 708
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第4党卫旅"  # 4. SS-Sturmbrigade
+    location = 6540
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第5党卫旅"  # 5. SS-Sturmbrigade
+    location = 692
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第6党卫旅"  # 6. SS-Sturmbrigade
+    location = 692
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第7党卫旅"  # 7. SS-Sturmbrigade
+    location = 11544
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第8党卫旅"  # 8. SS-Sturmbrigade
+    location = 11529
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第9党卫旅"  # 9. SS-Sturmbrigade
+    location = 9557
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第10党卫旅"  # 10. SS-Sturmbrigade
+    location = 6594
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第11党卫旅"  # 11. SS-Sturmbrigade
+    location = 11417
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第12党卫旅"  # 12. SS-Sturmbrigade
+    location = 13116
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第13党卫旅"  # 13. SS-Sturmbrigade
+    location = 6521
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第14党卫旅"  # 14. SS-Sturmbrigade
+    location = 3500
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第15党卫旅"  # 15. SS-Sturmbrigade
+    location = 3561
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第16党卫旅"  # 16. SS-Sturmbrigade
+    location = 3561
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第17党卫旅"  # 17. SS-Sturmbrigade
+    location = 425
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第18党卫旅"  # 18. SS-Sturmbrigade
+    location = 425
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第19党卫旅"  # 19. SS-Sturmbrigade
+    location = 6487
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第20党卫旅"  # 20. SS-Sturmbrigade
+    location = 3522
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第21党卫旅"  # 21. SS-Sturmbrigade
+    location = 11359
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第22党卫旅"  # 22. SS-Sturmbrigade
+    location = 11219
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第23党卫旅"  # 23. SS-Sturmbrigade
+    location = 9294
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "第24党卫旅"  # 24. SS-Sturmbrigade
+    location = 11305
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+  division = {
+    name = "党卫军第25'阿道夫·希特勒警卫旗队'突击旅"  # 25. SS-Sturmbrigade 'Leibstandarte Adolf Hitler'
+    location = 9471
+    division_template = "党卫军突击旅"  # SS-Sturmbrigade
+  }
+}

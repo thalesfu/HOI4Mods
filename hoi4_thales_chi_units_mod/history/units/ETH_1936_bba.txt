@@ -1,0 +1,343 @@
+﻿division_template = {
+  name = "荣誉卫队"  # Kebur Zabagna
+  division_names_group = ETH_INF_IG
+  is_locked = yes
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 0
+      y = 3
+    }
+    cavalry = {
+      x = 0
+      y = 4
+    }
+  }
+  priority = 1
+}
+division_template = {
+  name = "皇家卫队"  # Mehal Sefari
+  division_names_group = ETH_INF_02
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "切特师"  # Chitet Sefari
+  division_names_group = ETH_INF_03
+  is_locked = yes
+  force_allow_recruiting = yes
+  regiments = {
+    irregular_infantry = {
+      x = 0
+      y = 0
+    }
+    irregular_infantry = {
+      x = 0
+      y = 1
+    }
+    irregular_infantry = {
+      x = 1
+      y = 0
+    }
+    irregular_infantry = {
+      x = 1
+      y = 1
+    }
+    irregular_infantry = {
+      x = 2
+      y = 0
+    }
+    irregular_infantry = {
+      x = 2
+      y = 1
+    }
+  }
+  division_cap = 20
+}
+division_template = {
+  name = "山地师"  # Mountain Division
+  division_names_group = ETH_INF_02
+  regiments = {
+    mountaineers = {
+      x = 0
+      y = 0
+    }
+    mountaineers = {
+      x = 0
+      y = 1
+    }
+    mountaineers = {
+      x = 1
+      y = 0
+    }
+    mountaineers = {
+      x = 1
+      y = 1
+    }
+  }
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 5010
+    division_template = "荣誉卫队"  # Kebur Zabagna
+    start_experience_factor = 0.2
+    start_equipment_factor = 1
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 1984
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 13237
+    division_template = "山地师"  # Mountain Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 13237
+    division_template = "山地师"  # Mountain Division
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 13238
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 13238
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 2072
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 8
+    }
+    location = 5097
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 10
+    }
+    location = 5097
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 7980
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 13
+    }
+    location = 5097
+    division_template = "皇家卫队"  # Mehal Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    officer = {
+      name = "翁多森·卡萨"  # Wondosson Kassa
+    }
+    location = 2072
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.6
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 13238
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.6
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 15
+    }
+    officer = {
+      name = "海尔·凯贝德"  # Haile Kebbede
+    }
+    location = 7944
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.45
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 20
+    }
+    officer = {
+      name = "马孔宁·德米西埃"  # Makonnen Demissie
+    }
+    location = 7944
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.25
+    start_equipment_factor = 1
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 22
+    }
+    officer = {
+      name = "格塔楚·阿巴特"  # Getachew Abate
+    }
+    location = 1984
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.6
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 23
+    }
+    officer = {
+      name = "阿法瓦克·瓦尔达·萨马亚特"  # Afawarq Walda Samayat
+    }
+    location = 12812
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.6
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 25
+    }
+    location = 12757
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.6
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 26
+    }
+    location = 4995
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.6
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 30
+    }
+    location = 4995
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.05
+    start_equipment_factor = 0.6
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 31
+    }
+    location = 8062
+    division_template = "切特师"  # Chitet Sefari
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.9
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_0
+      creator = "ETH"
+    }
+    requested_factories = 2
+    progress = 0.1
+    efficiency = 25
+  }
+}

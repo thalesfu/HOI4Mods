@@ -1,0 +1,1044 @@
+﻿MEK_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # %d. Infanterie-Division
+  ordered = {
+    1 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    2 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    3 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    4 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    5 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    6 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    7 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    8 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    10 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    11 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    12 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    13 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    14 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    15 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    16 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    17 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    18 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    19 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    20 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    21 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    22 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    23 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    24 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    25 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    26 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    27 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    28 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    29 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    30 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    31 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    32 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    33 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    34 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    35 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    36 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    37 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    38 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    39 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    40 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    41 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    42 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    43 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    44 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    45 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    46 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    47 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    48 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    49 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+    50 = {
+      "第%d步兵师"  # %d. Infanterie-Division
+    }
+  }
+}
+MEK_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # %d. Kavallerie-Division
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    3 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    4 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    5 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    6 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    7 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    8 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    9 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    10 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    11 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    12 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    13 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    14 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    15 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    16 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    17 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    18 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    19 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+    20 = {
+      "第%d骑兵师"  # %d. Kavallerie-Division
+    }
+  }
+}
+MEK_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    MEK_INF_01
+  }
+  fallback_name = "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+  ordered = {
+    1 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    2 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    3 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    4 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    5 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    6 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    7 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    8 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    10 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    11 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    12 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    13 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    14 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    15 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    16 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    17 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    18 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    19 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    20 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    21 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    22 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    23 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    24 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    25 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    26 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    27 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    28 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    29 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    30 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    31 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    32 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    33 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    34 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    35 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    36 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    37 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    38 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    39 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    40 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    41 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    42 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    43 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    44 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    45 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    46 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    47 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    48 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    49 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+    50 = {
+      "第%d摩托化步兵师"  # %d. Infanterie-Division (mot.)
+    }
+  }
+}
+MEK_ARM_01 = {
+  name = "装甲师"  # Armored Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d预备装甲师"  # %d. Reserve-Panzer-Division
+  ordered = {
+    1 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    3 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    4 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    5 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    6 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    7 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    8 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    9 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    10 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    11 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    14 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    12 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    13 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    15 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    16 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    17 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    18 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    19 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    20 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    22 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    23 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    24 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    25 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    26 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    27 = {
+      "第%d装甲师"  # %d. Panzer-Division
+    }
+    178 = {
+      "第%d预备装甲师"  # %d. Reserve-Panzer-Division
+    }
+    179 = {
+      "第%d预备装甲师"  # %d. Reserve-Panzer-Division
+    }
+    155 = {
+      "第%d预备装甲师"  # %d. Reserve-Panzer-Division
+    }
+    233 = {
+      "第%d预备装甲师"  # %d. Reserve-Panzer-Division
+    }
+  }
+}
+MEK_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    MEK_INF_01
+  }
+  fallback_name = "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+  ordered = {
+    1 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    2 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    3 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    4 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    5 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    6 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    7 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    8 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    10 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    11 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    12 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    13 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    14 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    15 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    16 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    17 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    18 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    19 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    20 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    21 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    22 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    23 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    24 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    25 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    26 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    27 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    28 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    29 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    30 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    31 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    32 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    33 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    34 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    35 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    36 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    37 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    38 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    39 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    40 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    41 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    42 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    43 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    44 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    45 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    46 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    47 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    48 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    49 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+    50 = {
+      "第%d装甲掷弹兵师"  # %d. Panzergrenadier-Division
+    }
+  }
+}
+MEK_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d守备师"  # %d. Heimatschutz-Division
+  ordered = {
+    52 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    201 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    203 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    207 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    213 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    141 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    221 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    281 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    285 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    147 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    286 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    325 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    400 = {
+      "第%d战地后备师"  # %d. Feldersatz-Division
+    }
+    390 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    391 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    148 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    403 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    444 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    151 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    454 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    41 = {
+      "第%d野战师"  # %d. Feldausbildungs-Division
+    }
+    717 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    133 = {
+      "第%d野战师"  # %d. Feldausbildungs-Division
+    }
+    718 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    153 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    719 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    402 = {
+      "第%d训练师"  # %d. Ausbildungs-Division
+    }
+    720 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    721 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    154 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    726 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    157 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    727 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    158 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    159 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    856 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    859 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    160 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    877 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    735 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    165 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    812 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    895 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    166 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    742 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    171 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    785 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+    172 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    173 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    182 = {
+      "第%d预备师"  # %d. Reserve-Division
+    }
+    188 = {
+      "第%d预备山地师"  # %d. Reserve-Gebirgs-Division
+    }
+    730 = {
+      "第%d守备师"  # %d. Heimatschutz-Division
+    }
+  }
+}
+MEK_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d陆战师"  # %d. Seelande-Division
+  ordered = {
+    1 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    2 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    3 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    4 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    5 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    6 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    7 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    8 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    9 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+    10 = {
+      "第%d陆战师"  # %d. Seelande-Division
+    }
+  }
+}
+MEK_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%d山地师"  # %d. Gebirgsjäger-Division
+  ordered = {
+    1 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    2 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    3 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    6 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    4 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    5 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    7 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    188 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    157 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    9 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    8 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    187 = {
+      "第1滑雪猎人师"  # 1. Skijäger-Division
+    }
+    10 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    11 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    12 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    13 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    14 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    15 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    16 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    17 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    18 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    19 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    20 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    21 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    22 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    23 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    24 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    25 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    26 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    27 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    28 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    29 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+    30 = {
+      "第%d山地师"  # %d. Gebirgsjäger-Division
+    }
+  }
+}
+MEK_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    MEK
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d伞兵师"  # %d. Fallschirmjäger Division
+  ordered = {
+    1 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    2 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    3 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    4 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    5 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    6 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    7 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    9 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    8 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+    10 = {
+      "第%d伞兵师"  # %d. Fallschirmjäger Division
+    }
+  }
+}

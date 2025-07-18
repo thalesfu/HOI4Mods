@@ -1,0 +1,10 @@
+﻿air_wings = {
+  6 = {
+    small_plane_airframe_0 = {
+      owner = "BEL"
+      amount = 43
+      creator = ENG
+      version_name = "霍克 狂怒"  # Hawker Fury
+    }
+  }
+}

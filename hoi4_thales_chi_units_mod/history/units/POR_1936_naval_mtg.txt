@@ -1,0 +1,113 @@
+﻿units = {
+  fleet = {
+    name = "葡萄牙海军"  # Marinha de Portugal
+    naval_base = 11805
+    task_force = {
+      name = "维亚纳堡舰队"  # Flotilha 'Viana do Castelo'
+      location = 11805
+      ship = {
+        name = "塔梅加"  # NRP Tamega
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "瓜迪亚纳级"  # Guadiana Class
+          }
+        }
+      }
+      ship = {
+        name = "道河"  # NRP Dão
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗河级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "杜罗河"  # NRP Douro
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗河级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "利马河"  # NRP Lima
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗河级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "伏加河"  # NRP Vouga
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗河级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "特茹河"  # NRP Tejo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗河级"  # Douro Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "海豚舰队"  # Flotilha Delfim
+      location = 11805
+      ship = {
+        name = "海豚"  # NRP Delfim
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = POR
+            version_name = "海豚级"  # Delfim Class
+          }
+        }
+      }
+      ship = {
+        name = "箭鱼"  # NRP Espadarte
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = POR
+            version_name = "海豚级"  # Delfim Class
+          }
+        }
+      }
+      ship = {
+        name = "海豚"  # NRP Golfinho
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = POR
+            version_name = "海豚级"  # Delfim Class
+          }
+        }
+      }
+    }
+  }
+}

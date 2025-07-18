@@ -1,0 +1,215 @@
+﻿division_template = {
+	name = "步兵师"		# Same for "Active" and "Reserve" Infantry Divisions
+	division_names_group = BEL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "骑兵师"  	# Cavalry Division
+	division_names_group = BEL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      	# Actually, 2x bicycle cav bns
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "机动骑兵旅"  		# Motorized Cavalry Brigade
+	division_names_group = BEL_MOT_01
+										# Note: motorized cavalry. Most sources have them truck-equipped.
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "殖民地民兵师"			# Colonial militia, lower experience, equipment
+	division_names_group = BEL_GAR_01 	#TODO make separate namelist for colonial divisions
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+### OOB ###
+units = {
+	##### L'Armée Belge #####
+	# I Corps d'Armée
+	division= {	# "第4步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 9574  # Hoeselt
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# II Corps d'Armée
+	division= {	# "第6步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 13068  # Leuven
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# III Corps d'Armée
+	division= {	# "第2步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 11519  # Liege
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第3步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 11519  # Liege
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# IV Corps d'Armée
+	division= {	# "第5步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 516  #Brussels
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# Corps d'Cavalerie
+	division= {	# "第1步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11519  # Liege
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第2骑兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 13068  # Leuven
+		division_template = "骑兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "机动骑兵旅"
+		location = 13068  # Leuven
+		division_template = "机动骑兵旅"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# Groupement K
+	division= {	# "阿尔登第1步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 101
+		}
+		location = 11407  # St Hubert
+		division_template = "步兵师"		# elite bicycle infantry
+		start_experience_factor = 0.3
+	}
+	division= {	# "第1骑兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11407  # St Hubert
+		division_template = "骑兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+
+	### Belgian Congo ###
+	division= {	
+		name = "比利时刚果共和国警察部队"
+		location = 10968  # Leopoldville
+		division_template = "殖民地民兵师"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BEL" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 2
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}

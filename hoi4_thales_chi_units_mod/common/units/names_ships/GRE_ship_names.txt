@@ -1,0 +1,121 @@
+﻿##### GREECE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+GRE_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "RHS "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"乔治一世国王" "瓦西利奥莎·奥尔佳" "萨拉米斯" "纳瓦里诺" "圆盾" "基蒙" "矛" "青年" "斯菲多尼" "风暴"
+		"塞米斯托克利斯" "克里特" "艾拉克斯" "鹰" "狮" "豹" "康托里奥蒂斯" "海德拉" "渔夫" "斯佩特塞斯" "平都斯" "亚得里亚" "黑斯廷斯" "卡纳里斯" "天使" "尼高拉迪斯" "哈斯丁" "克里特" "爱琴" "艾托斯" "鹰" "狮" "豹"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+GRE_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "RHS "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"埃利" "使命" "克里奇斯" "撒图里斯" "唐帕奇斯" "埃利斯" "比雷埃夫斯" "基克拉迪斯" "亚历山德罗斯" "艾拉克索斯"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+GRE_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "RHS "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+			"富商阿若维夫" "比雷埃夫斯" "基克拉迪斯" "亚历山德罗斯" "艾拉克索斯" "克里特岛" "爱琴海诸岛" "基西拉" "凯法利尼亚"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+GRE_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "RHS "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+	"基尔基斯" "雅典" "色萨利" "伊庇鲁斯" "伯罗奔尼撒"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+GRE_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "RHS "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+	"雅典" "色萨利" "伊庇鲁斯" "伯罗奔尼撒" "基尔基斯"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+GRE_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "RHS "
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"希腊" "苏格拉底" "乔治国王" "瓦西利奥莎·奥尔佳" "九头蛇" "斯佩特塞斯" "渔夫"
+	}
+}
+
+### SUBMARINES ###
+GRE_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "RHS "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"卡措尼斯" "帕帕尼科利斯" "普罗透斯" "尼雷弗斯" "特里同" "格拉夫科斯" "马特罗佐思" "皮蓬" "海豚" "淘金者" "三叉戟" "安菲特里第" "奇菲亚斯" "波塞冬" "俄刻阿诺斯"
+	}
+}

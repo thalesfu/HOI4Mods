@@ -1,0 +1,151 @@
+##### ROMANIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ROM_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "NMS "
+	fallback_name = "第%d 驱逐舰"					
+
+	unique = {											
+		"斐迪南国王" "玛丽女王" "马拉斯提" "马拉瑟斯提" "列伊" "特尔古" "盖兹拉" "必沃" "夏普" "丽罗斯" "拉斯顿" "萨利奇" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ROM_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "NMS "
+	fallback_name = "第%d 轻巡洋舰"
+
+	unique = {
+		"蒂米什瓦拉" "阿拉德" "奥拉迪亚" "巴亚马雷" "萨图 马雷" "比斯特里察" "雷希察" "皮特什蒂" "皮亚特拉尼亚姆茨" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ROM_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "NMS "
+	fallback_name = "第%d 重巡洋舰"
+
+	unique = {
+		"蒂米什瓦拉" "阿拉德" "奥拉迪亚" "巴亚马雷" "萨图 马雷" "比斯特里察" "雷希察" "皮特什蒂" "皮亚特拉尼亚姆茨"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+ROM_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "NMS "
+	fallback_name = "第%d 战列舰"		
+
+	unique = {
+		"康斯坦察" "特尔古穆列什" "克卢日纳波卡" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+ROM_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "NMS "
+	fallback_name = "第%d 战列巡洋舰"		
+
+	unique = {
+		"康斯坦察" "特尔古穆列什" "克卢日纳波卡" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+ROM_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "NMS "
+	fallback_name = "第%d 航空母舰"	
+
+	unique = {
+		"康斯坦察" "曼加利亚" "苏里纳" "拿沃达尼" "曼加利亚" "苏利纳" "讷沃达里" 
+	}
+}
+
+### SUBMARINES ###
+ROM_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "NMS "
+	fallback_name = "第%d 潜艇舰队"
+	
+	unique = {
+		"迪菲努尔" "树根" "马苏努尔" "牡蛎" "依莲娜" "欧伊土" "马洛斯" "阿尔隆" "特兰西瓦尼亚" "阿玛尼利斯" "普赖德" "萨卡" "布拉兹" "爱伊乌" "布萨斯" 
+		"利卡斯" "钢铁厂" "马金娜" "科拉比亚" 
+	}
+}
+
+### THEME: ROMANIAN REGIONS ###
+ROM_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { ROM }
+
+	type = ship
+
+	prefix = "NMS "
+	unique = {
+		"布加勒斯特" "蒙特尼亚" "奥尔特尼亚" "康斯坦察" "特兰西瓦尼亚" "摩尔达维亚" "布贾克" "多布鲁亚" "赫塔" "马拉穆列什" "比萨拉比亚" "布科维纳" 
+	}
+}
+
+## THEME: ROMANIAN CITIES ###
+ROM_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ROM }
+
+	type = ship
+
+	prefix = "NMS "
+	unique = {
+		"布加勒斯特" "克卢日" "康斯坦察" "普埃布拉" "雅西" "克拉约瓦" "布拉索夫" "加拉茨" "普洛耶什蒂" "奥拉迪亚" "阿拉德" "皮特什蒂" "布勒伊拉" "锡比乌" 
+		"巴克乌" "塔古·穆里斯" "拜亚马雷" "布泽乌" "博托沙尼" "萨图马雷" "特尔戈维什特" "皮亚特拉·尼姆" "福克沙尼" "塔古久" "比斯特里察" "瓦斯卢伊" "亚历山德里亚" 
+	}
+}
+

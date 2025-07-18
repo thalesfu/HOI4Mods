@@ -1,0 +1,281 @@
+﻿division_template = {
+  name = "国际旅"  # Brigada Internacionales
+  is_locked = yes
+  division_names_group = SPR_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+  }
+}
+units = {
+  division = {
+    name = "第1国际旅"  # I Brigada Internacionales
+    location = 3938
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第2国际旅"  # II Brigada Internacionales
+    location = 3938
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第3国际旅"  # III Brigada Internacionales
+    location = 3938
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第4国际旅"  # IV Brigada Internacionales
+    location = 3938
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第5国际旅"  # V Brigada Internacionales
+    location = 3938
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第6国际旅"  # VI Brigada Internacionales
+    location = 9764
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第7国际旅"  # VII Brigada Internacionales
+    location = 9764
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第8国际旅"  # VIII Brigada Internacionales
+    location = 9764
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第9国际旅"  # IX Brigada Internacionales
+    location = 6906
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第10国际旅"  # X Brigada Internacionales
+    location = 6906
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第11国际旅"  # XI Brigada Internacionales
+    location = 6906
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第12国际旅"  # XII Brigada Internacionales
+    location = 10024
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第13国际旅"  # XIII Brigada Internacionales
+    location = 10024
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第14国际旅"  # XIV Brigada Internacionales
+    location = 10024
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第15国际旅"  # XV Brigada Internacionales
+    location = 9979
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第16国际旅"  # XVI Brigada Internacionales
+    location = 9979
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第17国际旅"  # XVII Brigada Internacionales
+    location = 9979
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第18国际旅"  # XVIII Brigada Internacionales
+    location = 3735
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第19国际旅"  # XIX Brigada Internacionales
+    location = 13233
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第20国际旅"  # XX Brigada Internacionales
+    location = 740
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第21国际旅"  # XXI Brigada Internacionales
+    location = 3938
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第22国际旅"  # XXII Brigada Internacionales
+    location = 9764
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第23国际旅"  # XXIII Brigada Internacionales
+    location = 9764
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第24国际旅"  # XXIV Brigada Internacionales
+    location = 9764
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第25国际旅"  # XXV Brigada Internacionales
+    location = 9764
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第26国际旅"  # XXVI Brigada Internacionales
+    location = 6906
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第27国际旅"  # XXVII Brigada Internacionales
+    location = 6906
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第28国际旅"  # XXVIII Brigada Internacionales
+    location = 3794
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第29国际旅"  # XXIX Brigada Internacionales
+    location = 9767
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第30国际旅"  # XXX Brigada Internacionales
+    location = 3954
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第31国际旅"  # XXXI Brigada Internacionales
+    location = 3954
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第32国际旅"  # XXXII Brigada Internacionales
+    location = 3954
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第33国际旅"  # XXXIII Brigada Internacionales
+    location = 3945
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第34国际旅"  # XXXIV Brigada Internacionales
+    location = 3945
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第35国际旅"  # XXXV Brigada Internacionales
+    location = 3945
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第36国际旅"  # XXXVI Brigada Internacionales
+    location = 9903
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第37国际旅"  # XXXVII Brigada Internacionales
+    location = 9903
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第38国际旅"  # XXXVIII Brigada Internacionales
+    location = 9903
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第39国际旅"  # XXXIX Brigada Internacionales
+    location = 6832
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第40国际旅"  # XL Brigada Internacionales
+    location = 6832
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第41国际旅"  # XLI Brigada Internacionales
+    location = 6832
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第42国际旅"  # XLII Brigada Internacionales
+    location = 1176
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第43国际旅"  # XLIII Brigada Internacionales
+    location = 1176
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第44国际旅"  # XLIV Brigada Internacionales
+    location = 1176
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第45国际旅"  # XLV Brigada Internacionales
+    location = 6756
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第46国际旅"  # XLVI Brigada Internacionales
+    location = 11688
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第47国际旅"  # XLVII Brigada Internacionales
+    location = 738
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第48国际旅"  # XLVIII Brigada Internacionales
+    location = 9703
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第49国际旅"  # XLIX Brigada Internacionales
+    location = 6749
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第50国际旅"  # L Brigada Internacionales
+    location = 3729
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第51国际旅"  # LI Brigada Internacionales
+    location = 3744
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+  division = {
+    name = "第52国际旅 25"  # LII Brigada Internacionales 25
+    location = 9719
+    division_template = "国际旅"  # Brigada Internacionales
+  }
+}

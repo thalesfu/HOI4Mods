@@ -1,0 +1,651 @@
+﻿XSM_INF_01 = {
+  name = "步兵师"  # Infantry Unit
+  for_countries = {
+    XSM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d马家军"  # %d Ma Juntuán
+  ordered = {
+    80 = {
+      "第%d军"  # %d Juntuán
+    }
+    81 = {
+      "第%d军"  # %d Juntuán
+    }
+    82 = {
+      "第%d军"  # %d Juntuán
+    }
+    102 = {
+      "新编第2军"  # Xin 2 Juntuán
+    }
+    83 = {
+      "第%d军"  # %d Juntuán
+    }
+    85 = {
+      "第%d军"  # %d Juntuán
+    }
+    101 = {
+      "新编第1军"  # Xin 1 Juntuán
+    }
+    103 = {
+      "新编第3军"  # Xin 3 Juntuán
+    }
+    104 = {
+      "新编第4军"  # Xin 4 Juntuán
+    }
+    113 = {
+      "暂编第3军"  # 3 Juntuán Linshi
+    }
+    111 = {
+      "暂编第1军"  # 1 Juntuán Linshi
+    }
+    112 = {
+      "暂编第2军"  # 2 Juntuán Linshi
+    }
+    114 = {
+      "暂编第4军"  # 4 Juntuán Linshi
+    }
+    115 = {
+      "暂编第5军"  # 5 Juntuán Linshi
+    }
+    1 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    2 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    3 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    4 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    5 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    6 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    7 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    8 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    9 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    10 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    11 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    12 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    13 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    14 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    15 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    16 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    17 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    18 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    19 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    20 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+  }
+}
+XSM_CAV_01 = {
+  name = "骑兵师"  # Cavalry Unit
+  for_countries = {
+    XSM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d马家骑兵师"  # %d Ma Qibing Jun
+  ordered = {
+    1 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    2 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    3 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    4 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    6 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    5 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    7 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    8 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    9 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    10 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    11 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    12 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    13 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    14 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+    15 = {
+      "第%d马家骑兵师"  # %d Ma Qibing Jun
+    }
+  }
+}
+XSM_MOT_01 = {
+  name = "摩托化部队"  # Motorized Unit
+  for_countries = {
+    XSM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    XSM_INF_01
+  }
+  fallback_name = "第%d马家军"  # %d Ma Juntuán
+  ordered = {
+    80 = {
+      "第%d军"  # %d Juntuán
+    }
+    81 = {
+      "第%d军"  # %d Juntuán
+    }
+    82 = {
+      "第%d军"  # %d Juntuán
+    }
+    102 = {
+      "新编第2军"  # Xin 2 Juntuán
+    }
+    83 = {
+      "第%d军"  # %d Juntuán
+    }
+    85 = {
+      "第%d军"  # %d Juntuán
+    }
+    101 = {
+      "新编第1军"  # Xin 1 Juntuán
+    }
+    103 = {
+      "新编第3军"  # Xin 3 Juntuán
+    }
+    104 = {
+      "新编第4军"  # Xin 4 Juntuán
+    }
+    113 = {
+      "暂编第3军"  # 3 Juntuán Linshi
+    }
+    111 = {
+      "暂编第1军"  # 1 Juntuán Linshi
+    }
+    112 = {
+      "暂编第2军"  # 2 Juntuán Linshi
+    }
+    114 = {
+      "暂编第4军"  # 4 Juntuán Linshi
+    }
+    115 = {
+      "暂编第5军"  # 5 Juntuán Linshi
+    }
+    1 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    2 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    3 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    4 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    5 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    6 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    7 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    8 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    9 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    10 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    11 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    12 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    13 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    14 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    15 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    16 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    17 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    18 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    19 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    20 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+  }
+}
+XSM_MEC_01 = {
+  name = "机械化部队"  # Mechanized Unit
+  for_countries = {
+    XSM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    XSM_INF_01
+  }
+  fallback_name = "第%d马家军"  # %d Ma Juntuán
+  ordered = {
+    80 = {
+      "第%d军"  # %d Juntuán
+    }
+    81 = {
+      "第%d军"  # %d Juntuán
+    }
+    82 = {
+      "第%d军"  # %d Juntuán
+    }
+    102 = {
+      "新编第2军"  # Xin 2 Juntuán
+    }
+    83 = {
+      "第%d军"  # %d Juntuán
+    }
+    85 = {
+      "第%d军"  # %d Juntuán
+    }
+    101 = {
+      "新编第1军"  # Xin 1 Juntuán
+    }
+    103 = {
+      "新编第3军"  # Xin 3 Juntuán
+    }
+    104 = {
+      "新编第4军"  # Xin 4 Juntuán
+    }
+    113 = {
+      "暂编第3军"  # 3 Juntuán Linshi
+    }
+    111 = {
+      "暂编第1军"  # 1 Juntuán Linshi
+    }
+    112 = {
+      "暂编第2军"  # 2 Juntuán Linshi
+    }
+    114 = {
+      "暂编第4军"  # 4 Juntuán Linshi
+    }
+    115 = {
+      "暂编第5军"  # 5 Juntuán Linshi
+    }
+    1 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    2 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    3 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    4 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    5 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    6 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    7 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    8 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    9 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    10 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    11 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    12 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    13 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    14 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    15 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    16 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    17 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    18 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    19 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    20 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+  }
+}
+XSM_MNT_01 = {
+  name = "山地师"  # Mountain Unit
+  for_countries = {
+    XSM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    XSM_INF_01
+  }
+  fallback_name = "第%d马家军"  # %d Ma Juntuán
+  ordered = {
+    80 = {
+      "第%d军"  # %d Juntuán
+    }
+    81 = {
+      "第%d军"  # %d Juntuán
+    }
+    82 = {
+      "第%d军"  # %d Juntuán
+    }
+    102 = {
+      "新编第2军"  # Xin 2 Juntuán
+    }
+    83 = {
+      "第%d军"  # %d Juntuán
+    }
+    85 = {
+      "第%d军"  # %d Juntuán
+    }
+    101 = {
+      "新编第1军"  # Xin 1 Juntuán
+    }
+    103 = {
+      "新编第3军"  # Xin 3 Juntuán
+    }
+    104 = {
+      "新编第4军"  # Xin 4 Juntuán
+    }
+    113 = {
+      "暂编第3军"  # 3 Juntuán Linshi
+    }
+    111 = {
+      "暂编第1军"  # 1 Juntuán Linshi
+    }
+    112 = {
+      "暂编第2军"  # 2 Juntuán Linshi
+    }
+    114 = {
+      "暂编第4军"  # 4 Juntuán Linshi
+    }
+    115 = {
+      "暂编第5军"  # 5 Juntuán Linshi
+    }
+    1 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    2 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    3 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    4 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    5 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    6 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    7 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    8 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    9 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    10 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    11 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    12 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    13 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    14 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    15 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    16 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    17 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    18 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    19 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+    20 = {
+      "第%d马家军"  # %d Ma Juntuán
+    }
+  }
+}
+XSM_GAR_01 = {
+  name = "守备部队"  # Garrison Unit
+  for_countries = {
+    XSM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d马家守备师"  # %d Ma Jingbei
+  ordered = {
+    101 = {
+      "第1格尔木守备师"  # 1 Golmud Jingbei
+    }
+    111 = {
+      "第1宁夏守备师"  # 1 Ningxia Jingbei
+    }
+    121 = {
+      "第1青海守备师"  # 1 Qinghai Jingbei
+    }
+    102 = {
+      "第2格尔木守备师"  # 2 Golmud Jingbei
+    }
+    103 = {
+      "第3格尔木守备师"  # 3 Golmud Jingbei
+    }
+    112 = {
+      "第2宁夏守备师"  # 2 Ningxia Jingbei
+    }
+    113 = {
+      "第3宁夏守备师"  # 3 Ningxia Jingbei
+    }
+    122 = {
+      "第2青海守备师"  # 2 Qinghai Jingbei
+    }
+    104 = {
+      "第4格尔木守备师"  # 4 Golmud Jingbei
+    }
+    105 = {
+      "第5格尔木守备师"  # 5 Golmud Jingbei
+    }
+    123 = {
+      "第3青海守备师"  # 3 Qinghai Jingbei
+    }
+    114 = {
+      "第1青海守备师"  # 1 Qinghai Jingbei
+    }
+    115 = {
+      "第2青海守备师"  # 2 Qinghai Jingbei
+    }
+    131 = {
+      "宁夏保安对"  # Ningxia Baoan Ke
+    }
+    132 = {
+      "第1天水保安队"  # 1 Tianshui Baoan Ke
+    }
+    133 = {
+      "第1格尔木保安队"  # 1 Golmud Baoan Ke
+    }
+    134 = {
+      "第2格尔木保安队"  # 2 Golmud Baoan Ke
+    }
+    135 = {
+      "第3格尔木保安队"  # 3 Golmud Baoan Ke
+    }
+    136 = {
+      "第2天水保安队"  # 2 Tianshui Baoan Ke
+    }
+    137 = {
+      "第3天水保安队"  # 3 Tianshui Baoan Ke
+    }
+    138 = {
+      "青海保安队"  # Qinghai Baoan Ke
+    }
+    139 = {
+      "第1甘肃保安队"  # 1 Gansu Baoan Ke
+    }
+    140 = {
+      "第1甘肃保安队"  # 2 Gansu Baoan Ke
+    }
+    1 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    2 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    3 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    4 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    5 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    6 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    7 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    8 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    9 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+    10 = {
+      "第%d马家守备师"  # %d Ma Jingbei
+    }
+  }
+}

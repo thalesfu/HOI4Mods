@@ -1,0 +1,120 @@
+﻿##### NORWAY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+NOR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HNoMS "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"斯文纳" "斯托德" "奥斯陆" "卑尔根" "特隆赫姆" "斯塔万格" "阿伦达尔" "海于格松" "特罗姆瑟" "格莱斯代尔" "埃斯克河谷" "斯雷普尼尔" "吉勒" "埃吉尔" "奥丁" "巴德尔" "幽灵" "巨魔" "嘉尔姆" "奥拉夫·特里格瓦松" "菲尔亚"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+NOR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HNoMS "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"奥斯陆" "卑尔根" "特隆赫姆" "斯塔万格" "阿克什胡斯" "尼达罗斯" "纳尔维克" "挪威" "埃兹沃尔德" "托登肖尔" "哈拉尔阿尔法德雷"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+NOR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HNoMS "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"挪威" "埃兹沃尔德" "托登肖尔" "金发王哈拉尔" "奥斯陆" "卑尔根" "特隆赫姆" "斯塔万格" "阿克什胡斯" "卑尔根" "尼达罗斯" "纳尔维克"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+NOR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HNoMS "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"西挪威" "芬马克" "挪威" "埃兹沃尔德" "阿克什胡斯" "卑尔根" "尼达罗斯" "纳尔维克" "托登肖尔" "哈拉尔阿尔法德雷"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+NOR_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HNoMS "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+	"西挪威" "芬马克" "挪威" "埃兹沃尔德" "阿克什胡斯" "卑尔根" "尼达罗斯" "纳尔维克" "托登肖尔" "哈拉尔阿尔法德雷"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+NOR_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HNoMS "
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"埃兹沃尔德" "圣奥拉夫" "哈康" "西格德·乔萨尔法" "无畏" "乌拉乌拉" "于特西拉" "乌斯坦因" "乌特瓦尔" "乌泰于格" 
+	}
+}
+
+### SUBMARINES ###
+NOR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HNoMS "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+			"无畏" "乌拉乌拉" "乌斯坦因" "乌泰于格" "乌特瓦尔" "于特西拉" "基亚" "库拉" "金" "基亚" "科本" "库纳" "库拉" "斯克林纳" "斯科本" "施塔特" "斯托德" "斯文纳"
+	}
+}

@@ -1,0 +1,18 @@
+﻿air_wings = {
+  219 = {
+    medium_plane_airframe_0 = {
+      owner = "SOV"
+      amount = 40
+      version_name = "DB-3"
+    }
+    name = "第588夜间轰炸机团"  # 588. Night Bomber Regiment
+    ace = {
+      modifier = "support_unique"
+      name = "叶芙多吉娅"  # Yevdokia
+      surname = "波斯安斯卡娅"  # Bershanskaya
+      callsign = "夜空女巫"
+      is_female = yes
+      portrait = 1
+    }
+  }
+}

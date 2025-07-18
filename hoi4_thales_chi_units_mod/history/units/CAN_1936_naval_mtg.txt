@@ -1,0 +1,57 @@
+﻿units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "加拿大皇家海军"
+		naval_base = 7361		# Halifax
+		task_force = {
+			name = "大西洋中队"
+			location = 7361			# Halifax
+			# Scrap Iron Flotilla
+			ship = {
+				name = "HMCS 萨格奈"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = CAN
+						version_name = "萨格奈级"
+					}
+				}
+			}
+			ship = {
+				name = "HMCS 斯基纳"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = CAN
+						version_name = "萨格奈级"
+					}
+				}
+			}
+			# Outdated S class ships
+			ship = {
+				name = "HMCS 尚普兰"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = CAN
+						version_name = "S级"
+					}
+				}
+			}
+			ship = {
+				name = "HMCS 温哥华"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = CAN
+						version_name = "S级"
+					}
+				}
+			}
+		}
+	}
+}

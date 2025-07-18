@@ -1,0 +1,87 @@
+﻿units = {
+  fleet = {
+    name = "美国驱逐舰中队"  # American Destroyer Squadron
+    naval_base = 7361
+    task_force = {
+      name = "美国4驱逐舰部队"  # American Destroyer Flotilla 4
+      location = 7361
+      ship = {
+        name = "圣克莱尔"  # HMCS St. Clair
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "尼亚加拉"  # HMCS Niagara
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "汉密尔顿"  # HMCS Hamilton
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "安纳波利斯"  # HMCS Annapolis
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "哥伦比亚"  # HMCS Columbia
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "圣克鲁斯"  # HMCS St. Croix
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+      ship = {
+        name = "圣弗朗西斯"  # HMCS St. Francis
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = USA
+            creator = USA
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,924 @@
+﻿ISR_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d以色列步兵师"  # %dth Israeli Infantry Division
+  ordered = {
+    1 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    2 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    3 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+    4 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    5 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    6 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    7 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    8 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    9 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    10 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    11 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    12 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    13 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    14 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    15 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    16 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    17 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    18 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    19 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    20 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    21 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    22 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    23 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+    24 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    25 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    26 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    27 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    28 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    29 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    30 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    31 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    32 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    33 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+    34 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    35 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    36 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    37 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    38 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    39 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    40 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    41 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    42 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    43 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+    44 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    45 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    46 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    47 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    48 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    49 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    50 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    51 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    52 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    53 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+  }
+}
+ISR_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+  ordered = {
+    1 = {
+      "第%d以色列骑兵师"  # %dst Israeli Cavalry Division
+    }
+    2 = {
+      "第%d以色列骑兵师"  # %dnd Israeli Cavalry Division
+    }
+    3 = {
+      "第%d以色列骑兵师"  # %drd Israeli Cavalry Division
+    }
+    4 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    5 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    6 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    7 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    8 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    9 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    10 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    11 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    12 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    13 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    14 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    15 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    16 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    17 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    18 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    19 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    20 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    21 = {
+      "第%d以色列骑兵师"  # %dst Israeli Cavalry Division
+    }
+    22 = {
+      "第%d以色列骑兵师"  # %dnd Israeli Cavalry Division
+    }
+    23 = {
+      "第%d以色列骑兵师"  # %drd Israeli Cavalry Division
+    }
+    24 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    25 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    26 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    27 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    28 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    29 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    30 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    31 = {
+      "第%d以色列骑兵师"  # %dst Israeli Cavalry Division
+    }
+    32 = {
+      "第%d以色列骑兵师"  # %dnd Israeli Cavalry Division
+    }
+    33 = {
+      "第%d以色列骑兵师"  # %drd Israeli Cavalry Division
+    }
+    34 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    35 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    36 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    37 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    38 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    39 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    40 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    41 = {
+      "第%d以色列骑兵师"  # %dst Israeli Cavalry Division
+    }
+    42 = {
+      "第%d以色列骑兵师"  # %dnd Israeli Cavalry Division
+    }
+    43 = {
+      "第%d以色列骑兵师"  # %drd Israeli Cavalry Division
+    }
+    44 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    45 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    46 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    47 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    48 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    49 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    50 = {
+      "第%d以色列骑兵师"  # %dth Israeli Cavalry Division
+    }
+    51 = {
+      "第%d以色列骑兵师"  # %dst Israeli Cavalry Division
+    }
+    52 = {
+      "第%d以色列骑兵师"  # %dnd Israeli Cavalry Division
+    }
+    53 = {
+      "第%d以色列骑兵师"  # %drd Israeli Cavalry Division
+    }
+  }
+}
+ISR_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    ISR_INF_01
+  }
+  fallback_name = "第%d以色列步兵师"  # %dth Israeli Infantry Division
+  ordered = {
+    1 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    2 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    3 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+    4 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    5 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    6 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    7 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    8 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    9 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    10 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    11 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    12 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    13 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    14 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    15 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    16 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    17 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    18 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    19 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    20 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    21 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    22 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    23 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+  }
+}
+ISR_ARM_01 = {
+  name = "装甲师"  # Armored Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d以色列装甲师"  # %dth Israeli Armored Division
+  ordered = {
+    1 = {
+      "第%d以色列装甲师"  # %dst Israeli Armored Division
+    }
+    2 = {
+      "第%d以色列装甲师"  # %dnd Israeli Armored Division
+    }
+    3 = {
+      "第%d以色列装甲师"  # %drd Israeli Armored Division
+    }
+    4 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    5 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    6 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    7 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    8 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    9 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    10 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    11 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    12 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    13 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    14 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    15 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    16 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    17 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    18 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    19 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    20 = {
+      "第%d以色列装甲师"  # %dth Israeli Armored Division
+    }
+    21 = {
+      "第%d以色列装甲师"  # %dst Israeli Armored Division
+    }
+    22 = {
+      "第%d以色列装甲师"  # %dnd Israeli Armored Division
+    }
+    23 = {
+      "第%d以色列装甲师"  # %drd Israeli Armored Division
+    }
+    36 = {
+      "第%d迦实装甲师"  # %dth Ga'ash Armored Division
+    }
+    162 = {
+      "第%d哈普莱达装甲师"  # %dnd Ha-Plada Armored Division
+    }
+  }
+}
+ISR_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    ISR_INF_01
+  }
+  fallback_name = "第%d以色列步兵师"  # %dth Israeli Infantry Division
+  ordered = {
+    1 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    2 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    3 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+    4 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    5 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    6 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    7 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    8 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    9 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    10 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    11 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    12 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    13 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    14 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    15 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    16 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    17 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    18 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    19 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    20 = {
+      "第%d以色列步兵师"  # %dth Israeli Infantry Division
+    }
+    21 = {
+      "第%d以色列步兵师"  # %dst Israeli Infantry Division
+    }
+    22 = {
+      "第%d以色列步兵师"  # %dnd Israeli Infantry Division
+    }
+    23 = {
+      "第%d以色列步兵师"  # %drd Israeli Infantry Division
+    }
+  }
+}
+ISR_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d以色列守备师"  # %dth Israeli Garrison Division
+  ordered = {
+    1 = {
+      "第%d以色列守备师"  # %dst Israeli Garrison Division
+    }
+    2 = {
+      "第%d以色列守备师"  # %dnd Israeli Garrison Division
+    }
+    3 = {
+      "第%d以色列守备师"  # %drd Israeli Garrison Division
+    }
+    4 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    5 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    6 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    7 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    8 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    9 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    10 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    11 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    12 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    13 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    14 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    15 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    16 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    17 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    18 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    19 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    20 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    21 = {
+      "第%d以色列守备师"  # %dst Israeli Garrison Division
+    }
+    22 = {
+      "第%d以色列守备师"  # %dnd Israeli Garrison Division
+    }
+    23 = {
+      "第%d以色列守备师"  # %drd Israeli Garrison Division
+    }
+    24 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    25 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    26 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    27 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    28 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    29 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    30 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    31 = {
+      "第%d以色列守备师"  # %dst Israeli Garrison Division
+    }
+    32 = {
+      "第%d以色列守备师"  # %dnd Israeli Garrison Division
+    }
+    33 = {
+      "第%d以色列守备师"  # %drd Israeli Garrison Division
+    }
+    34 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    35 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    36 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    37 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    38 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    39 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    40 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    41 = {
+      "第%d以色列守备师"  # %dst Israeli Garrison Division
+    }
+    42 = {
+      "第%d以色列守备师"  # %dnd Israeli Garrison Division
+    }
+    43 = {
+      "第%d以色列守备师"  # %drd Israeli Garrison Division
+    }
+    44 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    45 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    46 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    47 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    48 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    49 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    50 = {
+      "第%d以色列守备师"  # %dth Israeli Garrison Division
+    }
+    51 = {
+      "第%d以色列守备师"  # %dst Israeli Garrison Division
+    }
+    52 = {
+      "第%d以色列守备师"  # %dnd Israeli Garrison Division
+    }
+    53 = {
+      "第%d以色列守备师"  # %drd Israeli Garrison Division
+    }
+  }
+}
+ISR_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+  ordered = {
+    1 = {
+      "第%d以色列海军陆战师"  # %dst Israeli Marine Division
+    }
+    2 = {
+      "第%d以色列海军陆战师"  # %dnd Israeli Marine Division
+    }
+    3 = {
+      "第%d以色列海军陆战师"  # %drd Israeli Marine Division
+    }
+    4 = {
+      "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+    }
+    5 = {
+      "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+    }
+    6 = {
+      "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+    }
+    7 = {
+      "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+    }
+    8 = {
+      "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+    }
+    9 = {
+      "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+    }
+    10 = {
+      "第%d以色列海军陆战师"  # %dth Israeli Marine Division
+    }
+  }
+}
+ISR_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%d以色列山地师"  # %dth Israeli Mountain Division
+  ordered = {
+    1 = {
+      "第%d以色列山地师"  # %dst Israeli Mountain Division
+    }
+    2 = {
+      "第%d以色列山地师"  # %dnd Israeli Mountain Division
+    }
+    3 = {
+      "第%d以色列山地师"  # %drd Israeli Mountain Division
+    }
+    4 = {
+      "第%d以色列山地师"  # %dth Israeli Mountain Division
+    }
+    5 = {
+      "第%d以色列山地师"  # %dth Israeli Mountain Division
+    }
+    6 = {
+      "第%d以色列山地师"  # %dth Israeli Mountain Division
+    }
+    7 = {
+      "第%d以色列山地师"  # %dth Israeli Mountain Division
+    }
+    8 = {
+      "第%d以色列山地师"  # %dth Israeli Mountain Division
+    }
+    9 = {
+      "第%d以色列山地师"  # %dth Israeli Mountain Division
+    }
+    10 = {
+      "第%d以色列山地师"  # %dth Israeli Mountain Division
+    }
+  }
+}
+ISR_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    ISR
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d以色列空降师"  # %dth Israeli Airborne Division
+  ordered = {
+    1 = {
+      "第%d以色列空降师"  # %dst Israeli Airborne Division
+    }
+    2 = {
+      "第%d以色列空降师"  # %dnd Israeli Airborne Division
+    }
+    3 = {
+      "第%d以色列空降师"  # %drd Israeli Airborne Division
+    }
+    4 = {
+      "第%d以色列空降师"  # %dth Israeli Airborne Division
+    }
+    5 = {
+      "第%d以色列空降师"  # %dth Israeli Airborne Division
+    }
+    6 = {
+      "第%d以色列空降师"  # %dth Israeli Airborne Division
+    }
+    7 = {
+      "第%d以色列空降师"  # %dth Israeli Airborne Division
+    }
+    8 = {
+      "第%d以色列空降师"  # %dth Israeli Airborne Division
+    }
+    9 = {
+      "第%d以色列空降师"  # %dth Israeli Airborne Division
+    }
+    10 = {
+      "第%d以色列空降师"  # %dth Israeli Airborne Division
+    }
+  }
+}

@@ -1,0 +1,115 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ARG_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"卡塔马卡" "胡胡伊" "科尔多瓦" "拉普拉塔" "塞万提斯" "胡安·德·卡拉伊" "门多萨" "拉里奥哈" "图库曼" "布宜诺斯艾利斯" "恩特雷里奥斯" "科连特斯" "圣胡安" 
+		"圣路易斯" "米西奥内斯" "圣克鲁斯" "加西亚海军上将" "布朗" "埃斯波拉" "罗萨莱斯" "斯托尔尼海军上将" "塞圭" "布沙尔" "彼德拉武埃纳" "皮镇" "赫拉克勒斯" 
+		"圣特立尼达" "圣地亚哥" "里奥哈" "萨尔塔" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ARG_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"自由" "独立" "格雷科" "格兰维尔" "罗萨莱斯" "斯皮诺" "帕克" "罗萨莱斯" "约翰逊" "戈麦斯·罗卡" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ARG_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"五月二十五日" "布朗海军上将" "普伊雷登" "阿根廷" "贝尔格拉诺将军" "七月九日" "摩拉图雷" "国王" "海洛因娜" "德拉蒙德" "格雷科" "格兰维尔" "罗萨莱斯" "斯皮诺" "帕克" "罗萨莱斯" "约翰逊" "戈麦斯·罗卡"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+ARG_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"里瓦达维亚" "莫雷诺" "阿索帕尔" "萨兰迪" "埃斯波拉"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+ARG_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"阿索帕尔" "萨兰迪" "埃斯波拉" "里瓦达维亚" "莫雷诺"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+ARG_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"独立" "共和国" "圣马丁将军"
+	}
+}
+
+### SUBMARINES ###
+ARG_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"圣达菲" "圣地亚哥-德尔埃斯特罗" "萨尔塔" "圣路易斯" "圣克鲁斯" "圣胡安"
+	}
+}

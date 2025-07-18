@@ -1,0 +1,120 @@
+﻿##### DOMINICAN REPUBLIC NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+DOM_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"特鲁希略总统" "胡安·巴勃罗·杜瓦特" "佩德罗·桑塔纳" "克里斯托巴尔" "胡安·亚历杭德罗·阿科斯塔" "胡安·巴蒂斯塔·坎比亚索" "赫拉尔多·扬森" "胡安·巴蒂斯塔·马乔洛" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+DOM_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"恩人" "圣多明各" "圣地亚哥" "圣佩德罗" "拉罗马纳" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+DOM_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"恩人" "圣多明各" "圣地亚哥" "圣佩德罗" "拉罗马纳" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+DOM_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"唐·拉菲勒·特鲁希略" "埃莱奥诺拉·特鲁希略"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+DOM_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"唐·拉菲勒·特鲁希略" "埃莱奥诺拉·特鲁希略"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+DOM_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"多米尼加共和国" "卡塔莉娜岛" "北亚盖河" "恩里基洛湖" 
+	}
+}
+
+### SUBMARINES ###
+DOM_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"特鲁希略总统" "胡安·巴勃罗·杜瓦特" "佩德罗·桑塔纳" "克里斯托巴尔" "胡安·亚历杭德罗·阿科斯塔" "胡安·巴蒂斯塔·坎比亚索" "赫拉尔多·扬森" "胡安·巴蒂斯塔·马乔洛" 
+	}
+}

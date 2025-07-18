@@ -1,0 +1,130 @@
+﻿units = {
+  fleet = {
+    name = "早期主力舰队"  # Capital Fleet Early
+    naval_base = 1550
+    task_force = {
+      name = "蓝军舰队"  # Blue Fleet
+      location = 1550
+      ship = {
+        name = "蓝军 战列舰1"  # Blue BB1
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 战列舰2"  # Blue BB2
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 战列舰3"  # Blue BB3
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 战列舰4"  # Blue BB4
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 战列舰5"  # Blue BB5
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 战列巡洋舰1"  # Blue BC1
+        definition = battle_cruiser
+        equipment = {
+          battle_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 战列巡洋舰2"  # Blue BC2
+        definition = battle_cruiser
+        equipment = {
+          battle_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰1"  # Blue CA1
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰2"  # Blue CA2
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰3"  # Blue CA3
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰4"  # Blue CA4
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+      ship = {
+        name = "蓝军 重巡洋舰5"  # Blue CA5
+        definition = heavy_cruiser
+        equipment = {
+          heavy_cruiser_1 = {
+            amount = 1
+            owner = CUB
+          }
+        }
+      }
+    }
+  }
+}

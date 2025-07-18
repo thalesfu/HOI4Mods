@@ -1,0 +1,195 @@
+﻿##### PAKISTAN NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PAK_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = {
+		PAK
+	}
+	type = ship
+	ship_types = {
+		ship_hull_light
+		destroyer
+	}
+	prefix = "PNS "
+	fallback_name = "%d号驱逐舰"
+	unique = {
+		"沙姆谢尔"
+		"蒂普苏丹"
+		"塔里克"
+		"杰勒姆河"
+		"图格里勒"
+		"帖木儿"
+		"巴德尔"
+		"扎拉尔"
+		"卡拉尔"
+		"拉卡纳"
+		"拉杰沙希"
+		"贾拉拉特"
+		"舒贾特"
+		"朱拉特"
+		"库瓦特"
+		"阿兹马特"
+		"德哈特"
+		"蒙西夫"
+		"穆哈菲兹"
+		"穆贾希德"
+		"纳齐姆"
+		"沙贾汗"
+		"海巴尔"
+		"达卡"
+		"祖尔菲卡尔"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+PAK_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = {
+		PAK
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		light_cruiser
+	}
+	prefix = "PNS "
+	fallback_name = "%d号轻型巡洋舰"
+	unique = {
+		"巴布尔"
+		"贾汗季"
+		"胡马雍"
+		"舍尔沙·苏里"
+		"阿克巴"
+		"沙贾汗"
+		"奥朗则布"
+		"巴哈杜尔沙"
+		"法鲁赫西亚尔"
+		"拉菲·乌尔·达加特"
+		"穆罕默德·伊布拉欣"
+		"赛义夫"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+PAK_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = {
+		PAK
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		heavy_cruiser
+	}
+	prefix = "PNS "
+	fallback_name = "%d号 重型巡洋舰"
+	unique = {
+		"巴布尔"
+		"贾汗季"
+		"胡马雍"
+		"舍尔沙·苏里"
+		"阿克巴"
+		"沙贾汗"
+		"奥朗则布"
+		"巴哈杜尔沙"
+		"法鲁赫西亚尔"
+		"拉菲·乌尔·达加特"
+		"穆罕默德·伊布拉欣"
+		"赛义夫"
+	}
+}
+
+### BATTLESHIP NAMES ###
+PAK_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = {
+		PAK
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battleship
+	}
+	prefix = "PNS "
+	fallback_name = "%d号 战列舰"
+	unique = {
+		"旁遮普"
+		"莫卧儿"
+		"克什米尔"
+		"阿富汗"
+		"信德"
+		"俾路支"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+PAK_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = {
+		PAK
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battle_cruiser
+	}
+	prefix = "PNS "
+	fallback_name = "%d号 战列巡洋舰"
+	unique = {
+		"旁遮普"
+		"莫卧儿"
+		"克什米尔"
+		"阿富汗"
+		"信德"
+		"俾路支"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+PAK_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = {
+		PAK
+	}
+	type = ship
+	ship_types = {
+		ship_hull_carrier
+		carrier
+	}
+	prefix = "PNS "
+	fallback_name = "%d号 航空母舰"
+	unique = {
+		"旁遮普"
+		"莫卧儿"
+		"克什米尔"
+		"阿富汗"
+		"信德"
+		"俾路支"
+	}
+}
+
+### SUBMARINES ###
+PAK_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = {
+		PAK
+	}
+	type = ship
+	ship_types = {
+		ship_hull_submarine
+		submarine
+	}
+	prefix = "PNS "
+	fallback_name = "%d号 潜艇"
+	unique = {
+		"哈什马特"
+		"胡尔马特"
+		"哈立德"
+		"萨阿德"
+		"哈姆扎"
+		"加齐"
+		"汉格尔"
+		"苏苏克"
+		"红树林"
+	}
+}

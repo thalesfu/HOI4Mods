@@ -1,0 +1,1470 @@
+﻿CAN_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d加拿大步兵师"  # %d Canadian Infantry Division
+  ordered = {
+    1 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    2 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    3 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    4 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    5 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    6 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    7 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    8 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    9 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    10 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    11 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    12 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    13 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    14 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    15 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    16 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    17 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    18 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    19 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    20 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    21 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    22 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    23 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    24 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    25 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    26 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    27 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    28 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    29 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    30 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    31 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    32 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    33 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    34 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    35 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    36 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    37 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    38 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    39 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    40 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    41 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    42 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    43 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    44 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    45 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    46 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    47 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    48 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    49 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    50 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    51 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    52 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    53 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    54 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    55 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    56 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    57 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    58 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    59 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    60 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    61 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    62 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    63 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    64 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    65 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    66 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    67 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    68 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    69 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    70 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    71 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    72 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    73 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    74 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    75 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    76 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    77 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    78 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    79 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    80 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    81 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    82 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    83 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    84 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    85 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    86 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    87 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    88 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    89 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    90 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    91 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    92 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    93 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    94 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    95 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    96 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    97 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    98 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    99 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    100 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    101 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+  }
+}
+CAN_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # %d District Cavalry
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # %dst District Cavalry
+    }
+    2 = {
+      "第%d骑兵师"  # %dnd District Cavalry
+    }
+    3 = {
+      "第%d骑兵师"  # %drd District Cavalry
+    }
+    4 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    5 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    6 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    7 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    8 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    9 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    10 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    11 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    12 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    13 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    14 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    15 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    16 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    17 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    18 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    19 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    20 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    21 = {
+      "第%d骑兵师"  # %dst District Cavalry
+    }
+    22 = {
+      "第%d骑兵师"  # %dnd District Cavalry
+    }
+    23 = {
+      "第%d骑兵师"  # %drd District Cavalry
+    }
+    24 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    25 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    26 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    27 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    28 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    29 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    30 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    31 = {
+      "第%d骑兵师"  # %dst District Cavalry
+    }
+    32 = {
+      "第%d骑兵师"  # %dnd District Cavalry
+    }
+    33 = {
+      "第%d骑兵师"  # %drd District Cavalry
+    }
+    34 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    35 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    36 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    37 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    38 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    39 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    40 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    41 = {
+      "第%d骑兵师"  # %dst District Cavalry
+    }
+    42 = {
+      "第%d骑兵师"  # %dnd District Cavalry
+    }
+    43 = {
+      "第%d骑兵师"  # %drd District Cavalry
+    }
+    44 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    45 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    46 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    47 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    48 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    49 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    50 = {
+      "第%d骑兵师"  # %dth District Cavalry
+    }
+    51 = {
+      "第%d骑兵师"  # %dst District Cavalry
+    }
+    52 = {
+      "第%d骑兵师"  # %dnd District Cavalry
+    }
+    53 = {
+      "第%d骑兵师"  # %drd District Cavalry
+    }
+  }
+}
+CAN_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    CAN_INF_01
+  }
+  fallback_name = "第%d加拿大步兵师"  # %d Canadian Infantry Division
+  ordered = {
+    1 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    2 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    3 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    4 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    5 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    6 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    7 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    8 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    9 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    10 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    11 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    12 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    13 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    14 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    15 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    16 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    17 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    18 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    19 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    20 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    21 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    22 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    23 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    24 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    25 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    26 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    27 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    28 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    29 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    30 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    31 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    32 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    33 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+  }
+}
+CAN_ARM_01 = {
+  name = "装甲师"  # Armoured Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  link_numbering_with = {
+    CAN_INF_01
+  }
+  fallback_name = "第%d加拿大装甲师"  # %d Canadian (Armoured) Division
+  ordered = {
+    1 = {
+      "第%d加拿大装甲师"  # %dst Canadian (Armoured) Division
+    }
+    2 = {
+      "第%d加拿大装甲师"  # %dnd Canadian (Armoured) Division
+    }
+    3 = {
+      "第%d加拿大装甲师"  # %drd Canadian (Armoured) Division
+    }
+    4 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    5 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    6 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    7 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    8 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    9 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    10 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    11 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    12 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    13 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    14 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    15 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    16 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    17 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    18 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    19 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    20 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    21 = {
+      "第%d加拿大装甲师"  # %dst Canadian (Armoured) Division
+    }
+    22 = {
+      "第%d加拿大装甲师"  # %dnd Canadian (Armoured) Division
+    }
+    23 = {
+      "第%d加拿大装甲师"  # %drd Canadian (Armoured) Division
+    }
+    24 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    25 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    26 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    27 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    28 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    29 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    30 = {
+      "第%d加拿大装甲师"  # %dth Canadian (Armoured) Division
+    }
+    31 = {
+      "第%d加拿大装甲师"  # %dst Canadian (Armoured) Division
+    }
+    32 = {
+      "第%d加拿大装甲师"  # %dnd Canadian (Armoured) Division
+    }
+    33 = {
+      "第%d加拿大装甲师"  # %drd Canadian (Armoured) Division
+    }
+  }
+}
+CAN_MEC_01 = {
+  name = "机械化步兵师"  # Mechanised Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    CAN_INF_01
+  }
+  fallback_name = "第%d加拿大步兵师"  # %d Canadian Infantry Division
+  ordered = {
+    1 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    2 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    3 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    4 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    5 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    6 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    7 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    8 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    9 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    10 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    11 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    12 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    13 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    14 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    15 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    16 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    17 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    18 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    19 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    20 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    21 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    22 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    23 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+    24 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    25 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    26 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    27 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    28 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    29 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    30 = {
+      "第%d加拿大步兵师"  # %dth Canadian Infantry Division
+    }
+    31 = {
+      "第%d加拿大步兵师"  # %dst Canadian Infantry Division
+    }
+    32 = {
+      "第%d加拿大步兵师"  # %dnd Canadian Infantry Division
+    }
+    33 = {
+      "第%d加拿大步兵师"  # %drd Canadian Infantry Division
+    }
+  }
+}
+CAN_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d民兵师"  # %d District Militia
+  ordered = {
+    1 = {
+      "第%d民兵师"  # %dst District Militia
+    }
+    2 = {
+      "第%d民兵师"  # %dnd District Militia
+    }
+    3 = {
+      "第%d民兵师"  # %drd District Militia
+    }
+    4 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    5 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    6 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    7 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    10 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    11 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    12 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    13 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    14 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    15 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    16 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    17 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    18 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    19 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    20 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    21 = {
+      "第%d民兵师"  # %dst District Militia
+    }
+    22 = {
+      "第%d民兵师"  # %dnd District Militia
+    }
+    23 = {
+      "第%d民兵师"  # %drd District Militia
+    }
+    24 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    25 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    26 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    27 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    28 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    29 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    30 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    31 = {
+      "第%d民兵师"  # %dst District Militia
+    }
+    32 = {
+      "第%d民兵师"  # %dnd District Militia
+    }
+    33 = {
+      "第%d民兵师"  # %drd District Militia
+    }
+    34 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    35 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    36 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    37 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    38 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    39 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    40 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    41 = {
+      "第%d民兵师"  # %dst District Militia
+    }
+    42 = {
+      "第%d民兵师"  # %dnd District Militia
+    }
+    43 = {
+      "第%d民兵师"  # %drd District Militia
+    }
+    44 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    45 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    46 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    47 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    48 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    49 = {
+      "第%d民兵师"  # %dth District Militia
+    }
+    51 = {
+      "第%d民兵师"  # %dst District Militia
+    }
+    52 = {
+      "第%d民兵师"  # %dnd District Militia
+    }
+    53 = {
+      "第%d民兵师"  # %drd District Militia
+    }
+  }
+}
+CAN_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d加拿大皇家海军陆战师"  # %d Royal Canadian Marine Division
+  ordered = {
+    1 = {
+      "第%d加拿大皇家海军陆战师"  # %dst Royal Canadian Marine Division
+    }
+    2 = {
+      "第%d加拿大皇家海军陆战师"  # %dnd Royal Canadian Marine Division
+    }
+    3 = {
+      "第%d加拿大皇家海军陆战师"  # %drd Royal Canadian Marine Division
+    }
+    4 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    5 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    6 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    7 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    8 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    9 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    10 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    11 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    12 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    13 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    14 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    15 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    16 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    17 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    18 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    19 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    20 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    21 = {
+      "第%d加拿大皇家海军陆战师"  # %dst Royal Canadian Marine Division
+    }
+    22 = {
+      "第%d加拿大皇家海军陆战师"  # %dnd Royal Canadian Marine Division
+    }
+    23 = {
+      "第%d加拿大皇家海军陆战师"  # %drd Royal Canadian Marine Division
+    }
+    24 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    25 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    26 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    27 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    28 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    29 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+    30 = {
+      "第%d加拿大皇家海军陆战师"  # %dth Royal Canadian Marine Division
+    }
+  }
+}
+CAN_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    CAN_INF_01
+  }
+  fallback_name = "第%d步兵师"  # %d Infantry Division
+  ordered = {
+    1 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    2 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    3 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+    4 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    5 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    6 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    7 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    8 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    9 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    10 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    11 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    12 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    13 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    14 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    15 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    16 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    17 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    18 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    19 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    20 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    21 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    22 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    23 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+    24 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    25 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    26 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    27 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    28 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    29 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    30 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    31 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    32 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    33 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+    34 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    35 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    36 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    37 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    38 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    39 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    40 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    41 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    42 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    43 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+    44 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    45 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    46 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    47 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    48 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    49 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    50 = {
+      "第%d步兵师"  # %dth Infantry Division
+    }
+    51 = {
+      "第%d步兵师"  # %dst Infantry Division
+    }
+    52 = {
+      "第%d步兵师"  # %dnd Infantry Division
+    }
+    53 = {
+      "第%d步兵师"  # %drd Infantry Division
+    }
+  }
+}
+CAN_PAR_01 = {
+  name = "空降师"  # Airborne Divisions
+  for_countries = {
+    CAN
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  link_numbering_with = {
+    CAN_INF_01
+  }
+  fallback_name = "第%d空降师"  # %d Airborne Division
+  ordered = {
+    1 = {
+      "第%d空降师"  # %dst Airborne Division
+    }
+    2 = {
+      "第%d空降师"  # %dnd Airborne Division
+    }
+    3 = {
+      "第%d空降师"  # %drd Airborne Division
+    }
+    4 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    5 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    6 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    7 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    8 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    9 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    10 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    11 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    12 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    13 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    14 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    15 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    16 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    17 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    18 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    19 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    20 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    21 = {
+      "第%d空降师"  # %dst Airborne Division
+    }
+    22 = {
+      "第%d空降师"  # %dnd Airborne Division
+    }
+    23 = {
+      "第%d空降师"  # %drd Airborne Division
+    }
+    24 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    25 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    26 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    27 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    28 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    29 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    30 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    31 = {
+      "第%d空降师"  # %dst Airborne Division
+    }
+    32 = {
+      "第%d空降师"  # %dnd Airborne Division
+    }
+    33 = {
+      "第%d空降师"  # %drd Airborne Division
+    }
+    34 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    35 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    36 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    37 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    38 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    39 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    40 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    41 = {
+      "第%d空降师"  # %dst Airborne Division
+    }
+    42 = {
+      "第%d空降师"  # %dnd Airborne Division
+    }
+    43 = {
+      "第%d空降师"  # %drd Airborne Division
+    }
+    44 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    45 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    46 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    47 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    48 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    49 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    50 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    51 = {
+      "第%d空降师"  # %dst Airborne Division
+    }
+    52 = {
+      "第%d空降师"  # %dnd Airborne Division
+    }
+    53 = {
+      "第%d空降师"  # %drd Airborne Division
+    }
+  }
+}

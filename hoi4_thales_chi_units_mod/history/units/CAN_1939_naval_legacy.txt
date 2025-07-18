@@ -1,0 +1,95 @@
+﻿units = {
+  fleet = {
+    name = "加拿大皇家海军大西洋中队"  # Royal Canadian Atlantic Squadron
+    naval_base = 7361
+    task_force = {
+      name = "大西洋中队"  # Atlantic Squadron
+      location = 7361
+      ship = {
+        name = "萨格奈"  # HMCS Saguenay
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CAN
+            version_name = "萨格奈级"  # Sanguenay Class
+          }
+        }
+      }
+      ship = {
+        name = "斯基纳"  # HMCS Skeena
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CAN
+            version_name = "萨格奈级"  # Sanguenay Class
+          }
+        }
+      }
+      ship = {
+        name = "阿西尼博因"  # HMCS Assiniboine
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CAN
+            version_name = "萨格奈级"  # Sanguenay Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "加拿大皇家海军太平洋中队"  # Royal Canadian Pacific Squadron
+    naval_base = 1408
+    task_force = {
+      name = "太平洋中队"  # Pacific Squadron
+      location = 1408
+      ship = {
+        name = "雷斯蒂古什"  # HMCS Restigouche
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CAN
+            version_name = "萨格奈级"  # Sanguenay Class
+          }
+        }
+      }
+      ship = {
+        name = "弗雷泽"  # HMCS Fraser
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CAN
+            version_name = "萨格奈级"  # Sanguenay Class
+          }
+        }
+      }
+      ship = {
+        name = "渥太华"  # HMCS Ottawa
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CAN
+            version_name = "萨格奈级"  # Sanguenay Class
+          }
+        }
+      }
+      ship = {
+        name = "圣洛朗"  # HMCS St. Laurent
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = CAN
+            version_name = "萨格奈级"  # Sanguenay Class
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+﻿division_template = {
+	name = "步兵师"		# Infantry Division
+	division_names_group = BRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+  	      artillery = { x = 0 y = 1 }
+ 	}
+}
+division_template = {
+	name = "骑兵师"  		# Cavalry Division
+	division_names_group = BRA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+	support = {
+	    artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	##### Exército Brasileiro #####
+	division= {	# "第1步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10980 # Rio de Janiero
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第2步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10513 # Sao Paulo
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第3步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 10447 # Porto Alegre
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第4步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 5168 # Recife
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第5步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 8242 # Belo Horizonte
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第1骑兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12853 # Belem
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第2骑兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 5156 # Curitiba
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "第3骑兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10999
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "BRA"
+		}
+		requested_factories = 1
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BRA"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}

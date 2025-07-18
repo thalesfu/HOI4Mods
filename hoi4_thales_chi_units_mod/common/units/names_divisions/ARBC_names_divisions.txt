@@ -1,0 +1,720 @@
+﻿EGY_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # al-Mushati al-%dr
+  ordered = {
+    1 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    2 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    3 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    4 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    5 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    6 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    7 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    8 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    9 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    10 = {
+      "第%d步兵师"  # al-Mushati al-%di
+    }
+    12 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    13 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    14 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    15 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    16 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    17 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    18 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    19 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+    20 = {
+      "第%d步兵师"  # al-Mushati al-%dr
+    }
+  }
+}
+EGY_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # Sipahis al-%dr
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    2 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    3 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    4 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    5 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    6 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    7 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    8 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    9 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    10 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    11 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    12 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    13 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    14 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    15 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+  }
+}
+EGY_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    EGY_INF_01
+  }
+  fallback_name = "第%d摩托化步兵师"  # al-Mushati al-%dr
+  ordered = {
+    1 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    2 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    3 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    4 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    5 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    6 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    7 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    8 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    9 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    10 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%di
+    }
+    12 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    13 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    14 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    15 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    16 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    17 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    18 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    19 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+    20 = {
+      "第%d摩托化步兵师"  # al-Mushati al-%dr
+    }
+  }
+}
+EGY_ARM_01 = {
+  name = "装甲师"  # Armoured Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  link_numbering_with = {
+    EGY_CAV_01
+  }
+  fallback_name = "第%d骑兵师"  # Sipahis al-%dr
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    2 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    3 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    4 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    5 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    6 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    7 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    8 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    9 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    10 = {
+      "第%d骑兵师"  # Sipahis al-%di
+    }
+    11 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    12 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    13 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    14 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+    15 = {
+      "第%d骑兵师"  # Sipahis al-%dr
+    }
+  }
+}
+EGY_MEC_01 = {
+  name = "机械化步兵师"  # Mechanised Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    EGY_INF_01
+  }
+  fallback_name = "第%d机械化步兵师"  # al-Mushati al-%dr
+  ordered = {
+    1 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    2 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    3 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    4 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    5 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    6 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    7 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    8 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    9 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    10 = {
+      "第%d机械化步兵师"  # al-Mushati al-%di
+    }
+    12 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    13 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    14 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    15 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    16 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    17 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    18 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    19 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+    20 = {
+      "第%d机械化步兵师"  # al-Mushati al-%dr
+    }
+  }
+}
+EGY_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    EGY_INF_01
+  }
+  fallback_name = "第%d守备师"  # al-Mushati al-%dr
+  ordered = {
+    1 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    2 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    3 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    4 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    5 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    6 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    7 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    8 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    9 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    10 = {
+      "第%d守备师"  # al-Mushati al-%di
+    }
+    12 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    13 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    14 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    15 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    16 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    17 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    18 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    19 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+    20 = {
+      "第%d守备师"  # al-Mushati al-%dr
+    }
+  }
+}
+EGY_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  link_numbering_with = {
+    EGY_INF_01
+  }
+  fallback_name = "第%d海军陆战师"  # al-Mushati al-%dr
+  ordered = {
+    20 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    21 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    22 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    23 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    24 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    25 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    26 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    27 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    28 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    29 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+    30 = {
+      "第%d海军陆战师"  # al-Mushati al-%dr
+    }
+  }
+}
+EGY_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    EGY_INF_01
+  }
+  fallback_name = "第%d山地师"  # al-Mushati al-%dr
+  ordered = {
+    20 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    21 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    22 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    23 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    24 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    25 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    26 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    27 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    28 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    29 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+    30 = {
+      "第%d山地师"  # al-Mushati al-%dr
+    }
+  }
+}
+EGY_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    ALG
+    EGY
+    ERI
+    JOR
+    KUW
+    LBA
+    LEB
+    MOR
+    MRT
+    PAL
+    QAT
+    SOM
+    SUD
+    SYR
+    TUN
+    UAE
+    WES
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  link_numbering_with = {
+    EGY_INF_01
+  }
+  fallback_name = "第%d伞兵师"  # al-Mushati al-%dr
+  ordered = {
+    20 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    21 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    22 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    23 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    24 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    25 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    26 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    27 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    28 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    29 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+    30 = {
+      "第%d伞兵师"  # al-Mushati al-%dr
+    }
+  }
+}

@@ -1,0 +1,3240 @@
+﻿division_template = {
+  name = "步兵师"  # Strelkovaya Diviziya
+  division_names_group = SOV_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "山地步兵师"  # Gornostrelkovaya Diviziya
+  division_names_group = SOV_MNT_01
+  regiments = {
+    mountaineers = {
+      x = 0
+      y = 0
+    }
+    mountaineers = {
+      x = 0
+      y = 1
+    }
+    mountaineers = {
+      x = 0
+      y = 2
+    }
+    mountaineers = {
+      x = 1
+      y = 0
+    }
+    mountaineers = {
+      x = 1
+      y = 1
+    }
+    mountaineers = {
+      x = 1
+      y = 2
+    }
+    mountaineers = {
+      x = 2
+      y = 0
+    }
+    mountaineers = {
+      x = 2
+      y = 1
+    }
+    mountaineers = {
+      x = 2
+      y = 2
+    }
+    mountaineers = {
+      x = 3
+      y = 0
+    }
+    mountaineers = {
+      x = 3
+      y = 1
+    }
+    mountaineers = {
+      x = 3
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+    artillery = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "摩托化步兵师"  # Motostrelkovaya Diviziya
+  division_names_group = SOV_MOT_01
+  regiments = {
+    light_armor = {
+      x = 0
+      y = 0
+    }
+    light_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 0
+      y = 2
+    }
+    motorized = {
+      x = 1
+      y = 0
+    }
+    motorized = {
+      x = 1
+      y = 1
+    }
+    motorized = {
+      x = 1
+      y = 2
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+    motorized = {
+      x = 2
+      y = 2
+    }
+  }
+  support = {}
+}
+division_template = {
+  name = "骑兵师"  # Kavaleriyskaya Diviziya
+  division_names_group = SOV_CAV_01
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+  }
+  support = {
+    recon = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+  division_names_group = SOV_GAR_01
+  template_counter = 104
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+  }
+  support = {
+    military_police = {
+      x = 0
+      y = 0
+    }
+  }
+  priority = 0
+}
+division_template = {
+  name = "空降旅"  # Vozdushno-Desantnaya
+  division_names_group = SOV_PAR_01
+  regiments = {
+    paratrooper = {
+      x = 0
+      y = 0
+    }
+    paratrooper = {
+      x = 0
+      y = 1
+    }
+    paratrooper = {
+      x = 0
+      y = 2
+    }
+    paratrooper = {
+      x = 1
+      y = 0
+    }
+    paratrooper = {
+      x = 1
+      y = 1
+    }
+    paratrooper = {
+      x = 1
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "装甲军团"  # Tankovaya Korpus
+  division_names_group = SOV_ARM_02
+  regiments = {
+    light_armor = {
+      x = 0
+      y = 0
+    }
+    light_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 0
+      y = 2
+    }
+    light_armor = {
+      x = 1
+      y = 0
+    }
+    light_armor = {
+      x = 1
+      y = 1
+    }
+    light_armor = {
+      x = 1
+      y = 2
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+    motorized = {
+      x = 3
+      y = 0
+    }
+    motorized = {
+      x = 3
+      y = 1
+    }
+  }
+  support = {
+    mot_recon = {
+      x = 0
+      y = 0
+    }
+    engineer = {
+      x = 0
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "轻型坦克旅"  # Legko-Tankovaya Brigada
+  division_names_group = SOV_ARM_04
+  regiments = {
+    light_armor = {
+      x = 0
+      y = 0
+    }
+    light_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 0
+      y = 2
+    }
+    light_armor = {
+      x = 1
+      y = 0
+    }
+    light_armor = {
+      x = 1
+      y = 1
+    }
+    light_armor = {
+      x = 1
+      y = 2
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "坦克旅"  # Tankovaya Brigada
+  division_names_group = SOV_ARM_04
+  regiments = {
+    medium_armor = {
+      x = 0
+      y = 0
+    }
+    medium_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 0
+      y = 2
+    }
+    light_armor = {
+      x = 1
+      y = 0
+    }
+    light_armor = {
+      x = 1
+      y = 1
+    }
+    light_armor = {
+      x = 1
+      y = 2
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "重型坦克旅"  # Tyazolaya-Tankovaya Brigada
+  division_names_group = SOV_ARM_04
+  regiments = {
+    heavy_armor = {
+      x = 0
+      y = 0
+    }
+    heavy_armor = {
+      x = 0
+      y = 1
+    }
+    light_armor = {
+      x = 0
+      y = 2
+    }
+    light_armor = {
+      x = 1
+      y = 0
+    }
+    light_armor = {
+      x = 1
+      y = 1
+    }
+    light_armor = {
+      x = 1
+      y = 2
+    }
+    motorized = {
+      x = 2
+      y = 0
+    }
+    motorized = {
+      x = 2
+      y = 1
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "哥萨克骑兵师"  # Kazachya Kavaleryskaya Diviziya
+  division_names_group = SOV_CAV_02
+  template_counter = 05
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+    mot_artillery_brigade = {
+      x = 2
+      y = 0
+    }
+    light_armor = {
+      x = 3
+      y = 0
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+    artillery = {
+      x = 0
+      y = 1
+    }
+    recon = {
+      x = 0
+      y = 2
+    }
+  }
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 312
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第LVO空降旅"  # LVO Voz.-Desantnye Voyska
+    location = 6174
+    division_template = "空降旅"  # Vozdushno-Desantnaya
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 801
+    }
+    location = 6174
+    division_template = "摩托化步兵师"  # Motostrelkovaya Diviziya
+    start_experience_factor = 0.4
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 6174
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 11202
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 16
+    }
+    location = 15
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 88
+    }
+    location = 9123
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 138
+    }
+    location = 6174
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第10装甲军"  # 10ya Tankovaya Korpus
+    location = 6174
+    division_template = "装甲军团"  # Tankovaya Korpus
+    start_experience_factor = 0.3
+    force_equipment_variants = {
+      light_tank_chassis_2 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-7"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 24
+    }
+    location = 3151
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 43
+    }
+    location = 149
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 70
+    }
+    location = 3151
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第1 LVO重型坦克旅"  # 1ya LVO Tankovaya Gruppa
+    location = 149
+    division_template = "重型坦克旅"  # Tyazolaya-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      heavy_tank_chassis_0 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "T-35"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 49
+    }
+    location = 104
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 90
+    }
+    location = 126
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 142
+    }
+    location = 126
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第2 LVO重型坦克旅"  # 2ya LVO Tankovaya Gruppa
+    location = 104
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 75
+    }
+    location = 6070
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 155
+    }
+    location = 9078
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 18
+    }
+    location = 40
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 56
+    }
+    location = 9231
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 168
+    }
+    location = 2998
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 14
+    }
+    location = 3134
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 163
+    }
+    location = 11183
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 54
+    }
+    location = 6117
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 104
+    }
+    location = 142
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第BVO空降旅"  # BVO Voz.-Desantnye Voyska
+    location = 11370
+    division_template = "空降旅"  # Vozdushno-Desantnaya
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 11370
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 11241
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 8
+    }
+    location = 306
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 30
+    }
+    location = 415
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 139
+    }
+    location = 3310
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 150
+    }
+    location = 3333
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 10
+    }
+    location = 9386
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 89
+    }
+    location = 9386
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 115
+    }
+    location = 9386
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 164
+    }
+    location = 9386
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 55
+    }
+    location = 11313
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 143
+    }
+    location = 11313
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第3ya BVO重型坦克旅"  # 3ya BVO Tankovaya Gruppa
+    location = 11313
+    division_template = "坦克旅"  # Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      medium_tank_chassis_0 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "T-28"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_2 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-7"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 52
+    }
+    location = 11322
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 122
+    }
+    location = 11322
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第Dneiper Gruppa"  # Dneiper Gruppa
+    location = 11322
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 27
+    }
+    location = 11370
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 50
+    }
+    location = 11370
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 11216
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 24
+    }
+    location = 11216
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第1 BVO重型坦克旅"  # 1ya BVO Tankovaya Gruppa
+    location = 11370
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 8
+    }
+    location = 3759
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 29
+    }
+    location = 3759
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第4 BVO重型坦克旅"  # 4ya BVO Tankovaya Gruppa
+    location = 3759
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 3267
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 33
+    }
+    location = 3267
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 121
+    }
+    location = 3267
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 6220
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 100
+    }
+    location = 6220
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 6220
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 36
+    }
+    location = 9241
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第15装甲军"  # 15ya Tankovaya Korpus
+    location = 9353
+    division_template = "装甲军团"  # Tankovaya Korpus
+    start_experience_factor = 0.3
+    force_equipment_variants = {
+      light_tank_chassis_2 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-7"
+      }
+    }
+  }
+  division = {
+    name = "第2ya BVO重型坦克旅"  # 2ya BVO Tankovaya Gruppa
+    location = 9353
+    division_template = "坦克旅"  # Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      medium_tank_chassis_0 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "T-28"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_2 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-7"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 11259
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 13
+    }
+    location = 11259
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 3219
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 3219
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 6371
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 48
+    }
+    location = 6245
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 64
+    }
+    location = 6245
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 67
+    }
+    location = 6245
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "VO重型坦克旅"  # UrVO Tankovaya Gruppa
+    location = 306
+    division_template = "坦克旅"  # Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      medium_tank_chassis_0 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "T-28"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_2 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-7"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 85
+    }
+    location = 11241
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 98
+    }
+    location = 11241
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 112
+    }
+    location = 11241
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 110
+    }
+    location = 246
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 170
+    }
+    location = 246
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 186
+    }
+    location = 246
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 65
+    }
+    location = 306
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 125
+    }
+    location = 306
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 128
+    }
+    location = 306
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 159
+    }
+    location = 306
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 9288
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 73
+    }
+    location = 6233
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 86
+    }
+    location = 6233
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 53
+    }
+    location = 9288
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 148
+    }
+    location = 9288
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 173
+    }
+    location = 9288
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 61
+    }
+    location = 6344
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 117
+    }
+    location = 6344
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 129
+    }
+    location = 6344
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 19
+    }
+    location = 3580
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 120
+    }
+    location = 3580
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 149
+    }
+    location = 3580
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 145
+    }
+    location = 9355
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 180
+    }
+    location = 9355
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 185
+    }
+    location = 9355
+    division_template = "摩托化步兵师"  # Motostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "VO重型坦克旅"  # OrVO Tankovaya Gruppa
+    location = 9355
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    name = "MVO空降旅"  # MVO Voz.-Desantnye Voyska
+    location = 6380
+    division_template = "空降旅"  # Vozdushno-Desantnaya
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 14
+    }
+    location = 6380
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 17
+    }
+    location = 6380
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 17
+    }
+    location = 6380
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 84
+    }
+    location = 6380
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 126
+    }
+    location = 6380
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 136
+    }
+    location = 9356
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 137
+    }
+    location = 9356
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 144
+    }
+    location = 9356
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 172
+    }
+    location = 9356
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 182
+    }
+    location = 9356
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "KOVO空降旅"  # KOVO Voz.-Desantnye Voyska
+    location = 525
+    division_template = "空降旅"  # Vozdushno-Desantnaya
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 10
+    }
+    location = 525
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 13
+    }
+    location = 6593
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 15
+    }
+    location = 476
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 525
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 41
+    }
+    location = 525
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 183
+    }
+    location = 525
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第1ya KOVO重型坦克旅"  # 1ya KOVO Tankovaya Gruppa
+    location = 525
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_2 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-7"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 15
+    }
+    location = 462
+    division_template = "摩托化步兵师"  # Motostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 124
+    }
+    location = 462
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 131
+    }
+    location = 462
+    division_template = "摩托化步兵师"  # Motostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 140
+    }
+    location = 9576
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 146
+    }
+    location = 9576
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 31
+    }
+    location = 9576
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 62
+    }
+    location = 476
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 141
+    }
+    location = 476
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 187
+    }
+    location = 476
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 58
+    }
+    location = 3430
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 95
+    }
+    location = 3430
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 197
+    }
+    location = 3430
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 44
+    }
+    location = 215
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 81
+    }
+    location = 215
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第2 KOVO重型坦克旅"  # 2ya KOVO Tankovaya Gruppa
+    location = 9554
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 45
+    }
+    location = 9554
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 60
+    }
+    location = 9493
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 87
+    }
+    location = 9493
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 96
+    }
+    location = 3470
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 97
+    }
+    location = 3470
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第3 KOVO重型坦克旅"  # 3ya KOVO Tankovaya Gruppa
+    location = 3511
+    division_template = "重型坦克旅"  # Tyazolaya-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      heavy_tank_chassis_0 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "T-35"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 3511
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 6509
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 14
+    }
+    location = 6509
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第25装甲军"  # 25ya Tankovaya Korpus
+    location = 476
+    division_template = "装甲军团"  # Tankovaya Korpus
+    start_experience_factor = 0.3
+    force_equipment_variants = {
+      light_tank_chassis_2 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-7"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 72
+    }
+    location = 9423
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 99
+    }
+    location = 9423
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 32
+    }
+    location = 6455
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 34
+    }
+    location = 6455
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第4 KOVO重型坦克旅"  # 4ya KOVO Tankovaya Gruppa
+    location = 6455
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 9
+    }
+    location = 9423
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 16
+    }
+    location = 9423
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 23
+    }
+    location = 754
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 80
+    }
+    location = 741
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 116
+    }
+    location = 741
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 147
+    }
+    location = 11670
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 156
+    }
+    location = 11670
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "OdVO空降旅"  # OdVO Voz.-Desantnye Voyska
+    location = 3686
+    division_template = "空降旅"  # Vozdushno-Desantnaya
+    start_experience_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 418
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 25
+    }
+    location = 418
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 51
+    }
+    location = 418
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 151
+    }
+    location = 418
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 132
+    }
+    location = 6474
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 134
+    }
+    location = 6474
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 162
+    }
+    location = 6474
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "KhVO重型坦克旅"  # KhVO Tankovaya Gruppa
+    location = 6474
+    division_template = "重型坦克旅"  # Tyazolaya-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      heavy_tank_chassis_0 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "T-35"
+      }
+    }
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 130
+    }
+    location = 9461
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 169
+    }
+    location = 9461
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 192
+    }
+    location = 9461
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 28
+    }
+    location = 719
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 74
+    }
+    location = 719
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 10
+    }
+    location = 9680
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 9417
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 31
+    }
+    location = 3734
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 38
+    }
+    location = 3734
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 157
+    }
+    location = 3734
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 158
+    }
+    location = 3734
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 3720
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 13
+    }
+    location = 3720
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 15
+    }
+    location = 3720
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 103
+    }
+    location = 9417
+    division_template = "摩托化步兵师"  # Motostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 118
+    }
+    location = 9417
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 160
+    }
+    location = 9417
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 171
+    }
+    location = 9417
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 63
+    }
+    location = 12320
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 76
+    }
+    location = 6997
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 77
+    }
+    location = 12434
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 9
+    }
+    location = 1599
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 9
+    }
+    location = 3653
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 20
+    }
+    location = 3656
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 47
+    }
+    location = 12441
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 17
+    }
+    location = 3653
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 68
+    }
+    location = 1459
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 83
+    }
+    location = 1459
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 16
+    }
+    location = 1459
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 19
+    }
+    location = 12805
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 22
+    }
+    location = 10417
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 18
+    }
+    location = 756
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 20
+    }
+    location = 12239
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 21
+    }
+    location = 12218
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 957
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 79
+    }
+    location = 6686
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 101
+    }
+    location = 11643
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 21
+    }
+    location = 3977
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 22
+    }
+    location = 6838
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 26
+    }
+    location = 3787
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 92
+    }
+    location = 12189
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 8
+    }
+    location = 10466
+    division_template = "骑兵师"  # Kavaleriyskaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "DVVO重型坦克旅"  # DVVO Tankovaya Gruppa
+    location = 12189
+    division_template = "轻型坦克旅"  # Legko-Tankovaya Brigada
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "第T-26TU mod. 1933"  # T-26TU mod. 1933
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 32
+    }
+    location = 11879
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 40
+    }
+    location = 11879
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 66
+    }
+    location = 6684
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 105
+    }
+    location = 664
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 39
+    }
+    location = 4805
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 59
+    }
+    location = 7672
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 69
+    }
+    location = 12657
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 10722
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 34
+    }
+    location = 7801
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 35
+    }
+    location = 10655
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 4725
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 78
+    }
+    location = 7763
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 18
+    }
+    location = 12641
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 36
+    }
+    location = 12622
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 57
+    }
+    location = 12622
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 82
+    }
+    location = 10559
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.2
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "第20装甲军"  # 20ya Tankovaya Korpus
+    location = 10559
+    division_template = "装甲军团"  # Tankovaya Korpus
+    start_experience_factor = 0.3
+    force_equipment_variants = {
+      light_tank_chassis_1 = {
+        owner = "SOV"
+        creator = "SOV"
+        version_name = "BT-5"
+      }
+    }
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 93
+    }
+    location = 12543
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 94
+    }
+    location = 12543
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 114
+    }
+    location = 7851
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 46
+    }
+    location = 4719
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 109
+    }
+    location = 4719
+    division_template = "摩托化步兵师"  # Motostrelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 152
+    }
+    location = 4719
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 71
+    }
+    location = 1287
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 1287
+    division_template = "内务人民委员部边境卫队"  # NKVD Pogranichnaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.3
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 91
+    }
+    location = 1818
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 119
+    }
+    location = 10610
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 166
+    }
+    location = 1818
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 107
+    }
+    location = 1591
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 133
+    }
+    location = 1591
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 178
+    }
+    location = 1591
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 37
+    }
+    location = 10619
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 102
+    }
+    location = 12529
+    division_template = "步兵师"  # Strelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 194
+    }
+    location = 12662
+    division_template = "山地步兵师"  # Gornostrelkovaya Diviziya
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "SOV"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "第13步枪师"  # 13ya Donskaya Kazachya Div.
+    location = 3358
+    division_template = "哥萨克骑兵师"  # Strelkovaya Diviziya
+    start_experience_factor = 0.7
+    start_equipment_factor = 1.0
+  }
+  division = {
+    name = "捷尔斯科-斯塔夫罗波尔斯卡娅哥萨克骑兵师"  # 4ya Donskaya Kazachya Kav. Div.
+    location = 9302
+    division_template = "哥萨克骑兵师"  # Kazachya Kavaleryskaya Diviziya
+    start_experience_factor = 0.8
+    start_equipment_factor = 1.0
+  }
+  division = {
+    name = "第12库班斯卡亚哥萨克骑兵师"  # 6ya Kubansko-Terskaya Kazachya Kav. Div.
+    location = 6380
+    division_template = "哥萨克骑兵师"  # Kazachya Kavaleryskaya Diviziya
+    start_experience_factor = 0.8
+    start_equipment_factor = 1.0
+  }
+  division = {
+    name = "第10哥萨克骑兵师"  # 10ya Tersko-Stavropolskaya Kazachya Kav. Div
+    location = 6380
+    division_template = "哥萨克骑兵师"  # Kazachya Kavaleryskaya Diviziya
+    start_experience_factor = 0.8
+    start_equipment_factor = 1.0
+  }
+  division = {
+    name = "第12哥萨克骑兵师"  # 12ya Kubanskaya Kazachya Kav. Div.
+    location = 6380
+    division_template = "哥萨克骑兵师"  # Kazachya Kavaleryskaya Diviziya
+    start_experience_factor = 0.8
+    start_equipment_factor = 1.0
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "SOV"
+    }
+    requested_factories = 15
+    progress = 0.1
+    efficiency = 100
+    industrial_manufacturer = mio:SOV_tula_arms_plant_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = support_equipment_1
+      creator = "SOV"
+    }
+    requested_factories = 3
+    progress = 0.3
+    efficiency = 100
+    industrial_manufacturer = mio:SOV_mytishchy_machine_building_plant_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = artillery_equipment_1
+      creator = "SOV"
+    }
+    requested_factories = 2
+    progress = 0.3
+    efficiency = 100
+    industrial_manufacturer = mio:SOV_grabin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = light_tank_chassis_2
+      creator = "SOV"
+      version_name = "BT-7"
+    }
+    requested_factories = 5
+    progress = 0.4
+    efficiency = 100
+    industrial_manufacturer = mio:SOV_morozov_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = motorized_equipment_1
+      creator = "SOV"
+    }
+    requested_factories = 5
+    progress = 0.4
+    efficiency = 100
+    industrial_manufacturer = mio:SOV_gaz_organization
+  }
+}

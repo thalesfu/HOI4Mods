@@ -1,0 +1,125 @@
+﻿##### INDONESIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+INS_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "KRI "							
+	fallback_name = "第%s 驱逐舰"					
+
+	unique = {											
+		"曼道" "亻从" "巴迪克" "马来剑" "尖嘴鱼" "鲨" "莱洋" "勒马当" "潘德龙" "苏拉" "镰刀" "肉刀" "短匕" "砍刀" "帕兰刀" "施瓦尔" "苏里克" "泰拉邦" "桑帕里" "矛" "哈拉桑" "巴道" "塞拉瓦库" "邀请" "安道" "狮子" "通卡克" "鲈鱼" "石斑鱼" "狐鲣" "梭鱼" "蟒蛇" "维浪"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+INS_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "KRI "							
+	fallback_name = "第%s 轻巡洋舰"
+
+	unique = {
+		"第博尼哥罗" "哈桑乌地恩苏丹" "伊斯坎德尔·穆达苏丹" "弗兰·伊斯埃伯" "鞆·托莫" "李约翰" "奥斯曼·哈伦" "法塔希拉" "马拉哈亚蒂" 
+		"纳拉" "卡皮坦·帕蒂穆拉" "乌东·苏拉帕蒂" "努库" "兰邦·芒库拉特" "卡特·尼亚克·迪恩" "哈塔·塞夫汀苏丹" "苏坦托" "苏特迪·塞诺普特拉"
+		"维拉特诺" "提普塔迪" "哈桑·巴斯利" "伊曼·邦乔" "特库·乌玛尔" "西拉斯·帕帕尔"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+INS_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "KRI "							
+	fallback_name = "第%s 重巡洋舰"
+
+	unique = {
+		"第博尼哥罗" "哈桑乌地恩苏丹" "伊斯坎德尔·穆达苏丹" "弗兰·伊斯埃伯" "鞆·托莫" "李约翰" "奥斯曼·哈伦" "法塔希拉" "马拉哈亚蒂" 
+		"纳拉" "卡皮坦·帕蒂穆拉" "乌东·苏拉帕蒂" "努库" "兰邦·芒库拉特" "卡特·尼亚克·迪恩" "哈塔·塞夫汀苏丹" "苏坦托" "苏特迪·塞诺普特拉"
+		"维拉特诺" "提普塔迪" "哈桑·巴斯利" "伊曼·邦乔" "特库·乌玛尔" "西拉斯·帕帕尔"
+	}
+}
+
+### BATTLESHIP NAMES ###
+INS_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "KRI "							
+	fallback_name = "第%s 战列舰"		
+
+	unique = {
+		"巴邻旁" "巴厘巴板" "望加锡" "巴东" "棉兰" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+INS_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "KRI "							
+	fallback_name = "第%s 战列巡洋舰"		
+
+	unique = {
+ 		"雅加达" "万隆" "三宝垄" "泗水" "玛琅" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+INS_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "KRI "							
+	fallback_name = "第%s 航空母舰  "		
+
+	unique = {
+		"苏门答腊" "爪哇" "加里曼丹" "苏拉威西" "努沙登加拉" "巴布亚" "马鲁古" "亚齐"
+	}
+}
+
+
+### SUBMARINES ###
+INS_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "KRI "							
+	fallback_name = "Submarine %d"
+	
+	unique = {
+		"纳加帕萨" "阿达德达理" "阿鲁果戎" "金轮" "南戈拉"
+	}
+}

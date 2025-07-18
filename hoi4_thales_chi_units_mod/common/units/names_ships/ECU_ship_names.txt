@@ -1,0 +1,120 @@
+﻿##### ECUADOR NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ECU_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "BAE "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+	"解放者玻利瓦尔" "塔尔基" "埃斯梅拉达斯" "马纳比" "洛斯里奥斯" "奥罗" "洛哈" "加拉帕戈斯"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ECU_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "BAE "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"埃斯梅拉达斯" "奥罗" "马纳比" "加拉帕戈斯" "洛斯里奥斯" "洛哈" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ECU_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "BAE "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"埃斯梅拉达斯" "奥罗" "马纳比" "加拉帕戈斯" "洛斯里奥斯" "洛哈" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+ECU_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "BAE "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"阿尔法罗总统" "莫拉·瓦尔韦德" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+ECU_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "BAE "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+	"阿尔法罗总统" "莫拉·瓦尔韦德" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+ECU_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "BAE "
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+	"基多" "瓜亚基尔" 
+	}
+}
+
+### SUBMARINES ###
+ECU_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "BAE "
+	fallback_name = "%d 号潜"
+	
+	unique = {
+		"希里" "哈恩卡维尔卡" "埃斯梅拉达斯" "马纳比" "洛斯里奥斯" "奥罗" "洛哈" "加拉帕戈斯" 
+	}
+}

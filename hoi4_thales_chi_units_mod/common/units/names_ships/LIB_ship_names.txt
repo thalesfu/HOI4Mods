@@ -1,0 +1,121 @@
+﻿##### LIBERIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+LIB_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { LIB }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "LRS "							
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"废除" "恩典" "自由人" "冲刺" "希望"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+LIB_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { LIB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "LRS "							
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+	"废除" "恩典" "自由人" "冲刺" "希望"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+LIB_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { LIB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "LRS "							
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"废除" "恩典" "自由人" "冲刺" "希望"
+	}
+}
+
+### BATTLESHIP NAMES ###
+LIB_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { LIB }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "LRS "							
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"蒙罗维亚" "自由" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+LIB_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { LIB }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "LRS "							
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"蒙罗维亚" "自由" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+LIB_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { LIB }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "LRS "							
+	fallback_name = "%d 号航空母舰"		
+
+	unique = {
+		"利比里亚共和国" "乐土" 
+	}
+}
+
+
+### SUBMARINES ###
+LIB_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { LIB }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "LRS "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"废除" "恩典" "自由人" "冲刺" "希望"
+	}
+}

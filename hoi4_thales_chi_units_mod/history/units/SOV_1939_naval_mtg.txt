@@ -1,0 +1,2041 @@
+﻿units = {
+  fleet = {
+    name = "北方舰队"  # Severnyy Flot
+    naval_base = 3134
+    task_force = {
+      name = "北方舰队"  # Severnyy Flot
+      location = 3134
+      ship = {
+        name = "捷尔任斯基"  # Dzerzhinskiy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "费多尼西级"  # Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "涅萨兹尼克"  # Nezamozhnik
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "费多尼西级"  # Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "彼得罗夫斯基"  # Petrovskiy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "费多尼西级"  # Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "邵武勉"  # Shaumyan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "费多尼西级"  # Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "卡尔·李卜克内西"  # Karl Libknekht
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "伊贾斯拉夫"  # Izyaslav
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "费多尼西级"  # Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "加里宁"  # Kalinin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "费多尼西级"  # Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "列宁"  # Lenin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "沃伊科夫"  # Voykov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "恩格斯"  # Engels
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "北方潜艇舰队"  # Severniy Podvodniy Flot
+      location = 3134
+      ship = {
+        name = "D-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        name = "D-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        name = "D-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        name = "D-4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        name = "D-5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        name = "D-6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        ordered_name = 401
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 402
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 403
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 404
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 421
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 422
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 423
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 424
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "波罗的海舰队"  # Baltiyskiy Flot
+    naval_base = 3151
+    task_force = {
+      name = "波罗的海舰队"  # Baltiyskiy Flot
+      location = 3151
+      ship = {
+        name = "马拉特"  # Marat
+        pride_of_the_fleet = yes
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "马拉级"  # Marat Class
+          }
+        }
+      }
+      ship = {
+        name = "十月革命"  # Oktyabrskaya Revolutsiya
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "马拉级"  # Marat Class
+          }
+        }
+      }
+      ship = {
+        name = "基洛夫"  # Kirov
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "基洛夫级"  # Kirov Class
+          }
+        }
+      }
+      ship = {
+        name = "马尔蒂"  # Marti
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "马尔蒂级"  # Marti Class
+          }
+        }
+      }
+      ship = {
+        name = "列宁格勒"  # Leningrad
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "列宁格勒&明斯克级"  # Leningrad & Minsk Class
+          }
+        }
+      }
+      ship = {
+        name = "轰鸣"  # Gremyashchiy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "格罗兹尼"  # Groznyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "愤怒"  # Gnevnyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "自豪"  # Gordyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "明斯克"  # Minsk
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "列宁格勒&明斯克级"  # Leningrad & Minsk Class
+          }
+        }
+      }
+      ship = {
+        name = "响亮"  # Gromkiy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "敏锐"  # Smetlivyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "强烈"  # Stremitelnyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "毁灭"  # Sokrushitelnyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "波罗的海潜艇舰队"  # Baltiyskiy Podvodniy Flot
+      location = 3151
+      ship = {
+        name = "B-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        name = "L-55"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "D级（十二月党人级）I系列"  # Series I Debakrist
+          }
+        }
+      }
+      ship = {
+        ordered_name = 301
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 302
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 303
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 304
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 305
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 306
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 307
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 308
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 309
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 310
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 311
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 317
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 318
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 319
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 320
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 322
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 323
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 324
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        name = "P-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+          }
+        }
+      }
+      ship = {
+        name = "P-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+          }
+        }
+      }
+      ship = {
+        name = "P-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+          }
+        }
+      }
+      ship = {
+        ordered_name = 1
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+          }
+        }
+      }
+      ship = {
+        ordered_name = 2
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+          }
+        }
+      }
+      ship = {
+        ordered_name = 3
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+          }
+        }
+      }
+      ship = {
+        ordered_name = 1
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 2
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 3
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "黑海舰队"  # Chernomorskiy Flot
+    naval_base = 3686
+    task_force = {
+      name = "黑海舰队"  # Chernomorskiy Flot
+      location = 3686
+      ship = {
+        name = "巴黎公社"  # Parizhskaya Kommuna
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "马拉级"  # Marat Class
+          }
+        }
+      }
+      ship = {
+        name = "红色高加索"  # Krasni Kavkaz
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "切尔沃纳·乌克兰级"  # Chervona Ukraina Class
+          }
+        }
+      }
+      ship = {
+        name = "红色克里米亚"  # Krasny Krym
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "切尔沃纳·乌克兰级"  # Chervona Ukraina Class
+          }
+        }
+      }
+      ship = {
+        name = "切尔沃纳·乌克兰"  # Chervona Ukraina
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "切尔沃纳·乌克兰级"  # Chervona Ukraina Class
+          }
+        }
+      }
+      ship = {
+        name = "共产国际"  # Komintern
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "共产国际级"  # Komintern Class
+          }
+        }
+      }
+      ship = {
+        name = "布格"  # Bug
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "布格级"  # Bug Class
+          }
+        }
+      }
+      ship = {
+        name = "莫斯科"  # Moskva
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "列宁格勒&明斯克级"  # Leningrad & Minsk Class
+          }
+        }
+      }
+      ship = {
+        name = "凛冽"  # Bodryy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "迅捷"  # Bystryy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "敏捷"  # Boykiy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "哈尔科夫"  # Kharkov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "列宁格勒&明斯克级"  # Leningrad & Minsk Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔乔姆"  # Artyom
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "沃罗达尔斯基"  # Volodarskiy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "雅科夫·斯维尔德罗夫"  # Yakov Sverdlov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "伏龙芝"  # Frunze
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "黑海潜艇舰队"  # Chernomorskiy Podvodniy Flot
+      location = 3686
+      ship = {
+        ordered_name = 201
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 202
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 203
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 204
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 205
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 206
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 207
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 208
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 209
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 210
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 211
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 212
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 213
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 214
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 215
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        name = "A-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "A-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "A-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "A-4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "A-5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 4
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 5
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 6
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "太平洋舰队"  # Tikhookeanskiy Flot
+    naval_base = 957
+    task_force = {
+      name = "太平洋舰队"  # Tikhookeanskiy Flot
+      location = 957
+      ship = {
+        name = "英勇"  # Ryanyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "愤怒级"  # Gnevnyy Class
+          }
+        }
+      }
+      ship = {
+        name = "雷科夫"  # Rykov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "乌里茨基"  # Uritskiy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "斯大林"  # Stalin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "俄耳甫斯级"  # Orfey Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "太平洋潜艇舰队"  # Tihookyeanskiy Podvodniy Flot
+      location = 957
+      ship = {
+        ordered_name = 101
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 102
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 103
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 104
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 105
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 106
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 107
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 108
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 109
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 110
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 111
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 112
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 113
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 114
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 115
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 116
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 117
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 118
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 119
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 120
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 121
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 122
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 123
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 124
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）V系列"  # Series V Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 126
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 127
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 128
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 129
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 130
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 131
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 132
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 133
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 134
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SOV
+            version_name = "Sh级（梭子鱼级）X系列"  # Series X Shchuka
+          }
+        }
+      }
+      ship = {
+        ordered_name = 7
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 8
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 9
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 10
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 11
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 12
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）II系列"  # Series II Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 13
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）XIII系列"  # Series XIII Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 14
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）XIII系列"  # Series XIII Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 15
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）XIII系列"  # Series XIII Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 16
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）XIII系列"  # Series XIII Leninets
+          }
+        }
+      }
+      ship = {
+        ordered_name = 17
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SOV
+            version_name = "L级（列宁主义者级）XIII系列"  # Series XIII Leninets
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_1
+      creator = "SOV"
+      version_name = "基洛夫级"  # Kirov Class
+    }
+    name = "伏罗希洛夫"  # Voroshilov
+    requested_factories = 1
+    progress = 0.70
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_1
+      creator = "SOV"
+      version_name = "基洛夫级"  # Kirov Class
+    }
+    name = "马克西姆·高尔基"  # Maxim Gorkiy
+    requested_factories = 1
+    progress = 0.50
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_1
+      creator = "SOV"
+      version_name = "基洛夫级"  # Kirov Class
+    }
+    name = "莫洛托夫"  # Molotov
+    requested_factories = 1
+    progress = 0.30
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "SOV"
+      version_name = "塔什干级"  # Tashkent Class
+    }
+    name = "塔什干"  # Tashkent
+    requested_factories = 1
+    progress = 0.85
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "列宁格勒&明斯克级"  # Leningrad & Minsk Class
+    }
+    name = "谢尔戈·奥尔忠尼启则"  # Sergo Ordzhonikize
+    requested_factories = 1
+    progress = 0.20
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "列宁格勒&明斯克级"  # Leningrad & Minsk Class
+    }
+    name = "第比利斯"  # Tbilisi
+    requested_factories = 1
+    progress = 0.70
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "愤怒级"  # Gnevnyy Class
+    }
+    name = "威慑"  # Grozyashchiy
+    requested_factories = 1
+    progress = 0.90
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "愤怒级"  # Gnevnyy Class
+    }
+    name = "守护"  # Steregushchiy
+    requested_factories = 1
+    progress = 0.80
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "愤怒级"  # Gnevnyy Class
+    }
+    name = "刚烈"  # Rastoropnyy
+    requested_factories = 1
+    progress = 0.60
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "愤怒级"  # Gnevnyy Class
+    }
+    name = "无情"  # Besposhchadnyy
+    requested_factories = 1
+    progress = 0.80
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "愤怒级"  # Gnevnyy Class
+    }
+    name = "欢腾"  # Rezvyy
+    requested_factories = 1
+    progress = 0.60
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "愤怒级"  # Gnevnyy Class
+    }
+    name = "无瑕"  # Bezuprechnyy
+    requested_factories = 1
+    progress = 0.80
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SOV"
+      version_name = "愤怒级"  # Gnevnyy Class
+    }
+    name = "警惕"  # Bditelnyy
+    requested_factories = 1
+    progress = 0.80
+    amount = 1
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SOV"
+      version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+    }
+    requested_factories = 1
+    progress = 0.85
+    amount = 3
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SOV"
+      version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+    }
+    requested_factories = 1
+    progress = 0.85
+    amount = 3
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SOV"
+      version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+    }
+    requested_factories = 1
+    progress = 0.85
+    amount = 3
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SOV"
+      version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+    }
+    requested_factories = 1
+    progress = 0.15
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SOV"
+      version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+    }
+    requested_factories = 1
+    progress = 0.15
+    amount = 3
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SOV"
+      version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+    }
+    requested_factories = 1
+    progress = 0.15
+    amount = 3
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "SOV"
+      version_name = "S级（斯大林主义者级）IX系列"  # Series IX Srednyaya
+    }
+    requested_factories = 1
+    progress = 0.15
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_3
+      creator = "SOV"
+      version_name = "K级（喀秋莎级）XIV系列"  # Series XIV K-Class
+    }
+    name = "K-1"
+    requested_factories = 1
+    progress = 0.80
+    amount = 4
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_3
+      creator = "SOV"
+      version_name = "K级（喀秋莎级）XIV系列"  # Series XIV K-Class
+    }
+    name = "K-2"
+    requested_factories = 1
+    progress = 0.80
+    amount = 4
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "SOV"
+      version_name = "机敏级"  # Soobrazitelnyi Class
+    }
+    name = "史托罗季沃"  # Storozhevoy
+    requested_factories = 1
+    progress = 0.20
+    amount = 3
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "SOV"
+      version_name = "机敏级"  # Soobrazitelnyi Class
+    }
+    name = "坚定"  # Stoykiy
+    requested_factories = 1
+    progress = 0.20
+    amount = 3
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "SOV"
+      version_name = "机敏级"  # Soobrazitelnyi Class
+    }
+    name = "有力"  # Silnyy
+    requested_factories = 1
+    progress = 0.20
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "SOV"
+      version_name = "机敏级"  # Soobrazitelnyi Class
+    }
+    name = "严峻"  # Serdityy
+    requested_factories = 1
+    progress = 0.20
+    amount = 2
+    industrial_manufacturer = mio:SOV_rubin_design_bureau_organization
+  }
+}

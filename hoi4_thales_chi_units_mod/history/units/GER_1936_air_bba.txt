@@ -1,0 +1,133 @@
+﻿air_wings = {
+  763 = {
+    small_plane_airframe_0 = {
+      owner = "GER"
+      amount = 40
+      version_name = "He 51"
+    }
+    name = "第232战斗机中队"  # Jagdgeschwader 232
+  }
+  64 = {
+    small_plane_airframe_0 = {
+      owner = "GER"
+      amount = 80
+      version_name = "He 51"
+    }
+    name = "第132战斗机中队"  # Jagdgeschwader 132
+    medium_plane_airframe_0 = {
+      owner = "GER"
+      amount = 80
+      version_name = "Do 23"
+    }
+    medium_plane_airframe_0 = {
+      owner = "GER"
+      amount = 40
+      version_name = "Ju 86"
+    }
+    name = "第153战斗中队"  # Kampfgeschwader 153
+    transport_plane_equipment_1 = {
+      owner = "GER"
+      amount = 80
+    }
+  }
+  66 = {
+    medium_plane_airframe_0 = {
+      owner = "GER"
+      amount = 60
+      version_name = "Do 23"
+    }
+    name = "第253战斗中队"  # Kampfgeschwader 253
+    medium_plane_airframe_0 = {
+      owner = "GER"
+      amount = 60
+      version_name = "Do 23"
+    }
+    small_plane_cas_airframe_0 = {
+      owner = "GER"
+      amount = 80
+      version_name = "Hs 123"
+    }
+    name = "第162黑桃A联队"  # Sturzkampfgeschwader 162
+  }
+  57 = {
+    small_plane_airframe_0 = {
+      owner = "GER"
+      amount = 60
+      version_name = "He 51"
+    }
+    name = "第134战斗机中队"  # Jagdgeschwader 134
+    small_plane_airframe_0 = {
+      owner = "GER"
+      amount = 60
+      version_name = "He 51"
+    }
+    medium_plane_airframe_0 = {
+      owner = "GER"
+      amount = 80
+      version_name = "Do 23"
+    }
+    name = "第152战斗中队"  # Kampfgeschwader 152
+    medium_plane_airframe_0 = {
+      owner = "GER"
+      amount = 80
+      version_name = "Do 23"
+    }
+    name = "第155战斗中队"  # Kampfgeschwader 155
+  }
+  52 = {
+    small_plane_airframe_0 = {
+      owner = "GER"
+      amount = 40
+      version_name = "He 51"
+    }
+    name = "第136战斗机中队"  # Jagdgeschwader 136
+    medium_plane_airframe_0 = {
+      owner = "GER"
+      amount = 80
+      version_name = "Do 23"
+    }
+    name = "第54战斗中队"  # Kampfgeschwader 154
+  }
+  58 = {
+    small_plane_naval_bomber_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Do 22"
+    }
+    name = "第106海岸飞行大队"  # Küstenfliegergruppe 106
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = small_plane_airframe_1
+      creator = GER
+      version_name = "Bf 109 D"
+    }
+    requested_factories = 1
+    progress = 0.15
+    efficiency = 50
+    industrial_manufacturer = mio:GER_messerschmitt_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = small_plane_cas_airframe_1
+      creator = GER
+      version_name = "Ju 87"
+    }
+    requested_factories = 1
+    progress = 0.2
+    efficiency = 50
+    industrial_manufacturer = mio:GER_junkers_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = medium_plane_airframe_1
+      creator = GER
+      version_name = "He 111"
+    }
+    requested_factories = 1
+    progress = 0.1
+    efficiency = 50
+  }
+}

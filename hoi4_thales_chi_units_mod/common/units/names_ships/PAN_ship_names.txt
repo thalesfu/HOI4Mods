@@ -1,0 +1,120 @@
+﻿##### PANAMA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PAN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PAN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"奇里奎" "巴拿马" "潘基亚科" "十一月三日" "十一月十日" "十一月二十八日" "埃斯库多·德·贝拉瓜斯" "弗拉明戈" "纳奥斯" "纳格力特" "农布雷·德·迪奥斯" "塔博加" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+PAN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { PAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"科朗" "拉·乔雷拉" "戴维" "佩诺诺梅" "彭塔·玛塔" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+PAN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { PAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"科朗" "拉·乔雷拉" "戴维" "佩诺诺梅" "彭塔·玛塔" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+PAN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { PAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"巴拿马城" "一八八九革命"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+PAN_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { PAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"巴拿马城" "一八八九革命"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+PAN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { PAN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"巴拿马共和国" "驱逐者"
+	}
+}
+
+### SUBMARINES ###
+PAN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { PAN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"奇里奎" "巴拿马" "潘基亚科" "十一月三日" "十一月十日" "十一月二十八日" "埃斯库多·德·贝拉瓜斯" "弗拉明戈" "纳奥斯" "纳格力特" "农布雷·德·迪奥斯" "塔博加" 
+	}
+}

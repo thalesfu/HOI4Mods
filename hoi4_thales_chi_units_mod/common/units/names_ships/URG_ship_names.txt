@@ -1,0 +1,120 @@
+﻿##### URUGUAY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+URG_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d号驱逐舰"					
+
+	unique = {											
+		"乌拉圭" "蒙得维的亚" "马尔多纳多" "罗查" "科洛尼亚" "阿蒂加斯" "里奥内格罗" "派桑杜"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+URG_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d号轻巡洋舰"
+
+	unique = {
+		"乌拉圭" "蒙得维的亚" "马尔多纳多" "罗查" "科洛尼亚" "阿蒂加斯" "里奥内格罗" "派桑杜"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+URG_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d号重巡洋舰"
+
+	unique = {
+		"乌拉圭" "蒙得维的亚" "马尔多纳多" "罗查" "科洛尼亚" "阿蒂加斯" "里奥内格罗" "派桑杜"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+URG_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d号战列舰"		
+
+	unique = {
+		"阿蒂加斯将军" "唐克劳迪奥将军" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+URG_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d号战列巡洋舰"		
+
+	unique = {
+		"阿蒂加斯将军" "唐克劳迪奥将军" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+URG_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d号航空母舰"	
+
+	unique = {
+		"东岸共和国" "蒙得维的亚" 
+	}
+}
+
+### SUBMARINES ###
+URG_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d号潜艇"
+	
+	unique = {
+		"乌拉圭" "蒙得维的亚" "马尔多纳多" "罗查" "科洛尼亚" "阿蒂加斯" "里奥内格罗" "派桑杜"
+	}
+}

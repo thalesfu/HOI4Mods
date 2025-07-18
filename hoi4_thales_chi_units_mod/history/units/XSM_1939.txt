@@ -1,0 +1,136 @@
+﻿start_equipment_factor = 0.2
+division_template = {
+  name = "国民警备队"  # Binary Infantry
+  division_names_group = XSM_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "三角师"  # Triangular Infantry
+  division_names_group = XSM_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+  }
+}
+division_template = {
+  name = "三角骑兵师"  # Triangular Cavalry
+  division_names_group = XSM_CAV_01
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+    cavalry = {
+      x = 2
+      y = 0
+    }
+    cavalry = {
+      x = 2
+      y = 1
+    }
+  }
+}
+units = {
+  division = {
+    name = "第80军"  # 80 Juntuán
+    location = 8081
+    division_template = "国民警备队"  # Binary Infantry
+  }
+  division = {
+    name = "第82军"  # 82 Juntuán
+    location = 3745
+    division_template = "国民警备队"  # Binary Infantry
+  }
+  division = {
+    name = "新2军"  # Xin 2 Juntuán
+    location = 1647
+    division_template = "国民警备队"  # Binary Infantry
+  }
+  division = {
+    name = "第5骑兵师"  # 5 Qábing Jun
+    location = 8081
+    division_template = "三角骑兵师"  # Triangular Cavalry
+  }
+  division = {
+    name = "格尔木守备师"  # Golmud Jingbei
+    location = 12846
+    division_template = "国民警备队"  # Binary Infantry
+  }
+  division = {
+    name = "第81军"  # 81 Juntuán
+    location = 10724
+    division_template = "国民警备队"  # Binary Infantry
+  }
+  division = {
+    name = "第2骑兵师"  # 2 Qábing Jun
+    location = 8055
+    division_template = "三角骑兵师"  # Triangular Cavalry
+  }
+  division = {
+    name = "第6骑兵师"  # 6 Qábing Jun
+    location = 7803
+    division_template = "三角骑兵师"  # Triangular Cavalry
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_0
+      creator = "XSM"
+    }
+    requested_factories = 1
+    progress = 0.47
+    efficiency = 100
+  }
+}

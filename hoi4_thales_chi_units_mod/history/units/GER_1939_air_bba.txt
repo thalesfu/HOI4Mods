@@ -1,0 +1,286 @@
+﻿air_wings = {
+  64 = {
+    transport_plane_equipment_1 = {
+      owner = "GER"
+      amount = 66
+    }
+    transport_plane_equipment_1 = {
+      owner = "GER"
+      amount = 66
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 60
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 60
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 30
+      version_name = "Bf 110 C"
+    }
+  }
+  62 = {
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 77
+      version_name = "He 111"
+    }
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 77
+      version_name = "He 111"
+    }
+    small_plane_cas_airframe_1 = {
+      owner = "GER"
+      amount = 54
+      version_name = "Ju 87"
+    }
+    small_plane_cas_airframe_1 = {
+      owner = "GER"
+      amount = 54
+      version_name = "Ju 87"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 72
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 30
+      version_name = "Bf 110 C"
+    }
+  }
+  763 = {
+    small_plane_cas_airframe_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 77
+    }
+    small_plane_cas_airframe_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 77
+    }
+    small_plane_cas_airframe_1 = {
+      owner = "GER"
+      amount = 36
+      version_name = "Ju 87"
+    }
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "He 111"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 30
+      version_name = "Bf 110 C"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 72
+    }
+  }
+  66 = {
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 96
+      version_name = "He 111"
+    }
+    small_plane_cas_airframe_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 84
+    }
+    small_plane_cas_airframe_0 = {
+      owner = "GER"
+      version_name = "Do 17"
+      amount = 76
+    }
+    small_plane_cas_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Ju 87"
+    }
+    small_plane_cas_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Ju 87"
+    }
+    small_plane_cas_airframe_0 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Hs 123"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 30
+      version_name = "Bf 110 C"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 66
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 66
+    }
+  }
+  51 = {
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 84
+      version_name = "He 111"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      version_name = "Bf 109 E"
+      amount = 76
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 76
+      version_name = "Bf 109 D"
+    }
+  }
+  59 = {
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 96
+      version_name = "He 111"
+    }
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 96
+      version_name = "He 111"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 77
+      version_name = "Bf 109 D"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 77
+      version_name = "Bf 109 D"
+    }
+  }
+  52 = {
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "He 111"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Bf 109 D"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Bf 109 D"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Bf 109 D"
+    }
+  }
+  55 = {
+    medium_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "He 111"
+    }
+    small_plane_cas_airframe_1 = {
+      owner = "GER"
+      amount = 30
+      version_name = "Ju 87"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Bf 109 D"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Bf 109 D"
+    }
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 72
+      version_name = "Bf 109 E"
+    }
+  }
+  54 = {
+    small_plane_airframe_1 = {
+      owner = "GER"
+      amount = 24
+      version_name = "Bf 109 D"
+    }
+  }
+  56 = {
+    small_plane_naval_bomber_airframe_1 = {
+      owner = "GER"
+      amount = 54
+      version_name = "Do 22"
+    }
+    small_plane_naval_bomber_airframe_1 = {
+      owner = "GER"
+      amount = 54
+      version_name = "Do 22"
+    }
+  }
+  62 = {
+    small_plane_naval_bomber_airframe_1 = {
+      owner = "GER"
+      amount = 54
+      version_name = "Do 22"
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = small_plane_airframe_1
+      creator = "GER"
+      version_name = "Bf 109 E"
+    }
+    requested_factories = 4
+    progress = 0.15
+    efficiency = 100
+    industrial_manufacturer = mio:GER_messerschmitt_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = small_plane_cas_airframe_1
+      creator = "GER"
+      version_name = "Ju 87"
+    }
+    requested_factories = 4
+    progress = 0.2
+    efficiency = 100
+    industrial_manufacturer = mio:GER_junkers_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = medium_plane_airframe_1
+      creator = "GER"
+      version_name = "He 111"
+    }
+    requested_factories = 2
+    progress = 0.1
+    efficiency = 100
+  }
+}

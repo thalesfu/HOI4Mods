@@ -1,0 +1,121 @@
+﻿units = {
+  fleet = {
+    name = "丹麦海军"  # Den Danske Flåde
+    naval_base = 6287
+    task_force = {
+      name = "丹麦海军"  # Den Danske Flåde
+      location = 6287
+      ship = {
+        name = "尼尔斯·尤尔"  # HDMS Niels Iuel
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = DEN
+            version_name = "尼尔斯·尤尔级"  # Niels Iuel Class
+          }
+        }
+      }
+      ship = {
+        name = "佩德·斯凯勒姆"  # HDMS Peder Skram
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = DEN
+            version_name = "赫鲁弗·特罗尔级"  # Herluf Trolle Class
+          }
+        }
+      }
+      ship = {
+        name = "罗塔"  # HDMS Rota
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "战争女神"  # HDMS Bellona
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "花神"  # HDMS Flora
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "桂树神"  # HDMS Daphne
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "树妖"  # HDMS Dryaden
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "人鱼"  # HDMS Havmanden
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "人鱼级"  # Havmanden Class
+          }
+        }
+      }
+      ship = {
+        name = "美人鱼"  # HDMS Havfruen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "人鱼级"  # Havmanden Class
+          }
+        }
+      }
+      ship = {
+        name = "鲨鱼"  # HDMS Havkalen
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "人鱼级"  # Havmanden Class
+          }
+        }
+      }
+    }
+  }
+}

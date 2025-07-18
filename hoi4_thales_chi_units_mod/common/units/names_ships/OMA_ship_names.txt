@@ -1,0 +1,121 @@
+﻿##### OMAN NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+OMA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { OMA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "SNV "							
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"沙米赫" "拉哈马尼" "拉奇赫" "卡亚·安瓦济" "穆扎尔" "穆布鲁克哈"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+OMA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { OMA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "SNV "							
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"塞拉莱" "赖苏特" "迈巴赫" "萨吉拉" "杜古姆"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+OMA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { OMA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "SNV "							
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"塞拉莱" "赖苏特" "迈巴赫" "萨吉拉" "杜古姆"
+	}
+}
+
+### BATTLESHIP NAMES ###
+OMA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { OMA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "SNV "							
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"马斯喀特" "马特拉"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+OMA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { OMA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "SNV "							
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"马斯喀特" "马特拉"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+OMA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { OMA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "SNV "							
+	fallback_name = "%d 号航空母舰"		
+
+	unique = {
+		"萨拉丁" 
+	}
+}
+
+
+### SUBMARINES ###
+OMA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { OMA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "SNV "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"沙米赫" "拉哈马尼" "拉奇赫" "卡亚·安瓦济" "穆扎尔" "穆布鲁克哈"
+	}
+}

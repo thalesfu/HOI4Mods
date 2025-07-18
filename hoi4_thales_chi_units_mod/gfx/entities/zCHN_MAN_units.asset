@@ -1,0 +1,112 @@
+	entity = {
+		clone = "infantry_entity"
+		name = "MAN_infantry_entity"
+		pdxmesh = "MAN_infantry_weapon_rifle_mesh"
+
+		attach = { name = "rifle1" Right_Hand_node = "JAP_infantry_weapon_rifle_right_entity" }
+		attach = { name = "rifle2" Left_Hand_node = "JAP_infantry_weapon_rifle_left_entity" }
+		attach = { name = "rifle4" Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }
+		attach = { name = "rifle3" mid_back_node = "JAP_infantry_weapon_rifle_long_idle_entity" }
+
+	}
+	
+	entity = {
+		clone = "infantry_2_entity"
+		name = "MAN_infantry_2_entity"
+		pdxmesh = "MAN_infantry_weapon_mg_mesh"
+
+		attach = { name = "rifle1" Right_Hand_node = "JAP_infantry_weapon_mg_right_entity" }
+		attach = { name = "rifle2" Left_Hand_node = "JAP_infantry_weapon_mg_left_entity" }
+		attach = { name = "rifle4" Root_node_2 = "JAP_infantry_weapon_mg_right_entity" }
+		attach = { name = "rifle3" mid_back_node = "JAP_infantry_weapon_mg_long_idle_entity" }
+	}
+
+	entity = {
+		clone = "infantry_2_entity"
+		name = "MAN_marine_entity"
+		pdxmesh = "MAN_infantry_weapon_mg_mesh"
+
+		attach = { name = "rifle1" Right_Hand_node = "JAP_infantry_weapon_mg_right_entity" }
+		attach = { name = "rifle2" Left_Hand_node = "JAP_infantry_weapon_mg_left_entity" }
+		attach = { name = "rifle4" Root_node_2 = "JAP_infantry_weapon_mg_right_entity" }
+		attach = { name = "rifle3" mid_back_node = "JAP_infantry_weapon_mg_long_idle_entity" }
+	}
+	
+	entity = {
+		clone = "infantry_rider_entity"
+		name = "MAN_infantry_rider_entity"
+		pdxmesh = "MAN_infantry_weapon_rifle_mesh"
+		
+		# Выдаем ему ружье
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_rifle_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
+			
+	}	
+
+	# Некая промежуточная стыковка для пехотинца и лошади - что-то типа фрейма
+	entity = {
+		clone = "generic_cavalry_rifle_combined_entity"	
+		name = "MAN_cavalry_rifle_combined_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+			
+		default_state = "idle"
+		state = { name = "idle"						animation = "cavalry_idle" 		animation_blend_time = 0.3 }
+		state = { name = "move"						animation = "cavalry_move" 		animation_blend_time = 0.3 }
+		state = { name = "retreat"					animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "MAN_infantry_rider_entity" }
+			
+		scale = 0.65
+	}
+
+	# Стыковка лошади, пехотнца, кавалеристского фрейма - скелета
+	entity = {
+		clone = "cavalry_entity"
+		name = "MAN_cavalry_entity"
+
+		attach = { name = "infantry" infantry = "MAN_infantry_entity" }					# пехотинец
+		attach = { name = "cavalry" cavalry = "MAN_cavalry_rifle_combined_entity" }		# скелет
+		attach = { name = "horse" horse = "infantry_cavalry_horse_entity" }				# лошадь
+	}
+	
+	# Добавление модели грузовика
+	entity = {
+		clone = "generic_motorized_vehicle_entity"
+		name = "MAN_motorized_vehicle_entity"
+		pdxmesh = "generic_motorized_mesh" # тут должен быть уже тот MAN_motorized_mesh, который прописан в vehicles.gfx
+	}
+	
+	# Стыковка грузовика и пехотинца
+	entity = {
+		clone = "motorized_entity"
+		name = "MAN_motorized_entity"
+
+		attach = { name = "vehicle" vehicle = "MAN_motorized_vehicle_entity" } # прикрепляем чисто афганский грузовик
+		attach = { name = "infantry" infantry = "MAN_infantry_entity" }
+	}
+
+	entity = {
+		clone = "SOV_mechanized_vehicle_entity"
+		name = "MAN_mechanized_vehicle_entity"
+		pdxmesh = "ENG_mechanized_mesh" # тут должен быть уже тот MAN_mechanized_mesh, который прописан в vehicles.gfx
+	}
+	
+	# Стыковка броневика и пехотинца
+	entity = {
+		clone = "mechanized_entity"
+		name = "MAN_mechanized_entity"
+
+		attach = { name = "vehicle" vehicle = "SOV_mechanized_vehicle_entity" } # прикрепляем чисто афганский бронетранспортер
+		attach = { name = "infantry" infantry = "MAN_infantry_entity" }
+	}
+	
+		entity = {
+	clone = "ITA_artillery_entity"
+	name = "MAN_artillery_entity"
+	pdxmesh = "frame_artillery_mesh"
+	
+	attach = { name = artillery			artillery = "artillery_gun_entity" }
+	attach = { name = infantry			infantry = "MAN_infantry_entity" }
+}

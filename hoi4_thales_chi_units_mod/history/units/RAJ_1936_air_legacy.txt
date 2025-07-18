@@ -1,0 +1,10 @@
+﻿air_wings = {
+	### AHQ India
+	439 = {
+		### AHQ India -- 费尔雷 戈登s, Battles
+		CAS_equipment_1 = {
+			owner = "RAJ"
+			amount = 80
+		}
+	}
+}

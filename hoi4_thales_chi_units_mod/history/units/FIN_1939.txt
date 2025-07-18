@@ -1,0 +1,275 @@
+﻿start_equipment_factor = 0.6
+division_template = {
+  name = "步兵师"  # Jalkaväkidivisioona
+  division_names_group = FIN_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "独立旅"  # Erillinen Prikaati
+  division_names_group = FIN_GAR_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+  }
+  support = {
+    engineer = {
+      x = 0
+      y = 0
+    }
+  }
+  priority = 0
+}
+division_template = {
+  name = "骑兵旅"  # Ratsuväkiprikaati
+  division_names_group = FIN_CAV_01
+  regiments = {
+    cavalry = {
+      x = 0
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+  }
+  support = {
+    recon = {
+      x = 0
+      y = 0
+    }
+  }
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 6
+    }
+    location = 3137
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 9
+    }
+    location = 158
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 197
+    division_template = "独立旅"  # Erillinen Prikaati
+    start_experience_factor = 0.4
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 7
+    }
+    location = 6210
+    division_template = "独立旅"  # Erillinen Prikaati
+    start_experience_factor = 0.4
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 12
+    }
+    location = 9061
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 13
+    }
+    location = 11141
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 14
+    }
+    location = 6153
+    division_template = "独立旅"  # Erillinen Prikaati
+    start_experience_factor = 0.4
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 9206
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 4
+    }
+    location = 11105
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 5
+    }
+    location = 3083
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 11
+    }
+    location = 3061
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 6082
+    division_template = "骑兵旅"  # Ratsuväkiprikaati
+    start_experience_factor = 0.4
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 15
+    }
+    location = 9176
+    division_template = "独立旅"  # Erillinen Prikaati
+    start_experience_factor = 0.4
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 17
+    }
+    location = 3061
+    division_template = "独立旅"  # Erillinen Prikaati
+    start_experience_factor = 0.4
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 18
+    }
+    location = 9176
+    division_template = "独立旅"  # Erillinen Prikaati
+    start_experience_factor = 0.4
+    start_equipment_factor = 0.5
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 8
+    }
+    location = 3122
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 10
+    }
+    location = 9056
+    division_template = "步兵师"  # Jalkaväkidivisioona
+    start_experience_factor = 0.6
+    start_equipment_factor = 0.8
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "FIN"
+    }
+    requested_factories = 1
+    progress = 0.40
+    efficiency = 100
+    industrial_manufacturer = mio:FIN_valtion_kivaaritehdas_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = support_equipment_1
+      creator = "FIN"
+    }
+    requested_factories = 1
+    progress = 0.25
+    efficiency = 100
+  }
+}

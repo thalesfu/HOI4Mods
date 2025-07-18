@@ -1,0 +1,15 @@
+﻿ITA_RG_HISTORICAL = {
+	for_countries = { ITA }
+
+	type = railway_gun
+	
+	fallback_name = "第%d铁路炮兵大队"
+
+	ordered = {
+		1 = {"第%d铁路炮兵大队"}
+		2 = {"第%d铁路炮兵大队"}
+		3 = {"第%d铁路炮兵大队"}
+		4 = {"第%d铁路炮兵大队"}
+		5 = {"第%d铁路炮兵大队"}
+	}
+}

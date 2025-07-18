@@ -1,0 +1,27 @@
+﻿units = {
+
+	######## NAVAL OOB ########
+	fleet = {
+		name = "波兰海军舰队"			
+		naval_base = 362 # Danzig
+		task_force = {
+			name = "波兰驱逐舰舰队"		# CO: Unrug
+			location = 362 # Danzig
+			ship = { name = "ORP 格罗姆" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = POL } } }	
+			ship = { name = "ORP 闪电" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = POL } } }	
+			ship = { name = "ORP 布尔扎" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POL } } }	
+			ship = { name = "ORP 维歇尔" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POL } } }		
+		}	
+		task_force = {
+			name = "潜艇中队"	# CO: Mohuczy
+			location = 362 # Danzig
+			ship = { name = "ORP 奥泽尔" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POL } } }					
+			ship = { name = "ORP 约瑟夫" definition = submarine equipment = { submarine_2 = { amount = 1 owner = POL } } }					
+			ship = { name = "ORP 猞猁" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POL } } }					
+			ship = { name = "ORP 狼" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POL } } }					
+			ship = { name = "ORP 兹比克" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POL } } }			
+		}
+	}
+}
+
+

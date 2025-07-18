@@ -1,0 +1,126 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+BRA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "NRB "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"皮奥伊" "北里奥格兰德号" "帕拉伊巴" "阿拉戈斯" "马拉尼昂" "塞尔希培" "圣卡特琳娜" "马托格罗索" "玛丽·E·巴罗斯" "马西利奥·迪亚斯"
+		"格林海" "亚马逊" "阿拉圭里" "阿茹里卡巴" "阿卡" "阿拉圭河" "阿帕河" "佐鲁亚河" "查瓦利河" "尤塔希河" "茹鲁埃河" "雅瓜里比河"
+		"贾帕鲁阿河" "巴比通加河" "巴埃彭迪河" "包鲁" "贝贝里贝" "贝文特" "伯迪亚哥" "博凯纳" "布拉库伊" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+BRA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"巴伊亚" "南里奥格兰德" "北里奥格兰德号" "巴拉那" "阿卡" "马托格罗索" "亚马逊娜" "隆多尼亚" "阿马帕" "皮奥伊" "塞阿拉" "塞尔希培" "帕拉伊巴" "南马托格罗索"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+BRA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"贝尔蒙特" "圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "帕拉" "阿拉戈斯" "伯南布哥" "罗赖马"
+		"托坎廷斯" "圣卡塔琳娜" "北里奥格兰德号" "巴拉那" "阿卡" "马托格罗索" "亚马逊娜" "隆多尼亚" "阿马帕" "皮奥伊"
+		"塞阿拉" "塞尔希培" "帕拉伊巴" "南马托格罗索" "巴伊亚" "南里奥格兰德"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+BRA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "NRB "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"米纳斯吉拉斯" "圣保罗号" "圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "南里奥格兰德" "帕拉" 
+		"阿拉戈斯" "伯南布哥" "罗赖马" "托坎廷斯" "圣卡塔琳娜" "北里奥格兰德号" "巴拉那" "阿卡" "马托格罗索" "亚马逊娜" 
+		"隆多尼亚" "阿马帕" "皮奥伊" "塞阿拉" "塞尔希培" "帕拉伊巴" "南马托格罗索" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+BRA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "南里奥格兰德" "帕拉" "阿拉戈斯" "伯南布哥" "罗赖马" "托坎廷斯" "圣卡塔琳娜" "米纳斯吉拉斯" "圣保罗号" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+BRA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "NRB "
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "南里奥格兰德" "帕拉" "阿拉戈斯" "伯南布哥" "罗赖马" "托坎廷斯"
+	}
+}
+
+### SUBMARINES ###
+BRA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "NRB "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"乌迈塔" "图皮" "廷比拉" "塔默伊奥" "里亚舒埃卢" "瓜纳巴拉" "南里奥格兰德" "巴伊亚" "里约热内卢" "塞阿拉" "戈亚斯" "亚马逊"
+	}
+}

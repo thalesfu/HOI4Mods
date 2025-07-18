@@ -1,0 +1,113 @@
+﻿##### LITHUANIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+LIT_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"斯洛" "陶拉格" "尤尔巴尔卡斯" "阿利图斯" "特拉凯" "德鲁斯基宁凯"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+LIT_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+			"斯洛" "陶拉格" "尤尔巴尔卡斯" "阿利图斯" "特拉凯" "德鲁斯基宁凯"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+LIT_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"考那斯" "莫雷泰" "维尔纽斯" "希奥利艾" "坠落" "帕兰加"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+LIT_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"考那斯" "莫雷泰" "维尔纽斯" "希奥利艾" "坠落" "帕兰加" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+LIT_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"斯洛" "陶拉格" "尤尔巴尔卡斯" "阿利图斯" "特拉凯" "德鲁斯基宁凯" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+LIT_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "%d 号航母"	
+
+	unique = {
+	"斯洛" "陶拉格" "尤尔巴尔卡斯" "阿利图斯" "特拉凯" "德鲁斯基宁凯" "德泽卡斯" "西利斯" "斯卡尔维思"
+	}
+}
+
+### SUBMARINES ###
+LIT_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"斯洛" "陶拉格" "尤尔巴尔卡斯" "阿利图斯" "特拉凯" "德鲁斯基宁凯"
+	}
+}

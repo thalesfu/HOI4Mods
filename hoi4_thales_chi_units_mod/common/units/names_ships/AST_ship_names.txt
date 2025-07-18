@@ -1,0 +1,500 @@
+﻿##### AUSTRALIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+AST_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMAS "							
+	fallback_name = "第%s 驱逐舰"					
+
+	unique = {											
+		"阿兰达人" "巴丹" "瓦拉孟加" "内皮尔" "尼扎姆" "涅斯托尔" "诺曼" "纳瑞莎" "基伯龙"
+		"四分仪" "品质" "昆伯勒" "托布鲁克" "澳新军团" "巴可" "巴旺" "伯德金" "迪亚曼蒂纳" "加斯科因"
+		"霍克斯伯里" "瓦赫兰" "麦夸里" "默奇森" "康泰尼" "肖尔黑文" "卡尔戈" "巴尔曼" "贝加姆" "坎帕斯皮河"
+		"马兰比吉河" "内奥米" "尼皮恩" "沃伯顿" "威廉斯敦" "威默拉" "伍伦迪里" "斯图亚特" "吸血鬼" "仇怨" "旅行者" "鷭"   
+	}
+}
+
+AST_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMAS "							
+	fallback_name = "第%s 护卫舰舰队"					
+
+	unique = {
+	"巴瑟斯特" "阿米代尔" "阿拉拉特" "巴拉腊特" "贝纳拉" "本迪戈" "博文" "布鲁姆" "本伯利" "班德堡" "伯尼" "凯恩斯" "卡索曼"
+	"赛斯诺克" "科拉克" "库塔蒙拉" "考拉" "德洛兰恩" "达博" "伊丘卡" "弗里曼特尔" "高勒" "吉朗" "杰拉尔顿" "格莱斯顿" "格雷尔" 
+	"高奔" "金皮" "霍舍姆" "因弗雷尔" "伊普斯威奇" "朱尼" "卡尔古利" "卡普达" "卡通巴" "凯马" "拉特罗布" "朗塞斯顿" "利斯莫尔" 
+	"利斯戈" "马里伯勒" "米尔迪拉" "帕克斯" "派里亚" "罗克汉普顿" "谢珀顿" "斯托尔" "斯特拉恩" "塔姆沃思" "图文巴" "汤斯维尔" "沃加沃加" "大袋鼠" "瓦南布尔" "怀亚拉" "伍伦贡"   
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+AST_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMAS "							
+	fallback_name = "第%s 轻巡洋舰舰队"
+
+	unique = {
+		"悉尼" "珀斯" "霍巴特" "布里斯班" "阿德莱德" "达尔文港" "纽卡斯尔" "圣诞岛"  "珊瑚海"  "诺福克岛"  "艾利斯斯普林斯"  "库克敦" "布鲁姆" "沃加沃加"    
+	}
+}
+
+### HEAVY CRUISER NAMES###
+AST_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMAS "							
+	fallback_name = "第%s 重巡洋舰"
+
+	unique = {
+		"堪培拉" "澳大利亚" "珀斯" "霍巴特" "布里斯班" "阿德莱德" "达尔文港" "纽卡斯尔" "圣诞岛"  "珊瑚海"  "诺福克岛"  "艾利斯斯普林斯"  "库克敦" "布鲁姆" "沃加沃加"    
+	}
+}
+
+### BATTLESHIP NAMES ###
+AST_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMAS "							
+	fallback_name = "第%s 战列舰"		
+
+	unique = {
+		"伊丽莎白公主"  "新南威尔士"   "昆士兰" "南澳大利亚"  "塔斯马尼亚" "维多利亚" "西澳大利亚"    
+	}
+}
+
+### BATTLECRUISER NAMES ###
+AST_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMAS "							
+	fallback_name = "第%s 战列巡洋舰"		
+
+	unique = {
+ 	  "新南威尔士"   "昆士兰" "南澳大利亚"  "塔斯马尼亚" "维多利亚" "西澳大利亚"    
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+AST_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMAS "							
+	fallback_name = "第%s 航空母舰"		
+
+	unique = {
+	  "库克船长" "布莱船长" "鲨鱼湾" "地理湾" "卡奔塔利亚" "金湾" "悉尼" "复仇" "墨尔本"   
+	}
+}
+
+
+### SUBMARINES ###
+AST_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMAS "							
+	fallback_name = "第%s 潜艇舰队"
+	
+    unique = {
+       "奥克利思" "奥特韦" "昂斯洛" "欧文斯" "俄里翁" "奥塔玛" "进攻" "剧烈" "机灵" "前进" "弓箭手" "热情" "箭矢" "强袭" "觉醒" "弹带" "炮垛" "街垒" "刺刀" "轰击" "海盗"   
+    }
+}
+
+### THEME: AUSTRALIAN PROVINCES ###
+AST_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+
+	prefix = "HMAS "							
+	unique = {
+		"新南威尔士" "昆士兰" "南澳大利亚" "塔斯马尼亚" "维多利亚" "西澳大利亚" "首都领地" "杰维斯" "北领地" "阿什莫尔岛" "卡蒂埃岛" "圣诞岛" "科科斯群岛" "珊瑚海" "赫德群岛" "麦克唐纳群岛" "诺福克岛" 
+	}
+}
+
+## THEME: AUSTRALIAN CITIES ###
+AST_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+
+	prefix = "HMAS "							
+	unique = {
+		"悉尼" "墨尔本" "布里斯班" "珀斯" "阿德莱德" "堪培拉" "霍巴特" "达尔文" "黄金海岸" "纽卡斯尔" "阳光海岸" "伍伦贡" "吉朗" "汤斯维尔" "凯恩斯" "图文巴" "巴拉那特" "本迪戈" "阿尔伯里" "麦凯" "罗克汉普顿" "朗塞斯顿" "本伯利" "班德堡" "科夫斯港" "赫维湾" "沃加沃加"  
+	}
+}
+
+## THEME: TRIBES ###
+AST_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+
+	prefix = "HMAS "							
+	unique = {
+		"艾拉瓦里" "阿登亚玛森哈" "阿玛赫拉" "阿兰达人" "迪埃利" "古奈" "古润吉" "辜古依密舍" "贾拉卡恩" "寇卡都" "卡乌纳" "库林" "库尼比吉" 
+		"鲁日查" "马拉林加·贾鲁哈" "莫里·帕塔" "莫里沃里" "纳林杰里" "纳鲁贾" "恩古那瓦" "尼云格" "斯皮内福克斯" "皮坚加加拉" "提维" "瓦尔皮里" 
+		"瓦拉孟加" "雍古" "约塔·约塔" "沃鲁" "布恩乌鲁" "沃欧罗" "多鲁" "贾·贾·旺"  "巴通伍伦" "卜雷亚伍伦" "布拉巴伍伦" "塔当古伦" "柯罗安当古伦"  
+	}
+}
+
+## THEME: ANIMALS ###
+AST_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { AST }
+
+	can_use = { 
+		not = { has_government = communism }
+	}
+
+	type = ship
+	
+	prefix = "HMAS "							
+	
+	unique = {
+		"无尾熊" "鳄" "鲨" "厄喀德那" "信天翁" "鹰" "野犬" "鸭嘴兽" "袋鼠" "鸸鹋" "杨" "水母" "巨蜥" "鲸" "驴" "食蚁兽" "袋鼬" "袋熊" "食火鸡" "楔尾" "红背" "猎人" "太潘蛇"   
+	}
+}
+
+##### COMMUNIST AUSTRALIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+AST_DD_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "RNS "							
+	fallback_name = "第%s 驱逐舰"					
+
+	unique = {											
+		"阿兰达人" "巴丹" "瓦拉孟加" "内皮尔" "尼扎姆" "涅斯托尔" "诺曼" "纳瑞莎" "基伯龙"
+		"四分仪" "品质" "昆伯勒" "托布鲁克" "澳新军团" "巴可" "巴旺" "伯德金" "迪亚曼蒂纳" "加斯科因"
+		"霍克斯伯里" "瓦赫兰" "麦夸里" "默奇森" "康泰尼" "肖尔黑文" "卡尔戈" "巴尔曼" "贝加姆" "坎帕斯皮河"
+		"马兰比吉河" "内奥米" "尼皮恩" "沃伯顿" "威廉斯敦" "威默拉" "伍伦迪里" "斯图亚特" "吸血鬼" "仇怨" "旅行者" "鷭"   
+	}
+}
+
+AST_DE_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "RNS "							
+	fallback_name = "第%s 护卫舰舰队"					
+
+	unique = {
+	"巴瑟斯特" "阿米代尔" "阿拉拉特" "巴拉腊特" "贝纳拉" "本迪戈" "博文" "布鲁姆" "本伯利" "班德堡" "伯尼" "凯恩斯" "卡索曼"
+	"赛斯诺克" "科拉克" "库塔蒙拉" "考拉" "德洛兰恩" "达博" "伊丘卡" "弗里曼特尔" "高勒" "吉朗" "杰拉尔顿" "格莱斯顿" "格雷尔" 
+	"高奔" "金皮" "霍舍姆" "因弗雷尔" "伊普斯威奇" "朱尼" "卡尔古利" "卡普达" "卡通巴" "凯马" "拉特罗布" "朗塞斯顿" "利斯莫尔" 
+	"利斯戈" "马里伯勒" "米尔迪拉" "帕克斯" "派里亚" "罗克汉普顿" "谢珀顿" "斯托尔" "斯特拉恩" "塔姆沃思" "图文巴" "汤斯维尔" "沃加沃加" "大袋鼠" "瓦南布尔" "怀亚拉" "伍伦贡"   
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+AST_CL_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "RNS "							
+	fallback_name = "第%s 轻巡洋舰舰队"
+
+	unique = {
+	   "悉尼" "珀斯" "霍巴特" "布里斯班" "阿德莱德" "达尔文港" "纽卡斯尔" "圣诞岛"  "珊瑚海"  "诺福克岛"  "艾利斯斯普林斯"  "库克敦" "布鲁姆" "沃加沃加"    
+	}
+}
+
+### HEAVY CRUISER NAMES###
+AST_CA_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "RNS "							
+	fallback_name = "第%s 重巡洋舰"
+
+	unique = {
+		"堪培拉" "澳大利亚" "珀斯" "霍巴特" "布里斯班" "阿德莱德" "达尔文港" "纽卡斯尔" "圣诞岛"  "珊瑚海"  "诺福克岛"  "艾利斯斯普林斯"  "库克敦" "布鲁姆" "沃加沃加"    
+	}
+}
+
+### BATTLESHIP NAMES ###
+AST_BB_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "RNS "							
+	fallback_name = "第%s 战列舰"		
+
+	unique = {
+		"伊丽莎白公主"  "新南威尔士"   "昆士兰" "南澳大利亚"  "塔斯马尼亚" "维多利亚" "西澳大利亚"    
+	}
+}
+
+### BATTLECRUISER NAMES ###
+AST_BC_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "RNS "							
+	fallback_name = "第%s 战列巡洋舰"		
+
+	unique = {
+	"新南威尔士"   "昆士兰" "南澳大利亚"  "塔斯马尼亚" "维多利亚" "西澳大利亚"    
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+AST_CV_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "RNS "							
+	fallback_name = "第%s 航空母舰"		
+
+	unique = {
+	  "库克船长" "布莱船长" "鲨鱼湾" "地理湾" "卡奔塔利亚" "金湾" "悉尼" "复仇" "墨尔本"   
+	}
+}
+
+
+### SUBMARINES ###
+AST_SS_COMMUNIST = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "RNS "							
+	fallback_name = "第%s 潜艇舰队"
+	
+    unique = {
+        "奥克利思" "奥特韦" "昂斯洛" "欧文斯" "俄里翁" "奥塔玛" "进攻" "剧烈" "机灵" "前进" "弓箭手" "热情" "箭矢" "强袭" "觉醒" "弹带" "炮垛" "街垒" "刺刀" "轰击" "海盗"   
+    }
+}
+
+### THEME: AUSTRALIAN PROVINCES ###
+AST_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+
+	prefix = "RNS "							
+	unique = {
+		"新南威尔士" "昆士兰" "南澳大利亚" "塔斯马尼亚" "维多利亚" "西澳大利亚" "首都领地" "杰维斯" "北领地" "阿什莫尔岛" "卡蒂埃岛" "圣诞岛" "科科斯群岛" "珊瑚海" "赫德群岛" "麦克唐纳群岛" "诺福克岛" 
+	}
+}
+
+## THEME: AUSTRALIAN CITIES ###
+AST_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+
+	prefix = "RNS "							
+	unique = {
+		"悉尼" "墨尔本" "布里斯班" "珀斯" "阿德莱德" "堪培拉" "霍巴特" "达尔文" "黄金海岸" "纽卡斯尔" "阳光海岸" "伍伦贡" "吉朗" "汤斯维尔" "凯恩斯" "图文巴" "巴拉那特" "本迪戈" "阿尔伯里" "麦凯" "罗克汉普顿" "朗塞斯顿" "本伯利" "班德堡" "科夫斯港" "赫维湾" "沃加沃加"  
+	}
+}
+
+## THEME: TRIBES ###
+AST_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+
+	prefix = "RNS "							
+	unique = {
+         "艾拉瓦里" "阿登亚玛森哈" "阿玛赫拉" "阿兰达人" "迪埃利" "古奈" "古润吉" "辜古依密舍" "贾拉卡恩" "寇卡都" "卡乌纳" "库林" "库尼比吉" 
+		"鲁日查" "马拉林加·贾鲁哈" "莫里·帕塔" "莫里沃里" "纳林杰里" "纳鲁贾" "恩古那瓦" "尼云格" "斯皮内福克斯" "皮坚加加拉" "提维" "瓦尔皮里" 
+		"瓦拉孟加" "雍古" "约塔·约塔" "沃鲁" "布恩乌鲁" "沃欧罗" "多鲁" "贾·贾·旺"  "巴通伍伦" "卜雷亚伍伦" "布拉巴伍伦" "塔当古伦" "柯罗安当古伦"  
+	}
+}
+
+## THEME: ANIMALS ###
+AST_ANIMALS_COMMUNIST = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { AST }
+
+	can_use = { 
+		has_government = communism
+	}
+
+	type = ship
+	
+	prefix = "RNS "							
+	unique = {
+		"无尾熊" "鳄" "鲨" "厄喀德那" "信天翁" "鹰" "野犬" "鸭嘴兽" "袋鼠" "鸸鹋" "杨" "水母" "巨蜥" "鲸" "驴" "食蚁兽" "袋鼬" "袋熊" "食火鸡" "楔尾" "红背" "猎人" "太潘蛇"   
+	}
+}

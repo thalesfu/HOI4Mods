@@ -1,0 +1,119 @@
+﻿##### HONDURAS NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+HON_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { HON }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"盖穆拉斯" "洪都拉斯" "希巴拉斯" "约乔亚" "戈阿斯科兰" "佩图拉" "竹荚鱼" "乔卢特卡" "水虎鱼" "特古西加尔巴" "尚莱潘" "伦皮拉" "莫拉珊"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+HON_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { HON }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"圣安东尼奥·德科尔特斯" "普罗格雷索" "科尔特斯港" "伊里奥纳" "拉塞瓦"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+HON_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { HON }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"圣安东尼奥·德科尔特斯" "普罗格雷索" "科尔特斯港" "伊里奥纳" "拉塞瓦"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+HON_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { HON }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"特古西加尔巴" "圣佩德罗-苏拉"" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+HON_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { HON }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+HON_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { HON }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"洪都拉斯共和国" "白鸽"
+	}
+}
+
+### SUBMARINES ###
+HON_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { HON }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"盖穆拉斯" "洪都拉斯" "希巴拉斯" "约乔亚" "戈阿斯科兰" "佩图拉" "竹荚鱼" "乔卢特卡" "水虎鱼" "特古西加尔巴" "尚莱潘" "伦皮拉" "莫拉珊"
+	}
+}

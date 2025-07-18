@@ -1,0 +1,184 @@
+﻿##### CANADA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+CAN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMCS "							
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {
+		"弗雷泽" "圣洛朗"  "渥太华" "雷斯蒂古什" "阿西尼博因" "玛格丽" "库特奈" "加蒂诺" "萨斯喀彻温" 
+		"卡佩勒" "渥太华" "迪耶尔" "阿尔冈昆" "苏族" "克雷森特" "十字军" "安纳波利斯" "考德威尔" "切尔西" 
+		"哥伦比亚" "乔治城" "汉密尔顿" "兰开斯特" "利明顿" "曼斯菲尔德" "蒙哥马利" "尼亚加拉" "里士满" 
+		"圣克莱尔"  "索尔兹伯里" "巴克斯顿" "圣十字"  "圣弗朗西斯"  "阿萨巴斯卡" "海达" "休伦" "易洛魁"
+		"卡尤加" "密克马克" "努特卡" "仇怨" "旅行者" "鷭" "萨格奈" "斯基纳" "布雷顿角"  "邓芙" " 阁兰" "马塔纳"
+		"蒙特利尔" "新格拉斯哥"  "新沃特福德"  "乌特蒙" "科尔本港"  "鲁珀特亲王"  "圣凯瑟琳"  "圣约翰"  "斯托蒙特"
+		"斯旺西" "瓦利菲尔德" "沃斯克赛" "温特沃思" "特雷克" "米恩" "提米" "安南" "内内" "蒙诺" "里布" "爱国者" "贵族" "温哥华" "尚普兰"   
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+CAN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMCS "							
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"安大略" "魁北克" "极光" "彩虹" "尼俄伯" "不列颠哥伦比亚"  "新斯科舍"  "新不伦瑞克"  "马尼托巴" 
+		"艾伯塔" "萨斯喀彻温" "爱德华王子岛"   "多伦多" "蒙特利尔" "温哥华" "渥太华" "卡尔加里" "埃德蒙顿"
+		"魁北克岛"   "温尼伯" "汉密尔顿" "伦敦" "基奇纳" "圣凯瑟琳斯"  "哈利法克斯" "维多利亚" "温莎" "奥沙瓦"
+		"萨斯卡通" "里贾纳" "舍布鲁克" "巴里" "基洛纳" "阿伯斯福德" "金斯顿" "三河" "圣约翰"  "蒙克顿"   
+	}
+}
+
+### HEAVY CRUISER NAMES###
+CAN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMCS "							
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"金斯顿" "安大略" "魁北克" "不列颠哥伦比亚"  "新斯科舍" 
+		"新不伦瑞克"  "马尼托巴" "艾伯塔" "萨斯喀彻温" "爱德华王子岛"   "尼俄伯" "彩虹" "多伦多"
+		"蒙特利尔" "温哥华" "渥太华" "卡尔加里" "埃德蒙顿" "魁北克岛"   "温尼伯" "汉密尔顿" "伦敦" "基奇纳" 
+		"圣凯瑟琳斯"  "哈利法克斯" "维多利亚" "温莎" "奥沙瓦" "萨斯卡通" "里贾纳" "舍布鲁克" "巴里" "基洛纳" "阿伯斯福德" "肯森" "三河" "圣约翰"  "蒙克顿"   
+ 	}
+}
+
+### BATTLESHIP NAMES ###
+CAN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMCS "							
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"加拿大" "自治领" "安大略" "魁北克" "不列颠哥伦比亚"
+		"新斯科舍"  "新不伦瑞克"  "马尼托巴" "艾伯塔" "萨斯喀彻温" "爱德华王子岛"      
+	}
+}
+
+### BATTLECRUISER NAMES ###
+CAN_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMCS "							
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+    	"加拿大" "自治领" "安大略" "魁北克" "不列颠哥伦比亚"
+		"新斯科舍"  "新不伦瑞克"  "马尼托巴" "艾伯塔" "萨斯喀彻温" "爱德华王子岛"      
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+CAN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMCS "							
+	fallback_name = "%d 号航母"		
+
+	unique = {
+		"勇士" "壮丽" "博纳文图尔" "蛮力" "富豪" "冲床"    
+	}
+}
+
+
+### SUBMARINES ###
+CAN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMCS "							
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"幼鲑" "彩虹" "奥吉布瓦" "奥卡纳干" "奥农达加"
+		"奥林匹斯" "奥西里斯" "维多利亚" "温莎" "弯道溪"  "希库蒂米"   
+	}
+}
+
+
+### THEME: CANADIAN PROVINCES ###
+CAN_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { CAN }
+
+	type = ship
+
+	prefix = "HMCS "							
+	unique = {
+		"安大略" "魁北克" "不列颠哥伦比亚"  "艾伯塔" "马尼托巴" "萨斯喀彻温" 
+		"新斯科舍"  "新布伦瑞克"  "爱德华王子岛"   "西北地区"  "努纳武特" "育空" "纽芬兰" "拉布拉多"    
+	}
+}
+
+## THEME: CANADIAN CITIES ###
+CAN_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { CAN }
+
+	type = ship
+
+	prefix = "HMCS "							
+	unique = {
+			"多伦多" "蒙特利尔" "卡尔加里" "温哥华" "渥太华" "埃德蒙顿" "温尼伯" "魁北克城"  "哈里法克斯"
+		"米西索加" "宾顿" "汉密尔顿" "里贾纳" "维多利亚" "弗雷德里克顿" "萨里" "拉瓦尔" "伦敦" "马卡姆" "沃恩" "加蒂诺" "萨卡斯通" "隆格伊" "基奇纳" "本拿比" "温莎" "里士满"    
+	}
+}
+
+## THEME: TRIBES ###
+CAN_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { CAN }
+
+	type = ship
+
+	prefix = "HMCS "							
+	unique = {
+	"阿尔冈昆" "阿尼希纳布" "阿萨巴斯卡" "阿西尼博因" "巴拉德" "卡尤加" "契帕瓦" "奇黑利斯" 
+		"卡姆克斯" "考伊琴" "克里" "海达" "休伦" "因努" "易洛魁" "库特奈" "夸扣特尔" "肋筐恩" "利卢埃特" 
+		"密克马克" "莫霍克" "尼皮辛" "那卡帕慕克" "努特卡" "努哈尔克" "奥吉布瓦" "奥卡纳干" "奥奈达" "奥农达加" 
+		"渥太华" "彭尔拉克特" "波塔瓦托米" "塞切尔特" "塞内卡" "舒斯瓦普" "西尼科斯特" "苏族" "苏娜尼莫克斯" "斯塔洛" "特林基特" "塔斯卡洛拉" "瓦卡什" "怀安多特"  
+	}
+}

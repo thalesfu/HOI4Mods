@@ -1,0 +1,137 @@
+﻿##### CHINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+CHI_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CHI GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "第%d 驱逐舰"					
+
+	unique = {										                
+		"浙江" "大同" "嘉禄" "建安" 
+		"沈阳" "镇虞" "复兴" "鞍山" "抚顺" "长春" 
+		"镇虞" "复炎" "清波" "靖湖" 
+		"伯先" "安华" "安宁" "忠孝" "仁爱" 
+                                "鞍山" "抚顺" "长春" "太原" "济南" "西安" "银川" "西宁" "开封" "大连" "南京" "合肥" "重庆" "遵义" "广州" "长沙" "南宁" "南昌" "桂林" "湛江" "珠海" "哈尔滨" "青岛" "深圳" "杭州" "福州" "泰州" "宁波" "广州" "武汉" "兰州" "海口" "长春" "郑州" "济南" "西安" "沈阳" "石家庄" "昆明" "长沙" "合肥" "银川" "西宁" "厦门" "乌鲁木齐" "南京" "贵阳" "太原" "成都" "呼和浩特" "齐齐哈尔" "淄博" "赣州" "淮南" "南宁" "桂林" "苏州" "唐山" "南昌" "拉萨" "延安"	
+	}
+}
+
+### LIGHT CRUISER NAMES###
+CHI_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CHI GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "第%d 轻巡洋舰"
+
+	unique = {
+
+                                "海容" "肇和" "海光" "应瑞" "宁海" "平海" "中庚" "海肇" "海甄" "海声" "海鹄" "海鸿" "海燕" "天津" "海鹤" "海鸥" "海凫" "海骏" "海蓬" "海清" "海平" "海辉" "海澄" "海安" "海晏" "海星" "海鹰" "海鹙" "海周" "海虎" "下关" "南充" "开源" "东川" "昆明" "成都" "萍乡" "西昌" "常德" "绍兴" "南通" "无锡" "淮阴" "镇江" "厦门" "九江" "南平" "吉安" "长治" "开封" "嘉兴" "连云港" "莆田" "三明" "马鞍山" "温州" "洛阳" "绵阳" "舟山" "徐州" "鹰潭" "中东" "宁波" "金华" "黄石" "芜湖" "沧州" "安庆" "淮南" "铜陵" "淮北" "丹东" "四平" "临汾" "茂名" "宜宾" "韶关" "安顺" "昭通" "湘潭" "吉寿" "北海" "佛山" "东莞" "汕头" "江门" "肇庆" "宜昌" "玉林" "怀化" "襄樊" "蚌埠" "巢湖" "黄山"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+CHI_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CHI GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "第%d 重巡洋舰"
+
+	unique = {
+		"福星" "春星" "华星" "联星" "飞星" "德星" "和星" "文星" "运星" "叔星" "查星" "关权" "关雷" "关衡" "关威" "北斗" "长庚" "仲元" "仲凯" "洪泽湖" "鄱阳湖" "青海湖" "千岛湖" "微山湖" "洞庭湖" "镜泊湖" "抚仙湖" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+CHI_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CHI GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "第%d 战列舰"		
+
+	unique = {
+		"镇海" "威海" "定海" "江平" "江安" "江通" "江清" "江泰" "利济" "青夭" "甘露" "庆云" "利捷"	"曒日" "利绥" "建中" "拱辰" "开海" "澄海"  "泰山" "黄山" "峨眉山" "庐山" "长白山" "华山" "武夷山" "玉山" "五台山"    "昆仑山"    
+	}
+}
+
+### BATTLECRUISER NAMES ###
+CHI_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CHI GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "第%d 战列巡洋舰"		
+
+	unique = {
+		"华甲" "华乙" "华丙" "华丁" "靖安" "华戊" "华己" "华庚" "华辛" "华壬" "华癸" "华大" "华利"	"利通" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+CHI_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CHI GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "第%d 航空母舰"	
+
+	unique = {
+		"永绩" "永健" "永安" "楚安" "楚信" "楚材" "楚义" "威胜" "德胜" "诚胜" "勇胜" "公胜" "正胜"	"义胜" "武胜" "河北" "山西" "辽宁" "吉林" "黑龙江" "江苏" "浙江" "安徽" "福建" "江西" "山东" "河南" "湖北" "湖南" "广东" "海南" "四川" "贵州" "云南" "陕西" "甘肃" "青海" "台湾" 
+	}
+}
+
+### SUBMARINES ###
+CHI_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CHI GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "%d 潜艇"
+	
+	ordered = {
+		1 = {"Q-%d"}
+		2 = {"Q-%d"}
+		3 = {"Q-%d"}
+		4 = {"Q-%d"} 
+		5 = {"Q-%d"} 
+		6 = {"Q-%d"} 
+		7 = {"Q-%d"}
+		8 = {"Q-%d"}
+		9 = {"Q-%d"}
+		10 = {"Q-%d"}
+		11 = {"Q-%d"}
+		12 = {"Q-%d"}
+		13 = {"Q-%d"}
+		14 = {"Q-%d"}
+		15 = {"Q-%d"}
+		16 = {"Q-%d"}
+		17 = {"Q-%d"}
+		18 = {"Q-%d"}
+		19 = {"Q-%d"}
+		20 = {"Q-%d"} 
+	}
+}

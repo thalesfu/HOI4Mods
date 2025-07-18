@@ -1,0 +1,94 @@
+﻿division_template = {
+	name = "步兵师"		# Infantry Division - Reserve division called to full strength in time of war
+	division_names_group = SPAN_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "骑兵师"  	# Cavalry Division
+	division_names_group = SPAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército Argentino #####
+	division= {	# "第1步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5230 # La Paz
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "第2步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10938 # Cochabamba
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "第3步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 2160 # Santa Cruz
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "第4步兵师"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 2174 # Tarija
+		division_template = "步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "骑兵师"
+		location = 5230 # La Paz
+		division_template = "骑兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BOL"
+		}
+		requested_factories = 1
+		progress = 0.31
+		efficiency = 100
+	}
+}

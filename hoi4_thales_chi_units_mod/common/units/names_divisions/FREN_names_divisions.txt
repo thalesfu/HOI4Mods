@@ -1,0 +1,945 @@
+﻿FREN_INF_01 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # %dème Division d'Infanterie
+  ordered = {
+    1 = {
+      "第%d步兵师"  # %dère Division d'Infanterie
+    }
+    2 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    3 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    4 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    5 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    6 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    7 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    8 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    9 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    10 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    11 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    12 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    13 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    14 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    15 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    16 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    17 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    18 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    19 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    20 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+  }
+}
+FREN_INFB_01 = {
+  name = "步兵旅"  # Infantry Brigade
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵旅"  # %dème Brigade d'Infanterie
+  ordered = {
+    1 = {
+      "第%d步兵旅"  # %dère Brigade d'Infanterie
+    }
+    2 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    3 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    4 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    5 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    6 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    7 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    8 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    9 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    10 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    11 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    12 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    13 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    14 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    15 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    16 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    17 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    18 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    19 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+    20 = {
+      "第%d步兵旅"  # %dème Brigade d'Infanterie
+    }
+  }
+}
+FREN_CAV_01 = {
+  name = "骑兵师"  # Cavalry Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # %dème Division de Cavalerie
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # %dère Division de Cavalerie
+    }
+    2 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    3 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    4 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    5 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    6 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    7 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    8 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    9 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    10 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+  }
+}
+FREN_MOT_01 = {
+  name = "摩托化步兵师"  # Motorized Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    FREN_INF_01
+  }
+  fallback_name = "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+  ordered = {
+    1 = {
+      "第%d摩托化步兵师"  # %dère Div. d'Infanterie Motorisée
+    }
+    2 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    3 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    4 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    5 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    6 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    7 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    8 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    9 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+    10 = {
+      "第%d摩托化步兵师"  # %dème Div. d'Infanterie Motorisée
+    }
+  }
+}
+FREN_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "mechanized"
+  }
+  link_numbering_with = {
+    FREN_INF_01
+  }
+  fallback_name = "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+  ordered = {
+    1 = {
+      "第%d机械化步兵师"  # %dère Div. d'Infanterie Mécanique
+    }
+    2 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    3 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    4 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    5 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    6 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    7 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    8 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    9 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+    10 = {
+      "第%d机械化步兵师"  # %dème Div. d'Infanterie Mécanique
+    }
+  }
+}
+FREN_ARM_01 = {
+  name = "装甲师"  # Armored Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # %dème Division Cuirassée
+  ordered = {
+    1 = {
+      "第%d装甲师"  # %dère Division Cuirassée
+    }
+    2 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    3 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    4 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    5 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    6 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    7 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    8 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    9 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    10 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+  }
+}
+FREN_ARM_02 = {
+  name = "装甲师（晚期）"  # Armored Division (late)
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "medium_armor"
+    "modern_armor"
+  }
+  link_numbering_with = {
+    FREN_ARM_01
+  }
+  fallback_name = "第%d装甲师"  # %dème Division Blindée
+  ordered = {
+    1 = {
+      "第%d装甲师"  # %dère Division Blindée
+    }
+    2 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    3 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    4 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    5 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    6 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    7 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    8 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    9 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+    10 = {
+      "第%d装甲师"  # %dème Division Blindée
+    }
+  }
+}
+FREN_ARM_03 = {
+  name = "坦克旅"  # Tank Brigade
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "坦克第%d旅"  # %dème Brigade Cuirassée
+  ordered = {
+    1 = {
+      "坦克第%d旅"  # %dère Brigade Cuirassée
+    }
+    2 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    3 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    4 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    5 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    6 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    7 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    8 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    9 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+    10 = {
+      "坦克第%d旅"  # %dème Brigade Cuirassée
+    }
+  }
+}
+FREN_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d伞兵师"  # %dème Division Parachutiste
+  ordered = {
+    1 = {
+      "第%d伞兵师"  # %dère Division Parachutiste
+    }
+    2 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    3 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    4 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    5 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    6 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    7 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    8 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    9 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+    10 = {
+      "第%d伞兵师"  # %dème Division Parachutiste
+    }
+  }
+}
+FREN_PAR_02 = {
+  name = "空降师"  # Airborne Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  link_numbering_with = {
+    FREN_PAR_01
+  }
+  fallback_name = "第%d空降师"  # %dème Division Aéroportée
+  ordered = {
+    1 = {
+      "第%d空降师"  # %dère Division Aéroportée
+    }
+    2 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    3 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    4 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    5 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    6 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    7 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    8 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    9 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+    10 = {
+      "第%d空降师"  # %dème Division Aéroportée
+    }
+  }
+}
+FREN_MAR_01 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+  ordered = {
+    1 = {
+      "第%d海军陆战师"  # %dère Div. d'Infanterie de Marine
+    }
+    2 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    3 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    4 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    5 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    6 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    7 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    8 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    9 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+    10 = {
+      "第%d海军陆战师"  # %dème Div. d'Infanterie de Marine
+    }
+  }
+}
+FREN_MNT_01 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    FREN_INF_01
+  }
+  fallback_name = "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+  ordered = {
+    1 = {
+      "第%d山地步兵师"  # %dère Division d'Infanterie Montagne
+    }
+    2 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    3 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    4 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    5 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    6 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    7 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    8 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    9 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    10 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+  }
+}
+FREN_GAR_01 = {
+  name = "守备师"  # Garrison Division
+  for_countries = {
+    BRD
+    CAM
+    CAR
+    CAY
+    CHA
+    CMR
+    COG
+    DAH
+    GAB
+    GDL
+    GNA
+    HAI
+    IVO
+    LAO
+    MAD
+    MLI
+    NGR
+    RCG
+    RWA
+    SEN
+    TOG
+    VOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    FREN_INF_01
+  }
+  fallback_name = "第%d守备师"  # %dème Div. d'Inf. de Garnison
+  ordered = {
+    1 = {
+      "第%d守备师"  # %dère Div. d'Inf. de Garnison
+    }
+    2 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    3 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    4 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    5 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    6 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    7 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    8 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    9 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+    10 = {
+      "第%d守备师"  # %dème Div. d'Inf. de Garnison
+    }
+  }
+}

@@ -1,0 +1,37 @@
+﻿air_wings = {
+  2 = {
+    fighter_equipment_0 = {
+      owner = "ITA"
+      amount = 30
+    }
+    name = "库克拉恰斯步"  # Cucaracha
+    ace = {
+      modifier = "fighter_good"
+      name = "朱塞佩"  # Giuseppe
+      surname = "钱尼"  # Cenni
+      callsign = "维克多 斯特拉"  # Victor Stella
+    }
+    fighter_equipment_0 = {
+      owner = "ITA"
+      amount = 30
+    }
+    name = "第 23 狩猎大队"  # 23o Gruppo di Caccia
+    ace = {
+      modifier = "fighter_unique"
+      name = "马里奥"  # Mario
+      surname = "维辛蒂尼 "  # Visintini
+      callsign = "科学猎手"  # Cacciatore Scientifico
+    }
+    tac_bomber_equipment_0 = {
+      owner = "ITA"
+      amount = 40
+    }
+    name = "巴利·德尔·贝里尼"  # Pipistrelli delle Baleare
+    ace = {
+      modifier = "fighter_unique"
+      name = "佛朗哥"  # Franco
+      surname = "卢基尼"  # Lucchini
+      callsign = "弗朗切斯科 巴拉卡二世"  # Francesco Baracca II
+    }
+  }
+}

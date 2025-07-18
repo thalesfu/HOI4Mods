@@ -1,0 +1,122 @@
+﻿units = {
+  fleet = {
+    name = "第1舰队"  # Di 1 Jiandui
+    naval_base = 7014
+    task_force = {
+      name = "第1舰队"  # Di 1 Jiandui
+      location = 7014
+      ship = {
+        name = "宁海"  # Ninghai
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = CHI
+            version_name = "宁海级"  # Ninghai Class
+          }
+        }
+      }
+      ship = {
+        name = "海圻"  # Haiqi
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHI
+            version_name = "海圻级"  # Haiqi Class
+          }
+        }
+      }
+      ship = {
+        name = "海容"  # Hairong
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHI
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "海琛"  # Haichen
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHI
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "海筹"  # Haichou
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHI
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "肇和"  # Zhaohe
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHI
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "应瑞"  # Yingrui
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHI
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "大同"  # Dadong
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CHI
+            version_name = "建威级"  # Jianwei Class
+          }
+        }
+      }
+      ship = {
+        name = "自强"  # Zejiang
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CHI
+            version_name = "建威级"  # Jianwei Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_1
+      creator = "CHI"
+      version_name = "宁海级"  # Ninghai Class
+    }
+    name = "平海"  # Pinghai
+    requested_factories = 1
+    progress = 0.33
+    amount = 1
+  }
+}

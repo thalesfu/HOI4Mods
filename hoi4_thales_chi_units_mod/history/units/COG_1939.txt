@@ -1,0 +1,179 @@
+﻿### Congo OOB ###
+division_template = {
+	name = "公共部队"
+	division_names_group = FREN_INFB_01	# Uses French-language generic division names
+	# Note: Represents both regular infantry and militia units
+	template_counter = 67
+	role = infantry
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		artillery = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+division_template = {
+	name = "加丹加步兵团"
+	division_names_group = FREN_INFB_01	# Uses French-language generic division names
+	# Note: Represents both regular infantry and mercenary units
+	template_counter = 3
+	role = infantry
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 1
+		}
+		infantry = {
+			x = 2
+			y = 2
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		artillery = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+division_template = {
+	name = "工程炮兵委员会"
+	division_names_group = FREN_INFB_01	# Uses French-language generic division names
+	# Note: Represents both regular infantry and mercenary units
+	template_counter = 6
+	role = garrison
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		artillery = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+units = {
+	##### 公共部队 #####
+	division = {
+		name = "第1公共警备师"
+		location = 1950		# Stanleyville
+		division_template = "公共部队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "第2公共警备师"
+		location = 5117		# Leopoldville
+		division_template = "公共部队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "加丹加步兵第1团"
+		location = 191		# Elizabethville
+		division_template = "加丹加步兵团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "工程炮兵委员会第1师"
+		location = 10968		# Fort de Shinkakasa
+		division_template = "工程炮兵委员会"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+
+### No air forces (small handful of various aircraft in 1935) ###
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = COG
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+		industrial_manufacturer = mio:COG_fn_hershal_organization
+	}
+}
+
+#################################

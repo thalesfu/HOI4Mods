@@ -1,0 +1,120 @@
+﻿##### DENMARK NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+DEN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HDMS "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"女神" "那贾登" "惠特菲尔德" "威莱莫斯" "索里德伦" "弗莱维费斯肯" "索乌尔文" "海象" "海豚" "剑鱼" "骑士" "斯特伦" "海狮" "索洪登" "哈夫连" "独角鲸" "马克雷伦" "诺德卡珀伦" "鲶鱼" "封锁" "龙" "鲸" "鲑" "格伦滕" "鹰" "枭"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+DEN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"比目鱼" "海鸥" "枭" "隼" "乌尔肯" "奥尔福特·费舍尔" "菲恩" "赫克拉" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+DEN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+	"尼尔斯·尤尔" "彼泽 斯克拉姆" "维他斯·白令" "封锁" "海象" "北极熊" "比目鱼" "海鸥" "枭" "隼" "乌尔肯" "奥尔福特·费舍尔" "菲恩" "赫克拉"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+DEN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HDMS "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"托登舍尔德" "惠特菲尔德" "奥尔福特·费舍尔" "乌尔里克·基登拉弗" "罗德斯滕" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+DEN_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"托登舍尔德" "惠特菲尔德" "奥尔福特·费舍尔" "乌尔里克·基登拉弗" "罗德斯滕" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+DEN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HDMS "
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"丹麦雄狮" "彼得·威莱莫斯" "斯蒂恩 比勒" "彼泽·玛斯温" "丹纳布罗格" "彼泽 斯克拉姆" "罗尔夫·克拉凯" "龙" "戈尔姆" "奥丁" 
+	}
+}
+
+### SUBMARINES ###
+DEN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HDMS "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"罗塔" "贝罗纳" "佛洛拉" "达芙妮" "树妖" "哈沃曼丹" "美人鱼" "格陵兰鲨" "哈夫连" "骑士" "斯特伦" "海豚" "虎鲸" "豚鼠" "骑士" "潜水员" "忒提丝" "四月二日" "那贾登" "女神" "埃吉尔" "兰" "特里同" "奈普顿" "加拉瑟" 
+	}
+}

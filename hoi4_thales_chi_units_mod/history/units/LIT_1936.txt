@@ -1,0 +1,235 @@
+﻿division_template = {
+  name = "步兵师"  # Pestininku Divizija
+  division_names_group = LIT_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "炮兵师"  # Artilerija Divizija
+  division_names_group = LIT_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    artillery_brigade = {
+      x = 1
+      y = 0
+    }
+    artillery_brigade = {
+      x = 1
+      y = 1
+    }
+    artillery_brigade = {
+      x = 1
+      y = 2
+    }
+  }
+  support = {
+    artillery = {
+      x = 0
+      y = 0
+    }
+  }
+}
+division_template = {
+  name = "国家边防部队"  # Valstybės Sienos Apsaugos Skyrius
+  division_names_group = LIT_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    cavalry = {
+      x = 1
+      y = 0
+    }
+    cavalry = {
+      x = 1
+      y = 1
+    }
+  }
+  support = {}
+  priority = 0
+}
+units = {
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 6296
+    division_template = "步兵师"  # Pestininku Divizija
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 2
+    }
+    location = 6296
+    division_template = "步兵师"  # Pestininku Divizija
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.2
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 3
+    }
+    location = 6296
+    division_template = "步兵师"  # Pestininku Divizija
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.2
+  }
+  division = {
+    name = "考纳斯军区"  # District Kaunas
+    location = 327
+    division_template = "国家边防部队"  # Valstybės Sienos Apsaugos Skyrius
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.4
+  }
+  division = {
+    name = "乌泰纳军区"  # District Utenos
+    location = 6281
+    division_template = "国家边防部队"  # Valstybės Sienos Apsaugos Skyrius
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.4
+  }
+  division = {
+    name = "特尔希艾军区"  # District Telsiu
+    location = 9404
+    division_template = "国家边防部队"  # Valstybės Sienos Apsaugos Skyrius
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.4
+  }
+  division = {
+    name = "陶拉格军区"  # District Taurage
+    location = 11498
+    division_template = "国家边防部队"  # Valstybės Sienos Apsaugos Skyrius
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.4
+  }
+  division = {
+    name = "克莱佩达军区"  # District Klaipėda
+    location = 3288
+    division_template = "国家边防部队"  # Valstybės Sienos Apsaugos Skyrius
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.4
+  }
+  division = {
+    division_name = {
+      is_name_ordered = yes
+      name_order = 1
+    }
+    location = 9483
+    division_template = "炮兵师"  # Artilerija Divizija
+    force_equipment_variants = {
+      infantry_equipment_0 = {
+        owner = "LIT"
+      }
+    }
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.2
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "LIT"
+    }
+    requested_factories = 1
+    progress = 0.28
+    efficiency = 100
+  }
+}

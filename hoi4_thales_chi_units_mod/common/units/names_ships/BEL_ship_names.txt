@@ -1,0 +1,188 @@
+﻿##### BELGIUM NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+BEL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = {
+		BEL
+	}
+	type = ship
+	ship_types = {
+		ship_hull_light
+		destroyer
+	}
+	prefix = "BNS "
+	fallback_name = "%d号驱逐舰"
+	unique = {
+		"阿特维尔德"
+		"矢车菊"
+		"扬·布雷德尔"
+		"维克多·比列"
+		"维林根"
+		"西迪普"
+		"漫游者"
+		"西辛德"
+		"利奥波德一世"
+		"路易丝-玛丽"
+		"布鲁日"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+BEL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = {
+		BEL
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		light_cruiser
+	}
+	prefix = "BNS "
+	fallback_name = "%d号轻型巡洋舰"
+	unique = {
+		"维林根"
+		"西迪普"
+		"漫游者"
+		"阿尔伯特维尔"
+		"伊丽莎白维尔"
+		"安特卫普"
+		"布鲁塞尔"
+		"根特"
+		"伊珀尔"
+		"列日"
+		"布鲁日"
+		"鲁塞拉勒"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+BEL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = {
+		BEL
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		heavy_cruiser
+	}
+	prefix = "BNS "
+	fallback_name = "%d号 重型巡洋舰"
+	unique = {
+		"维林根"
+		"西迪普"
+		"漫游者"
+		"阿尔伯特维尔"
+		"伊丽莎白维尔"
+		"安特卫普"
+		"布鲁塞尔"
+		"根特"
+		"伊珀尔"
+		"列日"
+		"布鲁日"
+		"鲁塞拉勒"
+	}
+}
+
+### BATTLESHIP NAMES ###
+BEL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = {
+		BEL
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battleship
+	}
+	prefix = "BNS "
+	fallback_name = "%d号 战列舰"
+	unique = {
+		"利奥波德一世国王"
+		"利奥波德二世国王"
+		"阿尔伯特一世国王"
+		"阿斯特丽德王后"
+		"日内瓦"
+		"布里亚蒙将军"
+		"利奥波德维尔"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+BEL_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = {
+		BEL
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battle_cruiser
+	}
+	prefix = "BNS "
+	fallback_name = "%d号 战列巡洋舰"
+	unique = {
+		"利奥波德一世国王"
+		"利奥波德二世国王"
+		"阿尔伯特一世国王"
+		"阿斯特丽德王后"
+		"日内瓦"
+		"布里亚蒙将军"
+		"利奥波德维尔"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+BEL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = {
+		BEL
+	}
+	type = ship
+	ship_types = {
+		ship_hull_carrier
+		carrier
+	}
+	prefix = "BNS "
+	fallback_name = "%d号 航空母舰"
+	unique = {
+		"法兰德斯伯爵"
+		"埃诺"
+		"罗布雷希特·德·贝通"
+		"紫菀"
+		"贝利"
+		"番红花"
+		"半边莲"
+		"水仙花"
+		"报春花"
+	}
+}
+
+### SUBMARINES ###
+BEL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = {
+		BEL
+	}
+	type = ship
+	ship_types = {
+		ship_hull_submarine
+		submarine
+	}
+	prefix = "BNS "
+	fallback_name = "%d号 潜艇"
+	unique = {
+		"阿尔特费尔德"
+		"百日菊"
+		"扬·布雷德尔"
+		"维克多·比列"
+		"维林根"
+		"西迪普"
+		"步行者"
+		"西欣德"
+		"利奥波德一世"
+		"路易丝-玛丽"
+		"布鲁日"
+	}
+}

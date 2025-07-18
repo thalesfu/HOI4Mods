@@ -1,0 +1,765 @@
+﻿TIB_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # Di'%d Shi
+  ordered = {
+    1 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    2 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    3 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    4 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    5 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    6 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    7 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    8 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    9 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    10 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    12 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    14 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    15 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    17 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    19 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    21 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    22 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    25 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    28 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    29 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    30 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    35 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    38 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    40 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    42 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    46 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    47 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    49 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    50 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    51 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    57 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    58 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    61 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    62 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    63 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    64 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    65 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    66 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+    69 = {
+      "第%d步兵师"  # Di'%d Shi
+    }
+  }
+}
+TIB_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "骑兵第%d师"  # Qibing Di'%d Shi
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    2 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    3 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    4 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    5 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    6 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    7 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    8 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    9 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+    10 = {
+      "第%d骑兵师"  # Qibing Di'%d Shi
+    }
+  }
+}
+TIB_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    TIB_INF_01
+  }
+  fallback_name = "摩托化步兵第%d师"  # Motuohua Bubing Di'%d Shi
+  ordered = {
+    1 = {
+      "摩托化步兵第%d师"  # Motuohua Bubing Di'%d Shi
+    }
+    2 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    3 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    4 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    5 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    6 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    7 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    8 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    9 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    10 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    12 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    14 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    15 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    17 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    19 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    21 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    22 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    25 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    28 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    29 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    30 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    35 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    38 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    40 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    42 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    46 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    47 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    49 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    50 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    51 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    57 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    58 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    61 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    62 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    63 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    64 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    65 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    66 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+    69 = {
+      "第%d摩托化步兵师"  # Motuohua Bubing Di'%d Shi
+    }
+  }
+}
+TIB_ARM_01 = {
+  name = "装甲师"  # Armored Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "装甲兵第%d师"  # Zhuangjiabing Di'%d Shi
+  ordered = {
+    1 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    2 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    3 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    4 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    5 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    6 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    7 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    8 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    9 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+    10 = {
+      "第%d装甲师"  # Zhuangjiabing Di'%d Shi
+    }
+  }
+}
+TIB_MEC_01 = {
+  name = "机械化步兵师"  # Mechanised Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    TIB_INF_01
+  }
+  fallback_name = "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+  ordered = {
+    1 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    2 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    3 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    4 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    5 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    6 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    7 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    8 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    9 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    10 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    12 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    14 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    15 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    17 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    19 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    21 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    22 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    25 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    28 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    29 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    30 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    35 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    38 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    40 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    42 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    46 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    47 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    49 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    50 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    51 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    57 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    58 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    61 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    62 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    63 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    64 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    65 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    66 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+    69 = {
+      "第%d机械化步兵师"  # Jixiehua Di'%d Shi
+    }
+  }
+}
+TIB_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "西藏第%d军"  # Xi'zang Juntuan %d
+  ordered = {
+    1 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    2 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    3 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    4 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    5 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    6 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    7 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    8 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    9 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+    10 = {
+      "第%d西藏兵团"  # Xi'zang Juntuan %d
+    }
+  }
+}
+TIB_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "陆战队第%d师"  # Luzhan Dui Di'%d Shi
+  ordered = {
+    1 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    2 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    3 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    4 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    5 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    6 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    7 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    8 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    9 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+    10 = {
+      "第%d陆战师"  # Luzhan Dui Di'%d Shi
+    }
+  }
+}
+TIB_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    TIB_INF_01
+  }
+  fallback_name = "山地第%d师"  # Pabing Di'%d Shi
+  ordered = {
+    1 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    2 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    3 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    4 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    5 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    6 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    7 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    8 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    9 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    10 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    12 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    14 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    15 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    17 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    19 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    21 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    22 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    25 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    28 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    29 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    30 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    35 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    38 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    40 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    42 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    46 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    47 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    49 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    50 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    51 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    57 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    58 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    61 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    62 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    63 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    64 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    65 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    66 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+    69 = {
+      "山地第%d师"  # Pabing Di'%d Shi
+    }
+  }
+}
+TIB_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    TIB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+  ordered = {
+    1 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    2 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    3 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    4 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    5 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    6 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    7 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    8 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    9 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+    10 = {
+      "第%d伞降师"  # Jiangluo Sanbu Di'%d Shi
+    }
+  }
+}

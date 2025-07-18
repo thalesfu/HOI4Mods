@@ -1,0 +1,186 @@
+﻿division_template = {
+  name = "地方防卫志愿师"  # Local Defense Volunteers
+  division_names_group = USA_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+  }
+}
+division_template = {
+  name = "州警备队"  # State Defense Force
+  division_names_group = USA_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 2
+    }
+    infantry = {
+      x = 2
+      y = 0
+    }
+    infantry = {
+      x = 2
+      y = 1
+    }
+    infantry = {
+      x = 2
+      y = 2
+    }
+    infantry = {
+      x = 3
+      y = 0
+    }
+    infantry = {
+      x = 3
+      y = 1
+    }
+    infantry = {
+      x = 3
+      y = 2
+    }
+    infantry = {
+      x = 4
+      y = 0
+    }
+    infantry = {
+      x = 4
+      y = 1
+    }
+    infantry = {
+      x = 4
+      y = 2
+    }
+  }
+}
+units = {
+  division = {
+    name = "威斯康星第1志愿师"  # 1. Wisconsin Volunteers
+    location = 12357
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "威斯康星第2志愿师"  # 2. Wisconsin Volunteers
+    location = 12357
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "威斯康星第3志愿师"  # 3. Wisconsin Volunteers
+    location = 12357
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "威斯康星警备队"  # Wisconsin Defense Force
+    location = 12357
+    division_template = "州警备队"  # State Defense Force
+  }
+  division = {
+    name = "艾奥瓦第1志愿师"  # 1. Iowa Volunteers
+    location = 1770
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "艾奥瓦第2志愿师"  # 2. Iowa Volunteers
+    location = 1770
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "艾奥瓦第3志愿师"  # 3. Iowa Volunteers
+    location = 1770
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "艾奥瓦警备队"  # Iowa Defense Force
+    location = 1770
+    division_template = "州警备队"  # State Defense Force
+  }
+  division = {
+    name = "密歇根第1志愿师"  # 1. Michigan Volunteers
+    location = 695
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "密歇根第2志愿师"  # 2. Michigan Volunteers
+    location = 695
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "密歇根第3志愿师"  # 3. Michigan Volunteers
+    location = 695
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "密歇根警备队"  # Michigan Defense Force
+    location = 6710
+    division_template = "州警备队"  # State Defense Force
+  }
+  division = {
+    name = "伊利诺伊第1志愿师"  # 1. Illinois Volunteers
+    location = 7626
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "伊利诺伊第2志愿师"  # 2. Illinois Volunteers
+    location = 7626
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "伊利诺伊第3志愿师"  # 3. Illinois Volunteers
+    location = 7626
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "伊利诺伊警备队"  # Illinois Defense Force
+    location = 9450
+    division_template = "州警备队"  # State Defense Force
+  }
+  division = {
+    name = "印第安纳第1志愿师"  # 1. Indiana Volunteers
+    location = 1881
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "印第安纳第2志愿师"  # 2. Indiana Volunteers
+    location = 1881
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "印第安纳第3志愿师"  # 3. Indiana Volunteers
+    location = 1881
+    division_template = "地方防卫志愿师"  # Local Defense Volunteers
+  }
+  division = {
+    name = "印第安纳警备队"  # Indiana Defense Force
+    location = 1595
+    division_template = "州警备队"  # State Defense Force
+  }
+}

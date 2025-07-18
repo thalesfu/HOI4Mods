@@ -1,0 +1,288 @@
+﻿MEX_INF_01 = {
+  name = "基督军卫队"  # Cristero Guard
+  for_countries = {
+    MEX
+  }
+  can_use = {
+    has_completed_focus = MEX_focus_antidisestablishmentarianism
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d基督军卫队"  # %da Guardia Cristera
+  ordered = {
+    1 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    2 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    3 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    4 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    5 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    6 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    7 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    8 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    9 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    10 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    11 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    12 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    13 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    14 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    15 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    16 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    17 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    18 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    19 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+    20 = {
+      "第%d基督军卫队"  # %da Guardia Cristera
+    }
+  }
+}
+MEX_INF_02 = {
+  name = "民兵"  # Agrarian Militia
+  for_countries = {
+    MEX
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d民兵旅"  # %da Brigada Agrarista
+  ordered = {
+    1 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    2 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    3 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    4 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    5 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    6 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    7 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    8 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    9 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    10 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    11 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    12 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    13 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    14 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    15 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    16 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    17 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    18 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    19 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    20 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    21 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    22 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    23 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    24 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    25 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    26 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    27 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    28 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    29 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+    30 = {
+      "第%d民兵旅"  # %da Brigada Agrarista
+    }
+  }
+}
+MEX_INF_03 = {
+  name = "红色旅"  # Red Brigade
+  for_countries = {
+    MEX
+  }
+  can_use = {
+    OR = {
+      has_completed_focus = MEX_focus_ejido_worker_militias
+      has_government = communism
+    }
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d红色旅"  # %da Brigada Roja
+  ordered = {
+    1 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    2 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    3 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    4 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    5 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    6 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    7 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    8 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    9 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    10 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    11 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    12 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    13 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    14 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    15 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    16 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    17 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    18 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    19 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    20 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    21 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    22 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    23 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    24 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    25 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    26 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    27 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    28 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    29 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+    30 = {
+      "第%d红色旅"  # %da Brigada Roja
+    }
+  }
+}

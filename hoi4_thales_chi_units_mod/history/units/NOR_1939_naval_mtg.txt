@@ -1,0 +1,263 @@
+﻿units = {
+  fleet = {
+    name = "挪威皇家海军"  # Kongelige Norske Marine
+    naval_base = 9296
+    task_force = {
+      name = "第1海军区"  # 1. Sjøforsvarsdistrikt
+      location = 9296
+      ship = {
+        name = "金发王哈拉尔"  # HNoMS Harald Haarfagre
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "挪威级"  # Norge Class
+          }
+        }
+      }
+      ship = {
+        name = "雷霆"  # HNoMS Tordenskjold
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "挪威级"  # Norge Class
+          }
+        }
+      }
+      ship = {
+        name = "奥拉夫一世"  # HNoMS Olaf Tryggvason
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NOR
+            version_name = "奥拉夫一世级"  # Olaf Tryggvason Class
+          }
+        }
+      }
+      ship = {
+        name = "弗尔"  # HNoMS Frøya
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "弗尔级"  # Frøya Class
+          }
+        }
+      }
+      ship = {
+        name = "盖勒"  # HNoMS Gyller
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "斯雷普尼尔 & 奥丁级"  # Sleipner & Odin Class
+          }
+        }
+      }
+      ship = {
+        name = "A2"  # HNoMS A2
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+      ship = {
+        name = "A3"  # HNoMS A3
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+      ship = {
+        name = "A4"  # HNoMS A4
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+      ship = {
+        name = "B2"  # HNoMS B2
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+      ship = {
+        name = "B4"  # HNoMS B4
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+      ship = {
+        name = "B5"  # HNoMS B5
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2海军区"  # 2. Sjøforsvarsdistrikt
+      location = 122
+      ship = {
+        name = "幽灵"  # HNoMS Draug
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "幽灵级"  # Draug Class
+          }
+        }
+      }
+      ship = {
+        name = "山妖"  # HNoMS Troll
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "幽灵级"  # Draug Class
+          }
+        }
+      }
+      ship = {
+        name = "地狱犬"  # HNoMS Garm
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "幽灵级"  # Draug Class
+          }
+        }
+      }
+      ship = {
+        name = "猎人"  # HNoMS Æger
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "斯雷普尼尔 & 奥丁级"  # Sleipner & Odin Class
+          }
+        }
+      }
+      ship = {
+        name = "斯雷普尼尔"  # HNoMS Sleipner
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "斯雷普尼尔 & 奥丁级"  # Sleipner & Odin Class
+          }
+        }
+      }
+      ship = {
+        name = "B6"  # HNoMS B6
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3海军区"  # 3. Sjøforsvarsdistrikt
+      location = 11050
+      ship = {
+        name = "挪威"  # HNoMS Norge
+        pride_of_the_fleet = yes
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "挪威级"  # Norge Class
+          }
+        }
+      }
+      ship = {
+        name = "伊斯沃德"  # HNoMS Eidsvold
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "挪威级"  # Norge Class
+          }
+        }
+      }
+      ship = {
+        name = "B1"  # HNoMS B1
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+      ship = {
+        name = "B3"  # HNoMS B3
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A & B级"  # A & B Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_1
+      creator = "NOR"
+      version_name = "斯雷普尼尔 & 奥丁级"  # Sleipner & Odin Class
+    }
+    name = "奥丁"  # HNoMS Odin
+    requested_factories = 1
+    progress = 0.85
+    amount = 1
+  }
+}

@@ -1,0 +1,10 @@
+﻿
+
+air_wings = {
+	### Aéronautique Militaire Belge (CO: ) #
+	6 = {															# Brussels
+		small_plane_airframe_1 =  { owner = "BEL" creator = "ENG" amount = 23 version_name = "霍克 飓风" }		# 2e Régiment d'Aéronautique -- Gladiator Is, Hurricane Is, CR.42s
+		small_plane_airframe_0 =  { owner = "BEL" creator = "ENG" amount = 22 version_name = "格洛斯特 角斗士"}
+		small_plane_airframe_0 =  { owner = "BEL" creator = "ENG" amount = 30 version_name = "霍克 狂怒" }		# 1e Régiment d'Aéronautique -- Fairey Foxes (represented by Furies)
+	}
+}

@@ -29,7 +29,28 @@
 #           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#                                      the current game version.
+#                                    the current game version.
+CHI_INF_01 =
+{
+	name = "调整师"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "mountaineers" "cavalry" "motorized" "mechanized" "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "国民革命第%d师"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{}
+}
+
 CHI_LAND_01 =
 {
 	name = "国民革命军陆军师"

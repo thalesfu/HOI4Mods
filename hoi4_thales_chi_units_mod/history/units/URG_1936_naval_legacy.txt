@@ -1,0 +1,20 @@
+﻿units = {
+  fleet = {
+    name = "国家海军"  # Armada Nacional
+    naval_base = 10362
+    task_force = {
+      name = "国家海军"  # Armada Nacional
+      location = 10362
+      ship = {
+        name = "乌拉圭国家海军"  # ROU Uruguay
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = URG
+          }
+        }
+      }
+    }
+  }
+}

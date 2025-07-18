@@ -1,0 +1,122 @@
+﻿##### TURKEY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+TUR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "TCG "
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"扈从" "强壮" "科扎德佩" "阿达特佩" "扎法尔" "特纳兹台佩" "努力" "德米尔黑萨尔" "苏丹希萨尔" "阿维内特" "加济安泰普" "吉雷松" "盖利博卢" "盖姆利克" "教王阿尔士郎" "费夫齐·查克马克元帅"
+		"基里克·阿里·帕萨" "皮亚里·巴夏" "伊斯坦布尔" "伊兹密尔" "伊兹米特" "伊斯肯德伦" "艾瑟尔" "尤切特佩" "萨瓦斯泰佩" "阿尔西佩" "阿尼特佩"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+TUR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "TCG "
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"哈米迪耶" "迈吉迪耶" "雷沙迪耶" "凯尚" "萨勒耶尔" "诺普" "加济安泰普" "阿达纳" "伊斯肯德伦" "穆拉" "马尼萨" "费特希耶" "巴勒凯西尔" "杜姆卢皮纳尔" "基里克·阿里" "扈从塞夫基特" "伯克·伊·萨特维特" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+TUR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "TCG "
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"恰纳卡莱" "埃迪尔内" "图兹拉" "亚洛瓦" "盖姆利克" "伊兹密特" "盖布泽" "盖利博卢" "乌尔拉" "梅尔辛" "奥西里斯" "哈米迪耶" "迈吉迪耶" "图尔古特·雷斯" 
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+TUR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "TCG "
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"伊兹密尔" "伊斯坦布尔" "萨姆松" "特拉布宗" "图尔古德·雷斯" "巴巴洛斯" "萨利赫" "基里克·阿里·雷斯" "萨尔迪雷" "米迪利" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+TUR_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "TCG "
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"亚沃士" "巴蒂雷" "耶尔迪雷" "亚武扎伊" "伊兹密尔" "伊斯坦布尔" "萨姆松" "特拉布宗"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+TUR_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "TCG "
+	fallback_name = "%d 号航母"	
+
+	unique = {
+		"泰基尔达" "班德尔马" 
+	}
+}
+
+### SUBMARINES ###
+TUR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "TCG "
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"第一伊诺努" "第二伊诺努" "杜姆卢皮纳尔" "萨卡里亚" "华丽" "萨尔迪雷" "巴蒂雷" "阿蒂莱伊" "耶尔迪雷" "奥鲁奇·雷斯" 
+		"穆拉·雷斯" "布拉克·雷斯" "乌卢奇·阿里·雷斯" "伊诺努" "恰纳卡莱" "普雷维泽" "刻耳柏洛斯" "图古特雷斯" "皮瑞雷斯" "希乌里尼斯" "布拉克雷斯" "修女" "奥陆克雷斯" "乌卢卡列里斯"
+	}
+}

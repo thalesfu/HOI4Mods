@@ -1,0 +1,474 @@
+﻿SWI_INF_01 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # Division %d
+  ordered = {
+    1 = {
+      "第%d步兵师"  # Division %d
+    }
+    2 = {
+      "第%d步兵师"  # Division %d
+    }
+    3 = {
+      "第%d步兵师"  # Division %d
+    }
+    4 = {
+      "第%d步兵师"  # Division %d
+    }
+    5 = {
+      "第%d步兵师"  # Division %d
+    }
+    6 = {
+      "第%d步兵师"  # Division %d
+    }
+    7 = {
+      "第%d步兵师"  # Division %d
+    }
+    8 = {
+      "第%d步兵师"  # Division %d
+    }
+    9 = {
+      "第%d步兵师"  # Division %d
+    }
+    10 = {
+      "第%d步兵师"  # Division %d
+    }
+    11 = {
+      "第%d步兵师"  # Division %d
+    }
+    12 = {
+      "第%d步兵师"  # Division %d
+    }
+    13 = {
+      "第%d步兵师"  # Division %d
+    }
+    14 = {
+      "第%d步兵师"  # Division %d
+    }
+    15 = {
+      "第%d步兵师"  # Division %d
+    }
+    16 = {
+      "第%d步兵师"  # Division %d
+    }
+    17 = {
+      "第%d步兵师"  # Division %d
+    }
+    18 = {
+      "第%d步兵师"  # Division %d
+    }
+    19 = {
+      "第%d步兵师"  # Division %d
+    }
+    20 = {
+      "第%d步兵师"  # Division %d
+    }
+  }
+}
+SWI_CAV_01 = {
+  name = "骑兵师"  # Cavalry Unit
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d轻装旅"  # Leichte-Brigade %d
+  ordered = {
+    1 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    2 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    3 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    4 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    5 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    6 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    7 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    8 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    9 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+    10 = {
+      "第%d轻装旅"  # Leichte-Brigade %d
+    }
+  }
+}
+SWI_MOT_01 = {
+  name = "摩托化步兵师"  # Motorized Division
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    SWI_INF_01
+  }
+  fallback_name = "第%d摩托化步兵师"  # Motorfeld-Division %d
+  ordered = {
+    1 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    2 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    3 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    4 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    5 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    6 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    7 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    8 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    9 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+    10 = {
+      "第%d摩托化步兵师"  # Motorfeld-Division %d
+    }
+  }
+}
+SWI_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  fallback_name = "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+  ordered = {
+    1 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    2 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    3 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    4 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    5 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    6 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    7 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    8 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    9 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+    10 = {
+      "第%d机械化掷弹兵师"  # Grenadierfeld-Division %d
+    }
+  }
+}
+SWI_ARM_01 = {
+  name = "装甲师"  # Armored Division
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # Panzer-Division %d
+  ordered = {
+    1 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    2 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    3 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    4 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    5 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    6 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    7 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    8 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    9 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+    10 = {
+      "第%d装甲师"  # Panzer-Division %d
+    }
+  }
+}
+SWI_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Division
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d伞兵师"  # Fallschirmjäger-Division %d
+  ordered = {
+    1 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    2 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    3 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    4 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    5 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    6 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    7 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    8 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    9 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+    10 = {
+      "第%d伞兵师"  # Fallschirmjäger-Division %d
+    }
+  }
+}
+SWI_MAR_01 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d海军陆战师"  # Marineinfanterie-Division %d
+  ordered = {
+    1 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    2 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    3 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    4 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    5 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    6 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    7 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    8 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    9 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+    10 = {
+      "第%d海军陆战师"  # Marineinfanterie-Division %d
+    }
+  }
+}
+SWI_MNT_01 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    SWI_INF_01
+  }
+  fallback_name = "第%d山地师"  # Division %d
+  ordered = {
+    1 = {
+      "第%d山地师"  # Division %d
+    }
+    2 = {
+      "第%d山地师"  # Division %d
+    }
+    3 = {
+      "第%d山地师"  # Division %d
+    }
+    4 = {
+      "第%d山地师"  # Division %d
+    }
+    5 = {
+      "第%d山地师"  # Division %d
+    }
+    6 = {
+      "第%d山地师"  # Division %d
+    }
+    7 = {
+      "第%d山地师"  # Division %d
+    }
+    8 = {
+      "第%d山地师"  # Division %d
+    }
+    9 = {
+      "第%d山地师"  # Division %d
+    }
+    10 = {
+      "第%d山地师"  # Division %d
+    }
+    11 = {
+      "第%d山地师"  # Division %d
+    }
+    12 = {
+      "第%d山地师"  # Division %d
+    }
+    13 = {
+      "第%d山地师"  # Division %d
+    }
+    14 = {
+      "第%d山地师"  # Division %d
+    }
+    15 = {
+      "第%d山地师"  # Division %d
+    }
+    16 = {
+      "第%d山地师"  # Division %d
+    }
+    17 = {
+      "第%d山地师"  # Division %d
+    }
+    18 = {
+      "第%d山地师"  # Division %d
+    }
+    19 = {
+      "第%d山地师"  # Division %d
+    }
+    20 = {
+      "第%d山地师"  # Division %d
+    }
+  }
+}
+SWI_GAR_01 = {
+  name = "守备部队"  # Garrison Unit
+  for_countries = {
+    SWI
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d边防旅"  # Grenzbrigade %d
+  ordered = {
+    1 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    2 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    3 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    4 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    5 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    6 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    7 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    8 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    9 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+    10 = {
+      "第%d边防旅"  # Grenzbrigade %d
+    }
+  }
+}

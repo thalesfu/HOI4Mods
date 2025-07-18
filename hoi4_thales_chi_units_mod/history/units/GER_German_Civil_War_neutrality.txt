@@ -1,0 +1,142 @@
+﻿division_template = {
+  name = "民兵团"  # Landsturmregiment
+  is_locked = yes
+  template_counter = 3
+  division_names_group = GER_Inf_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+  }
+}
+units = {
+  division = {
+    name = "第1民兵团"  # 1. Landsturmregiment
+    location = 9655
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第2民兵团"  # 2. Landsturmregiment
+    location = 3690
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第3民兵团"  # 3. Landsturmregiment
+    location = 11499
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第4民兵团"  # 4. Landsturmregiment
+    location = 9545
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第5民兵团"  # 5. Landsturmregiment
+    location = 6555
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第6民兵团"  # 6. Landsturmregiment
+    location = 6581
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第7民兵团"  # 7. Landsturmregiment
+    location = 3574
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第8民兵团"  # 8. Landsturmregiment
+    location = 589
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第9民兵团"  # 9. Landsturmregiment
+    location = 6488
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第10民兵团"  # 10. Landsturmregiment
+    location = 3397
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第11民兵团"  # 11. Landsturmregiment
+    location = 11445
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第12民兵团"  # 12. Landsturmregiment
+    location = 9524
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第13民兵团"  # 13. Landsturmregiment
+    location = 6513
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第14民兵团"  # 14. Landsturmregiment
+    location = 11402
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第15民兵团"  # 15. Landsturmregiment
+    location = 11468
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第16民兵团"  # 16. Landsturmregiment
+    location = 9375
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第17民兵团"  # 17. Landsturmregiment
+    location = 9238
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第18民兵团"  # 18. Landsturmregiment
+    location = 9264
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第19民兵团"  # 19. Landsturmregiment
+    location = 6298
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第20民兵团"  # 20. Landsturmregiment
+    location = 9320
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第21民兵团"  # 21. Landsturmregiment
+    location = 11331
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第22民兵团"  # 22. Landsturmregiment
+    location = 9347
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第23民兵团"  # 23. Landsturmregiment
+    location = 6488
+    division_template = "民兵团"  # Landsturmregiment
+  }
+  division = {
+    name = "第24民兵团"  # 24. Landsturmregiment
+    location = 9517
+    division_template = "民兵团"  # Landsturmregiment
+  }
+}

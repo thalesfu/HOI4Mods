@@ -1,0 +1,477 @@
+﻿ALB_INF_01 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%s步兵师"  # %s Këmbësori Pjesëtim
+  ordered = {
+    1 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    2 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    3 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    4 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    5 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    6 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    7 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    8 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    9 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    10 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    11 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    12 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    13 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    14 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    15 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    16 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    17 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    18 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    19 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+    20 = {
+      "第%s步兵师"  # %s Këmbësori Pjesëtim
+    }
+  }
+}
+ALB_CAV_01 = {
+  name = "骑兵师"  # Cavalry Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%s骑兵师"  # %s Kavaleri Pjesëtim
+  ordered = {
+    1 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    2 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    3 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    4 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    5 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    6 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    7 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    8 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    9 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+    10 = {
+      "第%s骑兵师"  # %s Kavaleri Pjesëtim
+    }
+  }
+}
+ALB_MOT_01 = {
+  name = "摩托化步兵师"  # Motorized Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    ALB_INF_01
+  }
+  fallback_name = "第%d 摩托化步兵师"
+  ordered = {
+    1 = {
+      "第%d 摩托化步兵师"
+    }
+    2 = {
+      "第%d 摩托化步兵师"
+    }
+    3 = {
+      "第%d 摩托化步兵师"
+    }
+    4 = {
+      "第%d 摩托化步兵师"
+    }
+    5 = {
+      "第%d 摩托化步兵师"
+    }
+    6 = {
+      "第%d 摩托化步兵师"
+    }
+    7 = {
+      "第%d 摩托化步兵师"
+    }
+    8 = {
+      "第%d 摩托化步兵师"
+    }
+    9 = {
+      "第%d 摩托化步兵师"
+    }
+    10 = {
+      "第%d 摩托化步兵师"
+    }
+  }
+}
+ALB_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    ALB_INF_01
+  }
+  fallback_name = "第%d 机械化步兵师"
+  ordered = {
+    1 = {
+      "第%d 机械化步兵师"
+    }
+    2 = {
+      "第%d 机械化步兵师"
+    }
+    3 = {
+      "第%d 机械化步兵师"
+    }
+    4 = {
+      "第%d 机械化步兵师"
+    }
+    5 = {
+      "第%d 机械化步兵师"
+    }
+    6 = {
+      "第%d 机械化步兵师"
+    }
+    7 = {
+      "第%d 机械化步兵师"
+    }
+    8 = {
+      "第%d 机械化步兵师"
+    }
+    9 = {
+      "第%d 机械化步兵师"
+    }
+    10 = {
+      "第%d 机械化步兵师"
+    }
+  }
+}
+ALB_ARM_01 = {
+  name = "装甲师"  # Armored Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%s装甲师"  # %s Koracë Pjesëtim
+  ordered = {
+    1 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    2 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    3 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    4 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    5 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    6 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    7 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    8 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    9 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+    10 = {
+      "第%s装甲师"  # %s Koracë Pjesëtim
+    }
+  }
+}
+ALB_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+  ordered = {
+    1 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    2 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    3 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    4 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    5 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    6 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    7 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    8 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    9 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+    10 = {
+      "第%s伞兵师"  # %s Ushtar përdor Aviacion Pjesëtim
+    }
+  }
+}
+ALB_MAR_01 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+  ordered = {
+    1 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    2 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    3 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    4 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    5 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    6 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    7 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    8 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    9 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+    10 = {
+      "第%s海军陆战师"  # %s Marinë Këmbësori Pjesëtim
+    }
+  }
+}
+ALB_MNT_01 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+  ordered = {
+    1 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    2 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    3 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    4 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    5 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    6 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    7 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    8 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    9 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+    10 = {
+      "第%s山地师"  # %s Bjeshkë Këmbësori Pjesëtim
+    }
+  }
+}
+ALB_GAR_01 = {
+  name = "守备师"  # Garrison Division
+  for_countries = {
+    ALB
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    ALB_INF_01
+  }
+  fallback_name = "第%d 驻防师"  # %s Këmbësori Pjesëtim
+  ordered = {
+    1 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    2 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    3 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    4 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    5 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    6 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    7 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    8 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    9 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    10 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    11 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    12 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    13 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    14 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    15 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    16 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    17 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    18 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    19 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+    20 = {
+      "第%d 驻防师"  # %s Këmbësori Pjesëtim
+    }
+  }
+}

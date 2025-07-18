@@ -1,0 +1,8 @@
+﻿units = {
+  division = {
+    name = "图卜鲁格之鼠"  # The Rats of Tobruk
+    location = 1130
+    division_template = "图卜鲁格之鼠"  # Rats of Tobruk
+    start_experience_factor = 0.3
+  }
+}

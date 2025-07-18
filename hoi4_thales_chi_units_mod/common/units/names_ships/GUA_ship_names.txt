@@ -1,0 +1,145 @@
+﻿##### GUATEMALA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+GUA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = {
+		GUA
+	}
+	type = ship
+	ship_types = {
+		ship_hull_light
+		destroyer
+	}
+	prefix = "ARG "
+	fallback_name = "%d号驱逐舰"
+	unique = {
+		"塔帕丘拉"
+		"巴里奥斯港"
+		"哈卡尔特南戈"
+		"埃尔·埃斯托尔"
+		"埃尔·普罗格雷索"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+GUA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = {
+		GUA
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		light_cruiser
+	}
+	prefix = "ARG "
+	fallback_name = "%d号轻型巡洋舰"
+	unique = {
+		"塔帕丘拉"
+		"巴里奥斯港"
+		"哈卡尔特南戈"
+		"埃尔·埃斯托尔"
+		"埃尔·普罗格雷索"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+GUA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = {
+		GUA
+	}
+	type = ship
+	ship_types = {
+		ship_hull_cruiser
+		heavy_cruiser
+	}
+	prefix = "ARG "
+	fallback_name = "%d号 重型巡洋舰"
+	unique = {
+		"塔帕丘拉"
+		"巴里奥斯港"
+		"哈卡尔特南戈"
+		"埃尔·埃斯托尔"
+		"埃尔·普罗格雷索"
+	}
+}
+
+### BATTLESHIP NAMES ###
+GUA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = {
+		GUA
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battleship
+	}
+	prefix = "ARG "
+	fallback_name = "%d号 战列舰"
+	unique = {
+		"瓜地马拉"
+		"克萨尔特南戈"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+GUA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = {
+		GUA
+	}
+	type = ship
+	ship_types = {
+		ship_hull_heavy
+		battle_cruiser
+	}
+	prefix = "ARG "
+	fallback_name = "%d号 战列巡洋舰"
+	unique = {
+		"瓜地马拉"
+		"克萨尔特南戈"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+GUA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = {
+		GUA
+	}
+	type = ship
+	ship_types = {
+		ship_hull_carrier
+		carrier
+	}
+	prefix = "ARG "
+	fallback_name = "%d号 航空母舰"
+	unique = {
+		"危地马拉共和国"
+		"埃斯昆特拉"
+	}
+}
+
+### SUBMARINES ###
+GUA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = {
+		GUA
+	}
+	type = ship
+	ship_types = {
+		ship_hull_submarine
+		submarine
+	}
+	prefix = "ARG "
+	fallback_name = "%d号 潜艇"
+	unique = {
+		"塔帕丘拉"
+		"巴里奥斯港"
+		"哈卡尔特南戈"
+		"埃尔·埃斯托尔"
+		"埃尔·普罗格雷索"
+	}
+}

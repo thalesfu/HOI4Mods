@@ -1,0 +1,120 @@
+﻿##### NICARAGUA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+NIC_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { NIC }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d 号驱逐舰"					
+
+	unique = {											
+		"马那瓜" "马萨亚" "格拉纳达" "莱昂" "奇南德加"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+NIC_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { NIC }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d 号轻巡洋舰"
+
+	unique = {
+		"马那瓜" "马萨亚" "格拉纳达" "莱昂" "奇南德加"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+NIC_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { NIC }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d 号重巡洋舰"
+
+	unique = {
+		"马那瓜" "马萨亚" "格拉纳达" "莱昂" "奇南德加"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+NIC_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { NIC }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d 号战列舰"		
+
+	unique = {
+		"阿纳斯塔乔·索摩查" "共和"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+NIC_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { NIC }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d 号战列巡洋舰"		
+
+	unique = {
+		"阿纳斯塔乔·索摩查" "共和"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+NIC_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { NIC }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d 号航空母舰"	
+
+	unique = {
+		"索摩查及尼加拉瓜" "塔奇托" 
+	}
+}
+
+### SUBMARINES ###
+NIC_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { NIC }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "%d 号潜艇"
+	
+	unique = {
+		"马那瓜" "马萨亚" "格拉纳达" "莱昂" "奇南德加"
+	}
+}

@@ -1,0 +1,256 @@
+﻿##### ITALY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ITA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "RCT " # Regio Cacciatorpediniere (this group includes also torpedo boats classified as RT - Regio Torpediniere)
+	fallback_name = "第%s 驱逐舰"
+
+	unique = {
+		# Current models (2/32 Spica class (SWE export), 8/32 Spica class (Perseo type), 6/32 Spica class (Climene type), 4 Oriani class, 12 Soldati Prima Serie class, 5/7 Soldati Seconda Serie class,
+		# 16/32 Spica class (Alcione type), 13/16 Ariete class, 4 Orsa class, 16 Ciclone class)
+		"斯皮卡" "卡斯涛" "帕尔修斯" "西里奥" "萨基塔里奥" "维伽" "阿尔德巴那" "安德罗墨达" "阿尔泰尔" "凯莉米涅" "骞陶洛" "卡斯涛尔" 
+		"齐格诺" "卡诺波" "卡西欧佩亚" "阿尔弗雷多·奥利亚尼" "维托里奥·阿尔菲耶里"
+		"吉奥斯约·卡度奇" "文森佐·乔贝蒂" "卡米契亚·内拉" "埃尔皮诺" "阿蒂格利埃尔" "阿斯卡里" "阿维埃尔" "被萨利埃莱" "卡拉宾尼埃莱" 
+		"科拉齐埃莱" "福西里埃莱" "詹尼埃尔" "格兰达提埃尔" "兰琪埃莱" "邦巴迪埃莱" "科萨罗" "莱格纳里奥" "米塔拉格利埃莱" 
+		"瓦利特" "安塔列斯" "阿里奥" "阿尔库俄涅" "阿瑞图萨" "艾瑞尔" "普勒阿得斯" "波鲁克斯" "帕拉斯"  "帕耳忒诺珀" "利拉" "利布拉" "卢波" "林切" "克利俄" "喀尔刻" "卡利俄佩" "卡吕普索"
+		"阿尼莫索" "阿尔丹特" "阿尔迪门托索" "阿尔迪托" "契克隆尼" "佛特拉雷" "吉比利" "吉奥波" "因帕维多" "英德米特" "英特雷皮特" "蒙梭内" "提丰勒" "乌拉佳诺"
+		# Canceled/Not completed/Reconstructed (1/5 Leone class, 2/7 Soldati Seconda Serie class, Dubrovnik, 2 Sebenico class, 20 Comandanti Medaglia d'Oro class, 2 Ariete class)
+		"卡普里尼" "法拉·迪·布鲁诺" "希贝尼克" "卢布尔雅那" "马哥蒂尼" "巴罗尼" "博蒂" "卡萨纳" "罗多坎内列斯"
+		# Older models (2 Mirabello class, 3/5 Leone class, 8 Rosolino Pilo class, Audace, 4 Giuseppe Sirtori class, 7 Giuseppe La Masa class, 4 Palestro class, 6 Generale Antonio Cantore class, 4 Curtatone class,
+		# 4 Quintino Sella class, 4 Nazario Sauro class, 12 Navigatori class, 8 Turbine class, 4 Dardo Prima Serie class, 4 Dardo Seconda Serie class, 4 Maestrale class)
+		"里昂·潘卡多" "罗索力诺·皮洛" "朱塞佩·密苏里" 
+		"西莫涅·思琪拉菲诺" "奥达切" "朱塞佩·西尔托里" "乔万尼·阿切尔比" "文森佐·吉奥达诺" "弗朗切斯科·斯托尔科" "朱塞佩·拉·马萨" "安吉诺·巴西尼" "吉阿琴托·卡利尼" "尼可拉·法比利基"
+		"朱塞佩·拉·法里纳" "吉阿科莫·美第齐" "帕雷斯托" "康菲恩扎" "圣·马丁诺" "索尔费里诺" "安东尼奥·坎托雷" "Generale Antonino Cascino" "安东尼奥·齐诺托" "卡洛·蒙坦纳里"
+		"安东尼奥·坎托雷" "马切洛·佩列斯汀纳里" "库尔塔托内" "卡拉塔费米" "卡斯特菲达尔多" "蒙赞班诺" "昆蒂诺·瑟拉" "弗朗切斯科·克里斯皮" "乔万尼·尼可特拉" "贝丁诺·利卡索里" "纳扎里奥·萨乌罗"
+		"切萨尔·巴提斯蒂" "丹尼埃莱·马林" "弗朗切斯科·努洛" "阿尔维瑟·达·莫斯托" "安东尼奥·达·诺利" "尼科索洛·达·雷科" "乔万尼·达·维拉扎诺" "兰泽罗拖·玛诺切诺" "里昂·潘卡多" "埃马努埃莱·佩萨戈诺"
+		"安东尼奥·皮加费塔" "卢卡·塔里戈" "安东尼奥托·乌索迪马尔" "乌戈利诺·维瓦尔蒂" "尼科诺·芝诺" "图尔比内" "阿奎郎尼" "博里亚" "埃斯佩罗" "埃乌罗" "纽波" "奥斯特罗" "泽菲洛" "达尔多" "弗里奇亚" "萨埃塔" "斯特拉尔"
+		"巴内诺" "福尔果雷" "福尔米雷" "兰波" "米斯特拉尔" "格雷卡尔" "利贝其欧" "施罗尔科"
+		# Fictional names start here (1 Mirabello class, 2 Indomito class, 1 Rosolino Pilo class, 2 Giuseppe La Masa class)
+		"卡洛·米拉贝洛" "潜伏" "柯林斯" "皮拉德·伯恩泽提" "阿戈斯蒂诺·贝塔尼" "贝内德托·卡利罗里"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ITA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "RI " # Regio Incrociatore
+	fallback_name = "Incrociatore leggero %s"
+
+	unique = {
+		# Current models (2 Duca d'Aosta class, 2 Duca degli Abruzzi class, 4/12 Capitani Romani class)
+		"奥斯塔公爵" "欧戈利诺·迪·萨伏伊" "阿布鲁奇公爵" "加里波第" "阿提里奥·莱格洛" "朱利奥·日耳曼尼科" "庞培·马格诺"
+		# Canceled/Not completed/Reconstructed (8/12 Capitani Romani class, 1/2 San Giorgio class, 2 Etna class, 2 Costanzo Ciano class)
+		"盖乌斯·马里奥" "奥古斯都" "乌尔皮奥·特拉亚诺" "克劳迪奥·德鲁索" "克劳迪奥·提比里奥" "维普塞尼奥·阿格里帕" "保罗·埃米利奥" "圣马可" "埃特纳" "维苏威" "康斯坦佐·齐亚诺" "威尼斯"
+		# Older models (SMS Pillau, SMS Strassburg, 4 Giussano class, 2 Cadorna class, 2 Montecuccoli class)
+		"巴里" "塔兰托" "阿尔贝托" "巴比亚诺" "科尼奥尼" "黑条乔瓦尼" "路易吉·卡多纳" "阿曼多·狄阿思" "莱蒙多·蒙德库克利" "姆兹奥·阿登的罗"
+		# Fictional names start here (2 WWI Basilicata class, 7 pre-WWI Regioni class, 6 WWI Esploratori class)
+		"巴斯利卡塔" "坎帕尼亚" "伦巴第" "卡拉布里亚" "厄尔巴" "伊斯特里亚" "利古里亚" "普利亚" "翁布里亚" "奎拉托" "尼诺·比西奥" "马萨拉" "利比亚" "安科纳" "布林迪西"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ITA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "RI " # Regio Incrociatore
+	fallback_name = "第%s 重巡洋舰"
+
+	unique = {
+		# Current models (2 Trento class, 4 Zara class, 1 Bolzano class)
+		"特伦托" "的里雅斯特" "扎拉" "阜姆" "戈里齐亚" "波拉" "博尔扎诺"
+		# Older models (1/2 WWI San Giorgio class)
+		"圣乔治"
+		# Fictional names start here (2/3 WWI Vettor Pisani class, 2/3 WWI Giuseppe Garibaldi class, 2 WWI Pisa class)
+		"卡洛·阿尔贝托" "马可波罗" "瓦雷泽" "弗朗切斯科·费鲁奇奥" "维托·皮萨尼" "阿马尔菲"
+	}
+}
+
+### MINELAYER NAMES###
+ITA_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+
+	prefix = "RN "
+	fallback_name = "第%s 布雷艇"
+
+	unique = {
+		# Older models (6 pre-WWII Azio class)
+		"卡尔帕内利" "米拉佐" "奥斯蒂亚" "莱尼亚诺" "勒班陀" 
+		# Auxiliary (7 converted motor ships)
+		"布里俄尼" "布法罗托" "莱罗" "蒙特加尔加诺" "帕尼加利亚" "圣朱斯托" "瓦勒伦加"
+	}
+}
+
+### BATTLESHIP NAMES ###
+ITA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "RN " # Regia Nave
+	fallback_name = "第%s 战列舰"
+
+	unique = {
+		# Current models (2 Conte di Cavour class, 3/4 Littorio class)
+		"加富尔伯爵" "朱利奥·凯撒" "利托里奥" "维托里奥·维内托" "罗马"
+		# Canceled/Not completed/Reconstructed (2 Caio Duilio class, 1 Littorio class, 1 Italia class)
+		"卡约·杜伊利奥" "安德烈亚·多里亚" "帝国" "意大利"
+		# Fictional names start here (1 WWI Dante Alighieri class, 2 WWI Regina Elena class)
+		"丹特·阿力埃里" "埃琳娜女王" "维托里奥·埃马努埃莱"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+ITA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "RI " # Regio Incrociatore
+	fallback_name = "第%s 战列巡洋舰"
+
+	unique = {
+		# Canceled/Not completed (3/4 Francesco Caracciolo class)
+		"弗朗切斯科·卡拉乔洛" "克里斯托弗·哥伦布" "弗朗切斯科·莫罗西尼"
+		# Fictional names start here (1/2 pre-WWI Regina Margherita class, 2 pre-WWI Emanuele Filiberto class, 1 pre-WWI Re Umberto class, 1/2 pre-WWI Caio Duilio, 1/2 pre-WWI Ruggiero di Lauria class,
+		# 1/2 pre-WWI Principe Amedeo class)
+		"玛格丽特女王" "埃马努埃莱·费比托" "圣邦海军上将" "翁贝托国王" "恩里科·丹多洛" "鲁吉利埃洛·劳里亚" "阿米德奥亲王"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+ITA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "RN " # Regia Nave
+	fallback_name = "第%s 航空母舰"
+
+	unique = {
+		# Canceled/Not completed/Reconstructed (1 Aquila class, 1 Sparviero class)
+		"鹰" "雀鹰"
+		# Fictional names start here (4 fictional, 1 pre-WWI Europa class, 1 WWI Giuseppe Miraglia class)
+		"隼鹰" "鸢" "人马座" "欧罗巴" "信天翁" "朱瑟培·密拉格利亚"
+	}
+}
+
+### SUBMARINES ###
+ITA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine ship_hull_midget_submarine ship_hull_cruiser_submarine }
+
+	prefix = "RSmg " # Regio Sommergibile
+	fallback_name = "H - %s"
+
+	unique = {
+		# Current models (2 Glauco class, 3 Pietro Calvi class, 2 Argo class, 10 Serie 600 - Perla class, 17 Serie 600 - Adua class, 11 Marcello class, 5 Benedetto Brin class, 4 Console Generale Liuzzi class,
+		# 6 Marconi class, 4 Ammiragli class, 13 Serie 600 - Platino class, 6 Tritone Prima Serie class, 8 Tritone Seconda Serie class)
+		"十月" "卡尔维" "朱塞佩·芬齐" "恩里科·塔佐利" "南船座" "帆水母" "琥珀" "贝里洛" "珊瑚" "迪亚斯普" "杰玛" "虹彩" "孔雀石" "罗妮丝" "绿松石" "阿杜雅"
+		"米洛上将" "卡拉乔洛上将" "钢铁" "雪花石" "银" "星夜女神" "深米色" "晶钻石" "宝石蓝" "马力昂" 
+		# Canceled/Not completed/Reconstructed (6 Tritone Prima Serie class, 16 Tritone Seconda Serie class, 2 Bragadin class, 1 Pietro Micca class, 3 Foca class, YUG Smeli, YUG Osvetnik)
+		"水星" "石棉" "马尔坎托尼奥·布拉加丁" "菲利波·科里多尼" "彼得罗·米卡" "弗卡" "阿特罗波" "弗朗切斯科·里斯蒙多" "安东尼奥·巴哈蒙蒂"
+		# Older models (5 WWI H class, 4 Balilla class, 4 Mameli class, 4 Vettor Pisani class, 1 Ettore Fieramosca class, 4 Fratelli Bandiera class, 4 Squalo class, 7 Serie 600 - Argonauta class,
+		# 2 Settembrini class, 3 Archimede class, 12 Serie 600 - Sirena class)
+		"H 1" "H 2" "H 4" "H 6" "H 8" "巴利拉" "多梅尼科·米勒莱尔" "恩里科·托蒂" "安东尼奥·谢萨" "戈弗雷多·马梅利" "乔瓦尼·达·普罗奇达" "蒂托·斯佩里" "维托·匹萨尼" "马尔坎东尼奥·卡罗那"
+		# Fictional names start here (10 fictional, 3 WWI H class)
+		"阿提尼奥" "氮" "溴" "碳" "钼" "锇" "氧" "硒" "钨" "H 3" "H 5" "H 7"
+	}
+}
+
+
+### THEME: ITALIAN REGIONS ###
+ITA_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"撒丁岛" "西西里岛" "卢卡尼亚" "阿布鲁佐" "拉齐奥" "马尔凯" "托斯卡纳" "艾米利亚" "皮埃蒙特" "威尼斯" "达尔马提亚" "威尼斯朱利亚"
+		# "卡拉布里亚" "巴西利卡塔" "普利亚" "坎帕尼亚" "翁布里亚" "伊特鲁里亚" "利古里亚" "伦巴第" "扎拉" 
+	}
+}
+
+## THEME: ITALIAN CITIES ###
+ITA_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"阿巴诺泰尔梅" "阿布鲁索" "阿格里真托" "阿贝罗贝洛" "亚历山大" "蒙弗拉多" "阿玛菲" "安科纳" "奥斯塔" "阿雷佐" "艾维连奴" "雷佐" "基安奇安诺泰尔梅" "切诺堡" "卡普里" "博洛那" "巴里" "贝加莫" "范洛" "法彼雅诺"
+        "卡利亚里" "福贾" "里米尼" "萨勒诺" "费拉拉" "萨萨里" "蒙扎" "维琴察" "科莫" "锡拉库扎" "贝加莫" "佩斯卡拉" "弗利" "莱切" "特拉帕尼" "曼托瓦" "拉奎拉" "锡耶纳" "拉斯佩齐亚" "帕维亚" "特尔尼"
+		"诺瓦拉" "皮亚琴察" "乌迪内" "阿雷佐" "切塞纳" "佩萨罗" "亚历山大" "皮斯托亚" "卡坦扎罗" "卢卡" "阿斯蒂" "杰拉" "克雷莫纳" "维泰博" "科森扎" "萨沃纳"
+        # "罗马" "威尼斯" "巴里" "的里雅斯特" "塔兰托" "博尔扎诺" "特伦托" "安科纳" "阜姆" "戈里齐亚" "波拉" "比萨" "布林迪西" "瓦雷泽"
+	}
+}
+
+## THEME: ITALIAN COLONIES ###
+ITA_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"爱琴海" "罗迪" "的黎波里" "托布鲁克" "班加西" "摩加迪沙" "马萨瓦" "索马里" "厄立特里亚" "阿比西尼亚" "亚的斯亚贝巴" 
+		# "利比亚"
+	}
+}
+
+## THEME: ITALIAN MYTHOLOGICAL NAMES ###
+ITA_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"朱庇特" "朱诺" "普鲁托" "尼普顿" "刻瑞斯" "维斯塔" "福伯斯" "密涅瓦" "狄安娜" "维纳斯" "伏尔冈" "玛尔斯" "巴克斯" "丘比特" "普罗米修斯" "阿格莱亚" "缪斯" "厄里倪俄斯" "提希丰" "美嘉拉" "阿耳刻托" 
+		# "墨丘利"
+    }
+}

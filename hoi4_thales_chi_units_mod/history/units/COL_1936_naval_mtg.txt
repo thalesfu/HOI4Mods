@@ -1,0 +1,32 @@
+﻿units = {
+  fleet = {
+    name = "国家海军"  # Armada Nacional
+    naval_base = 12790
+    task_force = {
+      name = "国家海军"  # Armada Nacional
+      location = 12790
+      ship = {
+        name = "安蒂奥吉亚"  # ARC Antioquia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = COL
+            version_name = "安蒂奥吉亚级"  # Antioquia Class
+          }
+        }
+      }
+      ship = {
+        name = "卡尔达斯"  # ARC Caldas
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = COL
+            version_name = "安蒂奥吉亚级"  # Antioquia Class
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,972 @@
+﻿AFG_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d 步兵师"
+  ordered = {
+    1 = {
+      "法扎巴德师"  # Faizabad Division
+    }
+    2 = {
+      "加兹尼师"  # Ghazni Division
+    }
+    3 = {
+      "赫拉特师"  # Herat Division
+    }
+    4 = {
+      "贾拉拉巴德师"  # Jalalabad Division
+    }
+    5 = {
+      "坎大哈师"  # Kandahar Division
+    }
+    6 = {
+      "梅摩内师"  # Maymeneh Division
+    }
+    7 = {
+      "马扎里沙里夫师"  # Mazar-e Shar Division
+    }
+    8 = {
+      "查希尔·沙赫师"  # Zahir Shah Division
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼师"  # Abdur Rahman Division
+    }
+    10 = {
+      "纳迪尔沙师"  # Nadir Shah Division
+    }
+    11 = {
+      "多斯特·穆罕默德师"  # Dost Mohammed Division
+    }
+    12 = {
+      "沙阿·舒雅师"  # Shah Shuja Division
+    }
+    13 = {
+      "塔卢坎师"  # Taloqan Division
+    }
+    14 = {
+      "昆都士师"  # Qondoz Division
+    }
+    15 = {
+      "胡勒姆师"  # Kholm Division
+    }
+    16 = {
+      "艾伯克师"  # Aybak Division
+    }
+    17 = {
+      "希比尔甘师"  # Sheberghan Division
+    }
+    18 = {
+      "巴尔赫师"  # Balkh Division
+    }
+    19 = {
+      "梅马内师"  # Meymaneh Division
+    }
+    20 = {
+      "道拉塔巴德师"  # Dawlatabad Division
+    }
+    21 = {
+      "塔林科特师"  # Tarin Kowt Division
+    }
+    22 = {
+      "大叻师"  # Dalat Division
+    }
+    23 = {
+      "卡什师"  # Khash Division
+    }
+    24 = {
+      "拉什卡尔加师"  # Lashkar Gan Division
+    }
+    25 = {
+      "米拉巴德师"  # Mirabad Division
+    }
+    26 = {
+      "第%d 步兵师"
+    }
+    27 = {
+      "第%d 步兵师"
+    }
+    28 = {
+      "第%d 步兵师"
+    }
+    29 = {
+      "第%d 步兵师"
+    }
+    30 = {
+      "第%d 步兵师"
+    }
+  }
+}
+AFG_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 骑兵师"
+  ordered = {
+    1 = {
+      "法扎巴德骑兵师"  # Faizabad Cavalry
+    }
+    2 = {
+      "加兹尼骑兵师"  # Ghazni Cavalry
+    }
+    3 = {
+      "赫拉特骑兵师"  # Herat Cavalry
+    }
+    4 = {
+      "贾拉拉巴德骑兵师"  # Jalalabad Cavalry
+    }
+    5 = {
+      "坎大哈骑兵师"  # Kandahar Cavalry
+    }
+    6 = {
+      "梅摩内骑兵师"  # Maymeneh Cavalry
+    }
+    7 = {
+      "马扎里沙里夫骑兵师"  # Mazar-e Shar Cavalry
+    }
+    8 = {
+      "查希尔·沙赫骑兵师"  # Zahir Shah Cavalry
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼骑兵师"  # Abdur Rahman Cavalry
+    }
+    10 = {
+      "纳迪尔沙骑兵师"  # Nadir Shah Cavalry
+    }
+    11 = {
+      "多斯特·穆罕默德骑兵师"  # Dost Mohammed Cavalry
+    }
+    12 = {
+      "沙阿·舒雅骑兵师"  # Shah Shuja Cavalry
+    }
+    13 = {
+      "塔卢坎骑兵师"  # Taloqan Cavalry
+    }
+    14 = {
+      "昆都士骑兵师"  # Qondoz Cavalry
+    }
+    15 = {
+      "胡勒姆骑兵师"  # Kholm Cavalry
+    }
+    16 = {
+      "艾伯克骑兵师"  # Aybak Cavalry
+    }
+    17 = {
+      "希比尔甘骑兵师"  # Sheberghan Cavalry
+    }
+    18 = {
+      "巴尔赫骑兵师"  # Balkh Cavalry
+    }
+    19 = {
+      "梅马内骑兵师"  # Meymaneh Cavalry
+    }
+    20 = {
+      "道拉塔巴德骑兵师"  # Dawlatabad Cavalry
+    }
+    21 = {
+      "塔林科特骑兵师"  # Tarin Kowt Cavalry
+    }
+    22 = {
+      "大叻骑兵师"  # Dalat Cavalry
+    }
+    23 = {
+      "卡什骑兵师"  # Khash Cavalry
+    }
+    24 = {
+      "拉什卡尔骑兵师"  # Lashkar Gan Cavalry
+    }
+    25 = {
+      "米拉巴德骑兵师"  # Mirabad Cavalry
+    }
+    26 = {
+      "第%d 骑兵师"
+    }
+    27 = {
+      "第%d 骑兵师"
+    }
+    28 = {
+      "第%d 骑兵师"
+    }
+    29 = {
+      "第%d 骑兵师"
+    }
+    30 = {
+      "第%d 骑兵师"
+    }
+  }
+}
+AFG_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 摩托化步兵师"
+  ordered = {
+    1 = {
+      "法扎巴德摩托化步兵师"   
+    }
+    2 = {
+      "加兹尼摩托化步兵师"   
+    }
+    3 = {
+      "赫拉特摩托化步兵师"   
+    }
+    4 = {
+      "贾拉拉巴德摩托化步兵师"   
+    }
+    5 = {
+      "坎大哈摩托化步兵师"   
+    }
+    6 = {
+      "梅摩内摩托化步兵师"   
+    }
+    7 = {
+      "马扎里沙里夫摩托化步兵师"   
+    }
+    8 = {
+      "查希尔·沙赫摩托化步兵师"   
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼摩托化步兵师"  
+    }
+    10 = {
+      "纳迪尔沙摩托化步兵师"   
+    }
+    11 = {
+      "多斯特·穆罕默德摩托化步兵师"   
+    }
+    12 = {
+      "沙阿·舒雅摩托化步兵师"  
+    }
+    13 = {
+      "塔卢坎摩托化步兵师" 
+    }
+    14 = {
+      "昆都士摩托化步兵师"  
+    }
+    15 = {
+      "胡勒姆摩托化步兵师"  
+    }
+    16 = {
+      "艾伯克摩托化步兵师"  
+    }
+    17 = {
+      "希比尔甘摩托化步兵师"  
+    }
+    18 = {
+      "巴尔赫摩托化步兵师"  
+    }
+    19 = {
+      "梅马内摩托化步兵师" 
+    }
+    20 = {
+      "道拉塔巴德摩托化步兵师" 
+    }
+    21 = {
+      "塔林科特摩托化步兵师"
+    }
+    22 = {
+      "大叻摩托化步兵师" 
+    }
+    23 = {
+      "卡什摩托化步兵师" 
+    }
+    24 = {
+      "拉什卡尔摩托化步兵师"  
+    }
+    25 = {
+      "米拉巴德摩托化步兵师" 
+    }
+    26 = {
+      "第%d 摩托化步兵师"
+    }
+    27 = {
+      "第%d 摩托化步兵师"
+    }
+    28 = {
+      "第%d 摩托化步兵师"
+    }
+    29 = {
+      "第%d 摩托化步兵师"
+    }
+    30 = {
+      "第%d 摩托化步兵师"
+    }
+  }
+}
+AFG_ARM_01 = {
+  name = "装甲师"  # Armored Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 装甲师"
+  ordered = {
+    1 = {
+      "法扎巴德装甲师"   
+    }
+    2 = {
+      "加兹尼装甲师"   
+    }
+    3 = {
+      "赫拉特装甲师"   
+    }
+    4 = {
+      "贾拉拉巴德装甲师"   
+    }
+    5 = {
+      "坎大哈装甲师"   
+    }
+    6 = {
+      "梅摩内装甲师"   
+    }
+    7 = {
+      "马扎里沙里夫装甲师"   
+    }
+    8 = {
+      "查希尔·沙赫装甲师"   
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼装甲师"  
+    }
+    10 = {
+      "纳迪尔沙装甲师"   
+    }
+    11 = {
+      "多斯特·穆罕默德装甲师"   
+    }
+    12 = {
+      "沙阿·舒雅装甲师"  
+    }
+    13 = {
+      "塔卢坎装甲师" 
+    }
+    14 = {
+      "昆都士装甲师"  
+    }
+    15 = {
+      "胡勒姆装甲师"  
+    }
+    16 = {
+      "艾伯克装甲师"  
+    }
+    17 = {
+      "希比尔甘装甲师"  
+    }
+    18 = {
+      "巴尔赫装甲师"  
+    }
+    19 = {
+      "梅马内装甲师" 
+    }
+    20 = {
+      "道拉塔巴德装甲师" 
+    }
+    21 = {
+      "塔林科特装甲师"
+    }
+    22 = {
+      "大叻装甲师" 
+    }
+    23 = {
+      "卡什装甲师" 
+    }
+    24 = {
+      "拉什卡尔装甲师"  
+    }
+    25 = {
+      "米拉巴德装甲师" 
+    }
+    26 = {
+      "第%d 装甲师"
+    }
+    27 = {
+      "第%d 装甲师"
+    }
+    28 = {
+      "第%d 装甲师"
+    }
+    29 = {
+      "第%d 装甲师"
+    }
+    30 = {
+      "第%d 装甲师"
+    }
+  }
+}
+AFG_MEC_01 = {
+  name = "机械化步兵师"  # Mechanised Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 机械化步兵师"
+  ordered = {
+    1 = {
+      "法扎巴德机械化步兵师"   
+    }
+    2 = {
+      "加兹尼机械化步兵师"   
+    }
+    3 = {
+      "赫拉特机械化步兵师"   
+    }
+    4 = {
+      "贾拉拉巴德机械化步兵师"   
+    }
+    5 = {
+      "坎大哈机械化步兵师"   
+    }
+    6 = {
+      "梅摩内机械化步兵师"   
+    }
+    7 = {
+      "马扎里沙里夫机械化步兵师"   
+    }
+    8 = {
+      "查希尔·沙赫机械化步兵师"   
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼机械化步兵师"  
+    }
+    10 = {
+      "纳迪尔沙机械化步兵师"   
+    }
+    11 = {
+      "多斯特·穆罕默德机械化步兵师"   
+    }
+    12 = {
+      "沙阿·舒雅机械化步兵师"  
+    }
+    13 = {
+      "塔卢坎机械化步兵师" 
+    }
+    14 = {
+      "昆都士机械化步兵师"  
+    }
+    15 = {
+      "胡勒姆机械化步兵师"  
+    }
+    16 = {
+      "艾伯克机械化步兵师"  
+    }
+    17 = {
+      "希比尔甘机械化步兵师"  
+    }
+    18 = {
+      "巴尔赫机械化步兵师"  
+    }
+    19 = {
+      "梅马内机械化步兵师" 
+    }
+    20 = {
+      "道拉塔巴德机械化步兵师" 
+    }
+    21 = {
+      "塔林科特机械化步兵师"
+    }
+    22 = {
+      "大叻机械化步兵师" 
+    }
+    23 = {
+      "卡什机械化步兵师" 
+    }
+    24 = {
+      "拉什卡尔机械化步兵师"  
+    }
+    25 = {
+      "米拉巴德机械化步兵师" 
+    }
+    26 = {
+      "第%d 机械化步兵师"
+    }
+    27 = {
+      "第%d 机械化步兵师"
+    }
+    28 = {
+      "第%d 机械化步兵师"
+    }
+    29 = {
+      "第%d 机械化步兵师"
+    }
+    30 = {
+      "第%d 机械化步兵师"
+    }
+  }
+}
+AFG_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 守备师"
+  ordered = {
+    1 = {
+      "法扎巴德动员师"  # Faizabad Militia
+    }
+    2 = {
+      "加兹尼动员师"  # Ghazni Militia
+    }
+    3 = {
+      "赫拉特动员师"  # Herat Militia
+    }
+    4 = {
+      "贾拉拉巴德动员师"  # Jalalabad Militia
+    }
+    5 = {
+      "坎大哈动员师"  # Kandahar Militia
+    }
+    6 = {
+      "梅摩内动员师"  # Maymeneh Militia
+    }
+    7 = {
+      "马扎里沙里夫动员师"  # Mazar-e Shar Militia
+    }
+    8 = {
+      "查希尔·沙赫动员师"  # Zahir Shah Militia
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼动员师"  # Abdur Rahman Militia
+    }
+    10 = {
+      "纳迪尔沙动员师"  # Nadir Shah Militia
+    }
+    11 = {
+      "多斯特·穆罕默德动员师"  # Dost Mohammed Militia
+    }
+    12 = {
+      "沙阿·舒雅动员师"  # Shah Shuja Militia
+    }
+    13 = {
+      "塔卢坎动员师"  # Taloqan Militia
+    }
+    14 = {
+      "昆都士动员师"  # Qondoz Militia
+    }
+    15 = {
+      "胡勒姆动员师"  # Kholm Militia
+    }
+    16 = {
+      "艾伯克动员师"  # Aybak Militia
+    }
+    17 = {
+      "希比尔甘动员师"  # Sheberghan Militia
+    }
+    18 = {
+      "巴尔赫动员师"  # Balkh Militia
+    }
+    19 = {
+      "梅马内动员师"  # Meymaneh Militia
+    }
+    20 = {
+      "道拉塔巴德动员师"  # Dawlatabad Militia
+    }
+    21 = {
+      "塔林科特动员师"  # Tarin Kowt Militia
+    }
+    22 = {
+      "大叻动员师"  # Dalat Militia
+    }
+    23 = {
+      "卡什动员师"  # Khash Militia
+    }
+    24 = {
+      "拉什卡尔加动员师"  # Lashkar Gan Militia
+    }
+    25 = {
+      "米拉巴德动员师"  # Mirabad Militia
+    }
+    26 = {
+      "法拉赫军区"  # Farah Military District
+    }
+    27 = {
+      "第%d 守备师"
+    }
+    28 = {
+      "第%d 守备师"
+    }
+    29 = {
+      "第%d 守备师"
+    }
+    30 = {
+      "第%d 守备师"
+    }
+  }
+}
+AFG_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 海军陆战师"
+  ordered = {
+    1 = {
+      "法扎巴德海军陆战师"  # Faizabad Marine Division
+    }
+    2 = {
+      "加兹尼海军陆战师"  # Ghazni Marine Division
+    }
+    3 = {
+      "赫拉特海军陆战师"  # Herat Marine Division
+    }
+    4 = {
+      "贾拉拉巴德海军陆战师"  # Jalalabad Marine Division
+    }
+    5 = {
+      "坎大哈海军陆战师"  # Kandahar Marine Division
+    }
+    6 = {
+      "梅摩内海军陆战师"  # Maymeneh Marine Division
+    }
+    7 = {
+      "马扎里沙里夫海军陆战师"  # Mazar-e Shar Marine Division
+    }
+    8 = {
+      "查希尔·沙赫海军陆战师"  # Zahir Shah Marine Division
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼海军陆战师"  # Abdur Rahman Marine Division
+    }
+    10 = {
+      "纳迪尔沙海军陆战师"  # Nadir Shah Marine Division
+    }
+    11 = {
+      "多斯特·穆罕默德海军陆战师"  # Dost Mohammed Marine Division
+    }
+    12 = {
+      "沙阿·舒雅海军陆战师"  # Shah Shuja Marine Division
+    }
+    13 = {
+      "塔卢坎海军陆战师"  # Taloqan Marine Division
+    }
+    14 = {
+      "昆都士海军陆战师"  # Qondoz Marine Division
+    }
+    15 = {
+      "胡勒姆海军陆战师"  # Kholm Marine Division
+    }
+    16 = {
+      "艾伯克海军陆战师"  # Aybak Marine Division
+    }
+    17 = {
+      "希比尔甘海军陆战师"  # Sheberghan Marine Division
+    }
+    18 = {
+      "巴尔赫海军陆战师"  # Balkh Marine Division
+    }
+    19 = {
+      "梅马内海军陆战师"  # Meymaneh Marine Division
+    }
+    20 = {
+      "道拉塔巴德海军陆战师"  # Dawlatabad Marine Division
+    }
+    21 = {
+      "塔林科特海军陆战师"  # Tarin Kowt Marine Division
+    }
+    22 = {
+      "大叻海军陆战师"  # Dalat Marine Division
+    }
+    23 = {
+      "卡什海军陆战师"  # Khash Marine Division
+    }
+    24 = {
+      "拉什卡尔加海军陆战师"  # Lashkar Gan Marine Division
+    }
+    25 = {
+      "米拉巴德海军陆战师"  # Mirabad Marine Division
+    }
+    26 = {
+      "第%d 海军陆战师"
+    }
+    27 = {
+      "第%d 海军陆战师"
+    }
+    28 = {
+      "第%d 海军陆战师"
+    }
+    29 = {
+      "第%d 海军陆战师"
+    }
+    30 = {
+      "第%d 海军陆战师"
+    }
+  }
+}
+AFG_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 山地师"
+  ordered = {
+    1 = {
+      "法扎巴德山地师"  # Faizabad Mountain Division
+    }
+    2 = {
+      "加兹尼山地师"  # Ghazni Mountain Division
+    }
+    3 = {
+      "赫拉特山地师"  # Herat Mountain Division
+    }
+    4 = {
+      "贾拉拉巴德山地师"  # Jalalabad Mountain Division
+    }
+    5 = {
+      "坎大哈山地师"  # Kandahar Mountain Division
+    }
+    6 = {
+      "梅摩内山地师"  # Maymeneh Mountain Division
+    }
+    7 = {
+      "马扎里沙里夫山地师"  # Mazar-e Shar Mountain Division
+    }
+    8 = {
+      "查希尔·沙赫山地师"  # Zahir Shah Mountain Division
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼山地师"  # Abdur Rahman Mountain Division
+    }
+    10 = {
+      "纳迪尔沙山地师"  # Nadir Shah Mountain Division
+    }
+    11 = {
+      "多斯特·穆罕默德山地师"  # Dost Mohammed Mountain Division
+    }
+    12 = {
+      "沙阿·舒雅山地师"  # Shah Shuja Mountain Division
+    }
+    13 = {
+      "塔卢坎山地师"  # Taloqan Mountain Division
+    }
+    14 = {
+      "昆都士山地师"  # Qondoz Mountain Division
+    }
+    15 = {
+      "胡勒姆山地师"  # Kholm Mountain Division
+    }
+    16 = {
+      "艾伯克山地师"  # Aybak Mountain Division
+    }
+    17 = {
+      "希比尔甘山地师"  # Sheberghan Mountain Division
+    }
+    18 = {
+      "巴尔赫山地师"  # Balkh Mountain Division
+    }
+    19 = {
+      "梅马内山地师"  # Meymaneh Mountain Division
+    }
+    20 = {
+      "道拉塔巴德山地师"  # Dawlatabad Mountain Division
+    }
+    21 = {
+      "塔林科特山地师"  # Tarin Kowt Mountain Division
+    }
+    22 = {
+      "大叻山地师"  # Dalat Mountain Division
+    }
+    23 = {
+      "卡什山地师"  # Khash Mountain Division
+    }
+    24 = {
+      "拉什卡尔加山地师"  # Lashkar Gan Mountain Division
+    }
+    25 = {
+      "米拉巴德山地师"  # Mirabad Mountain Division
+    }
+    26 = {
+      "第%d 山地师"
+    }
+    27 = {
+      "第%d 山地师"
+    }
+    28 = {
+      "第%d 山地师"
+    }
+    29 = {
+      "第%d 山地师"
+    }
+    30 = {
+      "第%d 山地师"
+    }
+  }
+}
+AFG_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    AFG
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  link_numbering_with = {
+    AFG_INF_01
+  }
+  fallback_name = "第%d 伞兵师"
+  ordered = {
+    1 = {
+      "法扎巴德伞兵师"  # Faizabad Para Division
+    }
+    2 = {
+      "加兹尼伞兵师"  # Ghazni Para Division
+    }
+    3 = {
+      "赫拉特伞兵师"  # Herat Para Division
+    }
+    4 = {
+      "贾拉拉巴德伞兵师"  # Jalalabad Para Division
+    }
+    5 = {
+      "坎大哈伞兵师"  # Kandahar Para Division
+    }
+    6 = {
+      "梅摩内伞兵师"  # Maymeneh Para Division
+    }
+    7 = {
+      "马扎里沙利夫伞兵师"  # Mazar-e Shar Para Division
+    }
+    8 = {
+      "查希尔·沙赫伞兵师"  # Zahir Shah Para Division
+    }
+    9 = {
+      "阿卜杜勒·拉赫曼伞兵师"  # Abdur Rahman Para Division
+    }
+    10 = {
+      "纳迪尔沙伞兵师"  # Nadir Shah Para Division
+    }
+    11 = {
+      "多斯特·穆罕默德伞兵师"  # Dost Mohammed Para Division
+    }
+    12 = {
+      "沙阿·舒雅伞兵师"  # Shah Shuja Para Division
+    }
+    13 = {
+      "塔卢坎师"  # Taloqan Para Division
+    }
+    14 = {
+      "昆都士伞兵师"  # Qondoz Para Division
+    }
+    15 = {
+      "胡勒姆伞兵师"  # Kholm Para Division
+    }
+    16 = {
+      "艾伯克伞兵师"  # Aybak Para Division
+    }
+    17 = {
+      "希比尔甘伞兵师"  # Sheberghan Para Division
+    }
+    18 = {
+      "巴尔赫伞兵师"  # Balkh Para Division
+    }
+    19 = {
+      "梅马内伞兵师"  # Meymaneh Para Division
+    }
+    20 = {
+      "道拉塔巴德伞兵师"  # Dawlatabad Para Division
+    }
+    21 = {
+      "塔林科特伞兵师"  # Tarin Kowt Para Division
+    }
+    22 = {
+      "大叻伞兵师"  # Dalat Para Division
+    }
+    23 = {
+      "卡什伞兵师"  # Khash Para Division
+    }
+    24 = {
+      "拉什卡尔加师伞兵师"  # Lashkar Gan Para Division
+    }
+    25 = {
+      "米拉巴德师伞兵师"  # Mirabad Para Division
+    }
+    26 = {
+      "第%d 伞兵师"
+    }
+    27 = {
+      "第%d 伞兵师"
+    }
+    28 = {
+      "第%d 伞兵师"
+    }
+    29 = {
+      "第%d 伞兵师"
+    }
+    30 = {
+      "第%d 伞兵师"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿units = {
+  fleet = {
+    name = "拉脱维亚海军"  # Latvijas Juras Speki
+    naval_base = 9340
+    task_force = {
+      name = "拉脱维亚海军"  # Latvijas Juras Speki
+      location = 9340
+      ship = {
+        name = "罗尼斯"  # Ronis
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = LAT
+          }
+        }
+      }
+      ship = {
+        name = "斯皮多拉"  # Spidola
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = LAT
+          }
+        }
+      }
+    }
+  }
+}

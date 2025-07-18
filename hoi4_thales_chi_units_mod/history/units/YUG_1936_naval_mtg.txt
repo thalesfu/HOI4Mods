@@ -1,0 +1,76 @@
+﻿units = {
+  fleet = {
+    name = "皇家海军"  # Kraljevska Mornarica
+    naval_base = 3924
+    task_force = {
+      name = "皇家海军"  # Kraljevska Mornarica
+      location = 3924
+      ship = {
+        name = "达尔马提亚"  # KB Dalmacija
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = YUG
+            version_name = "达尔马提亚级"  # Dalmacija Class
+          }
+        }
+      }
+      ship = {
+        name = "杜布罗夫尼克"  # KB Dubrovnik
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = YUG
+            version_name = "杜布罗夫尼克级"  # Dubrovnik Class
+          }
+        }
+      }
+      ship = {
+        name = "勇敢"  # KB Hrabri
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = YUG
+            version_name = "勇敢级"  # Hrabri Class
+          }
+        }
+      }
+      ship = {
+        name = "内博伊沙"  # KB Nebojsa
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = YUG
+            version_name = "勇敢级"  # Hrabri Class
+          }
+        }
+      }
+      ship = {
+        name = "胆量"  # KB Smeli
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = YUG
+            version_name = "勇敢级"  # Hrabri Class
+          }
+        }
+      }
+      ship = {
+        name = "复仇者"  # KB Osvetnik
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = YUG
+            version_name = "勇敢级"  # Hrabri Class
+          }
+        }
+      }
+    }
+  }
+}

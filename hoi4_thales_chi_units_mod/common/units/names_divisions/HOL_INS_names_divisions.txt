@@ -1,0 +1,573 @@
+﻿HOL_INF_01 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    HOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d师"  # %de Divisie
+  ordered = {
+    1 = {
+      "第%d师"  # %de Divisie
+    }
+    2 = {
+      "第%d师"  # %de Divisie
+    }
+    3 = {
+      "第%d师"  # %de Divisie
+    }
+    4 = {
+      "第%d师"  # %de Divisie
+    }
+    5 = {
+      "第%d师"  # %de Divisie
+    }
+    6 = {
+      "第%d师"  # %de Divisie
+    }
+    7 = {
+      "第%d师"  # %de Divisie
+    }
+    8 = {
+      "第%d师"  # %de Divisie
+    }
+    101 = {
+      "轻装师"  # Lichte Divisie
+    }
+    102 = {
+      "皮尔师"  # Peel Divisie
+    }
+    9 = {
+      "第%d师"  # %de Divisie
+    }
+    10 = {
+      "第%d师"  # %de Divisie
+    }
+    11 = {
+      "第%d师"  # %de Divisie
+    }
+    12 = {
+      "第%d师"  # %de Divisie
+    }
+    13 = {
+      "第%d师"  # %de Divisie
+    }
+    14 = {
+      "第%d师"  # %de Divisie
+    }
+    15 = {
+      "第%d师"  # %de Divisie
+    }
+    16 = {
+      "第%d师"  # %de Divisie
+    }
+    17 = {
+      "第%d师"  # %de Divisie
+    }
+    18 = {
+      "第%d师"  # %de Divisie
+    }
+    19 = {
+      "第%d师"  # %de Divisie
+    }
+    20 = {
+      "第%d师"  # %de Divisie
+    }
+  }
+}
+HOL_CAV_01 = {
+  name = "骑兵师"  # Cavalry Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d轻骑师"  # %de Huzaren te Paard
+  ordered = {
+    1 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    2 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    3 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    4 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    5 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    6 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    7 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    8 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    9 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+    10 = {
+      "第%d轻骑师"  # %de Huzaren te Paard
+    }
+  }
+}
+HOL_MOT_01 = {
+  name = "摩托化步兵师"  # Motorized Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    HOL_INF_01
+  }
+  fallback_name = "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+  ordered = {
+    101 = {
+      "轻装师"  # Lichte Divisie
+    }
+    1 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    2 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    3 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    4 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    5 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    6 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    7 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    8 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    9 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+    10 = {
+      "第%d机动骑兵师"  # %de Gemotoriseerde Huzaren
+    }
+  }
+}
+HOL_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    HOL_INF_01
+  }
+  fallback_name = "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+  ordered = {
+    101 = {
+      "轻装师"  # Lichte Divisie
+    }
+    1 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    2 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    3 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    4 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    5 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    6 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    7 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    8 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    9 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+    10 = {
+      "第%d机械化骑兵师"  # %de Gemechaniseerde Huzaren
+    }
+  }
+}
+HOL_ARM_01 = {
+  name = "装甲师"  # Armored Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # %de Pantserdivisie
+  ordered = {
+    1 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    2 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    3 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    4 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    5 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    6 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    7 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    8 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    9 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+    10 = {
+      "第%d装甲师"  # %de Pantserdivisie
+    }
+  }
+}
+HOL_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d伞兵师"  # %de Parachutistendivisie
+  ordered = {
+    1 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    2 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    3 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    4 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    5 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    6 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    7 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    8 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    9 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+    10 = {
+      "第%d伞兵师"  # %de Parachutistendivisie
+    }
+  }
+}
+HOL_MAR_01 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d海军陆战师"  # %de Mariniersdivisie
+  ordered = {
+    1 = {
+      "第%d陆战'黑魔鬼'师"
+    }
+    2 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    3 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    4 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    5 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    6 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    7 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    8 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    9 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+    10 = {
+      "第%d海军陆战师"  # %de Mariniersdivisie
+    }
+  }
+}
+HOL_MNT_01 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    HOL_INF_01
+  }
+  fallback_name = "第%d师"  # %de Divisie
+  ordered = {
+    1 = {
+      "第%d师"  # %de Divisie
+    }
+    2 = {
+      "第%d师"  # %de Divisie
+    }
+    3 = {
+      "第%d师"  # %de Divisie
+    }
+    4 = {
+      "第%d师"  # %de Divisie
+    }
+    5 = {
+      "第%d师"  # %de Divisie
+    }
+    6 = {
+      "第%d师"  # %de Divisie
+    }
+    7 = {
+      "第%d师"  # %de Divisie
+    }
+    8 = {
+      "第%d师"  # %de Divisie
+    }
+    9 = {
+      "第%d师"  # %de Divisie
+    }
+    10 = {
+      "第%d师"  # %de Divisie
+    }
+  }
+}
+HOL_GAR_01 = {
+  name = "守备师"  # Garrison Division
+  for_countries = {
+    HOL
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    HOL_INF_01
+  }
+  fallback_name = "第%d要塞师"  # %de Vesting Divisie
+  ordered = {
+    102 = {
+      "皮尔师"  # Peel Divisie
+    }
+    103 = {
+      "'东线'荷兰要塞师"  # 'Oostfront' Vesting Holland
+    }
+    104 = {
+      "'西线'荷兰要塞师"  # 'Westfront' Vesting Holland
+    }
+    105 = {
+      "斯普伊师"  # Divisie Spui
+    }
+    106 = {
+      "基尔师"  # Divisie Kil
+    }
+    107 = {
+      "Territoriaal Bevel. Overijssel"
+    }
+    108 = {
+      "Territoriaal Bevel. Friesland"
+    }
+    109 = {
+      "Territoriaal Bevel. Zuid-Limburg"
+    }
+    110 = {
+      "登海尔德守备师"  # Stelling Den Helder
+    }
+    111 = {
+      "阿姆斯特丹守备师"  # Stelling  Amsterdam
+    }
+    112 = {
+      "鹿特丹守备师"  # Stelling Rotterdam 
+    }
+    113 = {
+      "海牙守备师"  # Stelling 's Gravenhage
+    }
+    114 = {
+      "乌得勒支守备师"  # Stelling Utrecht
+    }
+    115 = {
+      "索斯特堡守备师"  # Stelling Soesterberg
+    }
+  }
+}
+INS_INF_01 = {
+  name = "殖民地师"  # Colonial Division
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "荷兰皇家东印度陆军第%s师"  # %se KNIL Divisie
+  ordered = {
+    1 = {
+      "荷兰皇家东印度陆军第%s师'爪哇'"  # %se KNIL Divisie 'Java'
+    }
+    2 = {
+      "荷兰皇家东印度陆军第%s师'爪哇'"  # %se KNIL Divisie 'Java'
+    }
+    3 = {
+      "荷兰皇家东印度陆军第%s师'爪哇'"  # %se KNIL Divisie 'Java'
+    }
+    4 = {
+      "荷兰皇家东印度陆军第%s师'苏门答腊'"  # %se KNIL Divisie 'Sumatra'
+    }
+    5 = {
+      "荷兰皇家东印度陆军第%s师'苏门答腊'"  # %se KNIL Divisie 'Sumatra'
+    }
+    6 = {
+      "荷兰皇家东印度陆军第%s师'婆罗洲'"  # %se KNIL Divisie 'Borneo'
+    }
+    7 = {
+      "荷兰皇家东印度陆军第%s师'婆罗洲'"  # %se KNIL Divisie 'Borneo'
+    }
+    8 = {
+      "荷兰皇家东印度陆军第%s师'苏拉威西'"  # %se KNIL Divisie 'Celebes'
+    }
+    9 = {
+      "荷兰皇家东印度陆军第%s师'苏门答腊'"  # %se KNIL Divisie 'Sumatra'
+    }
+    10 = {
+      "荷兰皇家东印度陆军第%s师'爪哇'"  # %se KNIL Divisie 'Java'
+    }
+  }
+}
+INS_GAR_01 = {
+  name = "殖民地守备师"  # Colonial Garrison
+  for_countries = {
+    HOL
+    INS
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%s警备司令队"  # %se Territoriaal Commando
+  ordered = {
+    1 = {
+      "第%s警备司令队'苏门答腊'"  # %se Territoriaal Commando 'Sumatra'
+    }
+    2 = {
+      "第%s警备司令队'苏门答腊'"  # %se Territoriaal Commando 'Sumatra'
+    }
+    3 = {
+      "第%s警备司令队'婆罗洲'"  # %se Territoriaal Commando 'Borneo'
+    }
+    4 = {
+      "第%s警备司令队'苏拉威西'"  # %se Territoriaal Commando 'Celebes'
+    }
+    5 = {
+      "第%s警备司令队'苏门答腊'"  # %se Territoriaal Commando 'Sumatra'
+    }
+    6 = {
+      "第%s警备司令队'婆罗洲'"  # %se Territoriaal Commando 'Borneo'
+    }
+    7 = {
+      "第%s警备司令队'爪哇'"  # %se Territoriaal Commando 'Java'
+    }
+    8 = {
+      "第%s警备司令队'爪哇'"  # %se Territoriaal Commando 'Java'
+    }
+    9 = {
+      "第%s警备司令队'苏门答腊'"  # %se Territoriaal Commando 'Sumatra'
+    }
+    10 = {
+      "第%s警备司令队'苏门答腊'"  # %se Territoriaal Commando 'Sumatra'
+    }
+  }
+}

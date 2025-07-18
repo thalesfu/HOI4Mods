@@ -1,0 +1,12 @@
+﻿SWE_RG = {
+	for_countries = { SWE }
+	type = railway_gun
+	fallback_name = "%d号列车炮"
+	ordered = {
+		1 = {"%d号佩尔·阿尔宾·汉森列车炮"}
+		2 = {"%d号古斯塔夫五世列车炮"}
+		3 = {"%d号瓦萨列车炮"}
+		4 = {"%d号诺贝尔列车炮"}
+		5 = {"%d号摄尔修斯列车炮"}
+	}
+}

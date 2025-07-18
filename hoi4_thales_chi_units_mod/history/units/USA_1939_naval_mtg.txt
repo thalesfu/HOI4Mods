@@ -1,0 +1,3669 @@
+﻿units = {
+  fleet = {
+    name = "战斗部队"  # Battle Force
+    naval_base = 1562
+    task_force = {
+      name = "战列舰战斗部队"  # Battleships, Battle Force
+      location = 9814
+      ship = {
+        name = "USS 内华达"  # USS Nevada
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 宾夕法尼亚"  # USS Pennsylvania
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 亚利桑那"  # USS Arizona
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 俄克拉荷马"  # USS Oklahoma
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 田纳西"  # USS Tennessee
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 加利福尼亚"  # USS California
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 新墨西哥"  # USS New Mexico
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 密西西比"  # USS Mississippi
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 爱达荷"  # USS Idaho
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 科罗拉多"  # USS Colorado
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "科罗拉多级"  # Colorado Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 马里兰"  # USS Maryland
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "科罗拉多级"  # Colorado Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 西弗吉尼亚"  # USS West Virginia
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "科罗拉多级"  # Colorado Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第1航母编队"  # Carrier Division 1
+      location = 9814
+      ship = {
+        name = "USS 列克星敦"  # USS Lexington
+        definition = carrier
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = USA
+            version_name = "列克星敦级"  # Lexington Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 萨拉托加"  # USS Saratoga
+        definition = carrier
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = USA
+            version_name = "列克星敦级"  # Lexington Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2航母编队"  # Carrier Division 2
+      location = 1562
+      ship = {
+        name = "USS 企业"  # USS Enterprise
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_1 = {
+            amount = 1
+            owner = USA
+            version_name = "约克城级"  # Yorktown Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 约克城"  # USS Yorktown
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_1 = {
+            amount = 1
+            owner = USA
+            version_name = "约克城级"  # Yorktown Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "巡洋舰战斗部队"  # Cruisers, Battle Force
+      location = 9814
+      ship = {
+        name = "USS 布鲁克林"  # USS Brooklyn
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 费城"  # USS Philadelphia
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 萨凡纳"  # USS Savannah
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 纳什维尔"  # USS Nashville
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 凤凰"  # USS Phoenix
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 博伊西"  # USS Boise
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 火奴鲁鲁"  # USS Honolulu
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 圣路易斯"  # USS St. Louis
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "布鲁克林级"  # Brooklyn Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3巡洋舰编队"  # Cruiser Division 3
+      location = 1562
+      ship = {
+        name = "USS 奥马哈"  # USS Omaha
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 密尔沃基"  # USS Milwaukee
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 辛辛那提"  # USS Cincinnati
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 康科德"  # USS Concord
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 奥格拉拉"  # USS Oglala
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥格拉拉级"  # Oglala Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 阿鲁斯图克"  # USS Aroostook
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥格拉拉级"  # Oglala Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第1驱逐舰舰队"  # Destroyer Flotilla 1
+      location = 1562
+      ship = {
+        name = "USS 罗利"  # USS Raleigh
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 费尔普斯"  # USS Phelps
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 杜威"  # USS Dewey
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 赫尔"  # USS Hull
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦克多诺"  # USS MacDonough
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 沃登"  # USS Worden
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 法拉格特"  # USS Farragut
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 戴尔"  # USS Dale
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 蒙纳干"  # USS Monaghan
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾尔文"  # USS Aylwin
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 波特"  # USS Porter
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 马汉"  # USS Mahan
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 杜雷顿"  # USS Drayton
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 林森"  # USS Lamson
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 傅拉瑟"  # USS Flusser
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 顾盛"  # USS Cushing
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 柏金斯"  # USS Perkins
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 史密夫"  # USS Smith
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 普雷斯顿"  # USS Preston
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 克拉克"  # USS Clark
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 里德"  # USS Reid
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 康宁汉"  # USS Conyngham
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 卡森"  # USS Cassin
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 唐恩"  # USS Downes
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 甘明斯"  # USS Cummings
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 凯斯"  # USS Case
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 邵"  # USS Shaw
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 塔克"  # USS Tucker
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦道加"  # USS McDougal
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 萨默斯"  # USS Somers
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 沃灵顿"  # USS Warrington
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 温斯洛"  # USS Winslow
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 桑普森"  # USS Sampson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 戴维斯"  # USS Davis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 朱厄特"  # USS Jouett
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2驱逐舰舰队"  # Destroyer Flotilla 2
+      location = 1562
+      ship = {
+        name = "USS 底特律"  # USS Detroit
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 塞弗里奇"  # USS Selfridge
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴格莱"  # USS Bagley
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 布卢"  # USS Blue
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 赫姆"  # USS Helm
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 亨雷"  # USS Henley
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦霍"  # USS Mugford
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 拉夫·塔尔博特"  # USS Ralph Talbot
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 柏德森"  # USS Patterson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 贾维斯"  # USS Jarvis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴区"  # USS Balch
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 格里德利"  # USS Gridley
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 克雷文"  # USS Craven
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 莫雷"  # USS Maury
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦哥"  # USS McCall
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 邓拉普"  # USS Dunlap
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 范宁"  # USS Fanning
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 班汉"  # USS Benham
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 埃利特"  # USS Ellet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 莫菲特"  # USS Moffett
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "法拉格特级"  # Farragut Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 赞恩"  # USS Zane
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 瓦斯穆特"  # USS Wasmuth
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 崔佛"  # USS Trever
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 派里"  # USS Perry
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 钱德勒"  # USS Chandler
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 苏哈德"  # USS Southard
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 哈维"  # USS Hovey
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 朗"  # USS Long
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 利"  # USS Lea
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 兰"  # USS Lang
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 斯特雷"  # USS Sterett
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 威尔逊"  # USS Wilson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 梅兰"  # USS Mayrant
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 拉斯伯恩"  # USS Rathburne
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 塔尔博特"  # USS Talbot
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 华特斯"  # USS Waters
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 登特"  # USS Dent
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第31驱逐舰中队"  # Destroyer Squadron  31
+      location = 9671
+      ship = {
+        name = "USS 麦克利什"  # USS MacLeish
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 麦科米克"  # USS McCormick
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 斯图尔特文"  # USS Sturtevant
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 奥文顿"  # USS Overton
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 班布里奇"  # USS Bainbridge
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 汉弗莱斯"  # USS Humphreys
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 金恩"  # USS King
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 森斯"  # USS Sands
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 劳伦斯"  # USS Lawrence
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "侦察部队"  # Scouting Force
+    naval_base = 9814
+    task_force = {
+      name = "侦察部队"  # Scouting Force
+      location = 9814
+      ship = {
+        name = "USS 孟菲斯"  # USS Memphis
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 彭萨科拉"  # USS Pensacola
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 盐湖城"  # USS Salt Lake City
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 北安普顿"  # USS Northampton
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 休斯敦"  # USS Houston
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 切斯特"  # USS Chester
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 路易斯维尔"  # USS Louisville
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 芝加哥"  # USS Chicago
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 波特兰"  # USS Portland
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 新奥尔良"  # USS New Orleans
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "新奥尔良级"  # New Orleans Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 阿斯托利亚"  # USS Astoria
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "新奥尔良级"  # New Orleans Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 明尼阿波利斯"  # USS Minneapolis
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "新奥尔良级"  # New Orleans Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 印第安纳波利斯"  # USS Indianapolis
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "波特兰级"  # Portland Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "潜艇基地部队"  # Submarine Base Force
+    naval_base = 1562
+    task_force = {
+      name = "潜艇基地部队"  # Submarine Base Force
+      location = 1562
+      ship = {
+        name = "USS 里士满"  # USS Richmond
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 利齐菲"  # USS Litchfield
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第4潜艇中队"  # 4th Submarine Squadron
+      location = 4180
+      ship = {
+        name = "USS S-18"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-23"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-34"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-35"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 阿尔戈英雄"  # USS Argonaut
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 独角鲸"  # USS Narwhal
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鹦鹉螺"  # USS Nautilus
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 海豚"  # USS Dolphin
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲨鱼"  # USS Shark
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 吸盘鱼"  # USS Plunger
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 青鳕"  # USS Pollack
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲳参鱼"  # USS Pompano
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 抹香鲸"  # USS Cachalot
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 乌贼"  # USS Cuttlefish
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第6潜艇中队"  # 6th Submarine Squadron
+      location = 1562
+      ship = {
+        name = "USS 鲑鱼"  # USS Salmon
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 海豹"  # USS Seal
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 金枪鱼"  # USS Skipkack
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲷鱼"  # USS Snapper
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 黄貂鱼"  # USS Stingray
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲟鱼"  # USS Sturgeon
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 重牙鲷"  # USS Sargo
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 针鱼"  # USS Saury
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 枪鱼"  # USS Spearfish
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 大头鱼"  # USS Sculpin
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 角鲨"  # USS Squalus
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 剑鱼"  # USS Swordfish
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "鲑鱼级"  # Salmon Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-27"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-28"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "太平洋预备舰队"  # Pacific Reserve Fleet
+    naval_base = 1562
+    task_force = {
+      name = "太平洋预备驱逐舰舰队"  # Pacific Reserve Destroyers
+      location = 1562
+      ship = {
+        name = "USS 雪利"  # USS Schley
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 赵"  # USS Chew
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 克兰"  # USS Crane
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 凯提"  # USS Kilty
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 肯尼逊"  # USS Kennison
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 华德"  # USS Ward
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 克罗斯比"  # USS Crosby
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 多西"  # USS Dorsey
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾略特"  # USS Elliot
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 博斯"  # USS Boggs
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "大西洋舰队"  # Atlantic Fleet
+    naval_base = 788
+    task_force = {
+      name = "大西洋中队"  # Atlantic Squadron
+      location = 788
+      ship = {
+        name = "USS 游骑兵"  # USS Ranger
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_1 = {
+            amount = 1
+            owner = USA
+            version_name = "游骑兵级"  # Ranger Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 阿肯色"  # USS Arkansas
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "纽约级"  # New York Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 纽约"  # USS New York
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "纽约级"  # New York Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 德克萨斯"  # USS Texas
+        definition = battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = USA
+            version_name = "纽约级"  # New York Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 威奇塔"  # USS Wichita
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "威奇塔级"  # Wichita Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 文森尼斯"  # USS Vincennes
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "新奥尔良级"  # New Orleans Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 昆西"  # USS Quincy
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "新奥尔良级"  # New Orleans Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 圣弗朗西斯科"  # USS San Francisco
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "新奥尔良级"  # New Orleans Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 塔斯卡卢萨"  # USS Tuscaloosa
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = USA
+            version_name = "新奥尔良级"  # New Orleans Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 迪凯特"  # USS Decatur
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲁本·詹姆斯"  # USS Reuben James
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 戈夫"  # USS Goff
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴里"  # USS Barry
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 霍普金斯"  # USS Hopkins
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 利里"  # USS Leary
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 申克"  # USS Schenck
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 布鲁姆"  # USS Broome
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 波利"  # USS Borie
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 辛普森"  # USS Simpson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 特鲁斯顿"  # USS Truxtun
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 白吉尔"  # USS Badger
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 雅各·琼斯"  # USS Jacob Jones
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 迪克森"  # USS Babbitt
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 赫伯特"  # USS Hamilton
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴比特"  # USS Roper
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第12驱逐舰中队"  # Destroyer Squadron 12
+      location = 3878
+      ship = {
+        name = "USS 辛姆斯"  # USS Sims
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 安德森"  # USS Anderson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 哈曼"  # USS Hammann
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = USA
+            version_name = "希姆斯级"  # Sims Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第30驱逐舰中队"  # Destroyer Squadron 30
+      location = 6845
+      ship = {
+        name = "USS 吉尔默"  # USS Gilmer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 杜邦"  # USS Du Pont
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 伯纳度"  # USS Bernadou
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾利斯"  # USS Ellis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 高尔"  # USS Cole
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 塔贝尔"  # USS Tarbell
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 厄普舍"  # USS Upshur
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 基尔"  # USS Greer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第41驱逐舰中队"  # Destroyer Squadron 41
+      location = 6845
+      ship = {
+        name = "USS 达拉斯"  # USS Dallas
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 哈特菲尔德"  # USS Hatfield
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 布鲁克斯"  # USS Brooks
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 福克斯"  # USS Fox
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 凯恩"  # USS Kane
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 布雷肯里奇"  # USS Breckinridge
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴尼"  # USS Barney
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 布莱克利"  # USS Blakeley
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 比德尔"  # USS Biddle
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第2潜艇中队"  # 2nd Submarine Squadron
+      location = 9832
+      ship = {
+        name = "USS R-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-10"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-13"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-14"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-21"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-24"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-25"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-26"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-29"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-30"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-20"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-22"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "特种任务舰队"  # Special Assignment Forces
+    naval_base = 7617
+    task_force = {
+      name = "40-T中队"  # Squadron 40-T
+      location = 6732
+      ship = {
+        name = "USS 特伦顿"  # USS Trenton
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 迪克森"  # USS Dickerson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 赫伯特"  # USS Herbert
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "特勤中队"  # Special Service Squadron
+      location = 7617
+      ship = {
+        name = "USS 塔特纳尔"  # USS Tattnall
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS J·弗雷德·塔尔博特"  # USS J Fred Talbott
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第3潜艇中队"  # 3rd Submarine Squadron
+      location = 7617
+      ship = {
+        name = "USS S-42"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-43"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-44"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-45"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-46"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-47"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "大西洋预备舰队"  # Atlantic Reserve Fleet
+    naval_base = 6845
+    task_force = {
+      name = "大西洋预备驱逐舰舰队"  # Atlantic Reserve Destroyers
+      location = 6845
+      ship = {
+        name = "USS 艾伦"  # USS Allen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 诺亚"  # USS Noa
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 戴尔根"  # USS Dahlgren
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "预备潜艇中队"  # Reserve Submarine Squadron
+      location = 6845
+      ship = {
+        name = "USS O-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS O-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS O-4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS O-6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS O-7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS O-8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS O-9"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS O-10"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-9"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-12"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-15"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-16"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-17"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-18"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-19"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS R-20"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-12"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-13"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-14"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-15"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-16"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-17"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-31"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-32"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-33"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-48"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 梭鱼"  # USS Barracuda
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 巴斯"  # USS Bass
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 博尼塔"  # USS Bonita
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "梭鱼级"  # Barracuda Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "亚太舰队"  # Asiatic Fleet
+    naval_base = 10265
+    task_force = {
+      name = "亚太舰队"  # Asiatic Fleet
+      location = 10265
+      ship = {
+        name = "USS 奥古斯塔"  # USS Augusta
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "彭萨科拉级"  # Pensacola Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 马布尔"  # USS Marblehead
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = USA
+            version_name = "奥马哈级"  # Omaha Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 保罗·琼斯"  # USS Paul Jones
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 奥尔登"  # USS Alden
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 百克"  # USS Barker
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 约翰·D·爱德华"  # USS John D Edwards
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 惠普尔"  # USS Whipple
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 艾德索"  # USS Edsall
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 帕罗特"  # USS Parrott
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲍尔默"  # USS Bulmer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 斯图尔特"  # USS Stewart
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 波普"  # USS Pope
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 皮斯伯里"  # USS Pillsbury
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 约翰·D·福特"  # USS John D Ford
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 皮里"  # USS Peary
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = USA
+            version_name = "克莱姆森级"  # Clemson Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第5潜艇中队"  # 5th Submarine Squadron
+      location = 10265
+      ship = {
+        name = "USS S-36"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-37"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-38"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-39"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-40"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS S-41"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = USA
+            version_name = "S级"  # S Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 海豚"  # USS Porpoise
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 梭子鱼"  # USS Pike
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 海鲢"  # USS Tarpon
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲈鱼"  # USS Perch
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 小梭鱼"  # USS Pickerel
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+      ship = {
+        name = "USS 鲹鱼"  # USS Permit
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = USA
+            version_name = "海豚级"  # Porpoise Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_carrier_1
+      creator = "USA"
+      version_name = "黄蜂级"  # Wasp Class
+    }
+    name = " USS 黄蜂"  # USS Wasp
+    requested_factories = 3
+    progress = 0.40
+    amount = 1
+    industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_2
+      creator = "USA"
+      version_name = "布鲁克林级"  # Brooklyn Class
+    }
+    name = " USS 海伦娜"  # USS Helena
+    requested_factories = 2
+    progress = 0.95
+    amount = 1
+    industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "USA"
+      version_name = "希姆斯级"  # Sims Class
+    }
+    name = " USS 特里普"  # USS Trippe
+    requested_factories = 1
+    progress = 0.75
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "USA"
+      version_name = "希姆斯级"  # Sims Class
+    }
+    name = " USS 兰德"  # USS Rhind
+    requested_factories = 1
+    progress = 0.95
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "USA"
+      version_name = "希姆斯级"  # Sims Class
+    }
+    name = " USS 路云"  # USS Rowan
+    requested_factories = 1
+    progress = 0.75
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "USA"
+      version_name = "希姆斯级"  # Sims Class
+    }
+    name = " USS 史达克"  # USS Stack
+    requested_factories = 1
+    progress = 0.75
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "USA"
+      version_name = "希姆斯级"  # Sims Class
+    }
+    name = " USS 休斯"  # USS Hughes
+    requested_factories = 1
+    progress = 0.95
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "USA"
+      version_name = "希姆斯级"  # Sims Class
+    }
+    name = " USS 马斯廷"  # USS Mustin
+    requested_factories = 1
+    progress = 0.95
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "USA"
+      version_name = "希姆斯级"  # Sims Class
+    }
+    name = " USS 拉塞尔"  # USS Russell
+    requested_factories = 1
+    progress = 0.75
+    amount = 1
+    industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "USA"
+      version_name = "鲑鱼级"  # Salmon Class
+    }
+    name = " USS 海龙"  # USS Seadragon
+    requested_factories = 1
+    progress = 0.85
+    amount = 1
+    industrial_manufacturer = mio:USA_electric_boat_company_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "USA"
+      version_name = "鲑鱼级"  # Salmon Class
+    }
+    name = " USS 海狮"  # USS Sealion
+    requested_factories = 1
+    progress = 0.70
+    amount = 1
+    industrial_manufacturer = mio:USA_electric_boat_company_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "USA"
+      version_name = "鲑鱼级"  # Salmon Class
+    }
+    name = " USS 杜父鱼"  # USS Searaven
+    requested_factories = 1
+    progress = 0.85
+    amount = 1
+    industrial_manufacturer = mio:USA_electric_boat_company_organization
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "USA"
+      version_name = "鲑鱼级"  # Salmon Class
+    }
+    name = " USS 海狼"  # USS Seawolf
+    requested_factories = 1
+    progress = 0.55
+    amount = 1
+    industrial_manufacturer = mio:USA_electric_boat_company_organization
+  }
+}

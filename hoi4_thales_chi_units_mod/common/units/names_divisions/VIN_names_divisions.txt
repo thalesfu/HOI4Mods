@@ -1,0 +1,1391 @@
+﻿VIN_INF_01 = {
+  name = "步兵师"  # Infantry Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d师团"  # Su đoàn %d
+  ordered = {
+    1 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    2 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    3 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    5 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    7 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    9 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    304 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    308 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    312 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    320 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    321 = {
+      "第320师团"  # Su đoàn 320B
+    }
+    324 = {
+      "第%d师团"  # Su đoàn %dB
+    }
+    325 = {
+      "第%d师团"  # Su đoàn %dC
+    }
+    711 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    390 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    367 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    673 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    71 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    10 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    11 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    12 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    13 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    14 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    15 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    16 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    17 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    18 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    19 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    20 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    21 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    22 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    23 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    24 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    25 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    26 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    27 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    28 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    29 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    30 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    31 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    32 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    33 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    34 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    35 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    36 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    37 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    38 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    39 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    40 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    41 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    42 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    43 = {
+      "第%d师团"  # Su đoàn %d
+    }
+  }
+}
+VIN_CAV_01 = {
+  name = "骑兵师"  # Cavalry Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师团"  # Su đoàn ca be %d
+  ordered = {
+    1 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    2 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    3 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    4 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    5 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    6 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    7 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    8 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    9 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+    10 = {
+      "第%d骑兵师团"  # Su đoàn ca be %d
+    }
+  }
+}
+VIN_MOT_01 = {
+  name = "摩托化步兵师"  # Motorised Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    VIN_INF_01
+  }
+  fallback_name = "第%d师团"  # Su đoàn %d
+  ordered = {
+    1 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    2 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    3 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    5 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    7 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    9 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    304 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    308 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    312 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    320 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    321 = {
+      "第320师团"  # Su đoàn 320B
+    }
+    324 = {
+      "第%d师团"  # Su đoàn %dB
+    }
+    325 = {
+      "第%d师团"  # Su đoàn %dC
+    }
+    711 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    390 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    367 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    673 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    71 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    10 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    11 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    12 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    13 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    14 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    15 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    16 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    17 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    18 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    19 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    20 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    21 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    22 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    23 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    24 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    25 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    26 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    27 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    28 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    29 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    30 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    31 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    32 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    33 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    34 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    35 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    36 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    37 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    38 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    39 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    40 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    41 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    42 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    43 = {
+      "第%d师团"  # Su đoàn %d
+    }
+  }
+}
+VIN_ARM_01 = {
+  name = "装甲师"  # Armored Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d坦克师团"  # Su đoàn xe tăng %d
+  ordered = {
+    1 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    2 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    3 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    4 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    5 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    6 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    7 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    8 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    9 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+    10 = {
+      "第%d坦克师团"  # Su đoàn xe tăng %d
+    }
+  }
+}
+VIN_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    VIN_INF_01
+  }
+  fallback_name = "第%d师团"  # Su đoàn %d
+  ordered = {
+    1 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    2 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    3 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    5 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    7 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    9 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    304 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    308 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    312 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    320 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    321 = {
+      "第320师团"  # Su đoàn 320B
+    }
+    324 = {
+      "第%d师团"  # Su đoàn %dB
+    }
+    325 = {
+      "第%d师团"  # Su đoàn %dC
+    }
+    711 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    390 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    367 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    673 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    71 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    10 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    11 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    12 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    13 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    14 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    15 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    16 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    17 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    18 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    19 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    20 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    21 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    22 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    23 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    24 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    25 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    26 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    27 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    28 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    29 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    30 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    31 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    32 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    33 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    34 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    35 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    36 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    37 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    38 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    39 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    40 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    41 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    42 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    43 = {
+      "第%d师团"  # Su đoàn %d
+    }
+  }
+}
+VIN_GAR_01 = {
+  name = "守备师"  # Garrison Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    VIN_INF_01
+  }
+  fallback_name = "第%d师团"  # Su đoàn %d
+  ordered = {
+    1 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    2 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    3 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    5 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    7 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    9 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    304 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    308 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    312 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    320 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    321 = {
+      "第320师团"  # Su đoàn 320B
+    }
+    324 = {
+      "第%d师团"  # Su đoàn %dB
+    }
+    325 = {
+      "第%d师团"  # Su đoàn %dC
+    }
+    711 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    390 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    367 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    673 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    71 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    10 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    11 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    12 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    13 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    14 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    15 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    16 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    17 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    18 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    19 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    20 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    21 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    22 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    23 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    24 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    25 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    26 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    27 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    28 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    29 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    30 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    31 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    32 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    33 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    34 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    35 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    36 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    37 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    38 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    39 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    40 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    41 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    42 = {
+      "第%d师团"  # Su đoàn %d
+    }
+    43 = {
+      "第%d师团"  # Su đoàn %d
+    }
+  }
+}
+VIN_MAR_01 = {
+  name = "海军陆战师"  # Marine Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d海军师团"  # Su đoàn o bien %d
+  ordered = {
+    1 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    2 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    3 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    4 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    5 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    6 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    7 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    8 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    9 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+    10 = {
+      "第%d海军师团"  # Su đoàn o bien %d
+    }
+  }
+}
+VIN_MTN_01 = {
+  name = "山地师"  # Mountain Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%d海军师团"  # Su đoàn đông to %d
+  ordered = {
+    1 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    2 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    3 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    4 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    5 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    6 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    7 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    8 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    9 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+    10 = {
+      "第%d海军师团"  # Su đoàn đông to %d
+    }
+  }
+}
+VIN_PAR_01 = {
+  name = "伞兵师"  # Paratrooper Divisions
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    NOT = {
+      is_puppet_of = FRA
+    }
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d空降师"  # Su đoàn nhay dù %d
+  ordered = {
+    1 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    2 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    3 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    4 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    5 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    6 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    7 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    8 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    9 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+    10 = {
+      "第%d空降师"  # Su đoàn nhay dù %d
+    }
+  }
+}
+VIN_INF_02 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # %dème Division d'Infanterie
+  ordered = {
+    1 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    2 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    3 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    4 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    5 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    6 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    7 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    8 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    9 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    10 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    11 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    12 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    13 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    14 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    15 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    16 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    17 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    18 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    19 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+    20 = {
+      "第%d步兵师"  # %dème Division d'Infanterie
+    }
+  }
+}
+VIN_CAV_02 = {
+  name = "骑兵师"  # Cavalry Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # %dème Division de Cavalerie
+  ordered = {
+    1 = {
+      "第%d骑兵师"  # %dère Division de Cavalerie
+    }
+    2 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    3 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    4 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    5 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    6 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    7 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    8 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    9 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+    10 = {
+      "第%d骑兵师"  # %dème Division de Cavalerie
+    }
+  }
+}
+VIN_MOT_02 = {
+  name = "摩托化步兵师"  # Motorized Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    VIN_INF_02
+  }
+  fallback_name = "第%d 摩托化步兵师"
+  ordered = {
+    1 = {
+      "第%d 摩托化步兵师"
+    }
+    2 = {
+      "第%d 摩托化步兵师"
+    }
+    3 = {
+      "第%d 摩托化步兵师"
+    }
+    4 = {
+      "第%d 摩托化步兵师"
+    }
+    5 = {
+      "第%d 摩托化步兵师"
+    }
+    6 = {
+      "第%d 摩托化步兵师"
+    }
+    7 = {
+      "第%d 摩托化步兵师"
+    }
+    8 = {
+      "第%d 摩托化步兵师"
+    }
+    9 = {
+      "第%d 摩托化步兵师"
+    }
+    10 = {
+      "第%d 摩托化步兵师"
+    }
+  }
+}
+VIN_MEC_02 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "mechanized"
+  }
+  link_numbering_with = {
+    VIN_INF_02
+  }
+  fallback_name = "第%d 机械化步兵师"
+  ordered = {
+    1 = {
+      "第%d 机械化步兵师"
+    }
+    2 = {
+      "第%d 机械化步兵师"
+    }
+    3 = {
+      "第%d 机械化步兵师"
+    }
+    4 = {
+      "第%d 机械化步兵师"
+    }
+    5 = {
+      "第%d 机械化步兵师"
+    }
+    6 = {
+      "第%d 机械化步兵师"
+    }
+    7 = {
+      "第%d 机械化步兵师"
+    }
+    8 = {
+      "第%d 机械化步兵师"
+    }
+    9 = {
+      "第%d 机械化步兵师"
+    }
+    10 = {
+      "第%d 机械化步兵师"
+    }
+  }
+}
+VIN_ARM_02 = {
+  name = "装甲师"  # Armored Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # %dème Division Cuirassée
+  ordered = {
+    1 = {
+      "第%d装甲师"  # %dère Division Cuirassée
+    }
+    2 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    3 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    4 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    5 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    6 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    7 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    8 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    9 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+    10 = {
+      "第%d装甲师"  # %dème Division Cuirassée
+    }
+  }
+}
+VIN_PAR_02 = {
+  name = "伞兵师"  # Paratrooper Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d伞兵师"  # %dème Division de Parachutistes
+  ordered = {
+    1 = {
+      "第%d伞兵师"  # %dère Division de Parachutistes
+    }
+    2 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    3 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    4 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    5 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    6 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    7 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    8 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    9 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+    10 = {
+      "第%d伞兵师"  # %dème Division de Parachutistes
+    }
+  }
+}
+VIN_MAR_02 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d 海军陆战师"
+  ordered = {
+    1 = {
+      "第%d 海军陆战师"
+    }
+    2 = {
+      "第%d 海军陆战师"
+    }
+    3 = {
+      "第%d 海军陆战师"
+    }
+    4 = {
+      "第%d 海军陆战师"
+    }
+    5 = {
+      "第%d 海军陆战师"
+    }
+    6 = {
+      "第%d 海军陆战师"
+    }
+    7 = {
+      "第%d 海军陆战师"
+    }
+    8 = {
+      "第%d 海军陆战师"
+    }
+    9 = {
+      "第%d 海军陆战师"
+    }
+    10 = {
+      "第%d 海军陆战师"
+    }
+  }
+}
+VIN_MNT_02 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "mountaineers"
+  }
+  link_numbering_with = {
+    VIN_INF_02
+  }
+  fallback_name = "第%d山地师"  # %dème Division d'Infanterie Montagne
+  ordered = {
+    1 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    2 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    3 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    4 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    5 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    6 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    7 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    8 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    9 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+    10 = {
+      "第%d山地步兵师"  # %dème Division d'Infanterie Montagne
+    }
+  }
+}
+VIN_GAR_02 = {
+  name = "守备师"  # Garrison Division
+  for_countries = {
+    VIN
+  }
+  can_use = {
+    is_puppet_of = FRA
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    VIN_INF_02
+  }
+  fallback_name = "第%d守备师"  # %dème Division de Garnison
+  ordered = {
+    1 = {
+      "第%d 守备师"
+    }
+    2 = {
+      "第%d 守备师"
+    }
+    3 = {
+      "第%d 守备师"
+    }
+    4 = {
+      "第%d 守备师"
+    }
+    5 = {
+      "第%d 守备师"
+    }
+    6 = {
+      "第%d 守备师"
+    }
+    7 = {
+      "第%d 守备师"
+    }
+    8 = {
+      "第%d 守备师"
+    }
+    9 = {
+      "第%d 守备师"
+    }
+    10 = {
+      "第%d 守备师"
+    }
+  }
+}

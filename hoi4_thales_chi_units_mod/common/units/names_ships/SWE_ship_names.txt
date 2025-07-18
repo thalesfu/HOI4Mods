@@ -1,0 +1,87 @@
+SWE_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = { SWE }
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	prefix = "HMS "
+	fallback_name = "%d号驱逐舰"
+	unique = {
+		"哥德堡" "斯德哥尔摩" "马尔默" "卡尔斯克鲁纳" "耶夫勒" "北雪平" "花梨木" "皮尤克" "维斯比" "松兹瓦尔" "赫尔辛堡" "卡尔马"
+		"时尚" "马格纳" "雷神之锤" "穆宁" "罗慕路斯" "勒莫斯"
+		"厄兰岛" "乌普兰" "哈兰" "斯莫兰" "东约特兰" "南曼兰" "耶斯特里克兰" "赫尔辛兰"
+		"弗兰格尔" "军士长" "雷神之锤" "穆宁" "诸神黄昏" "西格德" "维达尔" "休金" "威尔"
+		"鹰" "雅各布·巴格" "克拉斯·霍恩" "克拉斯·乌格拉" "厄伦斯格尔德" "诺登斯基尔德"
+	}
+}
+SWE_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = { SWE }
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	prefix = "HMS "
+	fallback_name = "%d号轻巡洋舰"
+	unique = {
+		"哥特兰" "菲利吉亚" "克拉斯·霍恩" "克拉斯·乌格拉" "西兰德" "哥特雄狮" "三王冠" "克拉斯·弗莱明"
+		"卡尔马" "韦斯特维克" "耶夫勒" "马尔默" "哈尔姆斯塔德" "卡尔斯克鲁纳" "松兹瓦尔" "吕勒奥" "于默奥" "海讷桑德" "胡迪克斯瓦尔"
+		"乌德瓦拉" "赫尔辛堡" "瓦尔堡" "北雪平" "南雪平" "维斯比" "哥德堡"
+	}
+}
+SWE_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = { SWE }
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	prefix = "HMS "
+	fallback_name = "%d号重巡洋舰"
+	unique = {
+		"无畏" "瑞典" "维多利亚女王" "古斯塔夫五世" "光荣" "胆量" "瓦萨" "勇敢" "奥斯卡二世" "克拉斯·弗莱明"
+		"汉斯·瓦赫特迈斯特" "三王冠" "哥德堡" "斯塔科德" "斯蒂尔比扬" "哥特兰" "斯韦阿兰" "约塔兰" "诺尔兰"
+		"奥丁" "索尔" "风神尼尔德" "斯韦阿" "约塔" "北极"
+	}
+}
+SWE_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = { SWE }
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	prefix = "HMS "
+	fallback_name = "%d号战列舰"
+	unique = {
+		"斯德哥尔摩" "约翰·卡尔十四世" "古斯塔夫·阿道夫二世" "卡尔十二世" "卡尔十一世" "古斯塔夫三世"
+	}
+}
+SWE_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = { SWE }
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	prefix = "HMS "
+	fallback_name = "%d号战列巡洋舰"
+	unique = {
+		"古斯塔夫·阿道夫二世" "卡尔十二世" "卡尔十一世" "古斯塔夫三世" "古斯塔夫·瓦萨"
+	}
+}
+SWE_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = { SWE }
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	prefix = "HMS "
+	fallback_name = "%d号航空母舰"
+	unique = {
+		"王冠" "瑞希赛普勒" "斯派尔" "无畏" "雅各布·巴格" "哥特兰"
+	}
+}
+SWE_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = { SWE }
+	type = ship
+	ship_types = { ship_hull_submarine submarine ship_hull_midget_submarine }
+	prefix = "HMS "
+	fallback_name = "%d号潜艇"
+	unique = {
+		"大白鲨" "萨伦" "海象" "海狸" "雪貂" "水獭" "鲸鱼" "龙" "鹰狮" "狼" "海豚" "诺德卡帕伦" "骑士"
+		"海狮" "海熊" "海狗" "剑鱼" "海豚鼠" "深潜" "海马" "海蛇" "海胆"
+		"海王星" "水母" "水精灵" "狼" "鳟鱼" "欧鲈" "白鱼" "梭子鱼" "三文鱼" "鲭鱼"
+	}
+}

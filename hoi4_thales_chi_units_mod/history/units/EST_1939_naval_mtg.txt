@@ -1,0 +1,32 @@
+﻿units = {
+  fleet = {
+    name = "爱沙尼亚海军"  # Eesti Sojalaevastikl
+    naval_base = 3152
+    task_force = {
+      name = "爱沙尼亚海军"  # Eesti Sojalaevastikl
+      location = 3152
+      ship = {
+        name = "卡列夫"  # EML Kalev
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = EST
+            version_name = "卡列夫级"  # Kalev Class
+          }
+        }
+      }
+      ship = {
+        name = "林比特"  # EML Lembit
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = EST
+            version_name = "卡列夫级"  # Kalev Class
+          }
+        }
+      }
+    }
+  }
+}

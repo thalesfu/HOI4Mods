@@ -1,0 +1,73 @@
+﻿division_template = {
+  name = "第二支援军"  # Erjinzhi Juntuán
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 1
+      y = 0
+    }
+    infantry = {
+      x = 1
+      y = 1
+    }
+  }
+}
+units = {
+  division = {
+    name = "第1苏联志愿军"  # 1 Su jun Zhiyuanjun
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第2苏联志愿军"  # 2 Su jun Zhiyuanjun
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第3苏联志愿军"  # 3 Su jun Zhiyuanjun
+    location = 10629
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第4苏联志愿军"  # 4 Su jun Zhiyuanjun
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第5苏联志愿军"  # 5 Su jun Zhiyuanjun
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第6苏联志愿军"  # 6 Su jun Zhiyuanjun
+    location = 12609
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第7苏联志愿军"  # 7 Su jun Zhiyuanjun
+    location = 12880
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第8苏联志愿军"  # 8 Su jun Zhiyuanjun
+    location = 12880
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第9苏联志愿军"  # 9 Su jun Zhiyuanjun
+    location = 12880
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+  division = {
+    name = "第10苏联志愿军"  # 10 Su jun Zhiyuanjun
+    location = 12880
+    division_template = "第二支援军"  # Erjinzhi Juntuán
+  }
+}

@@ -1,0 +1,291 @@
+﻿division_template = {
+  name = "步兵旅"  # Brigada Legionario
+  is_locked = yes
+  division_names_group = SPAN_INF_01
+  regiments = {
+    infantry = {
+      x = 0
+      y = 0
+    }
+    infantry = {
+      x = 0
+      y = 1
+    }
+    infantry = {
+      x = 0
+      y = 2
+    }
+  }
+}
+units = {
+  division = {
+    name = "第1步兵旅"  # 1a Brigada Legionario
+    location = 11838
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第2步兵旅"  # 2a Brigada Legionario
+    location = 9840
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第49步兵旅"  # 49a Brigada Legionario
+    location = 9840
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第3步兵旅"  # 3a Brigada Legionario
+    location = 6901
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第4步兵旅"  # 4a Brigada Legionario
+    location = 3816
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第50步兵旅"  # 50a Brigada Legionario
+    location = 3816
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第5步兵旅"  # 5a Brigada Legionario
+    location = 11737
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第6步兵旅"  # 6a Brigada Legionario
+    location = 7213
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第51步兵旅"  # 51a Brigada Legionario
+    location = 7213
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第7步兵旅"  # 7a Brigada Legionario
+    location = 9812
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第8步兵旅"  # 8a Brigada Legionario
+    location = 948
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第9步兵旅"  # 9a Brigada Legionario
+    location = 813
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第10步兵旅"  # 10a Brigada Legionario
+    location = 11766
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第11步兵旅"  # 11a Brigada Legionario
+    location = 3859
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第12步兵旅"  # 12a Brigada Legionario
+    location = 11806
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第13步兵旅"  # 13a Brigada Legionario
+    location = 13227
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第14步兵旅"  # 14a Brigada Legionario
+    location = 3820
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第15步兵旅"  # 15a Brigada Legionario
+    location = 9827
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第16步兵旅"  # 16a Brigada Legionario
+    location = 9846
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第17步兵旅"  # 17a Brigada Legionario
+    location = 3874
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第52步兵旅"  # 52a Brigada Legionario
+    location = 3874
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第18步兵旅"  # 18a Brigada Legionario
+    location = 794
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第19步兵旅"  # 19a Brigada Legionario
+    location = 11756
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第20步兵旅"  # 20a Brigada Legionario
+    location = 9917
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第21步兵旅"  # 21a Brigada Legionario
+    location = 11780
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第22步兵旅"  # 22a Brigada Legionario
+    location = 985
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第23步兵旅"  # 23a Brigada Legionario
+    location = 6948
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第24步兵旅"  # 24a Brigada Legionario
+    location = 3810
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第25步兵旅"  # 25a Brigada Legionario
+    location = 3871
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第26步兵旅"  # 26a Brigada Legionario
+    location = 950
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第27步兵旅"  # 27a Brigada Legionario
+    location = 12083
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第28步兵旅"  # 28a Brigada Legionario
+    location = 1192
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第29步兵旅"  # 29a Brigada Legionario
+    location = 4095
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第30步兵旅"  # 30a Brigada Legionario
+    location = 1090
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第31步兵旅"  # 31a Brigada Legionario
+    location = 7198
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第31步兵旅"  # 31a Brigada Legionario
+    location = 4182
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第32步兵旅"  # 32a Brigada Legionario
+    location = 13231
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第33步兵旅"  # 33a Brigada Legionario
+    location = 10094
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第34步兵旅"  # 34a Brigada Legionario
+    location = 3737
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第35步兵旅"  # 35a Brigada Legionario
+    location = 3933
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第36步兵旅"  # 36a Brigada Legionario
+    location = 932
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第37步兵旅"  # 37a Brigada Legionario
+    location = 3902
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第38步兵旅"  # 38a Brigada Legionario
+    location = 11852
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第39步兵旅"  # 39a Brigada Legionario
+    location = 13220
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第40步兵旅"  # 40a Brigada Legionario
+    location = 11854
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第41步兵旅"  # 41a Brigada Legionario
+    location = 9700
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第42步兵旅"  # 42a Brigada Legionario
+    location = 11684
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第43步兵旅"  # 43a Brigada Legionario
+    location = 9699
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第44步兵旅"  # 44a Brigada Legionario
+    location = 726
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第45步兵旅"  # 45a Brigada Legionario
+    location = 13219
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第46步兵旅"  # 46a Brigada Legionario
+    location = 11843
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第47步兵旅"  # 47a Brigada Legionario
+    location = 729
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第48步兵旅"  # 48a Brigada Legionario
+    location = 6764
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+  division = {
+    name = "第53步兵旅"  # 53a Brigada Legionario
+    location = 7183
+    division_template = "步兵旅"  # Brigada Legionario
+  }
+}

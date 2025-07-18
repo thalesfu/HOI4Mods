@@ -1,0 +1,873 @@
+﻿SPQR_INF_01 = {
+  name = "罗马步兵军团"  # Roman Infantry Legions
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%s军团"  # Legio %s
+  ordered = {
+    1 = {
+      "第%s'日耳曼尼亚'军团"  # Legio %s Germanica
+    }
+    2 = {
+      "第%s'萨宾娜'军团"  # Legio %s Sabina
+    }
+    3 = {
+      "第%s'昔兰尼加'军团"  # Legio %s Cyrenaica
+    }
+    4 = {
+      "第%s'马其顿'军团"  # Legio %s Macedonica
+    }
+    5 = {
+      "第%s'云雀'军团"  # Legio %s Alaudae
+    }
+    6 = {
+      "第%s'铁'军团"  # Legio %s Ferrata
+    }
+    7 = {
+      "第%s'双子'军团"  # Legio %s Gemina
+    }
+    8 = {
+      "第%s'奥古斯塔'军团"  # Legio %s Augusta
+    }
+    9 = {
+      "第%s'西班牙凯旋'军团"  # Legio %s Hispana Triumphalis
+    }
+    10 = {
+      "第%s'骑士'军团"  # Legio %s Equestris
+    }
+    11 = {
+      "第%s'克劳迪亚'军团"  # Legio %s Claudia
+    }
+    12 = {
+      "第%s'雷电'军团"  # Legio %s Fulminata
+    }
+    13 = {
+      "第%s'意大利'军团"  # Legio %s Italica
+    }
+    14 = {
+      "第%s'马克尔'军团"  # Legio %s Macriana
+    }
+    15 = {
+      "第%s'阿波罗'军团"  # Legio %s Apollinaris
+    }
+    16 = {
+      "第%s'忠实弗拉维乌斯'军团"  # Legio %s Flavia Firma
+    }
+    17 = {
+      "第%s'高卢'军团"  # Legio %s Gallica
+    }
+    18 = {
+      "第%s'利比亚'军团"  # Legio %s Libyca
+    }
+    19 = {
+      "第%s'斯基泰'军团"  # Legio %s Scythica
+    }
+    20 = {
+      "第%s'胜利'军团"  # Legio %s Victrix
+    }
+    21 = {
+      "第%s'掠夺者'军团"  # Legio %s Rapax
+    }
+    22 = {
+      "第%s'德尤塔卢斯'军团"  # Legio %s Deiotariana
+    }
+    23 = {
+      "第%s'幸运弗拉维乌斯'军团"  # Legio %s Flavia Felix
+    }
+    24 = {
+      "第%s'米涅尔瓦'军团"  # Legio %s Minervia
+    }
+    25 = {
+      "第%s'初创'军团"  # Legio %s Primigenia
+    }
+    26 = {
+      "第%s'帕提亚'军团"  # Legio %s Parthica
+    }
+    27 = {
+      "Legio %s Valeria Vict."
+    }
+    28 = {
+      "第%s'海峡'军团"  # Legio %s Fretensis
+    }
+    29 = {
+      "第%s'图拉真'军团"  # Legio %s Traiana
+    }
+    30 = {
+      "第%s'克拉西卡'军团"  # Legio %s Classica
+    }
+    31 = {
+      "第%s'乌尔比亚胜利'军团"  # Legio %s Ulpia Victrix
+    }
+    32 = {
+      "第%s'亚美尼亚'军团"  # Legio %s Armeniaca
+    }
+    33 = {
+      "第%s'约维安'军团"  # Legio %s Iovia
+    }
+    34 = {
+      "第%s'战神'军团"  # Legio %s Martia
+    }
+    35 = {
+      "第%s'伊利里亚'军团"  # Legio %s Illyricorum
+    }
+    36 = {
+      "第%s'和平弗拉维乌斯'军团"  # Legio %s Flavia Pacis
+    }
+    37 = {
+      "第%s'稳固弗拉维乌斯'军团"  # Legio %s Flavia Constantia
+    }
+    38 = {
+      "第%s'诺里库姆'军团"  # Legio %s Noricorum
+    }
+    39 = {
+      "第%s'本都'军团"  # Legio %s Pontica
+    }
+    40 = {
+      "第%s'不列颠'军团"  # Legio %s Britannica
+    }
+    41 = {
+      "第%s'高尚弗拉维乌斯'军团"  # Legio %s Flavia Virtutis
+    }
+    42 = {
+      "第%s'大力神'军团"  # Legio %s Herculia
+    }
+    43 = {
+      "第%s'伊苏里亚'军团"  # Legio %s Isaura
+    }
+    44 = {
+      "第%s'戴克里先'军团"  # Legio %s Diocletiana
+    }
+    45 = {
+      "第%s'健康弗拉维乌斯'军团"  # Legio %s Flavia Salutis
+    }
+    46 = {
+      "第%s'哲麦鲁斯'军团"  # Legio %s Gemella
+    }
+    47 = {
+      "第%s军团"  # Legio %s
+    }
+    48 = {
+      "第%s军团"  # Legio %s
+    }
+  }
+}
+SPQR_CAV_01 = {
+  name = "罗马骑兵编队"  # Roman Cavalry Formations
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%s骑兵队"  # Equites %s
+  ordered = {
+    1 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    2 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    3 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    4 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    5 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    6 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    7 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    9 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    8 = {
+      "第%s骑兵队"  # Equites %s
+    }
+    10 = {
+      "第%s骑兵队"  # Equites %s
+    }
+  }
+}
+SPQR_MOT_01 = {
+  name = "罗马摩托化军团"  # Roman Motorised Legions
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    SPQR_INF_01
+  }
+  fallback_name = "第%s摩托化军团"  # Legio Motricium %s
+  ordered = {
+    1 = {
+      "第%s'日耳曼尼亚'摩托化军团"  # Legio Motricium %s Germanica
+    }
+    2 = {
+      "第%s'萨宾娜'摩托化军团"  # Legio Motricium %s Sabina
+    }
+    3 = {
+      "第%s'昔兰尼加'摩托化军团"  # Legio Motricium %s Cyrenaica
+    }
+    4 = {
+      "第%s'马其顿'摩托化军团"  # Legio Motricium %s Macedonica
+    }
+    5 = {
+      "第%s'云雀'摩托化军团"  # Legio Motricium %s Alaudae
+    }
+    6 = {
+      "第%s'铁'摩托化军团"  # Legio Motricium %s Ferrata
+    }
+    7 = {
+      "第%s'双子'摩托化军团"  # Legio Motricium %s Gemina
+    }
+    8 = {
+      "第%s'奥古斯塔'摩托化军团"  # Legio Motricium %s Augusta
+    }
+    9 = {
+      "第%s'西班牙凯旋'摩托化军团"  # Legio Motricium %s Hispana Triumphalis
+    }
+    10 = {
+      "第%s'骑士'摩托化军团"  # Legio Motricium %s Equestris
+    }
+    11 = {
+      "第%s'克劳迪亚'摩托化军团"  # Legio Motricium %s Claudia
+    }
+    12 = {
+      "第%s'雷电'摩托化军团"  # Legio Motricium %s Fulminata
+    }
+    13 = {
+      "第%s'意大利'摩托化军团"  # Legio Motricium %s Italica
+    }
+    14 = {
+      "第%s'马克尔'摩托化军团"  # Legio Motricium %s Macriana
+    }
+    15 = {
+      "第%s'阿波罗'摩托化军团"  # Legio Motricium %s Apollinaris
+    }
+    16 = {
+      "第%s'忠实弗拉维乌斯'摩托化军团"  # Legio Motricium %s Flavia Firma
+    }
+    17 = {
+      "第%s'高卢'摩托化军团"  # Legio Motricium %s Gallica
+    }
+    18 = {
+      "第%s'利比亚'摩托化军团"  # Legio Motricium %s Libyca
+    }
+    19 = {
+      "第%s'斯基泰'摩托化军团"  # Legio Motricium %s Scythica
+    }
+    20 = {
+      "第%s'胜利'摩托化军团"  # Legio Motricium %s Victrix
+    }
+    21 = {
+      "第%s'掠夺者'摩托化军团"  # Legio Motricium %s Rapax
+    }
+    22 = {
+      "第%s'德尤塔卢斯'摩托化军团"  # Legio Motricium %s Deiotariana
+    }
+    23 = {
+      "第%s'幸运弗拉维乌斯'摩托化军团"  # Legio Motricium %s Flavia Felix
+    }
+    24 = {
+      "第%s'米涅尔瓦'摩托化军团"  # Legio Motricium %s Minervia
+    }
+    25 = {
+      "第%s'初创'摩托化军团"  # Legio Motricium %s Primigenia
+    }
+    26 = {
+      "第%s'帕提亚'摩托化军团"  # Legio Motricium %s Parthica
+    }
+    27 = {
+      "Legio Motricium %s Valeria Vict."
+    }
+    28 = {
+      "第%s'海峡'摩托化军团"  # Legio Motricium %s Fretensis
+    }
+    29 = {
+      "第%s'图拉真'摩托化军团"  # Legio Motricium %s Traiana
+    }
+    30 = {
+      "第%s'克拉西卡'摩托化军团"  # Legio Motricium %s Classica
+    }
+    31 = {
+      "第%s'乌尔比亚胜利'摩托化军团"  # Legio Motricium %s Ulpia Victrix
+    }
+    32 = {
+      "第%s'亚美尼亚'摩托化军团"  # Legio Motricium %s Armeniaca
+    }
+    33 = {
+      "第%s'约维安'摩托化军团"  # Legio Motricium %s Iovia
+    }
+    34 = {
+      "第%s'战神'摩托化军团"  # Legio Motricium %s Martia
+    }
+    35 = {
+      "第%s'伊利里亚'摩托化军团"  # Legio Motricium %s Illyricorum
+    }
+    36 = {
+      "第%s'和平弗拉维乌斯'摩托化军团"  # Legio Motricium %s Flavia Pacis
+    }
+    37 = {
+      "第%s'稳固弗拉维乌斯'摩托化军团"  # Legio Motricium %s Flavia Constantia
+    }
+    38 = {
+      "第%s'诺里库姆'摩托化军团"  # Legio Motricium %s Noricorum
+    }
+    39 = {
+      "第%s'本都'摩托化军团"  # Legio Motricium %s Pontica
+    }
+    40 = {
+      "第%s'不列颠'摩托化军团"  # Legio Motricium %s Britannica
+    }
+    41 = {
+      "第%s'高尚弗拉维乌斯'摩托化军团"  # Legio Motricium %s Flavia Virtutis
+    }
+    42 = {
+      "第%s'大力神'摩托化军团"  # Legio Motricium %s Herculia
+    }
+    43 = {
+      "第%s'伊苏里亚'摩托化军团"  # Legio Motricium %s Isaura
+    }
+    44 = {
+      "第%s'戴克里先'摩托化军团"  # Legio Motricium %s Diocletiana
+    }
+    45 = {
+      "第%s'健康弗拉维乌斯'摩托化军团"  # Legio Motricium %s Flavia Salutis
+    }
+    46 = {
+      "第%s'哲麦鲁斯'摩托化军团"  # Legio Motricium %s Gemella
+    }
+    47 = {
+      "第%s摩托化军团"  # Legio Motricium %s
+    }
+    48 = {
+      "第%s摩托化军团"  # Legio Motricium %s
+    }
+  }
+}
+SPQR_ARM_01 = {
+  name = "罗马装甲军团"  # Roman Armored Legions
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  link_numbering_with = {
+    SPQR_INF_01
+  }
+  fallback_name = "第%s装甲军团"  # Legio Loricatorum %s
+  ordered = {
+    1 = {
+      "第%s'日耳曼尼亚'装甲军团"  # Legio Loricatorum %s Germanica
+    }
+    2 = {
+      "第%s'萨宾娜'装甲军团"  # Legio Loricatorum %s Sabina
+    }
+    3 = {
+      "第%s'昔兰尼加'装甲军团"  # Legio Loricatorum %s Cyrenaica
+    }
+    4 = {
+      "第%s'马其顿'装甲军团"  # Legio Loricatorum %s Macedonica
+    }
+    5 = {
+      "第%s'云雀'装甲军团"  # Legio Loricatorum %s Alaudae
+    }
+    6 = {
+      "第%s'铁'装甲军团"  # Legio Loricatorum %s Ferrata
+    }
+    7 = {
+      "第%s'双子'装甲军团"  # Legio Loricatorum %s Gemina
+    }
+    8 = {
+      "第%s'奥古斯塔'装甲军团"  # Legio Loricatorum %s Augusta
+    }
+    9 = {
+      "第%s'西班牙凯旋'装甲军团"  # Legio Loricatorum %s Hispana Triumphalis
+    }
+    10 = {
+      "第%s'骑士'装甲军团"  # Legio Loricatorum %s Equestris
+    }
+    11 = {
+      "第%s'克劳迪亚'装甲军团"  # Legio Loricatorum %s Claudia
+    }
+    12 = {
+      "第%s'雷电'装甲军团"  # Legio Loricatorum %s Fulminata
+    }
+    13 = {
+      "第%s'意大利'装甲军团"  # Legio Loricatorum %s Italica
+    }
+    14 = {
+      "第%s'马克尔'装甲军团"  # Legio Loricatorum %s Macriana
+    }
+    15 = {
+      "第%s'阿波罗'装甲军团"  # Legio Loricatorum %s Apollinaris
+    }
+    16 = {
+      "第%s'忠实弗拉维乌斯'装甲军团"  # Legio Loricatorum %s Flavia Firma
+    }
+    17 = {
+      "第%s'高卢'装甲军团"  # Legio Loricatorum %s Gallica
+    }
+    18 = {
+      "第%s'利比亚'装甲军团"  # Legio Loricatorum %s Libyca
+    }
+    19 = {
+      "第%s'斯基泰'装甲军团"  # Legio Loricatorum %s Scythica
+    }
+    20 = {
+      "第%s'胜利'装甲军团"  # Legio Loricatorum %s Victrix
+    }
+    21 = {
+      "第%s'掠夺者'装甲军团"  # Legio Loricatorum %s Rapax
+    }
+    22 = {
+      "第%s'德尤塔卢斯'装甲军团"  # Legio Loricatorum %s Deiotariana
+    }
+    23 = {
+      "第%s'幸运弗拉维乌斯'装甲军团"  # Legio Loricatorum %s Flavia Felix
+    }
+    24 = {
+      "第%s'米涅尔瓦'装甲军团"  # Legio Loricatorum %s Minervia
+    }
+    25 = {
+      "第%s'初创'装甲军团"  # Legio Loricatorum %s Primigenia
+    }
+    26 = {
+      "第%s'帕提亚'装甲军团"  # Legio Loricatorum %s Parthica
+    }
+    27 = {
+      "Legio Loricatorum %s Valeria Vict."
+    }
+    28 = {
+      "第%s'海峡'装甲军团"  # Legio Loricatorum %s Fretensis
+    }
+    29 = {
+      "第%s'图拉真'装甲军团"  # Legio Loricatorum %s Traiana
+    }
+    30 = {
+      "第%s'克拉西卡'装甲军团"  # Legio Loricatorum %s Classica
+    }
+    31 = {
+      "第%s'乌尔比亚胜利'装甲军团"  # Legio Loricatorum %s Ulpia Victrix
+    }
+    32 = {
+      "第%s'亚美尼亚'装甲军团"  # Legio Loricatorum %s Armeniaca
+    }
+    33 = {
+      "第%s'约维安'装甲军团"  # Legio Loricatorum %s Iovia
+    }
+    34 = {
+      "第%s'战神'装甲军团"  # Legio Loricatorum %s Martia
+    }
+    35 = {
+      "第%s'伊利里亚'装甲军团"  # Legio Loricatorum %s Illyricorum
+    }
+    36 = {
+      "第%s'和平弗拉维乌斯'装甲军团"  # Legio Loricatorum %s Flavia Pacis
+    }
+    37 = {
+      "第%s'稳固弗拉维乌斯'装甲军团"  # Legio Loricatorum %s Flavia Constantia
+    }
+    38 = {
+      "第%s'诺里库姆'装甲军团"  # Legio Loricatorum %s Noricorum
+    }
+    39 = {
+      "第%s'本都'装甲军团"  # Legio Loricatorum %s Pontica
+    }
+    40 = {
+      "第%s'不列颠'装甲军团"  # Legio Loricatorum %s Britannica
+    }
+    41 = {
+      "第%s'高尚弗拉维乌斯'装甲军团"  # Legio Loricatorum %s Flavia Virtutis
+    }
+    42 = {
+      "第%s'大力神'装甲军团"  # Legio Loricatorum %s Herculia
+    }
+    43 = {
+      "第%s'伊苏里亚'装甲军团"  # Legio Loricatorum %s Isaura
+    }
+    44 = {
+      "第%s'戴克里先'装甲军团"  # Legio Loricatorum %s Diocletiana
+    }
+    45 = {
+      "第%s'健康弗拉维乌斯'装甲军团"  # Legio Loricatorum %s Flavia Salutis
+    }
+    46 = {
+      "第%s'哲麦鲁斯'装甲军团"  # Legio Loricatorum %s Gemella
+    }
+    47 = {
+      "第%s装甲军团"  # Legio Loricatorum %s
+    }
+    48 = {
+      "第%s装甲军团"  # Legio Loricatorum %s
+    }
+  }
+}
+SPQR_MEC_01 = {
+  name = "Roman Mech. Legions"
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    SPQR_INF_01
+  }
+  fallback_name = "第%s机械化军团"  # Legio Mechanica %s
+  ordered = {
+    1 = {
+      "第%s'日耳曼尼亚'机械化军团"  # Legio Mechanica %s Germanica
+    }
+    2 = {
+      "第%s'萨宾娜'机械化军团"  # Legio Mechanica %s Sabina
+    }
+    3 = {
+      "第%s'昔兰尼加'机械化军团"  # Legio Mechanica %s Cyrenaica
+    }
+    4 = {
+      "第%s'马其顿'机械化军团"  # Legio Mechanica %s Macedonica
+    }
+    5 = {
+      "第%s'云雀'机械化军团"  # Legio Mechanica %s Alaudae
+    }
+    6 = {
+      "第%s'铁'机械化军团"  # Legio Mechanica %s Ferrata
+    }
+    7 = {
+      "第%s'双子'机械化军团"  # Legio Mechanica %s Gemina
+    }
+    8 = {
+      "第%s'奥古斯塔'机械化军团"  # Legio Mechanica %s Augusta
+    }
+    9 = {
+      "第%s'西班牙凯旋'机械化军团"  # Legio Mechanica %s Hispana Triumphalis
+    }
+    10 = {
+      "第%s'骑士'机械化军团"  # Legio Mechanica %s Equestris
+    }
+    11 = {
+      "第%s'克劳迪亚'机械化军团"  # Legio Mechanica %s Claudia
+    }
+    12 = {
+      "第%s'雷电'机械化军团"  # Legio Mechanica %s Fulminata
+    }
+    13 = {
+      "第%s'意大利'机械化军团"  # Legio Mechanica %s Italica
+    }
+    14 = {
+      "第%s'马克尔'机械化军团"  # Legio Mechanica %s Macriana
+    }
+    15 = {
+      "第%s'阿波罗'机械化军团"  # Legio Mechanica %s Apollinaris
+    }
+    16 = {
+      "第%s'忠实弗拉维乌斯'机械化军团"  # Legio Mechanica %s Flavia Firma
+    }
+    17 = {
+      "第%s'高卢'机械化军团"  # Legio Mechanica %s Gallica
+    }
+    18 = {
+      "第%s'利比亚'机械化军团"  # Legio Mechanica %s Libyca
+    }
+    19 = {
+      "第%s'斯基泰'机械化军团"  # Legio Mechanica %s Scythica
+    }
+    20 = {
+      "第%s'胜利'机械化军团"  # Legio Mechanica %s Victrix
+    }
+    21 = {
+      "第%s'掠夺者'机械化军团"  # Legio Mechanica %s Rapax
+    }
+    22 = {
+      "第%s'德尤塔卢斯'机械化军团"  # Legio Mechanica %s Deiotariana
+    }
+    23 = {
+      "第%s'幸运弗拉维乌斯'机械化军团"  # Legio Mechanica %s Flavia Felix
+    }
+    24 = {
+      "第%s'米涅尔瓦'机械化军团"  # Legio Mechanica %s Minervia
+    }
+    25 = {
+      "第%s'初创'机械化军团"  # Legio Mechanica %s Primigenia
+    }
+    26 = {
+      "第%s'帕提亚'机械化军团"  # Legio Mechanica %s Parthica
+    }
+    27 = {
+      "Legio Mechanica %s Valeria Vict."
+    }
+    28 = {
+      "第%s'海峡'机械化军团"  # Legio Mechanica %s Fretensis
+    }
+    29 = {
+      "第%s'图拉真'机械化军团"  # Legio Mechanica %s Traiana
+    }
+    30 = {
+      "第%s'克拉西卡'机械化军团"  # Legio Mechanica %s Classica
+    }
+    31 = {
+      "第%s'乌尔比亚胜利'机械化军团"  # Legio Mechanica %s Ulpia Victrix
+    }
+    32 = {
+      "第%s'亚美尼亚'机械化军团"  # Legio Mechanica %s Armeniaca
+    }
+    33 = {
+      "第%s'约维安'机械化军团"  # Legio Mechanica %s Iovia
+    }
+    34 = {
+      "第%s'战神'机械化军团"  # Legio Mechanica %s Martia
+    }
+    35 = {
+      "第%s'伊利里亚'机械化军团"  # Legio Mechanica %s Illyricorum
+    }
+    36 = {
+      "第%s'和平弗拉维乌斯'机械化军团"  # Legio Mechanica %s Flavia Pacis
+    }
+    37 = {
+      "第%s'稳固弗拉维乌斯'机械化军团"  # Legio Mechanica %s Flavia Constantia
+    }
+    38 = {
+      "第%s'诺里库姆'机械化军团"  # Legio Mechanica %s Noricorum
+    }
+    39 = {
+      "第%s'本都'机械化军团"  # Legio Mechanica %s Pontica
+    }
+    40 = {
+      "第%s'不列颠'机械化军团"  # Legio Mechanica %s Britannica
+    }
+    41 = {
+      "第%s'高尚弗拉维乌斯'机械化军团"  # Legio Mechanica %s Flavia Virtutis
+    }
+    42 = {
+      "第%s'大力神'机械化军团"  # Legio Mechanica %s Herculia
+    }
+    43 = {
+      "第%s'伊苏里亚'机械化军团"  # Legio Mechanica %s Isaura
+    }
+    44 = {
+      "第%s'戴克里先'机械化军团"  # Legio Mechanica %s Diocletiana
+    }
+    45 = {
+      "第%s'健康弗拉维乌斯'机械化军团"  # Legio Mechanica %s Flavia Salutis
+    }
+    46 = {
+      "第%s'哲麦鲁斯'机械化军团"  # Legio Mechanica %s Gemella
+    }
+    47 = {
+      "第%s机械化军团"  # Legio Mechanica %s
+    }
+    48 = {
+      "第%s机械化军团"  # Legio Mechanica %s
+    }
+  }
+}
+SPQR_GAR_01 = {
+  name = "罗马辅助军团"  # Roman Auxiliaries
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%s辅助军团"  # Auxilia %s
+  ordered = {
+    1 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    2 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    3 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    4 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    5 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    6 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    7 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    9 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    8 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+    10 = {
+      "第%s辅助军团"  # Auxilia %s
+    }
+  }
+}
+SPQR_MAR_01 = {
+  name = "罗马陆战部队"  # Roman Marine Units
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%s古典军团"  # Classica %s
+  ordered = {
+    1 = {
+      "第%s古典军团"  # Classica %s
+    }
+    2 = {
+      "第%s古典军团"  # Classica %s
+    }
+    3 = {
+      "第%s古典军团"  # Classica %s
+    }
+    4 = {
+      "第%s古典军团"  # Classica %s
+    }
+    5 = {
+      "第%s古典军团"  # Classica %s
+    }
+    6 = {
+      "第%s古典军团"  # Classica %s
+    }
+    7 = {
+      "第%s古典军团"  # Classica %s
+    }
+    9 = {
+      "第%s古典军团"  # Classica %s
+    }
+    8 = {
+      "第%s古典军团"  # Classica %s
+    }
+    10 = {
+      "第%s古典军团"  # Classica %s
+    }
+  }
+}
+SPQR_MTN_01 = {
+  name = "罗马山地军团"  # Roman Mountain Legions
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%s山地军团"  # Legio Mons %s
+  ordered = {
+    1 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    2 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    3 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    4 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    5 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    6 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    7 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    9 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    8 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+    10 = {
+      "第%s山地军团"  # Legio Mons %s
+    }
+  }
+}
+SPQR_PAR_01 = {
+  name = "罗马伞兵军团"  # Roman Paratrooper Legions
+  for_countries = {
+    ITA
+  }
+  can_use = {
+    has_cosmetic_tag = SPQR_UNIFIED
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%s空降军团"  # Legio Caeli %s
+  ordered = {
+    1 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    2 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    3 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    4 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    5 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    6 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    7 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    9 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    8 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+    10 = {
+      "第%s空降军团"  # Legio Caeli %s
+    }
+  }
+}

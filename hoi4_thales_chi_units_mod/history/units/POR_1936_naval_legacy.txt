@@ -1,0 +1,107 @@
+﻿units = {
+  fleet = {
+    name = "葡萄牙海军"  # Marinha de Portugal
+    naval_base = 11805
+    task_force = {
+      name = "维亚纳堡舰队"  # Flotilha 'Viana do Castelo'
+      location = 11805
+      ship = {
+        name = "塔梅加"  # NRP Tamega
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = POR
+          }
+        }
+      }
+      ship = {
+        name = "道河"  # NRP Dão
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = POR
+          }
+        }
+      }
+      ship = {
+        name = "杜罗河"  # NRP Douro
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = POR
+          }
+        }
+      }
+      ship = {
+        name = "利马河"  # NRP Lima
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = POR
+          }
+        }
+      }
+      ship = {
+        name = "伏加河"  # NRP Vouga
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = POR
+          }
+        }
+      }
+      ship = {
+        name = "特茹河"  # NRP Tejo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = POR
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "海豚舰队"  # Flotilha Delfim
+      location = 11805
+      ship = {
+        name = "海豚"  # NRP Delfim
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = POR
+            create_if_missing = yes
+          }
+        }
+      }
+      ship = {
+        name = "箭鱼"  # NRP Espadarte
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = POR
+            create_if_missing = yes
+          }
+        }
+      }
+      ship = {
+        name = "海豚"  # NRP Golfinho
+        definition = submarine
+        equipment = {
+          submarine_2 = {
+            amount = 1
+            owner = POR
+            create_if_missing = yes
+          }
+        }
+      }
+    }
+  }
+}

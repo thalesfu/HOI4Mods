@@ -1,0 +1,182 @@
+﻿##### SPAIN NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SPR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	
+	fallback_name = "%d号驱逐舰"					
+
+	unique = {											
+		"阿尔塞多" "贝拉斯科" "拉萨加" "桑切斯·巴尔凯兹特吉" "费兰迪兹海军上将" "何塞·路易斯·迪兹" "勒班陀" "丘鲁卡" 
+		"阿尔卡拉·加利亚诺" "巴尔德斯海军上将" "安特克拉海军上将" "米兰达海军上将" "议员" "羞愧" "格拉维纳" "豪尔赫·胡安" 
+		"乌略亚" "利涅斯" "阿拉瓦" "韦斯卡" "特鲁埃尔" "休达" "梅利利亚" "勇敢" "勇猛" "流星" "狂怒" "射线" "公羊" "鲁莽" "无惧" "闪电"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SPR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	
+	fallback_name = "%d号轻巡洋舰"
+
+	unique = {
+		"共和" "门德斯" "塞韦拉海军上将" "自由" "塞万提斯·萨维德拉" "加利西亚" "布拉斯·德·勒苏" "塞维利亚" "韦尔瓦" "比斯开" "格拉纳达" "巴利阿里" "加那利"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SPR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	
+	fallback_name = "%d号重巡洋舰"
+
+	unique = {
+		"加那利" "巴利阿里" "纳瓦拉" "摄政王" "加泰罗尼亚" "艾特雷马杜拉" "比斯开" "布拉斯·德·勒苏" "塞维利亚" "韦尔瓦" "比斯开" "格拉纳达"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+SPR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	
+	fallback_name = "%d号战列舰"		
+
+	unique = {
+		"海美一世" "西班牙" "阿方索三世" "勒班陀" "拜伦" "自由"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+SPR_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	
+	fallback_name = "%d号战列巡洋舰"		
+
+	unique = {
+		"勒班陀" "拜伦" "自由" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SPR_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	
+	fallback_name = "%d号航空母舰"	
+
+	unique = {
+		"迷宫" "阿斯图里亚斯亲王" "共和国" "维多利亚女王" 
+	}
+}
+
+### SUBMARINES ###
+SPR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	
+	fallback_name = "S%d"
+	
+	ordered = {
+		1 = {"S0%d"}
+		2 = {"S0%d"}
+		3 = {"S0%d"}
+		4 = {"S0%d"} 
+		5 = {"S0%d"} 
+		6 = {"S0%d"} 
+		7 = {"S0%d"}
+		8 = {"S0%d"}
+		9 = {"S0%d"}
+		10 = {"S%d"}
+		11 = {"S%d"}
+		12 = {"S%d"}
+		13 = {"S%d"}
+		14 = {"S%d"}
+		15 = {"S%d"}
+		16 = {"S%d"}
+		17 = {"S%d"}
+		18 = {"S%d"}
+		19 = {"S%d"}
+		20 = {"S%d"}
+		21 = {"S%d"}
+		22 = {"S%d"}
+		23 = {"S%d"}
+	}
+}
+
+## THEME: SPANISH CITIES ###
+SPR_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { SPR }
+
+	type = ship
+
+								
+	unique = {
+		"拉科鲁尼亚" "毕尔巴鄂" "奥维耶多" "马拉加" "巴塞罗那" "瓦伦西亚" "桑坦德" "加的斯" "阿利坎特" "拉斯帕尔马斯" "费罗尔" "梅利利亚" "圣克鲁斯" "格拉纳达" "圣地亚哥" "赫罗纳" "休达" "马约卡帕尔马" "维戈" "圣塞巴斯蒂安" "阿尔梅利亚"
+ "卢戈" "卡斯特利翁" "韦尔瓦" "塞维利亚" "庞特维德拉" "维多利亚" "穆尔西亚" "塔拉戈纳" "希洪" "洛格罗尼奥" "潘普洛纳"
+ "莱昂" "萨莫拉" "萨拉曼卡" "帕伦西亚" "巴利亚多利德" "阿维拉" "塞戈维亚" "布尔戈斯" "索里亚" "马德里" "瓜达拉哈拉"
+ "昆卡" "托莱多" "雷亚尔城" "阿尔瓦塞特" "巴达霍斯" "科尔多瓦" "哈恩" "奥伦塞" "卡塞雷斯" "韦斯卡" "萨拉戈萨"
+ "特鲁埃尔" "莱里达" "阿兰胡埃斯" "比拉韦德" "蓬费拉达" "卡塔赫纳" "普埃托利亚诺"
+	}
+}
+
+## THEME: SPANISH RIVERS ###
+SPR_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { SPR }
+
+	type = ship
+
+	
+
+	unique = {
+		"塔霍" "埃布罗" "瓜达尔基维尔" "瓜迪亚纳" "杜埃罗" "米诺" "哈拉马"
+ "塞古拉" "乔卡河" "内维隆" "雷卡特" "乌拉" "埃斯拉"
+ "伊拜萨巴尔" "瓜达莱特" "比达索阿" "哈隆" "西古埃拉" "皮苏埃加"
+ "阿拉贡" "杰尼尔" "西尔" "托尔梅斯" "瓜达利马尔" "蒂埃塔尔" "米哈雷斯"
+ "纳维亚" "奥迪尔" "维纳洛波" "瓜达尔霍斯" "图里亚" "坦布雷" "塞拉" "瓜达尔费奥"
+ "塞尔皮斯" "阿德拉" "贝莱斯" "瓜达卢佩" "阿尔曼佐拉" "彼德拉斯" "瓜迪埃拉"
+	}
+}

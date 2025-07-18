@@ -1,0 +1,172 @@
+﻿COG_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYERS
+  for_countries = {
+    COG
+  }
+  type = ship
+  ship_types = {
+    ship_hull_light
+    destroyer
+  }
+  prefix = "BNS "
+  fallback_name = "%d号驱逐舰"  # Contre-Torpilleur %d
+  unique = {
+    "博马"  # Boma
+    "马塔迪"  # Matadi
+    "莫巴"  # Moba
+    "阿尔贝维尔"  # Albertville
+    "伊丽莎白维尔"  # Elisabethville
+    "恩坎巴"  # Nkamba
+    "巴宽加"  # Bakwanga
+    "卡宾达"  # Kabinda
+    "卡宾达"  # Cabinda
+    "巴乌丁维尔"  # Baoudinville
+    "戈马"  # Goma
+    "斯坦利维尔"  # Stanleyville
+  }
+}
+COG_CL_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CL
+  for_countries = {
+    COG
+  }
+  type = ship
+  ship_types = {
+    ship_hull_cruiser
+    light_cruiser
+  }
+  prefix = "BNS "
+  fallback_name = "%d号轻巡洋舰"  # Croiseur Léger %d
+  unique = {
+    "博马"  # Boma
+    "马塔迪"  # Matadi
+    "莫巴"  # Moba
+    "阿尔贝维尔"  # Albertville
+    "伊丽莎白维尔"  # Elisabethville
+    "恩坎巴"  # Nkamba
+    "巴宽加"  # Bakwanga
+    "卡宾达"  # Kabinda
+    "卡宾达"  # Cabinda
+    "巴乌丁维尔"  # Baoudinville
+    "戈马"  # Goma
+    "斯坦利维尔"  # Stanleyville
+  }
+}
+COG_CA_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CA
+  for_countries = {
+    COG
+  }
+  type = ship
+  ship_types = {
+    ship_hull_cruiser
+    heavy_cruiser
+  }
+  prefix = "BNS "
+  fallback_name = "%d号重巡洋舰"  # Croiseur Lourd %d
+  unique = {
+    "博马"  # Boma
+    "马塔迪"  # Matadi
+    "莫巴"  # Moba
+    "阿尔贝维尔"  # Albertville
+    "伊丽莎白维尔"  # Elisabethville
+    "恩坎巴"  # Nkamba
+    "巴宽加"  # Bakwanga
+    "卡宾达"  # Kabinda
+    "卡宾达"  # Cabinda
+    "巴乌丁维尔"  # Baoudinville
+    "戈马"  # Goma
+    "斯坦利维尔"  # Stanleyville
+  }
+}
+COG_BB_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_BB
+  for_countries = {
+    COG
+  }
+  type = ship
+  ship_types = {
+    ship_hull_heavy
+    battleship
+  }
+  prefix = "BNS "
+  fallback_name = "%d号战列舰"  # Navire de Ligne %d
+  unique = {
+    "姆波普·马比因克·马姆贝奇"  # Roi Mbóp Mábíínc maMbéky
+    "穆辛加五世·尤希"  # Roi Yuhi V Musinga
+    "唐·佩德罗七世"  # Roi Dom Pedro VII
+    "莫伊·波亚蒂三世"  # Roi Moe Poaty III
+    "耶塔三世"  # Roi Yeta III
+    "利奥波德维尔"  # Leopoldville
+  }
+}
+COG_BC_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_BC
+  for_countries = {
+    COG
+  }
+  type = ship
+  ship_types = {
+    ship_hull_heavy
+    battle_cruiser
+  }
+  prefix = "BNS "
+  fallback_name = "%d号战列巡洋舰"  # Croiseur Cuirassé %d
+  unique = {
+    "姆波普·马比因克·马姆贝奇"  # Roi Mbóp Mábíínc maMbéky
+    "穆辛加五世·尤希"  # Roi Yuhi V Musinga
+    "唐·佩德罗七世"  # Roi Dom Pedro VII
+    "莫伊·波亚蒂三世"  # Roi Moe Poaty III
+    "耶塔三世"  # Roi Yeta III
+  }
+}
+COG_CV_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CARRIERS
+  for_countries = {
+    COG
+  }
+  type = ship
+  ship_types = {
+    ship_hull_carrier
+    carrier
+  }
+  prefix = "BNS "
+  fallback_name = "%d号航空母舰"  # Porte-Avions %d
+  unique = {
+    "利奥波德维尔伯爵"  # Graaf van Leopoldville
+    "金沙萨"  # Kinshaasa
+    "紫菀"  # Aster
+    "雏菊"  # Bellis
+    "番红花"  # Crocus
+    "半边莲"  # Lobelia
+    "水仙花"  # Narcis
+    "报春花"  # Primula
+  }
+}
+COG_SS_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_SUBMARINES
+  for_countries = {
+    COG
+  }
+  type = ship
+  ship_types = {
+    ship_hull_submarine
+    submarine
+  }
+  prefix = "BNS "
+  fallback_name = "%d号潜艇"  # Sous-Marin %d
+  unique = {
+    "博马"  # Boma
+    "马塔迪"  # Matadi
+    "莫巴"  # Moba
+    "阿尔贝维尔"  # Albertville
+    "伊丽莎白维尔"  # Elisabethville
+    "恩坎巴"  # Nkamba
+    "巴宽加"  # Bakwanga
+    "卡宾达"  # Kabinda
+    "卡宾达"  # Cabinda
+    "巴乌丁维尔"  # Baoudinville
+    "戈马"  # Goma
+    "斯坦利维尔"  # Stanleyville
+  }
+}

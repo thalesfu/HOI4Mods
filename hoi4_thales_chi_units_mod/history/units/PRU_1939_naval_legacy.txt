@@ -1,0 +1,94 @@
+﻿units = {
+  fleet = {
+    name = "秘鲁海军"  # Marina de Guerra
+    naval_base = 12997
+    task_force = {
+      name = "海军中队"  # Escuadrón Naval
+      location = 12997
+      ship = {
+        name = "格劳海军上将"  # BAP Almirante Grau
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+      ship = {
+        name = "博洛涅西上校"  # BAP Coronel Bolognesi
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+      ship = {
+        name = "维拉海军上将"  # BAP Almirante Villar
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+      ship = {
+        name = "朱塞海军上将"  # BAP Almirante Guise
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Flotilla de Submarinos
+      location = 12997
+      ship = {
+        name = "R1"  # BAP R1
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+      ship = {
+        name = "R2"  # BAP R2
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+      ship = {
+        name = "R3"  # BAP R3
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+      ship = {
+        name = "R4"  # BAP R4
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = PRU
+          }
+        }
+      }
+    }
+  }
+}

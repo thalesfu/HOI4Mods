@@ -1,0 +1,17 @@
+﻿FIN_RG_HISTORICAL = {
+	for_countries = { FIN }
+
+	type = railway_gun
+	
+	fallback_name = "第%d铁路炮兵团"
+
+	ordered = {
+		
+		2 = {"第%d铁路炮兵团"}
+		1 = {"第%d铁路炮兵团"}
+		3 = {"第%d铁路炮兵团"}
+		
+		
+		
+	}
+}

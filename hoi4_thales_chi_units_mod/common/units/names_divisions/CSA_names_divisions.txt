@@ -1,0 +1,1509 @@
+﻿CSA_INF_01 = {
+  name = "步兵师"  # Infantry Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  fallback_name = "第%d步兵师"  # %d Infantry Division
+  ordered = {
+    1 = {
+      "第%d'印第安头领'师"  # %dst 'Indianhead' Division
+    }
+    2 = {
+      "第%d'常春藤'师"  # %dnd 'Ivy' Division
+    }
+    3 = {
+      "第%d'开路者'师"  # %drd 'Pathfinder' Division
+    }
+    4 = {
+      "第%d'可靠'师"  # %dth 'Old Reliables' Division
+    }
+    5 = {
+      "第%d'山核桃'师"  # %dth 'Old Hickory' Division
+    }
+    6 = {
+      "第%d'红箭'师"  # %dth 'Red Arrow' Division
+    }
+    7 = {
+      "第%d'迪克西'师"  # %dth 'Dixie' Division
+    }
+    8 = {
+      "第%d'德克萨斯'师"  # %dth 'Texas' Division
+    }
+    9 = {
+      "第%d'旋风'师"  # %dth 'Cyclone' Division
+    }
+    10 = {
+      "第%d'深影'师"  # %dth 'Tough Ombres' Division
+    }
+    11 = {
+      "第%d'野猫'师"  # %dth 'Wildcat' Division
+    }
+    12 = {
+      "第%d'蓝山'师"  # %dth 'Blue Ridge' Division
+    }
+    13 = {
+      "第%d'胜利'师"  # %dth 'Victory' Division
+    }
+    14 = {
+      "第%d'欧扎克'师"  # %dth 'Ozarks' Division
+    }
+    15 = {
+      "第%d'世纪'师"  # %dth 'Century' Division
+    }
+    16 = {
+      "第%d'仙人掌'师"  # %dth 'Cactus' Division
+    }
+    17 = {
+      "第%d'金橡果'师"  # %dth 'Golden Acorns' Division
+    }
+    18 = {
+      "第%d'金狮'师"  # %dth 'Golden Lions' Division
+    }
+    19 = {
+      "第%d'黑豹'师"  # %dth 'Black Panthers' Division
+    }
+    20 = {
+      "第%d'血火'师"  # %dth 'Blood Fire' Division
+    }
+    21 = {
+      "第%d'斯通威尔·杰克逊'师"  # %dst 'Stonewall Jackson' Division
+    }
+    22 = {
+      "第%d'马默杜克'师"  # %dnd 'Marmaduke' Division
+    }
+    23 = {
+      "第%d'阿拉巴马志愿者'师"  # %drd 'Alabama Volunteers' Division
+    }
+    24 = {
+      "第%d'塔克同盟'师"  # %dth 'Tucker's Confederates' Division
+    }
+    25 = {
+      "第%d'乔治亚之冠'师"  # %dth 'Georgia's Finest' Division
+    }
+    26 = {
+      "第%d'田纳西火枪团'师"  # %dth 'Tennessee Rifles' Division
+    }
+    27 = {
+      "第%d'密西西比火枪团'师"  # %dth 'Mississippi Rifles' Division
+    }
+    28 = {
+      "第%d'阿肯色复仇者'师"  # %dth 'Arkansas Avengers' Division
+    }
+    29 = {
+      "第%d'路易斯安那志愿者'师"  # %dth 'Louisiana Volunteers' Division
+    }
+    30 = {
+      "第%d'北卡罗来纳火枪团'师"  # %dth 'North Carolina Rifles' Division
+    }
+    31 = {
+      "第%d'战斧'师"  # %dst 'Battle Axe' Division
+    }
+    32 = {
+      "第%d'白骑士'师"  # %dnd 'White Knights' Division
+    }
+    33 = {
+      "第%d'罗伯特·爱德华·李'师"  # %drd 'Robert E. Lee' Division
+    }
+    34 = {
+      "第%d'肮脏恶棍'师"  # %dth 'Dirty Bastards' Division
+    }
+    35 = {
+      "第%d'德尔塔'师"  # %dth 'Delta' Division
+    }
+    36 = {
+      "第%d'飙风'师"  # %dth 'Hurricane' Division
+    }
+    37 = {
+      "第%d'响尾蛇'师"  # %dth 'Rattlesnake' Division
+    }
+    38 = {
+      "第%d'猎头者'师"  # %dth 'Headhunters' Division
+    }
+    39 = {
+      "第%d'狮子'师"  # %dth 'Lions' Division
+    }
+    40 = {
+      "第%d'叛道者'师"  # %dth 'Misfits' Division
+    }
+    41 = {
+      "第%d'黑钻石'师"  # %dst 'Black Diamonds' Division
+    }
+    42 = {
+      "第%d'山姆·休斯顿'师"  # %dnd 'Sam Houston' Division
+    }
+    43 = {
+      "第%d'好汉'师"  # %drd 'Banditos' Division
+    }
+    44 = {
+      "第%d'尘鬼'师"  # %dth 'Dust Devils' Division
+    }
+    45 = {
+      "第%d'志愿者'师"  # %dth 'Volunteers' Division
+    }
+    46 = {
+      "第%d大卫·克洛科特''师"  # %dth 'Davy Crockett' Division
+    }
+    47 = {
+      "第%d'黑虎'师"  # %dth 'Black Tigers' Division
+    }
+    48 = {
+      "第%d'铁人'师"  # %dth 'Iron Men' Division
+    }
+    49 = {
+      "第%d'犰狳'师"  # %dth 'Armadillos' Division
+    }
+    50 = {
+      "第%d'山狮'师"  # %dth 'Mountain Lions' Division
+    }
+    51 = {
+      "第%d'长角'师"  # %dst 'Longhorn' Division
+    }
+    52 = {
+      "第%d'自由万岁'师"  # %dnd 'Freedom!' Division
+    }
+    53 = {
+      "第%d'沙蝎'师"  # %drd 'Desert Scorpion' Division
+    }
+    54 = {
+      "第%d'塞米诺尔人'师"  # %dth 'Seminole' Division
+    }
+    55 = {
+      "第%d'阿帕奇'师"  # %dth 'Apache' Division
+    }
+    56 = {
+      "第%d'黑寡妇'师"  # %dth 'Black Widows' Division
+    }
+    57 = {
+      "第%d'长啸野狼'师"  # %dth 'Howling Coyotes' Division
+    }
+    58 = {
+      "第%d'卡津人'师"  # %dth 'Ragin' Cajuns' Division
+    }
+    59 = {
+      "第%d'不群'师"  # %dth 'Mavericks' Division
+    }
+    60 = {
+      "第%d'战隼'师"  # %dth 'Falcons' Division
+    }
+    61 = {
+      "第%d'阿拉莫'师"  # %dst 'Alamo' Division
+    }
+    62 = {
+      "第%d'牛仔'师"  # %dnd 'Cowboys' Division
+    }
+    63 = {
+      "第%d'复仇'师"  # %drd 'Revenge!' Division
+    }
+    64 = {
+      "第%d'叛逆之吼'师"  # %dth 'Rebel Yell' Division
+    }
+    65 = {
+      "第%d'苍鹰'师"  # %dth 'Jayhawkers' Division
+    }
+    66 = {
+      "第%d'沼泽之狐'师"  # %dth 'Swamp Fox' Division
+    }
+    67 = {
+      "第%d'勇士'师"  # %dth 'Bearcats' Division
+    }
+    68 = {
+      "第%d'野马'师"  # %dth 'Mustangs' Division
+    }
+    69 = {
+      "第%d'凤凰'师"  # %dth 'Phoenix' Division
+    }
+    70 = {
+      "第%d'黄夹克'师"  # %dth 'Yellow Jackets' Division
+    }
+    71 = {
+      "第%d'野马'师"  # %dst 'Broncos' Division
+    }
+    72 = {
+      "第%d'骑士'师"  # %dnd 'Cavaliers' Division
+    }
+    73 = {
+      "第%d'彗星'师"  # %drd 'Comet' Division
+    }
+    74 = {
+      "第%d'桅杆'师"  # %dth 'Mastadons' Division
+    }
+    75 = {
+      "第%d'金地鼠'师"  # %dth 'Golden Gophers' Division
+    }
+    76 = {
+      "第%d'黄蜂'师"  # %dth 'Wasps' Division
+    }
+    77 = {
+      "第%d'野兔'师"  # %dth 'Jackrabbits' Division
+    }
+    78 = {
+      "第%d'哥伦布'师"  # %dth 'Columbus' Division
+    }
+    79 = {
+      "第%d'神圣'师"  # %dth 'Saints' Division
+    }
+    80 = {
+      "第%d'奔路者'师"  # %dth 'Roadrunner' Division
+    }
+    81 = {
+      "第%d'绿鳄'师"  # %dst 'Green Gators' Division
+    }
+    82 = {
+      "第%d'战鹰'师"  # %dnd 'Warhawks' Division
+    }
+    83 = {
+      "第%d'赤红'师"  # %drd 'Crimson' Division
+    }
+    84 = {
+      "第%d'特洛伊'师"  # %dth 'Trojans' Division
+    }
+    85 = {
+      "第%d'血刀'师"  # %dth 'Bloody Saber' Division
+    }
+    86 = {
+      "第%d'比利·约翰尼'师"  # %dth 'Billy  Johnny' Division'
+    }
+    87 = {
+      "第%d'乔克托'师"  # %dth 'Chocktaw' Division
+    }
+    88 = {
+      "第%d'风暴'师"  # %dth 'Storm' Division
+    }
+    89 = {
+      "第%d'山地人'师"  # %dth 'Hoosiers' Division
+    }
+    90 = {
+      "第%d'美洲豹'师"  # %dth 'Jaguars' Division
+    }
+    91 = {
+      "第%d'海上霸王'师"  # %dth 'Corsairs' Division
+    }
+    92 = {
+      "第%d'南卡罗来纳志愿者'师"  # %dth 'South Carolina Volunteers' Division
+    }
+    93 = {
+      "第%d'佛罗里达之冠'师"  # %dth 'Florida's Finest' Division
+    }
+  }
+}
+CSA_CAV_01 = {
+  name = "骑兵师"  # Cavalry Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+  fallback_name = "第%d骑兵师"  # %d Cavalry Division
+  ordered = {
+    1 = {
+      "第%d'第一队'骑兵师"  # %dst Cavalry 'The 1st Team' Div.
+    }
+    2 = {
+      "第%d'南卡罗来纳骑士'骑兵师"  # %dnd Cavalry 'South Carolina Mounted' Division
+    }
+    3 = {
+      "第%d'游击队'骑兵师"  # %drd Cavalry 'Partisan Rangers' Division
+    }
+    4 = {
+      "第%d'亲爱的'骑兵师"  # %dth Cavalry 'Dearing' Division
+    }
+    5 = {
+      "第%d'跋涉'骑兵师"  # %dth Cavalry 'Wade' Division
+    }
+    6 = {
+      "第%d'阿姆斯特德'骑兵师"  # %dth Cavalry 'Armistead' Division
+    }
+    7 = {
+      "第%d'斯彭斯'骑兵师"  # %dth Cavalry 'Spence' Division
+    }
+    8 = {
+      "第%d'独立游侠'骑兵师"  # %dth Cavalry 'Independent Rangers' Division
+    }
+    9 = {
+      "第%d'默奇森'骑兵师"  # %dth Cavalry 'Murchison' Division
+    }
+    10 = {
+      "第%d'沃伦'骑兵师"  # %dth Cavalry 'Warren' Division
+    }
+    11 = {
+      "第%d'莫斯比'骑兵师"  # %dth Cavalry 'Mosby' Division
+    }
+    12 = {
+      "第%d'摩根'骑兵师"  # %dth Cavalry 'Morgan' Division
+    }
+  }
+}
+CSA_MOT_01 = {
+  name = "摩托化步兵师"  # Motorized Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "motorized"
+  }
+  link_numbering_with = {
+    CSA_INF_01
+  }
+  fallback_name = "第%d摩托化步兵师"  # %d Motorized Division
+  ordered = {
+    1 = {
+      "第%d'印第安头领'师"  # %dst 'Indianhead' Division
+    }
+    2 = {
+      "第%d'常春藤'师"  # %dnd 'Ivy' Division
+    }
+    3 = {
+      "第%d'开路者'师"  # %drd 'Pathfinder' Division
+    }
+    4 = {
+      "第%d'可靠'师"  # %dth 'Old Reliables' Division
+    }
+    5 = {
+      "第%d'山核桃'师"  # %dth 'Old Hickory' Division
+    }
+    6 = {
+      "第%d'红箭'师"  # %dth 'Red Arrow' Division
+    }
+    7 = {
+      "第%d'迪克西'师"  # %dth 'Dixie' Division
+    }
+    8 = {
+      "第%d'德克萨斯'师"  # %dth 'Texas' Division
+    }
+    9 = {
+      "第%d'旋风'师"  # %dth 'Cyclone' Division
+    }
+    10 = {
+      "第%d'深影'师"  # %dth 'Tough Ombres' Division
+    }
+    11 = {
+      "第%d'野猫'师"  # %dth 'Wildcat' Division
+    }
+    12 = {
+      "第%d'蓝山'师"  # %dth 'Blue Ridge' Division
+    }
+    13 = {
+      "第%d'胜利'师"  # %dth 'Victory' Division
+    }
+    14 = {
+      "第%d'欧扎克'师"  # %dth 'Ozarks' Division
+    }
+    15 = {
+      "第%d'世纪'师"  # %dth 'Century' Division
+    }
+    16 = {
+      "第%d'仙人掌'师"  # %dth 'Cactus' Division
+    }
+    17 = {
+      "第%d'金橡果'师"  # %dth 'Golden Acorns' Division
+    }
+    18 = {
+      "第%d'金狮'师"  # %dth 'Golden Lions' Division
+    }
+    19 = {
+      "第%d'黑豹'师"  # %dth 'Black Panthers' Division
+    }
+    20 = {
+      "第%d'血火'师"  # %dth 'Blood Fire' Division
+    }
+    21 = {
+      "第%d'斯通威尔·杰克逊'师"  # %dst 'Stonewall Jackson' Division
+    }
+    22 = {
+      "第%d'马默杜克'师"  # %dnd 'Marmaduke' Division
+    }
+    23 = {
+      "第%d'阿拉巴马志愿者'师"  # %drd 'Alabama Volunteers' Division
+    }
+    24 = {
+      "第%d'塔克同盟'师"  # %dth 'Tucker's Confederates' Division
+    }
+    25 = {
+      "第%d'乔治亚之冠'师"  # %dth 'Georgia's Finest' Division
+    }
+    26 = {
+      "第%d'田纳西火枪团'师"  # %dth 'Tennessee Rifles' Division
+    }
+    27 = {
+      "第%d'密西西比火枪团'师"  # %dth 'Mississippi Rifles' Division
+    }
+    28 = {
+      "第%d'阿肯色复仇者'师"  # %dth 'Arkansas Avengers' Division
+    }
+    29 = {
+      "第%d'路易斯安那志愿者'师"  # %dth 'Louisiana Volunteers' Division
+    }
+    30 = {
+      "第%d'北卡罗来纳火枪团'师"  # %dth 'North Carolina Rifles' Division
+    }
+    31 = {
+      "第%d'战斧'师"  # %dst 'Battle Axe' Division
+    }
+    32 = {
+      "第%d'白骑士'师"  # %dnd 'White Knights' Division
+    }
+    33 = {
+      "第%d'罗伯特·爱德华·李'师"  # %drd 'Robert E. Lee' Division
+    }
+    34 = {
+      "第%d'肮脏恶棍'师"  # %dth 'Dirty Bastards' Division
+    }
+    35 = {
+      "第%d'德尔塔'师"  # %dth 'Delta' Division
+    }
+    36 = {
+      "第%d'飙风'师"  # %dth 'Hurricane' Division
+    }
+    37 = {
+      "第%d'响尾蛇'师"  # %dth 'Rattlesnake' Division
+    }
+    38 = {
+      "第%d'猎头者'师"  # %dth 'Headhunters' Division
+    }
+    39 = {
+      "第%d'狮子'师"  # %dth 'Lions' Division
+    }
+    40 = {
+      "第%d'叛道者'师"  # %dth 'Misfits' Division
+    }
+    41 = {
+      "第%d'黑钻石'师"  # %dst 'Black Diamonds' Division
+    }
+    42 = {
+      "第%d'山姆·休斯顿'师"  # %dnd 'Sam Houston' Division
+    }
+    43 = {
+      "第%d'好汉'师"  # %drd 'Banditos' Division
+    }
+    44 = {
+      "第%d'尘鬼'师"  # %dth 'Dust Devils' Division
+    }
+    45 = {
+      "第%d'志愿者'师"  # %dth 'Volunteers' Division
+    }
+    46 = {
+      "第%d大卫·克洛科特''师"  # %dth 'Davy Crockett' Division
+    }
+    47 = {
+      "第%d'黑虎'师"  # %dth 'Black Tigers' Division
+    }
+    48 = {
+      "第%d'铁人'师"  # %dth 'Iron Men' Division
+    }
+    49 = {
+      "第%d'犰狳'师"  # %dth 'Armadillos' Division
+    }
+    50 = {
+      "第%d'山狮'师"  # %dth 'Mountain Lions' Division
+    }
+    51 = {
+      "第%d'长角'师"  # %dst 'Longhorn' Division
+    }
+    52 = {
+      "第%d'自由万岁'师"  # %dnd 'Freedom!' Division
+    }
+    53 = {
+      "第%d'沙蝎'师"  # %drd 'Desert Scorpion' Division
+    }
+    54 = {
+      "第%d'塞米诺尔人'师"  # %dth 'Seminole' Division
+    }
+    55 = {
+      "第%d'阿帕奇'师"  # %dth 'Apache' Division
+    }
+    56 = {
+      "第%d'黑寡妇'师"  # %dth 'Black Widows' Division
+    }
+    57 = {
+      "第%d'长啸野狼'师"  # %dth 'Howling Coyotes' Division
+    }
+    58 = {
+      "第%d'卡津人'师"  # %dth 'Ragin' Cajuns' Division
+    }
+    59 = {
+      "第%d'不群'师"  # %dth 'Mavericks' Division
+    }
+    60 = {
+      "第%d'战隼'师"  # %dth 'Falcons' Division
+    }
+    61 = {
+      "第%d'阿拉莫'师"  # %dst 'Alamo' Division
+    }
+    62 = {
+      "第%d'牛仔'师"  # %dnd 'Cowboys' Division
+    }
+    63 = {
+      "第%d'复仇'师"  # %drd 'Revenge!' Division
+    }
+    64 = {
+      "第%d'叛逆之吼'师"  # %dth 'Rebel Yell' Division
+    }
+    65 = {
+      "第%d'苍鹰'师"  # %dth 'Jayhawkers' Division
+    }
+    66 = {
+      "第%d'沼泽之狐'师"  # %dth 'Swamp Fox' Division
+    }
+    67 = {
+      "第%d'勇士'师"  # %dth 'Bearcats' Division
+    }
+    68 = {
+      "第%d'野马'师"  # %dth 'Mustangs' Division
+    }
+    69 = {
+      "第%d'凤凰'师"  # %dth 'Phoenix' Division
+    }
+    70 = {
+      "第%d'黄夹克'师"  # %dth 'Yellow Jackets' Division
+    }
+    71 = {
+      "第%d'野马'师"  # %dst 'Broncos' Division
+    }
+    72 = {
+      "第%d'骑士'师"  # %dnd 'Cavaliers' Division
+    }
+    73 = {
+      "第%d'彗星'师"  # %drd 'Comet' Division
+    }
+    74 = {
+      "第%d'桅杆'师"  # %dth 'Mastadons' Division
+    }
+    75 = {
+      "第%d'金地鼠'师"  # %dth 'Golden Gophers' Division
+    }
+    76 = {
+      "第%d'黄蜂'师"  # %dth 'Wasps' Division
+    }
+    77 = {
+      "第%d'野兔'师"  # %dth 'Jackrabbits' Division
+    }
+    78 = {
+      "第%d'哥伦布'师"  # %dth 'Columbus' Division
+    }
+    79 = {
+      "第%d'神圣'师"  # %dth 'Saints' Division
+    }
+    80 = {
+      "第%d'奔路者'师"  # %dth 'Roadrunner' Division
+    }
+    81 = {
+      "第%d'绿鳄'师"  # %dst 'Green Gators' Division
+    }
+    82 = {
+      "第%d'战鹰'师"  # %dnd 'Warhawks' Division
+    }
+    83 = {
+      "第%d'赤红'师"  # %drd 'Crimson' Division
+    }
+    84 = {
+      "第%d'特洛伊'师"  # %dth 'Trojans' Division
+    }
+    85 = {
+      "第%d'血刀'师"  # %dth 'Bloody Saber' Division
+    }
+    86 = {
+      "第%d'比利·约翰尼'师"  # %dth 'Billy  Johnny' Division'
+    }
+    87 = {
+      "第%d'乔克托'师"  # %dth 'Chocktaw' Division
+    }
+    88 = {
+      "第%d'风暴'师"  # %dth 'Storm' Division
+    }
+    89 = {
+      "第%d'山地人'师"  # %dth 'Hoosiers' Division
+    }
+    90 = {
+      "第%d'美洲豹'师"  # %dth 'Jaguars' Division
+    }
+    91 = {
+      "第%d'海上霸王'师"  # %dth 'Corsairs' Division
+    }
+    92 = {
+      "第%d'南卡罗来纳志愿者'师"  # %dth 'South Carolina Volunteers' Division
+    }
+    93 = {
+      "第%d'佛罗里达之冠'师"  # %dth 'Florida's Finest' Division
+    }
+  }
+}
+CSA_MEC_01 = {
+  name = "机械化步兵师"  # Mechanized Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mechanized"
+  }
+  link_numbering_with = {
+    CSA_INF_01
+  }
+  fallback_name = "第%d机械化步兵师"  # %d Mechanized Division
+  ordered = {
+    1 = {
+      "第%d'印第安头领'师"  # %dst 'Indianhead' Division
+    }
+    2 = {
+      "第%d'常春藤'师"  # %dnd 'Ivy' Division
+    }
+    3 = {
+      "第%d'开路者'师"  # %drd 'Pathfinder' Division
+    }
+    4 = {
+      "第%d'可靠'师"  # %dth 'Old Reliables' Division
+    }
+    5 = {
+      "第%d'山核桃'师"  # %dth 'Old Hickory' Division
+    }
+    6 = {
+      "第%d'红箭'师"  # %dth 'Red Arrow' Division
+    }
+    7 = {
+      "第%d'迪克西'师"  # %dth 'Dixie' Division
+    }
+    8 = {
+      "第%d'德克萨斯'师"  # %dth 'Texas' Division
+    }
+    9 = {
+      "第%d'旋风'师"  # %dth 'Cyclone' Division
+    }
+    10 = {
+      "第%d'深影'师"  # %dth 'Tough Ombres' Division
+    }
+    11 = {
+      "第%d'野猫'师"  # %dth 'Wildcat' Division
+    }
+    12 = {
+      "第%d'蓝山'师"  # %dth 'Blue Ridge' Division
+    }
+    13 = {
+      "第%d'胜利'师"  # %dth 'Victory' Division
+    }
+    14 = {
+      "第%d'欧扎克'师"  # %dth 'Ozarks' Division
+    }
+    15 = {
+      "第%d'世纪'师"  # %dth 'Century' Division
+    }
+    16 = {
+      "第%d'仙人掌'师"  # %dth 'Cactus' Division
+    }
+    17 = {
+      "第%d'金橡果'师"  # %dth 'Golden Acorns' Division
+    }
+    18 = {
+      "第%d'金狮'师"  # %dth 'Golden Lions' Division
+    }
+    19 = {
+      "第%d'黑豹'师"  # %dth 'Black Panthers' Division
+    }
+    20 = {
+      "第%d'血火'师"  # %dth 'Blood Fire' Division
+    }
+    21 = {
+      "第%d'斯通威尔·杰克逊'师"  # %dst 'Stonewall Jackson' Division
+    }
+    22 = {
+      "第%d'马默杜克'师"  # %dnd 'Marmaduke' Division
+    }
+    23 = {
+      "第%d'阿拉巴马志愿者'师"  # %drd 'Alabama Volunteers' Division
+    }
+    24 = {
+      "第%d'塔克同盟'师"  # %dth 'Tucker's Confederates' Division
+    }
+    25 = {
+      "第%d'乔治亚之冠'师"  # %dth 'Georgia's Finest' Division
+    }
+    26 = {
+      "第%d'田纳西火枪团'师"  # %dth 'Tennessee Rifles' Division
+    }
+    27 = {
+      "第%d'密西西比火枪团'师"  # %dth 'Mississippi Rifles' Division
+    }
+    28 = {
+      "第%d'阿肯色复仇者'师"  # %dth 'Arkansas Avengers' Division
+    }
+    29 = {
+      "第%d'路易斯安那志愿者'师"  # %dth 'Louisiana Volunteers' Division
+    }
+    30 = {
+      "第%d'北卡罗来纳火枪团'师"  # %dth 'North Carolina Rifles' Division
+    }
+    31 = {
+      "第%d'战斧'师"  # %dst 'Battle Axe' Division
+    }
+    32 = {
+      "第%d'白骑士'师"  # %dnd 'White Knights' Division
+    }
+    33 = {
+      "第%d'罗伯特·爱德华·李'师"  # %drd 'Robert E. Lee' Division
+    }
+    34 = {
+      "第%d'肮脏恶棍'师"  # %dth 'Dirty Bastards' Division
+    }
+    35 = {
+      "第%d'德尔塔'师"  # %dth 'Delta' Division
+    }
+    36 = {
+      "第%d'飙风'师"  # %dth 'Hurricane' Division
+    }
+    37 = {
+      "第%d'响尾蛇'师"  # %dth 'Rattlesnake' Division
+    }
+    38 = {
+      "第%d'猎头者'师"  # %dth 'Headhunters' Division
+    }
+    39 = {
+      "第%d'狮子'师"  # %dth 'Lions' Division
+    }
+    40 = {
+      "第%d'叛道者'师"  # %dth 'Misfits' Division
+    }
+    41 = {
+      "第%d'黑钻石'师"  # %dst 'Black Diamonds' Division
+    }
+    42 = {
+      "第%d'山姆·休斯顿'师"  # %dnd 'Sam Houston' Division
+    }
+    43 = {
+      "第%d'好汉'师"  # %drd 'Banditos' Division
+    }
+    44 = {
+      "第%d'尘鬼'师"  # %dth 'Dust Devils' Division
+    }
+    45 = {
+      "第%d'志愿者'师"  # %dth 'Volunteers' Division
+    }
+    46 = {
+      "第%d大卫·克洛科特''师"  # %dth 'Davy Crockett' Division
+    }
+    47 = {
+      "第%d'黑虎'师"  # %dth 'Black Tigers' Division
+    }
+    48 = {
+      "第%d'铁人'师"  # %dth 'Iron Men' Division
+    }
+    49 = {
+      "第%d'犰狳'师"  # %dth 'Armadillos' Division
+    }
+    50 = {
+      "第%d'山狮'师"  # %dth 'Mountain Lions' Division
+    }
+    51 = {
+      "第%d'长角'师"  # %dst 'Longhorn' Division
+    }
+    52 = {
+      "第%d'自由万岁'师"  # %dnd 'Freedom!' Division
+    }
+    53 = {
+      "第%d'沙蝎'师"  # %drd 'Desert Scorpion' Division
+    }
+    54 = {
+      "第%d'塞米诺尔人'师"  # %dth 'Seminole' Division
+    }
+    55 = {
+      "第%d'阿帕奇'师"  # %dth 'Apache' Division
+    }
+    56 = {
+      "第%d'黑寡妇'师"  # %dth 'Black Widows' Division
+    }
+    57 = {
+      "第%d'长啸野狼'师"  # %dth 'Howling Coyotes' Division
+    }
+    58 = {
+      "第%d'卡津人'师"  # %dth 'Ragin' Cajuns' Division
+    }
+    59 = {
+      "第%d'不群'师"  # %dth 'Mavericks' Division
+    }
+    60 = {
+      "第%d'战隼'师"  # %dth 'Falcons' Division
+    }
+    61 = {
+      "第%d'阿拉莫'师"  # %dst 'Alamo' Division
+    }
+    62 = {
+      "第%d'牛仔'师"  # %dnd 'Cowboys' Division
+    }
+    63 = {
+      "第%d'复仇'师"  # %drd 'Revenge!' Division
+    }
+    64 = {
+      "第%d'叛逆之吼'师"  # %dth 'Rebel Yell' Division
+    }
+    65 = {
+      "第%d'苍鹰'师"  # %dth 'Jayhawkers' Division
+    }
+    66 = {
+      "第%d'沼泽之狐'师"  # %dth 'Swamp Fox' Division
+    }
+    67 = {
+      "第%d'勇士'师"  # %dth 'Bearcats' Division
+    }
+    68 = {
+      "第%d'野马'师"  # %dth 'Mustangs' Division
+    }
+    69 = {
+      "第%d'凤凰'师"  # %dth 'Phoenix' Division
+    }
+    70 = {
+      "第%d'黄夹克'师"  # %dth 'Yellow Jackets' Division
+    }
+    71 = {
+      "第%d'野马'师"  # %dst 'Broncos' Division
+    }
+    72 = {
+      "第%d'骑士'师"  # %dnd 'Cavaliers' Division
+    }
+    73 = {
+      "第%d'彗星'师"  # %drd 'Comet' Division
+    }
+    74 = {
+      "第%d'桅杆'师"  # %dth 'Mastadons' Division
+    }
+    75 = {
+      "第%d'金地鼠'师"  # %dth 'Golden Gophers' Division
+    }
+    76 = {
+      "第%d'黄蜂'师"  # %dth 'Wasps' Division
+    }
+    77 = {
+      "第%d'野兔'师"  # %dth 'Jackrabbits' Division
+    }
+    78 = {
+      "第%d'哥伦布'师"  # %dth 'Columbus' Division
+    }
+    79 = {
+      "第%d'神圣'师"  # %dth 'Saints' Division
+    }
+    80 = {
+      "第%d'奔路者'师"  # %dth 'Roadrunner' Division
+    }
+    81 = {
+      "第%d'绿鳄'师"  # %dst 'Green Gators' Division
+    }
+    82 = {
+      "第%d'战鹰'师"  # %dnd 'Warhawks' Division
+    }
+    83 = {
+      "第%d'赤红'师"  # %drd 'Crimson' Division
+    }
+    84 = {
+      "第%d'特洛伊'师"  # %dth 'Trojans' Division
+    }
+    85 = {
+      "第%d'血刀'师"  # %dth 'Bloody Saber' Division
+    }
+    86 = {
+      "第%d'比利·约翰尼'师"  # %dth 'Billy  Johnny' Division'
+    }
+    87 = {
+      "第%d'乔克托'师"  # %dth 'Chocktaw' Division
+    }
+    88 = {
+      "第%d'风暴'师"  # %dth 'Storm' Division
+    }
+    89 = {
+      "第%d'山地人'师"  # %dth 'Hoosiers' Division
+    }
+    90 = {
+      "第%d'美洲豹'师"  # %dth 'Jaguars' Division
+    }
+    91 = {
+      "第%d'海上霸王'师"  # %dth 'Corsairs' Division
+    }
+    92 = {
+      "第%d'南卡罗来纳志愿者'师"  # %dth 'South Carolina Volunteers' Division
+    }
+    93 = {
+      "第%d'佛罗里达之冠'师"  # %dth 'Florida's Finest' Division
+    }
+  }
+}
+CSA_ARM_01 = {
+  name = "装甲师"  # Armored Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "light_armor"
+    "medium_armor"
+    "heavy_armor"
+    "modern_armor"
+  }
+  fallback_name = "第%d装甲师"  # %d Armored Division
+  ordered = {
+    1 = {
+      "第%d'地狱车轮'装甲师"  # %dst Armored 'Hell on Wheels' Div.
+    }
+    2 = {
+      "第%d'矛头'装甲师"  # %dnd Armored 'Spearhead' Div.
+    }
+    3 = {
+      "第%d'虎'装甲师"  # %drd Armored 'Tiger' Div.
+    }
+    4 = {
+      "第%d'雷电'装甲师"  # %dth Armored 'Thunderbolt' Div.
+    }
+    5 = {
+      "第%d'地狱猫'装甲师"  # %dth Armored 'Hellcat' Div.
+    }
+    6 = {
+      "第%d'解放者'装甲师"  # %dth Armored 'Liberator' Div.
+    }
+    7 = {
+      "第%d'迪克西'装甲师"  # %dth Armored 'Dixie' Div.
+    }
+    8 = {
+      "第%d'飙风'装甲师"  # %dth Armored 'Hurricane' Div.
+    }
+    9 = {
+      "第%d'孤星'装甲师"  # %dth Armored 'Lone Star' Div.
+    }
+    10 = {
+      "第%d'骑士'装甲师"  # %dth Armored 'Cavaliers' Div.
+    }
+    11 = {
+      "第%d'美洲虎'装甲师"  # %dth Armored 'Jaguar' Div.
+    }
+    12 = {
+      "第%d'奔路者'装甲师"  # %dth Armored 'Roadrunners' Div.
+    }
+    13 = {
+      "第%d'弗吉尼亚'装甲师"  # %dth Armored 'Old Virginia' Div.
+    }
+    14 = {
+      "第%d'狂野骑士'装甲师"  # %dth Armored 'Rough Riders' Div.
+    }
+    15 = {
+      "第%d'野马'装甲师"  # %dth Armored 'Broncos' Div.
+    }
+    16 = {
+      "第%d'山猫'装甲师"  # %dth Armored 'Lynx' Div.
+    }
+    17 = {
+      "第%d'白兰地车站'装甲师"  # %dth Armored 'Brandy Station' Div.
+    }
+    18 = {
+      "第%d'血腥比尔'装甲师"  # %dth Armored 'Bloody Bill' Div.
+    }
+    19 = {
+      "第%d'杰布·斯图尔特'装甲师"  # %dth Armored 'Jeb Stuart' Div.
+    }
+    20 = {
+      "第%d'福里斯特'装甲师"  # %dth Armored 'Forrest' Div.
+    }
+    21 = {
+      "第%d'布拉克斯顿·布拉格'装甲师"  # %dst Armored 'Braxton Bragg' Div.
+    }
+    22 = {
+      "第%d'约翰·莫斯比'装甲师"  # %dnd Armored 'John Mosby' Div.
+    }
+    23 = {
+      "第%d'阿尔伯特·约翰斯顿'装甲师"  # %drd Armored 'Albert Johnston' Div.
+    }
+  }
+}
+CSA_PAR_01 = {
+  name = "空降师"  # Airborne Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "paratrooper"
+  }
+  fallback_name = "第%d空降师"  # %d Airborne Division
+  ordered = {
+    1 = {
+      "第%d'啸鹰'空降师"  # %dst Airborne 'Screaming Eagles' Division
+    }
+    2 = {
+      "第%d'天使'空降师"  # %dnd Airborne 'The Angels' Division
+    }
+    3 = {
+      "第%d'金爪'空降师"  # %drd Airborne 'Golden Talons' Division
+    }
+    4 = {
+      "第%d'蓝山'空降师"  # %dth Airborne 'Blue Ridge' Division
+    }
+    5 = {
+      "第%d'世纪'空降师"  # %dth Airborne 'Century' Division
+    }
+    6 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    7 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    8 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    9 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+    10 = {
+      "第%d空降师"  # %dth Airborne Division
+    }
+  }
+}
+CSA_MAR_01 = {
+  name = "海军陆战师"  # Marine Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "marine"
+  }
+  fallback_name = "第%d海军陆战师"  # %d Marine Division
+  ordered = {
+    1 = {
+      "第%d海军陆战师"  # %dst Marine Division
+    }
+    2 = {
+      "第%d海军陆战师"  # %dnd Marine Division
+    }
+    3 = {
+      "第%d海军陆战师"  # %drd Marine Division
+    }
+    4 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    5 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    6 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    7 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    8 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    9 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    10 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    11 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    12 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    13 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    14 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    15 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    16 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    17 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    18 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    19 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    20 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    21 = {
+      "第%d海军陆战师"  # %dst Marine Division
+    }
+    22 = {
+      "第%d海军陆战师"  # %dnd Marine Division
+    }
+    23 = {
+      "第%d海军陆战师"  # %drd Marine Division
+    }
+    24 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    25 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    26 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    27 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    28 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    29 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    30 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    31 = {
+      "第%d海军陆战师"  # %dst Marine Division
+    }
+    32 = {
+      "第%d海军陆战师"  # %dnd Marine Division
+    }
+    33 = {
+      "第%d海军陆战师"  # %drd Marine Division
+    }
+    34 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    35 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    36 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    37 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    38 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    39 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    40 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    41 = {
+      "第%d海军陆战师"  # %dst Marine Division
+    }
+    42 = {
+      "第%d海军陆战师"  # %dnd Marine Division
+    }
+    43 = {
+      "第%d海军陆战师"  # %drd Marine Division
+    }
+    44 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    45 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    46 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    47 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    48 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+    49 = {
+      "第%d海军陆战师"  # %dth Marine Division
+    }
+  }
+}
+CSA_MNT_01 = {
+  name = "山地师"  # Mountain Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "mountaineers"
+  }
+  fallback_name = "第%d山地师"  # %d Mountain Division
+  ordered = {
+    1 = {
+      "第%d'岩山'师"  # %dst 'Smoky Mountains' Division
+    }
+    2 = {
+      "第%d'冷山'师"  # %dnd 'Cold Mountain' Division
+    }
+    3 = {
+      "第%d'石山'师"  # %drd 'Stone Mountain' Division
+    }
+    4 = {
+      "第%d'山狮'师"  # %dth 'Mountain Lions' Division
+    }
+    5 = {
+      "第%d山地师"  # %dth Mountain  Division
+    }
+    6 = {
+      "第%d山地师"  # %dth Mountain  Division
+    }
+    7 = {
+      "第%d山地师"  # %dth Mountain  Division
+    }
+    8 = {
+      "第%d山地师"  # %dth Mountain  Division
+    }
+    9 = {
+      "第%d山地师"  # %dth Mountain  Division
+    }
+    10 = {
+      "第%d山地师"  # %dth Mountain  Division
+    }
+  }
+}
+CSA_GAR_01 = {
+  name = "守备师"  # Garrison Division
+  for_countries = {
+    CSA
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+  link_numbering_with = {
+    CSA_INF_01
+  }
+  fallback_name = "第%d志愿师"  # %d Volunteer Division
+  ordered = {
+    23 = {
+      "第%d'阿拉巴马志愿者'师"  # %drd 'Alabama Volunteers' Division
+    }
+    24 = {
+      "第%d'塔克同盟'师"  # %dth 'Tucker's Confederates' Division
+    }
+    25 = {
+      "第%d'乔治亚之冠'师"  # %dth 'Georgia's Finest' Division
+    }
+    26 = {
+      "第%d'田纳西火枪团'师"  # %dth 'Tennessee Rifles' Division
+    }
+    27 = {
+      "第%d'密西西比火枪团'师"  # %dth 'Mississippi Rifles' Division
+    }
+    28 = {
+      "第%d'阿肯色复仇者'师"  # %dth 'Arkansas Avengers' Division
+    }
+    29 = {
+      "第%d'路易斯安那志愿者'师"  # %dth 'Louisiana Volunteers' Division
+    }
+    30 = {
+      "第%d'北卡罗来纳火枪团'师"  # %dth 'North Carolina Rifles' Division
+    }
+    31 = {
+      "第%d'战斧'师"  # %dst 'Battle Axe' Division
+    }
+    32 = {
+      "第%d'白骑士'师"  # %dnd 'White Knights' Division
+    }
+    33 = {
+      "第%d'罗伯特·爱德华·李'师"  # %drd 'Robert E. Lee' Division
+    }
+    34 = {
+      "第%d'肮脏恶棍'师"  # %dth 'Dirty Bastards' Division
+    }
+    35 = {
+      "第%d'德尔塔'师"  # %dth 'Delta' Division
+    }
+    36 = {
+      "第%d'飙风'师"  # %dth 'Hurricane' Division
+    }
+    37 = {
+      "第%d'响尾蛇'师"  # %dth 'Rattlesnake' Division
+    }
+    38 = {
+      "第%d'猎头者'师"  # %dth 'Headhunters' Division
+    }
+    39 = {
+      "第%d'狮子'师"  # %dth 'Lions' Division
+    }
+    40 = {
+      "第%d'叛道者'师"  # %dth 'Misfits' Division
+    }
+    41 = {
+      "第%d'黑钻石'师"  # %dst 'Black Diamonds' Division
+    }
+    42 = {
+      "第%d'山姆·休斯顿'师"  # %dnd 'Sam Houston' Division
+    }
+    43 = {
+      "第%d'好汉'师"  # %drd 'Banditos' Division
+    }
+    44 = {
+      "第%d'尘鬼'师"  # %dth 'Dust Devils' Division
+    }
+    45 = {
+      "第%d'志愿者'师"  # %dth 'Volunteers' Division
+    }
+    46 = {
+      "第%d大卫·克洛科特''师"  # %dth 'Davy Crockett' Division
+    }
+    47 = {
+      "第%d'黑虎'师"  # %dth 'Black Tigers' Division
+    }
+    48 = {
+      "第%d'铁人'师"  # %dth 'Iron Men' Division
+    }
+    49 = {
+      "第%d'犰狳'师"  # %dth 'Armadillos' Division
+    }
+    50 = {
+      "第%d'山狮'师"  # %dth 'Mountain Lions' Division
+    }
+    51 = {
+      "第%d'长角'师"  # %dst 'Longhorn' Division
+    }
+    52 = {
+      "第%d'自由万岁'师"  # %dnd 'Freedom!' Division
+    }
+    53 = {
+      "第%d'沙蝎'师"  # %drd 'Desert Scorpion' Division
+    }
+    54 = {
+      "第%d'塞米诺尔人'师"  # %dth 'Seminole' Division
+    }
+    55 = {
+      "第%d'阿帕奇'师"  # %dth 'Apache' Division
+    }
+    56 = {
+      "第%d'黑寡妇'师"  # %dth 'Black Widows' Division
+    }
+    57 = {
+      "第%d'长啸野狼'师"  # %dth 'Howling Coyotes' Division
+    }
+    58 = {
+      "第%d'卡津人'师"  # %dth 'Ragin' Cajuns' Division
+    }
+    59 = {
+      "第%d'不群'师"  # %dth 'Mavericks' Division
+    }
+    60 = {
+      "第%d'战隼'师"  # %dth 'Falcons' Division
+    }
+    61 = {
+      "第%d'阿拉莫'师"  # %dst 'Alamo' Division
+    }
+    62 = {
+      "第%d'牛仔'师"  # %dnd 'Cowboys' Division
+    }
+    63 = {
+      "第%d'复仇'师"  # %drd 'Revenge!' Division
+    }
+    64 = {
+      "第%d'叛逆之吼'师"  # %dth 'Rebel Yell' Division
+    }
+    65 = {
+      "第%d'苍鹰'师"  # %dth 'Jayhawkers' Division
+    }
+    66 = {
+      "第%d'沼泽之狐'师"  # %dth 'Swamp Fox' Division
+    }
+    67 = {
+      "第%d'勇士'师"  # %dth 'Bearcats' Division
+    }
+    68 = {
+      "第%d'野马'师"  # %dth 'Mustangs' Division
+    }
+    69 = {
+      "第%d'凤凰'师"  # %dth 'Phoenix' Division
+    }
+    70 = {
+      "第%d'黄夹克'师"  # %dth 'Yellow Jackets' Division
+    }
+    71 = {
+      "第%d'野马'师"  # %dst 'Broncos' Division
+    }
+    72 = {
+      "第%d'骑士'师"  # %dnd 'Cavaliers' Division
+    }
+    73 = {
+      "第%d'彗星'师"  # %drd 'Comet' Division
+    }
+    74 = {
+      "第%d'桅杆'师"  # %dth 'Mastadons' Division
+    }
+    75 = {
+      "第%d'金地鼠'师"  # %dth 'Golden Gophers' Division
+    }
+    76 = {
+      "第%d'黄蜂'师"  # %dth 'Wasps' Division
+    }
+    77 = {
+      "第%d'黄蜂'师"  # %dth 'Jackrabbits' Division
+    }
+    78 = {
+      "第%d'哥伦布'师"  # %dth 'Columbus' Division
+    }
+    79 = {
+      "第%d'神圣'师"  # %dth 'Saints' Division
+    }
+    80 = {
+      "第%d'奔路者'师"  # %dth 'Roadrunner' Division
+    }
+    81 = {
+      "第%d'绿鳄'师"  # %dst 'Green Gators' Division
+    }
+    82 = {
+      "第%d'战鹰'师"  # %dnd 'Warhawks' Division
+    }
+    83 = {
+      "第%d'赤红'师"  # %drd 'Crimson' Division
+    }
+    84 = {
+      "第%d'特洛伊'师"  # %dth 'Trojans' Division
+    }
+    85 = {
+      "第%d'血刀'师"  # %dth 'Bloody Saber' Division
+    }
+    86 = {
+      "第%d'比利·约翰尼'师"  # %dth 'Billy  Johnny' Division'
+    }
+    87 = {
+      "第%d'乔克托'师"  # %dth 'Chocktaw' Division
+    }
+    88 = {
+      "第%d'风暴'师"  # %dth 'Storm' Division
+    }
+    89 = {
+      "第%d'山地人'师"  # %dth 'Hoosiers' Division
+    }
+    90 = {
+      "第%d'美洲豹'师"  # %dth 'Jaguars' Division
+    }
+    91 = {
+      "第%d'海上霸王'师"  # %dth 'Corsairs' Division
+    }
+    92 = {
+      "第%d'南卡罗来纳志愿者'师"  # %dth 'South Carolina Volunteers' Division
+    }
+    93 = {
+      "第%d'佛罗里达之冠'师"  # %dth 'Florida's Finest' Division
+    }
+  }
+}

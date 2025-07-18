@@ -1,0 +1,455 @@
+﻿units = {
+  fleet = {
+    name = "荷兰皇家海军"  # Koninklijke Marine
+    naval_base = 3314
+    task_force = {
+      name = "皇家舰队"  # Koninklijke Vloot
+      location = 3314
+      ship = {
+        name = "长老"  # HrMs Vliereede
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "亨德里克公爵级"  # Hertog Hendrik Class
+          }
+        }
+      }
+      ship = {
+        name = "艾默伊登"  # HrMs Ijmuiden
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "苏腊巴亚级"  # Soerabaja Class
+          }
+        }
+      }
+      ship = {
+        name = "范·格伦"  # HrMs Van Galen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·加伦级"  # Van Galen Class
+          }
+        }
+      }
+      ship = {
+        name = "威廉·范·德赞"  # HrMs Willem van der Zaan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·德·赞级"  # van der Zaan Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "皇家潜艇中队"  # Koninklijke Onderzeeboot Smaldeel
+      location = 3314
+      ship = {
+        name = "O-8"  # HrMs O-8
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-III 级"  # K-III Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 9
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 10
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 11
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 12
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 13
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 14
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 15
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        name = "O-16"  # HrMs O-16
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-XIV 级"  # K-XIV Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 19
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_3 = {
+            amount = 1
+            owner = HOL
+            version_name = "O19级"  # O19 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 20
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_3 = {
+            amount = 1
+            owner = HOL
+            version_name = "O19级"  # O19 Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "荷兰东印度海军"  # Nederlands-Indië Marine
+    naval_base = 7381
+    task_force = {
+      name = "荷兰东印度中队"  # Nederlands-Indië Eskader
+      location = 7381
+      ship = {
+        name = "苏腊巴亚"  # HrMs Soerabaja
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "苏腊巴亚级"  # Soerabaja Class
+          }
+        }
+      }
+      ship = {
+        name = "特伦普"  # HrMs Tromp
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "特伦普级"  # Tromp Class
+          }
+        }
+      }
+      ship = {
+        name = "德·鲁伊特"  # HrMs De Ruyter
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "德·鲁伊特级"  # De Ruyter Class
+          }
+        }
+      }
+      ship = {
+        name = "爪哇"  # HrMs Java
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "爪哇级"  # Java Class
+          }
+        }
+      }
+      ship = {
+        name = "苏门答腊"  # HrMs Sumatra
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "爪哇级"  # Java Class
+          }
+        }
+      }
+      ship = {
+        name = "范·根特"  # HrMs Van Ghent
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·根特级"  # Van Ghent Class
+          }
+        }
+      }
+      ship = {
+        name = "埃弗森"  # HrMs Evertsen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·根特级"  # Van Ghent Class
+          }
+        }
+      }
+      ship = {
+        name = "科特那"  # HrMs Kortenaer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·根特级"  # Van Ghent Class
+          }
+        }
+      }
+      ship = {
+        name = "皮特·海因"  # HrMs Piet Hein
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·根特级"  # Van Ghent Class
+          }
+        }
+      }
+      ship = {
+        name = "威特·德·韦斯"  # HrMs Witte de With
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·加伦级"  # Van Galen Class
+          }
+        }
+      }
+      ship = {
+        name = "班克特"  # HrMs Banckert
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·加伦级"  # Van Galen Class
+          }
+        }
+      }
+      ship = {
+        name = "范·尼斯"  # HrMs Van Nes
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "范·加伦级"  # Van Galen Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "荷兰东印度潜艇中队"  # Nederlands-Indië Onderzeeboot Smaldeel
+      location = 4608
+      ship = {
+        ordered_name = 7
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-III 级"  # K-III Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 8
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-III 级"  # K-III Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 10
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-III 级"  # K-III Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 17
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-XIV 级"  # K-XIV Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 18
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-XIV 级"  # K-XIV Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 9
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-III 级"  # K-III Class
+          }
+        }
+      }
+      ship = {
+        name = "K-XI"  # HrMs K-XI
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        name = "K-XII"  # HrMs K-XII
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        name = "K-XIII"  # HrMs K-XIII
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O9级"  # O9 Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 14
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-XIV 级"  # K-XIV Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 15
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-XIV 级"  # K-XIV Class
+          }
+        }
+      }
+      ship = {
+        ordered_name = 16
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = HOL
+            version_name = "K-XIV 级"  # K-XIV Class
+          }
+        }
+      }
+    }
+  }
+}

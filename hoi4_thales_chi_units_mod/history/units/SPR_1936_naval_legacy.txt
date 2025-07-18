@@ -1,0 +1,364 @@
+﻿units = {
+  fleet = {
+    name = "费罗尔海军基地"  # Base Naval El Ferrol
+    naval_base = 758
+    task_force = {
+      name = "费罗尔中队"  # Escuadrón de El Ferrol
+      location = 758
+      ship = {
+        name = "海美一世"  # ARE Jaime I
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "西班牙"  # ARE España
+        pride_of_the_fleet = yes
+        definition = battleship
+        equipment = {
+          battleship_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "自由"  # ARE Libertad
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿方索亲王级"  # Príncipe Alfonso Class
+          }
+        }
+      }
+      ship = {
+        name = "塞韦拉海军上将"  # ARE Almirante Cervera
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿方索亲王级"  # Príncipe Alfonso Class
+          }
+        }
+      }
+      ship = {
+        name = "米格尔·德·塞万提斯"  # ARE Miguel de Cervantes
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "阿方索亲王级"  # Príncipe Alfonso Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔塞多"  # ARE Alsedo
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "贝拉斯科"  # ARE Velasco
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "拉萨加"  # ARE Lazaga
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "加的斯海军基地"  # Base Naval Cádiz
+    naval_base = 1048
+    task_force = {
+      name = "加的斯中队"  # Escuadrón de Cádiz
+      location = 1048
+      ship = {
+        name = "共和"  # ARE República
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "门德斯·努涅斯"  # ARE Méndez Núñez
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "加的斯战斗群"  # Grupo de Cádiz
+      location = 1048
+      ship = {
+        name = "B1"  # B1
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "B2"  # B2
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "B3"  # B3
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "B4"  # B4
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "卡塔赫纳海军基地"  # Base Naval Cartagena
+    naval_base = 10024
+    task_force = {
+      name = "卡塔赫纳中队"  # Escuadrón de Cartagena
+      location = 10024
+      ship = {
+        name = "费拉迪兹海军上将"  # ARE Almirante Ferrándiz
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "桑切斯·巴尔凯斯特吉"  # ARE Sánchez Barcáiztegui
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "阿尔卡拉·加利亚诺"  # ARE Alcalá Galiano
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "瓦尔迪斯海军上将"  # ARE Almirante Valdés
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "丘鲁卡"  # ARE Churucca
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "何塞·路易斯·迪耶斯"  # ARE José Luis Díez
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "勒班陀"  # ARE Lepanto
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "安特克拉海军上将"  # ARE Almirante Antequera
+        definition = destroyer
+        equipment = {
+          destroyer_2 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "卡塔赫纳战斗群"  # Grupo de Cartagena
+      location = 10024
+      ship = {
+        name = "B5"  # B5
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "B6"  # B6
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+          }
+        }
+      }
+      ship = {
+        name = "C1"  # C1
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C2"  # C2
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C3"  # C3
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C4"  # C4
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C5"  # C5
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C6"  # C6
+        definition = submarine
+        equipment = {
+          submarine_1 = {
+            amount = 1
+            owner = SPR
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = destroyer_2
+      creator = "SPR"
+    }
+    requested_factories = 1
+    progress = 0.80
+    amount = 3
+  }
+  add_equipment_production = {
+    equipment = {
+      type = heavy_cruiser_2
+      creator = "SPR"
+    }
+    requested_factories = 2
+    progress = 0.85
+    amount = 2
+  }
+}

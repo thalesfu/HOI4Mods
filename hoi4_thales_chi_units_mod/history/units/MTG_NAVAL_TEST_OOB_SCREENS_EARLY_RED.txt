@@ -1,0 +1,560 @@
+﻿units = {
+  fleet = {
+    name = "早期屏卫舰舰队"  # Screen Fleet Early
+    naval_base = 7660
+    task_force = {
+      name = "红军 第1舰队"  # Red TF 1
+      location = 7660
+      ship = {
+        name = "红军 轻巡洋舰1"  # Blue CL1
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰2"  # Red CL2
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰3"  # Red CL3
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰4"  # Red CL4
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰5"  # Red CL5
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰6"  # Red CL6
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰7"  # Red CL7
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰8"  # Red CL8
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰9"  # Red CL9
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰10"  # Red CL10
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰11"  # Red CL11
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰12"  # Red CL12
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰13"  # Red CL13
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰14"  # Red CL14
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 轻巡洋舰15"  # Red CL15
+        definition = light_cruiser
+        equipment = {
+          light_cruiser_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰1"  # Red DD1
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰2"  # Red DD2
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰3"  # Red DD3
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰4"  # Red DD4
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰5"  # Red DD5
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰6"  # Red DD6
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰7"  # Red DD7
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰8"  # Red DD8
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰9"  # Red DD9
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰10"  # Red DD10
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰11"  # Red DD11
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰12"  # Red DD12
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰13"  # Red DD13
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰14"  # Red DD14
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰15"  # Red DD15
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰16"  # Red DD16
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰17"  # Red DD17
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰18"  # Red DD18
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰19"  # Red DD19
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰20"  # Red DD20
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰21"  # Red DD21
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰22"  # Red DD22
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰23"  # Red DD23
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰24"  # Red DD24
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰25"  # Red DD25
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰26"  # Red DD26
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰27"  # Red DD27
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰28"  # Red DD28
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰29"  # Red DD29
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰30"  # Red DD30
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰31"  # Red DD31
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰32"  # Red DD32
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰33"  # Red DD33
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰34"  # Red DD34
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰35"  # Red DD35
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰36"  # Red DD36
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰37"  # Red DD37
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰38"  # Red DD38
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰39"  # Red DD39
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+      ship = {
+        name = "红军 驱逐舰40"  # Red DD40
+        definition = destroyer
+        equipment = {
+          destroyer_1 = {
+            amount = 1
+            owner = DOM
+          }
+        }
+      }
+    }
+  }
+}

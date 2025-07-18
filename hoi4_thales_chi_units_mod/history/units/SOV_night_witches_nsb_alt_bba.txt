@@ -1,0 +1,43 @@
+﻿air_wings = {
+  219 = {
+    small_plane_cas_airframe_0 = {
+      owner = "SOV"
+      amount = 40
+      version_name = "U-2"
+    }
+    name = "第588夜间轰炸机团"  # 588. Night Bomber Regiment
+    ace = {
+      modifier = "support_unique"
+      name = "柳博芙"  # Lyubov
+      surname = "戈兰奇科娃"  # Golanchikova
+      callsign = "唱歌杜鹃"
+      is_female = yes
+    }
+    small_plane_cas_airframe_2 = {
+      owner = "SOV"
+      amount = 40
+      version_name = "Pe-2"
+    }
+    name = "第587轰炸机团"  # 587. Bomber Regiment
+    ace = {
+      modifier = "bomber_unique"
+      name = "索非亚"  # Sofiya
+      surname = "多格柯娅"  # Dolgorukaya
+      callsign = "赛车公主"
+      is_female = yes
+    }
+    small_plane_airframe_1 = {
+      owner = "SOV"
+      amount = 40
+      version_name = "Yak-1"
+    }
+    name = "第586防空战斗团"  # 586. Air Defense Fighter Regiment
+    ace = {
+      modifier = "fighter_unique"
+      name = "娜杰日达"  # Nadezhda
+      surname = "德格拉瓦"  # Degtereva
+      callsign = "渴望鸟"
+      is_female = yes
+    }
+  }
+}
