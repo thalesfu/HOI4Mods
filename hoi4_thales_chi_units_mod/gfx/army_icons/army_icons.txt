@@ -2,678 +2,6 @@
 	gfx = GFX_theatre_army_shield
 	
 	icon = {
-		color_override = no
-		name = "Kuomintang Flag & Naval Jack"
-	}
-	icon = {
-		color_override = no
-		name = "Flag of the Republic of China & Naval Ensign"
-	}
-	icon = {
-		color_override = no
-		name = "National Revolutionary Army Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Cavalry Unit Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Artillery Unit Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Armoured Unit Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Military Academy Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Naval Academy Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Marine Corps Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Air Force Flag (1937)"
-	}
-	icon = {
-		color_override = no
-		name = "Air Force Flag (1948)"
-	}
-	icon = {
-		color_override = no
-		name = "Red Army Flag (1928)"
-	}
-	icon = {
-		color_override = no
-		name = "Red Army Flag (1931)"
-	}
-	icon = {
-		color_override = no
-		name = "Northeast Anti-Japanese United Army Flag"
-	}
-	icon = {
-		color_override = no
-		name = "People's Liberation Army Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Iron Blood 19-Star Flag"
-	}
-	icon = {
-		color_override = no
-		name = "'Death' Flag"
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
 		#Example of icon script, corresponding to the frame index in the .dds files
 		#color_override = no
 		#name = "EQUAL_ICON"
@@ -681,88 +9,32 @@
 		#{
 		#	tag = CHI
 		#}
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
 		color_override = no
@@ -770,7 +42,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -779,7 +51,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -788,7 +60,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -797,7 +69,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -806,7 +78,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -815,7 +87,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -824,7 +96,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -833,7 +105,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -842,7 +114,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -851,7 +123,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -860,7 +132,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -869,7 +141,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -878,7 +150,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -887,7 +159,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -896,7 +168,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -905,7 +177,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -914,7 +186,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -923,7 +195,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = GER
 		}
 	}
 	icon = {
@@ -932,7 +204,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -941,7 +213,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -950,7 +222,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -959,7 +231,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -968,7 +240,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -977,7 +249,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -986,7 +258,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -995,7 +267,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -1004,7 +276,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -1013,7 +285,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -1022,7 +294,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = ENG
 		}
 	}
 	icon = {
@@ -1031,7 +303,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1040,7 +312,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1049,7 +321,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1058,7 +330,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1067,7 +339,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1076,7 +348,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1085,7 +357,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1094,7 +366,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = USA
 		}
 	}
 	icon = {
@@ -1103,7 +375,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = FRA
 		}
 	}
 	icon = {
@@ -1112,7 +384,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = FRA
 		}
 	}
 	icon = {
@@ -1121,7 +393,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = FRA
 		}
 	}
 	icon = {
@@ -1131,7 +403,6 @@
 		{
 			has_dlc = "Waking the Tiger"
 			has_government = democratic
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1141,7 +412,6 @@
 		{
 			has_dlc = "Waking the Tiger"
 			has_government = fascism
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1151,7 +421,6 @@
 		{
 			has_dlc = "Waking the Tiger"
 			has_government = neutrality
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1168,7 +437,6 @@
 				tag = USA
 				tag = SOV
 			}
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1185,7 +453,6 @@
 				tag = USA
 				tag = SOV
 			}
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1202,7 +469,6 @@
 				tag = USA
 				tag = SOV
 			}
-			tag = TEST
 		}
 	}
 	icon = 
@@ -1213,7 +479,6 @@
 		{
 			has_dlc = "Waking the Tiger"
 			has_government = fascism
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1223,7 +488,6 @@
 		{
 			has_dlc = "Waking the Tiger"
 			has_government = communism
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1240,7 +504,6 @@
 				tag = USA
 				tag = SOV
 			}
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1257,7 +520,6 @@
 				tag = USA
 				tag = SOV
 			}
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1266,7 +528,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1275,7 +537,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1284,7 +546,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1293,7 +555,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1302,7 +564,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1311,7 +573,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1320,7 +582,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1329,7 +591,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1337,7 +599,7 @@
 		name = "213. Tanks"
 		available = {
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
 		}
 	}
 	icon = {
@@ -1346,70 +608,324 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Turkish 1"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = TUR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Turkish 2"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = TUR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Greek 1"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = GRE
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Greek 2"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = GRE
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Greek 3"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = GRE
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Bulgarian 1"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = BUL
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Bulgarian 2"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = BUL
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红一军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红三军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红四军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红五军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红六军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红七军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红八军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红九军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十一军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十二军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十三军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十四军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十五军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十六军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十七军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十八军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红十九军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十一军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十二军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十三军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十四军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十五军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十六军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十七军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十八军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红二十九军团"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红三十军团"
+		available = 
+		{
+			tag = PRC
 		}
 	}
 }
 
 army_group = {
 	gfx = GFX_theatre_army_group_shield
-
+	
 	icon = {
-		color_override = no
-		name = "Kuomintang Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Republic of China Flag & Naval Ensign"
-	}
-	icon = {
-		color_override = no
-		name = "National Revolutionary Army Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Air Force Flag"
-	}
-	icon = {
-		color_override = no
-		name = "Flag of the Military Affairs Commission"
-	}
-	icon = {
-		color_override = no
-		name = "1st Military Region"
-	}
-	icon = {
-		color_override = no
-		name = "2nd Military Region"
-	}
-	icon = {
-		color_override = no
-		name = "3rd Military Region"
-	}
-	icon = {
-		color_override = no
-		name = "4th Military Region"
-	}
-	icon = {
-		color_override = no
-		name = "5th Military Region"
-	}
-	icon = {
-		color_override = no
-		name = "6th Military Region"
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
 		color_override = no
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1418,7 +934,6 @@ army_group = {
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1427,7 +942,6 @@ army_group = {
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1436,7 +950,6 @@ army_group = {
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
 		}
 	}
 	icon = {
@@ -1444,7 +957,150 @@ army_group = {
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			tag = TEST
+		}
+	}
+	icon = {
+		color_override = no
+		name = "中央红军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "陕北红军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军西路军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "新四军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "东北野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "华东野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "中原野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "华南野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第一野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第二野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第三野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第四野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第五野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第六野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第七野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第八野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第九野战军"
+		available = 
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军第十野战军"
+		available = 
+		{
+			tag = PRC
 		}
 	}
 }
@@ -1453,1352 +1109,66 @@ fleet = {
 	gfx = GFX_theatre_task_force_shield
 	
 	icon = {
-		color_override = no
-		name = "Kuomintang Flag & Naval Jack"
 	}
 	icon = {
-		color_override = no
-		name = "Republic of China Flag & Naval Ensign"
 	}
 	icon = {
-		color_override = no
-		name = "National Revolutionary Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Cavalry Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Artillery Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Armoured Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Military Academy Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Naval Academy Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Marine Corps Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Air Force Flag (1937)"
 	}
 	icon = {
-		color_override = no
-		name = "Air Force Flag (1948)"
 	}
 	icon = {
-		color_override = no
-		name = "Red Army Flag (1928)"
 	}
 	icon = {
-		color_override = no
-		name = "Red Army Flag (1931)"
 	}
 	icon = {
-		color_override = no
-		name = "Northeast Anti-Japanese United Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "People's Liberation Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Iron Blood 19-Star Flag"
 	}
 	icon = {
-		color_override = no
-		name = "'Death' Flag"
 	}
 	icon = {
-		color_override = no
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		#Example of icon script, corresponding to the frame index in the .dds files
-		#color_override = no
-		#name = "EQUAL_ICON"
-		#available = 
-		#{
-		#	tag = CHI
-		#}
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "4. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "16. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Panzerarmee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "V. Armeekorps"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "6. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2. Panzerarmee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "10. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "11. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "14. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "17. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "18. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe H"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe E"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe Z"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe A"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe D"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "First Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Second Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Eighth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Tenth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Fourteenth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Northern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Eastern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Western Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Southern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Aldershot Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Scottish Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1st Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2nd Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3rd Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "5th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "6th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "9th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1re Armée"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Forces françaises libres"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2e Armée"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Allied Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = democratic
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Homeland Defense Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = fascism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Sunflower Defense Corps"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = neutrality
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "I. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "II. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "III. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = 
-	{
-		color_override = no
-		name = "1. Celestial Penetration Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = fascism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Liberation Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = communism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "IV. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "V. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7. Guards"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "41. Guards"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "90. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8. Artillery"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1443. Artillery"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "76. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3. Guards Mechanized"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "213. Tanks"
-		available = {
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8. Mechanized"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
 	}
 }
 
@@ -2806,1352 +1176,66 @@ task_force = {
 	gfx = GFX_theatre_task_force_shield
 	
 	icon = {
-		color_override = no
-		name = "Kuomintang Flag & Naval Jack"
 	}
 	icon = {
-		color_override = no
-		name = "Republic of China Flag & Naval Ensign"
 	}
 	icon = {
-		color_override = no
-		name = "National Revolutionary Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Cavalry Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Artillery Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Armoured Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Military Academy Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Naval Academy Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Marine Corps Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Air Force Flag (1937)"
 	}
 	icon = {
-		color_override = no
-		name = "Air Force Flag (1948)"
 	}
 	icon = {
-		color_override = no
-		name = "Red Army Flag (1928)"
 	}
 	icon = {
-		color_override = no
-		name = "Red Army Flag (1931)"
 	}
 	icon = {
-		color_override = no
-		name = "Northeast Anti-Japanese United Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "People's Liberation Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Iron Blood 19-Star Flag"
 	}
 	icon = {
-		color_override = no
-		name = "'Death' Flag"
 	}
 	icon = {
-		color_override = no
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		#Example of icon script, corresponding to the frame index in the .dds files
-		#color_override = no
-		#name = "EQUAL_ICON"
-		#available = 
-		#{
-		#	tag = CHI
-		#}
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "4. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "16. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Panzerarmee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "V. Armeekorps"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "6. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2. Panzerarmee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "10. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "11. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "14. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "17. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "18. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe H"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe E"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe Z"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe A"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe D"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "First Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Second Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Eighth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Tenth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Fourteenth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Northern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Eastern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Western Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Southern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Aldershot Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Scottish Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1st Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2nd Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3rd Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "5th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "6th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "9th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1re Armée"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Forces françaises libres"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2e Armée"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Allied Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = democratic
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Homeland Defense Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = fascism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Sunflower Defense Corps"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = neutrality
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "I. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "II. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "III. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = 
-	{
-		color_override = no
-		name = "1. Celestial Penetration Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = fascism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Liberation Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = communism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "IV. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "V. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7. Guards"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "41. Guards"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "90. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8. Artillery"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1443. Artillery"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "76. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3. Guards Mechanized"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "213. Tanks"
-		available = {
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8. Mechanized"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
 	}
 }
 
@@ -4219,1354 +1303,64 @@ equipment_niche_insignias = {
 
 air_group = {
 	gfx = GFX_theatre_air_force_shield
-	
+
 	icon = {
-		color_override = no
-		name = "Kuomintang Flag & Naval Jack"
 	}
 	icon = {
-		color_override = no
-		name = "Republic of China Flag & Naval Ensign"
 	}
 	icon = {
-		color_override = no
-		name = "National Revolutionary Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Cavalry Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Artillery Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Armoured Unit Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Military Academy Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Naval Academy Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Marine Corps Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Air Force Flag (1937)"
 	}
 	icon = {
-		color_override = no
-		name = "Air Force Flag (1948)"
 	}
 	icon = {
-		color_override = no
-		name = "Red Army Flag (1928)"
 	}
 	icon = {
-		color_override = no
-		name = "Red Army Flag (1931)"
 	}
 	icon = {
-		color_override = no
-		name = "Northeast Anti-Japanese United Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "People's Liberation Army Flag"
 	}
 	icon = {
-		color_override = no
-		name = "Iron Blood 19-Star Flag"
 	}
 	icon = {
-		color_override = no
-		name = "'Death' Flag"
 	}
 	icon = {
-		color_override = no
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
 	}
 	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		color_override = no
-	}
-	icon = {
-		#Example of icon script, corresponding to the frame index in the .dds files
-		#color_override = no
-		#name = "EQUAL_ICON"
-		#available = 
-		#{
-		#	tag = CHI
-		#}
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		available = 
-		{
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "4. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "16. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Panzerarmee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "V. Armeekorps"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "6. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2. Panzerarmee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "10. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "11. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "14. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "17. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "18. Armee"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe H"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe E"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe Z"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe A"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Panzergruppe D"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "First Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Second Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Eighth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Tenth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Fourteenth Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Northern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Eastern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Western Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Southern Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Aldershot Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Scottish Command"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1st Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2nd Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3rd Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "5th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "6th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "9th Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1re Armée"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Forces françaises libres"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "2e Armée"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Allied Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = democratic
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Homeland Defense Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = fascism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "Sunflower Defense Corps"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = neutrality
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "I. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "II. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "III. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = 
-	{
-		color_override = no
-		name = "1. Celestial Penetration Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = fascism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1. Liberation Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			has_government = communism
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "IV. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "V. Army"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			NOT = 
-			{
-				tag = FRA
-				tag = GER
-				tag = ENG
-				tag = USA
-				tag = SOV
-			}
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "7. Guards"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "41. Guards"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "90. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8. Artillery"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "1443. Artillery"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "76. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3. Guards Mechanized"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "3. Tanks"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "213. Tanks"
-		available = {
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
-	}
-	icon = {
-		color_override = no
-		name = "8. Mechanized"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-			tag = TEST
-		}
 	}
 }
 
