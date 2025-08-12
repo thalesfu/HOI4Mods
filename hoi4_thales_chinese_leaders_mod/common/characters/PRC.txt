@@ -77,6 +77,7 @@ characters={
 		}
 	}
 
+	### 陈毅 ###
 	PRC_chen_yi={
 		name=PRC_chen_yi
 		portraits={
@@ -99,6 +100,15 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
 		}
 	}
 
@@ -744,6 +754,16 @@ characters={
 				factor = 1.000
 			}
 		}
+
+		corps_commander = {
+			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			skill = 0
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
 	}
 
 	PRC_chen_geng={
@@ -947,7 +967,7 @@ characters={
 		name=PRC_lin_bojiu
 		portraits={
 			civilian={
-				small="GFX_中共_林伯渠_small"
+				large="GFX_中共_林伯渠"
 			}
 		}
 		advisor={

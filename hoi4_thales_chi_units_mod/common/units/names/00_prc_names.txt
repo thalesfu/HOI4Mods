@@ -52,7 +52,7 @@ PRC = {submarine = {
 
 	#Air wings can only be named through archetype
 	small_plane_airframe = {
-		prefix = "空"
+		prefix = ""
 		generic = { "旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
@@ -60,7 +60,7 @@ PRC = {submarine = {
 	}
 
 	jet_fighter_equipment = {
-		prefix = "空"
+		prefix = ""
 		generic = { "旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
@@ -68,7 +68,7 @@ PRC = {submarine = {
 	}
 
 	medium_plane_fighter_airframe = {
-		prefix = "空"
+		prefix = ""
 		generic = { "旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
@@ -76,7 +76,7 @@ PRC = {submarine = {
 	}
 
 	small_plane_cas_airframe = {
-		prefix = "空"
+		prefix = ""
 		generic = { "旅"}
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
@@ -84,30 +84,30 @@ PRC = {submarine = {
 	}
 
 	cv_small_plane_airframe = {
-		prefix = "舰载"
-		generic = { "旅" }
+		prefix = ""
+		generic = { "舰载机旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	cv_small_plane_cas_airframe = {
-		prefix = "舰载"
-		generic = { "旅" }
+		prefix = ""
+		generic = { "舰载机旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 	cv_small_plane_naval_bomber_airframe = {
-		prefix = "舰载"
-		generic = { "旅" }
+		prefix = ""
+		generic = { "舰载机旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	medium_plane_airframe = {
-		prefix = "空"
+		prefix = ""
 		generic = { "旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
@@ -115,23 +115,23 @@ PRC = {submarine = {
 	}
 
 	jet_tac_bomber_equipment = {
-		prefix = "轰"
-		generic = { "旅" }
+		prefix = ""
+		generic = { "轰战机旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	small_plane_naval_bomber_airframe = {
-		prefix = "海轰"
-		generic = { "旅" }
+		prefix = ""
+		generic = { "海轰旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	large_plane_airframe = {
-		prefix = "空"
+		prefix = ""
 		generic = { "旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
@@ -139,16 +139,16 @@ PRC = {submarine = {
 	}
 
 	jet_strat_bomber_equipment = {
-		prefix = "轰"
-		generic = { "旅"  }
+		prefix = ""
+		generic = { "战略轰炸机旅"  }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	
 	}
 
 	transport_plane_equipment = {
-		prefix = "运"
-		generic = { "旅" }
+		prefix = ""
+		generic = { "运输机旅" }
 		generic_pattern = AIR_WING_NAME_PRC_GENERIC
 		unique = {
 		}	

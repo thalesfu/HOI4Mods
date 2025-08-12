@@ -153,8 +153,8 @@ spriteTypes = {
 	}
 	#林伯渠
 	spriteType = {
-		name = "GFX_中共_林伯渠_small"
-		texturefile = "gfx/china/中共/GFX_中共_林伯渠_small.dds"
+		name = "GFX_中共_林伯渠"
+		texturefile = "gfx/china/中共/GFX_中共_林伯渠.dds"
 	}
 	#吴运铎
 	spriteType = {
