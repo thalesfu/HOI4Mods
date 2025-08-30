@@ -250,7 +250,7 @@ units = {
 	division = { # "83 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 483
+			name_order = 83
 		}
 		location = 10043
 		division_template = "乙种师"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)

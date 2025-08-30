@@ -17,12 +17,12 @@ characters={
 			id=-1
 		}
 		corps_commander={
-			traits={ politically_connected infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			traits={ politically_connected brave  trait_mountaineer hill_fighter}
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -52,12 +52,12 @@ characters={
 		}
 
 		corps_commander={
-			traits={ politically_connected infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			traits={ politically_connected brave trait_mountaineer hill_fighter}
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -71,12 +71,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { politically_connected brave infantry_officer}
+			traits = { politically_connected brave }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -110,12 +110,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brave infantry_officer}
+			traits = { brave}
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -129,12 +129,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brave infantry_officer}
+			traits = { brave }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -148,12 +148,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brave infantry_officer}
+			traits = { brave}
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -168,12 +168,12 @@ characters={
 		}
 
 		corps_commander={
-			traits={ infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			traits={  trait_mountaineer hill_fighter}
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -187,12 +187,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			traits={  trait_mountaineer hill_fighter}
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -206,12 +206,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { old_guard infantry_officer}
+			traits = { old_guard}
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -225,12 +225,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer jungle_rat ranger trait_mountaineer hill_fighter}
+			traits={ }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}

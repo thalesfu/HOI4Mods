@@ -32,7 +32,7 @@
 #                                      the current game version.
 PRC_INF_01 = 
 {
-	name = "红军"
+	name = "红军步兵师"
 
 	for_countries = { PRC }
 
@@ -41,9 +41,9 @@ PRC_INF_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 师"
+	fallback_name = "红%d师 步兵"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -64,9 +64,9 @@ PRC_CAV_01 =
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 骑兵师"
+	fallback_name = "红%d师 骑兵"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -87,9 +87,9 @@ PRC_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 摩托化步兵师"
+	fallback_name = "红%d师 摩托化步兵"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -109,9 +109,9 @@ PRC_MEC_01 =
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 机械化步兵师"
+	fallback_name = "红%d师 机械化步兵"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -136,9 +136,9 @@ PRC_MNT_01 =
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 山地师"
+	fallback_name = "红%d师 山地"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -159,9 +159,9 @@ PRC_MAR_01 =
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 海军赤卫队"
+	fallback_name = "红%d师 海军陆战队"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -182,9 +182,9 @@ PRC_PAR_01 =
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 空降师"
+	fallback_name = "红%d师 空降"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -205,9 +205,9 @@ PRC_ARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 装甲师"
+	fallback_name = "红%d师 装甲"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -228,9 +228,9 @@ PRC_ARMINF_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01}
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "红 %d 装甲步兵师"
+	fallback_name = "红%d师 装甲步兵"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -243,7 +243,7 @@ PRC_ARMINF_01 =
 
 PRC_GAR_01 = 
 {
-	name = "赤卫队"
+	name = "红军守备师"
 
 	for_countries = { PRC }
 
@@ -252,242 +252,9 @@ PRC_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { CHI_INF_01 }
+	link_numbering_with = { PRC_INF_01 PRC_CAV_01 PRC_MOT_01 PRC_MEC_01 PRC_MNT_01 PRC_MAR_01 PRC_PAR_01 PRC_ARM_01 PRC_ARMINF_01 PRC_GAR_01}
 
-	fallback_name = "赤卫队第%d团"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		
-	}
-}
-
-PRC_INF_02 = 
-{
-	name = "解放军"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "陆军第%d师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	
-	}
-}
-
-PRC_CAV_02 = 
-{
-	name = "解放军骑兵师"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "cavalry" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "陆军第%d骑兵师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	
-	}
-}
-
-PRC_MOT_02 = 
-{
-	name = "解放军摩托化步兵师"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "motorized" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "陆军第%d摩托化步兵师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	}
-}
-
-PRC_MEC_02 = 
-{
-	name = "解放军机械化步兵师"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "mechanized" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "陆军第%d机械化步兵师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		
-	}
-}
-
-#CHI_ARM_02 -- armor linked to CHI naming group
-#CHI_PAR_02 -- airborne linked to CHI naming group 
-#CHI_MAR_02 -- marines linked to CHI naming group 
-
-PRC_MNT_02 = 
-{
-	name = "解放军山地师"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "mountaineers" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "陆军第%d山地师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	
-	}
-}
-
-PRC_MAR_02 = 
-{
-	name = "解放军海军陆战队"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "marine" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "海军第%d海军赤卫队"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	
-	}
-}
-
-PRC_PAR_02 = 
-{
-	name = "解放军空降师"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "paratrooper" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "空军第%d空降师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	
-	}
-}
-
-PRC_ARM_02 = 
-{
-	name = "解放军装甲师"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "陆军第%d装甲师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	
-	}
-}
-
-PRC_ARMINF_02 = 
-{
-	name = "解放军装甲步兵师"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { PRC_INF_02 PRC_CAV_02 PRC_MOT_02 PRC_MEC_02 PRC_MNT_02 PRC_MAR_02 PRC_PAR_02 PRC_ARM_02 PRC_ARMINF_02}
-
-	fallback_name = "陆军第%d装甲步兵师"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-	
-	}
-}
-
-PRC_GAR_02 = 
-{
-	name = "武警"
-
-	for_countries = { PRC }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { CHI_INF_02 }
-
-	fallback_name = "武警第%d师"
+	fallback_name = "红%d师 守备"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.

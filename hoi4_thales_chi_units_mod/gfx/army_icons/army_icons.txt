@@ -1170,6 +1170,174 @@ fleet = {
 	}
 	icon = {
 	}
+	icon = {
+		color_override = no
+		name = "中国海舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "东海第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "东海第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "东海第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "南海第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "南海第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "南海第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "渤海第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "渤海第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "渤海第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第四舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第五舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第六舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第七舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第八舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第九舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第十舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
 }
 
 task_force = {
@@ -1237,6 +1405,174 @@ task_force = {
 	}
 	icon = {
 	}
+	icon = {
+		color_override = no
+		name = "中国海舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "东海第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "东海第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "东海第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "南海第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "南海第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "南海第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "渤海第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "渤海第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "渤海第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第一舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第二舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第三舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第四舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第五舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第六舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第七舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第八舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第九舰队"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "日本第十舰队"
+		available =
+		{
+			tag = PRC
+		}
+    }
 }
 
 naval_equipment_role = {
@@ -1361,6 +1697,86 @@ air_group = {
 	icon = {
 	}
 	icon = {
+	}
+	icon = {
+		color_override = no
+		name = "红军空一军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空二军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空三军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空四军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空五军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空六军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空七军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空八军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空九军"
+		available =
+		{
+			tag = PRC
+		}
+	}
+	icon = {
+		color_override = no
+		name = "红军空十军"
+		available =
+		{
+			tag = CHI
+		}
 	}
 }
 

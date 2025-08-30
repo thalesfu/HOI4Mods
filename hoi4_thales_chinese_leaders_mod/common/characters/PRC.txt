@@ -27,12 +27,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ media_personality trickster expert_improviser guerilla_fighter politically_connected war_hero brave brilliant_strategist trait_cautious organizer fast_planner aggressive_assaulter logistics_wizard organisational_leader inspirational_leader hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer expert_delegator}
-			skill=4
-			attack_skill=6
-			defense_skill=6
-			planning_skill=6
-			logistics_skill=6
+			traits={ brilliant_strategist inflexible_strategist skilled_staffer expert_delegator}
+			skill=0
+			attack_skill=5
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=5
 			legacy_id=-1
 		}
 		country_leader={
@@ -67,12 +67,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={  trickster expert_improviser guerilla_fighter war_hero brave inflexible_strategist trait_cautious organizer thorough_planner unyielding_defender logistics_wizard organisational_leader inspirational_leader hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer expert_delegator}
-			skill=4
-			attack_skill=5
-			defense_skill=5
-			planning_skill=5
-			logistics_skill=5
+			traits={ war_hero infantry_officer skilled_staffer expert_delegator  }
+			skill=0
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=-1
 		}
 	}
@@ -102,7 +102,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -136,7 +135,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trait_engineer scavenger trickster expert_improviser guerilla_fighter brave brilliant_strategist trait_cautious organizer aggressive_assaulter logistics_wizard fast_planner organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+			traits={ brilliant_strategist infantry_officer brave }
 			skill=0
 			attack_skill=3
 			defense_skill=3
@@ -156,7 +155,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trait_engineer scavenger trickster expert_improviser guerilla_fighter brave inflexible_strategist trait_cautious organizer thorough_planner unyielding_defender logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger winter_specialist}
+			traits={ inflexible_strategist infantry_officer trait_cautious }
 			skill=0
 			attack_skill=3
 			defense_skill=3
@@ -240,12 +239,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
+		    traits={ brilliant_strategist infantry_officer }
 	        skill = 0
-	        attack_skill = 3
-	        defense_skill = 3
-		    planning_skill = 3
-		    logistics_skill = 3
+	        attack_skill = 2
+	        defense_skill = 2
+		    planning_skill = 2
+		    logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -259,7 +258,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger career_officer}
+		    traits={ brilliant_strategist infantry_officer }
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -314,8 +313,9 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
-		}corps_commander={
-			traits={ trickster expert_improviser guerilla_fighter war_hero brave brilliant_strategist trait_cautious organizer fast_planner aggressive_assaulter logistics_wizard organisational_leader hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer expert_delegator}
+		}
+		corps_commander={
+		    traits={ brilliant_strategist inflexible_strategist }
 			skill = 0
 			attack_skill = 3
 			defense_skill = 3
@@ -334,7 +334,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+		    traits={ war_hero brave }
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -353,7 +353,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger winter_specialist}
+		    traits={ infantry_officer career_officer }
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -372,7 +372,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -391,7 +390,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -410,7 +408,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -429,7 +426,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -448,7 +444,6 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -467,7 +462,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ winter_specialist engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -486,7 +480,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ winter_specialist engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -505,7 +498,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ cavalry_officer cavalry_leader cavalry_expert trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -524,7 +516,6 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits={ winter_specialist bearer_of_artillery engineer_officer fortress_buster trait_engineer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -543,7 +534,6 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { bearer_of_artillery }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -720,7 +710,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger career_officer}
+		    traits={ infantry_officer brilliant_strategist }
 	        skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -756,7 +746,6 @@ characters={
 		}
 
 		corps_commander = {
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -790,7 +779,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trait_engineer scavenger trickster expert_improviser guerilla_fighter brave brilliant_strategist trait_cautious organizer aggressive_assaulter logistics_wizard fast_planner organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger}
+		    traits={ inflexible_strategist brilliant_strategist }
 			skill=0
 			attack_skill=3
 			defense_skill=3
@@ -823,7 +812,6 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
 	        skill = 0
 	        attack_skill = 2
 	        defense_skill = 2
@@ -842,7 +830,6 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave brilliant_strategist organizer thorough_planner logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger skilled_staffer}
 	        skill = 0
 	        attack_skill = 2
 	        defense_skill = 2
@@ -860,13 +847,13 @@ characters={
 				large="GFX_中共_叶挺"
 			}
 		}
-		corps_commander={
-			traits={ brave harsh_leader infantry_officer skilled_staffer war_hero media_personality inspirational_leader}
+		field_marshal={
+		    traits={ war_hero infantry_officer skilled_staffer expert_delegator  }
 	        skill = 0
-	        attack_skill = 2
-	        defense_skill = 2
-		    planning_skill = 2
-		    logistics_skill = 2
+	        attack_skill = 3
+	        defense_skill = 3
+		    planning_skill = 3
+		    logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -924,7 +911,6 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer trickster expert_improviser guerilla_fighter brave organizer logistics_wizard organisational_leader harsh_leader bearer_of_artillery infantry_officer hill_fighter trait_mountaineer jungle_rat ranger career_officer}
 	        skill = 0
 			attack_skill = 2
 			defense_skill = 2

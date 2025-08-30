@@ -40,17 +40,17 @@ CHI_INF_01 =
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { 
-		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
-		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
-		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
-		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
-		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
-		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	# Number reservation system will tie to another group
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
 	}
 
-	fallback_name = "国民革命军第%d步兵师"
+	fallback_name = "国民革命军第%d步兵师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -70,17 +70,17 @@ CHI_CAV_01 =
 
 	division_types = { "cavalry" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { 
-		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
-		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
-		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
-		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
-		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
-		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	# Number reservation system will tie to another group
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
 	}
 
-	fallback_name = "国民革命军第%d骑兵师"
+	fallback_name = "国民革命军第%d骑兵师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -100,17 +100,17 @@ CHI_MOT_01 =
 
 	division_types = { "motorized" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { 
-		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
-		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
-		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
-		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
-		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
-		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	# Number reservation system will tie to another group
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
 	}
 
-	fallback_name = "国民革命军第%d摩托化步兵师"
+	fallback_name = "国民革命军第%d摩托化步兵师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -122,7 +122,7 @@ CHI_MOT_01 =
 
 CHI_MEC_01 = 
 {
-	name = "国民革命军机械化步兵师"
+	name = "国民革命军机械化步兵师 中央军"
 
 	for_countries = { CHI }
 
@@ -132,15 +132,15 @@ CHI_MEC_01 =
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { 
-		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
-		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
-		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
-		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
-		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
-		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
 	}
 
-	fallback_name = "国民革命军第%d机械化步兵师"
+	fallback_name = "国民革命军第%d机械化步兵师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -160,17 +160,17 @@ CHI_ARM_01 =
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { 
-		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
-		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
-		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
-		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
-		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
-		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+	# Number reservation system will tie to another group
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
 	}
 
-	fallback_name = "国民革命军第%d装甲师"
+	fallback_name = "国民革命军第%d装甲师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -192,15 +192,15 @@ CHI_ARMINF_01 =
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { 
-		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 
-		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01
-		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01
-		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01
-		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01
-		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
 	}
 
-	fallback_name = "国民革命军第%d装甲步兵师"
+	fallback_name = "国民革命军第%d装甲步兵师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -220,10 +220,17 @@ CHI_PAR_01 =
 
 	division_types = { "paratrooper" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { CHI_INF_01 }
+	# Number reservation system will tie to another group
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
+	}
 
-	fallback_name = "国民革命军第%d空降师"
+	fallback_name = "国民革命军第%d空降师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -243,10 +250,17 @@ CHI_MAR_01 =
 
 	division_types = { "marine" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { CHI_INF_01 }
+	# Number reservation system will tie to another group
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
+	}
 
-	fallback_name = "国民革命军第%d海军陆战队师"
+	fallback_name = "国民革命军第%d海军陆战队师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -266,10 +280,17 @@ CHI_MNT_01 =
 
 	division_types = { "mountaineers" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { CHI_INF_01 }
+	# Number reservation system will tie to another group
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
+	}
 
-	fallback_name = "国民革命军第%d山地师"
+	fallback_name = "国民革命军第%d山地师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -290,9 +311,16 @@ CHI_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { CHI_GAR_01 GXC_GAR_01 SHX_GAR_01 YUN_GAR_01 XSM_GAR_01 SIK_GAR_01}
+	link_numbering_with = {
+		CHI_INF_01 CHI_CAV_01 CHI_MOT_01 CHI_MEC_01 CHI_MNT_01 CHI_PAR_01 CHI_MAR_01 CHI_ARMINF_01 CHI_ARM_01 CHI_GAR_01
+		GXC_INF_01 GXC_CAV_01 GXC_MOT_01 GXC_MEC_01 GXC_MNT_01 GXC_GAR_01
+		SHX_INF_01 SHX_CAV_01 SHX_MOT_01 SHX_MEC_01 SHX_MNT_01 SHX_GAR_01
+		YUN_INF_01 YUN_CAV_01 YUN_MOT_01 YUN_MEC_01 YUN_MNT_01 YUN_GAR_01
+		XSM_INF_01 XSM_CAV_01 XSM_MOT_01 XSM_MEC_01 XSM_MNT_01 XSM_GAR_01
+		SIK_INF_01 SIK_CAV_01 SIK_MOT_01 SIK_MEC_01 SIK_MNT_01 SIK_GAR_01
+	}
 
-	fallback_name = "第%d警备团"
+	fallback_name = "国民革命军第%d警备师 中央军"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.

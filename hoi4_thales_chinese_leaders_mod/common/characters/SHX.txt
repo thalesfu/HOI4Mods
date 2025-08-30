@@ -31,11 +31,11 @@ characters={
 		}
 		field_marshal={
 			traits = { old_guard }
-			skill=2
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			skill=0
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -48,12 +48,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected engineer_officer }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -447,12 +446,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brilliant_strategist brave war_hero trait_mountaineer hill_fighter engineer_officer infantry_officer cavalry_officer expert_improviser guerilla_fighter }
+			traits = { brilliant_strategist brave war_hero }
 			skill = 0
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -485,12 +484,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -504,12 +502,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected engineer_officer }
+			traits={ politically_connected }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -523,12 +521,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -542,12 +539,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ engineer_officer }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -563,10 +559,10 @@ characters={
 		corps_commander={
 			traits = { cavalry_officer }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}

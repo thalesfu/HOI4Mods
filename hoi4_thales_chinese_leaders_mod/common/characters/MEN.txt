@@ -13,12 +13,11 @@ characters={
 			id=-1
 		}
 		corps_commander={
-        	traits={ politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -304,12 +303,11 @@ characters={
 			}
 		}
 		corps_commander={
-        	traits={ politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -323,12 +321,11 @@ characters={
 			}
 		}
 		corps_commander={
-        	traits={ politically_connected cavalry_officer cavalry_leader cavalry_expert desert_fox }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}

@@ -18,8 +18,8 @@ characters={
 		}
 
 		field_marshal={
-			traits={ old_guard inflexible_strategist politically_connected }
-			skill=1
+			traits={ old_guard politically_connected }
+			skill=0
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
@@ -110,13 +110,12 @@ characters={
 				factor = 1.000
 			}
 		}
-		field_marshal={
-			traits={ old_guard organizer skilled_staffer  inflexible_strategist career_officer trait_cautious harsh_leader infantry_leader }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+		corps_commander={
+			skill=0
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -146,7 +145,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ inflexible_strategist harsh_leader bearer_of_artillery career_officer engineer_officer trait_cautious infantry_officer armor_officer }
+			traits={ career_officer }
 			skill=0
 			attack_skill=1
 			defense_skill=1
@@ -291,12 +290,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ bearer_of_artillery organizer skilled_staffer career_officer infantry_officer infantry_leader}
+			traits={ career_officer }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -329,7 +328,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { career_officer organizer skilled_staffer }
+			traits={ career_officer }
 			skill=0
 			attack_skill=1
 			defense_skill=1
@@ -368,12 +367,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ organizer skilled_staffer career_officer infantry_officer infantry_leader armor_officer panzer_leader}
+			traits={ inflexible_strategist }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}
@@ -387,7 +386,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ politically_connected armor_officer panzer_leader}
+			traits={ politically_connected armor_officer}
 			skill = 0
 			attack_skill = 1
 			defense_skill = 1
@@ -421,7 +420,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist brave war_hero career_officer media_personality harsh_leader infantry_officer infantry_leader armor_officer panzer_leader }
+			traits={ brilliant_strategist war_hero media_personality }
 			skill=0
 			attack_skill=2
 			defense_skill=2
@@ -442,12 +441,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brilliant_strategist brave career_officer harsh_leader infantry_officer engineer_officer infantry_leader trait_engineer fortress_buster urban_assault_specialist }
+			traits = { brilliant_strategist career_officer }
 			skill = 0
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -462,12 +461,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brilliant_strategist brave career_officer harsh_leader infantry_officer engineer_officer infantry_leader trait_engineer fortress_buster urban_assault_specialist }
+			traits = { brilliant_strategist career_officer }
 			skill = 0
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -482,7 +481,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer harsh_leader infantry_officer infantry_leader }
+			traits={ career_officer }
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -518,7 +517,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist trait_reckless war_hero offensive_doctrine engineer_officer infantry_officer naval_invader swamp_fox jungle_rat}
+			traits={ career_officer }
 			skill=0
 			attack_skill=2
 			defense_skill=2
@@ -538,12 +537,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ old_guard commando politically_connected war_hero trait_reckless aggressive_assaulter offensive_doctrine media_personality inspirational_leader winter_specialist winter_expert}
-			skill=4
-			attack_skill=5
-			defense_skill=5
-			planning_skill=5
-			logistics_skill=5
+			traits={ old_guard }
+			skill=0
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 		advisor={
@@ -571,7 +570,6 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ commando winter_specialist winter_expert}
 			skill=0
 			attack_skill=2
 			defense_skill=2
@@ -605,12 +603,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={old_guard politically_connected war_hero trait_cautious skilled_staffer partisans_organizer thorough_planner }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			traits={old_guard }
+			skill=0
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -624,12 +622,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ old_guard politically_connected infantry_leader infantry_expert }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			traits={ old_guard  }
+			skill=0
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 		advisor={
@@ -696,8 +694,8 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={old_guard politically_connected war_hero trait_reckless trickster expert_improviser guerilla_fighter }
-			skill=2
+			traits={old_guard politically_connected war_hero  }
+			skill=0
 			attack_skill=2
 			defense_skill=2
 			planning_skill=2
@@ -715,12 +713,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brave trait_mountaineer hill_fighter infantry_officer cavalry_officer expert_improviser guerilla_fighter }
+			traits={ career_officer }
 			skill=0
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -772,7 +770,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { old_guard inflexible_strategist brave trait_mountaineer hill_fighter infantry_officer cavalry_officer expert_improviser guerilla_fighter }
+			traits = { old_guard cavalry_officer }
 			skill=0
 			attack_skill=1
 			defense_skill=1
@@ -791,7 +789,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { trait_mountaineer hill_fighter infantry_officer cavalry_officer }
+			traits = { cavalry_officer }
 			skill=0
 			attack_skill=1
 			defense_skill=1
@@ -810,12 +808,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { trait_mountaineer hill_fighter infantry_officer cavalry_officer }
+			traits = { cavalry_officer }
 			skill=0
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -830,7 +828,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { brave war_hero trait_mountaineer hill_fighter infantry_officer cavalry_officer expert_improviser guerilla_fighter }
+			traits = { cavalry_officer }
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -850,7 +848,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits = { trait_mountaineer hill_fighter }
+			traits = { cavalry_officer }
 			skill=0
 			attack_skill=1
 			defense_skill=1
