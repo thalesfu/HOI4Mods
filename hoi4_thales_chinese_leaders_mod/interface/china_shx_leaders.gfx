@@ -123,4 +123,16 @@ spriteTypes = {
 		name = "GFX_山西_李书华"
 		texturefile = "gfx/china/科学家/GFX_山西_李书华.dds"
 	}
+
+	#中共
+	#陈锐霆
+	spriteType = {
+		name = "GFX_晋系_中共_陈锐霆"
+		texturefile = "gfx/china/晋系/中共/陈锐霆大.dds"
+	}
+	spriteType = {
+		name = "GFX_晋系_中共_陈锐霆_small"
+		texturefile = "gfx/china/晋系/中共/陈锐霆小.dds"
+	}
+
 }

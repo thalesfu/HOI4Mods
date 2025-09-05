@@ -1324,6 +1324,15 @@ spriteTypes = {
 		name = "GFX_东北_马占山_small"
 		texturefile = "gfx/china/东北/GFX_东北_马占山_small.dds"
 	}
+	#万毅
+	spriteType = {
+		name = "GFX_东北_中共_万毅"
+		texturefile = "gfx/china/东北/中共/万毅大.dds"
+	}
+	spriteType = {
+		name = "GFX_东北_中共_万毅_small"
+		texturefile = "gfx/china/东北/中共/万毅小.dds"
+	}
 	
 	#西北
 	#冯玉祥

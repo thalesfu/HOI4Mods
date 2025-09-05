@@ -33,11 +33,11 @@ units = {
 			name_order = 1
 		}
         officer={
-            name="林彪"
+            name="王树声"
             portraits={
                 army={
-                    large=GFX_portrait_PRC_lin_biao
-                    small=GFX_portrait_PRC_lin_biao_small
+                    large="GFX_中共_红四方面军_红一军_大将_王树声"
+                    small="GFX_中共_红四方面军_红一军_大将_王树声_small"
                 }
             }
             male=yes
@@ -57,8 +57,8 @@ units = {
             name="许光达"
             portraits={
                 army={
-                    large=GFX_中共_红二_许光达
-                    small=GFX_中共_红二_许光达_small
+                    large="GFX_中共_红二方面军_红二军团_红六军_大将_许光达"
+                    small="GFX_中共_红二方面军_红二军团_红六军_大将_许光达_small"
                 }
             }
             male=yes
@@ -78,8 +78,8 @@ units = {
             name="张云逸"
             portraits={
                 army={
-                    large=GFX_中共_红一_张云逸
-                    small=GFX_中共_红一_张云逸_small
+                    large=GFX_中共_红一方面军_红三军团_红七军_大将_张云逸
+                    small=GFX_中共_红一方面军_红三军团_红七军_大将_张云逸_small
                 }
             }
             male=yes
@@ -98,11 +98,11 @@ units = {
 			name_order = 4
 		}
         officer={
-            name="王树声"
+            name="林彪"
             portraits={
                 army={
-                    large=GFX_中共_红四_王树声
-                    small=GFX_中共_红四_王树声_small
+                    large=GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_林彪
+                    small=GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_林彪_small
                 }
             }
             male=yes
@@ -121,8 +121,8 @@ units = {
             name="陈赓"
             portraits={
                 army={
-                    large=GFX_中共_红一_陈赓
-                    small=GFX_中共_红一_陈赓_small
+                    large=GFX_中共_红一方面军_红一军团_红四军_上海中央_大将_陈赓
+                    small=GFX_中共_红一方面军_红一军团_红四军_上海中央_大将_陈赓_small
                 }
             }
             male=yes
@@ -138,11 +138,11 @@ units = {
 			name_order = 6
 		}
         officer={
-            name="林彪"
+            name="伍中豪"
             portraits={
                 army={
-                    large=GFX_portrait_PRC_lin_biao
-                    small=GFX_portrait_PRC_lin_biao_small
+                    large=GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_伍中豪
+                    small=GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_伍中豪_small
                 }
             }
             male=yes
@@ -161,8 +161,8 @@ units = {
             name="粟裕"
             portraits={
                 army={
-                        large="GFX_中共_红一_粟裕"
-                        small="GFX_中共_红一_粟裕_small"
+                        large="GFX_中共_红一方面军_红一军团_红四军_南昌起义_大将_粟裕"
+                        small="GFX_中共_红一方面军_红一军团_红四军_南昌起义_大将_粟裕_small"
                 }
             }
             male=yes
@@ -178,11 +178,11 @@ units = {
 			name_order = 8
 		}
         officer={
-            name="林彪"
+            name="刘志丹"
             portraits={
                 army={
-                    large=GFX_portrait_PRC_lin_biao
-                    small=GFX_portrait_PRC_lin_biao_small
+                    large=GFX_中共_陕北红军_大将_刘志丹
+                    small=GFX_中共_陕北红军_大将_刘志丹_small
                 }
             }
             male=yes

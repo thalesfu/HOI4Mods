@@ -3,12 +3,12 @@ characters={
 		name=PRC_mao_zedong
 		portraits={
 			army={
-				large="GFX_中共_红一_毛泽东"
-				small=GFX_中共_红一_毛泽东_small
+				large="GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_毛泽东"
+				small="GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_毛泽东_small"
 			}
 			civilian={
-				large="GFX_中共_红一_毛泽东"
-				small=GFX_中共_红一_毛泽东_small
+				large="GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_毛泽东"
+				small="GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_毛泽东_small"
 			}
 		}
 		advisor={
@@ -47,8 +47,8 @@ characters={
 		name=PRC_zhu_de
 		portraits={
 			army={
-				large="GFX_中共_红一_朱德"
-				small="GFX_中共_红一_朱德_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_朱德"
+				small="GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_朱德_small"
 			}
 		}
 		advisor = {
@@ -66,7 +66,7 @@ characters={
 			}
 		}
 		
-		field_marshal={
+		corps_commander={
 			traits={ war_hero infantry_officer skilled_staffer expert_delegator  }
 			skill=0
 			attack_skill=4
@@ -82,8 +82,8 @@ characters={
 		name=PRC_chen_yi
 		portraits={
 			army={
-				large="GFX_中共_红一_陈毅"
-				small=GFX_中共_红一_陈毅_small
+				large="GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_陈毅"
+				small="GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_陈毅_small"
 			}
 		}
 		advisor={
@@ -113,8 +113,8 @@ characters={
 		name=PRC_peng_dehuai
 		portraits={
 			army={
-				large="GFX_中共_红一_彭德怀"
-				small=GFX_中共_红一_彭德怀_small
+				large="GFX_中共_红一方面军_红三军团_红五军_元帅_彭德怀"
+				small="GFX_中共_红一方面军_红三军团_红五军_元帅_彭德怀_small"
 			}
 		}
 		advisor = {
@@ -210,8 +210,8 @@ characters={
 		name=PRC_liu_bocheng
 		portraits={
 			army={
-				large="GFX_中共_红一_刘伯承"
-				small="GFX_中共_红一_刘伯承_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_刘伯承"
+				small="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_刘伯承_small"
 			}
 		}
 		advisor={
@@ -257,8 +257,8 @@ characters={
 		name=CHINA_ZHNGGONG_HELONG_NAME
 		portraits={
 			army={
-				large="GFX_中共_红二_贺龙"
-				small="GFX_中共_红二_贺龙_small"
+				large="GFX_中共_红二方面军_红二军团_红二军_元帅_贺龙"
+				small="GFX_中共_红二方面军_红二军团_红二军_元帅_贺龙_small"
 			}
 		}
 		advisor={
@@ -311,8 +311,8 @@ characters={
 		name =CHINA_ZHNGGONG_XUHAIDONG_NAME
 		portraits = {
 			army = {
-				large = "GFX_中共_红四_徐海东"
-				small = "GFX_中共_红四_徐海东_small"
+				large = "GFX_中共_红四方面军_红二十五军_大将_徐海东"
+				small = "GFX_中共_红四方面军_红二十五军_大将_徐海东_small"
 			}
 		}
 		corps_commander = {
@@ -332,8 +332,8 @@ characters={
 		name=CHINA_ZHNGGONG_ZHANGAIPING_NAME
 		portraits={
 			army={
-				large="GFX_中共_红一_张爱萍"
-				small="GFX_中共_红一_张爱萍_small"
+				large="GFX_中共_红一方面军_红五军团_红十四军_上将_张爱萍"
+				small="GFX_中共_红一方面军_红五军团_红十四军_上将_张爱萍_small"
 			}
 		}
 		advisor={	
@@ -395,8 +395,8 @@ characters={
 		name=PRC_fang_zeyi
 		portraits={
 			army={
-				large="GFX_中共_红一_方子翼"
-				small="GFX_中共_红一_方子翼_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_其他_少将_方子翼"
+				small="GFX_中共_红一方面军_红一军团_红四军_其他_少将_方子翼_small"
 			}
 		}
 		advisor={	
@@ -420,8 +420,8 @@ characters={
 		name=PRC_gao_gang
 		portraits={
 			army={
-				large="GFX_中共_陕北_高岗"
-				small="GFX_中共_陕北_高岗_small"
+				large="GFX_中共_陕北红军_大将_高岗"
+				small="GFX_中共_陕北红军_大将_高岗_small"
 			}
 		}
 		advisor={
@@ -449,8 +449,8 @@ characters={
 		name=PRC_xu_xiangqian
 		portraits={
 			army={
-				large="GFX_中共_红四_徐向前"
-				small="GFX_中共_红四_徐向前_small"
+				large="GFX_中共_红四方面军_红一军_元帅_徐向前"
+				small="GFX_中共_红四方面军_红一军_元帅_徐向前_small"
 			}
 		}
 		advisor={	
@@ -499,8 +499,8 @@ characters={
 		name=PRC_nie_rongzhen
 		portraits={
 			army={
-				large="GFX_中共_红一_聂荣臻"
-				small="GFX_中共_红一_聂荣臻_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_聂荣臻"
+				small="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_聂荣臻_small"
 			}
 		}
 		advisor={
@@ -518,15 +518,6 @@ characters={
 				factor = 1.000
 			}
 		}
-
-		corps_commander = {
-			skill = 0
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-		}
 	}
 	
 	#叶剑英
@@ -534,8 +525,8 @@ characters={
 		name=PRC_ye_jianying
 		portraits={
 			army={
-				large="GFX_中共_红一_叶剑英"
-				small="GFX_中共_红一_叶剑英_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_叶剑英"
+				small="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_叶剑英_small"
 			}
 		}
 		advisor={
@@ -550,15 +541,6 @@ characters={
 			}
 			cost = 100
 		}
-		
-		corps_commander={
-	        skill = 0
-	        attack_skill = 2
-	        defense_skill = 2
-		    planning_skill = 2
-		    logistics_skill = 2
-			legacy_id=-1
-		}
 	}
 
 	### 叶挺 ###
@@ -566,8 +548,8 @@ characters={
 		name=CHINA_ZHNGGONG_YETING_NAME
 		portraits={
 			army={
-				large="GFX_中共_新四_叶挺"
-				small="GFX_中共_新四_叶挺_small"
+				large="GFX_中共_新四军_元帅_叶挺"
+				small="GFX_中共_新四军_元帅_叶挺_small"
 			}
 		}
 		advisor = {
@@ -598,7 +580,7 @@ characters={
 				factor = 1.000
 			}
 		}
-		field_marshal={
+		corps_commander={
 		    traits={ war_hero infantry_officer skilled_staffer expert_delegator  }
 	        skill = 0
 	        attack_skill = 3
@@ -615,8 +597,8 @@ characters={
 		name=CHINA_ZHNGGONG_XIAOJINGGUANG_NAME
 		portraits={
 			army={
-				large="GFX_中共_红一_肖劲光"
-                small="GFX_中共_红一_肖劲光_small"
+				large="GFX_中共_红一方面军_红一军团_红十二军_大将_肖劲光"
+                small="GFX_中共_红一方面军_红一军团_红十二军_大将_肖劲光_small"
 			}
 		}
 		advisor={
@@ -660,8 +642,8 @@ characters={
 		name=PRC_lin_bojiu
 		portraits={
 			civilian={
-				large="GFX_中共_红一_林伯渠"
-				small="GFX_中共_红一_林伯渠_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_林伯渠"
+				small="GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_林伯渠_small"
 			}
 		}
 		advisor={
@@ -680,8 +662,8 @@ characters={
 		name=PRC_zhou_enlai
 		portraits={
 			civilian={
-				large="GFX_中共_红一_周恩来"
-				small="GFX_中共_红一_周恩来_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_周恩来"
+				small="GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_周恩来_small"
 			}
 		}
 		advisor={
@@ -694,14 +676,24 @@ characters={
 				ideological_crusader 
 			}
 		}
+
+		field_marshal={
+			traits={ skilled_staffer expert_delegator}
+			skill=0
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
 	}
 
 	PRC_liu_shaoqi={
 		name=PRC_liu_shaoqi
 		portraits={
 			civilian={
-				large="GFX_中共_红一_刘少奇"
-				small="GFX_中共_红一_刘少奇_small"
+				large="GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_刘少奇"
+				small="GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_刘少奇_small"
 			}
 		}
 		advisor={
@@ -720,8 +712,8 @@ characters={
 		name=PRC_he_yuandang
 		portraits={
 			civilian={
-				large="GFX_中共_新四_吴运铎"
-				small="GFX_中共_红一_新四_small"
+				large="GFX_中共_新四军_其他_吴运铎"
+				small="GFX_中共_新四军_其他_吴运铎_small"
 			}
 		}
 		advisor={
@@ -741,8 +733,8 @@ characters={
 		name=CHINA_ZHNGGONG_LIUYALOU_NAME
 		portraits={
 			army={
-				large="GFX_中共_红一_刘亚楼"
-				small="GFX_中共_红一_刘亚楼_small"
+				large="GFX_中共_红一方面军_红一军团_红十二军_上将_刘亚楼"
+				small="GFX_中共_红一方面军_红一军团_红十二军_上将_刘亚楼_small"
 			}
 		}
 		advisor={
@@ -795,8 +787,8 @@ characters={
 		name=CHINA_ZHNGGONG_LIUDAOSHENG_NAME
 		portraits={
 			army={
-				large="GFX_中共_红一_刘道生"
-				small="GFX_中共_红一_刘道生_small"
+				large="GFX_中共_红一方面军_红三军团_红八军_中将_刘道生"
+				small="GFX_中共_红一方面军_红三军团_红八军_中将_刘道生_small"
 			}
 		}
 		advisor={
