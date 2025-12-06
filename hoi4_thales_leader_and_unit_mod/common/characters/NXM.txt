@@ -1,0 +1,144 @@
+characters = {
+
+    XSM_ma_hongkui={
+        instance = {
+            allowed = {
+                NOT = {
+                    has_dlc = "No Compromise, No Surrender"
+                }
+            }
+            name=XSM_ma_hongkui
+            portraits={
+                army={
+                    small="GFX_idea_generic_air_asia_2"
+                }
+            }
+            advisor={
+                cost = 100
+                slot = theorist
+                idea_token = XSM_ma_hongkui
+                ledger = air
+                allowed = {
+                    original_tag = XSM
+                }
+
+                traits = {
+                    air_warfare_theorist
+                }
+            }
+
+        }
+        instance = {
+            allowed = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            name=XSM_ma_hongkui
+            portraits={
+                army={
+                    large= GFX_portrait_NXM_ma_hongkui
+                    small= GFX_portrait_NXM_ma_hongkui_small
+                }
+            }
+            country_leader={
+                ideology=despotism
+                traits = { NXM_king_of_ningxia }
+                expire="1965.1.1.1"
+                id=-1
+            }
+
+            corps_commander={
+                skill=1
+                traits={ old_guard cavalry_officer }
+                attack_skill=3
+                defense_skill=3
+                planning_skill=2
+                logistics_skill=2
+                legacy_id=-1
+            }
+        }
+    }
+
+    XSM_ma_hongbin={
+        instance = {
+            allowed = {
+                NOT = {
+                    has_dlc = "No Compromise, No Surrender"
+                }
+            }
+            name=XSM_ma_hongbin
+            portraits={
+                army={ #Trust me these portraits match together
+                    large=GFX_portrait_XSM_ma_hongbin
+                    small="GFX_idea_generic_army_asia_1"
+                }
+            }
+            advisor={
+                slot = army_chief
+                idea_token = XSM_ma_hongbin
+                allowed = {
+                    original_tag = XSM
+                }
+                traits = {
+                    army_chief_defensive_2
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 1.000
+                }
+            }
+
+            corps_commander={
+                skill=3
+                attack_skill=2
+                defense_skill=3
+                planning_skill=3
+                logistics_skill=2
+                legacy_id=-1
+            }
+        }
+        instance = {
+            allowed = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            name=XSM_ma_hongbin
+            portraits={
+                army={ #Trust me these portraits match together
+                    large= GFX_portrait_NXM_ma_hongbin
+                    small= GFX_portrait_NXM_ma_hongbin_small
+                }
+            }
+            advisor={
+                slot = army_chief
+                idea_token = XSM_ma_hongbin
+                allowed = {
+                    OR = {
+                        original_tag = XSM
+                        original_tag = KHM
+                        original_tag = NXM
+                        original_tag = GSM
+                        original_tag = MAN
+                    }
+                }
+                traits = {
+                    army_chief_defensive_2
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 1.000
+                }
+            }
+
+            corps_commander={
+                traits = { XSM_dubious_loyalty cavalry_officer }
+                skill=1
+                attack_skill=2
+                defense_skill=3
+                planning_skill=3
+                logistics_skill=2
+                legacy_id=-1
+            }
+        }
+
+    }
+}
+

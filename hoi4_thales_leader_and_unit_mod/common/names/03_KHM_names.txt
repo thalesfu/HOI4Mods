@@ -1,0 +1,16 @@
+NXM = {
+    male = {
+        names = {
+            马 马 莫
+        }
+    }
+    female = {
+        names = {
+            马 马 莫
+        }
+    }
+    surnames = {
+        生桂 占仓 木提
+    }
+    callsigns = { }
+}

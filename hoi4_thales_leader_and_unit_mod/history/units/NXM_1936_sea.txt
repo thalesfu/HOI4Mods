@@ -86,8 +86,8 @@ units = {
             name="马鸿宾"
             portraits={
                 army={
-                    large=GFX_宁夏_马鸿宾
-                    small=GFX_宁夏_马鸿宾_small
+                    large=GFX_portrait_NXM_ma_hongbin
+                    small=GFX_portrait_NXM_ma_hongbin_small
                 }
             }
             traits={ old_guard cavalry_officer }

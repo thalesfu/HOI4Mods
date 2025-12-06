@@ -35,6 +35,7 @@ IF = {
 		has_dlc = "No Compromise, No Surrender"
 	}
 	recruit_character = XSM_ma_hongkui
+    recruit_character = XSM_ma_hongbin
 }
 
 if = { 
