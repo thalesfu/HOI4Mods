@@ -56,47 +56,6 @@ name = "东北军主力"  # Sanjiao Jun
     }
 }
 division_template = {
-    name = "东北军次主力"  # Sanjiao Jun
-    division_names_group = CHI_INF_01
-    template_counter = 119
-    regiments = {
-        infantry = {
-            x = 0
-            y = 0
-        }
-        infantry = {
-            x = 1
-            y = 0
-        }
-        cavalry = {
-            x = 2
-            y = 0
-        }
-        infantry = {
-            x = 0
-            y = 1
-        }
-        infantry = {
-            x = 1
-            y = 1
-        }
-        infantry = {
-            x = 0
-            y = 2
-        }
-        infantry = {
-            x = 1
-            y = 2
-        }
-    }
-    support = {
-        artillery = {
-            x = 0
-            y = 0
-        }
-    }
-}
-division_template = {
     name = "东北军"  # Sanjiao Jun
     division_names_group = CHI_INF_01
     regiments = {
@@ -251,25 +210,6 @@ division_template = {
     }
 }
 units = {
-    division = {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 91
-        }
-        location = 7301
-        division_template = "东北军次主力"  # Sanjiao Jun
-        start_equipment_factor = 0.2
-        officer={
-            name="冯占海"
-            portraits={
-                army={
-                    large=GFX_东北_冯占海
-                    small=GFX_东北_冯占海小
-                }
-            }
-            male=yes
-        }
-    }
     division = {
         division_name = {
             is_name_ordered = yes
@@ -463,25 +403,6 @@ units = {
     division = {
         division_name = {
             is_name_ordered = yes
-            name_order = 116
-        }
-        location = 7208
-        division_template = "东北剿匪军"  # Sanjiao Jun
-        start_equipment_factor = 0.2
-        officer={
-            name="缪澄流"
-            portraits={
-                army={
-                    large=GFX_东北_缪澄流
-                    small=GFX_东北_缪澄流小
-                }
-            }
-            male=yes
-        }
-    }
-    division = {
-        division_name = {
-            is_name_ordered = yes
             name_order = 117
         }
         location = 517
@@ -520,25 +441,6 @@ units = {
     division = {
         division_name = {
             is_name_ordered = yes
-            name_order = 119
-        }
-        location = 2022
-        division_template = "东北剿匪军"  # Sanjiao Jun
-        start_equipment_factor = 0.2
-        officer={
-            name="孙德荃"
-            portraits={
-                army={
-                    large=GFX_东北_孙德荃
-                    small=GFX_东北_孙德荃小
-                }
-            }
-            male=yes
-        }
-    }
-    division = {
-        division_name = {
-            is_name_ordered = yes
             name_order = 120
         }
         location = 8049
@@ -550,44 +452,6 @@ units = {
                 army={
                     large=GFX_东北_常经武
                     small=GFX_东北_常经武小
-                }
-            }
-            male=yes
-        }
-    }
-    division = {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 129
-        }
-        location = 8049
-        division_template = "东北剿匪军"  # Sanjiao Jun
-        start_equipment_factor = 0.2
-        officer={
-            name="周福成"
-            portraits={
-                army={
-                    large=GFX_东北_周福成
-                    small=GFX_东北_周福成小
-                }
-            }
-            male=yes
-        }
-    }
-    division = {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 130
-        }
-        location = 8049
-        division_template = "东北剿匪军"  # Sanjiao Jun
-        start_equipment_factor = 0.2
-        officer={
-            name="朱鸿勋"
-            portraits={
-                army={
-                    large=GFX_东北_朱鸿勋
-                    small=GFX_东北_朱鸿勋小
                 }
             }
             male=yes

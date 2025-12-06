@@ -800,25 +800,6 @@ characters = {
 
 	}
 
-	CHI_wan_fulin = {
-		name = CHI_wan_fulin
-		portraits = {
-			army = {
-				large = GFX_portrait_CHI_wan_fulin
-				small = GFX_portrait_CHI_wan_fulin_small
-			}
-		}
-		corps_commander = {
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-			legacy_id = -1
-			traits = { infantry_officer winter_specialist }
-		}
-	}
-
 	CHI_zhu_shaoliang = {
 		name = CHI_zhu_shaoliang
 		portraits = {

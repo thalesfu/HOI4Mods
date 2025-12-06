@@ -1,0 +1,53 @@
+spriteTypes = {
+
+    #河北
+    #冯治安
+    spriteType = {
+        name = "GFX_河北_冯治安"
+        texturefile = "gfx/china/河北/冯治安大.dds"
+    }
+    spriteType = {
+        name = "GFX_河北_冯治安小"
+        texturefile = "gfx/china/河北/冯治安小.dds"
+    }
+
+    #张自忠
+    spriteType = {
+        name = "GFX_河北_张自忠"
+        texturefile = "gfx/china/河北/张自忠大.dds"
+    }
+    spriteType = {
+        name = "GFX_河北_张自忠小"
+        texturefile = "gfx/china/河北/张自忠小.dds"
+    }
+
+    #赵登禹
+    spriteType = {
+        name = "GFX_河北_赵登禹"
+        texturefile = "gfx/china/河北/赵登禹大.dds"
+    }
+    spriteType = {
+        name = "GFX_河北_赵登禹小"
+        texturefile = "gfx/china/河北/赵登禹小.dds"
+    }
+
+    #刘汝明
+    spriteType = {
+        name = "GFX_河北_刘汝明"
+        texturefile = "gfx/china/河北/刘汝明大.dds"
+    }
+    spriteType = {
+        name = "GFX_河北_刘汝明小"
+        texturefile = "gfx/china/河北/刘汝明小.dds"
+    }
+
+    #刘景山
+    spriteType = {
+        name = "GFX_河北_刘景山"
+        texturefile = "gfx/china/河北/刘景山大.dds"
+    }
+    spriteType = {
+        name = "GFX_河北_刘景山小"
+        texturefile = "gfx/china/河北/刘景山小.dds"
+    }
+}

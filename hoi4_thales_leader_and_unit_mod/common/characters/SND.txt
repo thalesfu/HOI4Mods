@@ -17,6 +17,7 @@ characters = {
 
         corps_commander={
             skill=1
+            traits = { old_guard }
             attack_skill=1
             defense_skill=2
             planning_skill=2
