@@ -1,0 +1,76 @@
+spriteTypes = {
+
+    #陕西
+    #杨虎城
+    spriteType = {
+        name = "GFX_陕西_杨虎城"
+        texturefile = "gfx/china/陕西/杨虎城大.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_杨虎城_small"
+        texturefile = "gfx/china/陕西/杨虎城小.dds"
+    }
+    #孙蔚如@杨虎城
+    spriteType = {
+        name = "GFX_陕西_杨虎城_孙蔚如"
+        texturefile = "gfx/china/陕西/孙蔚如大.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_杨虎城_孙蔚如_small"
+        texturefile = "gfx/china/陕西/孙蔚如小.dds"
+    }
+    #冯钦哉@杨虎城
+    spriteType = {
+        name = "GFX_陕西_杨虎城_冯钦哉"
+        texturefile = "gfx/china/陕西/冯钦哉大.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_杨虎城_冯钦哉_small"
+        texturefile = "gfx/china/陕西/冯钦哉小.dds"
+    }
+    #马青苑@杨虎城
+    spriteType = {
+        name = "GFX_陕西_杨虎城_马青苑"
+        texturefile = "gfx/china/陕西/GFX_陕西_杨虎城_马青苑.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_杨虎城_马青苑_small"
+        texturefile = "gfx/china/陕西/GFX_陕西_杨虎城_马青苑_small.dds"
+    }
+    #王劲哉@杨虎城
+    spriteType = {
+        name = "GFX_陕西_杨虎城_王劲哉"
+        texturefile = "gfx/china/陕西/GFX_陕西_杨虎城_王劲哉.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_杨虎城_王劲哉_small"
+        texturefile = "gfx/china/陕西/GFX_陕西_杨虎城_王劲哉_small.dds"
+    }
+    #张钫
+    spriteType = {
+        name = "GFX_陕西_张钫"
+        texturefile = "gfx/china/陕西/GFX_陕西_张钫.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_张钫_small"
+        texturefile = "gfx/china/陕西/GFX_陕西_张钫_small.dds"
+    }
+    #宋天才@张钫
+    spriteType = {
+        name = "GFX_陕西_张钫_宋天才"
+        texturefile = "gfx/china/陕西/GFX_陕西_张钫_宋天才.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_张钫_宋天才_small"
+        texturefile = "gfx/china/陕西/GFX_陕西_张钫_宋天才_small.dds"
+    }
+    #井岳秀
+    spriteType = {
+        name = "GFX_陕西_井岳秀"
+        texturefile = "gfx/china/陕西/GFX_陕西_井岳秀.dds"
+    }
+    spriteType = {
+        name = "GFX_陕西_井岳秀_small"
+        texturefile = "gfx/china/陕西/GFX_陕西_井岳秀_small.dds"
+    }
+}

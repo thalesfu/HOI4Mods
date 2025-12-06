@@ -1,0 +1,357 @@
+﻿division_template = {
+	name = "山西独立旅"	# Juntuán
+	division_names_group = CHI_INF_BRIGADE_01
+	template_counter = 118
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+        infantry = {
+            x = 2
+            y = 0
+        }
+	}
+}
+
+division_template = {
+	name = "山西步兵师"	# Sanjiao Jun
+	division_names_group = CHI_INF_01
+	template_counter = 119
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+
+division_template = {
+    name = "山西剿匪师"	# Sanjiao Jun
+    division_names_group = CHI_INF_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+    }
+}
+
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 66 # 杨效欧
+        }
+        location = 3427
+        division_template = "山西步兵师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="SHX_yang_xiaoou"
+            portraits={
+                army={
+                    large=GFX_山西_阎锡山_杨效欧
+                    small=GFX_山西_阎锡山_杨效欧_small
+                }
+            }
+            male=yes
+        }
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 68 # 李服膺
+        }
+        location = 1519
+        division_template = "山西步兵师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="SHX_li_fuying"
+            portraits={
+                army={
+                    large=GFX_山西_阎锡山_李服膺
+                    small=GFX_山西_阎锡山_李服膺_small
+                }
+            }
+            male=yes
+        }
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 69 # 杨澄源
+        }
+        location = 1519
+        division_template = "山西步兵师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="SHX_yang_chengyuan"
+            portraits={
+                army={
+                    large=GFX_山西_阎锡山_杨澄源
+                    small=GFX_山西_阎锡山_杨澄源_small
+                }
+            }
+            male=yes
+        }
+    }
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 70 # 王敬国
+        }
+		location = 1519
+		division_template = "山西步兵师"		# Sanjiao Jun
+		start_equipment_factor = 0.2
+        officer={
+            name="王靖国"
+            portraits={
+                army={
+                    large=GFX_山西_王靖国
+                    small=GFX_山西_王靖国小
+                }
+            }
+            male=yes
+        }
+	}
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 71 # 杨耀芳
+        }
+        location = 3427
+        division_template = "山西步兵师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="SHX_yang_yaofang"
+            portraits={
+                army={
+                    large=GFX_山西_阎锡山_杨耀芳
+                    small=GFX_山西_阎锡山_杨耀芳_small
+                }
+            }
+            male=yes
+        }
+    }
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 72 # 陈长捷
+        }
+		location = 1519
+		division_template = "山西步兵师"		# Sanjiao Jun
+		start_equipment_factor = 0.2
+        officer={
+            name="陈长捷"
+            portraits={
+                army={
+                    large=GFX_山西_陈长捷
+                    small=GFX_山西_陈长捷小
+                }
+            }
+            male=yes
+        }
+	}
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 73
+        }
+        location = 4525
+        division_template = "山西步兵师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="傅作义"
+            portraits={
+                army={
+                    large=GFX_portrait_chi_fu_zuoyi
+                    small=GFX_idea_CHI_fu_zuoyi
+                }
+            }
+            male=yes
+        }
+    }
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 101 # 孙楚
+        }
+		location = 7631
+		division_template = "山西步兵师"		# Sanjiao Jun
+		start_equipment_factor = 0.2
+        officer={
+            name="SHX_sun_chu"
+            portraits={
+                army={
+                    large=GFX_山西_阎锡山_孙楚
+                    small=GFX_山西_阎锡山_孙楚_small
+                }
+            }
+            male=yes
+        }
+	}
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 139
+        }
+        location = 4525
+        division_template = "山西剿匪师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="黄光华"
+            portraits={
+                army={
+                    large=GFX_山西_黄光华
+                    small=GFX_山西_黄光华小
+                }
+            }
+            male=yes
+        }
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 141
+        }
+        location = 4525
+        division_template = "山西剿匪师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="高鸿文"
+            portraits={
+                army={
+                    large=GFX_山西_高鸿文
+                    small=GFX_山西_高鸿文小
+                }
+            }
+            male=yes
+        }
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 142
+        }
+        location = 4525
+        division_template = "山西剿匪师"		# Sanjiao Jun
+        start_equipment_factor = 0.2
+        officer={
+            name="吕济"
+            portraits={
+                army={
+                    large=GFX_山西_吕济
+                    small=GFX_山西_吕济小
+                }
+            }
+            male=yes
+        }
+    }
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+		location = 7158
+		division_template = "山西独立旅"		# Juntuán
+		start_equipment_factor = 0.2
+        officer={
+            name="SHX_du_chunyi"
+            portraits={
+                army={
+                    large=GFX_山西_阎锡山_杜春沂
+                    small=GFX_山西_阎锡山_杜春沂_small
+                }
+            }
+            male=yes
+        }
+	}
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+		location = 7158
+		division_template = "山西独立旅"		# Juntuán
+		start_equipment_factor = 0.2
+        officer={
+            name="方克猷"
+            portraits={
+                army={
+                    large=GFX_山西_方克猷
+                    small=GFX_山西_方克猷小
+                }
+            }
+            male=yes
+        }
+	}
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+		location = 12432
+		division_template = "山西独立旅"		# Juntuán
+		start_equipment_factor = 0.2
+        officer={
+            name="章拯宇"
+            portraits={
+                army={
+                    large=GFX_山西_章拯宇
+                    small=GFX_山西_章拯宇小
+                }
+            }
+            male=yes
+        }
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SHX"
+		}
+		requested_factories = 1
+		progress = 0.78
+		efficiency = 100
+	}
+}

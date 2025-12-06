@@ -1,0 +1,235 @@
+division_template = {
+	name = "红军"	# Juntuán
+	division_names_group = PRC_INF_01
+	role = infantry
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 2
+            y = 1
+        }
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+	}
+	priority = 1
+}
+
+division_template = {
+    name = "红军(暂编)"	# Juntuán
+    division_names_group = PRC_INF_03
+    role = infantry
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 2
+            y = 1
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+    priority = 1
+}
+
+division_template = {
+	name = "陕北红军"	# Renmin Jundui
+	division_names_group = PRC_INF_03
+	template_counter = 118
+	role = militias
+	regiments = {
+        militia = {
+			x = 0
+			y = 0
+		}
+        militia = {
+			x = 0
+			y = 1
+		}
+		militia = {
+			x = 1
+			y = 0
+		}
+		militia = {
+			x = 1
+			y = 1
+		}
+		militia = {
+			x = 2
+			y = 0
+		}
+		militia = {
+			x = 2
+			y = 1
+		}
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+		location = 12356
+		division_template = "红军"		# Juntuán
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        officer={
+            name="陈赓"
+            portraits={
+                army={
+                    large=GFX_中共_红一方面军_红一军团_红四军_上海中央_大将_陈赓
+                    small=GFX_中共_红一方面军_红一军团_红四军_上海中央_大将_陈赓_small
+                }
+            }
+            male=yes
+        }
+	}
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+		location = 10880
+        officer={
+            name="刘亚楼"
+            portraits={
+                army={
+                    large=GFX_中共_红一方面军_红一军团_红十二军_上将_刘亚楼
+                    small=GFX_中共_红一方面军_红一军团_红十二军_上将_刘亚楼_small
+                }
+            }
+            male=yes
+        }
+		division_template = "红军"		# Renmin Jundui
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+        name="红4师 步兵"
+        officer={
+            name="彭雪枫"
+            portraits={
+                army={
+                    large=GFX_中共_红一方面军_红三军团_红五军_上将_彭雪枫
+                    small=GFX_中共_红一方面军_红三军团_红五军_上将_彭雪枫_small
+                }
+            }
+            male=yes
+        }
+		location = 7314
+		division_template = "红军(暂编)"		# Renmin Jundui
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+        name="红73师 步兵"
+        officer={
+            name="刘志丹"
+            portraits={
+                army={
+                    large=GFX_中共_陕北红军_大将_刘志丹
+                    small=GFX_中共_陕北红军_大将_刘志丹_small
+                }
+            }
+            male=yes
+        }
+		location = 7659
+		division_template = "陕北红军"		# Renmin Jundui
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+        name="红75师 步兵"
+        officer={
+            name="王世泰"
+            portraits={
+                army={
+                    large=GFX_中共_陕北红军_上将_王世泰
+                    small=GFX_中共_陕北红军_上将_王世泰_small
+                }
+            }
+            male=yes
+        }
+		location = 12356
+		division_template = "陕北红军"		# Renmin Jundui
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+        name="红78师 步兵"
+        officer={
+            name="闫红彦"
+            portraits={
+                army={
+                    large=GFX_中共_陕北红军_上将_闫红彦
+                    small=GFX_中共_陕北红军_上将_闫红彦_small
+                }
+            }
+            male=yes
+        }
+		location = 7314
+		division_template = "陕北红军"		# Renmin Jundui
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "PRC"
+		}
+		requested_factories = 2
+		progress = 0.33
+		efficiency = 50
+		industrial_manufacturer = mio:PRC_cmc_military_industry_bureau_organization
+	}
+}

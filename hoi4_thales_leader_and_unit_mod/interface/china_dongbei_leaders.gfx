@@ -1,0 +1,400 @@
+spriteTypes = {
+
+    #东北
+    #张学良
+    spriteType = {
+        name = "GFX_东北_张学良"
+        texturefile = "gfx/china/东北/GFX_东北_张学良.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_small.dds"
+    }
+    #于学忠@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_于学忠"
+        texturefile = "gfx/china/东北/于学忠大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_于学忠_small"
+        texturefile = "gfx/china/东北/于学忠小.dds"
+    }
+    #董英斌@于学忠@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_于学忠_董英斌"
+        texturefile = "gfx/china/东北/董英斌大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_于学忠_董英斌_small"
+        texturefile = "gfx/china/东北/董英斌小.dds"
+    }
+    #牟中珩@于学忠@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_于学忠_牟中珩"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_于学忠_牟中珩.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_于学忠_牟中珩_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_于学忠_牟中珩_small.dds"
+    }
+    #万福麟@吴俊陞@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟_small.dds"
+    }
+    #孙德荃@万福麟@吴俊陞@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟_孙德荃"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟_孙德荃.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟_孙德荃_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟_孙德荃_small.dds"
+    }
+    #周福成@万福麟@吴俊陞@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟_周福成"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟_周福成.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟_周福成_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟_周福成_small.dds"
+    }
+    #朱鸿勋@万福麟@吴俊陞@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟_朱鸿勋"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟_朱鸿勋.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_万福麟_朱鸿勋_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_万福麟_朱鸿勋_small.dds"
+    }
+    #何柱国@张作相@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_何柱国"
+        texturefile = "gfx/china/东北/何柱国大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_何柱国_small"
+        texturefile = "gfx/china/东北/何柱国小.dds"
+    }
+    #张廷枢@何柱国@张作相@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_何柱国_张廷枢"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_何柱国_张廷枢.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_何柱国_张廷枢_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_何柱国_张廷枢_small.dds"
+    }
+    #缪澄流@何柱国@张作相@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_何柱国_缪澄流"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_何柱国_缪澄流.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_何柱国_缪澄流_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_何柱国_缪澄流_small.dds"
+    }
+    #王以哲@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_王以哲"
+        texturefile = "gfx/china/东北/王以哲大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_王以哲_small"
+        texturefile = "gfx/china/东北/王以哲小.dds"
+    }
+    #刘翰东@王以哲@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_王以哲_刘翰东"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_王以哲_刘翰东.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_王以哲_刘翰东_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_王以哲_刘翰东_small.dds"
+    }
+    #翁照垣@王以哲@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_王以哲_翁照垣"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_王以哲_翁照垣.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_王以哲_翁照垣_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_王以哲_翁照垣_small.dds"
+    }
+    #汤玉麟@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_汤玉麟"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_汤玉麟.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_汤玉麟_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_汤玉麟_small.dds"
+    }
+    #刘多荃@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_刘多荃"
+        texturefile = "gfx/china/东北/刘多荃大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_刘多荃_small"
+        texturefile = "gfx/china/东北/刘多荃小.dds"
+    }
+    #邹作华@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_邹作华"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_邹作华.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_邹作华_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_邹作华_small.dds"
+    }
+    #张诚德@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_张诚德"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_张诚德.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_张诚德_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_张诚德_small.dds"
+    }
+    #郭希鹏@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_郭希鹏"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_郭希鹏.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_郭希鹏_small"
+        texturefile = "gfx/china/东北/GFX_东北_张学良_郭希鹏_small.dds"
+    }
+    #白凤翔@张学良
+    spriteType = {
+        name = "GFX_东北_张学良_白凤翔"
+        texturefile = "gfx/china/东北/白凤翔大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_张学良_白凤翔_small"
+        texturefile = "gfx/china/东北/白凤翔小.dds"
+    }
+    #苏炳文
+    spriteType = {
+        name = "GFX_东北_苏炳文"
+        texturefile = "gfx/china/东北/GFX_东北_苏炳文.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_苏炳文_small"
+        texturefile = "gfx/china/东北/GFX_东北_苏炳文_small.dds"
+    }
+    #马占山
+    spriteType = {
+        name = "GFX_东北_马占山"
+        texturefile = "gfx/china/东北/GFX_东北_马占山.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_马占山_small"
+        texturefile = "gfx/china/东北/GFX_东北_马占山_small.dds"
+    }
+    #万毅
+    spriteType = {
+        name = "GFX_东北_中共_万毅"
+        texturefile = "gfx/china/东北/中共/万毅大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_中共_万毅_small"
+        texturefile = "gfx/china/东北/中共/万毅小.dds"
+    }
+    #沈克
+    spriteType = {
+        name = "GFX_东北_沈克"
+        texturefile = "gfx/china/东北/沈克大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_沈克小"
+        texturefile = "gfx/china/东北/沈克小.dds"
+    }
+    #刘翰东
+    spriteType = {
+        name = "GFX_东北_刘翰东"
+        texturefile = "gfx/china/东北/刘翰东大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_刘翰东小"
+        texturefile = "gfx/china/东北/刘翰东小.dds"
+    }
+    #江惟仁
+    spriteType = {
+        name = "GFX_东北_江惟仁"
+        texturefile = "gfx/china/东北/江惟仁大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_江惟仁小"
+        texturefile = "gfx/china/东北/江惟仁小.dds"
+    }
+    #贺奎
+    spriteType = {
+        name = "GFX_东北_贺奎"
+        texturefile = "gfx/china/东北/贺奎大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_贺奎小"
+        texturefile = "gfx/china/东北/贺奎小.dds"
+    }
+    #常恩多
+    spriteType = {
+        name = "GFX_东北_常恩多"
+        texturefile = "gfx/china/东北/常恩多大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_常恩多小"
+        texturefile = "gfx/china/东北/常恩多小.dds"
+    }
+    #霍守义
+    spriteType = {
+        name = "GFX_东北_霍守义"
+        texturefile = "gfx/china/东北/霍守义大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_霍守义小"
+        texturefile = "gfx/china/东北/霍守义小.dds"
+    }
+    #李振唐
+    spriteType = {
+        name = "GFX_东北_李振唐"
+        texturefile = "gfx/china/东北/李振唐大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_李振唐小"
+        texturefile = "gfx/china/东北/李振唐小.dds"
+    }
+    #陈贯群
+    spriteType = {
+        name = "GFX_东北_陈贯群"
+        texturefile = "gfx/china/东北/陈贯群大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_陈贯群小"
+        texturefile = "gfx/china/东北/陈贯群小.dds"
+    }
+    #牟中珩
+    spriteType = {
+        name = "GFX_东北_牟中珩"
+        texturefile = "gfx/china/东北/牟中珩大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_牟中珩小"
+        texturefile = "gfx/china/东北/牟中珩小.dds"
+    }
+    #熊正平
+    spriteType = {
+        name = "GFX_东北_熊正平"
+        texturefile = "gfx/china/东北/熊正平大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_熊正平小"
+        texturefile = "gfx/china/东北/熊正平小.dds"
+    }
+    #吴克仁
+    spriteType = {
+        name = "GFX_东北_吴克仁"
+        texturefile = "gfx/china/东北/吴克仁大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_吴克仁小"
+        texturefile = "gfx/china/东北/吴克仁小.dds"
+    }
+    #周光烈
+    spriteType = {
+        name = "GFX_东北_周光烈"
+        texturefile = "gfx/china/东北/周光烈大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_周光烈小"
+        texturefile = "gfx/china/东北/周光烈小.dds"
+    }
+    #常经武
+    spriteType = {
+        name = "GFX_东北_常经武"
+        texturefile = "gfx/china/东北/常经武大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_常经武小"
+        texturefile = "gfx/china/东北/常经武小.dds"
+    }
+    #郭希鹏
+    spriteType = {
+        name = "GFX_东北_郭希鹏"
+        texturefile = "gfx/china/东北/郭希鹏大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_郭希鹏小"
+        texturefile = "gfx/china/东北/郭希鹏小.dds"
+    }
+    #王奇峰
+    spriteType = {
+        name = "GFX_东北_王奇峰"
+        texturefile = "gfx/china/东北/王奇峰大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_王奇峰小"
+        texturefile = "gfx/china/东北/王奇峰小.dds"
+    }
+    #檀自新
+    spriteType = {
+        name = "GFX_东北_檀自新"
+        texturefile = "gfx/china/东北/檀自新大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_檀自新小"
+        texturefile = "gfx/china/东北/檀自新小.dds"
+    }
+    #冯占海
+    spriteType = {
+        name = "GFX_东北_冯占海"
+        texturefile = "gfx/china/东北/冯占海大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_冯占海小"
+        texturefile = "gfx/china/东北/冯占海小.dds"
+    }
+    #缪澄流
+    spriteType = {
+        name = "GFX_东北_缪澄流"
+        texturefile = "gfx/china/东北/缪澄流大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_缪澄流小"
+        texturefile = "gfx/china/东北/缪澄流小.dds"
+    }
+    #孙德荃
+    spriteType = {
+        name = "GFX_东北_孙德荃"
+        texturefile = "gfx/china/东北/孙德荃大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_孙德荃小"
+        texturefile = "gfx/china/东北/孙德荃小.dds"
+    }
+    #周福成
+    spriteType = {
+        name = "GFX_东北_周福成"
+        texturefile = "gfx/china/东北/周福成大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_周福成小"
+        texturefile = "gfx/china/东北/周福成小.dds"
+    }
+    #朱鸿勋
+    spriteType = {
+        name = "GFX_东北_朱鸿勋"
+        texturefile = "gfx/china/东北/朱鸿勋大.dds"
+    }
+    spriteType = {
+        name = "GFX_东北_朱鸿勋小"
+        texturefile = "gfx/china/东北/朱鸿勋小.dds"
+    }
+}

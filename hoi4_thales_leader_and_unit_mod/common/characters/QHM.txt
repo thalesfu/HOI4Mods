@@ -1,0 +1,123 @@
+characters = {
+    #Only used in SEA for Qinhai Ma which will be the name of XSM
+    QHM_ma_lin = {
+        name=QHM_ma_lin
+        portraits={
+            army={
+                large = GFX_portrait_QHM_ma_lin
+                small = GFX_portrait_QHM_ma_lin_small
+            }
+        }
+
+        field_marshal={
+            skill=1
+            traits = { cavalry_leader }
+            attack_skill=1
+            defense_skill=1
+            planning_skill=1
+            logistics_skill=1
+            legacy_id=-1
+        }
+
+        country_leader={
+            ideology=despotism
+            traits = { XSM_devout_leader }
+            expire="1965.1.1.1"
+            id=-1
+        }
+    }
+
+    XSM_ma_bufang={
+        name=XSM_ma_bufang
+        portraits={
+            civilian={
+                large="GFX_portrait_xsm_ma_bufang"
+            }
+            army={
+                large="GFX_portrait_xsm_ma_bufang"
+                small="GFX_idea_XSM_ma_bufang"
+            }
+        }
+        country_leader={
+            ideology=despotism
+            expire="1965.1.1.1"
+            id=-1
+        }
+        advisor={
+            slot = army_chief
+            idea_token = XSM_ma_bufang
+            allowed = {
+                original_tag = XSM
+            }
+            traits = {
+                army_chief_offensive_2
+            }
+            cost = 100
+            ai_will_do = {
+                base = 1.000
+            }
+        }
+        corps_commander={
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+            skill = 1
+            traits = { cavalry_leader }
+            legacy_id=-1
+        }
+    }
+
+
+    XSM_ma_buqing={
+        instance = {
+            allowed = {
+                NOT = {
+                    has_dlc = "No Compromise, No Surrender"
+                }
+            }
+            name=XSM_ma_buqing
+            portraits={
+                army={
+                    small="GFX_idea_generic_army_asia_3" #Changed in NSB so that the other Army Chief can an advisor portrait matching his general portrait
+                }
+            }
+            advisor={
+                slot = army_chief
+                idea_token = XSM_ma_buqing
+                allowed = {
+                    original_tag = XSM
+                }
+                traits = {
+                    army_chief_reform_2
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 1.000
+                }
+            }
+        }
+        instance = {
+            allowed = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            name=XSM_ma_buqing
+            portraits={
+                army={
+                    large= GFX_portrait_GSM_ma_buqing
+                    small= GFX_portrait_GSM_ma_buqing_small
+                }
+            }
+            corps_commander={
+                traits = { cavalry_leader }
+                skill=1
+                attack_skill=2
+                defense_skill=2
+                planning_skill=1
+                logistics_skill=1
+                legacy_id=-1
+            }
+        }
+    }
+}
+

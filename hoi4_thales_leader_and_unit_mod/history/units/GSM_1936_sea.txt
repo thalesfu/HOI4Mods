@@ -1,0 +1,122 @@
+﻿division_template = {
+    name = "甘肃新编师"  # Juntuán
+    division_names_group = CHI_INF_NEW_DIVISION_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        cavalry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "甘肃新编旅"  # Juntuán Reformed
+    division_names_group = CHI_INF_NEW_BRIGADE_01
+    template_counter = 118
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 14
+        }
+        officer={
+            name="鲁大昌"
+            portraits={
+                army={
+                    large=GFX_甘肃_鲁大昌
+                    small=GFX_甘肃_鲁大昌小
+                }
+            }
+        }
+        location = 5100
+        division_template = "甘肃新编师"  # Juntuán Reformed
+        start_equipment_factor = 0.2
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 10
+        }
+        officer={
+            name="李贵清"
+            portraits={
+                army={
+                    large=GFX_甘肃_李贵清
+                    small=GFX_甘肃_李贵清小
+                }
+            }
+        }
+        location = 7971
+        division_template = "甘肃新编旅"  # Juntuán
+        start_equipment_factor = 0.2
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 11
+        }
+        officer={
+            name="石英秀"
+            portraits={
+                army={
+                    large=GFX_甘肃_石英秀
+                    small=GFX_甘肃_石英秀小
+                }
+            }
+        }
+        location = 1630
+        division_template = "甘肃新编旅"  # Qibing Jun
+        start_equipment_factor = 0.2
+    }
+}
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = infantry_equipment_0
+            creator = "GSM"
+        }
+        requested_factories = 1
+        progress = 0.78
+        efficiency = 100
+    }
+}

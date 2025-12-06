@@ -1,0 +1,197 @@
+﻿division_template = {
+    name = "宁夏整编步兵师"	# Sanjiao Jun
+    division_names_group = CHI_INF_01
+    template_counter = 119
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 1
+        }
+        infantry = {
+            x = 2
+            y = 2
+        }
+        }
+        support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "宁夏新编旅"  # Juntuán Reformed
+    division_names_group = NXM_INF_01
+    template_counter = 118
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "宁夏骑兵旅"  # Qibing Jun
+    division_names_group = NXM_CAV_01
+    regiments = {
+        cavalry = {
+            x = 0
+            y = 0
+        }
+        cavalry = {
+            x = 1
+            y = 0
+        }
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 35 # 马鸿宾
+        }
+        officer={
+            name="马鸿宾"
+            portraits={
+                army={
+                    large=GFX_宁夏_马鸿宾
+                    small=GFX_宁夏_马鸿宾_small
+                }
+            }
+            traits={ old_guard cavalry_officer }
+            male=yes
+        }
+        location = 8127
+        division_template = "宁夏整编步兵师"  # Juntuán Reformed
+        start_equipment_factor = 0.2
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        officer={
+            name="马光宗"
+            portraits={
+                army={
+                    large=GFX_宁夏_马光宗
+                    small=GFX_宁夏_马光宗小
+                }
+            }
+            male=yes
+        }
+        location = 5031
+        division_template = "宁夏骑兵旅"  # Qibing Jun
+        start_equipment_factor = 0.2
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        officer={
+            name="马腾蛟"
+            portraits={
+                army={
+                    large=GFX_宁夏_马腾蛟
+                    small=GFX_宁夏_马腾蛟小
+                }
+            }
+            male=yes
+        }
+        location = 4783
+        division_template = "宁夏骑兵旅"  # Qibing Jun
+        start_equipment_factor = 0.2
+    }
+    division = {
+        name="新编第7师第19旅"
+        officer={
+            name="马鸿逵"
+            portraits={
+                army={
+                    large=GFX_宁夏_马鸿逵
+                    small=GFX_宁夏_马鸿逵_small
+                }
+            }
+            male=yes
+        }
+        location = 8081
+        division_template = "宁夏新编旅"  # Qibing Jun
+        start_equipment_factor = 0.2
+    }
+    division = {
+        name="新编第7师第20旅"
+        officer={
+            name="马全良"
+            portraits={
+                army={
+                    large=GFX_宁夏_马全良
+                    small=GFX_宁夏_马全良小
+                }
+            }
+            male=yes
+        }
+        location = 5025
+        division_template = "宁夏新编旅"  # Juntuán Reformed
+        start_equipment_factor = 0.2
+    }
+    division = {
+        name="新编第7师第21旅"
+        officer={
+            name="马英才"
+            portraits={
+                army={
+                    large=GFX_宁夏_马英才
+                    small=GFX_宁夏_马英才小
+                }
+            }
+            male=yes
+        }
+        location = 5025
+        division_template = "宁夏新编旅"  # Juntuán Reformed
+        start_equipment_factor = 0.2
+    }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_0
+      creator = "NXM"
+    }
+    requested_factories = 1
+    progress = 0.78
+    efficiency = 100
+  }
+}

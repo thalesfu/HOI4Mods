@@ -1,0 +1,33 @@
+spriteTypes = {
+
+    #甘肃
+    #鲁大昌
+    spriteType = {
+        name = "GFX_甘肃_鲁大昌"
+        texturefile = "gfx/china/甘肃/鲁大昌大.dds"
+    }
+    spriteType = {
+        name = "GFX_甘肃_鲁大昌小"
+        texturefile = "gfx/china/甘肃/鲁大昌小.dds"
+    }
+
+    #李贵清
+    spriteType = {
+        name = "GFX_甘肃_李贵清"
+        texturefile = "gfx/china/甘肃/李贵清大.dds"
+    }
+    spriteType = {
+        name = "GFX_甘肃_李贵清小"
+        texturefile = "gfx/china/甘肃/李贵清小.dds"
+    }
+    
+    #石英秀
+    spriteType = {
+        name = "GFX_甘肃_石英秀"
+        texturefile = "gfx/china/甘肃/石英秀大.dds"
+    }
+    spriteType = {
+        name = "GFX_甘肃_石英秀小"
+        texturefile = "gfx/china/甘肃/石英秀小.dds"
+    }
+}

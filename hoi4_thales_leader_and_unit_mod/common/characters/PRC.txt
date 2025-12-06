@@ -1,0 +1,3957 @@
+characters={ 
+
+	############################
+	##### COUNTRY LEADERS ######
+	############################
+
+    # 毛泽东
+	PRC_mao_zedong={
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+
+			name=PRC_mao_zedong
+			portraits={
+				army={
+					large="GFX_portrait_prc_mao_zedong"
+					small=GFX_portrait_prc_mao_zedong_military_small
+				}
+				civilian={
+					large="GFX_portrait_prc_mao_zedong"
+					small=GFX_portrait_prc_mao_zedong_civilian_small
+				}
+			}
+			field_marshal={
+				traits={ trait_cautious politically_connected defensive_doctrine PRC_survivor_of_the_long_march }
+				skill=4
+				attack_skill=2
+				defense_skill=4
+				planning_skill=8
+				logistics_skill=8
+				legacy_id=-1
+				visible = {
+                    # 不是现任领导人
+                    NOT = {
+                        has_country_leader = { #TODO switch this to having a flag given in the event after PRC_the_unwilling_diarchy_focus
+                            ruling_only = yes
+                            character = PRC_mao_zedong
+                        }
+                    }
+                    # 未被罢免
+					NOT = {
+						has_character_flag = PRC_dismissed_advisor 
+					}
+				}
+			}
+            advisor={
+                # 陆军部长
+                slot = army_chief
+                idea_token = PRC_mao_zedong
+                allowed = {
+                    original_tag = PRC
+                }
+                traits = {
+                    army_chief_organizational_3
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 1.000
+                }
+            }
+			
+
+			#country_leader={ #unlocks in PRC_leadership_of_mao
+			#	ideology=marxism
+			#	traits={ cornered_fox }
+			#	expire="1965.1.1.1"
+			#	id=-1
+			#}
+
+			advisor={
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_mao_zedong
+				allowed  = {
+					original_tag  = PRC
+				}
+                # PRC_agrarian_revolutionary 农民工革命家
+                # PRC_agrarian_revolutionary = {
+                #     random = no #this is Mao's trait for being an advisor
+                #     sprite = 13
+                #
+                #     war_support_factor = 0.1                          战争支持度 +10%
+                #     stability_factor = 0.05                           基础稳定度 +5%
+                #     power_balance_weekly = -0.015                     每周权利平衡变化 -1.5%
+                #     production_lack_of_resource_penalty_factor = -0.1 缺乏战略资源惩罚 -10%
+                # }
+				traits  = {
+					PRC_agrarian_revolutionary 
+				}
+				cost = 100
+				available = {
+                    # 不是现任领导人
+					NOT = {
+						has_country_leader = { #TODO switch this to having a flag given in the event after PRC_the_unwilling_diarchy_focus
+							ruling_only = yes 
+							character = PRC_mao_zedong 
+						}
+					}
+					custom_trigger_tooltip = {
+                        # 尚未被罢免
+						tooltip = PRC_has_not_been_purged_tt
+					}
+				}
+				visible = {
+                    # 未被罢免
+					NOT = {
+						has_character_flag = PRC_dismissed_advisor
+					}
+				}
+				on_add = {
+					owner = {
+						PRC_increase_mao_BOP_small = yes
+					}
+				}
+				on_remove = {
+					owner = {
+						PRC_increase_bolsheviks_BOP_small = yes
+					}
+				}
+				ai_will_do = {
+					base = 5
+					modifier = {
+						factor = 2
+						is_historical_focus_on = yes
+					}
+				}
+			}
+			advisor={
+				cost = 100
+                # 理论家
+				slot = theorist
+				idea_token = PRC_mao_zedong_theorist
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				visible = {
+					NOT = {
+						has_character_flag = PRC_dismissed_advisor 
+					}
+				}
+
+				ai_will_do = {
+					base = 5
+					modifier = {
+						factor = 2
+						is_historical_focus_on = yes
+					}
+				}
+                # 游击战理论家
+                # PRC_guerilla_warfare_theorist = {
+                #     random = no #This is Mao
+                #     sprite = 13
+                #
+                #     planning_speed = 0.1                      # 计划速度 +10%
+                #     supply_consumption_factor = -0.05         # 补给消耗 -5%
+                #     out_of_supply_factor = -0.05              # 非战斗补给耗尽惩罚 -5%
+                #     guerilla_war_mastery_gain_factor = 0.15   游击战（次要学说）精通度增益 +15%
+                #     peoples_war_mastery_gain_factor = 0.15    人民民兵（次要学说）精通度增益 +15%
+                # }
+				traits = {
+					PRC_guerilla_warfare_theorist
+				}
+				available = {
+					#TODO add another focus!
+					OR = {
+                        # 已完成国策 烧毁纸老虎
+						has_completed_focus = PRC_burn_the_paper_tigers
+                        # 已完成国策 发扬游击战
+						has_completed_focus = PRC_promote_guerilla_warfare
+					}
+                    # 尚未被罢免
+					custom_trigger_tooltip = {
+						tooltip = PRC_has_not_been_purged_tt
+					}
+				}
+				visible = {
+                    # 未被罢免
+					NOT = {
+						has_character_flag = PRC_dismissed_advisor
+					}
+				}
+			}
+		}
+
+		instance = {
+			allowed = {
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+
+			name=PRC_mao_zedong
+			portraits={
+				army={
+					large="GFX_portrait_prc_mao_zedong"
+					small=GFX_portrait_PRC_mao_zedong_small
+				}
+				civilian={
+					large="GFX_portrait_prc_mao_zedong"
+					small=GFX_portrait_PRC_mao_zedong_small
+				}
+			}
+			field_marshal={
+				traits={ trait_cautious politically_connected defensive_doctrine }
+				skill=4
+				attack_skill=2
+				defense_skill=4
+				planning_skill=3
+				logistics_skill=4
+				legacy_id=-1
+			}
+			country_leader={ #unlock
+				ideology=marxism
+				traits={ cornered_fox }
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+
+
+    # 张国焘
+	PRC_zhang_guotao = { # Shell character to add leader role to in appropriate focus
+		name = PRC_zhang_guotao
+		portraits = {
+			army = {
+				large = GFX_portrait_PRC_zhang_guotao
+				small = GFX_portrait_PRC_zhang_guotao_military_small
+			}
+			civilian={
+				large = GFX_portrait_PRC_zhang_guotao
+				small = GFX_portrait_PRC_zhang_guotao_civilian_small
+			}
+		} 
+
+		#country_leader = {
+		#	ideology = marxism
+		#	traits = { PRC_out_for_revenge }
+		#	expire = "1965.1.1.1"
+		#	id = -1
+		#}
+		field_marshal = {
+			traits={ infantry_officer }
+			visible = {
+                # 张国焘已抵达陕西
+				has_country_flag = PRC_zhang_guatao_arrived
+                # 张国焘没有离开
+				NOT = {
+					has_country_flag = PRC_zhang_guotao_left
+				}
+                # 未被罢免
+				NOT = {
+					has_character_flag = PRC_dismissed_advisor
+				}
+			}
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+
+
+		advisor={
+			cost = 100
+            # 理论学家
+			slot = theorist
+			idea_token = PRC_zhang_guotao_theorist
+			ledger = army
+			allowed = {
+				original_tag = PRC
+			}
+			
+			ai_will_do = {
+				base = 5
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
+			}
+            # 人海突击学说专家
+            # mass_assault_expert = {
+            #     sprite = 14
+            #     mass_assault_mastery_gain_factor = 0.15   人海突击学说（主要学说）精通度增益 +15%
+            #
+            #     ai_will_do = {
+            #         factor = 1
+            #     }
+            # }
+			traits = {
+				mass_assault_expert
+			}
+			available = {
+                # 张国焘已抵达陕西
+				has_country_flag = PRC_zhang_guatao_arrived
+                # 尚未被罢免
+				custom_trigger_tooltip = {
+					tooltip = PRC_has_not_been_purged_tt
+				}
+			}
+			visible = {
+				NOT = {
+                    # 张国焘离开
+					has_country_flag = PRC_zhang_guotao_left
+                    # 被罢免
+					has_character_flag = PRC_dismissed_advisor
+				}
+			}
+		}
+
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_zhang_guotao
+			allowed  = {
+				original_tag  = PRC
+			}
+			cost = 100
+            # 革命意志动摇
+            # PRC_dubious_loyalty = {
+            #     random = no #this is Guotao's trait for being an advisor under Mao
+            #     sprite = 13
+            #     stability_factor = -0.1       基础未定度 -10%
+            #     army_morale_factor = 0.10     军队士气 +10%
+            #     war_support_factor = 0.05     战争支持度 +5%
+            #     experience_gain_army = 0.05   军队经验获取 +5%
+            #
+            #     power_balance_weekly = 0.015  每周权利平衡变化 +1.5%
+            # }
+			traits  = {
+				PRC_dubious_loyalty 
+			}
+			ai_will_do = {
+				base = 5
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
+			}
+			available = {
+                # 张国焘不是国家领导人
+				NOT = {
+					has_country_leader = { #TODO switch this to having a flag given in the event after PRC_the_unwilling_diarchy_focus
+						ruling_only = yes 
+						character = PRC_zhang_guotao 
+					}
+				}
+                # 未被罢免
+				custom_trigger_tooltip = {
+					tooltip = PRC_has_not_been_purged_tt
+				}
+			}
+			visible = {
+                # 张国焘回到陕西
+				has_country_flag = PRC_zhang_guatao_arrived
+				NOT = {
+                    # 被罢免
+					has_character_flag = PRC_dismissed_advisor
+                    # 张国焘离开
+					has_country_flag = PRC_zhang_guotao_left
+				}
+			}
+			on_add = {
+				owner = {
+					PRC_increase_bolsheviks_BOP_small = yes
+				}
+			}
+			on_remove = {
+				owner = {
+					PRC_increase_mao_BOP_small = yes
+				}
+			}
+		}
+	}
+
+	PRC_guotao_and_mao = { # Shell character to add leader role to in appropriate focus
+		name = PRC_guotao_and_mao
+		portraits = {
+			civilian={
+				large = GFX_portrait_PRC_guotao_and_mao
+				#small = GFX_portrait_PLACEHOLDER_small
+			}
+		} 
+
+		#country_leader = {
+		#	ideology = marxism
+		#	traits = { PRC_our_enemys_enemy }
+		#	expire = "1965.1.1.1"
+		#	id = -1
+		#}
+	}
+
+    # 王明
+	PRC_wang_ming = { # Shell character to add leader role to in appropriate focus
+		name = PRC_wang_ming
+		portraits = {
+			civilian={
+				large = GFX_portrait_PRC_wang_ming
+				small = GFX_portrait_PRC_wang_ming_small
+			}
+		} 
+
+		#country_leader = {
+		#	ideology = marxism
+		#	traits = { PRC_one_of_28 }
+		#	expire = "1965.1.1.1"
+		#	id = -1
+		#}
+
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_wang_ming
+			allowed  = {
+				has_dlc = "No Compromise, No Surrender"
+				original_tag  = PRC
+			}
+			cost = 100
+            # 被打压的二十八个半王明
+            # PRC_28_bolshevik_trait_wang_ming = {
+            #     random = no
+            #     sprite = 13
+            #     political_power_gain = -0.025                         每日整治点数获得 -0.025
+            #     opinion_gain_monthly_same_ideology_factor = 0.05      相同的意识形态每月评价 +5%
+            #     power_balance_weekly = 0.01                           每周权力平衡变化 +1%
+            #     research_speed_factor = 0.01                          研究速度 +1%
+            #
+            # }
+			traits  = {
+				PRC_28_bolshevik_trait_wang_ming
+			}
+			ai_will_do = {
+				base = 5
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
+			}
+			available = {
+                # 国家领导不是王明
+				NOT = {
+					has_country_leader = { 
+						ruling_only = yes 
+						character = PRC_wang_ming 
+					}
+				}
+                #未被罢免
+				custom_trigger_tooltip = {
+					tooltip = PRC_has_not_been_purged_tt
+				}
+                # 王明没有流亡苏维埃
+				NOT = {
+					has_character_flag = PRC_wang_ming_exiled
+				}
+			}
+			visible = {
+				NOT = {
+                    #被罢免
+					has_character_flag = PRC_dismissed_advisor
+				}
+			}
+			on_add = {
+				owner = {
+					PRC_increase_bolsheviks_BOP_small = yes
+				}
+			}
+			on_remove = {
+				owner = {
+					PRC_increase_mao_BOP_small = yes
+				}
+			}
+		}
+	}
+
+    # 博古
+	PRC_bo_gu = { #Might be axed or turned into an advisor
+		name = PRC_bo_gu
+		portraits = {
+			army = {
+				large = GFX_portrait_PRC_bo_gu
+				small = GFX_portrait_PRC_bo_gu_small
+			}
+			civilian={
+				large = GFX_portrait_PRC_bo_gu
+				small = GFX_portrait_PRC_bo_gu_small
+			}
+		} 
+
+		advisor={
+            # 政治顾伟
+			slot = political_advisor
+			idea_token = PRC_bo_gu
+			allowed  = {
+				has_dlc = "No Compromise, No Surrender"
+				original_tag  = PRC
+			}
+			cost = 100
+            # 被打压的二十八个半博古
+            # PRC_28_bolshevik_trait_bo_gu = {
+            #     random = no
+            #     sprite = 13
+            #     political_power_gain = -0.025                         每日整治点数获得 -0.025
+            #     opinion_gain_monthly_same_ideology_factor = 0.05      相同的意识形态每月评价 +5%
+            #     power_balance_weekly = 0.01                           每周权力平衡变化 +1%
+            #     army_attack_factor = 0.025                            陆军师攻击 +2.5%
+            #
+            # }
+			traits  = { 
+				PRC_28_bolshevik_trait_bo_gu
+			}
+			ai_will_do = {
+				base = 5
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
+			}
+			available = {
+                # 国家领导人不是博古
+				NOT = {
+					has_country_leader = { 
+						ruling_only = yes 
+						character = PRC_bo_gu 
+					}
+				}
+                # 没有被罢免
+				custom_trigger_tooltip = {
+					tooltip = PRC_has_not_been_purged_tt
+				}
+			}
+			visible = {
+                # 没有被罢免
+				NOT = {
+					has_character_flag = PRC_dismissed_advisor
+				}
+			}
+			on_add = {
+				owner = {
+					PRC_increase_bolsheviks_BOP_small = yes
+				}
+			}
+			on_remove = {
+				owner = {
+					PRC_increase_mao_BOP_small = yes
+				}
+			}
+		}
+		corps_commander = {
+			traits={ infantry_officer }
+			visible = {
+				has_country_flag = PRC_bo_gu_general
+			}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+		#country_leader = {
+		#	ideology = marxism
+		#	traits = { PRC_one_of_28 }
+		#	expire = "1965.1.1.1"
+		#	id = -1
+		#}
+	}
+
+	# 张闻天
+    PRC_zhang_wentian = {
+		name = PRC_zhang_wentian
+		portraits = {
+			civilian={
+				large = GFX_portrait_PRC_zhang_wentian
+				small = GFX_portrait_PRC_zhang_wentian_small
+			}
+		}
+
+		country_leader = {
+			ideology = marxism
+            # 总书记
+            # PRC_the_general_secretary = {
+            #     random = no #this is Zhang Wentian's trait
+            #
+            #     opinion_gain_monthly_same_ideology_factor = 0.1 相同的意识形态每月评价 +10%
+            # }
+			traits = { PRC_the_general_secretary }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			idea_token = PRC_zhang_wentian
+            # 农业改革家
+            # PRC_agricultural_reformist = {
+            #     random = no
+            #     sprite = 13
+            #     production_speed_infrastructure_factor = 0.15 基础设施建设速度 +15%
+            #     production_speed_rail_way_factor = 0.15       铁路建设速度 +15%
+            #     production_speed_supply_node_factor = 0.15    补给中心建设速度 +15%
+            #     #global_building_slots_factor = 0.1 #this might be too powerful hence left commented out
+            # }
+			traits  = {
+				PRC_agricultural_reformist 
+			}
+			ai_will_do = {
+				base = 5
+				modifier = {
+					factor = 1.2
+					is_historical_focus_on = yes
+				}
+			}
+			available = {
+                # 国家领导不是张闻天
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = PRC_zhang_wentian 
+					}
+				}
+			}
+		}
+	}
+	
+	PRC_kwong_hu={
+		name=PRC_kwong_hu
+		portraits={
+			civilian={
+				large=GFX_portrait_PRC_kwong_hu
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ hawk }
+			expire="1948.1.1.12"
+			id=-1
+		}
+	}
+
+	PRC_luo_zhao={
+		name=PRC_luo_zhao
+		portraits={
+			civilian={
+				large=GFX_portrait_PRC_luo_zhao
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ financial_expert armaments_organizer }
+			expire="1956.1.1.12"
+			id=-1
+		}
+	}
+	PRC_liang_ma={
+		name=PRC_liang_ma
+		portraits={
+			civilian={
+				large=GFX_portrait_PRC_liang_ma
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits={ financial_expert }
+			expire="1949.1.1.12"
+			id=-1
+		}
+	}
+
+	##############################
+	#### POLITICAL ADVISORS ######
+	##############################
+
+    # 周恩来
+	PRC_zhou_enlai={
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				has_dlc = "La Resistance"
+			}
+			name = PRC_zhou_enlai
+			portraits = {
+				civilian = {
+					small = GFX_portrait_PRC_zhou_enlai_small
+				}
+			}
+			advisor = {
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_zhou_enlai
+				allowed  = {
+					original_tag  = PRC
+				}
+                # 多才多艺的外交家
+                # PRC_multi_talented_diplomat_lar = {
+                #     random = no #Zhou Enlai's LaR trait
+                #     sprite = 13
+                #     civilian_intel_factor = 0.1       民政情报 +10%
+                #     intel_network_gain_factor = 0.1   情报网增强度 +10
+                #     political_power_gain = 0.1        每日整治点数获得 0.1
+                # }
+				traits  = {
+					PRC_multi_talented_diplomat_lar
+				}
+				available = {
+                    # 康生不是顾问
+					PRC_kang_sheng = {
+						is_hired_as_advisor = no
+					}
+					#custom_trigger_tooltip = PRC_has_not_been_purged_tt
+					}
+				ai_will_do = {
+					base = 5
+					modifier = {
+						factor = 1.4
+						is_historical_focus_on = yes
+					}
+				}
+			}
+		}
+
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				NOT = { has_dlc = "La Resistance" }
+			}
+			name = PRC_zhou_enlai
+			portraits = {
+				civilian = {
+					small = GFX_portrait_PRC_zhou_enlai_small
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = PRC_zhou_enlai
+				allowed  = {
+					original_tag  = PRC
+				}
+				traits  = {
+					PRC_multi_talented_diplomat_no_lar
+				}
+				available = {
+					#custom_trigger_tooltip = PRC_has_not_been_purged_tt
+				}
+				ai_will_do = {
+					base = 5
+					modifier = {
+						factor = 1.4
+						is_historical_focus_on = yes
+					}
+				}
+			}
+		}
+
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "No Compromise, No Surrender" }
+			}
+			name=PRC_zhou_enlai
+			portraits={
+				civilian={
+					small="GFX_idea_PRC_zhou_enlai"
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_zhou_enlai
+				allowed  = {
+					original_tag  = PRC
+				}
+				traits  = {
+					ideological_crusader 
+				}
+			}
+		}	
+	}
+
+    # 邓小平
+	PRC_deng_xiaoping = {
+		instance = {
+			allowed = { 
+				has_dlc = "No Compromise, No Surrender"
+			}
+			name = PRC_deng_xiaoping
+			portraits = {
+				army = { small = GFX_portrait_PRC_deng_xiaoping_small }
+			}
+			
+			advisor={
+				allowed = {
+					original_tag = PRC
+				}
+				visible = {
+                    # 未被罢免
+					NOT = {
+						has_character_flag = PRC_dismissed_advisor
+					}
+				}
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_deng_xiaoping
+                # 前途光明
+                # PRC_promising_future = {
+                #     random = no ## This is Deng Xiaoping
+                #     sprite = 13
+                #
+                #     political_power_gain = 0.25                       每日政治点数 +0.25
+                #     stability_factor = 0.05                           稳定度 +5%
+                #     opinion_gain_monthly_same_ideology_factor = 0.15  相同意识形态每月评价 +15%
+                #
+                # }
+				traits  = {
+					PRC_promising_future 
+				}
+				ai_will_do = {
+					base = 5
+					modifier = {
+						factor = 1.2
+						is_historical_focus_on = yes
+					}
+				}
+			}
+		}
+		instance = {
+			allowed = {
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+			name = PRC_deng_xiaoping
+			portraits = {
+				army = { small = "GFX_idea_PRC_deng_xiaoping" }
+			}
+			advisor={
+				slot = political_advisor
+				allowed = {
+					OR = {
+						original_tag  = PRC
+						is_chinese_warlord = yes 
+					}
+				}
+				available  = {
+					has_completed_focus  = PRC_socialist_market_economy 
+				}
+				idea_token = PRC_deng_xiaoping
+				traits  = {
+					captain_of_industry 
+				}
+			}
+		}
+	}
+
+    # 谢觉哉 延安五老，长征四老
+	PRC_xie_juezai={ 
+		name=PRC_xie_juezai
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_xie_juezai
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_xie_juezai
+			ai_will_do = {
+				base = 3
+			}
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+
+            # 内务部长
+            # PRC_minister_interior_affairs = {
+            #     random = no ## This is Xie Juezai
+            #     sprite = 13
+            #
+            #     political_power_factor = 0.15     整治点数 +15%
+            #     stability_factor = 0.05           稳定度 +15%
+            #
+            # }
+			traits  = {
+				PRC_minister_interior_affairs
+			}
+		}
+	}
+
+    # 林伯渠 延安五老
+	PRC_lin_boqu={ 
+		name=PRC_lin_boqu
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_lin_boqu
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_lin_boqu
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 财政部长
+            # PRC_minister_of_finance = {
+            #     random = no ## This is Lin Boqu
+            #     sprite = 13
+            #
+            #
+            #     consumer_goods_factor = -0.1  生活消费品工厂系数 -10%
+            #     economy_cost_factor = -0.1    经济法案化肥 -10%
+            #
+            # }
+			traits  = {
+				PRC_minister_of_finance
+			}
+			ai_will_do = {
+				base = 3
+			}
+		}
+	}
+
+    # 刘少奇
+	PRC_liu_shaoqi={
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			name=PRC_liu_shaoqi
+			portraits={
+				civilian={
+					small="GFX_idea_PRC_liu_shaoqi" 
+				}
+			}
+			advisor={
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_liu_shaoqi
+				allowed  = {
+					original_tag  = PRC
+				}
+				visible = {
+					NOT = {
+						has_character_flag = PRC_dismissed_advisor
+					}
+				}
+                # 劳工权益倡导者
+                # PRC_labor_rights_advocate = {
+                #     random = no
+                #     sprite = 13
+                #     consumer_goods_factor = -0.15     生活消费品系数 -15%
+                #     industrial_capacity_factory = 0.1 工厂产出 +10%
+                # }
+				traits  = {
+					PRC_labor_rights_advocate 
+				}
+				ai_will_do = {
+					base = 3
+				}
+			}
+		}
+
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "No Compromise, No Surrender" } 
+			}
+			name=PRC_liu_shaoqi
+			portraits={
+				civilian={
+					small="GFX_idea_PRC_liu_shaoqi" 
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_liu_shaoqi
+				allowed  = {
+					original_tag  = PRC
+				}
+				traits  = {
+					silent_workhorse 
+				}
+			}
+		}
+	}
+
+    # 董必武
+	PRC_dong_biwu={
+		instance = { 
+			allowed = { 
+				has_dlc = "No Compromise, No Surrender"
+			}
+			name=PRC_dong_biwu
+			portraits={
+				civilian={
+					small = GFX_idea_PRC_dong_biwu
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_dong_biwu
+				allowed  = {
+					original_tag  = PRC
+					
+				}
+                # 马克思主义哲学家
+                # marxist_philosopher = {
+                #     random = no
+                #     sprite = 13
+                #     communism_drift = 0.05        每日共产主义支持度 +0.05
+                #     political_power_factor = 0.1  整治点数 +10%
+                #     research_speed_factor = 0.05  研究速度 +5%
+                # }
+				traits  = {
+					marxist_philosopher 
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+				available = {
+					
+				}
+			}
+		}
+		instance = { 
+			allowed = { 
+				NOT = { 
+					has_dlc = "No Compromise, No Surrender"
+				} 
+				has_dlc = "Waking the Tiger"
+			}
+			name=PRC_dong_biwu
+			portraits={
+				civilian={
+					small = GFX_idea_PRC_dong_biwu
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_dong_biwu
+				allowed  = {
+					original_tag  = PRC
+					
+				}
+				traits  = {
+					popular_figurehead 
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+				available = {
+					
+				}
+			}
+		}
+	}
+
+    # 邓子恢
+	PRC_deng_zihiu = {
+		name = PRC_deng_zihiu
+		portraits = {
+			civilian={
+				large = GFX_portrait_PRC_deng_zihui
+				small= GFX_portrait_PRC_deng_zihui_small
+			}
+		}
+
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			idea_token = PRC_deng_zihiu
+            # 农业改革家
+            # PRC_agricultural_reformist = {
+            #     random = no
+            #     sprite = 13
+            #     production_speed_infrastructure_factor = 0.15 基础设施建设速度 +15%
+            #     production_speed_rail_way_factor = 0.15       铁路建设速度 +15%
+            #     production_speed_supply_node_factor = 0.15    补给中心建设速度 +15%
+            #     #global_building_slots_factor = 0.1 #this might be too powerful hence left commented out
+            # }
+			traits  = {
+				PRC_agricultural_reformist 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+			visible = {
+                # 完成国策农业改革
+				has_completed_focus = PRC_agricultural_reform
+			}
+		}
+
+	}
+
+
+    # 李贞
+	PRC_li_zhen={ 
+		name=PRC_li_zhen
+		portraits={
+			civilian={
+				large = GFX_portrait_PRC_li_zhen
+				small = GFX_portrait_PRC_li_zhen_small
+			}
+		}
+		advisor={ 
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_li_zhen
+            # 女子大学校长
+            # PRC_president_female_officers = {
+            #     random = no ## This is Li Zhen
+            #     sprite = 13
+            #
+            #     conscription_factor = 0.04            可征募人口 +4%
+            #     experience_gain_army_factor = 0.05    陆军经验增长 +5%
+            # }
+			traits  = {
+				PRC_president_female_officers 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+		}
+	}
+
+	# 李立三
+    PRC_li_lisan={
+		name=PRC_li_lisan
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_li_lisan_small
+			}
+		}
+		advisor={
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_li_lisan
+            # 坚守防线
+            # PRC_holding_the_line = { #Reference to the Li Lisan line
+            #     random = no #This is Li Lisan's trait
+            #     sprite = 13
+            #     war_support_factor = 0.1          战争支持度 +10%
+            #     stability_factor = -0.15          稳定度 -15%
+            #     army_core_attack_factor = 0.05    陆军师核心领土攻击 +5%
+            # }
+			traits  = {
+				PRC_holding_the_line 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+			available = {
+				OR = {
+                    # 张国焘是国家领袖
+					has_country_leader = {
+						ruling_only = yes # default = yes
+						character = PRC_zhang_guotao
+					}
+					AND = {
+                        # 毛泽东是国家领袖
+						has_country_leader = {
+							ruling_only = yes # default = yes
+							character = PRC_mao_zedong
+						}
+                        # 完成国策，勉强合作的两架马车
+						has_completed_focus = PRC_the_unwilling_diarchy_focus
+					}
+				}
+			}
+		}
+	}
+
+    # 高岗
+	PRC_gao_gang={ 
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender"}
+			name=PRC_gao_gang
+			portraits={
+				civilian={
+					large = GFX_portrait_PRC_gao_gang
+					small = GFX_portrait_PRC_gao_gang_small
+				}
+			}
+
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_gao_gang
+				allowed  = {
+					original_tag  = PRC
+				}
+                # 魅力非凡的革命者
+                # PRC_charming_revoluionary = {
+                #     random = no #This is Gao Gang's trait
+                #     sprite = 13
+                #     political_power_gain = 0.1                    每日政治点增加 +0.1
+                #     production_speed_infrastructure_factor = 0.1  基础设施建设速度 +10%
+                #     stability_factor = -0.05                      稳定度 -5%
+                # }
+				traits  = {
+					PRC_charming_revoluionary 
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender"} }
+			name=PRC_gao_gang
+			portraits={
+				army={
+					small="GFX_idea_generic_air_asia_2"
+				}
+			}
+			advisor={
+				slot = air_chief
+				idea_token = PRC_gao_gang
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					air_chief_safety_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+	}
+
+    # 王实味
+	PRC_wang_shiwei={
+		name=PRC_wang_shiwei
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_wang_shiwei_small
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_wang_shiwei
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			visible = {
+				NOT = {
+                    # 完成决议 延安整风运动
+					has_completed_focus = PRC_yanan_rectification_movement
+				}
+				NOT = {
+                    # 被罢免
+					has_character_flag = PRC_dismissed_advisor
+				}
+			}
+            # 社会主义记者
+            # socialist_journalist = {
+            #     random = no
+            #     sprite = 13
+            #     communism_drift = 0.05            每日共产主义支持度 +0.05
+            #     political_power_factor = 0.05     整治点数 +5%
+            #     compliance_gain = 0.02            每日顺从度增长 +2%
+            # }
+			traits  = {
+				socialist_journalist 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+		}
+	}
+
+    # 任弼时
+	PRC_ren_bishi={
+		name=PRC_ren_bishi
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_ren_bishi_small
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_ren_bishi
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			visible = {
+				NOT = {
+					has_character_flag = PRC_dismissed_advisor
+				}
+			}
+            # 苏维埃谈判家
+            # PRC_soviet_negotiator  = {
+            #     random = no #This is Ren Bishi
+            #     sprite = 13
+            #
+            #     opinion_gain_monthly_same_ideology_factor = 0.05  相同意识形态每月评价 +5%
+            #     opinion_gain_monthly = 0.1                        每月改善关系获得的评价 +0.1
+            # }
+			traits  = {
+				PRC_soviet_negotiator 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+		}
+	}
+
+    # 王稼祥
+	PRC_wang_jiaxiang={ 
+		name=PRC_wang_jiaxiang
+		portraits={
+			civilian={
+				small=GFX_portrait_PRC_wang_jiaxiang
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_wang_jiaxiang
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 狂热的毛主义者
+            # PRC_avid_maoist = { #Maybe this could have an effect on BoP
+            #     random = no #this is Wang Jiaxiang
+            #     sprite = 13
+            #
+            #     political_power_factor = 0.05 政治点数 +5%
+            #     stability_factor = 0.05       稳定度 +5%
+            #     power_balance_weekly = -0.015 每周权利平衡 -1.5%
+            #     conscription_factor = 0.1     可征募人口系数 +10%
+            # }
+			traits  = {
+				PRC_avid_maoist 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+			available = {
+				if = {
+					limit = {
+						has_trait = PRC_avid_maoist
+					}
+                    # 毛泽东是领导人
+					has_country_leader = {
+						ruling_only = yes # default = yes
+						character = PRC_mao_zedong
+					}
+				}
+			}
+		}
+	}
+
+    # 毛泽民
+	PRC_mao_zemin={
+		name=PRC_mao_zemin
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_mao_zemin_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_mao_zemin
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 苏维埃银行行长
+            # PRC_head_of_state_bank = {
+            #     random = no #This is Mao Zemin
+            #     sprite = 13
+            #
+            #     consumer_goods_factor = -0.1      生活消费品系数 -10%
+            #     trade_laws_cost_factor = -0.15    交易法律花费 -10%
+            #     economy_cost_factor = -0.15       经济法案化肥 -15%
+            # }
+			traits  = {
+				PRC_head_of_state_bank 
+			}
+			ai_will_do  = {
+				base  = 1.000
+				modifier = {
+					factor = 1.5
+					is_historical_focus_on = yes
+				}
+			}
+			visible = {
+                # 完成决策 重建国家银行
+				has_completed_focus = PRC_reestablish_the_state_bank
+			}
+		}
+	}
+
+    # 吴晗
+	PRC_wu_han={
+		name=PRC_wu_han
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_wu_han_small
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_wu_han
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 民主改革家
+            # socdem_reformist = {
+            #     random = no
+            #     sprite = 13
+            #     political_power_factor = 0.15 整治点数 +15%
+            #     democratic_drift = 0.05       每日民主主义支持率 +0.05
+            # }
+			traits  = {
+				socdem_reformist 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+			available = {
+                # 完成决策继承三民主义
+				has_completed_focus = PRC_adopt_sun_yat_sens_principles 
+			}
+		}
+	}
+
+    # 徐特立
+	PRC_xu_teli={
+		name=PRC_xu_teli
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_xu_teli_small
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_xu_teli
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			visible = {
+                # 完成决策 创立科学院
+				has_completed_focus = PRC_found_the_academy_of_science
+			}
+            # 教育总长
+            # AUS_minister_of_education = {
+            #     random = no
+            #     sprite = 14
+            #
+            #     research_speed_factor = 0.06  研究速度 +6%
+            # }
+			traits  = {
+				AUS_minister_of_education 
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+		}
+	}
+
+    # 陈昌浩
+	PRC_chen_changhao={ 
+		name=PRC_chen_changhao
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_chen_changhao_small
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_chen_changhao
+			allowed  = {
+				original_tag  = PRC
+			}
+            # 被打压的二十八个半
+            # PRC_28_bolshevik_trait = {
+            #     random = no
+            #     sprite = 13
+            #     political_power_gain = -0.025                     每日政治点数 -0.025
+            #     opinion_gain_monthly_same_ideology_factor = 0.05  相同的意识形态每月评价 5%
+            #     power_balance_weekly = 0.01                       每周权利平衡变化 +1%
+            # }
+			traits  = {
+				PRC_28_bolshevik_trait
+			}
+			ai_will_do  = {
+				base  = 1.000
+				modifier = {
+					factor = 0.2
+					is_historical_focus_on = yes
+				}
+			}
+		}
+	}
+
+	
+    # 康生
+	PRC_kang_sheng = {
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				has_dlc = "La Resistance"
+			}
+
+			name = PRC_kang_sheng
+			portraits = {
+				army = {
+					small = GFX_portrait_PRC_kang_sheng_small
+				}
+			}
+			advisor={
+                # 政治顾问
+				slot = political_advisor
+				available  = {
+                    # 周恩来不是顾问
+					PRC_zhou_enlai = {
+						is_hired_as_advisor = no
+					}
+					OR =  {
+                        # 完成决策建立中央社会部
+						has_completed_focus = PRC_form_central_social_affairs_department
+                        # 完成决策 效仿人民内务部
+						has_completed_focus = PRC_with_inspiration_from_nkvd
+					}
+				}
+				idea_token = PRC_kang_sheng
+				cost = 75
+                # 受内务部训练
+                # PRC_trained_by_the_nkvd = {
+                #     random = no #This is Kang Sheng
+                #     sprite = 15
+                #
+                #     army_intel_factor = 0.1       陆军情报 +10%
+                #     army_intel_to_others = -10    泄露给他国的陆军情报 -10
+                #     operative_slot = 1            特工位 +1
+                # }
+				traits  = {
+					PRC_trained_by_the_nkvd 
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				NOT = { has_dlc = "La Resistance" }
+			}
+
+			name = PRC_kang_sheng
+			portraits = {
+				army = {
+					small = GFX_portrait_PRC_kang_sheng_small
+				}
+			}
+			advisor={
+				slot = political_advisor
+				available  = {
+					PRC_zhou_enlai = {
+						is_hired_as_advisor = no
+					}
+					OR =  {
+						has_completed_focus = PRC_form_central_social_affairs_department
+						has_completed_focus = PRC_with_inspiration_from_nkvd
+					}
+				}
+				idea_token = PRC_kang_sheng
+				cost = 75
+				traits  = {
+					prince_of_terror 
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+
+		instance = {
+			allowed = {
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}		
+			}
+
+			name = PRC_kang_sheng
+			portraits = {
+				army = {
+					small= GFX_idea_PRC_kang_sheng
+				}
+			}
+			advisor={
+				slot = political_advisor
+				available  = {
+					has_completed_focus  = PRC_military_intelligence_department
+				}
+				allowed = {
+					OR = {
+						original_tag  = PRC
+						is_chinese_warlord = yes 
+					}
+				}
+				idea_token = PRC_kang_sheng
+				cost = 75
+				traits  = {
+					prince_of_terror 
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+	}
+
+	PRC_lin_bojiu={ #Not real
+		name=PRC_lin_bojiu
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_lin_bojiu
+			allowed  = {
+				original_tag  = PRC
+			}
+			traits  = {
+				armaments_organizer 
+			}
+		}
+	}
+
+
+	PRC_he_yuandang={ #Not real
+		name=PRC_he_yuandang
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_he_yuandang
+			allowed  = {
+				original_tag  = PRC
+			}
+			traits  = {
+				war_industrialist 
+			}
+		}
+	}
+
+
+
+    # 蔡畅
+	PRC_cai_chang={ 
+		name=PRC_cai_chang
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_cai_chang
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_cai_chang
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 中央委员会成员
+            # PRC_member_of_central_committee = {
+            #     random = no ## This is Cai Chang
+            #     sprite = 13
+            #
+            #     political_power_factor = 0.1  整治点数 +10%
+            #     stability_factor = 0.05       稳定度 +5%
+            # }
+			traits  = {
+				PRC_member_of_central_committee
+			}
+		}
+	}
+
+    # 吴玉章
+	PRC_wu_yuzhang={ 
+		name=PRC_wu_yuzhang
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_wu_yuzhang
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_wu_yuzhang
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 红色教授
+            # PRC_professor = {
+            #     random = no ## This is Wu Yuzhang
+            #     sprite = 13
+            #
+            #     research_speed_factor = 0.03 研究速度 +3%
+            #
+            # }
+			traits  = {
+				PRC_professor
+			}
+		}
+	}
+
+    # 陈云
+	PRC_chen_yun={ 
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				has_dlc = "Arms Against Tyranny"
+			}
+			name=PRC_chen_yun
+			portraits={
+				civilian={
+					small = GFX_portrait_PRC_chen_yun
+				}
+			}
+			advisor={
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_chen_yun
+				allowed  = {
+					original_tag  = PRC
+				}
+                # 组织专家
+                # PRC_organizier_aat = {
+                #     random = no ## This is Chen Yun
+                #     sprite = 13
+                #
+                #     military_industrial_organization_funds_gain = 0.2 军事工业组织资金增长 +20%
+                # }
+				traits  = {
+					PRC_organizier_aat
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+		
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				NOT = { has_dlc = "Arms Against Tyranny" }
+			}
+			name=PRC_chen_yun
+			portraits={
+				civilian={
+					small = GFX_portrait_PRC_chen_yun
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_chen_yun
+				allowed  = {
+					original_tag  = PRC
+				}
+				traits  = {
+					rearmer
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+	}
+
+
+
+    # 陈潭秋
+	PRC_chen_tanqiu={ 
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				has_dlc = "La Resistance"
+			}
+			name=PRC_chen_tanqiu
+			portraits={
+				civilian={
+					small = GFX_portrait_PRC_chen_tanqiu
+				}
+			}
+			advisor={
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_chen_tanqiu
+				allowed  = {
+					original_tag  = PRC
+				}
+                # 敌后作战
+                # PRC_behind_enemy_lines_traits = {
+                #     random = no ## This is Chen Tanqiu
+                #     sprite = 13
+                #
+                #     resistance_target_on_our_occupied_states = 0.15 我们被敌人占领地区的抵抗目标 +15%
+                #
+                # }
+				traits  = {
+					PRC_behind_enemy_lines_traits
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				NOT = { 
+					has_dlc = "La Resistance"
+				}
+			}
+			name=PRC_chen_tanqiu
+			portraits={
+				civilian={
+					small = GFX_portrait_PRC_chen_tanqiu
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_chen_tanqiu
+				allowed  = {
+					original_tag  = PRC
+				}
+				traits  = {
+					guerilla_warfare_expert
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+
+	}
+
+    # 陈少敏
+	PRC_chen_shaomin={ 
+		name=PRC_chen_shaomin
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_chen_shaomin
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_chen_shaomin
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 资深公会主义者
+            # veteran_trade_unionist = {
+            #     random = no
+            #     sprite = 13
+            #     industrial_capacity_factory = 0.05        工厂产出 +5%
+            #     production_speed_buildings_factor = 0.05  建设速度 +5%
+            #     stability_factor = 0.05                   稳定度 +5%
+            #     political_power_factor = -0.1             整治点数 -10%
+            # }
+			traits  = {
+				veteran_trade_unionist
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+		}
+	}
+
+    # 邓颖超
+	PRC_deng_yingchao={ 
+		name=PRC_deng_yingchao
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_deng_yingchao
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_deng_yingchao
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 妇女委员会总数据
+            # PRC_secretary_of_womens_committee = {
+            #     random = no ## This is Deng Yingchao
+            #     sprite = 13
+            #
+            #     political_power_factor = 0.1      政治点数 +10%
+            #     stability_factor = 0.05           稳定度 +5%
+            #     conscription_factor = 0.02        可征募人口 +2%
+            #
+            # }
+			traits  = {
+				PRC_secretary_of_womens_committee
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+		}
+	}
+
+    # 薄一波
+	PRC_bo_yibo={ 
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				has_dlc = "La Resistance"
+			}
+			name=PRC_bo_yibo
+			portraits={
+				civilian={
+					small = GFX_portrait_PRC_bo_yibo
+				}
+			}
+			advisor={
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_bo_yibo
+				allowed  = {
+					original_tag  = PRC
+				}
+                # 双面间谍
+                # PRC_double_agent = {
+                #     random = no ## This is Bo Yibo
+                #     sprite = 13
+                #
+                #     boost_ideology_mission_factor = 0.1               根除抵抗组织任务成果 +5%
+                #     root_out_resistance_effectiveness_factor = 0.05   加强意识形态任务结果 +10%
+                #
+                # }
+				traits  = {
+					PRC_double_agent
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}
+		}
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+			name=PRC_bo_yibo
+			portraits={
+				civilian={
+					small = GFX_portrait_PRC_bo_yibo
+				}
+			}
+			advisor={
+				slot = political_advisor
+				idea_token = PRC_bo_yibo
+				allowed  = {
+					original_tag  = PRC
+				}
+				traits  = {
+					guerilla_warfare_expert
+				}
+				ai_will_do  = {
+					base  = 1.000
+				}
+			}	
+		}
+		
+
+	}
+
+    # 邵式平
+	PRC_shao_shiping={ 
+		name=PRC_shao_shiping
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_shao_shiping
+			}
+		}
+		advisor={
+            # 政治顾问
+			slot = political_advisor
+			idea_token = PRC_shao_shiping
+			allowed  = {
+				original_tag  = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 粮食局局长
+            # PRC_director_of_food_bureau = {
+            #     random = no ## This is Shao Shiping
+            #     sprite = 13
+            #
+            #     out_of_supply_factor = -0.1       非战斗补给耗尽惩罚 -10%
+            #     monthly_population = 0.1          # 每月人口 +10%
+            #
+            # }
+			traits  = {
+				PRC_director_of_food_bureau
+			}
+			ai_will_do  = {
+				base  = 1.000
+			}
+		}
+	}
+
+    # 帕维尔.米夫
+	PRC_pavel_mif={ 
+		name=PRC_pavel_mif
+		portraits={
+			civilian={
+				small = GFX_portrait_PRC_pavel_mif_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			visible = {
+                # 中共 帕维尔.米夫在世
+				PRC = { has_country_flag = PRC_pavel_mif_alive }
+				OR = {
+                    # 完成决策 邀请 帕维尔.米夫
+					has_completed_focus = PRC_invite_pavel_mif
+                    # 完成决策苏联顾问
+					has_completed_focus = PRC_sea_soviet_advisors
+				}
+			}
+			available  = {
+				PRC = { has_country_flag = PRC_pavel_mif_alive }
+				OR = {
+					has_completed_focus = PRC_invite_pavel_mif
+					has_completed_focus = PRC_sea_soviet_advisors
+				}
+			}
+			idea_token = PRC_pavel_mif
+			allowed  = {
+				OR = {
+					original_tag  = PRC
+					AND = {
+						is_chinese_warlord = yes
+						has_completed_focus = PRC_sea_soviet_advisors
+					}
+				}
+				has_dlc = "No Compromise, No Surrender"
+			}
+            # 被打压的二十八个半
+            # PRC_28_bolshevik_trait = {
+            #     random = no
+            #     sprite = 13
+            #     political_power_gain = -0.025                     每日政治点数 -0.025
+            #     opinion_gain_monthly_same_ideology_factor = 0.05  相同的意识形态每月评价 5%
+            #     power_balance_weekly = 0.01                       每周权利平衡变化 +1%
+            # }
+            # 导师
+            # PRC_pavel_mif_mentor_trait = {
+            #     random = no ## This is Pavel Mif
+            #     sprite = 13
+            #
+            #     research_speed_factor = 0.01 研究速度 +1%
+            # }
+			traits  = {
+				PRC_28_bolshevik_trait
+				PRC_pavel_mif_mentor_trait
+			}
+			ai_will_do  = {
+				base  = 4
+			}
+		}
+	}
+
+    # 邓发
+	PRC_deng_fa={ 
+		instance = {
+			allowed = {
+				AND = {
+					has_dlc = "La Resistance"
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+			name=PRC_deng_fa
+			portraits={
+				army={
+					small = GFX_portrait_PRC_deng_fa_small
+				}
+			}
+			advisor={
+                # 政治顾问
+				slot = political_advisor
+				idea_token = PRC_deng_fa
+				ledger = army
+				allowed = {
+					original_tag = PRC
+					has_dlc = "No Compromise, No Surrender"
+				}
+                # 诡异的间谍
+                # PRC_spymaster = {
+                #     sprite = 15
+                #     random = no # This is Deng Fa
+                #     operative_slot = 1            特工位 +1
+                #     agency_upgrade_time = -0.2    情报机构升级时间 -20%
+                #     civilian_intel_factor = 0.05  民政情报 +5%
+                #     army_intel_factor = 0.05      陆军情报 +5%
+                #     navy_intel_factor = 0.05      海军情报 +5%
+                #     airforce_intel_factor = 0.05  空军情报 +5%
+                #
+                # }
+				traits = {
+					PRC_spymaster
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+				NOT = { 
+					has_dlc = "La Resistance"
+				} 
+			}
+			name=PRC_deng_fa
+			portraits={
+				army={
+					small = GFX_portrait_PRC_deng_fa_small
+				}
+			}
+			advisor={	
+				slot = political_advisor
+				idea_token = PRC_deng_fa
+				ledger = army
+				allowed = {
+					original_tag = PRC
+					has_dlc = "No Compromise, No Surrender"
+				}
+				traits = {
+					spymaster_no_lar
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+
+	}
+
+
+
+
+
+
+	##############################
+	####### CHIEF OF ARMY ########
+	##############################
+
+	# Alexander von Falkenhausen in shared file
+    # 朱德
+	PRC_zhu_de={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender"} 
+			name=PRC_zhu_de
+			portraits={
+				army={
+					large="GFX_portrait_prc_zhu_de"
+					small="GFX_portrait_PRC_zhu_de_small"
+				}
+			}
+			advisor={
+                # 陆军部长
+				slot = army_chief
+				idea_token = PRC_zhu_de
+				allowed = {
+					original_tag = PRC
+				}
+                # 陆军士气奇才
+                # army_chief_morale_3 = { # Ground units get 12 more Morale
+                #     sprite = 5
+                #     out_of_supply_factor = -0.09                          非战斗补给耗尽惩罚 -9%
+                #     experience_gain_army = @chief_experience_gain_high    每日陆军经验增长 +0.4
+                #
+                #     command_cap_increase = @tier3_cp_cap_increase         最大指挥点数 +30
+                #     command_power = @tier3_cp_cost
+                #
+                #     ai_will_do = {
+                #         factor = @army_chief_factor_3
+                #         modifier = {
+                #             factor = 0
+                #             command_power < @tier3_cp_cost
+                #         }
+                #     }
+                # }
+				traits = {
+					army_chief_morale_3
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+			
+			field_marshal={
+				traits={ brilliant_strategist organizer PRC_survivor_of_the_long_march }
+				skill=4
+				attack_skill=6
+				defense_skill=6
+				planning_skill=6
+				logistics_skill=6
+				legacy_id=-1
+			}
+		}
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender"} }
+			name=PRC_zhu_de
+			portraits={
+				army={
+					large="GFX_portrait_prc_zhu_de"
+					small="GFX_idea_PRC_zhu_de"
+				}
+			}
+			advisor={
+				slot = army_chief
+				idea_token = PRC_zhu_de
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_chief_morale_3
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+			
+			corps_commander={
+				traits={ infantry_officer organizer }
+				skill=4
+				attack_skill=3
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=4
+				legacy_id=-1
+			}
+		}
+	}
+
+	PRC_su_yu={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender"}
+
+			name=PRC_su_yu
+			portraits={
+				army={
+					large = GFX_portrait_PRC_su_yu
+					small = GFX_portrait_PRC_su_yu_small
+				}
+			}
+			advisor={
+				slot = army_chief
+				idea_token = PRC_su_yu
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+                    army_chief_maneuver_3
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender"} }
+			name=PRC_su_yu
+			portraits={
+				army={
+					small="GFX_idea_PRC_su_yu"
+				}
+			}
+			advisor={
+				slot = army_chief
+				idea_token = PRC_su_yu
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_chief_reform_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+	}
+
+	PRC_otto_braun={ 
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			name=PRC_otto_braun
+			portraits={
+				army={
+					small = GFX_portrait_PRC_otto_braun_small
+					large = GFX_portrait_PRC_otto_braun
+				}
+			}
+			advisor={
+				available = {
+					OR = {
+						has_completed_focus = PRC_invite_otto_braun
+						has_completed_focus = PRC_sea_soviet_advisors
+					}
+				}
+
+				slot = army_chief
+				idea_token = PRC_otto_braun
+				allowed = {
+					OR = {
+					original_tag  = PRC
+						AND = {
+							is_chinese_warlord = yes
+							has_completed_focus = PRC_sea_soviet_advisors
+						}
+					}
+				}
+				traits = {
+					army_chief_old_guard
+					PRC_28_bolshevik_trait
+				}
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+			corps_commander={
+				visible = {
+					OR = {
+						has_completed_focus = PRC_invite_otto_braun
+						has_completed_focus = PRC_sea_soviet_advisors
+					}
+				}
+				traits={ infantry_officer old_guard PRC_survivor_of_the_long_march }
+				skill=1
+				attack_skill=1
+				defense_skill=1
+				planning_skill=1
+				logistics_skill=1
+				legacy_id=-1
+			}
+		}
+
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "No Compromise, No Surrender" }
+			}
+			name=PRC_otto_braun
+			portraits={
+				army={
+					small="GFX_idea_PRC_otto_braun"
+				}
+			}
+			advisor={
+				slot = army_chief
+				idea_token = PRC_otto_braun
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_chief_old_guard
+				}
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+		
+	}
+
+	PRC_ma_jin={ #Is a female badminton player, not in DLC
+		name=PRC_ma_jin
+		portraits={
+			army={
+				small="GFX_idea_generic_army_asia_5"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			idea_token = PRC_ma_jin
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
+	##############################
+	####### CHIEF OF NAVY ########
+	##############################
+
+	PRC_ziao_jingguang={
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			name=PRC_ziao_jingguang
+			portraits={
+				army={
+					large = GFX_portrait_PRC_xiao_jinguang
+					small = GFX_portrait_PRC_xiao_jinguang_small
+				}
+			}
+			advisor={ #unlocks after a focus
+				slot = navy_chief
+				idea_token = PRC_ziao_jingguang
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					navy_chief_maneuver_3
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+				available = {
+					has_completed_focus = PRC_reappoint_jinguang_as_admiral
+				}
+			}
+		}
+
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "No Compromise, No Surrender" }
+			}
+			name=PRC_ziao_jingguang
+			portraits={
+				army={
+					small="GFX_idea_generic_navy_asia_1"
+				}
+			}
+			advisor={
+				slot = navy_chief
+				idea_token = PRC_ziao_jingguang
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					navy_chief_maneuver_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+	}
+
+	PRC_gao_qiu={ 
+		name=PRC_gao_qiu
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_2"
+			}
+		}
+		advisor={	
+			slot = navy_chief
+			idea_token = PRC_gao_qiu
+			allowed = {
+				original_tag = PRC
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
+
+	PRC_luo_shunchu={ 
+		name=PRC_luo_shunchu
+		portraits={
+			army={
+				small = GFX_portrait_PRC_luo_shunchu_small
+			}
+		}
+		advisor={	
+			slot = navy_chief
+			idea_token = PRC_luo_shunchu
+			ledger = army
+			allowed = {
+				original_tag = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			traits = {
+				navy_chief_reform_3
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
+
+
+
+	##############################
+	####### CHIEF OF AIR #########
+	##############################
+
+	# Claire Lee Chennault in shared file
+
+	PRC_fang_zeyi={
+		name=PRC_fang_zeyi
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_3" #If we can find a new poirtrait 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = PRC_fang_zeyi
+			allowed = {
+				original_tag = PRC
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
+	PRC_chang_qiankun={
+		name=PRC_chang_qiankun
+		portraits={
+			army={
+				small = GFX_portrait_PRC_chang_qiankun_small
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = PRC_chang_qiankun
+			allowed = {
+				original_tag = PRC
+				has_dlc ="No Compromise, No Surrender"
+			}
+			traits = {
+				air_chief_ground_support_3
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+			available = {
+				has_completed_focus = PRC_appoint_chang_qiankun
+			}
+		}
+	}
+
+
+	PRC_liu_yalou={
+		name=PRC_liu_yalou
+		portraits={
+			army={
+				small= GFX_portrait_PRC_liu_yalou
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = PRC_liu_yalou
+			allowed = {
+				original_tag = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			traits = {
+				air_chief_reform_3
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
+	PRC_liu_yuti={
+		name=PRC_liu_yuti
+		portraits={
+			army={
+				small= GFX_portrait_PRC_liu_yudi
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = PRC_liu_yuti
+			allowed = {
+				original_tag = PRC
+				has_dlc = "No Compromise, No Surrender"
+			}
+			traits = {
+				air_chief_safety_3
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1
+			}
+		}
+	}
+
+	##############################
+	######## HIGH COMMAND ########
+	##############################
+
+    # 陈毅
+	PRC_chen_yi={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender"}
+
+			name=PRC_chen_yi
+			portraits={
+				army={
+					large="GFX_portrait_prc_chen_yi"
+					small=GFX_portrait_PRC_chen_yi_small
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = PRC_chen_yi
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_concealment_3
+				}
+				cost = 100
+				ai_will_do = {
+					base = 5
+				}
+			}
+
+            corps_commander={
+                traits={ career_officer war_hero brave media_personality }
+                visible={
+                    date > 1937.12.25
+                }
+                skill=1
+                attack_skill=3
+                defense_skill=3
+                planning_skill=4
+                logistics_skill=6
+                legacy_id=-1
+            }
+		}
+
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender"} }
+
+			name=PRC_chen_yi
+			portraits={
+				army={
+					large="GFX_portrait_prc_chen_yi"
+					small=GFX_portrait_PRC_chen_yi_small
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = PRC_chen_yi
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_armored_2
+				}
+					cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+
+			corps_commander={
+				traits={ infantry_officer }
+				skill=3
+				attack_skill=4
+				defense_skill=3
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=-1
+			}
+		}
+	}
+
+	PRC_xu_xiangqian={ 
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender" }
+			name=PRC_xu_xiangqian
+			portraits={
+                army={
+                    large=GFX_中共_红四方面军_红一军_元帅_徐向前
+                    small=GFX_中共_红四方面军_红一军_元帅_徐向前_small
+                }
+			}
+            advisor={
+                # 陆军部长
+                slot = army_chief
+                idea_token = PRC_xu_xiangqian
+                available = {
+                    has_country_flag = PRC_zhang_guatao_arrived
+                }
+                allowed = {
+                    original_tag = PRC
+                }
+                traits = {
+                    army_chief_reform_3
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 1.000
+                }
+            }
+			advisor={	
+				slot = high_command
+				idea_token = PRC_xu_xiangqian
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+                    army_infantry_3
+				}
+				cost = 100
+                available = {
+                    has_country_flag = PRC_zhang_guatao_arrived
+                }
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+
+            corps_commander={
+                traits={ brave career_officer inflexible_strategist PRC_survivor_of_the_long_march }
+                visible = {
+                    has_country_flag = PRC_zhang_guatao_arrived
+                }
+                skill=1
+                attack_skill=4
+                defense_skill=4
+                planning_skill=4
+                logistics_skill=4
+                legacy_id=-1
+            }
+		}
+		instance = {
+			allowed = { 
+				NOT = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+			}
+			name=PRC_xu_xiangqian
+			portraits={
+				army={
+					small="GFX_idea_PRC_xu_xiangqian"
+				}
+			}
+			advisor={	
+				slot = high_command
+				idea_token = PRC_xu_xiangqian
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_infantry_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+	}
+
+	PRC_nie_rongzhen={ 
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender" }
+			name=PRC_nie_rongzhen
+			portraits={
+				army={
+					small = GFX_portrait_PRC_nie_rongzhen_small
+					large = GFX_portrait_PRC_nie_rongzhen
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = PRC_nie_rongzhen
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					nuclear_enthusiast
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+		instance = {
+			allowed = { 
+				NOT = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+			}
+			name=PRC_nie_rongzhen
+			portraits={
+				army={
+					small="GFX_idea_generic_army_asia_1"
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = PRC_nie_rongzhen
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_regrouping_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+	}
+
+	PRC_chen_geng={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender" }
+			name=PRC_chen_geng
+			portraits={
+				army={
+					large = GFX_portrait_PRC_chen_geng
+					small = GFX_portrait_PRC_chen_geng_small
+				}
+			}
+			# advisor={
+			# 	slot = high_command
+			# 	idea_token = PRC_chen_geng
+			# 	ledger = army
+			# 	traits = {
+			# 		PRC_rocket_force
+			# 	}
+			# 	cost = 100
+			# 	ai_will_do = {
+			# 		base = 1.000
+			# 	}
+			# }
+		}
+
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender" } }
+			name=PRC_chen_geng
+			portraits={
+				army={
+					small="GFX_idea_PRC_chen_geng"
+				}
+			}
+			advisor={	
+				slot = high_command
+				idea_token = PRC_chen_geng
+				ledger = army
+				traits = {
+					army_entrenchment_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+	}
+
+	PRC_zuo_quan={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender" } 
+			name=PRC_zuo_quan
+			portraits={
+				army={
+					small = GFX_portrait_PRC_zuo_quan_small
+					large = GFX_portrait_PRC_zuo_quan
+				}
+			}
+			# advisor={
+			# 	slot = high_command
+			# 	idea_token = PRC_zuo_quan
+			# 	ledger = army
+			# 	allowed = {
+			# 		original_tag = PRC
+			# 	}
+			# 	traits = {
+			# 		guerilla_expert
+			# 	}
+			# 	cost = 100
+			# 	ai_will_do = {
+			# 		base = 1.000
+			# 	}
+			# }
+		}
+
+		instance = {
+			allowed = { 
+				NOT = { 
+					has_dlc = "No Compromise, No Surrender" 
+				} 
+			}
+			name=PRC_zuo_quan
+			portraits={
+				army={
+					small= GFX_portrait_PLACEHOLDER_small
+				}
+			}
+			advisor={	
+				slot = high_command
+				idea_token = PRC_zuo_quan
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_entrenchment_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+	}
+	
+	PRC_ye_jianying={
+		instance = {
+			allowed = { 
+				has_dlc = "No Compromise, No Surrender" 
+				has_dlc = "La Resistance"
+			}
+			name=PRC_ye_jianying
+			portraits={
+				army={
+					small = GFX_portrait_PRC_ye_jianying_small
+					large = GFX_portrait_PRC_ye_jianying
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = PRC_ye_jianying
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_radio_intelligence_3
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+		}
+		instance = {
+			allowed = { 
+				has_dlc = "No Compromise, No Surrender" 
+				NOT = { 
+					has_dlc = "La Resistance" 
+				}
+			}
+			name=PRC_ye_jianying
+			portraits={
+				army={
+					small=GFX_portrait_PLACEHOLDER_small
+					large=GFX_portrait_PLACEHOLDER_large
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = PRC_ye_jianying
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_logistics_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1.000
+				}
+			}
+			corps_commander={
+				traits={ politically_connected }
+				skill=2
+				attack_skill=3
+				defense_skill=2
+				planning_skill=1
+				logistics_skill=2
+				legacy_id=-1
+			}
+		}
+
+		instance = {
+			allowed = { 
+				NOT = { 
+					has_dlc = "No Compromise, No Surrender" 
+				} 
+			}
+			name=PRC_ye_jianying
+			portraits={
+				army={
+					small="GFX_idea_generic_army_asia_2"
+				}
+			}
+			advisor={
+				slot = high_command
+				idea_token = PRC_ye_jianying
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+				traits = {
+					army_logistics_2
+				}
+				ai_will_do = {
+					base = 1.000
+				}
+				cost = 100
+			}
+		}	
+	}
+
+	PRC_liang_shen={ #Cannot confirm the existence of this person
+		name=PRC_liang_shen
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_3"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = PRC_liang_shen
+			ledger = air
+			allowed = {
+				original_tag = PRC
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
+	PRC_deng_ye_peng={ #Cannot confirm the existence of this person
+		name=PRC_deng_ye_peng
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_1"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = PRC_deng_ye_peng
+			ledger = army
+			allowed = {
+				original_tag = PRC
+				NOT = { has_dlc = "No Compromise, No Surrender" }
+			}
+			traits = {
+				navy_amphibious_assault_2
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+	}
+
+
+	PRC_yang_zhicheng={ 
+		name=PRC_yang_zhicheng
+		portraits={
+			army={
+				small = GFX_portrait_PRC_yang_zhicheng
+			}
+		}
+		# advisor={
+		# 	slot = high_command
+		# 	idea_token = PRC_yang_zhicheng
+		# 	ledger = army
+		# 	allowed = {
+		# 		original_tag = PRC
+		# 		has_dlc = "No Compromise, No Surrender"
+		# 	}
+		# 	traits = {
+		# 		PRC_quartermaster
+		# 	}
+		# 	cost = 100
+		# 	ai_will_do = {
+		# 		base = 5
+		# 	}
+		# }
+	}
+
+	PRC_he_cheng={ 
+		name=PRC_he_cheng
+		portraits={
+			army={
+				small = GFX_portrait_PRC_he_cheng
+			}
+		}
+		# advisor={
+		# 	slot = high_command
+		# 	idea_token = PRC_he_cheng
+		# 	ledger = army
+		# 	allowed = {
+		# 		original_tag = PRC
+		# 		has_dlc = "No Compromise, No Surrender"
+		# 	}
+		# 	traits = {
+		# 		PRC_medical_school
+		# 	}
+		# 	cost = 100
+		# 	ai_will_do = {
+		# 		base = 1.000
+		# 	}
+		# }
+	}
+
+	PRC_li_xiannian={ 
+		name=PRC_li_xiannian
+		portraits={
+			army={
+				small = GFX_portrait_PRC_li_xiannian
+			}
+		}
+		# advisor={
+		# 	slot = high_command
+		# 	idea_token = PRC_li_xiannian
+		# 	ledger = army
+		# 	allowed = {
+		# 		original_tag = PRC
+		# 		has_dlc = "No Compromise, No Surrender"
+		# 	}
+		# 	traits = {
+		# 		PRC_guerilla_fighter
+		# 	}
+		# 	cost = 100
+		# 	ai_will_do = {
+		# 		base = 1.000
+		# 	}
+		# }
+	}
+
+	PRC_chu_qing={ 
+		name=PRC_chu_qing
+		portraits={
+			army={
+				small = GFX_portrait_PRC_chu_qing
+			}
+		}
+		# advisor={
+		# 	slot = high_command
+		# 	idea_token = PRC_chu_qing
+		# 	ledger = army
+		# 	allowed = {
+		# 		original_tag = PRC
+		# 		has_dlc = "No Compromise, No Surrender"
+		# 	}
+		# 	traits = {
+		# 		PRC_hq_secretary
+		# 	}
+		# 	cost = 100
+		# 	ai_will_do = {
+		# 		base = 1.000
+		# 	}
+		# }
+	}
+
+
+	PRC_yang_shangkun={ 
+		name=PRC_yang_shangkun
+		portraits={
+			army={
+				small = GFX_portrait_PRC_yang_shanhkun_small
+			}
+		}
+		# advisor={
+		# 	slot = high_command
+		# 	idea_token = PRC_yang_shangkun
+		# 	ledger = army
+		# 	allowed = {
+		# 		original_tag = PRC
+		# 		has_dlc = "No Compromise, No Surrender"
+		# 	}
+		# 	traits = {
+		# 		PRC_second_in_command_to_peng
+		# 	}
+		# 	cost = 100
+		# 	ai_will_do = {
+		# 		base = 1.000
+		# 	}
+		# }
+	}
+
+
+
+	##############################
+	######### THEORISTS ##########
+	##############################
+
+	#Claire Lee Chennault in shared file
+
+	PRC_liu_bocheng={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender"}
+
+			name=PRC_liu_bocheng
+			portraits={
+				army={
+					large = GFX_portrait_PRC_liu_bocheng
+					small = GFX_portrait_PRC_liu_bocheng_small
+				}
+			}
+			advisor={
+				cost = 100
+
+				slot = theorist
+				idea_token = PRC_liu_bocheng
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+                available = {
+                    has_country_flag = PRC_zhang_guatao_arrived
+                }
+
+				ai_will_do = {
+					base = 2
+					modifier = {
+						factor = 0.5
+						is_historical_focus_on = yes
+					}
+				}
+
+				traits = {
+					superior_firepower_expert
+				}
+			}
+
+			corps_commander={
+				traits={ brave harsh_leader brilliant_strategist PRC_survivor_of_the_long_march }
+                visible = {
+                    has_country_flag = PRC_zhang_guatao_arrived
+                }
+				skill=1
+				attack_skill=4
+				defense_skill=3
+				planning_skill=5
+				logistics_skill=4
+				legacy_id=-1
+			}
+		}
+
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender"} }
+
+			name=PRC_liu_bocheng
+			portraits={
+				army={
+					small="GFX_idea_PRC_liu_bocheng"
+				}
+			}
+			advisor={
+				cost = 100
+
+				slot = theorist
+				idea_token = PRC_liu_bocheng
+				ledger = army
+				allowed = {
+					original_tag = PRC
+				}
+
+				traits = {
+					military_theorist
+				}
+			}
+		}
+	}
+
+	PRC_hsia_tian={ #Cannot find, might be due to bad translitteration
+		name=PRC_hsia_tian
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_2"
+			}
+		}
+		advisor={
+			cost = 100
+
+			slot = theorist
+			idea_token = PRC_hsia_tian
+			ledger = air
+			allowed = {
+				original_tag = PRC
+			}
+
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+
+	PRC_zhang_wei={ #Is a CURRENT captain in the PLA Navy, not with dlc
+		name=PRC_zhang_wei
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_2"
+			}
+		}
+		advisor={
+			cost = 100
+
+			slot = theorist
+			idea_token = PRC_zhang_wei
+			ledger = navy
+			allowed = {
+				original_tag = PRC
+				NOT = { has_dlc = "No Compromise, No Surrender" }
+			}
+			
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+
+
+	##############################
+	######### GENERALS ###########
+	##############################
+
+	PRC_peng_dehuai={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender"} 
+			name = PRC_peng_dehuai
+			portraits = { #order new art (low prio)
+				army = {
+					large = GFX_portrait_PRC_peng_dehuai
+					small = GFX_portrait_PRC_peng_dehuai_small
+				}
+			}
+            advisor={
+                # 陆军部长
+                slot = army_chief
+                idea_token = PRC_peng_dehuai
+                allowed = {
+                    original_tag = PRC
+                }
+                traits = {
+                    army_chief_offensive_3
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 1.000
+                }
+            }
+            advisor={
+                slot = high_command
+                idea_token = PRC_peng_dehuai
+                ledger = army
+                allowed = {
+                    original_tag = PRC
+                }
+                traits = {
+                    army_cavalry_3
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 5
+                }
+            }
+			corps_commander = {
+				traits = { brilliant_strategist brave trait_mountaineer PRC_survivor_of_the_long_march }
+				skill = 1
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 5
+				legacy_id = -1
+			}
+		}
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender"} }
+			name=PRC_peng_dehuai
+			portraits={
+				army={
+					large="GFX_portrait_prc_peng_dehuai"
+					small=GFX_portrait_PRC_peng_dehuai_small
+				}
+			}
+			corps_commander={
+				traits={ infantry_officer trait_mountaineer }
+				skill=1
+				attack_skill=4
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=3
+				legacy_id=-1
+			}
+		}
+	}
+
+	PRC_lin_biao={
+		instance = {
+			allowed = { has_dlc = "No Compromise, No Surrender"} 
+			name = PRC_lin_biao
+			portraits = { 
+				army = {
+					large = GFX_portrait_PRC_lin_biao
+					small = GFX_portrait_PRC_lin_biao_small
+				}
+			}
+            advisor={
+                # 陆军部长
+                slot = army_chief
+                idea_token = PRC_lin_biao
+                allowed = {
+                    original_tag = PRC
+                }
+                traits = {
+                    army_chief_planning_3
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 1.000
+                }
+            }
+            advisor={
+                slot = high_command
+                idea_token = PRC_lin_biao
+                ledger = army
+                allowed = {
+                    original_tag = PRC
+                }traits = { inflexible_strategist trait_reckless PRC_survivor_of_the_long_march }
+                traits = {
+                    army_artillery_3
+                }
+                cost = 100
+                ai_will_do = {
+                    base = 5
+                }
+            }
+			corps_commander = {
+				traits = { inflexible_strategist trait_reckless PRC_survivor_of_the_long_march }
+				skill = 1
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 5
+				logistics_skill = 3
+				legacy_id = -1
+			}
+		}
+		instance = {
+			allowed = { NOT = { has_dlc = "No Compromise, No Surrender"} }
+
+			name=PRC_lin_biao
+			portraits={
+				army={
+					large=GFX_portrait_PRC_lin_biao
+					small=GFX_portrait_PRC_lin_biao_small
+				}
+			}
+			corps_commander={
+				traits={ infantry_officer trait_mountaineer }
+				skill=5
+				attack_skill=4
+				defense_skill=5
+				planning_skill=3
+				logistics_skill=4
+				legacy_id=-1
+			}
+		}
+	}
+
+	PRC_he_long={
+		name=PRC_he_long
+		portraits={
+			army={
+				large = GFX_portrait_PRC_he_long
+				small = GFX_portrait_PRC_he_long_small
+			}
+		}
+        advisor={
+            # 陆军部长
+            slot = army_chief
+            idea_token = PRC_lin_biao
+            allowed = {
+                original_tag = PRC
+            }
+            traits = {
+                army_chief_defensive_3
+            }
+            cost = 100
+            ai_will_do = {
+                base = 1.000
+            }
+        }
+        advisor={
+            slot = high_command
+            idea_token = PRC_he_long
+            ledger = army
+            allowed = {
+                original_tag = PRC
+            }
+            traits = {
+                army_logistics_3
+            }
+            cost = 100
+            available = {
+                has_country_flag = PRC_he_long_has_arrived
+            }
+            ai_will_do = {
+                base = 5
+            }
+        }
+		corps_commander={
+			visible = {
+				has_country_flag = PRC_he_long_has_arrived
+			}
+			traits={ militias_officer trait_mountaineer guerilla_fighter }
+			skill=1
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=7
+			legacy_id=-1
+		}
+	}
+
+	PRC_zhang_zongxun={
+		name=PRC_zhang_zongxun
+		portraits={
+			army={
+				large = GFX_portrait_PRC_zhang_zongxun
+				small = GFX_portrait_PRC_zhang_zongxun_small
+			}
+		}
+	}
+
+	PRC_ulanhu={
+		name=PRC_ulanhu
+		portraits={
+			army={
+				large = GFX_portrait_MEN_ulanhu
+				small = GFX_portrait_MEN_ulanhu_small
+			}
+		}
+		corps_commander={
+			traits={ cavalry_leader }
+			skill=1
+			attack_skill=5
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+			visible = {
+				has_completed_focus = PRC_cooperate_ulanhu
+			}
+		}
+	}
+
+	PRC_luo_ruiqing = {
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			name=PRC_luo_ruiqing
+			portraits={
+				army={
+					large = GFX_portrait_PRC_luo_ruiqing
+					small = GFX_portrait_PRC_luo_ruiqing_small
+				}
+			}
+		}
+
+		instance = {
+			allowed = {
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				has_dlc = "La Resistance"
+			}
+			name=PRC_luo_ruiqing
+			portraits={
+				army={
+					small="GFX_idea_china_luo_ruiqing"
+				}
+			}
+
+			advisor={
+				slot = political_advisor
+				allowed = {
+					OR = {
+						original_tag = PRC
+						is_chinese_warlord = yes
+					}
+					NOT = { original_tag = MAN }
+				}
+				available  = {
+					has_intelligence_agency  = yes 
+					has_focus_tree  = china_communist_focus
+				}
+				idea_token = PRC_luo_ruiqing
+				traits  = {
+					head_of_intelligence 
+				}
+			}
+		}
+	}
+
+	PRC_zhang_dingcheng={
+		name=PRC_zhang_dingcheng
+		portraits={
+			army={
+				large = GFX_portrait_PRC_zhang_dingcheng
+				small = GFX_portrait_PRC_zhang_dingcheng_small
+			}
+		}
+	}
+
+
+	PRC_lu_sheng={
+		name=PRC_lu_sheng
+		portraits={
+			army={
+				large = GFX_portrait_PRC_lu_sheng
+				small = GFX_portrait_PRC_lu_sheng_small
+			}
+		}
+	}
+
+	PRC_zhang_yunyi={
+		name=PRC_zhang_yunyi
+		portraits={
+			army={
+				large = GFX_portrait_PRC_zhang_yunyi
+				small = GFX_portrait_PRC_zhang_yunyi_small
+			}
+		}
+	}
+
+	PRC_xiao_ke={
+		name=PRC_xiao_ke
+		portraits={
+			army={
+				large = GFX_portrait_PRC_xiao_ke
+				small = GFX_portrait_PRC_xiao_ke_small
+			}
+		}
+	}
+
+
+	PRC_ye_ting={
+		name=PRC_ye_ting
+		portraits={
+			army={
+				large = GFX_portrait_PRC_ye_ting
+				small = GFX_portrait_PRC_ye_ting_small
+			}
+		}
+		corps_commander={
+			traits={ career_officer war_hero brave media_personality }
+            visible={
+                date > 1937.12.25
+            }
+			skill=1
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+
+
+	PRC_luo_ronghuan={
+		name=PRC_luo_ronghuan
+		portraits={
+			army={
+				large = GFX_portrait_PRC_luo_ronghuan
+				small = GFX_portrait_PRC_luo_ronghuan_small
+			}
+		}
+
+	}
+
+	PRC_cheng_zihua={
+		name=PRC_cheng_zihua
+		portraits={
+			army={
+				large = GFX_portrait_PRC_cheng_zihua
+				small = GFX_portrait_PRC_cheng_zihua_small
+			}
+		}
+	}
+
+	PRC_zhang_qinqiu={
+		name=PRC_zhang_qinqiu
+		portraits={
+			army={
+				large = GFX_portrait_PRC_zhang_qinqiu
+				small = GFX_portrait_PRC_zhang_qinqiu_small 
+			}
+		}
+	}
+
+    ### 徐海东 ###
+    CHINA_中共_徐海东 = {
+        name =CHINA_ZHNGGONG_XUHAIDONG_NAME
+        portraits = {
+            army = {
+                large = "GFX_中共_红四方面军_红二十五军_大将_徐海东"
+                small = "GFX_中共_红四方面军_红二十五军_大将_徐海东_small"
+            }
+        }
+        corps_commander = {
+            traits={ brave inflexible_strategist PRC_survivor_of_the_long_march }
+            skill = 1
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 5
+            logistics_skill = 3
+            legacy_id = -1
+        }
+    }
+
+
+
+	##############################
+	######## SCIENTISTS ##########
+	##############################
+
+	PRC_qian_sanqiang = {
+		name = PRC_qian_sanqiang
+		portraits = {
+			army = {
+				large = GFX_portrait_PRC_qian_sanqiang
+			}
+		} 
+
+		scientist = {
+			traits  = { scientist_trait_nuclear_warfare_expert }
+			skills = {
+				specialization_nuclear = 1
+			}
+
+			visible = {
+				OWNER = {
+					has_completed_focus = PRC_prepare_for_596
+				}
+			}
+		}
+	}
+
+	PRC_he_zehui= {
+		name = PRC_he_zehui
+		portraits = {
+			army = {
+				large = GFX_portrait_PRC_he_zehui
+			}
+		} 
+
+		scientist = {
+			traits  = { scientist_trait_nuclear_power_expert }
+			skills = {
+				specialization_nuclear = 1
+			}
+
+			visible = {
+				OWNER = {
+					has_completed_focus = PRC_prepare_for_596
+				}
+			}
+		}
+	}
+
+	PRC_qian_xuesan = {
+		name = PRC_qian_xuesan
+		portraits = {
+			army = {
+				large = GFX_portrait_PRC_qian_xuesan
+			}
+		} 
+
+		scientist = {
+			traits  = { scientist_trait_rocketry_specialist }
+			skills = {
+				specialization_air = 1
+			}
+
+			#visible = {
+			#	has_completed_focus =
+			#}
+		}
+	}
+
+	PRC_wang_shusheng = {
+		name = PRC_wang_shusheng
+		portraits = {
+			army = {
+				large = GFX_portrait_PRC_wang_shusheng
+			}
+		} 
+
+		scientist = {
+			traits  = { scientist_trait_artillery_specialist }
+			skills = {
+				specialization_land = 1
+			}
+
+			#visible = {
+			#	has_completed_focus =
+			#}
+		}
+	}
+
+
+
+	############################
+	######## ADMIRALS ##########
+	############################
+
+	PRC_rao_shoukun={
+		name=PRC_rao_shoukun
+		portraits={
+			army={
+				large = GFX_portrait_PRC_rao_shoukun
+				small = GFX_portrait_PRC_rao_shoukun_small
+			}
+		}
+		navy_leader = { 
+			traits = { navy_career_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
+		}
+	}
+
+
+	PRC_su_zhenhua={
+		name=PRC_su_zhenhua
+		portraits={
+			army={
+				large = GFX_portrait_PRC_su_zhenhua
+				small = GFX_portrait_PRC_su_zhenhua_small
+			}
+		}
+		navy_leader = { 
+			traits = { navy_career_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
+
+
+
+			
+
+}

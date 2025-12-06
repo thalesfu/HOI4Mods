@@ -1,0 +1,12 @@
+spriteTypes = {
+	#于芷山
+	spriteType = {
+		name = "GFX_东北_于芷山"
+		texturefile = "gfx/china/东北/GFX_东北_于芷山.dds"
+	}
+	#爱新觉罗吉兴
+	spriteType = {
+		name = "GFX_东北_爱新觉罗吉兴"
+		texturefile = "gfx/china/东北/GFX_东北_爱新觉罗吉兴.dds"
+	}
+}

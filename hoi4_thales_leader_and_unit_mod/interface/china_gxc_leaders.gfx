@@ -1,0 +1,68 @@
+spriteTypes = {
+	#白崇禧
+	spriteType = {
+		name = "GFX_广西_白崇禧"
+		texturefile = "gfx/china/广西/GFX_广西_白崇禧.dds"
+	}
+	spriteType = {
+		name = "GFX_广西_白崇禧_small"
+		texturefile = "gfx/china/广西/GFX_广西_白崇禧_small.dds"
+	}
+	#陈济棠
+	spriteType = {
+		name = "GFX_广东_陈济棠"
+		texturefile = "gfx/china/广东/GFX_广东_陈济棠.dds"
+	}
+	spriteType = {
+		name = "GFX_广东_陈济棠_small"
+		texturefile = "gfx/china/广东/GFX_广东_陈济棠_small.dds"
+	}
+	#余汉谋
+	spriteType = {
+		name = "GFX_广东_余汉谋"
+		texturefile = "gfx/china/广东/GFX_广东_余汉谋.dds"
+	}
+	spriteType = {
+		name = "GFX_广东_余汉谋_small"
+		texturefile = "gfx/china/广东/GFX_广东_余汉谋_small.dds"
+	}
+	#黄绍竑
+	spriteType = {
+		name = "GFX_广西_黄绍竑"
+		texturefile = "gfx/china/广西/GFX_广西_黄绍竑.dds"
+	}
+	spriteType = {
+		name = "GFX_广西_黄绍竑_small"
+		texturefile = "gfx/china/广西/GFX_广西_黄绍竑_small.dds"
+	}
+	#黄琪翔
+	spriteType = {
+		name = "GFX_广东_黄琪翔"
+		texturefile = "gfx/china/广东/GFX_广东_黄琪翔.dds"
+	}
+	#李品仙
+	spriteType = {
+		name = "GFX_广西_李品仙"
+		texturefile = "gfx/china/广西/GFX_广西_李品仙.dds"
+	}
+	#廖磊
+	spriteType = {
+		name = "GFX_广西_廖磊"
+		texturefile = "gfx/china/广西/GFX_广西_廖磊.dds"
+	}
+	#夏威
+	spriteType = {
+		name = "GFX_广西_夏威"
+		texturefile = "gfx/china/广西/GFX_广西_夏威.dds"
+	}
+	#叶肇
+	spriteType = {
+		name = "GFX_广西_叶肇"
+		texturefile = "gfx/china/广西/GFX_广西_叶肇.dds"
+	}
+	#凌鸿勋
+	spriteType = {
+		name = "GFX_广西_凌鸿勋"
+		texturefile = "gfx/china/科学家/GFX_广西_凌鸿勋.dds"
+	}
+}

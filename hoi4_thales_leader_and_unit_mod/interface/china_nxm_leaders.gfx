@@ -1,0 +1,92 @@
+spriteTypes = {
+    #马鸿逵
+    spriteType = {
+        name = "GFX_宁夏_马鸿逵"
+        texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿逵.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马鸿逵_small"
+        texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿逵_small.dds"
+    }
+	#马鸿宾
+	spriteType = {
+		name = "GFX_宁夏_马鸿宾"
+		texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿宾.dds"
+	}
+	spriteType = {
+		name = "GFX_宁夏_马鸿宾_small"
+		texturefile = "gfx/china/宁夏/GFX_宁夏_马鸿宾_small.dds"
+	}
+    #马光宗
+    spriteType = {
+        name = "GFX_宁夏_马光宗"
+        texturefile = "gfx/china/宁夏/马光宗大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马光宗小"
+        texturefile = "gfx/china/宁夏/马光宗小.dds"
+    }
+    #马培清
+    spriteType = {
+        name = "GFX_宁夏_马培清"
+        texturefile = "gfx/china/宁夏/马培清大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马培清小"
+        texturefile = "gfx/china/宁夏/马培清小.dds"
+    }
+    #马全良
+    spriteType = {
+        name = "GFX_宁夏_马全良"
+        texturefile = "gfx/china/宁夏/马全良大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马全良小"
+        texturefile = "gfx/china/宁夏/马全良小.dds"
+    }
+    #马腾蛟
+    spriteType = {
+        name = "GFX_宁夏_马腾蛟"
+        texturefile = "gfx/china/宁夏/马腾蛟大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马腾蛟小"
+        texturefile = "gfx/china/宁夏/马腾蛟小.dds"
+    }
+    #马献文
+    spriteType = {
+        name = "GFX_宁夏_马献文"
+        texturefile = "gfx/china/宁夏/马献文大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马献文小"
+        texturefile = "gfx/china/宁夏/马献文小.dds"
+    }
+    #马玉麟
+    spriteType = {
+        name = "GFX_宁夏_马玉麟"
+        texturefile = "gfx/china/宁夏/马玉麟大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马玉麟小"
+        texturefile = "gfx/china/宁夏/马玉麟小.dds"
+    }
+    #冶成章
+    spriteType = {
+        name = "GFX_宁夏_冶成章"
+        texturefile = "gfx/china/宁夏/冶成章大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_冶成章小"
+        texturefile = "gfx/china/宁夏/冶成章小.dds"
+    }
+    #马英才
+    spriteType = {
+        name = "GFX_宁夏_马英才"
+        texturefile = "gfx/china/宁夏/马英才大.dds"
+    }
+    spriteType = {
+        name = "GFX_宁夏_马英才小"
+        texturefile = "gfx/china/宁夏/马英才小.dds"
+    }
+}

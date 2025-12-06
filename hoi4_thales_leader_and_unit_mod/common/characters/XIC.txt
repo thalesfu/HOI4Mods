@@ -1,0 +1,162 @@
+characters = {
+	CHI_zhang_xueliang={
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+			name=CHI_zhang_xueliang
+			portraits={
+				army={
+					large="GFX_portrait_chi_zhang_xueliang"
+					small="GFX_idea_CHI_zhang_xueliang"
+				}
+			}
+			country_leader={
+				ideology=despotism
+				traits={ headstrong XIC_young_marshall }
+				expire="1965.1.1.1"
+				id=-1
+			}
+			field_marshal={
+				skill=3
+                traits={ trait_reckless politically_connected media_personality old_guard winter_specialist winter_expert }
+				attack_skill=3
+				defense_skill=3
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=-1
+			}
+		}
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "No Compromise, No Surrender" }
+			}
+			name=CHI_zhang_xueliang
+			portraits={
+				army={
+					large="GFX_portrait_chi_zhang_xueliang"
+					small="GFX_idea_CHI_zhang_xueliang"
+				}
+			}
+			field_marshal={
+				skill=3
+				attack_skill=3
+				defense_skill=3
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=-1
+			}
+		}
+	}
+
+    XIC_杨虎城={
+        allowed = {
+            has_dlc = "No Compromise, No Surrender"
+        }
+        name="杨虎城"
+        portraits={
+            army={
+                large="GFX_陕西_杨虎城"
+                small="GFX_陕西_杨虎城_small"
+            }
+        }
+        corps_commander={
+            skill=1
+            traits={ career_officer harsh_leader old_guard }
+            attack_skill=3
+            defense_skill=3
+            planning_skill=3
+            logistics_skill=4
+            legacy_id=-1
+        }
+    }
+
+    XIC_于学忠={
+        allowed = {
+            has_dlc = "No Compromise, No Surrender"
+        }
+        name="于学忠"
+        portraits={
+            army={
+                large="GFX_东北_张学良_于学忠"
+                small="GFX_东北_张学良_于学忠_small"
+            }
+        }
+        corps_commander={
+            skill=1
+            traits={ career_officer harsh_leader winter_specialist winter_expert }
+            attack_skill=3
+            defense_skill=3
+            planning_skill=4
+            logistics_skill=3
+            legacy_id=-1
+        }
+    }
+
+    XIC_王以哲={
+        allowed = {
+            has_dlc = "No Compromise, No Surrender"
+        }
+        name="王以哲"
+        portraits={
+            army={
+                large="GFX_东北_张学良_王以哲"
+                small="GFX_东北_张学良_王以哲_small"
+            }
+        }
+        corps_commander={
+            skill=1
+            traits={ old_guard winter_specialist winter_expert }
+            attack_skill=2
+            defense_skill=4
+            planning_skill=3
+            logistics_skill=3
+            legacy_id=-1
+        }
+    }
+
+    XIC_董英斌={
+        allowed = {
+            has_dlc = "No Compromise, No Surrender"
+        }
+        name="董英斌"
+        portraits={
+            army={
+                large="GFX_东北_张学良_于学忠_董英斌"
+                small="GFX_东北_张学良_于学忠_董英斌_small"
+            }
+        }
+        corps_commander={
+            skill=1
+            traits={ old_guard winter_specialist winter_expert }
+            attack_skill=3
+            defense_skill=3
+            planning_skill=2
+            logistics_skill=4
+            legacy_id=-1
+        }
+    }
+
+    XIC_何柱国={
+        allowed = {
+            has_dlc = "No Compromise, No Surrender"
+        }
+        name="何柱国"
+        portraits={
+            army={
+                large="GFX_东北_张学良_何柱国"
+                small="GFX_东北_张学良_何柱国_small"
+            }
+        }
+        corps_commander={
+            skill=1
+            traits={ cavalry_officer old_guard winter_specialist winter_expert }
+            attack_skill=4
+            defense_skill=2
+            planning_skill=3
+            logistics_skill=3
+            legacy_id=-1
+        }
+    }
+}
+

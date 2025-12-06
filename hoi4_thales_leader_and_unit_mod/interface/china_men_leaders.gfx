@@ -1,0 +1,13 @@
+spriteTypes = {
+	#李守信
+	spriteType = {
+		name = "GFX_蒙古_李守信"
+		texturefile = "gfx/china/蒙古/GFX_蒙古_李守信.dds"
+	}
+
+	#乌古廷
+	spriteType = {
+		name = "GFX_蒙古_乌古廷"
+		texturefile = "gfx/china/蒙古/GFX_蒙古_乌古廷.dds"
+	}
+}

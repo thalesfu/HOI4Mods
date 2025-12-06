@@ -1,0 +1,2681 @@
+spriteTypes = {
+
+	#邓稼先
+	spriteType = {
+		name = "GFX_中共_邓稼先"
+		texturefile = "gfx/china/科学家/GFX_中共_邓稼先.dds"
+	}
+	#钱三强
+	spriteType = {
+		name = "GFX_中共_钱三强"
+		texturefile = "gfx/china/科学家/GFX_中共_钱三强.dds"
+	}
+	#王淦昌
+	spriteType = {
+		name = "GFX_中共_王淦昌"
+		texturefile = "gfx/china/科学家/GFX_中共_王淦昌.dds"
+	}
+	#钱学森
+	spriteType = {
+		name = "GFX_中共_钱学森"
+		texturefile = "gfx/china/科学家/GFX_中共_钱学森.dds"
+	}
+	#顾诵芬
+	spriteType = {
+		name = "GFX_中共_顾诵芬"
+		texturefile = "gfx/china/科学家/GFX_中共_顾诵芬.dds"
+	}
+	#罗沛霖
+	spriteType = {
+		name = "GFX_中共_罗沛霖"
+		texturefile = "gfx/china/科学家/GFX_中共_罗沛霖.dds"
+	}
+	#黄旭华
+	spriteType = {
+		name = "GFX_中共_黄旭华"
+		texturefile = "gfx/china/科学家/GFX_中共_黄旭华.dds"
+	}
+	#顾懋祥
+	spriteType = {
+		name = "GFX_中共_顾懋祥"
+		texturefile = "gfx/china/科学家/GFX_中共_顾懋祥.dds"
+	}
+	#刘先志
+	spriteType = {
+		name = "GFX_中共_刘先志"
+		texturefile = "gfx/china/科学家/GFX_中共_刘先志.dds"
+	}
+	#王哲荣
+	spriteType = {
+		name = "GFX_中共_王哲荣"
+		texturefile = "gfx/china/科学家/GFX_中共_王哲荣.dds"
+	}
+
+	# 红一方面军_红一军团_红四军_秋收起义_元帅_毛泽东
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_毛泽东"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/元帅/毛泽东大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_毛泽东_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/元帅/毛泽东小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_元帅_罗荣桓
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_罗荣桓"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/元帅/罗荣桓大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_元帅_罗荣桓_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/元帅/罗荣桓小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_大将_寻淮洲
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_寻淮洲"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/寻淮洲大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_寻淮洲_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/寻淮洲小.dds"
+	}
+	# 红一方面军-红一军团-红四军-秋收起义-大将-伍中豪（1930年牺牲）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_伍中豪"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/伍中豪大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_伍中豪_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/伍中豪小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_大将_张子清（1930年牺牲）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_张子清"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/张子清大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_张子清_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/张子清小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_大将_谭震林(转政)
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_谭震林"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/谭震林大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_谭震林_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/谭震林小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_大将_谭政
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_谭政"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/谭政大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_大将_谭政_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/大将/谭政小.dds"
+	}
+	# 红一方面军-红一军团-红四军-秋收起义-上将-陈伯钧
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_陈伯钧"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/陈伯钧大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_陈伯钧_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/陈伯钧小.dds"
+	}
+	# 红一方面军-红一军团-红四军-秋收起义-上将-陈士榘
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_陈士榘"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/陈士榘大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_陈士榘_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/陈士榘小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_上将_黄永胜
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_黄永胜"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/黄永胜大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_黄永胜_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/黄永胜小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_上将_赖传珠
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_赖传珠"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/赖传珠大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_上将_赖传珠_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/上将/赖传珠小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_中将_张令彬
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_张令彬"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/张令彬大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_张令彬_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/张令彬小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_中将_谭冠三
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_谭冠三"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/谭冠三大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_谭冠三_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/谭冠三小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_中将_谭甫仁
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_谭甫仁"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/谭甫仁大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_谭甫仁_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/谭甫仁小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_中将_赖毅
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_赖毅"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/赖毅大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_赖毅_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/赖毅小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_中将_韩伟
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_韩伟"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/韩伟大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_韩伟_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/韩伟小.dds"
+	}
+	# 红一方面军_红一军团_红四军_秋收起义_中将_郭鹏
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_郭鹏"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/郭鹏大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_秋收起义_中将_郭鹏_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/秋收起义/中将/郭鹏小.dds"
+	}
+
+	# 红一方面军_红一军团_红四军_南昌起义_元帅_陈毅
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_陈毅"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/元帅/陈毅大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_陈毅_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/元帅/陈毅小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_元帅_林彪
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_林彪"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/元帅/林彪大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_林彪_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/元帅/林彪小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_元帅_朱德
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_朱德"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/元帅/朱德大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_元帅_朱德_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/元帅/朱德小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_大将_王尔琢（1928年牺牲）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_大将_王尔琢"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/大将/王尔琢大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_大将_王尔琢_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/大将/王尔琢小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_大将_粟裕
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_大将_粟裕"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/大将/粟裕大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_大将_粟裕_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/大将/粟裕小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_上将_杨志成
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_上将_杨志成"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/上将/杨志成大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_上将_杨志成_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/上将/杨志成小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_上将_赵尔陆
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_上将_赵尔陆"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/上将/赵尔陆大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_上将_赵尔陆_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/上将/赵尔陆小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_中将_聂鹤亭
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_中将_聂鹤亭"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/中将/聂鹤亭大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_中将_聂鹤亭_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/中将/聂鹤亭小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_中将_谭家述
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_中将_谭家述"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/中将/谭家述大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_中将_谭家述_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/中将/谭家述小.dds"
+	}
+	# 红一方面军_红一军团_红四军_南昌起义_中将_谭希林
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_中将_谭希林"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/中将/谭希林大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_南昌起义_中将_谭希林_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/南昌起义/中将/谭希林小.dds"
+	}
+
+	# 红一方面军-红一军团-红四军-湘南起义-上将-陈光（未授衔就逝世了）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_陈光"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/陈光大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_陈光_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/陈光小.dds"
+	}
+	# 红一方面军_红一军团_红四军_湘南起义_上将_邓华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_邓华"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/邓华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_邓华_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/邓华小.dds"
+	}
+	# 红一军团_红四军_湘南起义_上将_肖克
+	spriteType = {
+		name = "GFX_中共_红一军团_红四军_湘南起义_上将_肖克"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/肖克大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一军团_红四军_湘南起义_上将_肖克_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/肖克小.dds"
+	}
+	# 红一方面军_红一军团_红四军_湘南起义_上将_杨得志
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_杨得志"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/杨得志大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_杨得志_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/杨得志小.dds"
+	}
+	# 红一方面军_红一军团_红四军_湘南起义_上将_陈奇涵
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_陈奇涵"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/陈奇涵大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_陈奇涵_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/陈奇涵小.dds"
+	}
+	# 红一方面军_红一军团_红四军_湘南起义_上将_朱良才
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_朱良才"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/朱良才大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_上将_朱良才_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/上将/朱良才小.dds"
+	}
+	# 红一方面军_红一军团_红四军_湘南起义_中将_王紫峰
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_中将_王紫峰"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/中将/王紫峰大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_中将_王紫峰_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/中将/王紫峰小.dds"
+	}
+	# 红一方面军_红一军团_红四军_湘南起义_中将_萧新槐
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_中将_萧新槐"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/中将/萧新槐大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_中将_萧新槐_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/中将/萧新槐小.dds"
+	}
+	# 红一方面军_红一军团_红四军_湘南起义_中将_曹里怀
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_中将_曹里怀"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/中将/曹里怀大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_湘南起义_中将_曹里怀_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/湘南起义/中将/曹里怀小.dds"
+	}
+
+	# 红一方面军_红一军团_红四军_上海中央_元帅_刘伯承
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_刘伯承"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/刘伯承大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_刘伯承_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/刘伯承小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_元帅_聂荣臻
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_聂荣臻"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/聂荣臻大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_聂荣臻_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/聂荣臻小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_元帅_叶剑英
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_叶剑英"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/叶剑英大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_叶剑英_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/叶剑英小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_元帅_周恩来
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_周恩来"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/周恩来大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_元帅_周恩来_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/元帅/周恩来小.dds"
+	}
+	# 红一方面军-红一军团-红四军-上海中央-大将-陈赓
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_大将_陈赓"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/大将/陈赓大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_大将_陈赓_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/大将/陈赓小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_上将_周士第
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_上将_周士第"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/上将/周士第大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_上将_周士第_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/上将/周士第小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_上将_李克农
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_上将_李克农"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/上将/李克农大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_上将_李克农_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/上将/李克农小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_上将_郭天明
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_上将_郭天明"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/上将/郭天明大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_上将_郭天明_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/上将/郭天明小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_中将_朱瑞（1948年牺牲）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_朱瑞"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/朱瑞大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_朱瑞_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/朱瑞小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_中将_庄田
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_庄田"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/庄田大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_庄田_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/庄田小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_中将_倪志亮
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_倪志亮"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/倪志亮大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_倪志亮_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/倪志亮小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_中将_贺诚
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_贺诚"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/贺诚大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_中将_贺诚_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/中将/贺诚小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_其他_林伯渠
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_林伯渠"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/其他/林伯渠大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_林伯渠_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/其他/林伯渠小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_其他_刘少奇
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_刘少奇"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/其他/刘少奇大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_刘少奇_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/其他/刘少奇小.dds"
+	}
+	# 红一方面军_红一军团_红四军_上海中央_其他_杨尚昆
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_杨尚昆"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/其他/杨尚昆大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_上海中央_其他_杨尚昆_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/上海中央/其他/杨尚昆小.dds"
+	}
+
+	# 红一方面军_红一军团_红四军_闽西_大将_罗瑞卿
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_闽西_大将_罗瑞卿"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/闽西/大将/罗瑞卿大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_闽西_大将_罗瑞卿_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/闽西/大将/罗瑞卿小.dds"
+	}
+
+	# 红一方面军_红一军团_红四军_其他_上将_肖华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_肖华"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/肖华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_肖华_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/肖华小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_上将_杨成武
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_杨成武"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/杨成武大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_杨成武_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/杨成武小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_上将_宋任穷
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_宋任穷"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/宋任穷大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_宋任穷_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/宋任穷小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_上将_洪学智
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_洪学智"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/洪学智大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_上将_洪学智_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/上将/洪学智小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_梁兴初
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_梁兴初"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/梁兴初大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_梁兴初_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/梁兴初小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_聂凤智
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_聂凤智"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/聂凤智大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_聂凤智_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/聂凤智小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_欧阳毅
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_欧阳毅"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/欧阳毅大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_欧阳毅_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/欧阳毅小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_饶子健
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_饶子健"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/饶子健大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_饶子健_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/饶子健小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_苏静
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_苏静"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/苏静大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_苏静_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/苏静小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_唐天际
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_唐天际"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/唐天际大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_唐天际_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/唐天际小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_张国华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张国华"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张国华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张国华_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张国华小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_张经武
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张经武"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张经武大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张经武_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张经武小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_张贤约
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张贤约"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张贤约大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张贤约_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张贤约小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_张祖谅
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张祖谅"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张祖谅大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_张祖谅_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/张祖谅小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_赵镕
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_赵镕"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/赵镕大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_赵镕_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/赵镕小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_周彪
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_周彪"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/周彪大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_周彪_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/周彪小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_周赤萍
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_周赤萍"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/周赤萍大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_周赤萍_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/周赤萍小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_王诤
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_王诤"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/王诤大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_王诤_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/王诤小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_王宗槐
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_王宗槐"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/王宗槐大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_王宗槐_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/王宗槐小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_吴富善
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_吴富善"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/吴富善大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_吴富善_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/吴富善小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_萧向荣
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_萧向荣"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/萧向荣大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_萧向荣_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/萧向荣小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_徐立清
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_徐立清"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/徐立清大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_徐立清_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/徐立清小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_徐深吉
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_徐深吉"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/徐深吉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_徐深吉_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/徐深吉小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_杨国夫
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_杨国夫"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/杨国夫大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_杨国夫_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/杨国夫小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_杨梅生
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_杨梅生"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/杨梅生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_杨梅生_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/杨梅生小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_袁升平
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_袁升平"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/袁升平大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_袁升平_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/袁升平小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_袁子钦
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_袁子钦"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/袁子钦大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_袁子钦_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/袁子钦小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_王道邦
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_王道邦"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/王道邦大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_王道邦_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/王道邦小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_孔石泉
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_孔石泉"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/孔石泉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_孔石泉_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/孔石泉小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_邝任农
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_邝任农"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/邝任农大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_邝任农_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/邝任农小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_毕占云
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_毕占云"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/毕占云大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_毕占云_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/毕占云小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_蔡顺礼
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_蔡顺礼"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/蔡顺礼大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_蔡顺礼_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/蔡顺礼小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_曾国华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_曾国华"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/曾国华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_曾国华_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/曾国华小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_常乾坤
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_常乾坤"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/常乾坤大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_常乾坤_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/常乾坤小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_陈庆先
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_陈庆先"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/陈庆先大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_陈庆先_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/陈庆先小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_刘西元
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_刘西元"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/刘西元大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_刘西元_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/刘西元小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_刘兴元
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_刘兴元"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/刘兴元大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_刘兴元_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/刘兴元小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_罗舜初
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_罗舜初"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/罗舜初大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_罗舜初_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/罗舜初小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_邓逸凡
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_邓逸凡"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/邓逸凡大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_邓逸凡_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/邓逸凡小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_郭化若
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_郭化若"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/郭化若大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_郭化若_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/郭化若小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_傅连璋
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_傅连璋"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/傅连璋大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_傅连璋_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/傅连璋小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_康志强
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_康志强"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/康志强大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_康志强_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/康志强小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_李成芳
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_李成芳"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/李成芳大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_李成芳_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/李成芳小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_李天焕
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_李天焕"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/李天焕大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_李天焕_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/李天焕小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_李作鹏
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_李作鹏"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/李作鹏大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_李作鹏_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/李作鹏小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_梁必业
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_梁必业"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/梁必业大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_梁必业_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/梁必业小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_中将_刘浩天
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_刘浩天"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/刘浩天大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_中将_刘浩天_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/中将/刘浩天小.dds"
+	}
+	# 红一方面军_红一军团_红四军_其他_少将_方子翼
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_少将_方子翼"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/少将/方子翼大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红四军_其他_少将_方子翼_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红四军/其他/少将/方子翼小.dds"
+	}
+
+	# 红一方面军_红一军团_红三军_上将_李涛
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_上将_李涛"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/上将/李涛大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_上将_李涛_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/上将/李涛小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_王尚荣
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_王尚荣"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/王尚荣大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_王尚荣_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/王尚荣小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_萧望东
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_萧望东"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/萧望东大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_萧望东_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/萧望东小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_谢有法
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_谢有法"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/谢有法大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_谢有法_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/谢有法小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_周贯五
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_周贯五"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/周贯五大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_周贯五_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/周贯五小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_何德全
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_何德全"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/何德全大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_何德全_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/何德全小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_彭嘉庆
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_彭嘉庆"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/彭嘉庆大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_彭嘉庆_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/彭嘉庆小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_彭明治
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_彭明治"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/彭明治大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_彭明治_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/彭明治小.dds"
+	}
+	# 红一方面军_红一军团_红三军_中将_邱会作
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_邱会作"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/邱会作大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红三军_中将_邱会作_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红三军/中将/邱会作小.dds"
+	}
+
+	# 红一方面军_红一军团_红十二军_大将_左权 （1942年牺牲）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_大将_左权"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/大将/左权大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_大将_左权_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/大将/左权小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_大将_肖劲光
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_大将_肖劲光"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/大将/肖劲光大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_大将_肖劲光_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/大将/肖劲光小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_上将_刘亚楼（空军）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_上将_刘亚楼"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/上将/刘亚楼大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_上将_刘亚楼_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/上将/刘亚楼小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_上将_罗炳辉（1946年脑溢血）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_上将_罗炳辉"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/上将/罗炳辉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_上将_罗炳辉_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/上将/罗炳辉小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_中将_刘忠（海军）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_刘忠"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/刘忠大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_刘忠_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/刘忠小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_中将_罗元发（空军）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_罗元发"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/罗元发大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_罗元发_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/罗元发小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_中将_王辉球
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_王辉球"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/王辉球大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_王辉球_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/王辉球小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_中将_吴法宪
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_吴法宪"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/吴法宪大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_吴法宪_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/吴法宪小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_中将_徐斌洲
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_徐斌洲"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/徐斌洲大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_徐斌洲_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/徐斌洲小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_中将_余立金
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_余立金"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/余立金大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_余立金_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/余立金小.dds"
+	}
+	# 红一方面军_红一军团_红十二军_中将_张南生
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_张南生"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/张南生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红十二军_中将_张南生_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红十二军/中将/张南生小.dds"
+	}
+
+	# 红一方面军-红一军团-红二十二军-中将-曾思玉
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红二十二军_中将_曾思玉"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红二十二军/中将/曾思玉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红二十二军_中将_曾思玉_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红二十二军/中将/曾思玉小.dds"
+	}
+	# 红一方面军_红一军团_红二十二军_中将_陈正湘
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红二十二军_中将_陈正湘"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红二十二军/中将/陈正湘大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红二十二军_中将_陈正湘_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红二十二军/中将/陈正湘小.dds"
+	}
+	# 红一方面军_红一军团_红二十二军_中将_陈仁麒
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红二十二军_中将_陈仁麒"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红二十二军/中将/陈仁麒大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红一军团_红二十二军_中将_陈仁麒_small"
+		texturefile = "gfx/china/中共/红一方面军/红一军团/红二十二军/中将/陈仁麒小.dds"
+	}
+
+	# 红一方面军_红三军团_红五军_元帅_彭德怀
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_元帅_彭德怀"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/元帅/彭德怀大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_元帅_彭德怀_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/元帅/彭德怀小.dds"
+	}
+	# 红一方面军_红三军团_红五军_大将_黄公略
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_大将_黄公略"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/大将/黄公略大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_大将_黄公略_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/大将/黄公略小.dds"
+	}
+	# 红一方面军_红三军团_红五军_大将_黄克诚
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_大将_黄克诚"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/大将/黄克诚大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_大将_黄克诚_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/大将/黄克诚小.dds"
+	}
+	# 红一方面军_红三军团_红五军_大将_李灿（1932牺牲）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_大将_李灿"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/大将/李灿大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_大将_李灿_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/大将/李灿小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_彭绍辉
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_彭绍辉"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/彭绍辉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_彭绍辉_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/彭绍辉小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_彭雪枫(1944牺牲)
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_彭雪枫"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/彭雪枫大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_彭雪枫_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/彭雪枫小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_谢嵩(1938牺牲)
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_谢嵩"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/谢嵩大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_谢嵩_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/谢嵩小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_杨勇
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_杨勇"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/杨勇大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_杨勇_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/杨勇小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_苏振华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_苏振华"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/苏振华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_苏振华_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/苏振华小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_唐亮
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_唐亮"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/唐亮大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_唐亮_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/唐亮小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_周桓
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_周桓"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/周桓大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_周桓_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/周桓小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_李志民
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_李志民"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/李志民大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_李志民_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/李志民小.dds"
+	}
+	# 红一方面军_红三军团_红五军_上将_钟期光
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_钟期光"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/钟期光大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_上将_钟期光_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/上将/钟期光小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_姚喆
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_姚喆"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/姚喆大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_姚喆_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/姚喆小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_张翼翔
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_张翼翔"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/张翼翔大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_张翼翔_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/张翼翔小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_张震
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_张震"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/张震大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_张震_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/张震小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_钟赤兵
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_钟赤兵"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/钟赤兵大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_钟赤兵_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/钟赤兵小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_周玉成
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_周玉成"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/周玉成大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_周玉成_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/周玉成小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_李寿轩
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_李寿轩"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/李寿轩大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_李寿轩_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/李寿轩小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_李雪三
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_李雪三"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/李雪三大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_李雪三_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/李雪三小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_廖容标
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_廖容标"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/廖容标大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_廖容标_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/廖容标小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_刘金轩
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_刘金轩"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/刘金轩大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_刘金轩_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/刘金轩小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_欧阳文
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_欧阳文"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/欧阳文大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_欧阳文_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/欧阳文小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_刘志坚
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_刘志坚"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/刘志坚大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_刘志坚_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/刘志坚小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_刘志坚
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_刘志坚"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/刘志坚大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_刘志坚_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/刘志坚小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_汤平
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_汤平"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/汤平大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_汤平_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/汤平小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_丁秋生
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_丁秋生"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/丁秋生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_丁秋生_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/丁秋生小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_方强
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_方强"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/方强大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_方强_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/方强小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_方正平
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_方正平"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/方正平大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_方正平_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/方正平小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_甘渭汉
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_甘渭汉"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/甘渭汉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_甘渭汉_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/甘渭汉小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_韩振纪
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_韩振纪"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/韩振纪大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_韩振纪_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/韩振纪小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_田维扬
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_田维扬"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/田维扬大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_田维扬_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/田维扬小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_温玉成
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_温玉成"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/温玉成大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_温玉成_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/温玉成小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_吴信泉
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_吴信泉"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/吴信泉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_吴信泉_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/吴信泉小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_匡裕民
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_匡裕民"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/匡裕民大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_匡裕民_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/匡裕民小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_邱创成
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_邱创成"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/邱创成大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_邱创成_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/邱创成小.dds"
+	}
+	# 红一方面军_红三军团_红五军_中将_饶正锡
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_饶正锡"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/饶正锡大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_中将_饶正锡_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/中将/饶正锡小.dds"
+	}
+	# 红一方面军_红三军团_红五军_少将_钟伟
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_少将_钟伟"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/少将/钟伟大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红五军_少将_钟伟_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红五军/少将/钟伟小.dds"
+	}
+
+	# 中共_红一方面军_红三军团_红七军_元帅_邓小平（转政）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_元帅_邓小平"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/元帅/邓小平大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_元帅_邓小平_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/元帅/邓小平小.dds"
+	}
+	# 红一方面军_红三军团_红七军_大将_张云逸
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_大将_张云逸"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/大将/张云逸大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_大将_张云逸_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/大将/张云逸小.dds"
+	}
+	# 红一方面军_红三军团_红七军_上将_李天佑
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_上将_李天佑"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/上将/李天佑大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_上将_李天佑_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/上将/李天佑小.dds"
+	}
+	# 红一方面军_红三军团_红七军_上将_韦国清
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_上将_韦国清"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/上将/韦国清大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_上将_韦国清_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/上将/韦国清小.dds"
+	}
+	# 红一方面军_红三军团_红七军_中将_黄志勇
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_黄志勇"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/黄志勇大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_黄志勇_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/黄志勇小.dds"
+	}
+	# 红一方面军_红三军团_红七军_中将_莫文骅
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_莫文骅"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/莫文骅大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_莫文骅_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/莫文骅小.dds"
+	}
+	# 红一方面军_红三军团_红七军_中将_饶守坤
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_饶守坤"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/饶守坤大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_饶守坤_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/饶守坤小.dds"
+	}
+	# 红一方面军_红三军团_红七军_中将_覃健
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_覃健"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/覃健大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_覃健_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/覃健小.dds"
+	}
+	# 红一方面军_红三军团_红七军_中将_韦杰
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_韦杰"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/韦杰大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_韦杰_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/韦杰小.dds"
+	}
+	# 红一方面军_红三军团_红七军_中将_钟汉华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_钟汉华"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/钟汉华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_中将_钟汉华_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/中将/钟汉华小.dds"
+	}
+	# 红一方面军_红三军团_红七军_少将_谢振华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_少将_谢振华"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/少将/谢振华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_少将_谢振华_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/少将/谢振华小.dds"
+	}
+	# 红一方面军_红三军团_红七军_少将_袁也烈
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_少将_袁也烈"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/少将/袁也烈大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红七军_少将_袁也烈_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红七军/少将/袁也烈小.dds"
+	}
+
+	# 红一方面军_红三军团_红八军_上将_王平
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_王平"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/王平大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_王平_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/王平小.dds"
+	}
+	# 红一方面军_红三军团_红八军_上将_王震
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_王震"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/王震大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_王震_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/王震小.dds"
+	}
+	# 红一方面军_红三军团_红八军_上将_张宗逊
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_张宗逊"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/张宗逊大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_张宗逊_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/张宗逊小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_刘道生
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_刘道生"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/刘道生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_刘道生_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/刘道生小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_刘转连
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_刘转连"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/刘转连大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_刘转连_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/刘转连小.dds"
+	}
+ 	# 红一方面军_红三军团_红八军_中将_唐延杰
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_唐延杰"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/唐延杰大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_唐延杰_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/唐延杰小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_文年生"
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_文年生"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/文年生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_文年生_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/文年生小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_朱辉照"
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_朱辉照"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/朱辉照大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_朱辉照_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/朱辉照小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_陈康"
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_陈康"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/陈康大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_陈康_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/陈康小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_旷伏兆"
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_旷伏兆"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/旷伏兆大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_旷伏兆_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/旷伏兆小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_向仲华"
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_向仲华"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/向仲华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_向仲华_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/向仲华小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_晏福生"
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_晏福生"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/晏福生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_晏福生_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/晏福生小.dds"
+	}
+	# 红一方面军_红三军团_红八军_中将_周仁杰"
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_周仁杰"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/周仁杰大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_中将_周仁杰_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/中将/周仁杰小.dds"
+	}
+	# 红一方面军_红三军团_红八军_上将_李达
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_李达"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/李达大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_上将_李达_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/上将/李达小.dds"
+	}
+	# 红一方面军_红三军团_红八军_少将_段苏权
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_少将_段苏权"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/少将/段苏权大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三军团_红八军_少将_段苏权_small"
+		texturefile = "gfx/china/中共/红一方面军/红三军团/红八军/少将/段苏权小.dds"
+	}
+
+
+	# 红一方面军_红五军团_红十三军_中将_孙毅
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_红十三军_中将_孙毅"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/红十三军/中将/孙毅大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_红十三军_中将_孙毅_small"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/红十三军/中将/孙毅小.dds"
+	}
+	# 红一方面军_红五军团_红十四军_上将_张爱萍
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_红十四军_上将_张爱萍"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/红十四军/上将/张爱萍大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_红十四军_上将_张爱萍_small"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/红十四军/上将/张爱萍小.dds"
+	}
+	# 红一方面军_红五军团_红十五军_少将_苏进
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_红十五军_少将_苏进"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/红十五军/少将/苏进大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_红十五军_少将_苏进_small"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/红十五军/少将/苏进小.dds"
+	}
+	# 红一方面军_红五军团_其他_中将_孙继先（宁都起义）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_其他_中将_孙继先"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/其他/中将/孙继先大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_其他_中将_孙继先_small"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/其他/中将/孙继先小.dds"
+	}
+	# 红一方面军_红五军团_其他_中将_王秉璋（宁都起义）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_其他_中将_王秉璋"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/其他/中将/王秉璋大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红五军团_其他_中将_王秉璋_small"
+		texturefile = "gfx/china/中共/红一方面军/红五军团/其他/中将/王秉璋小.dds"
+	}
+
+	# 红一方面军_红十军_大将_方志敏
+	spriteType = {
+		name = "GFX_中共_红一方面军_红十军_大将_方志敏"
+		texturefile = "gfx/china/中共/红一方面军/红十军/大将/方志敏大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红十军_大将_方志敏_small"
+		texturefile = "gfx/china/中共/红一方面军/红十军/大将/方志敏小.dds"
+	}
+	# 红一方面军_红十军_中将_吴克华
+	spriteType = {
+		name = "GFX_中共_红一方面军_红十军_中将_吴克华"
+		texturefile = "gfx/china/中共/红一方面军/红十军/中将/吴克华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红十军_中将_吴克华_small"
+		texturefile = "gfx/china/中共/红一方面军/红十军/中将/吴克华小.dds"
+	}
+	# 红一方面军_红十军_中将_吴先恩
+	spriteType = {
+		name = "GFX_中共_红一方面军_红十军_中将_吴先恩"
+		texturefile = "gfx/china/中共/红一方面军/红十军/中将/吴先恩大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红十军_中将_吴先恩_small"
+		texturefile = "gfx/china/中共/红一方面军/红十军/中将/吴先恩小.dds"
+	}
+
+	# 红一方面军_红三十五军_上将_程子华（兵团正职转政）
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三十五军_上将_程子华"
+		texturefile = "gfx/china/中共/红一方面军/红三十五军/上将/程子华大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红一方面军_红三十五军_上将_程子华_small"
+		texturefile = "gfx/china/中共/红一方面军/红三十五军/上将/程子华小.dds"
+	}
+
+
+	# 红二方面军_红二军团_红二军_元帅_贺龙
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_元帅_贺龙"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/元帅/贺龙大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_元帅_贺龙_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/元帅/贺龙小.dds"
+	}
+	# 红二方面军_红二军团_红二军_上将_贺炳炎
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_上将_贺炳炎"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/上将/贺炳炎大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_上将_贺炳炎_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/上将/贺炳炎小.dds"
+	}
+	# 红二方面军_红二军团_红二军_中将_廖汉生
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_中将_廖汉生"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/中将/廖汉生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_中将_廖汉生_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/中将/廖汉生小.dds"
+	}
+	# 红二方面军_红二军团_红二军_中将_刘少文
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_中将_刘少文"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/中将/刘少文大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_中将_刘少文_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/中将/刘少文小.dds"
+	}
+	# 红二方面军_红二军团_红二军_中将_顿星云
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_中将_顿星云"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/中将/顿星云大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红二军_中将_顿星云_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红二军/中将/顿星云小.dds"
+	}
+
+	# 红二方面军_红二军团_红六军_大将_段德昌（1933年肃反）
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_大将_段德昌"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/大将/段德昌大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_大将_段德昌_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/大将/段德昌小.dds"
+	}
+	# 红二方面军_红二军团_红六军_大将_许光达
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_大将_许光达"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/大将/许光达大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_大将_许光达_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/大将/许光达小.dds"
+	}
+	# 红二方面军_红二军团_红六军_上将_宋时轮
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_上将_宋时轮"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/上将/宋时轮大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_上将_宋时轮_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/上将/宋时轮小.dds"
+	}
+	# 红二方面军_红二军团_红六军_中将_杜平
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_中将_杜平"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/中将/杜平大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_中将_杜平_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/中将/杜平小.dds"
+	}
+	# 红二方面军_红二军团_红六军_中将_杨秀山
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_中将_杨秀山"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/中将/杨秀山大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_中将_杨秀山_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/中将/杨秀山小.dds"
+	}
+	# 红二方面军_红二军团_红六军_中将_张藩
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_中将_张藩"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/中将/张藩大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红六军_中将_张藩_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红六军/中将/张藩小.dds"
+	}
+	# 红二方面军_红二军团_红三军_中将_成钧
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红三军_中将_成钧"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红三军/中将/成钧大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红二军团_红三军_中将_成钧_small"
+		texturefile = "gfx/china/中共/红二方面军/红二军团/红三军/中将/成钧小.dds"
+	}
+
+
+	# 红二方面军_红六军团_红十六军_上将_傅秋涛
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十六军_上将_傅秋涛"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十六军/上将/傅秋涛大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十六军_上将_傅秋涛_small"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十六军/上将/傅秋涛小.dds"
+	}
+	# 红二方面军_红六军团_红十七军_中将_彭林
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十七军_中将_彭林"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十七军/中将/彭林大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十七军_中将_彭林_small"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十七军/中将/彭林小.dds"
+	}
+	# 红二方面军_红六军团_红十七军_中将_王恩茂
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十七军_中将_王恩茂"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十七军/中将/王恩茂大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十七军_中将_王恩茂_small"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十七军/中将/王恩茂小.dds"
+	}
+	# 红二方面军_红六军团_红十七军_中将_余秋里
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十七军_中将_余秋里"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十七军/中将/余秋里大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十七军_中将_余秋里_small"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十七军/中将/余秋里小.dds"
+	}
+	# 红二方面军_红六军团_红十八军_上将_甘泗淇
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十八军_上将_甘泗淇"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十八军/上将/甘泗淇大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红二方面军_红六军团_红十八军_上将_甘泗淇_small"
+		texturefile = "gfx/china/中共/红二方面军/红六军团/红十八军/上将/甘泗淇小.dds"
+	}
+
+	# 红四方面军_红一军_元帅_徐向前
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_元帅_徐向前"
+		texturefile = "gfx/china/中共/红四方面军/红一军/元帅/徐向前大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_元帅_徐向前_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/元帅/徐向前小.dds"
+	}
+	# 红四方面军_红一军_大将_许继慎
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_大将_许继慎"
+		texturefile = "gfx/china/中共/红四方面军/红一军/大将/许继慎大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_大将_许继慎_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/大将/许继慎小.dds"
+	}
+	# 红四方面军_红一军_大将_王树声
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_大将_王树声"
+		texturefile = "gfx/china/中共/红四方面军/红一军/大将/王树声大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_大将_王树声_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/大将/王树声小.dds"
+	}
+	# 红四方面军_红一军_上将_陈锡联
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_陈锡联"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/陈锡联大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_陈锡联_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/陈锡联小.dds"
+	}
+	# 红四方面军_红一军_上将_陈再道
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_陈再道"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/陈再道大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_陈再道_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/陈再道小.dds"
+	}
+	# 红四方面军_红一军_上将_李先念（政委）
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_李先念"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/李先念大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_李先念_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/李先念小.dds"
+	}
+	# 红四方面军_红一军_上将_王新亭
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_王新亭"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/王新亭大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_王新亭_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/王新亭小.dds"
+	}
+	# 红四方面军_红一军_上将_许世友
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_许世友"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/许世友大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_许世友_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/许世友小.dds"
+	}
+	# 红四方面军_红一军_上将_周纯全
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_周纯全"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/周纯全大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_周纯全_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/周纯全小.dds"
+	}
+	# 红四方面军_红一军_上将_王宏坤
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_王宏坤"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/王宏坤大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_王宏坤_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/王宏坤小.dds"
+	}
+	# 红四方面军_红一军_上将_谢富治
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_谢富治"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/谢富治大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_上将_谢富治_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/上将/谢富治小.dds"
+	}
+	# 红四方面军_红一军_中将_曾绍山
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_曾绍山"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/曾绍山大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_曾绍山_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/曾绍山小.dds"
+	}
+	# 红四方面军_红一军_中将_胡奇才
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_胡奇才"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/胡奇才大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_胡奇才_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/胡奇才小.dds"
+	}
+	# 红四方面军_红一军_中将_秦基伟
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_秦基伟"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/秦基伟大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_秦基伟_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/秦基伟小.dds"
+	}
+	# 红四方面军_红一军_中将_陶勇（海军）
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_陶勇"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/陶勇大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_陶勇_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/陶勇小.dds"
+	}
+	# 红四方面军_红一军_中将_王必成
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_王必成"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/王必成大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_王必成_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/王必成小.dds"
+	}
+	# 红四方面军_红一军_中将_冼恒汉
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_冼恒汉"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/冼恒汉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_冼恒汉_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/冼恒汉小.dds"
+	}
+	# 红四方面军_红一军_中将_詹才芳
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_詹才芳"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/詹才芳大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_詹才芳_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/詹才芳小.dds"
+	}
+	# 红四方面军_红一军_中将_张仁初（红一军一师一团一营一连，战士）
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_张仁初"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/张仁初大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_张仁初_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/张仁初小.dds"
+	}
+	# 红四方面军_红一军_中将_郑维山
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_郑维山"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/郑维山大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_郑维山_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/郑维山小.dds"
+	}
+	# 红四方面军_红一军_中将_周志坚
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_周志坚"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/周志坚大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_周志坚_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/周志坚小.dds"
+	}
+	# 红四方面军_红一军_中将_李耀
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_李耀"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/李耀大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_李耀_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/李耀小.dds"
+	}
+	# 红四方面军_红一军_中将_张才千
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_张才千"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/张才千大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_张才千_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/张才千小.dds"
+	}
+	# 红四方面军_红一军_中将_孔庆德
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_孔庆德"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/孔庆德大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_孔庆德_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/孔庆德小.dds"
+	}
+	# 红四方面军_红一军_中将_皮定均
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_皮定均"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/皮定均大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_皮定均_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/皮定均小.dds"
+	}
+	# 红四方面军_红一军_中将_刘飞
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_刘飞"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/刘飞大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_中将_刘飞_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/中将/刘飞小.dds"
+	}
+	# 红四方面军_红一军_少将_李德生
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_少将_李德生"
+		texturefile = "gfx/china/中共/红四方面军/红一军/少将/李德生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红一军_少将_李德生_small"
+		texturefile = "gfx/china/中共/红四方面军/红一军/少将/李德生小.dds"
+	}
+
+	# 红四方面军_红十五军_大将_蔡申熙
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十五军_大将_蔡申熙"
+		texturefile = "gfx/china/中共/红四方面军/红十五军/大将/蔡申熙大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十五军_大将_蔡申熙_small"
+		texturefile = "gfx/china/中共/红四方面军/红十五军/大将/蔡申熙小.dds"
+	}
+
+	# 红四方面军_红二十五军_大将_徐海东
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_大将_徐海东"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/大将/徐海东大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_大将_徐海东_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/大将/徐海东小.dds"
+	}
+	# 红四方面军_红二十五军_上将_韩先楚
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_上将_韩先楚"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/上将/韩先楚大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_上将_韩先楚_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/上将/韩先楚小.dds"
+	}
+	# 红四方面军_红二十五军_上将_刘震
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_上将_刘震"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/上将/刘震大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_上将_刘震_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/上将/刘震小.dds"
+	}
+	# 红四方面军_红二十五军_中将_张天云
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_张天云"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/张天云大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_张天云_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/张天云小.dds"
+	}
+	# 红四方面军_红二十五军_中将_张池明
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_张池明"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/张池明大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_张池明_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/张池明小.dds"
+	}
+	# 红四方面军_红二十五军_中将_林维先
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_林维先"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/林维先大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_林维先_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/林维先小.dds"
+	}
+	# 红四方面军_红二十五军_中将_梁从学
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_梁从学"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/梁从学大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_梁从学_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/梁从学小.dds"
+	}
+	# 红四方面军_红二十五军_中将_陈先瑞
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_陈先瑞"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/陈先瑞大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_中将_陈先瑞_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/中将/陈先瑞小.dds"
+	}
+	# 红四方面军_红二十五军_少将_刘华清（海军）
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_少将_刘华清"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/少将/刘华清大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红二十五军_少将_刘华清_small"
+		texturefile = "gfx/china/中共/红四方面军/红二十五军/少将/刘华清小.dds"
+	}
+
+	# 红四方面军_上海中央_上将_傅钟
+	spriteType = {
+		name = "GFX_中共_红四方面军_上海中央_上将_傅钟"
+		texturefile = "gfx/china/中共/红四方面军/上海中央/上将/傅钟大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_上海中央_上将_傅钟_small"
+		texturefile = "gfx/china/中共/红四方面军/上海中央/上将/傅钟小.dds"
+	}
+	# 红四方面军_上海中央_其他_曾中生(1935年被肃反)
+	spriteType = {
+		name = "GFX_中共_红四方面军_上海中央_其他_曾中生"
+		texturefile = "gfx/china/中共/红四方面军/上海中央/其他/曾中生大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_上海中央_其他_曾中生_small"
+		texturefile = "gfx/china/中共/红四方面军/上海中央/其他/曾中生小.dds"
+	}
+	# 红四方面军_上海中央_其他_郭述申
+	spriteType = {
+		name = "GFX_中共_红四方面军_上海中央_其他_郭述申"
+		texturefile = "gfx/china/中共/红四方面军/上海中央/其他/郭述申大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_上海中央_其他_郭述申_small"
+		texturefile = "gfx/china/中共/红四方面军/上海中央/其他/郭述申小.dds"
+	}
+
+	# 红四方面军_红四军_中将_滕海清
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_中将_滕海清"
+		texturefile = "gfx/china/中共/红四方面军/红四军/中将/滕海清大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_中将_滕海清_small"
+		texturefile = "gfx/china/中共/红四方面军/红四军/中将/滕海清小.dds"
+	}
+	# 红四方面军_红四军_中将_王近山
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_中将_王近山"
+		texturefile = "gfx/china/中共/红四方面军/红四军/中将/王近山大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_中将_王近山_small"
+		texturefile = "gfx/china/中共/红四方面军/红四军/中将/王近山小.dds"
+	}
+	# 红四方面军_红四军_中将_吴瑞林
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_中将_吴瑞林"
+		texturefile = "gfx/china/中共/红四方面军/红四军/中将/吴瑞林大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_中将_吴瑞林_small"
+		texturefile = "gfx/china/中共/红四方面军/红四军/中将/吴瑞林小.dds"
+	}
+	# 红四方面军_红四军_少将_胡炳云
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_少将_胡炳云"
+		texturefile = "gfx/china/中共/红四方面军/红四军/少将/胡炳云大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红四军_少将_胡炳云_small"
+		texturefile = "gfx/china/中共/红四方面军/红四军/少将/胡炳云小.dds"
+	}
+	# 红四方面军_红九军_中将_周希汉
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_周希汉"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/周希汉大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_周希汉_small"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/周希汉小.dds"
+	}
+	# 红四方面军_红九军_中将_朱明
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_朱明"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/朱明大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_朱明_small"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/朱明小.dds"
+	}
+	# 红四方面军_红九军_中将_黄新亭
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_黄新亭"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/黄新亭大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_黄新亭_small"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/黄新亭小.dds"
+	}
+	# 红四方面军_红九军_中将_刘昌毅
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_刘昌毅"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/刘昌毅大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红九军_中将_刘昌毅_small"
+		texturefile = "gfx/china/中共/红四方面军/红九军/中将/刘昌毅小.dds"
+	}
+
+
+	# 红四方面军_红十一军_中将_杜义德
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_杜义德"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/杜义德大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_杜义德_small"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/杜义德小.dds"
+	}
+	# 红四方面军_红十一军_中将_钱钧
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_钱钧"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/钱钧大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_钱钧_small"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/钱钧小.dds"
+	}
+	# 红四方面军_红十一军_中将_黄火星
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_黄火星"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/黄火星大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_黄火星_small"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/黄火星小.dds"
+	}
+	# 红四方面军_红十一军_中将_范朝利
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_范朝利"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/范朝利大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_范朝利_small"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/范朝利小.dds"
+	}
+	# 红四方面军_红十一军_中将_程世才
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_程世才"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/程世才大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_程世才_small"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/程世才小.dds"
+	}
+	# 红四方面军_红十一军_中将_鲍先志
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_鲍先志"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/鲍先志大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_红四方面军_红十一军_中将_鲍先志_small"
+		texturefile = "gfx/china/中共/红四方面军/红十一军/中将/鲍先志小.dds"
+	}
+
+
+	# 陕北红军_大将_刘志丹
+	spriteType = {
+		name = "GFX_中共_陕北红军_大将_刘志丹"
+		texturefile = "gfx/china/中共/陕北红军/大将/刘志丹大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_大将_刘志丹_small"
+		texturefile = "gfx/china/中共/陕北红军/大将/刘志丹小.dds"
+	}
+	# 陕北红军_大将_高岗
+	spriteType = {
+		name = "GFX_中共_陕北红军_大将_高岗"
+		texturefile = "gfx/china/中共/陕北红军/大将/高岗大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_大将_高岗_small"
+		texturefile = "gfx/china/中共/陕北红军/大将/高岗小.dds"
+	}
+	# 陕北红军_上将_王世泰
+	spriteType = {
+		name = "GFX_中共_陕北红军_上将_王世泰"
+		texturefile = "gfx/china/中共/陕北红军/上将/王世泰大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_上将_王世泰_small"
+		texturefile = "gfx/china/中共/陕北红军/上将/王世泰小.dds"
+	}
+	# 陕北红军_上将_闫红彦
+	spriteType = {
+		name = "GFX_中共_陕北红军_上将_闫红彦"
+		texturefile = "gfx/china/中共/陕北红军/上将/闫红彦大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_上将_闫红彦_small"
+		texturefile = "gfx/china/中共/陕北红军/上将/闫红彦小.dds"
+	}
+	# 陕北红军_中将_赵启明
+	spriteType = {
+		name = "GFX_中共_陕北红军_中将_赵启明"
+		texturefile = "gfx/china/中共/陕北红军/中将/赵启明大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_中将_赵启明_small"
+		texturefile = "gfx/china/中共/陕北红军/中将/赵启明小.dds"
+	}
+	# 陕北红军_中将_张达志
+	spriteType = {
+		name = "GFX_中共_陕北红军_中将_张达志"
+		texturefile = "gfx/china/中共/陕北红军/中将/张达志大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_中将_张达志_small"
+		texturefile = "gfx/china/中共/陕北红军/中将/张达志小.dds"
+	}
+	# 陕北红军_中将_崔田民
+	spriteType = {
+		name = "GFX_中共_陕北红军_中将_崔田民"
+		texturefile = "gfx/china/中共/陕北红军/中将/崔田民大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_中将_崔田民_small"
+		texturefile = "gfx/china/中共/陕北红军/中将/崔田民小.dds"
+	}
+	# 中共_陕北红军_少将_贺晋年
+	spriteType = {
+		name = "GFX_中共_陕北红军_少将_贺晋年"
+		texturefile = "gfx/china/中共/陕北红军/少将/贺晋年大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_陕北红军_少将_贺晋年_small"
+		texturefile = "gfx/china/中共/陕北红军/少将/贺晋年小.dds"
+	}
+
+	# 新四军_元帅_叶挺
+	spriteType = {
+		name = "GFX_中共_新四军_元帅_叶挺"
+		texturefile = "gfx/china/中共/新四军/元帅/叶挺大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新四军_元帅_叶挺_small"
+		texturefile = "gfx/china/中共/新四军/元帅/叶挺小.dds"
+	}
+	# 新四军_上将_叶飞
+	spriteType = {
+		name = "GFX_中共_新四军_上将_叶飞"
+		texturefile = "gfx/china/中共/新四军/上将/叶飞大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新四军_上将_叶飞_small"
+		texturefile = "gfx/china/中共/新四军/上将/叶飞小.dds"
+	}
+	# 新四军_中将_卢胜
+	spriteType = {
+		name = "GFX_中共_新四军_中将_卢胜"
+		texturefile = "gfx/china/中共/新四军/中将/卢胜大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新四军_中将_卢胜_small"
+		texturefile = "gfx/china/中共/新四军/中将/卢胜小.dds"
+	}
+	# 新四军_中将_刘培善
+	spriteType = {
+		name = "GFX_中共_新四军_中将_刘培善"
+		texturefile = "gfx/china/中共/新四军/中将/刘培善大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新四军_中将_刘培善_small"
+		texturefile = "gfx/china/中共/新四军/中将/刘培善小.dds"
+	}
+	# 新四军_中将_刘先胜
+	spriteType = {
+		name = "GFX_中共_新四军_中将_刘先胜"
+		texturefile = "gfx/china/中共/新四军/中将/刘先胜大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新四军_中将_刘先胜_small"
+		texturefile = "gfx/china/中共/新四军/中将/刘先胜小.dds"
+	}
+	# 新四军_少将_黄逸峰
+	spriteType = {
+		name = "GFX_中共_新四军_少将_黄逸峰"
+		texturefile = "gfx/china/中共/新四军/少将/黄逸峰大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新四军_少将_黄逸峰_small"
+		texturefile = "gfx/china/中共/新四军/少将/黄逸峰小.dds"
+	}
+
+	# 新四军_其他_吴运铎
+	spriteType = {
+		name = "GFX_中共_新四军_其他_吴运铎"
+		texturefile = "gfx/china/中共/新四军/其他/吴运铎大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新四军_其他_吴运铎_small"
+		texturefile = "gfx/china/中共/新四军/其他/吴运铎小.dds"
+	}
+
+	# 东北抗联/大将_杨靖宇（1940年牺牲）
+	spriteType = {
+		name = "GFX_中共_东北抗联_大将_杨靖宇"
+		texturefile = "gfx/china/中共/东北抗联/大将/杨靖宇大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_东北抗联_大将_杨靖宇_small"
+		texturefile = "gfx/china/中共/东北抗联/大将/杨靖宇小.dds"
+	}
+	# 东北抗联_上将_赵尚志（1942年牺牲）
+	spriteType = {
+		name = "GFX_中共_东北抗联_上将_赵尚志"
+		texturefile = "gfx/china/中共/东北抗联/上将/赵尚志大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_东北抗联_上将_赵尚志_small"
+		texturefile = "gfx/china/中共/东北抗联/上将/赵尚志小.dds"
+	}
+	# 东北抗联_上将_乌兰夫（1942年牺牲）
+	spriteType = {
+		name = "GFX_中共_东北抗联_上将_乌兰夫"
+		texturefile = "gfx/china/中共/东北抗联/上将/乌兰夫大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_东北抗联_上将_乌兰夫_small"
+		texturefile = "gfx/china/中共/东北抗联/上将/乌兰夫小.dds"
+	}
+
+	# 新疆_中将_赛福鼎·艾则孜
+	spriteType = {
+		name = "GFX_中共_新疆_中将_赛福鼎·艾则孜"
+		texturefile = "gfx/china/中共/新疆/中将/赛福鼎·艾则孜大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_新疆_中将_赛福鼎·艾则孜_small"
+		texturefile = "gfx/china/中共/新疆/中将/赛福鼎·艾则孜小.dds"
+	}
+
+	# 西藏_中将_阿沛阿旺晋美大
+	spriteType = {
+		name = "GFX_中共_西藏_中将_阿沛阿旺晋美大"
+		texturefile = "gfx/china/中共/西藏/中将/阿沛阿旺晋美大大.dds"
+	}
+	spriteType = {
+		name = "GFX_中共_西藏_中将_阿沛阿旺晋美大_small"
+		texturefile = "gfx/china/中共/西藏/中将/阿沛阿旺晋美大小.dds"
+	}
+
+}

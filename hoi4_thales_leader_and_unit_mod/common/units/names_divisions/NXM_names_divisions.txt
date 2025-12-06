@@ -1,0 +1,38 @@
+﻿NXM_INF_01 = {
+  name = "宁夏马家军新编旅"  # Infantry Unit
+  for_countries = {
+    NXM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "infantry"
+  }
+	link_numbering_with = {
+        NXM_INF_01
+	}
+  fallback_name = "宁夏第%d旅"  # %d Ma Juntuán
+  ordered = {
+  }
+}
+
+NXM_CAV_01 = {
+  name = "宁夏马家军骑兵旅"  # Cavalry Unit
+  for_countries = {
+      NXM
+  }
+  can_use = {
+    always = yes
+  }
+  division_types = {
+    "cavalry"
+  }
+	link_numbering_with = {
+        NXM_CAV_01
+	}
+  fallback_name = "宁夏骑兵第%d旅"  # %d Ma Qibing Jun
+  ordered = {
+    
+  }
+}

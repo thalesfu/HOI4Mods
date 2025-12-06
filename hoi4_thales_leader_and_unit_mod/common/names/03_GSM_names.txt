@@ -1,0 +1,19 @@
+NXM = {
+    male = {
+        names = {
+            王	何	李	孙	汪
+            刘	陈	曹	于
+        }
+    }
+    female = {
+        names = {
+            王	何	李	孙	汪
+            刘	陈	曹	于
+        }
+    }
+    surnames = {
+        治岐	藩	日基	铁英	承钊
+        宝堂	国宾	又参	建玙
+    }
+    callsigns = { }
+}
