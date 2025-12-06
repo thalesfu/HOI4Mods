@@ -1,0 +1,43 @@
+spriteTypes = {
+
+    #山东
+    #李汉章
+    spriteType = {
+        name = "GFX_山东_李汉章"
+        texturefile = "gfx/china/山东/李汉章大.dds"
+    }
+    spriteType = {
+        name = "GFX_山东_李汉章小"
+        texturefile = "gfx/china/山东/李汉章小.dds"
+    }
+
+    #展书堂
+    spriteType = {
+        name = "GFX_山东_展书堂"
+        texturefile = "gfx/china/山东/展书堂大.dds"
+    }
+    spriteType = {
+        name = "GFX_山东_展书堂小"
+        texturefile = "gfx/china/山东/展书堂小.dds"
+    }
+
+    #谷良民
+    spriteType = {
+        name = "GFX_山东_谷良民"
+        texturefile = "gfx/china/山东/谷良民大.dds"
+    }
+    spriteType = {
+        name = "GFX_山东_谷良民小"
+        texturefile = "gfx/china/山东/谷良民小.dds"
+    }
+
+    #曹福林
+    spriteType = {
+        name = "GFX_山东_曹福林"
+        texturefile = "gfx/china/山东/曹福林大.dds"
+    }
+    spriteType = {
+        name = "GFX_山东_曹福林小"
+        texturefile = "gfx/china/山东/曹福林小.dds"
+    }
+}

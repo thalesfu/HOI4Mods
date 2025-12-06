@@ -1,0 +1,167 @@
+﻿division_template = {
+    name = "山东3旅6团"  # Sanjiao Jun
+    division_names_group = CHI_INF_01
+    template_counter = 119
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "山东2旅4团"  # Sanjiao Jun
+    division_names_group = CHI_INF_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 20
+        }
+        officer={
+            name="CHI_sun_tongxuan"
+            portraits={
+                army={
+                    large=GFX_portrait_CHI_sun_tongxuan
+                    small=GFX_portrait_CHI_sun_tongxuan_small
+                }
+            }
+            male=yes
+        }
+        location = 1069
+        division_template = "山东3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 74
+        }
+        officer={
+            name="李汉章"
+            portraits={
+                army={
+                    large=GFX_山东_李汉章
+                    small=GFX_山东_李汉章小
+                }
+            }
+            male=yes
+        }
+        location = 1104
+        division_template = "山东2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 81
+        }
+        officer={
+            name="展书堂"
+            portraits={
+                army={
+                    large=GFX_山东_展书堂
+                    small=GFX_山东_展书堂小
+                }
+            }
+            male=yes
+        }
+        location = 4181
+        division_template = "山东2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 22
+        }
+        officer={
+            name="谷良民"
+            portraits={
+                army={
+                    large=GFX_山东_谷良民
+                    small=GFX_山东_谷良民小
+                }
+            }
+            male=yes
+        }
+        location = 4181
+        division_template = "山东2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 29
+        }
+        officer={
+            name="曹福林"
+            portraits={
+                army={
+                    large=GFX_山东_曹福林
+                    small=GFX_山东_曹福林小
+                }
+            }
+            male=yes
+        }
+        location = 4181
+        division_template = "山东2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+}
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = infantry_equipment_0
+            creator = "SND"
+        }
+        requested_factories = 1
+        progress = 0.78
+        efficiency = 100
+    }
+}
