@@ -34,7 +34,7 @@ CHI_INF_01 =
 {
 	name = "国民革命军步兵师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -59,7 +59,7 @@ CHI_INF_NEW_DIVISION_01 =
 {
     name = "国民革命军新编师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -84,7 +84,7 @@ CHI_INF_TEMP_DIVISION_01 =
 {
     name = "国民革命军暂编师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -109,7 +109,7 @@ CHI_INF_PREPARE_DIVISION_01 =
 {
     name = "国民革命军预备师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -134,7 +134,7 @@ CHI_INF_MODEL_DIVISION_01 =
 {
     name = "国民革命军教导师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -159,7 +159,7 @@ CHI_INF_HONOR_DIVISION_01 =
 {
     name = "国民革命军荣誉师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -184,7 +184,7 @@ CHI_INF_GOVEMENT_GUARDS_DIVISION_01 =
 {
     name = "国民革命军政府警卫师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -209,7 +209,7 @@ CHI_INF_BRIGADE_01 =
 {
     name = "国民革命军独立旅"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -234,7 +234,7 @@ CHI_INF_REPLENISH_BRIGADE_01 =
 {
     name = "国民革命军补充旅"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -259,7 +259,7 @@ CHI_INF_NEW_BRIGADE_01 =
 {
     name = "国民革命军新编旅"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -284,7 +284,7 @@ CHI_INF_TEMP_BRIGADE_01 =
 {
     name = "国民革命军暂编旅"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -309,7 +309,7 @@ CHI_CAV_01 =
 {
 	name = "国民革命军骑兵师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -334,7 +334,7 @@ CHI_CAV_NEW_01 =
 {
     name = "国民革命军新编骑兵师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -359,7 +359,7 @@ CHI_CAV_TEMP_01 =
 {
     name = "国民革命军暂编骑兵师"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -384,7 +384,7 @@ CHI_CAV_BRIGADE_01 =
 {
     name = "国民革命军骑兵旅"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -409,7 +409,7 @@ CHI_CAV_NEW_BRIGADE_01 =
 {
     name = "国民革命军新编骑兵旅"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -434,7 +434,7 @@ CHI_CAV_TEMP_BRIGADE_01 =
 {
     name = "国民革命军暂编骑兵旅"
 
-    for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+    for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
     can_use = { always = yes }
 
@@ -459,7 +459,7 @@ CHI_MOT_01 =
 {
 	name = "国民革命军摩托化步兵师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -484,7 +484,7 @@ CHI_MEC_01 =
 {
 	name = "国民革命军机械化步兵师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -509,7 +509,7 @@ CHI_ARM_01 =
 {
 	name = "国民革命军装甲师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -534,7 +534,7 @@ CHI_ARMINF_01 =
 {
 	name = "国民革命军装甲步兵师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -559,7 +559,7 @@ CHI_PAR_01 =
 {
 	name = "国民革命军空降师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -584,7 +584,7 @@ CHI_MAR_01 =
 {
 	name = "国民革命军海军陆战队师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 
@@ -609,7 +609,7 @@ CHI_MNT_01 =
 {
 	name = "国民革命军山地师"
 
-	for_countries = { CHI PRC SHX GXC YUN XSM SIK NXM GSM }
+	for_countries = { CHI GSM HBC NXM PRC SHX SIC SIK SND GXC XIC XSM YUN }
 
 	can_use = { always = yes }
 

@@ -1,4 +1,4 @@
-XSM = {
+GSM = {
 	army = {
 		male = {
             "GFX_甘肃_李贵清小"

@@ -1,0 +1,357 @@
+spriteTypes = {
+    #四川
+    #刘湘
+    spriteType = {
+        name = "GFX_四川_刘湘"
+        texturefile = "gfx/china/四川/GFX_四川_刘湘.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_刘湘_small"
+        texturefile = "gfx/china/四川/GFX_四川_刘湘_small.dds"
+    }
+    #田颂尧
+    spriteType = {
+        name = "GFX_四川_田颂尧"
+        texturefile = "gfx/china/四川/GFX_四川_田颂尧.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_田颂尧_small"
+        texturefile = "gfx/china/四川/GFX_四川_田颂尧_small.dds"
+    }
+    #郭汝栋@杨森
+    spriteType = {
+        name = "GFX_四川_杨森_郭汝栋"
+        texturefile = "gfx/china/四川/GFX_四川_杨森_郭汝栋.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_杨森_郭汝栋_small"
+        texturefile = "gfx/china/四川/GFX_四川_杨森_郭汝栋_small.dds"
+    }
+    #刘文辉
+    spriteType = {
+        name = "GFX_四川_刘文辉"
+        texturefile = "gfx/china/四川/GFX_四川_刘文辉.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_刘文辉_small"
+        texturefile = "gfx/china/四川/GFX_四川_刘文辉_small.dds"
+    }
+    #刘存厚
+    spriteType = {
+        name = "GFX_四川_刘存厚"
+        texturefile = "gfx/china/四川/GFX_四川_刘存厚.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_刘存厚_small"
+        texturefile = "gfx/china/四川/GFX_四川_刘存厚_small.dds"
+    }
+    #罗泽州
+    spriteType = {
+        name = "GFX_四川_罗泽州"
+        texturefile = "gfx/china/四川/GFX_四川_罗泽州.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_罗泽州_small"
+        texturefile = "gfx/china/四川/GFX_四川_罗泽州_small.dds"
+    }
+
+    #邓锡侯
+    spriteType = {
+        name = "GFX_四川_邓锡侯"
+        texturefile = "gfx/china/四川/邓锡侯大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_邓锡侯小"
+        texturefile = "gfx/china/四川/邓锡侯小.dds"
+    }
+    
+    #孙震
+    spriteType = {
+        name = "GFX_四川_孙震"
+        texturefile = "gfx/china/四川/孙震大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_孙震小"
+        texturefile = "gfx/china/四川/孙震小.dds"
+    }
+
+    #唐士遵
+    spriteType = {
+        name = "GFX_四川_唐士遵"
+        texturefile = "gfx/china/四川/唐士遵大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_唐士遵小"
+        texturefile = "gfx/china/四川/唐士遵小.dds"
+    }
+
+    #潘文华
+    spriteType = {
+        name = "GFX_四川_潘文华"
+        texturefile = "gfx/china/四川/潘文华大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_潘文华小"
+        texturefile = "gfx/china/四川/潘文华小.dds"
+    }
+
+    #王缵绪
+    spriteType = {
+        name = "GFX_四川_王缵绪"
+        texturefile = "gfx/china/四川/王缵绪大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_王缵绪小"
+        texturefile = "gfx/china/四川/王缵绪小.dds"
+    }
+
+    #郭汝栋
+    spriteType = {
+        name = "GFX_四川_郭汝栋"
+        texturefile = "gfx/china/四川/郭汝栋大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_郭汝栋小"
+        texturefile = "gfx/china/四川/郭汝栋小.dds"
+    }
+
+    #李家钰
+    spriteType = {
+        name = "GFX_四川_李家钰"
+        texturefile = "gfx/china/四川/李家钰大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_李家钰小"
+        texturefile = "gfx/china/四川/李家钰小.dds"
+    }
+
+    #王铭章
+    spriteType = {
+        name = "GFX_四川_王铭章"
+        texturefile = "gfx/china/四川/王铭章大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_王铭章小"
+        texturefile = "gfx/china/四川/王铭章小.dds"
+    }
+
+    #曾宪栋
+    spriteType = {
+        name = "GFX_四川_曾宪栋"
+        texturefile = "gfx/china/四川/曾宪栋大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_曾宪栋小"
+        texturefile = "gfx/china/四川/曾宪栋小.dds"
+    }
+
+    #陈鼎勋
+    spriteType = {
+        name = "GFX_四川_陈鼎勋"
+        texturefile = "gfx/china/四川/陈鼎勋大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_陈鼎勋小"
+        texturefile = "gfx/china/四川/陈鼎勋小.dds"
+    }
+
+    #黄隐
+    spriteType = {
+        name = "GFX_四川_黄隐"
+        texturefile = "gfx/china/四川/黄隐大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_黄隐小"
+        texturefile = "gfx/china/四川/黄隐小.dds"
+    }
+
+    #马毓智
+    spriteType = {
+        name = "GFX_四川_马毓智"
+        texturefile = "gfx/china/四川/马毓智大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_马毓智小"
+        texturefile = "gfx/china/四川/马毓智小.dds"
+    }
+
+    #陈离
+    spriteType = {
+        name = "GFX_四川_陈离"
+        texturefile = "gfx/china/四川/陈离大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_陈离小"
+        texturefile = "gfx/china/四川/陈离小.dds"
+    }
+
+    #杨汉域
+    spriteType = {
+        name = "GFX_四川_杨汉域"
+        texturefile = "gfx/china/四川/杨汉域大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_杨汉域小"
+        texturefile = "gfx/china/四川/杨汉域小.dds"
+    }
+
+    #夏炯
+    spriteType = {
+        name = "GFX_四川_夏炯"
+        texturefile = "gfx/china/四川/夏炯大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_夏炯小"
+        texturefile = "gfx/china/四川/夏炯小.dds"
+    }
+
+    #杨汉忠
+    spriteType = {
+        name = "GFX_四川_杨汉忠"
+        texturefile = "gfx/china/四川/杨汉忠大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_杨汉忠小"
+        texturefile = "gfx/china/四川/杨汉忠小.dds"
+    }
+
+    #陈光藻
+    spriteType = {
+        name = "GFX_四川_陈光藻"
+        texturefile = "gfx/china/四川/陈光藻大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_陈光藻小"
+        texturefile = "gfx/china/四川/陈光藻小.dds"
+    }
+
+    #刘元瑭
+    spriteType = {
+        name = "GFX_四川_刘元瑭"
+        texturefile = "gfx/china/四川/刘元瑭大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_刘元瑭小"
+        texturefile = "gfx/china/四川/刘元瑭小.dds"
+    }
+
+    #唐英
+    spriteType = {
+        name = "GFX_四川_唐英"
+        texturefile = "gfx/china/四川/唐英大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_唐英小"
+        texturefile = "gfx/china/四川/唐英小.dds"
+    }
+
+    #郭勋祺
+    spriteType = {
+        name = "GFX_四川_郭勋祺"
+        texturefile = "gfx/china/四川/郭勋祺大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_郭勋祺小"
+        texturefile = "gfx/china/四川/郭勋祺小.dds"
+    }
+
+    #饶国华
+    spriteType = {
+        name = "GFX_四川_饶国华"
+        texturefile = "gfx/china/四川/饶国华大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_饶国华小"
+        texturefile = "gfx/china/四川/饶国华小.dds"
+    }
+
+    #范绍增
+    spriteType = {
+        name = "GFX_四川_范绍增"
+        texturefile = "gfx/china/四川/范绍增大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_范绍增小"
+        texturefile = "gfx/china/四川/范绍增小.dds"
+    }
+
+    #杨国桢
+    spriteType = {
+        name = "GFX_四川_杨国桢"
+        texturefile = "gfx/china/四川/杨国桢大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_杨国桢小"
+        texturefile = "gfx/china/四川/杨国桢小.dds"
+    }
+
+    #陈万仞
+    spriteType = {
+        name = "GFX_四川_陈万仞"
+        texturefile = "gfx/china/四川/陈万仞大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_陈万仞小"
+        texturefile = "gfx/china/四川/陈万仞小.dds"
+    }
+
+    #郭昌明
+    spriteType = {
+        name = "GFX_四川_郭昌明"
+        texturefile = "gfx/china/四川/郭昌明大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_郭昌明小"
+        texturefile = "gfx/china/四川/郭昌明小.dds"
+    }
+
+    #廖震
+    spriteType = {
+        name = "GFX_四川_廖震"
+        texturefile = "gfx/china/四川/廖震大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_廖震小"
+        texturefile = "gfx/china/四川/廖震小.dds"
+    }
+
+    #许绍宗
+    spriteType = {
+        name = "GFX_四川_许绍宗"
+        texturefile = "gfx/china/四川/许绍宗大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_许绍宗小"
+        texturefile = "gfx/china/四川/许绍宗小.dds"
+    }
+
+    #彭诚孚
+    spriteType = {
+        name = "GFX_四川_彭诚孚"
+        texturefile = "gfx/china/四川/彭诚孚大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_彭诚孚小"
+        texturefile = "gfx/china/四川/彭诚孚小.dds"
+    }
+
+    #陈兰亭
+    spriteType = {
+        name = "GFX_四川_陈兰亭"
+        texturefile = "gfx/china/四川/陈兰亭大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_陈兰亭小"
+        texturefile = "gfx/china/四川/陈兰亭小.dds"
+    }
+
+    #张邦本
+    spriteType = {
+        name = "GFX_四川_张邦本"
+        texturefile = "gfx/china/四川/张邦本大.dds"
+    }
+    spriteType = {
+        name = "GFX_四川_张邦本小"
+        texturefile = "gfx/china/四川/张邦本小.dds"
+    }
+}

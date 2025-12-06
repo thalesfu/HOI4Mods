@@ -1,4 +1,4 @@
-XSM = {
+XIC = {
 	army = {
 		male = {
             "GFX_东北_张学良_于学忠_牟中珩_small"

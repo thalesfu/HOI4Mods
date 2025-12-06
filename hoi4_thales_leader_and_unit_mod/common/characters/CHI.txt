@@ -556,24 +556,7 @@ characters = {
 	# OLD GENERALS #
 	################
 
-	CHI_gu_zhutong={
-		name=CHI_gu_zhutong
-		portraits={
-			army={
-				large="GFX_portrait_chi_gu_zhutong"
-				small="GFX_idea_CHI_gu_zhutong"
-			}
-		}
-		corps_commander={
-			traits={ career_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
+
 
 	CHI_fu_zuoyi={
 		name=CHI_fu_zuoyi

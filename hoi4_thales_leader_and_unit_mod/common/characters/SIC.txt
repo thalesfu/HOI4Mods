@@ -1,0 +1,204 @@
+characters = {
+
+    # _____  _       _
+    #|   __||_| ___ | |_  _ _  ___  ___
+    #|__   || ||  _||   || | || .'||   |
+    #|_____||_||___||_|_||___||__,||_|_|
+    #
+
+    SIC_liu_xiang = {
+        name=SIC_liu_xiang
+        portraits={
+            army={
+                large= GFX_portrait_SIC_liu_xiang
+                small= GFX_portrait_SIC_liu_xiang_small
+            }
+        }
+
+        field_marshal={
+            skill=3
+            traits = { harsh_leader brave }
+            attack_skill=3
+            defense_skill=3
+            planning_skill=3
+            logistics_skill=2
+            legacy_id=-1
+        }
+
+        country_leader={
+            ideology=despotism
+            traits = { SIC_reckless_commander }
+            expire="1965.1.1.1"
+            id=-1
+        }
+    }
+
+    SIC_yang_sen = {
+        name=SIC_yang_sen
+        portraits={
+            army={
+                large= GFX_portrait_SIC_yang_sen
+                small= GFX_portrait_SIC_yang_sen_military_small
+            }
+            civilian = {
+                small = GFX_portrait_SIC_yang_sen_civilian_small
+            }
+        }
+
+        corps_commander={
+            traits = { organizer }
+            skill=1
+            attack_skill=2
+            defense_skill=2
+            planning_skill=2
+            logistics_skill=2
+            legacy_id=-1
+        }
+
+        country_leader={
+            ideology=despotism
+            expire="1965.1.1.1"
+            id=-1
+        }
+    }
+
+    SIC_liu_wenhui = {
+        name=SIC_liu_wenhui
+        portraits={
+            army={
+                large = GFX_portrait_SIC_liu_wenhui
+                small = GFX_portrait_SIC_liu_wenhui_small
+            }
+        }
+
+        corps_commander={
+            traits = { harsh_leader SIC_dubious_loyalty brave }
+            skill=1
+            attack_skill=3
+            defense_skill=1
+            planning_skill=1
+            logistics_skill=2
+            legacy_id=-1
+        }
+    }
+
+    SIC_邓锡侯 = {
+        name="邓锡侯"
+        portraits={
+            army={
+                large = GFX_四川_邓锡侯
+                small = GFX_四川_邓锡侯小
+            }
+        }
+
+        corps_commander={
+            traits = { harsh_leader SIC_dubious_loyalty brave }
+            skill=1
+            attack_skill=2
+            defense_skill=2
+            planning_skill=2
+            logistics_skill=2
+            legacy_id=-1
+        }
+    }
+
+    SIC_孙震 = {
+        name="孙震"
+        portraits={
+            army={
+                large = GFX_四川_孙震
+                small = GFX_四川_孙震小
+            }
+        }
+
+        corps_commander={
+            traits = { harsh_leader SIC_dubious_loyalty brave }
+            skill=1
+            attack_skill=2
+            defense_skill=2
+            planning_skill=2
+            logistics_skill=2
+            legacy_id=-1
+        }
+    }
+
+    SIC_唐士遵 = {
+        name="唐士遵"
+        portraits={
+            army={
+                large = GFX_四川_唐士遵
+                small = GFX_四川_唐士遵小
+            }
+        }
+
+        corps_commander={
+            traits = { harsh_leader SIC_dubious_loyalty brave }
+            skill=1
+            attack_skill=2
+            defense_skill=2
+            planning_skill=2
+            logistics_skill=2
+            legacy_id=-1
+        }
+    }
+
+    SIC_潘文华 = {
+        name="潘文华"
+        portraits={
+            army={
+                large = GFX_四川_潘文华
+                small = GFX_四川_潘文华小
+            }
+        }
+
+        corps_commander={
+            traits = { harsh_leader SIC_dubious_loyalty brave }
+            skill=1
+            attack_skill=2
+            defense_skill=2
+            planning_skill=2
+            logistics_skill=2
+            legacy_id=-1
+        }
+    }
+
+    SIC_王缵绪 = {
+        name="王缵绪"
+        portraits={
+            army={
+                large = GFX_四川_王缵绪
+                small = GFX_四川_王缵绪小
+            }
+        }
+
+        corps_commander={
+            traits = { harsh_leader SIC_dubious_loyalty brave }
+            skill=1
+            attack_skill=2
+            defense_skill=2
+            planning_skill=2
+            logistics_skill=2
+            legacy_id=-1
+        }
+    }
+
+    CHI_gu_zhutong={
+        name=CHI_gu_zhutong
+        portraits={
+            army={
+                large="GFX_portrait_chi_gu_zhutong"
+                small="GFX_idea_CHI_gu_zhutong"
+            }
+        }
+        corps_commander={
+            traits={ career_officer }
+            skill=2
+            attack_skill=3
+            defense_skill=3
+            planning_skill=2
+            logistics_skill=2
+            legacy_id=-1
+        }
+    }
+}
+

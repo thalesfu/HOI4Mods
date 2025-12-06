@@ -1,0 +1,921 @@
+﻿division_template = {
+    name = "川军3旅10团"
+    division_names_group = CHI_INF_01
+    template_counter = 119
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 2
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+        infantry = {
+            x = 2
+            y = 2
+        }
+        infantry = {
+            x = 0
+            y = 3
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "川军3旅6团"
+    division_names_group = CHI_INF_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+
+division_template = {
+    name = "川军2旅6团"
+    division_names_group = CHI_INF_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 2
+            y = 1
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "川军2旅5团"
+    division_names_group = CHI_INF_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+    }
+}
+
+division_template = {
+    name = "川军2旅4团"
+    division_names_group = CHI_INF_01
+    template_counter = 118
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+    }
+}
+
+division_template = {
+    name = "模范师3旅7团"
+    division_names_group = SIC_INF_MODEL_DIVISION_02
+    template_counter = 119
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "教导师3旅6团"
+    division_names_group = SIC_INF_MODEL_DIVISION_01
+    template_counter = 119
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+
+division_template = {
+    name = "四川陆军师3旅6团"
+    division_names_group = SIC_INF_01
+    template_counter = 119
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+    }
+    support = {
+        artillery = {
+            x = 0
+            y = 0
+        }
+    }
+}
+division_template = {
+    name = "四川陆军暂编师4旅8团"
+    division_names_group = SIC_INF_TEMP_DIVISION_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 0
+            y = 2
+        }
+        infantry = {
+            x = 1
+            y = 2
+        }
+        infantry = {
+            x = 0
+            y = 3
+        }
+        infantry = {
+            x = 1
+            y = 3
+        }
+        infantry = {
+            x = 0
+            y = 4
+        }
+        infantry = {
+            x = 1
+            y = 4
+        }
+    }
+}
+division_template = {
+    name = "四川陆军暂编师2旅6团"
+    division_names_group = SIC_INF_TEMP_DIVISION_01
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 2
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+        infantry = {
+            x = 2
+            y = 1
+        }
+    }
+}
+division_template = {
+    name = "四川陆军暂编师2旅4团"
+    division_names_group = SIC_INF_TEMP_DIVISION_01
+    template_counter = 118
+    regiments = {
+        infantry = {
+            x = 0
+            y = 0
+        }
+        infantry = {
+            x = 1
+            y = 0
+        }
+        infantry = {
+            x = 0
+            y = 1
+        }
+        infantry = {
+            x = 1
+            y = 1
+        }
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 26
+        }
+        officer={
+            name="郭汝栋"
+            portraits={
+                army={
+                    large=GFX_四川_郭汝栋
+                    small=GFX_四川_郭汝栋小
+                }
+            }
+            male=yes
+        }
+        location = 11972
+        division_template = "川军2旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 104
+        }
+        officer={
+            name="李家钰"
+            portraits={
+                army={
+                    large=GFX_四川_李家钰
+                    small=GFX_四川_李家钰小
+                }
+            }
+            male=yes
+        }
+        location = 11972
+        division_template = "川军3旅10团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 122
+        }
+        officer={
+            name="王铭章"
+            portraits={
+                army={
+                    large=GFX_四川_王铭章
+                    small=GFX_四川_王铭章小
+                }
+            }
+            male=yes
+        }
+        location = 4375
+        division_template = "川军3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+
+        division_name = {
+            is_name_ordered = yes
+            name_order = 123
+        }
+        officer={
+            name="曾宪栋"
+            portraits={
+                army={
+                    large=GFX_四川_曾宪栋
+                    small=GFX_四川_曾宪栋小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "川军2旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 124
+        }
+        officer={
+            name="孙震"
+            portraits={
+                army={
+                    large=GFX_四川_孙震
+                    small=GFX_四川_孙震小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "川军3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 125
+        }
+        officer={
+            name="陈鼎勋"
+            portraits={
+                army={
+                    large=GFX_四川_陈鼎勋
+                    small=GFX_四川_陈鼎勋小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "川军2旅5团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 126
+        }
+        officer={
+            name="黄隐"
+            portraits={
+                army={
+                    large=GFX_四川_黄隐
+                    small=GFX_四川_黄隐小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "川军2旅5团"  # Juntuán
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 127
+        }
+        officer={
+            name="马毓智"
+            portraits={
+                army={
+                    large=GFX_四川_马毓智
+                    small=GFX_四川_马毓智小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "川军2旅4团"  # Juntuán
+        start_equipment_factor = 0.1
+    }
+    division = {
+
+        division_name = {
+            is_name_ordered = yes
+            name_order = 128
+        }
+        officer={
+            name="邓锡侯"
+            portraits={
+                army={
+                    large=GFX_四川_邓锡侯
+                    small=GFX_四川_邓锡侯小
+                }
+            }
+            male=yes
+        }
+        location = 4925
+        division_template = "川军2旅4团"  # Juntuán
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 131
+        }
+        officer={
+            name="陈离"
+            portraits={
+                army={
+                    large=GFX_四川_陈离
+                    small=GFX_四川_陈离小
+                }
+            }
+            male=yes
+        }
+        location = 1367
+        division_template = "川军2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 133
+        }
+        officer={
+            name="杨汉域"
+            portraits={
+                army={
+                    large=GFX_四川_杨汉域
+                    small=GFX_四川_杨汉域小
+                }
+            }
+            male=yes
+        }
+        location = 7948
+        division_template = "川军3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+
+        division_name = {
+            is_name_ordered = yes
+            name_order = 134
+        }
+        officer={
+            name="夏炯"
+            portraits={
+                army={
+                    large=GFX_四川_夏炯
+                    small=GFX_四川_夏炯小
+                }
+            }
+            male=yes
+        }
+        location = 7948
+        division_template = "川军2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 135
+        }
+        officer={
+            name="杨汉忠"
+            portraits={
+                army={
+                    large=GFX_四川_杨汉忠
+                    small=GFX_四川_杨汉忠小
+                }
+            }
+            male=yes
+        }
+        location = 7948
+        division_template = "川军2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 136
+        }
+        officer={
+            name="陈光藻"
+            portraits={
+                army={
+                    large=GFX_四川_陈光藻
+                    small=GFX_四川_陈光藻小
+                }
+            }
+            male=yes
+        }
+        location = 4999
+        division_template = "川军2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 137
+        }
+        officer={
+            name="刘元瑭"
+            portraits={
+                army={
+                    large=GFX_四川_刘元瑭
+                    small=GFX_四川_刘元瑭小
+                }
+            }
+            male=yes
+        }
+        location = 4999
+        division_template = "川军2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 138
+        }
+        officer={
+            name="唐英"
+            portraits={
+                army={
+                    large=GFX_四川_唐英
+                    small=GFX_四川_唐英小
+                }
+            }
+            male=yes
+        }
+        location = 12724
+        division_template = "川军2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        officer={
+            name="郭勋祺"
+            portraits={
+                army={
+                    large=GFX_四川_郭勋祺
+                    small=GFX_四川_郭勋祺小
+                }
+            }
+            male=yes
+        }
+        location = 4925
+        division_template = "模范师3旅7团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        officer={
+            name="饶国华"
+            portraits={
+                army={
+                    large=GFX_四川_饶国华
+                    small=GFX_四川_饶国华小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "四川陆军师3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
+        officer={
+            name="范绍增"
+            portraits={
+                army={
+                    large=GFX_四川_范绍增
+                    small=GFX_四川_范绍增小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "四川陆军师3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        officer={
+            name="杨国桢"
+            portraits={
+                army={
+                    large=GFX_四川_杨国桢
+                    small=GFX_四川_杨国桢小
+                }
+            }
+            male=yes
+        }
+        location = 4925
+        division_template = "教导师3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+        officer={
+            name="陈万仞"
+            portraits={
+                army={
+                    large=GFX_四川_陈万仞
+                    small=GFX_四川_陈万仞小
+                }
+            }
+            male=yes
+        }
+        location = 12141
+        division_template = "四川陆军师3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        officer={
+            name="郭昌明"
+            portraits={
+                army={
+                    large=GFX_四川_郭昌明
+                    small=GFX_四川_郭昌明小
+                }
+            }
+            male=yes
+        }
+        location = 12141
+        division_template = "四川陆军师3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        officer={
+            name="廖震"
+            portraits={
+                army={
+                    large=GFX_四川_廖震
+                    small=GFX_四川_廖震小
+                }
+            }
+            male=yes
+        }
+        location = 1367
+        division_template = "四川陆军师3旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        officer={
+            name="许绍宗"
+            portraits={
+                army={
+                    large=GFX_四川_许绍宗
+                    small=GFX_四川_许绍宗小
+                }
+            }
+            male=yes
+        }
+        location = 1367
+        division_template = "四川陆军暂编师4旅8团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        officer={
+            name="彭诚孚"
+            portraits={
+                army={
+                    large=GFX_四川_彭诚孚
+                    small=GFX_四川_彭诚孚小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "四川陆军暂编师2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        officer={
+            name="陈兰亭"
+            portraits={
+                army={
+                    large=GFX_四川_陈兰亭
+                    small=GFX_四川_陈兰亭小
+                }
+            }
+            male=yes
+        }
+        location = 12141
+        division_template = "四川陆军暂编师2旅4团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
+        officer={
+            name="张邦本"
+            portraits={
+                army={
+                    large=GFX_四川_张邦本
+                    small=GFX_四川_张邦本小
+                }
+            }
+            male=yes
+        }
+        location = 6999
+        division_template = "四川陆军暂编师2旅6团"  # Sanjiao Jun
+        start_equipment_factor = 0.1
+    }
+}
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = infantry_equipment_0
+            creator = "SHX"
+        }
+        requested_factories = 1
+        progress = 0.78
+        efficiency = 100
+    }
+}
