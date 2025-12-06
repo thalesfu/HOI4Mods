@@ -99,6 +99,7 @@ characters={
 			cost = 100
 		}
 		corps_commander = {
+			traits={ skilled_staffer expert_delegator  }
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
@@ -316,7 +317,7 @@ characters={
 			}
 		}
 		corps_commander = {
-		    traits={ war_hero brave }
+		    traits={ war_hero brave inflexible_strategist}
 			skill = 0
 			attack_skill = 2
 			defense_skill = 2
